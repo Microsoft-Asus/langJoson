@@ -12,7 +12,15 @@ const json2xls = require('json2xls');
   //fileName
   const fileJson = {};
   //輸出
-  const langs = {};
+  const mapJson = {};
+
+  const jsonFileRegex = new RegExp(`\/([a-z]+)\/([a-z\-]{2,})\/([a-z]+)\.json$`, 'i');
+  const jsonFilesPath = walkFilesSync(path.resolve('.', 'i18n'), (fname, dirname) => {
+    const fullpath = path.join(dirname, fname);
+    return /\.json$/.test(fullpath);
+  });
+  //以資料當作Key 取出重複的資料
+  const langValue = {};
 
   //組合不重複的語系資料夾名字,做第一階段的過濾,取出全部的語系
   i18nDirPath.forEach((dirpath, id) => {
@@ -33,17 +41,9 @@ const json2xls = require('json2xls');
     });
   });
 
-  console.log('i18nDirPath:', i18nDirPath);
-  console.log('langList:', langList);
+  // console.log('i18nDirPath:', i18nDirPath);
+  // console.log('langList:', langList);
   // console.log(JSON.stringify(fileJson));
-
-  const jsonFileRegex = new RegExp(`\/([a-z]+)\/([a-z\-]{2,})\/([a-z]+)\.json$`, 'i');
-  const jsonFilesPath = walkFilesSync(path.resolve('.', 'i18n'), (fname, dirname) => {
-    const fullpath = path.join(dirname, fname);
-
-    return /\.json$/.test(fullpath);
-  });
-
   // console.log(jsonFilesPath[0]);
 
   jsonFilesPath.forEach((jfPath) => {
@@ -62,14 +62,47 @@ const json2xls = require('json2xls');
         fileJson[dirpath][fileString] = fileJson[dirpath][fileString] === true ? {} : fileJson[dirpath][fileString];
         fileJson[dirpath][fileString][k] = true;
 
-        langs[`${dirpath}.${fileString}.${k}`] = langs[`${dirpath}.${fileString}.${k}`] || {};
-        langs[`${dirpath}.${fileString}.${k}`][lang] = flatData[k];
+        mapJson[`${dirpath}.${fileString}.${k}`] = mapJson[`${dirpath}.${fileString}.${k}`] || {};
+        mapJson[`${dirpath}.${fileString}.${k}`][lang] = flatData[k];
       });
     }
   });
 
+  const xlsjson = [];
+
+  Object.keys(mapJson).forEach((key) => {
+    langList.forEach((lang) => {
+      mapJson[key][lang] = mapJson[key][lang] || '';
+    });
+
+    langValue[JSON.stringify(mapJson[key])] = langValue[JSON.stringify(mapJson[key])] || [];
+    langValue[JSON.stringify(mapJson[key])].push(xlsjson.length);
+
+    xlsjson.push({ key, ...mapJson[key], id: xlsjson.length });
+  });
+  //重複內容
+  const repeatValue = Object.values(langValue).filter((it) => {
+    return it.length > 1;
+  });
+
+  const repeatMap = repeatValue.map((it) => {
+    const repeatArray = [];
+    it.forEach((langIndex) => {
+      repeatArray.push(xlsjson[langIndex]);
+      xlsjson[langIndex] = null;
+    });
+
+    return repeatArray;
+  });
+  repeatMap.forEach((it) => it.forEach((langValue) => xlsjson.push(langValue)));
+
+  const xls = json2xls(xlsjson.filter((it) => it !== null));
+  fs.writeFileSync('langXls.xlsx', xls, 'binary');
+
   fs.writeFile('fileJson.json', JSON.stringify(fileJson), function (err) {});
-  fs.writeFile('langs.json', JSON.stringify(langs), function (err) {});
+  fs.writeFile('mapJson.json', JSON.stringify(mapJson), function (err) {});
+  fs.writeFile('langXls.json', JSON.stringify(xlsjson.filter((it) => it !== null)), function (err) {});
+  fs.writeFile('repeatMap.json', JSON.stringify(repeatMap), function (err) {});
 }
 
 function walkFilesSync(dirname, filter = undefined) {

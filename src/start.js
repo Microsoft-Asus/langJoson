@@ -89,7 +89,7 @@ const workbook = new Excel.Workbook();
   const repeatValue = Object.values(langValue).filter((it) => {
     return it.length > 1;
   });
-
+  //重複內容的Map,將重複的內容抓出去 原本位置先清空
   const repeatMap = repeatValue.map((it) => {
     const repeatArray = [];
     it.forEach((langIndex) => {
@@ -99,11 +99,14 @@ const workbook = new Excel.Workbook();
 
     return repeatArray;
   });
+  //將重複內容塞到陣列最後面
   repeatMap.forEach((it) => it.forEach((langValue) => xlsjson.push(langValue)));
 
   const count = 0;
+  //空出來的位置過濾掉
   const xlsJsonFilter = xlsjson.filter((it) => it !== null);
   const xls = json2xls(xlsJsonFilter);
+  //原始XLSX
   fs.writeFileSync('langXls.xlsx', xls, 'binary');
 
   fs.writeFile('fileJson.json', JSON.stringify(fileJson), function (err) {});
@@ -111,7 +114,7 @@ const workbook = new Excel.Workbook();
   fs.writeFile('langXls.json', JSON.stringify(xlsJsonFilter), function (err) {});
   fs.writeFile('repeatMap.json', JSON.stringify(repeatMap), function (err) {});
 
-  //Excels
+  //產出有合併欄位的 Excels
   const worksheet = workbook.addWorksheet('MySheet');
   const excelColumn = Object.keys(xlsJsonFilter[0]).map((it) => {
     return { header: it, key: it };

@@ -126,13 +126,6 @@ const workbook = new Excel.Workbook();
     const letter = String('bcdefghijklmnopqrstuvwxyz').toUpperCase();
 
     [...letter].slice(0, langList.length).forEach((key) => {
-      console.log(
-        rowsIndex,
-        '/',
-        repeat.length,
-        '///',
-        `${key}${rowsIndex + 2}:${key}${rowsIndex + repeat.length - 1 + 2}`,
-      );
       worksheet.mergeCells(`${key}${rowsIndex + 2}:${key}${rowsIndex + repeat.length - 1 + 2}`);
     });
   });
@@ -145,7 +138,7 @@ const workbook = new Excel.Workbook();
         // console.log(this);
       },
       function (err) {
-        console.log(err);
+        // console.log(err);
       },
     );
   })();

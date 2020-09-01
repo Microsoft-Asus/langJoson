@@ -130,8 +130,6 @@ const workbook = new Excel.Workbook();
     });
   });
 
-  // worksheet.mergeCells(`B1161:B1162`);
-  // worksheet.mergeCells(`C14:C15`);
   (async function () {
     return await workbook.xlsx.writeFile('Excel.xlsx').then(
       async () => {

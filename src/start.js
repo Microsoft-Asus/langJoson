@@ -1,8 +1,13 @@
 const path = require('path');
 const fs = require('fs');
+//hson2xls
 const json2xls = require('json2xls');
 
-{
+//Excel JS
+const Excel = require('exceljs');
+const workbook = new Excel.Workbook();
+
+(function () {
   //資料夾名字 backstage ,frontstage
   const i18nDirPath = fs.readdirSync(path.resolve('.', 'i18n'));
   //en, zh-cn, zh-tw
@@ -96,14 +101,55 @@ const json2xls = require('json2xls');
   });
   repeatMap.forEach((it) => it.forEach((langValue) => xlsjson.push(langValue)));
 
-  const xls = json2xls(xlsjson.filter((it) => it !== null));
+  const count = 0;
+  const xlsJsonFilter = xlsjson.filter((it) => it !== null);
+  const xls = json2xls(xlsJsonFilter);
   fs.writeFileSync('langXls.xlsx', xls, 'binary');
 
   fs.writeFile('fileJson.json', JSON.stringify(fileJson), function (err) {});
   fs.writeFile('mapJson.json', JSON.stringify(mapJson), function (err) {});
-  fs.writeFile('langXls.json', JSON.stringify(xlsjson.filter((it) => it !== null)), function (err) {});
+  fs.writeFile('langXls.json', JSON.stringify(xlsJsonFilter), function (err) {});
   fs.writeFile('repeatMap.json', JSON.stringify(repeatMap), function (err) {});
-}
+
+  //Excels
+  const worksheet = workbook.addWorksheet('MySheet');
+  const excelColumn = Object.keys(xlsJsonFilter[0]).map((it) => {
+    return { header: it, key: it };
+  });
+  worksheet.columns = excelColumn;
+  worksheet.addRows(xlsJsonFilter);
+  repeatValue.forEach((repeat) => {
+    const rowsIndex = xlsJsonFilter.findIndex((it) => {
+      return it.id === repeat[0];
+    });
+
+    const letter = String('bcdefghijklmnopqrstuvwxyz').toUpperCase();
+
+    [...letter].slice(0, langList.length).forEach((key) => {
+      console.log(
+        rowsIndex,
+        '/',
+        repeat.length,
+        '///',
+        `${key}${rowsIndex + 2}:${key}${rowsIndex + repeat.length - 1 + 2}`,
+      );
+      worksheet.mergeCells(`${key}${rowsIndex + 2}:${key}${rowsIndex + repeat.length - 1 + 2}`);
+    });
+  });
+
+  // worksheet.mergeCells(`B1161:B1162`);
+  // worksheet.mergeCells(`C14:C15`);
+  (async function () {
+    return await workbook.xlsx.writeFile('Excel.xlsx').then(
+      async () => {
+        // console.log(this);
+      },
+      function (err) {
+        console.log(err);
+      },
+    );
+  })();
+})();
 
 function walkFilesSync(dirname, filter = undefined) {
   try {

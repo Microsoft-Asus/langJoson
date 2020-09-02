@@ -12,10 +12,7 @@ const workbook = new Excel.Workbook();
   const i18nDirPath = fs.readdirSync(path.resolve('.', 'i18n'));
   //en, zh-cn, zh-tw
   const langList = [];
-  const objLang = {};
 
-  //fileName
-  const fileJson = {};
   //輸出
   const mapJson = {};
 
@@ -25,30 +22,19 @@ const workbook = new Excel.Workbook();
     return /\.json$/.test(fullpath);
   });
   //以資料當作Key 取出重複的資料
-  const langValue = {};
-  const langZhTw = {};
-  //組合不重複的語系資料夾名字,做第一階段的過濾,取出全部的語系
+  const repeatAll = {};
+  const repeatZhTw = {};
+  //組合不重複的語系資料夾名字,做第一階段的過濾,取出全部的語系結構
   i18nDirPath.forEach((dirpath, id) => {
     fs.readdirSync(path.resolve('.', 'i18n', dirpath)).forEach((pathname) => {
-      if (!objLang[pathname]) {
-        objLang[pathname] = true;
+      if (langList.indexOf(pathname) < 0) {
         langList.push(pathname);
       }
-
-      fileJson[dirpath] = fileJson[dirpath] || {};
-
-      fs.readdirSync(path.resolve('.', 'i18n', dirpath, pathname)).forEach((filepath) => {
-        const fileString = filepath.replace('.json', '');
-        if (!fileJson[dirpath][fileString]) {
-          fileJson[dirpath][fileString] = true;
-        }
-      });
     });
   });
 
   // console.log('i18nDirPath:', i18nDirPath);
   // console.log('langList:', langList);
-  // console.log(JSON.stringify(fileJson));
   // console.log(jsonFilesPath[0]);
 
   jsonFilesPath.forEach((jfPath) => {
@@ -64,9 +50,6 @@ const workbook = new Excel.Workbook();
       const flatData = flattenObject(data);
 
       Object.keys(flatData).forEach((k) => {
-        fileJson[dirpath][fileString] = fileJson[dirpath][fileString] === true ? {} : fileJson[dirpath][fileString];
-        fileJson[dirpath][fileString][k] = true;
-
         mapJson[`${dirpath}.${fileString}.${k}`] = mapJson[`${dirpath}.${fileString}.${k}`] || {};
         mapJson[`${dirpath}.${fileString}.${k}`][lang] = flatData[k];
       });
@@ -83,22 +66,22 @@ const workbook = new Excel.Workbook();
     //id to key map表
     xlsJsonID2Key[xlsjson.length] = key;
     //過濾重複ZH-TW 紀錄id
-    langZhTw[JSON.stringify(mapJson[key]['zh-tw'])] = langZhTw[JSON.stringify(mapJson[key]['zh-tw'])] || [];
-    langZhTw[JSON.stringify(mapJson[key]['zh-tw'])].push(xlsjson.length);
+    repeatZhTw[JSON.stringify(mapJson[key]['zh-tw'])] = repeatZhTw[JSON.stringify(mapJson[key]['zh-tw'])] || [];
+    repeatZhTw[JSON.stringify(mapJson[key]['zh-tw'])].push(xlsjson.length);
 
     //過濾全部重語系內容 紀錄id
-    langValue[JSON.stringify(mapJson[key])] = langValue[JSON.stringify(mapJson[key])] || [];
-    langValue[JSON.stringify(mapJson[key])].push(xlsjson.length);
+    repeatAll[JSON.stringify(mapJson[key])] = repeatAll[JSON.stringify(mapJson[key])] || [];
+    repeatAll[JSON.stringify(mapJson[key])].push(xlsjson.length);
 
     xlsjson.push({ key, ...mapJson[key], id: xlsjson.length });
   });
   //過濾出全部的重複內容
-  const repeatValue = Object.values(langValue).filter((it) => {
+  const repeatValue = Object.values(repeatAll).filter((it) => {
     return it.length > 1;
   });
   //針對ZH-TW的過濾
   const repeatZhTwValue = [];
-  for (const [key, value] of Object.entries(langZhTw)) {
+  for (const [key, value] of Object.entries(repeatZhTw)) {
     if (value.length > 1) {
       repeatZhTwValue.push({
         key: key,
@@ -130,11 +113,10 @@ const workbook = new Excel.Workbook();
   //原始XLSX
   fs.writeFileSync('langXls.xlsx', xls, 'binary');
   //檢查輸出的JSON是不是自己要的
-  // fs.writeFile('fileJson.json', JSON.stringify(fileJson), function (err) {});
   fs.writeFile('mapJson.json', JSON.stringify(mapJson, null, 4), function (err) {});
   fs.writeFile('langXls.json', JSON.stringify(xlsJsonFilter, null, 4), function (err) {});
   fs.writeFile('repeatMap.json', JSON.stringify(repeatMap, null, 4), function (err) {});
-  fs.writeFile('langZhTw.json', JSON.stringify(repeatZhTwValue, null, 4), function (err) {});
+  fs.writeFile('repeatZhTw.json', JSON.stringify(repeatZhTwValue, null, 4), function (err) {});
 
   //產出有合併欄位的 Excels
   const worksheet = workbook.addWorksheet('MySheet');

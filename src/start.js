@@ -114,11 +114,11 @@ const workbook = new Excel.Workbook();
   //原始XLSX
   fs.writeFileSync('langXls.xlsx', xls, 'binary');
   //檢查輸出的JSON是不是自己要的
-  fs.writeFile('mapJson.json', JSON.stringify(mapJson, null, 4), function (err) {});
-  fs.writeFile('langXls.json', JSON.stringify(xlsJsonFilter, null, 4), function (err) {});
-  fs.writeFile('repeatMap.json', JSON.stringify(repeatMap, null, 4), function (err) {});
-  fs.writeFile('repeatZhTw.json', JSON.stringify(repeatZhTwValue, null, 4), function (err) {});
-  fs.writeFile('enumID2Key.json', JSON.stringify(enumID2Key, null, 4), function (err) {});
+  fs.writeFile('mapJson.json', JSON.stringify(mapJson, null, 4), errorHandler);
+  fs.writeFile('langXls.json', JSON.stringify(xlsJsonFilter, null, 4), errorHandler);
+  fs.writeFile('repeatMap.json', JSON.stringify(repeatMap, null, 4), errorHandler);
+  fs.writeFile('repeatZhTw.json', JSON.stringify(repeatZhTwValue, null, 4), errorHandler);
+  fs.writeFile('enumID2Key.json', JSON.stringify(enumID2Key, null, 4), errorHandler);
 
   //產出有合併欄位的 Excels
   const worksheet = workbook.addWorksheet('MySheet');
@@ -140,14 +140,9 @@ const workbook = new Excel.Workbook();
   });
 
   (async function () {
-    return await workbook.xlsx.writeFile('Excel.xlsx').then(
-      async () => {
-        // console.log(this);
-      },
-      function (err) {
-        // console.log(err);
-      },
-    );
+    return await workbook.xlsx.writeFile('Inspection.xlsx').then(async () => {
+      // console.log(this);
+    }, errorHandler);
   })();
 })();
 
@@ -201,4 +196,11 @@ function flattenObject(ob) {
     }
   }
   return toReturn;
+}
+
+function errorHandler(err) {
+  if (err) {
+    console.log(err);
+    throw err;
+  }
 }

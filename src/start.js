@@ -58,13 +58,14 @@ const workbook = new Excel.Workbook();
   //xls json組合用
   const xlsjson = [];
   //id : key 的map表
-  const xlsJsonID2Key = {};
+  const enumID2Key = {};
   Object.keys(mapJson).forEach((key) => {
     langList.forEach((lang) => {
       mapJson[key][lang] = mapJson[key][lang] || '';
     });
     //id to key map表
-    xlsJsonID2Key[xlsjson.length] = key;
+    enumID2Key[xlsjson.length] = key;
+    enumID2Key[key] = xlsjson.length;
     //過濾重複ZH-TW 紀錄id
     repeatZhTw[JSON.stringify(mapJson[key]['zh-tw'])] = repeatZhTw[JSON.stringify(mapJson[key]['zh-tw'])] || [];
     repeatZhTw[JSON.stringify(mapJson[key]['zh-tw'])].push(xlsjson.length);
@@ -87,7 +88,7 @@ const workbook = new Excel.Workbook();
         key: key,
         repeatid: value,
         repeatkey: value.map((id) => {
-          return xlsJsonID2Key[id];
+          return enumID2Key[id];
         }),
       });
     }
@@ -117,6 +118,7 @@ const workbook = new Excel.Workbook();
   fs.writeFile('langXls.json', JSON.stringify(xlsJsonFilter, null, 4), function (err) {});
   fs.writeFile('repeatMap.json', JSON.stringify(repeatMap, null, 4), function (err) {});
   fs.writeFile('repeatZhTw.json', JSON.stringify(repeatZhTwValue, null, 4), function (err) {});
+  fs.writeFile('enumID2Key.json', JSON.stringify(enumID2Key, null, 4), function (err) {});
 
   //產出有合併欄位的 Excels
   const worksheet = workbook.addWorksheet('MySheet');

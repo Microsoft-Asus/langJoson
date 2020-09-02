@@ -7,6 +7,8 @@ const json2xls = require('json2xls');
 const Excel = require('exceljs');
 const workbook = new Excel.Workbook();
 
+const readExcel = require('./readExcel.js');
+
 (function () {
   //資料夾名字 backstage ,frontstage
   const i18nDirPath = fs.readdirSync(path.resolve('.', 'i18n'));
@@ -114,6 +116,8 @@ const workbook = new Excel.Workbook();
   //原始XLSX
   fs.writeFileSync('langXls.xlsx', xls, 'binary');
   //檢查輸出的JSON是不是自己要的
+  fs.writeFile('dirPath.json', JSON.stringify(i18nDirPath, null, 4), errorHandler);
+  fs.writeFile('langList.json', JSON.stringify(langList, null, 4), errorHandler);
   fs.writeFile('mapJson.json', JSON.stringify(mapJson, null, 4), errorHandler);
   fs.writeFile('langXls.json', JSON.stringify(xlsJsonFilter, null, 4), errorHandler);
   fs.writeFile('repeatMap.json', JSON.stringify(repeatMap, null, 4), errorHandler);
@@ -142,6 +146,8 @@ const workbook = new Excel.Workbook();
   (async function () {
     return await workbook.xlsx.writeFile('Inspection.xlsx').then(async () => {
       // console.log(this);
+      /** 讀取檢查 */
+      readExcel();
     }, errorHandler);
   })();
 })();

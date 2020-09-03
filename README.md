@@ -16,6 +16,6 @@ start.js 主程式
 
 readExcel.js 拿來讀取 Excel 輸出 i18n 的 -->可以另外複製出去獨立專案使用
 
-├── 讀取 start.js 產生的 dirPath.json.json /langList.json 拿來當作設定檔
+├── 讀取 start.js 產生的 dirPath.json /langList.json 拿來當作設定檔
 
 └── 產生 output folder

@@ -1,9 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-//hson2xls
-const json2xls = require('json2xls');
-
 //Excel JS
 const Excel = require('exceljs');
 

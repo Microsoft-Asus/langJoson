@@ -1,0 +1,19 @@
+{
+  "column": {
+    "AgentCreatedTime": "Created Time",
+    "AgentIdentityName": "Identity",
+    "Balance": "Balance",
+    "MemberAccount": "Account",
+    "ParentMemberAccount": "Parent",
+    "AgentLink": {
+      "CreatedTime": "Created time"
+    },
+    "RegisterCount": "Registered number"
+  },
+  "common": {
+    "memberNotExist": "The member you are trying to access does not exist"
+  },
+  "betRecord": {
+    "pickGameCategory": "Game Category"
+  }
+}

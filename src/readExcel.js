@@ -9,22 +9,17 @@ const Excel = require('exceljs');
 
 module.exports = function () {
   console.log('readExcelJS');
-  const enumIDKey = JSON.parse(fs.readFileSync('enumID2Key.json', 'utf8'));
+
   const dirPath = JSON.parse(fs.readFileSync('dirPath.json', 'utf8'));
   const langList = JSON.parse(fs.readFileSync('langList.json', 'utf8'));
-  const i18nKeyList = Object.keys(enumIDKey).filter((key) => {
-    const FileRegex = new RegExp('^[0-9]+$', 'i');
-    return !FileRegex.test(key);
-  });
+
   /** 預先輸出資料夾 */
   const oupputPath = path.resolve('.', 'output');
-  const oupputDir = is_dir(oupputPath);
-  if (!oupputDir) {
+  if (!is_dir(oupputPath)) {
     fs.mkdirSync(oupputPath);
   }
   const i18nPath = path.resolve('.', 'output', 'i18n');
-  const i18nDir = is_dir(i18nPath);
-  if (!i18nDir) {
+  if (!is_dir(i18nPath)) {
     fs.mkdirSync(i18nPath);
   }
   createDir(dirPath, ['.', 'output', 'i18n']);
@@ -38,18 +33,57 @@ module.exports = function () {
     function () {
       //Get sheet by Name
       const worksheet = workbook.getWorksheet('MySheet');
-      const langXls = [];
+      const langXls = []; //寫檔以後可以跟讀取輸出的langXls.json做交互確認
+      const outputJson = {}; //輸出的整理
       worksheet.eachRow({ includeEmpty: true }, function (row, rowNumber) {
         // console.log('Row ' + rowNumber + ' = ' + JSON.stringify(row.values));
-        const currRow = worksheet.getRow(rowNumber);
-        const rowjson = {};
-        rowjson.key = row.values[1];
-        langList.forEach((key, index) => {
-          rowjson[key] = currRow.getCell(index + 2).value;
-        });
+        if (rowNumber > 1) {
+          const currRow = worksheet.getRow(rowNumber);
 
-        rowjson.id = currRow.getCell(worksheet.columnCount).value;
-        langXls.push(rowjson);
+          const rowjson = {};
+          rowjson.key = row.values[1];
+          langList.forEach((key, index) => {
+            rowjson[key] = currRow.getCell(index + 2).value;
+
+            const pathList = row.values[1].split('.');
+
+            const filePath = JSON.stringify(['.', 'output', 'i18n', pathList[0], key, pathList[1] + '.json']);
+            const arr = pathList.slice(2, pathList.length);
+            const func = function (ar, obj) {
+              const k = ar.shift();
+
+              if (ar.length > 0) {
+                obj[k] = obj[k] || {};
+                func(ar, obj[k]);
+              } else {
+                obj[k] = rowjson[key];
+              }
+            };
+            outputJson[key] = outputJson[key] || {};
+            outputJson[key][filePath] = outputJson[key][filePath] || {};
+            func(arr, outputJson[key][filePath]);
+          });
+
+          rowjson.id = currRow.getCell(worksheet.columnCount).value;
+          langXls.push(rowjson);
+        }
+      });
+
+      // console.log(outputJson['zh-tw']['[".","output","i18n","frontstage","zh-tw","agent.json"]']);
+      Object.keys(outputJson).forEach((langkey) => {
+        Object.keys(outputJson[langkey]).forEach((writePath) => {
+          const resolvePath = JSON.parse(writePath);
+          const fileName = resolvePath[resolvePath.length - 1];
+          if (fileName === 'undefined.json') {
+            return;
+          }
+
+          fs.writeFile(
+            path.resolve(...resolvePath),
+            JSON.stringify(outputJson[langkey][writePath], null, 4),
+            errorHandler,
+          );
+        });
       });
     },
     function (err) {
@@ -78,6 +112,17 @@ function is_dir(path) {
 }
 
 function is_file(path) {
-  const stats = fs.statSync(path);
-  return stats.isFile();
+  try {
+    const stats = fs.statSync(path);
+    return stats.isFile();
+  } catch (err) {
+    return false;
+  }
+}
+
+function errorHandler(err) {
+  if (err) {
+    console.log(err);
+    throw err;
+  }
 }

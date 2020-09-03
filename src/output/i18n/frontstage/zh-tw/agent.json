@@ -1,0 +1,19 @@
+{
+  "column": {
+    "MemberAccount": "用戶名",
+    "AgentIdentityName": "身份",
+    "ParentMemberAccount": "所屬上級",
+    "Balance": "錢包餘額",
+    "AgentCreatedTime": "開戶時間",
+    "AgentLink": {
+      "CreatedTime": "生成時間"
+    },
+    "RegisterCount": "註冊人數"
+  },
+  "common": {
+    "memberNotExist": "你嘗試訪問的會員不存在"
+  },
+  "betRecord": {
+    "pickGameCategory": "遊戲分類"
+  }
+}

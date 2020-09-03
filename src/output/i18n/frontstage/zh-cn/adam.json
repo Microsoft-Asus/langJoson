@@ -1,0 +1,17 @@
+{
+  "AdamESportHomeBlock": {
+    "title": "{0} 电竞"
+  },
+  "AdamPokerHomeBlock": {
+    "title": "{0} 棋牌"
+  },
+  "AdamSportHomeBlock": {
+    "title": "{0} 体育"
+  },
+  "AdamLiveHomeBlock": {
+    "title": "{0} 真人视讯"
+  },
+  "AdamLotteryHomeBlock": {
+    "title": "{0} 彩票"
+  }
+}

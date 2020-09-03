@@ -168,7 +168,8 @@
     "column": {
       "CreatedTime": "CreatedTime",
       "DiffBalance": "Transaction amount",
-      "TransNumber": "No."
+      "TransNumber": "No.",
+      "AfterBalance": "After Balance"
     }
   },
   "changeRecordType": {

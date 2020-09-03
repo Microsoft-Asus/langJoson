@@ -1164,6 +1164,21 @@
         "zh-cn": "新增成功",
         "zh-tw": "新增成功"
     },
+    "backstage.common.item": {
+        "en": "Item",
+        "zh-cn": "项目",
+        "zh-tw": "項目"
+    },
+    "backstage.common.setting": {
+        "en": "Setting",
+        "zh-cn": "設定",
+        "zh-tw": "設定"
+    },
+    "backstage.common.move": {
+        "en": "Move",
+        "zh-cn": "移动",
+        "zh-tw": "移動"
+    },
     "backstage.deal.ParentDeposit": {
         "en": "Parent deposit",
         "zh-cn": "上级充值",
@@ -2728,6 +2743,81 @@
         "en": "Add child agent account",
         "zh-cn": "新增直属代理",
         "zh-tw": "新增直屬代理"
+    },
+    "backstage.organizationTreeSearch.contractList": {
+        "en": "Contract list",
+        "zh-cn": "合约清单",
+        "zh-tw": "合約清單"
+    },
+    "backstage.organizationTreeSearch.gameCategory": {
+        "en": "Game category",
+        "zh-cn": "游戏类别",
+        "zh-tw": "遊戲類別"
+    },
+    "backstage.organizationTreeSearch.gamePlatform": {
+        "en": "Game platform",
+        "zh-cn": "游戏接口",
+        "zh-tw": "遊戲接口"
+    },
+    "backstage.organizationTreeSearch.defaultPassword": {
+        "en": "Default password is aa123456",
+        "zh-cn": "预设密码：aa123456",
+        "zh-tw": "預設密碼： aa123456"
+    },
+    "backstage.organizationTreeSearch.resetContract": {
+        "en": "Reset contract",
+        "zh-cn": "重置契约",
+        "zh-tw": "重置契約"
+    },
+    "backstage.organizationTreeSearch.willRestContract": {
+        "en": "All related contract will be reset",
+        "zh-cn": "下线的契约将会全部重置",
+        "zh-tw": "下線的契約將會全部重置"
+    },
+    "backstage.organizationTreeSearch.sameLevelTransform": {
+        "en": "Same level transform",
+        "zh-cn": "平级转移",
+        "zh-tw": "平級轉移"
+    },
+    "backstage.organizationTreeSearch.transformUpperLevel": {
+        "en": "Transform upper level",
+        "zh-cn": "转移上一级",
+        "zh-tw": "轉移上一級"
+    },
+    "backstage.organizationTreeSearch.isAlreadyTheTop": {
+        "en": "Is already the top",
+        "zh-cn": "已经是最上层",
+        "zh-tw": "已經是最上層"
+    },
+    "backstage.organizationTreeSearch.levelOne": {
+        "en": "Level one",
+        "zh-cn": "第一层",
+        "zh-tw": "第一層"
+    },
+    "backstage.organizationTreeSearch.chooseTargetAccount": {
+        "en": "Choose target account",
+        "zh-cn": "选择转移账号",
+        "zh-tw": "選擇轉移帳號"
+    },
+    "backstage.organizationTreeSearch.chooseTransformMethod": {
+        "en": "Choose transform method",
+        "zh-cn": "选择转移方法",
+        "zh-tw": "選擇轉移方法"
+    },
+    "backstage.organizationTreeSearch.chooseTarget": {
+        "en": "Choose target",
+        "zh-cn": "选择转移位置",
+        "zh-tw": "選擇轉移位置"
+    },
+    "backstage.organizationTreeSearch.willMoveNode": {
+        "en": "Will move node",
+        "zh-cn": "将会移动节点",
+        "zh-tw": "將會移動節點"
+    },
+    "backstage.organizationTreeSearch.mayAffectAccounting": {
+        "en": "It may affect accounting",
+        "zh-cn": "这可能会影响账务",
+        "zh-tw": "這可能會影響帳務"
     },
     "backstage.permission.View": {
         "en": "View",
@@ -4449,6 +4539,11 @@
         "zh-cn": "在 {0} 平台赢得",
         "zh-tw": "在 {0} 平台赢得"
     },
+    "frontstage.alex.AlexHomePage.leaderboard": {
+        "en": "LEADERBOARD",
+        "zh-cn": "排行榜",
+        "zh-tw": "排行榜"
+    },
     "frontstage.api.code.100": {
         "en": "This account already exists",
         "zh-cn": "会员帐号存在",
@@ -5378,6 +5473,31 @@
         "en": "Team betting",
         "zh-cn": "团队投注",
         "zh-tw": "團隊投注"
+    },
+    "frontstage.menu.AgentTxChangeRecord": {
+        "en": "Tx change",
+        "zh-cn": "团队帐变",
+        "zh-tw": "團隊帳變"
+    },
+    "frontstage.menu.AgentTxDepositRecord": {
+        "en": "Team deposit",
+        "zh-cn": "团队入款",
+        "zh-tw": "團隊入款"
+    },
+    "frontstage.menu.AgentTxRecord": {
+        "en": "Tx record",
+        "zh-cn": "交易纪录",
+        "zh-tw": "交易紀錄"
+    },
+    "frontstage.menu.AgentTxTransferRecord": {
+        "en": "Team transfer",
+        "zh-cn": "团队转帐",
+        "zh-tw": "團隊轉帳"
+    },
+    "frontstage.menu.AgentTxWithdrawalRecord": {
+        "en": "Team withdrawal",
+        "zh-cn": "团队提款",
+        "zh-tw": "團隊提款"
     },
     "frontstage.messages.register.success": {
         "en": "registration success",
@@ -6543,6 +6663,11 @@
         "en": "No.",
         "zh-cn": "单号",
         "zh-tw": "單號"
+    },
+    "frontstage.user.changeRecord.column.AfterBalance": {
+        "en": "After Balance",
+        "zh-cn": "交易余额",
+        "zh-tw": "交易餘額"
     },
     "frontstage.user.changeRecordType.CenterToPg": {
         "en": "[Center] to [PG]",

@@ -173,7 +173,8 @@
         "column": {
             "CreatedTime": "变动日期",
             "DiffBalance": "交易金额",
-            "TransNumber": "单号"
+            "TransNumber": "单号",
+            "AfterBalance": "交易余额"
         }
     },
     "changeRecordType": {

@@ -1,5 +1,20 @@
 {
     "translateLevel": "轉移層級",
     "agentLevel": "代理層級",
-    "addChildAgentAccount": "新增直屬代理"
+    "addChildAgentAccount": "新增直屬代理",
+    "contractList": "合約清單",
+    "gameCategory": "遊戲類別",
+    "gamePlatform": "遊戲接口",
+    "defaultPassword": "預設密碼： aa123456",
+    "resetContract": "重置契約",
+    "willRestContract": "下線的契約將會全部重置",
+    "sameLevelTransform": "平級轉移",
+    "transformUpperLevel": "轉移上一級",
+    "isAlreadyTheTop": "已經是最上層",
+    "levelOne": "第一層",
+    "chooseTargetAccount": "選擇轉移帳號",
+    "chooseTransformMethod": "選擇轉移方法",
+    "chooseTarget": "選擇轉移位置",
+    "willMoveNode": "將會移動節點",
+    "mayAffectAccounting": "這可能會影響帳務"
 }

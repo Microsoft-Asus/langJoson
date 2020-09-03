@@ -192,5 +192,8 @@
   "maxNumberRange": "最大数字为2147483647",
   "minNumberRange": "最小数字为 -2147483648",
   "maxAndMinNumberRange": "数字范围必需是 -2147483648 ~ 2147483647",
-  "addSucceed": "新增成功"
+  "addSucceed": "新增成功",
+  "item": "项目",
+  "setting": "設定",
+  "move": "移动"
 }

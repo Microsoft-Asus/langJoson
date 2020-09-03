@@ -1,5 +1,20 @@
 {
     "translateLevel": "Translate level",
     "agentLevel": "Agent level",
-    "addChildAgentAccount": "Add child agent account"
+    "addChildAgentAccount": "Add child agent account",
+    "contractList": "Contract list",
+    "gameCategory": "Game category",
+    "gamePlatform": "Game platform",
+    "defaultPassword": "Default password is aa123456",
+    "resetContract": "Reset contract",
+    "willRestContract": "All related contract will be reset",
+    "sameLevelTransform": "Same level transform",
+    "transformUpperLevel": "Transform upper level",
+    "isAlreadyTheTop": "Is already the top",
+    "levelOne": "Level one",
+    "chooseTargetAccount": "Choose target account",
+    "chooseTransformMethod": "Choose transform method",
+    "chooseTarget": "Choose target",
+    "willMoveNode": "Will move node",
+    "mayAffectAccounting": "It may affect accounting"
 }

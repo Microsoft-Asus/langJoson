@@ -34,5 +34,10 @@
   "AgentDashboard": "Team overview",
   "AgentStructure": "Team management",
   "AgentContracts": "Contracts",
-  "AgentBetRecord": "Team betting"
+  "AgentBetRecord": "Team betting",
+  "AgentTxChangeRecord": "Tx change",
+  "AgentTxDepositRecord": "Team deposit",
+  "AgentTxRecord": "Tx record",
+  "AgentTxTransferRecord": "Team transfer",
+  "AgentTxWithdrawalRecord": "Team withdrawal"
 }

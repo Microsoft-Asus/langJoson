@@ -34,5 +34,10 @@
   "UserChangeRecord": "賬變紀錄",
   "AgentStructure": "團隊管理",
   "AgentContracts": "契約管理",
-  "AgentBetRecord": "團隊投注"
+  "AgentBetRecord": "團隊投注",
+  "AgentTxRecord": "交易紀錄",
+  "AgentTxChangeRecord": "團隊帳變",
+  "AgentTxTransferRecord": "團隊轉帳",
+  "AgentTxDepositRecord": "團隊入款",
+  "AgentTxWithdrawalRecord": "團隊提款"
 }

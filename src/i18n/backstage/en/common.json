@@ -189,5 +189,8 @@
   "maxNumberRange": "Max number is 2147483647",
   "minNumberRange": "Min number is -2147483648",
   "maxAndMinNumberRange": "Number range must is -2147483648 ~ 2147483647",
-  "addSucceed": "Added successfully"
+  "addSucceed": "Added successfully",
+  "item": "Item",
+  "setting": "Setting",
+  "move": "Move"
 }

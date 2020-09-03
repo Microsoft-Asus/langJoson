@@ -34,5 +34,10 @@
   "AgentDashboard": "团队总览",
   "AgentStructure": "团队管理",
   "AgentContracts": "契约管理",
-  "AgentBetRecord": "团队投注"
+  "AgentBetRecord": "团队投注",
+  "AgentTxChangeRecord": "团队帐变",
+  "AgentTxDepositRecord": "团队入款",
+  "AgentTxRecord": "交易纪录",
+  "AgentTxTransferRecord": "团队转帐",
+  "AgentTxWithdrawalRecord": "团队提款"
 }

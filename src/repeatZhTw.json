@@ -37,7 +37,7 @@
         "repeatid": [
             33,
             1189,
-            1195
+            1196
         ],
         "repeatkey": [
             "backstage.agent.settleMiniQuarter",
@@ -50,7 +50,7 @@
         "repeatid": [
             34,
             1188,
-            1194
+            1195
         ],
         "repeatkey": [
             "backstage.agent.settleMiniMonth",
@@ -63,7 +63,7 @@
         "repeatid": [
             35,
             1187,
-            1193
+            1194
         ],
         "repeatkey": [
             "backstage.agent.settleMiniHalfMonth",
@@ -1174,7 +1174,7 @@
             1166,
             1175,
             1183,
-            1196,
+            1191,
             1197,
             1202,
             1223,
@@ -1923,7 +1923,7 @@
         "key": "\"小時\"",
         "repeatid": [
             1184,
-            1191
+            1192
         ],
         "repeatkey": [
             "frontstage.state.Agent.SettlementCategoryEnum.1",
@@ -1934,7 +1934,7 @@
         "key": "\"日\"",
         "repeatid": [
             1185,
-            1192
+            1193
         ],
         "repeatkey": [
             "frontstage.state.Agent.SettlementCategoryEnum.2",

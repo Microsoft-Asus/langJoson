@@ -9713,7 +9713,7 @@
         "en": "",
         "zh-cn": "",
         "zh-tw": "未定義",
-        "id": 1196
+        "id": 1191
     },
     {
         "key": "frontstage.state.Agent.SettlementCategoryEnum.1",
@@ -9727,7 +9727,7 @@
         "en": "hour",
         "zh-cn": "小时",
         "zh-tw": "小時",
-        "id": 1191
+        "id": 1192
     },
     {
         "key": "frontstage.state.Agent.SettlementCategoryEnum.2",
@@ -9741,7 +9741,7 @@
         "en": "day",
         "zh-cn": "日",
         "zh-tw": "日",
-        "id": 1192
+        "id": 1193
     },
     {
         "key": "frontstage.state.Agent.SettlementCategoryEnum.4",
@@ -9755,7 +9755,7 @@
         "en": "half a month",
         "zh-cn": "半月",
         "zh-tw": "半月",
-        "id": 1193
+        "id": 1194
     },
     {
         "key": "frontstage.state.Agent.SettlementCategoryEnum.5",
@@ -9769,7 +9769,7 @@
         "en": "month",
         "zh-cn": "月",
         "zh-tw": "月",
-        "id": 1194
+        "id": 1195
     },
     {
         "key": "frontstage.state.Agent.SettlementCategoryEnum.6",
@@ -9783,7 +9783,7 @@
         "en": "season",
         "zh-cn": "季",
         "zh-tw": "季",
-        "id": 1195
+        "id": 1196
     },
     {
         "key": "frontstage.state.Agent.BenefitSharingSourceEnum.1",

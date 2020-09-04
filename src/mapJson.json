@@ -5954,6 +5954,11 @@
         "zh-cn": "",
         "zh-tw": "周"
     },
+    "frontstage.state.Agent.SettlementCategoryEnum.Undefined": {
+        "en": "",
+        "zh-cn": "",
+        "zh-tw": "未定義"
+    },
     "frontstage.state.Agent.SettlementCategoryEnum.Hour": {
         "en": "hour",
         "zh-cn": "小时",
@@ -5978,11 +5983,6 @@
         "en": "season",
         "zh-cn": "季",
         "zh-tw": "季"
-    },
-    "frontstage.state.Agent.SettlementCategoryEnum.Undefined": {
-        "en": "",
-        "zh-cn": "",
-        "zh-tw": "未定義"
     },
     "frontstage.state.Agent.BenefitSharingSourceEnum.0": {
         "en": "Undefined",

@@ -53,7 +53,7 @@ module.exports = function () {
                 obj[k] = obj[k] || {};
                 func(ar, obj[k]);
               } else {
-                obj[k] = rowjson[key];
+                obj[k] = (rowjson[key] || '').split('\\n').join('\n');
               }
             };
             outputJson[key] = outputJson[key] || {};

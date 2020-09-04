@@ -50,12 +50,12 @@
             "5": "month",
             "6": "season",
             "Week": "",
+            "Undefined": "",
             "Hour": "hour",
             "Day": "day",
             "HalfMonth": "half a month",
             "Month": "month",
-            "Quarter": "season",
-            "Undefined": ""
+            "Quarter": "season"
         },
         "BenefitSharingSourceEnum": {
             "0": "Undefined",

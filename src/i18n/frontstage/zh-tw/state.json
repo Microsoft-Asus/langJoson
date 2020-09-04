@@ -50,12 +50,12 @@
             "5": "月",
             "6": "季",
             "Week": "周",
+            "Undefined": "未定義",
             "Hour": "小時",
             "Day": "日",
             "HalfMonth": "半月",
             "Month": "月",
-            "Quarter": "季",
-            "Undefined": "未定義"
+            "Quarter": "季"
         },
         "BenefitSharingSourceEnum": {
             "0": "未定義",

@@ -21,7 +21,10 @@
             "Amount": "提款金额",
             "BankCardNumber": "提款现金卡",
             "CreatedTime": "提款日期",
-            "TransNumber": "提款单号"
+            "Subtotal": "实际金额",
+            "WithdrawalAmount": "填单金额",
+            "TransNumber": "提款单号",
+            "Fee": "手续费"
         }
     },
     "betRecord": {
@@ -30,7 +33,8 @@
             "CreatedTime": "下注日期",
             "GameType": "游戏平台",
             "ValidAmount": "有效投注",
-            "WinLossAmount": "派彩金额",
+            "WinLossAmount": "输赢金额",
+            "PayoutAmount": "派彩金额",
             "BetAmount": "投注金额"
         },
         "pickGamePlatform": "选择平台"

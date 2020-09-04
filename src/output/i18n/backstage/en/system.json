@@ -20,6 +20,7 @@
     "paymentType": "Payment mode",
     "settleInterval": "settlement interval",
     "betAviliable": "Valid betting",
+    "betWin": "Lottery payout amount",
     "settleAmount": "Settlement amount",
     "profitAmount": "The merchant profit amount",
     "quarterInterval": "Quarter interval",
@@ -197,7 +198,6 @@
     "fundHint": "",
     "benefitContract": "",
     "add": "Add",
-    "betWin": "Lottery payout amount",
     "betAmount": "Bet amount",
     "allCheck": "select all",
     "transferSubordinate": ""

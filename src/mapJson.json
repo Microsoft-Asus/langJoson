@@ -6259,6 +6259,21 @@
         "zh-cn": "提款单号",
         "zh-tw": "提款單號"
     },
+    "frontstage.user.withdrawalRecord.column.Subtotal": {
+        "en": "Actual amount",
+        "zh-cn": "实际金额",
+        "zh-tw": "實際金額"
+    },
+    "frontstage.user.withdrawalRecord.column.Fee": {
+        "en": "Fee",
+        "zh-cn": "手续费",
+        "zh-tw": "手續費"
+    },
+    "frontstage.user.withdrawalRecord.column.WithdrawalAmount": {
+        "en": "Apply amount",
+        "zh-cn": "填单金额",
+        "zh-tw": "填單金額"
+    },
     "frontstage.user.betRecord.column.BetAmount": {
         "en": "Bet amount",
         "zh-cn": "投注金额",
@@ -6285,7 +6300,12 @@
         "zh-tw": "有效投注"
     },
     "frontstage.user.betRecord.column.WinLossAmount": {
-        "en": "Lottery payout amount",
+        "en": "Amount of winning or losing",
+        "zh-cn": "输赢金额",
+        "zh-tw": "輸贏金額"
+    },
+    "frontstage.user.betRecord.column.PayoutAmount": {
+        "en": "Payout amount",
         "zh-cn": "派彩金额",
         "zh-tw": "派彩金額"
     },

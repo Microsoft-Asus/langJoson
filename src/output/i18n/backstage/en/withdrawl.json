@@ -8,8 +8,8 @@
     "wallet": "Transfer out of the wallet",
     "amount": "withdrawl amount",
     "allPeople": "Withdrawal number",
-    "fee": "Fee",
     "transNumber": "the bank withdrawal slip number",
     "allWithdrawl": "total withdrawl ",
-    "allAmount": "total withdrawl "
+    "allAmount": "total withdrawl ",
+    "fee": "Fee"
 }

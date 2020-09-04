@@ -8,8 +8,8 @@
     "wallet": "提出钱包",
     "amount": "提出金额",
     "allPeople": "出款人数",
-    "fee": "手续费",
     "transNumber": "提款单号",
     "allWithdrawl": "提款总额",
-    "allAmount": "提款总额"
+    "allAmount": "提款总额",
+    "fee": "手续费"
 }

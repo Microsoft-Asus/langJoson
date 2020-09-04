@@ -20,6 +20,7 @@
     "paymentType": "付款模式",
     "settleInterval": "結算區間",
     "betAviliable": "有效投注金額",
+    "betWin": "派彩金額",
     "settleAmount": "結算金額",
     "profitAmount": "商家盈利金額",
     "quarterInterval": "季區間",
@@ -197,7 +198,6 @@
     "fundHint": "請用半形逗號分隔帳號",
     "benefitContract": "分潤/契約",
     "add": "新增",
-    "betWin": "派彩金額",
     "betAmount": "投注金額",
     "allCheck": "全選",
     "transferSubordinate": "轉帳下級"

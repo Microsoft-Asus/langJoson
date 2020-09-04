@@ -21,7 +21,10 @@
             "Amount": "Withdrawal amount",
             "BankCardNumber": "Cash card",
             "CreatedTime": "Withdrawal date",
-            "TransNumber": "the bank withdrawal slip number"
+            "Subtotal": "Actual amount",
+            "WithdrawalAmount": "Apply amount",
+            "TransNumber": "the bank withdrawal slip number",
+            "Fee": "Fee"
         }
     },
     "betRecord": {
@@ -30,7 +33,8 @@
             "CreatedTime": "The date of placing bets",
             "GameType": "Gaming platform",
             "ValidAmount": "Valid betting",
-            "WinLossAmount": "Lottery payout amount",
+            "WinLossAmount": "Amount of winning or losing",
+            "PayoutAmount": "Payout amount",
             "BetAmount": "Bet amount"
         },
         "pickGamePlatform": "Choose a platform"

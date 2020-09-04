@@ -266,7 +266,7 @@
             "en": "Amount",
             "zh-cn": "金额",
             "zh-tw": "金額",
-            "id": 1259
+            "id": 1263
         }
     ],
     [
@@ -411,7 +411,7 @@
             "en": "other",
             "zh-cn": "其他",
             "zh-tw": "其他",
-            "id": 1347
+            "id": 1351
         }
     ],
     [
@@ -427,7 +427,7 @@
             "en": "Bet",
             "zh-cn": "下注",
             "zh-tw": "下注",
-            "id": 1393
+            "id": 1397
         }
     ],
     [
@@ -475,7 +475,7 @@
             "en": "Arrival time",
             "zh-cn": "到帐时间",
             "zh-tw": "到帳時間",
-            "id": 1260
+            "id": 1264
         }
     ],
     [
@@ -837,7 +837,7 @@
             "en": "Undefined",
             "zh-cn": "未定义",
             "zh-tw": "未定義",
-            "id": 1358
+            "id": 1362
         }
     ],
     [
@@ -994,22 +994,6 @@
     ],
     [
         {
-            "key": "backstage.system.betWin",
-            "en": "Lottery payout amount",
-            "zh-cn": "派彩金额",
-            "zh-tw": "派彩金額",
-            "id": 647
-        },
-        {
-            "key": "frontstage.user.betRecord.column.WinLossAmount",
-            "en": "Lottery payout amount",
-            "zh-cn": "派彩金额",
-            "zh-tw": "派彩金額",
-            "id": 1257
-        }
-    ],
-    [
-        {
             "key": "backstage.system.betAmount",
             "en": "Bet amount",
             "zh-cn": "投注金额",
@@ -1021,14 +1005,14 @@
             "en": "Bet amount",
             "zh-cn": "投注金额",
             "zh-tw": "投注金額",
-            "id": 1252
+            "id": 1255
         },
         {
             "key": "frontstage.user.DailyRewordRecord.column.Amount",
             "en": "Bet amount",
             "zh-cn": "投注金额",
             "zh-tw": "投注金額",
-            "id": 1276
+            "id": 1280
         }
     ],
     [
@@ -1077,6 +1061,22 @@
             "zh-cn": "提款总额",
             "zh-tw": "提款總額",
             "id": 810
+        }
+    ],
+    [
+        {
+            "key": "backstage.withdrawl.fee",
+            "en": "Fee",
+            "zh-cn": "手续费",
+            "zh-tw": "手續費",
+            "id": 812
+        },
+        {
+            "key": "frontstage.user.withdrawalRecord.column.Fee",
+            "en": "Fee",
+            "zh-cn": "手续费",
+            "zh-tw": "手續費",
+            "id": 1253
         }
     ],
     [
@@ -1220,7 +1220,7 @@
             "en": "QQ number",
             "zh-cn": "QQ号码",
             "zh-tw": "QQ號碼",
-            "id": 1317
+            "id": 1321
         }
     ],
     [
@@ -1275,7 +1275,7 @@
             "en": "Transfer amount",
             "zh-cn": "转帐金额",
             "zh-tw": "轉帳金額",
-            "id": 1296
+            "id": 1300
         }
     ],
     [
@@ -1479,7 +1479,7 @@
             "en": "Transfer failed",
             "zh-cn": "转帐失败",
             "zh-tw": "轉帳失敗",
-            "id": 1294
+            "id": 1298
         }
     ],
     [
@@ -1831,7 +1831,7 @@
             "en": "Transfer out",
             "zh-cn": "转出",
             "zh-tw": "轉出",
-            "id": 1291
+            "id": 1295
         }
     ],
     [
@@ -1847,7 +1847,7 @@
             "en": "Transfer into",
             "zh-cn": "转入",
             "zh-tw": "轉入",
-            "id": 1292
+            "id": 1296
         }
     ],
     [
@@ -1856,14 +1856,14 @@
             "en": "Fund password",
             "zh-cn": "资金密码",
             "zh-tw": "資金密碼",
-            "id": 1271
+            "id": 1275
         },
         {
             "key": "frontstage.user.fundsPassword",
             "en": "Fund password",
             "zh-cn": "资金密码",
             "zh-tw": "資金密碼",
-            "id": 1307
+            "id": 1311
         }
     ],
     [
@@ -1872,14 +1872,14 @@
             "zh-tw": "未定義",
             "en": "",
             "zh-cn": "",
-            "id": 1412
+            "id": 1416
         },
         {
             "key": "frontstage.state.Agent.SettlementCategoryEnum.Undefined",
             "zh-tw": "未定義",
             "en": "",
             "zh-cn": "",
-            "id": 1413
+            "id": 1417
         }
     ]
 ]

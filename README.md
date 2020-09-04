@@ -34,4 +34,17 @@ EXPORT_EXCEL = true;
 
 src/Inspection.xlsx
 
-## 解析產生的 i18n 檔案 src/output
+key:程式看的
+
+en, zh-cn, zh-tw :語系
+
+id: 可以跟 外部人員 核對用
+
+## 解析產生的 i18n 檔案
+
+src/output
+
+## 實作
+
+新增與係時候要先複製 en 資料夾 更名成 新的語系資料夾
+跑一次 輸出 excel 讓 json 設定檔生成

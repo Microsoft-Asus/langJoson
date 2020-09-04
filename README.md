@@ -50,8 +50,18 @@ src/output
 
 跑一次 輸出 excel 讓 json 設定檔生成
 
-不然不知道新的語系代碼是什麼
+不然不知道要使用的新的語系代碼是什麼
 
 ## 同步更新
 
+### 1.輸出給翻譯人員目前在使用的 Excel
+
 目前僅作手動複製專案的 i18n 資料夾到 這個專案資料夾底下
+
+### 2.匯入翻譯人員給的 Excel
+
+將 Inspection.xlsx 放入 src 下
+
+XPORT_EXCEL 設定 false
+
+在 src 下跑 node start.js

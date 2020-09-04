@@ -29,7 +29,7 @@ const readExcel = require('./readExcel.js');
   //組合不重複的語系資料夾名字,做第一階段的過濾,取出全部的語系結構
   i18nDirPath.forEach((dirpath, id) => {
     fs.readdirSync(path.resolve('.', 'i18n', dirpath)).forEach((pathname) => {
-      if (langList.indexOf(pathname) < 0) {
+      if (langList.indexOf(pathname) < 0 && is_dir(path.resolve('.', 'i18n', dirpath, pathname))) {
         langList.push(pathname);
       }
     });

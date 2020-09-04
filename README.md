@@ -29,3 +29,9 @@ readExcel.js 拿來讀取 Excel 輸出 i18n 的 -->可以另外複製出去獨�
  */
 EXPORT_EXCEL = true;
 ```
+
+## 輸出的 Excel 檔案
+
+src/Inspection.xlsx
+
+## 解析產生的 i18n 檔案 src/output

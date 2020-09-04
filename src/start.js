@@ -8,8 +8,16 @@ const Excel = require('exceljs');
 const workbook = new Excel.Workbook();
 
 const readExcel = require('./readExcel.js');
-
+/** 輸出開關
+ *  true => 輸出Excel
+ *  false => 讀取Excel 輸出 i18n
+ */
+const EXPORT_EXCEL = true;
 (function () {
+  if (!EXPORT_EXCEL) {
+    readExcel();
+    return;
+  }
   //資料夾名字 backstage ,frontstage
   const i18nDirPath = fs.readdirSync(path.resolve('.', 'i18n'));
   //en, zh-cn, zh-tw

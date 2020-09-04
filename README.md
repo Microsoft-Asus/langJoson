@@ -19,3 +19,13 @@ readExcel.js 拿來讀取 Excel 輸出 i18n 的 -->可以另外複製出去獨�
 ├── 讀取 start.js 產生的 dirPath.json /langList.json 拿來當作設定檔
 
 └── 產生 output folder
+
+## 參數
+
+```js
+/** 輸出開關
+ *  true => 輸出Excel
+ *  false => 讀取Excel 輸出 i18n
+ */
+EXPORT_EXCEL = true;
+```

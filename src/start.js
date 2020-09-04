@@ -61,13 +61,24 @@ const readExcel = require('./readExcel.js');
   const xlsjson = [];
   //id : key 的map表
   const enumID2Key = {};
+
+  //追加紀錄最大字長作為調整Excel欄位寬度
+  const maxWordLength = { key: 0, id: 5 };
+
   Object.keys(mapJson).forEach((key) => {
     langList.forEach((lang) => {
       mapJson[key][lang] = mapJson[key][lang] || '';
+      //追加紀錄最大字長作為調整Excel欄位寬度
+      maxWordLength[lang] = maxWordLength[lang] || 0;
+      maxWordLength[lang] =
+        mapJson[key][lang].length > maxWordLength[lang] ? mapJson[key][lang].length : maxWordLength[lang];
     });
     //id to key map表
     enumID2Key[xlsjson.length] = key;
     enumID2Key[key] = xlsjson.length;
+    //追加紀錄最大字長作為調整Excel欄位寬度
+    maxWordLength.key = key.length > maxWordLength.key ? key.length : maxWordLength.key;
+
     //過濾重複ZH-TW 紀錄id
     repeatZhTw[JSON.stringify(mapJson[key]['zh-tw'])] = repeatZhTw[JSON.stringify(mapJson[key]['zh-tw'])] || [];
     repeatZhTw[JSON.stringify(mapJson[key]['zh-tw'])].push(xlsjson.length);
@@ -78,6 +89,7 @@ const readExcel = require('./readExcel.js');
 
     xlsjson.push({ key, ...mapJson[key], id: xlsjson.length });
   });
+
   //過濾出全部的重複內容
   const repeatValue = Object.values(repeatAll).filter((it) => {
     return it.length > 1;
@@ -127,8 +139,9 @@ const readExcel = require('./readExcel.js');
   //產出有合併欄位的 Excels
   const worksheet = workbook.addWorksheet('MySheet');
   const excelColumn = Object.keys(xlsJsonFilter[0]).map((it) => {
-    return { header: it, key: it };
+    return { header: it, key: it, width: maxWordLength[it] };
   });
+
   worksheet.columns = excelColumn;
   worksheet.addRows(xlsJsonFilter);
   repeatValue.forEach((repeat) => {

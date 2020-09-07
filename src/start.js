@@ -25,8 +25,8 @@ const EXPORT_EXCEL = true;
 
   //輸出
   const mapJson = {};
-
-  const jsonFileRegex = new RegExp(`\/([a-z]+)\/([a-z\-]{2,})\/([a-z]+)\.json$`, 'i');
+  //正則分類 資料夾區塊--->for mac
+  // const jsonFileRegex = new RegExp(`\/([a-z]+)\/([a-z\-]{2,})\/([a-z]+)\.json$`, 'i');
   const jsonFilesPath = walkFilesSync(path.resolve('.', 'i18n'), (fname, dirname) => {
     const fullpath = path.join(dirname, fname);
     return /\.json$/.test(fullpath);

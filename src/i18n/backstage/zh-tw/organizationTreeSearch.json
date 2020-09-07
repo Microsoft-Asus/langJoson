@@ -8,13 +8,10 @@
   "defaultPassword": "預設密碼： aa123456",
   "resetContract": "重置契約",
   "willRestContract": "下線的契約將會全部重置",
-  "sameLevelTransform": "平級轉移",
-  "transformUpperLevel": "轉移上一級",
   "isAlreadyTheTop": "已經是最上層",
   "levelOne": "第一層",
   "chooseTargetAccount": "選擇轉移帳號",
-  "chooseTransformMethod": "選擇轉移方法",
   "chooseTarget": "選擇轉移位置",
-  "willMoveNode": "將會移動節點",
+  "willMove": "將會移動到",
   "mayAffectAccounting": "這可能會影響帳務"
 }

@@ -3329,18 +3329,6 @@
         "zh-cn": "下线的契约将会全部重置",
         "zh-tw": "下線的契約將會全部重置"
     },
-    "backstage.organizationTreeSearch.sameLevelTransform": {
-        "en": "Same level transform",
-        "th": "",
-        "zh-cn": "平级转移",
-        "zh-tw": "平級轉移"
-    },
-    "backstage.organizationTreeSearch.transformUpperLevel": {
-        "en": "Transform upper level",
-        "th": "",
-        "zh-cn": "转移上一级",
-        "zh-tw": "轉移上一級"
-    },
     "backstage.organizationTreeSearch.isAlreadyTheTop": {
         "en": "Is already the top",
         "th": "",
@@ -3359,23 +3347,17 @@
         "zh-cn": "选择转移账号",
         "zh-tw": "選擇轉移帳號"
     },
-    "backstage.organizationTreeSearch.chooseTransformMethod": {
-        "en": "Choose transform method",
-        "th": "",
-        "zh-cn": "选择转移方法",
-        "zh-tw": "選擇轉移方法"
-    },
     "backstage.organizationTreeSearch.chooseTarget": {
         "en": "Choose target",
         "th": "",
         "zh-cn": "选择转移位置",
         "zh-tw": "選擇轉移位置"
     },
-    "backstage.organizationTreeSearch.willMoveNode": {
-        "en": "Will move node",
-        "th": "",
-        "zh-cn": "将会移动节点",
-        "zh-tw": "將會移動節點"
+    "backstage.organizationTreeSearch.willMove": {
+        "en": "Will move to",
+        "zh-cn": "将会移动到",
+        "zh-tw": "將會移動到",
+        "th": ""
     },
     "backstage.organizationTreeSearch.mayAffectAccounting": {
         "en": "It may affect accounting",
@@ -5110,6 +5092,30 @@
         "zh-cn": "群组列表",
         "zh-tw": "群組列表",
         "en": ""
+    },
+    "backstage.organizationTreeSearch.sameLevelTransform": {
+        "th": "",
+        "en": "",
+        "zh-cn": "",
+        "zh-tw": ""
+    },
+    "backstage.organizationTreeSearch.transformUpperLevel": {
+        "th": "",
+        "en": "",
+        "zh-cn": "",
+        "zh-tw": ""
+    },
+    "backstage.organizationTreeSearch.chooseTransformMethod": {
+        "th": "",
+        "en": "",
+        "zh-cn": "",
+        "zh-tw": ""
+    },
+    "backstage.organizationTreeSearch.willMoveNode": {
+        "th": "",
+        "en": "",
+        "zh-cn": "",
+        "zh-tw": ""
     },
     "backstage.state.WithdrawalStateEnum.Pending": {
         "th": "",

@@ -8,13 +8,14 @@
     "defaultPassword": "",
     "resetContract": "",
     "willRestContract": "",
-    "sameLevelTransform": "",
-    "transformUpperLevel": "",
     "isAlreadyTheTop": "",
     "levelOne": "",
     "chooseTargetAccount": "",
-    "chooseTransformMethod": "",
     "chooseTarget": "",
-    "willMoveNode": "",
-    "mayAffectAccounting": ""
+    "willMove": "",
+    "mayAffectAccounting": "",
+    "sameLevelTransform": "",
+    "transformUpperLevel": "",
+    "chooseTransformMethod": "",
+    "willMoveNode": ""
 }

@@ -19,7 +19,9 @@ const EXPORT_EXCEL = true;
     return;
   }
   //資料夾名字 backstage ,frontstage
-  const i18nDirPath = fs.readdirSync(path.resolve('.', 'i18n'));
+  const i18nDirPath = fs.readdirSync(path.resolve('.', 'i18n')).filter((it) => {
+    return is_dir(path.resolve('.', 'i18n', it));
+  });
   //en, zh-cn, zh-tw
   const langList = [];
 
@@ -36,6 +38,7 @@ const EXPORT_EXCEL = true;
   const repeatZhTw = {};
   //組合不重複的語系資料夾名字,做第一階段的過濾,取出全部的語系結構
   i18nDirPath.forEach((dirpath, id) => {
+    if (!is_dir(path.resolve('.', 'i18n', dirpath))) return;
     fs.readdirSync(path.resolve('.', 'i18n', dirpath)).forEach((pathname) => {
       if (langList.indexOf(pathname) < 0 && is_dir(path.resolve('.', 'i18n', dirpath, pathname))) {
         langList.push(pathname);
@@ -148,9 +151,15 @@ const EXPORT_EXCEL = true;
   fs.writeFile('enumID2Key.json', JSON.stringify(enumID2Key, null, 4), errorHandler);
 
   //產出有合併欄位的 Excels
+  const headerLangKey = {
+    'zh-cn': '简体',
+    'zh-tw': '繁體',
+    en: '英文',
+    th: '泰文',
+  };
   const worksheet = workbook.addWorksheet('MySheet');
   const excelColumn = Object.keys(xlsJsonFilter[0]).map((it) => {
-    return { header: it, key: it, width: maxWordLength[it] };
+    return { header: headerLangKey[it], key: it, width: maxWordLength[it] };
   });
 
   worksheet.columns = excelColumn;
@@ -199,8 +208,12 @@ function walkFilesSync(dirname, filter = undefined) {
 }
 
 function is_dir(path) {
-  const stats = fs.statSync(path);
-  return stats.isDirectory();
+  try {
+    const stats = fs.statSync(path);
+    return stats.isDirectory();
+  } catch (err) {
+    return false;
+  }
 }
 
 function is_file(path) {

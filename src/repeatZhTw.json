@@ -231,7 +231,7 @@
         "repeatid": [
             93,
             590,
-            854
+            855
         ],
         "repeatkey": [
             "backstage.common.blackList",
@@ -635,7 +635,7 @@
         "key": "\"工資\"",
         "repeatid": [
             239,
-            862
+            863
         ],
         "repeatkey": [
             "backstage.deal.AgentStrategyWage",
@@ -646,7 +646,7 @@
         "key": "\"傭金\"",
         "repeatid": [
             242,
-            865
+            866
         ],
         "repeatkey": [
             "backstage.deal.AgentStrategyCommission",
@@ -879,7 +879,7 @@
         "key": "\"帳號已凍結\"",
         "repeatid": [
             309,
-            874
+            875
         ],
         "repeatkey": [
             "backstage.errorCode.UsernameFronzen",
@@ -890,7 +890,7 @@
         "key": "\"驗證碼錯誤\"",
         "repeatid": [
             329,
-            872,
+            873,
             914,
             921
         ],
@@ -1145,7 +1145,7 @@
         "repeatid": [
             571,
             829,
-            852
+            853
         ],
         "repeatkey": [
             "backstage.report.settleCycle",
@@ -1166,7 +1166,7 @@
             617,
             621,
             716,
-            866,
+            867,
             1148,
             1153,
             1156,
@@ -1264,7 +1264,7 @@
             614,
             618,
             624,
-            892
+            852
         ],
         "repeatkey": [
             "backstage.state.DepositTransStateEnum.1",
@@ -1518,7 +1518,7 @@
         "key": "\"轉帳下級\"",
         "repeatid": [
             837,
-            887
+            892
         ],
         "repeatkey": [
             "backstage.member.transferSubordinate",
@@ -1528,7 +1528,7 @@
     {
         "key": "\"未派彩\"",
         "repeatid": [
-            856,
+            857,
             1232,
             1238
         ],
@@ -1541,7 +1541,7 @@
     {
         "key": "\"已派彩\"",
         "repeatid": [
-            857,
+            858,
             1233,
             1239
         ],
@@ -1554,7 +1554,7 @@
     {
         "key": "\"反向單\"",
         "repeatid": [
-            858,
+            859,
             1234,
             1240
         ],
@@ -1567,7 +1567,7 @@
     {
         "key": "\"已修改\"",
         "repeatid": [
-            859,
+            860,
             1235,
             1241
         ],
@@ -1580,7 +1580,7 @@
     {
         "key": "\"已取消\"",
         "repeatid": [
-            860,
+            861,
             1236,
             1242
         ],
@@ -1593,7 +1593,7 @@
     {
         "key": "\"轉帳成功\"",
         "repeatid": [
-            868,
+            869,
             1307
         ],
         "repeatkey": [
@@ -1604,7 +1604,7 @@
     {
         "key": "\"轉帳失敗\"",
         "repeatid": [
-            869,
+            870,
             1226,
             1230,
             1308

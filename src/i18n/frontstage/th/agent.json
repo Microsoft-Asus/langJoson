@@ -1,0 +1,19 @@
+{
+    "column": {
+        "AgentCreatedTime": "",
+        "Balance": "",
+        "MemberAccount": "",
+        "ParentMemberAccount": "",
+        "AgentLink": {
+            "CreatedTime": ""
+        },
+        "RegisterCount": "",
+        "AgentIdentityName": ""
+    },
+    "common": {
+        "memberNotExist": ""
+    },
+    "betRecord": {
+        "pickGameCategory": ""
+    }
+}

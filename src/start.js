@@ -77,7 +77,7 @@ const EXPORT_EXCEL = true;
   const enumID2Key = {};
 
   //追加紀錄最大字長作為調整Excel欄位寬度
-  const maxWordLength = { key: 0, id: 5 };
+  const maxWordLength = { key: 0, rowid: 5 };
 
   Object.keys(mapJson).forEach((key) => {
     langList.forEach((lang) => {
@@ -101,7 +101,7 @@ const EXPORT_EXCEL = true;
     repeatAll[JSON.stringify(mapJson[key])] = repeatAll[JSON.stringify(mapJson[key])] || [];
     repeatAll[JSON.stringify(mapJson[key])].push(xlsjson.length);
 
-    xlsjson.push({ key, ...mapJson[key], id: xlsjson.length });
+    xlsjson.push({ key, ...mapJson[key], rowid: xlsjson.length });
   });
 
   //過濾出全部的重複內容
@@ -152,10 +152,12 @@ const EXPORT_EXCEL = true;
 
   //產出有合併欄位的 Excels
   const headerLangKey = {
+    key: 'key',
     'zh-cn': '简体',
     'zh-tw': '繁體',
     en: '英文',
     th: '泰文',
+    rowid: 'rowid',
   };
   const worksheet = workbook.addWorksheet('MySheet');
   const excelColumn = Object.keys(xlsJsonFilter[0]).map((it) => {
@@ -166,7 +168,7 @@ const EXPORT_EXCEL = true;
   worksheet.addRows(xlsJsonFilter);
   repeatValue.forEach((repeat) => {
     const rowsIndex = xlsJsonFilter.findIndex((it) => {
-      return it.id === repeat[0];
+      return it.rowid === repeat[0];
     });
 
     const letter = String('bcdefghijklmnopqrstuvwxyz').toUpperCase();

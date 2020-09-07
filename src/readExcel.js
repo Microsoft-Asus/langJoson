@@ -60,7 +60,7 @@ module.exports = function () {
           func(arr, outputJson[key][filePath]);
         });
 
-        rowjson.id = currRow.getCell(worksheet.columnCount).value;
+        rowjson.rowid = currRow.getCell(worksheet.columnCount).value;
         langXls.push(rowjson);
       }
     });

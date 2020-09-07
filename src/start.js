@@ -51,10 +51,12 @@ const EXPORT_EXCEL = true;
     // const match = jfPath.split('i18n')[1].match(jsonFileRegex);
     const match = jfPath.split('i18n')[1].split(/[\\/]/);
     const fileNameRegex = /\.json/;
+    const baseName = path.basename(jfPath, '.json');
+
     if (fileNameRegex.test(match[match.length - 1])) {
       const dirpath = match[1];
       const lang = match[2];
-      const fileString = match[match.length - 1].replace('.json', '');
+      const fileString = baseName;
 
       const rawdata = fs.readFileSync(jfPath, 'utf8');
       const data = JSON.parse(rawdata.toString());

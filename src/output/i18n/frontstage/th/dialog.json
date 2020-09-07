@@ -1,12 +1,12 @@
 {
-    "deleteBankCardLabel": "",
-    "registerForm": {
-        "hasRegistered": {
-            "0": "",
-            "1": ""
-        }
-    },
-    "UserNickNameEditor": {
-        "title": ""
+  "deleteBankCardLabel": "",
+  "registerForm": {
+    "hasRegistered": {
+      "0": "",
+      "1": ""
     }
+  },
+  "UserNickNameEditor": {
+    "title": ""
+  }
 }

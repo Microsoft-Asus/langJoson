@@ -76,7 +76,7 @@ module.exports = function () {
 
         fs.writeFile(
           path.resolve(...resolvePath),
-          JSON.stringify(outputJson[langkey][writePath], null, 4),
+          JSON.stringify(outputJson[langkey][writePath], null, 2),
           errorHandler,
         );
       });

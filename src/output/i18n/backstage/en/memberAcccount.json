@@ -1,7 +1,7 @@
 {
-    "resetConfirmMessage": "Send a reset notification to {0}?",
-    "resetConfirm": "Are you sure you want to reset?",
-    "pleaseChoose": "please choose",
-    "sendVerificationMessage": "Do you want to send the verification mail to{0}?",
-    "sendPhoneVerification": "Do you want to send the verification message  to{0}?"
+  "resetConfirmMessage": "Send a reset notification to {0}?",
+  "resetConfirm": "Are you sure you want to reset?",
+  "pleaseChoose": "please choose",
+  "sendVerificationMessage": "Do you want to send the verification mail to{0}?",
+  "sendPhoneVerification": "Do you want to send the verification message  to{0}?"
 }

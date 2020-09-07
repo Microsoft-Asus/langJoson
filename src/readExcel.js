@@ -73,7 +73,7 @@ module.exports = function () {
         if (fileName === 'undefined.json') {
           return;
         }
-
+        /** 重要!!! 團隊用兩格縮排 所以這裡寫回去要用兩格 不然git會很混亂 */
         fs.writeFile(
           path.resolve(...resolvePath),
           JSON.stringify(outputJson[langkey][writePath], null, 2),

@@ -7,8 +7,6 @@
   "receiveName": "Payee’s Name",
   "receiveNumber": "Payee’s Account",
   "applyTime": "application time",
-  "receiveTime": "Arrival time",
-  "remitBalance": "Amount of adding credit",
   "remitInfor": "Remittance information",
   "receiveInfor": "Payment information",
   "depositState": "State of adding credit",
@@ -38,5 +36,7 @@
   "allPeople": "Number of deposits",
   "webmasterFee": "Webmaster fee",
   "webmasterRate": "Webmaster Rate",
-  "AfterAudit": ""
+  "AfterAudit": "",
+  "receiveTime": "Arrival time",
+  "remitBalance": "Amount of adding credit"
 }

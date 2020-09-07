@@ -1,14 +1,14 @@
 {
   "column": {
     "AgentCreatedTime": "",
-    "AgentIdentityName": "",
     "Balance": "",
     "MemberAccount": "",
     "ParentMemberAccount": "",
     "AgentLink": {
       "CreatedTime": ""
     },
-    "RegisterCount": ""
+    "RegisterCount": "",
+    "AgentIdentityName": ""
   },
   "common": {
     "memberNotExist": ""

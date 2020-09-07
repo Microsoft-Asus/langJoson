@@ -2,10 +2,8 @@
   "date": "",
   "datetime": "",
   "email": "",
-  "includes": "",
   "intOnly": "",
   "max": "",
-  "required": "",
   "minDatetime": "",
   "phone": "",
   "maxDatetime": "",
@@ -26,5 +24,7 @@
   "account": "",
   "minWithdrawalAmount": "",
   "maxWithdrawalAmount": "",
-  "restDailyWithdrawalCount": ""
+  "restDailyWithdrawalCount": "",
+  "required": "",
+  "includes": ""
 }

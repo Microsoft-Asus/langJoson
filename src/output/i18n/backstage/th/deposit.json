@@ -7,8 +7,6 @@
   "receiveName": "",
   "receiveNumber": "",
   "applyTime": "",
-  "receiveTime": "",
-  "remitBalance": "",
   "remitInfor": "",
   "receiveInfor": "",
   "depositState": "",
@@ -38,5 +36,7 @@
   "allPeople": "",
   "webmasterFee": "",
   "webmasterRate": "",
-  "AfterAudit": ""
+  "AfterAudit": "",
+  "receiveTime": "",
+  "remitBalance": ""
 }

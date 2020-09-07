@@ -63,8 +63,8 @@
       "2": "",
       "3": "",
       "4": "",
-      "Deposit": "",
       "Undefined": "",
+      "Deposit": "",
       "BetAviliable": "",
       "WinLose": "",
       "Lose": ""
@@ -80,13 +80,13 @@
     "7": "",
     "ESport": "",
     "Live": "",
+    "Slot": "",
     "Lottery": "",
+    "Sport": "",
+    "Fishing": "",
     "Chess": "",
     "Poker": "",
-    "Slot": "",
-    "Sport": "",
-    "Gaming": "",
-    "Fishing": ""
+    "Gaming": ""
   },
   "WalletTransferStateTypeEnum": {
     "0": "",

@@ -51,7 +51,6 @@
   "sample": "樣板",
   "sampleName": "樣板名稱",
   "sampleTips": "樣板示意",
-  "betAmount": "投注金額",
   "betNumber": "注單內容",
   "transNumber": "注單號",
   "withdrawlAmount": "轉出金額",
@@ -113,7 +112,6 @@
   "announcement": "公告內容",
   "announceState": "廣播狀態",
   "addAccount": "新增帳號",
-  "allCheck": "全選",
   "delRoleTips": "欲刪除角色，請至管理者帳號將角色變更，該角色使用數量為0才能刪除",
   "roleTips": "使用數量0才能刪除",
   "usingAmount": "使用數量",
@@ -200,5 +198,7 @@
   "fundHint": "請用半形逗號分隔帳號",
   "benefitContract": "分潤/契約",
   "add": "新增",
+  "betAmount": "投注金額",
+  "allCheck": "全選",
   "transferSubordinate": "轉帳下級"
 }

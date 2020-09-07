@@ -1,14 +1,14 @@
 {
   "column": {
     "AgentCreatedTime": "開戶時間",
-    "AgentIdentityName": "身份",
     "Balance": "錢包餘額",
     "MemberAccount": "用戶名",
     "ParentMemberAccount": "所屬上級",
     "AgentLink": {
       "CreatedTime": "生成時間"
     },
-    "RegisterCount": "註冊人數"
+    "RegisterCount": "註冊人數",
+    "AgentIdentityName": "身份"
   },
   "common": {
     "memberNotExist": "你嘗試訪問的會員不存在"

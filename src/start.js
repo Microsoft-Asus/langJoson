@@ -142,13 +142,13 @@ const EXPORT_EXCEL = true;
   //原始XLSX
   fs.writeFileSync('langXls.xlsx', xls, 'binary');
   //檢查輸出的JSON是不是自己要的
-  fs.writeFile('dirPath.json', JSON.stringify(i18nDirPath, null, 4), errorHandler);
-  fs.writeFile('langList.json', JSON.stringify(langList, null, 4), errorHandler);
-  fs.writeFile('mapJson.json', JSON.stringify(mapJson, null, 4), errorHandler);
-  fs.writeFile('langXls.json', JSON.stringify(xlsJsonFilter, null, 4), errorHandler);
-  fs.writeFile('repeatMap.json', JSON.stringify(repeatMap, null, 4), errorHandler);
-  fs.writeFile('repeatZhTw.json', JSON.stringify(repeatZhTwValue, null, 4), errorHandler);
-  fs.writeFile('enumID2Key.json', JSON.stringify(enumID2Key, null, 4), errorHandler);
+  fs.writeFile('dirPath.json', JSON.stringify(i18nDirPath, null, 2), errorHandler);
+  fs.writeFile('langList.json', JSON.stringify(langList, null, 2), errorHandler);
+  fs.writeFile('mapJson.json', JSON.stringify(mapJson, null, 2), errorHandler);
+  fs.writeFile('langXls.json', JSON.stringify(xlsJsonFilter, null, 2), errorHandler);
+  fs.writeFile('repeatMap.json', JSON.stringify(repeatMap, null, 2), errorHandler);
+  fs.writeFile('repeatZhTw.json', JSON.stringify(repeatZhTwValue, null, 2), errorHandler);
+  fs.writeFile('enumID2Key.json', JSON.stringify(enumID2Key, null, 2), errorHandler);
 
   //產出有合併欄位的 Excels
   const headerLangKey = {

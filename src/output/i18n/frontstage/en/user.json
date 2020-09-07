@@ -1,10 +1,10 @@
 {
   "depositRecord": {
     "column": {
-      "Amount": "Amount of adding credit",
       "Channel": "The channel of adding credit",
       "CreatedTime": "The date of of adding credit",
-      "TransNumber": "Adding credit process sheet number"
+      "TransNumber": "Adding credit process sheet number",
+      "Amount": "Amount of adding credit"
     }
   },
   "transferRecord": {
@@ -21,10 +21,10 @@
       "Amount": "Withdrawal amount",
       "BankCardNumber": "Cash card",
       "CreatedTime": "Withdrawal date",
-      "TransNumber": "the bank withdrawal slip number",
       "Subtotal": "Actual amount",
-      "Fee": "Fee",
-      "WithdrawalAmount": "Apply amount"
+      "WithdrawalAmount": "Apply amount",
+      "TransNumber": "the bank withdrawal slip number",
+      "Fee": "Fee"
     }
   },
   "betRecord": {
@@ -41,9 +41,9 @@
   },
   "promotionRecord": {
     "column": {
+      "TransNumber": "Single number",
       "Amount": "Amount",
-      "CreatedTime": "Arrival time",
-      "TransNumber": "Single number"
+      "CreatedTime": "Arrival time"
     }
   },
   "securitySetting": {
@@ -195,7 +195,6 @@
     "EgToCenter": "[EG] to [Center]",
     "DepositFee": "Deposit fee",
     "CenterToWm": "[Center] to [WM live baccarat]",
-    "Other": "other",
     "IboToCenter": "[IBO] to [Center]",
     "KaToCenter": "[Ka game] to [Center]",
     "DepositThirdParty": "Income - third party",
@@ -240,7 +239,6 @@
     "BatchDepositExcludProfitAndLoss": "Batch deposit - excluding profit and loss",
     "BatchDepositPromotions": "Batch deposit - event discount",
     "BbinToCenter": "[NewBBIN] to [Center]",
-    "Bet": "Bet",
     "BetCanceled": "Bet Canceled",
     "BetDeleted": "cancellation",
     "BetFinished": "BetFinished",
@@ -260,6 +258,8 @@
     "CenterToPs": "",
     "CenterToMgPlus": "",
     "CenterToNwg": "",
+    "Other": "other",
+    "Bet": "Bet",
     "Undefined": "Undefined"
   },
   "QQcode": "QQ number",

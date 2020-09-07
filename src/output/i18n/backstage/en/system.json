@@ -51,7 +51,6 @@
   "sample": "Model ",
   "sampleName": "Model name",
   "sampleTips": "Model indication",
-  "betAmount": "Bet amount",
   "betNumber": "Betting content",
   "transNumber": "Betting slip number",
   "withdrawlAmount": "Transfer out amount",
@@ -113,7 +112,6 @@
   "announcement": "announcement detail",
   "announceState": "Broadcast status",
   "addAccount": "add Account",
-  "allCheck": "select all",
   "delRoleTips": "To delete a role, please go to the administrator account to change the role. When the usage amount of the role is zero, you can delete the role.",
   "roleTips": "When the usage amount of the role is zero, the role can be deleted.",
   "usingAmount": "Number of User",
@@ -200,5 +198,7 @@
   "fundHint": "",
   "benefitContract": "",
   "add": "Add",
+  "betAmount": "Bet amount",
+  "allCheck": "select all",
   "transferSubordinate": ""
 }

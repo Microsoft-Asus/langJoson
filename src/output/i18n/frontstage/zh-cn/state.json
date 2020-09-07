@@ -63,8 +63,8 @@
       "2": "负盈利(平帐)",
       "3": "负盈利(不平帐)",
       "4": "充值",
-      "Deposit": "充值",
       "Undefined": "未定义",
+      "Deposit": "充值",
       "BetAviliable": "有效投注",
       "WinLose": "负盈利(平帐)",
       "Lose": "负盈利(不平帐)"
@@ -80,13 +80,13 @@
     "7": "捕鱼游戏",
     "ESport": "电竞游戏",
     "Live": "真人视讯",
+    "Slot": "电子游艺",
     "Lottery": "彩票游戏",
+    "Sport": "体育游戏",
+    "Fishing": "捕鱼游戏",
     "Chess": "棋牌游戏",
     "Poker": "棋牌游戏",
-    "Slot": "电子游艺",
-    "Sport": "体育游戏",
-    "Gaming": "电竞游戏",
-    "Fishing": "捕鱼游戏"
+    "Gaming": "电竞游戏"
   },
   "WalletTransferStateTypeEnum": {
     "0": "未定义",

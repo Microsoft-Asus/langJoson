@@ -8,7 +8,6 @@
   "resetActionTips": "This action will delete all bank cards and clear the cardholder's name. Are you sure you want to continue?",
   "cardNumber": "bank card Number",
   "withdrawlBank": "Withdrawal bank",
-  "province": "province",
   "county": "county",
   "branchBank": "Sub-branch",
   "sureToDelCard": "Are you sure you want to delete the bank card?",
@@ -58,5 +57,6 @@
   "MemberUrlLink": "Member url link",
   "withdrawlFeeFreeCount": "",
   "createSubordinate": "",
+  "province": "province",
   "transferSubordinate": ""
 }

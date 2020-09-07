@@ -63,8 +63,8 @@
       "2": "Negative profit",
       "3": "Negative profit (uneven accounts)",
       "4": "Recharge",
-      "Deposit": "Recharge",
       "Undefined": "Undefined",
+      "Deposit": "Recharge",
       "BetAviliable": "Valid bet",
       "WinLose": "Negative profit",
       "Lose": "Negative profit (uneven accounts)"
@@ -80,13 +80,13 @@
     "7": "Fishing",
     "ESport": "ESport",
     "Live": "Live",
+    "Slot": "Slot",
     "Lottery": "Lottery",
+    "Sport": "Sport",
+    "Fishing": "Fishing",
     "Chess": "Poker",
     "Poker": "Poker",
-    "Slot": "Slot",
-    "Sport": "Sport",
-    "Gaming": "Gaming",
-    "Fishing": "Fishing"
+    "Gaming": "Gaming"
   },
   "WalletTransferStateTypeEnum": {
     "0": "Undefined",

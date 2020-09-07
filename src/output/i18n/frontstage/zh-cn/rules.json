@@ -2,10 +2,8 @@
   "date": "请输入正确日期格式",
   "datetime": "请输入正确日期时间格式",
   "email": "请输入正确邮箱格式",
-  "includes": "不包含在予列中",
   "intOnly": "只允许输入整数",
   "max": "最大值为 {0}",
-  "required": "请填写此栏位",
   "minDatetime": "最小日期为 {0}",
   "phone": "请输入正确手机号码",
   "maxDatetime": "最大日期为 {0}",
@@ -26,5 +24,7 @@
   "account": "6-11个数字+英文组成 (无大小写)",
   "minWithdrawalAmount": "最小提款金额 {0}",
   "maxWithdrawalAmount": "最大提款金额 {0}",
-  "restDailyWithdrawalCount": "剩馀免费提款次数 {0}"
+  "restDailyWithdrawalCount": "剩馀免费提款次数 {0}",
+  "required": "请填写此栏位",
+  "includes": "不包含在予列中"
 }

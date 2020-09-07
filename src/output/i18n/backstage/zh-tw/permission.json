@@ -1,9 +1,9 @@
 {
   "View": "查看",
-  "query": "查詢",
   "export": "輸出",
   "execute": "執行",
   "Edit": "編輯",
-  "Delete": "刪除",
-  "Add": "新增"
+  "Add": "新增",
+  "query": "查詢",
+  "Delete": "刪除"
 }

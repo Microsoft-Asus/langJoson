@@ -2,10 +2,8 @@
   "date": "Please enter the correct date format.",
   "datetime": "Please enter the correct date and time format.",
   "email": "Please enter the correct email address format.",
-  "includes": "It's not included in the sequence.",
   "intOnly": "Only integral numbers are allowed.",
   "max": "The maximum value is {0}.",
-  "required": "Please fill in this field.",
   "minDatetime": "The minimum date is {0}.",
   "phone": "Please enter the correct cellphone number.",
   "maxDatetime": "The maximum date is {0}.",
@@ -26,5 +24,7 @@
   "account": "6-11 numbers + English composition (no case)",
   "minWithdrawalAmount": "The minimum withdrawal amount is  {0}.",
   "maxWithdrawalAmount": "The maximum withdrawal amount is  {0}.",
-  "restDailyWithdrawalCount": "The numbers of free withdrawals remaining is  {0}."
+  "restDailyWithdrawalCount": "The numbers of free withdrawals remaining is  {0}.",
+  "required": "Please fill in this field.",
+  "includes": "It's not included in the sequence."
 }

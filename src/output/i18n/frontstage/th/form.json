@@ -43,15 +43,15 @@
   "button": {
     "Add": "",
     "doTransfer": "",
-    "inquire": "",
     "submitValidateCode": "",
-    "submit": "",
     "refresh": "",
     "doSignIn": "",
     "doLogin": "",
     "deposit": "",
     "transfer": "",
     "withdrawal": "",
-    "reset": ""
+    "reset": "",
+    "submit": "",
+    "inquire": ""
   }
 }

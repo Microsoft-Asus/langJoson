@@ -14,7 +14,6 @@
   "MemberAccountTable": "",
   "MemberAccountDetail": "",
   "MemberAccountBankcard": "",
-  "MemberAccountBetRecord": "",
   "MemberFunds": "",
   "FundAdjustment": "",
   "DepositCheck": "",
@@ -43,7 +42,6 @@
   "MessageMarqueeEditor": "",
   "MessageMarqueeSortingTable": "",
   "MessageMarqueeTable": "",
-  "PromotionsList": "",
   "PromotionsManage": "",
   "PromotionsListAdder": "",
   "PromotionsListEditor": "",
@@ -147,8 +145,10 @@
   "WebsiteSetting": "",
   "ManagerSetting": "",
   "ManagerSettingAudit": "",
+  "MemberAccountBetRecord": "",
   "login": "",
   "Login": "",
+  "PromotionsList": "",
   "OperationRecord": "",
   "OperationRecordAll": ""
 }

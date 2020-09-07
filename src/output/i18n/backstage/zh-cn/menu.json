@@ -14,7 +14,6 @@
   "MemberAccountTable": "用户帐号列表",
   "MemberAccountDetail": "用户帐号详情",
   "MemberAccountBankcard": "用户银行卡",
-  "MemberAccountBetRecord": "投注记录",
   "MemberFunds": "用户资金",
   "FundAdjustment": "用户资金调整",
   "DepositCheck": "存款审核",
@@ -43,7 +42,6 @@
   "MessageMarqueeEditor": "最新消息编辑",
   "MessageMarqueeSortingTable": "最新消息上架列表",
   "MessageMarqueeTable": "最新消息列表",
-  "PromotionsList": "优惠活动",
   "PromotionsManage": "优惠管理",
   "PromotionsListAdder": "新增优惠活动",
   "PromotionsListEditor": "编辑优惠活动",
@@ -147,8 +145,10 @@
   "WebsiteSetting": "系统设置",
   "ManagerSetting": "系统设置",
   "ManagerSettingAudit": "系统设置",
+  "MemberAccountBetRecord": "投注记录",
   "login": "登入",
   "Login": "登入",
+  "PromotionsList": "优惠活动",
   "OperationRecord": "操作记录",
   "OperationRecordAll": "操作记录"
 }

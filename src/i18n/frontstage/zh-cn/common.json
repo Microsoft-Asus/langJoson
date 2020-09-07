@@ -55,7 +55,8 @@
   "langs": {
     "en": "English",
     "zh-cn": "简体中文",
-    "zh-tw": "繁體中文"
+    "zh-tw": "繁體中文",
+    "th": "Thai"
   },
   "Signup": "注册",
   "topup": "充值",

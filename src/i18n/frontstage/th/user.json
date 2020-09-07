@@ -1,0 +1,267 @@
+{
+  "depositRecord": {
+    "column": {
+      "Amount": "",
+      "Channel": "",
+      "CreatedTime": "",
+      "TransNumber": ""
+    }
+  },
+  "transferRecord": {
+    "column": {
+      "CreatedTime": "",
+      "TransNumber": "",
+      "Amount": "",
+      "From": "",
+      "To": ""
+    }
+  },
+  "withdrawalRecord": {
+    "column": {
+      "Amount": "",
+      "BankCardNumber": "",
+      "CreatedTime": "",
+      "TransNumber": "",
+      "Subtotal": "",
+      "Fee": "",
+      "WithdrawalAmount": ""
+    }
+  },
+  "betRecord": {
+    "column": {
+      "BetNumber": "",
+      "CreatedTime": "",
+      "GameType": "",
+      "ValidAmount": "",
+      "WinLossAmount": "",
+      "PayoutAmount": "",
+      "BetAmount": ""
+    },
+    "pickGamePlatform": ""
+  },
+  "promotionRecord": {
+    "column": {
+      "Amount": "",
+      "CreatedTime": "",
+      "TransNumber": ""
+    }
+  },
+  "securitySetting": {
+    "Phone": {
+      "label": "",
+      "remark": "",
+      "modifySuccessMsg": "",
+      "modifyFailingMsg": ""
+    },
+    "Email": {
+      "label": "",
+      "modifySuccessMsg": "",
+      "remark": "",
+      "modifyFailingMsg": ""
+    },
+    "Password": {
+      "label": "",
+      "modifySuccessMsg": "",
+      "remark": "",
+      "mifyFailingMsg": ""
+    },
+    "FundsPassword": {
+      "modifySuccessMsg": "",
+      "remark": "",
+      "settingSuccessMsg": "",
+      "mifyFailingMsg": "",
+      "settingFailingMsg": "",
+      "label": ""
+    },
+    "modifyFailingMsg": ""
+  },
+  "BankCard": {
+    "addBankCard": ""
+  },
+  "DailyRewordRecord": {
+    "column": {
+      "CreatedTime": "",
+      "RewardAmount": "",
+      "Amount": ""
+    }
+  },
+  "deposit": {
+    "depositAmountRange": "",
+    "bankcardOrderRemind": {
+      "0": "",
+      "1": ""
+    },
+    "goCheckDepositRecord": "",
+    "BankCardTransfer": "",
+    "noneAnyPaymentWay": ""
+  },
+  "TppPaymentTypeEnum": {
+    "Alipay": "",
+    "WeChatPay": "",
+    "JingdongQrCode": "",
+    "UnionPayQrCode": "",
+    "OnlinePayment": "",
+    "UnionPay": "",
+    "BqPay": ""
+  },
+  "transfer": {
+    "msg": {
+      "successfulTransfer": "",
+      "transferFailed": ""
+    },
+    "doTransfer": "",
+    "transAmount": "",
+    "transferFrom": "",
+    "transferTo": ""
+  },
+  "mainWallet": "",
+  "securitySettings": "",
+  "withdrawal": {
+    "withdrawalCheck": {
+      "title": ""
+    },
+    "validate": {
+      "title": ""
+    },
+    "bankCardNotFoundMsg": "",
+    "fundsPasswdNotFoundMsg": "",
+    "debitCard": "",
+    "noWithdrawalMsg": "",
+    "numberOfremainingWithdrawals": "",
+    "withdrawableMsg": ""
+  },
+  "modifyBankCardHolderNameMsg": "",
+  "EmailEditDialog": {
+    "title": ""
+  },
+  "ModifyFundsPasswordDialog": {
+    "title": "",
+    "currentFundsPassword": "",
+    "confirmFundsPassword": ""
+  },
+  "vip": {
+    "MonthlyKeepVipDepositAmount": "",
+    "MonthlyRiseVipDepositAmount": "",
+    "MonthlyValidBetAmount": ""
+  },
+  "userAccount": {
+    "otherWallets": ""
+  },
+  "oneClick": {
+    "caption": {
+      "clickAgainForCancel": "",
+      "noTransferableWallet": "",
+      "transAllBackToCenter": "",
+      "syncFetchingBalance": ""
+    },
+    "label": ""
+  },
+  "ModifyPasswordDialog": {
+    "title": ""
+  },
+  "ModifyPhoneDialog": {
+    "title": ""
+  },
+  "letter": {
+    "column": {
+      "IsRead": "",
+      "Title": "",
+      "CreatedTime": ""
+    },
+    "messages": {
+      "confirmRemove": ""
+    },
+    "hasUnreadLetter": ""
+  },
+  "changeRecord": {
+    "column": {
+      "CreatedTime": "",
+      "DiffBalance": "",
+      "TransNumber": "",
+      "AfterBalance": ""
+    }
+  },
+  "changeRecordType": {
+    "CenterToPg": "",
+    "CenterToPt": "",
+    "ChildDeposit": "",
+    "CenterToVr": "",
+    "DepositBankCard": "",
+    "CenterToRmg": "",
+    "FastBetToCenter": "",
+    "CenterToSaba": "",
+    "CenterToRgBoard": "",
+    "CenterToTm": "",
+    "EgToCenter": "",
+    "DepositFee": "",
+    "CenterToWm": "",
+    "Other": "",
+    "IboToCenter": "",
+    "KaToCenter": "",
+    "DepositThirdParty": "",
+    "MgPlusToCenter": "",
+    "DepositDailyReward": "",
+    "ParentDeposit": "",
+    "LcToCenter": "",
+    "KkToCenter": "",
+    "NwgToCenter": "",
+    "PgToCenter": "",
+    "PtToCenter": "",
+    "WithdrawalReject": "",
+    "RgBoardToCenter": "",
+    "WithdrawalPromotions": "",
+    "Withdrawal": "",
+    "WalletAuditArtificialReset": "",
+    "VrToCenter": "",
+    "SabaToCenter": "",
+    "RmgToCenter": "",
+    "WalletAuditSystemReset": "",
+    "RgLotteryToCenter": "",
+    "PsToCenter": "",
+    "SaToCenter": "",
+    "TmToCenter": "",
+    "WithdrawalFee": "",
+    "WmToCenter": "",
+    "ArtificialDepositPromotions": "",
+    "ArtificialDeposit": "",
+    "AgToCenter": "",
+    "AgentStrategyCommission": "",
+    "AgentStrategyDepositBonus": "",
+    "AgentStrategyDividend": "",
+    "AgentStrategyOther": "",
+    "AgentStrategyRebate": "",
+    "AgentStrategyWage": "",
+    "AllMemberSearchEnd": "",
+    "ArtificialDepositExcludProfitAndLoss": "",
+    "ArtificialWithdrawal": "",
+    "ArtificialWithdrawalExcludProfitAndLoss": "",
+    "AviaToCenter": "",
+    "BatchDeposit": "",
+    "BatchDepositExcludProfitAndLoss": "",
+    "BatchDepositPromotions": "",
+    "BbinToCenter": "",
+    "Bet": "",
+    "BetCanceled": "",
+    "BetDeleted": "",
+    "BetFinished": "",
+    "BetModified": "",
+    "BqDeposit": "",
+    "CenterToAg": "",
+    "CenterToAvia": "",
+    "CenterToBbin": "",
+    "CenterToEg": "",
+    "CenterToFastBet": "",
+    "CenterToIbo": "",
+    "CenterToKa": "",
+    "CenterToKk": "",
+    "CenterToLc": "",
+    "CenterToRgLottery": "",
+    "CenterToSa": "",
+    "CenterToPs": "",
+    "CenterToMgPlus": "",
+    "CenterToNwg": "",
+    "Undefined": ""
+  },
+  "QQcode": "",
+  "fundsPassword": ""
+}

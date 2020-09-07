@@ -5855,6 +5855,12 @@
         "zh-tw": "繁體中文",
         "th": ""
     },
+    "frontstage.common.langs.th": {
+        "en": "Thai",
+        "zh-cn": "Thai",
+        "zh-tw": "Thai",
+        "th": ""
+    },
     "frontstage.common.Signup": {
         "en": "Sign up",
         "zh-cn": "注册",

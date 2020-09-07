@@ -1,10 +1,10 @@
 {
     "depositRecord": {
         "column": {
+            "Amount": "",
             "Channel": "",
             "CreatedTime": "",
-            "TransNumber": "",
-            "Amount": ""
+            "TransNumber": ""
         }
     },
     "transferRecord": {
@@ -21,10 +21,10 @@
             "Amount": "",
             "BankCardNumber": "",
             "CreatedTime": "",
-            "Subtotal": "",
-            "WithdrawalAmount": "",
             "TransNumber": "",
-            "Fee": ""
+            "Subtotal": "",
+            "Fee": "",
+            "WithdrawalAmount": ""
         }
     },
     "betRecord": {
@@ -41,9 +41,9 @@
     },
     "promotionRecord": {
         "column": {
-            "TransNumber": "",
             "Amount": "",
-            "CreatedTime": ""
+            "CreatedTime": "",
+            "TransNumber": ""
         }
     },
     "securitySetting": {
@@ -195,6 +195,7 @@
         "EgToCenter": "",
         "DepositFee": "",
         "CenterToWm": "",
+        "Other": "",
         "IboToCenter": "",
         "KaToCenter": "",
         "DepositThirdParty": "",
@@ -239,6 +240,7 @@
         "BatchDepositExcludProfitAndLoss": "",
         "BatchDepositPromotions": "",
         "BbinToCenter": "",
+        "Bet": "",
         "BetCanceled": "",
         "BetDeleted": "",
         "BetFinished": "",
@@ -258,8 +260,6 @@
         "CenterToPs": "",
         "CenterToMgPlus": "",
         "CenterToNwg": "",
-        "Other": "",
-        "Bet": "",
         "Undefined": ""
     },
     "QQcode": "",

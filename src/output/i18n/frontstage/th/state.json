@@ -50,12 +50,12 @@
             "5": "",
             "6": "",
             "Week": "",
-            "Undefined": "",
             "Hour": "",
             "Day": "",
             "HalfMonth": "",
             "Month": "",
-            "Quarter": ""
+            "Quarter": "",
+            "Undefined": ""
         },
         "BenefitSharingSourceEnum": {
             "0": "",
@@ -63,8 +63,8 @@
             "2": "",
             "3": "",
             "4": "",
-            "Undefined": "",
             "Deposit": "",
+            "Undefined": "",
             "BetAviliable": "",
             "WinLose": "",
             "Lose": ""
@@ -80,13 +80,13 @@
         "7": "",
         "ESport": "",
         "Live": "",
-        "Slot": "",
         "Lottery": "",
-        "Sport": "",
-        "Fishing": "",
         "Chess": "",
         "Poker": "",
-        "Gaming": ""
+        "Slot": "",
+        "Sport": "",
+        "Gaming": "",
+        "Fishing": ""
     },
     "WalletTransferStateTypeEnum": {
         "0": "",

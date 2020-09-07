@@ -21,6 +21,7 @@
     "dispatchAmount": "发放金额",
     "dispatchDateTime": "派发时间",
     "dispatchState": "派发状态",
+    "identity": "身份",
     "sufficient": "满足",
     "notSufficient": "不足",
     "dispatched": "已派发",
@@ -52,6 +53,5 @@
     "all": "所有",
     "parentAgent": "所属代理",
     "changeToAgentHint": "一旦升为代理就不能调降回会员",
-    "changeToAgent": "升为代理",
-    "identity": "身份"
+    "changeToAgent": "升为代理"
 }

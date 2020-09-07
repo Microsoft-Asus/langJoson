@@ -14,6 +14,7 @@
     "MemberAccountTable": "Member account list",
     "MemberAccountDetail": "Member account details",
     "MemberAccountBankcard": "Member bank card",
+    "MemberAccountBetRecord": "betting record",
     "MemberFunds": "Member funds",
     "FundAdjustment": "Member fund adjustment",
     "DepositCheck": "Deposit audit",
@@ -42,6 +43,7 @@
     "MessageMarqueeEditor": "Latest news editor",
     "MessageMarqueeSortingTable": "Latest news on the shelves list",
     "MessageMarqueeTable": "Latest news list",
+    "PromotionsList": "Promotions",
     "PromotionsManage": "Promotion management",
     "PromotionsListAdder": "Add a Promotion",
     "PromotionsListEditor": "Editing Promotion",
@@ -145,10 +147,8 @@
     "WebsiteSetting": "System settings",
     "ManagerSetting": "System settings",
     "ManagerSettingAudit": "System settings",
-    "MemberAccountBetRecord": "betting record",
     "login": "Sign in",
     "Login": "Sign in",
-    "PromotionsList": "Promotions",
     "OperationRecord": "Operation record",
     "OperationRecordAll": "Operation record"
 }

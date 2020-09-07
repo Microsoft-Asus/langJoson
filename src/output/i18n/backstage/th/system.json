@@ -51,6 +51,7 @@
     "sample": "",
     "sampleName": "",
     "sampleTips": "",
+    "betAmount": "",
     "betNumber": "",
     "transNumber": "",
     "withdrawlAmount": "",
@@ -112,6 +113,7 @@
     "announcement": "",
     "announceState": "",
     "addAccount": "",
+    "allCheck": "",
     "delRoleTips": "",
     "roleTips": "",
     "usingAmount": "",
@@ -198,7 +200,5 @@
     "fundHint": "",
     "benefitContract": "",
     "add": "",
-    "betAmount": "",
-    "allCheck": "",
     "transferSubordinate": ""
 }

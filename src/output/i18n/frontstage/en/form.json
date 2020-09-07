@@ -43,15 +43,15 @@
     "button": {
         "Add": "Add",
         "doTransfer": "Transfer the money.",
+        "inquire": "Inquire",
         "submitValidateCode": "verify",
+        "submit": "Submit",
         "refresh": "Refresh",
         "doSignIn": "Sign up now",
         "doLogin": "log in immediately",
         "deposit": "Add credit",
         "transfer": "Transfer",
         "withdrawal": "Withdrawal",
-        "reset": "",
-        "submit": "Submit",
-        "inquire": "Inquire"
+        "reset": ""
     }
 }

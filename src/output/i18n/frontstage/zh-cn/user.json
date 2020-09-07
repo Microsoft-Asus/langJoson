@@ -1,10 +1,10 @@
 {
     "depositRecord": {
         "column": {
+            "Amount": "充值金额",
             "Channel": "充值渠道",
             "CreatedTime": "充值日期",
-            "TransNumber": "充值单号",
-            "Amount": "充值金额"
+            "TransNumber": "充值单号"
         }
     },
     "transferRecord": {
@@ -21,10 +21,10 @@
             "Amount": "提款金额",
             "BankCardNumber": "提款现金卡",
             "CreatedTime": "提款日期",
-            "Subtotal": "实际金额",
-            "WithdrawalAmount": "填单金额",
             "TransNumber": "提款单号",
-            "Fee": "手续费"
+            "Subtotal": "实际金额",
+            "Fee": "手续费",
+            "WithdrawalAmount": "填单金额"
         }
     },
     "betRecord": {
@@ -41,9 +41,9 @@
     },
     "promotionRecord": {
         "column": {
-            "TransNumber": "单号",
             "Amount": "金额",
-            "CreatedTime": "到帐时间"
+            "CreatedTime": "到帐时间",
+            "TransNumber": "单号"
         }
     },
     "securitySetting": {
@@ -195,6 +195,7 @@
         "EgToCenter": "[EG]转[中心钱包]",
         "DepositFee": "入款手续费",
         "CenterToWm": "[中心钱包]转[WM真人百家乐]",
+        "Other": "其他",
         "IboToCenter": "[IBO]转[中心钱包]",
         "KaToCenter": "[KA游戏]转[中心钱包]",
         "DepositThirdParty": "入款-第三方",
@@ -239,6 +240,7 @@
         "BatchDepositExcludProfitAndLoss": "批次存入-排除盈亏",
         "BatchDepositPromotions": "批次存入-活动优惠",
         "BbinToCenter": "[NewBBIN波音]转[中心钱包]",
+        "Bet": "下注",
         "BetCanceled": "未接受注单",
         "BetDeleted": "注销",
         "BetFinished": "派彩",
@@ -258,8 +260,6 @@
         "CenterToPs": "",
         "CenterToMgPlus": "",
         "CenterToNwg": "",
-        "Other": "其他",
-        "Bet": "下注",
         "Undefined": "未定义"
     },
     "QQcode": "QQ号码",

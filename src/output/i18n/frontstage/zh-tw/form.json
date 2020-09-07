@@ -43,15 +43,15 @@
     "button": {
         "Add": "添加",
         "doTransfer": "來去轉帳",
+        "inquire": "查詢",
         "submitValidateCode": "發送驗證碼",
+        "submit": "送出",
         "refresh": "刷新",
         "doSignIn": "立即註冊",
         "doLogin": "立即登錄",
         "deposit": "立即充值",
         "transfer": "轉帳",
         "withdrawal": "提款",
-        "reset": "重置",
-        "submit": "送出",
-        "inquire": "查詢"
+        "reset": "重置"
     }
 }

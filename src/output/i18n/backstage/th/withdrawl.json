@@ -1,5 +1,6 @@
 {
     "createTime": "",
+    "transNumber": "",
     "bankCard": "",
     "balance": "",
     "minAmountRange": "",
@@ -8,8 +9,7 @@
     "wallet": "",
     "amount": "",
     "allPeople": "",
-    "transNumber": "",
+    "fee": "",
     "allWithdrawl": "",
-    "allAmount": "",
-    "fee": ""
+    "allAmount": ""
 }

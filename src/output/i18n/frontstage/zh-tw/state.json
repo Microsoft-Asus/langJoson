@@ -50,12 +50,12 @@
             "5": "月",
             "6": "季",
             "Week": "周",
-            "Undefined": "未定義",
             "Hour": "小時",
             "Day": "日",
             "HalfMonth": "半月",
             "Month": "月",
-            "Quarter": "季"
+            "Quarter": "季",
+            "Undefined": "未定義"
         },
         "BenefitSharingSourceEnum": {
             "0": "未定義",
@@ -63,8 +63,8 @@
             "2": "負盈利(平帳)",
             "3": "負盈利(不平帳)",
             "4": "充值",
-            "Undefined": "未定義",
             "Deposit": "充值",
+            "Undefined": "未定義",
             "BetAviliable": "有效投注",
             "WinLose": "負盈利(平帳)",
             "Lose": "負盈利(不平帳)"
@@ -80,13 +80,13 @@
         "7": "捕魚遊戲",
         "ESport": "電競遊戲",
         "Live": "真人視訊",
-        "Slot": "電子遊藝",
         "Lottery": "彩票遊戲",
-        "Sport": "體育遊戲",
-        "Fishing": "捕魚遊戲",
         "Chess": "棋牌遊戲",
         "Poker": "棋牌遊戲",
-        "Gaming": "電競遊戲"
+        "Slot": "電子遊藝",
+        "Sport": "體育遊戲",
+        "Gaming": "電競遊戲",
+        "Fishing": "捕魚遊戲"
     },
     "WalletTransferStateTypeEnum": {
         "0": "未定義",

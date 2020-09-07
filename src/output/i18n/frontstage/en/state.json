@@ -50,12 +50,12 @@
             "5": "month",
             "6": "season",
             "Week": "",
-            "Undefined": "",
             "Hour": "hour",
             "Day": "day",
             "HalfMonth": "half a month",
             "Month": "month",
-            "Quarter": "season"
+            "Quarter": "season",
+            "Undefined": ""
         },
         "BenefitSharingSourceEnum": {
             "0": "Undefined",
@@ -63,8 +63,8 @@
             "2": "Negative profit",
             "3": "Negative profit (uneven accounts)",
             "4": "Recharge",
-            "Undefined": "Undefined",
             "Deposit": "Recharge",
+            "Undefined": "Undefined",
             "BetAviliable": "Valid bet",
             "WinLose": "Negative profit",
             "Lose": "Negative profit (uneven accounts)"
@@ -80,13 +80,13 @@
         "7": "Fishing",
         "ESport": "ESport",
         "Live": "Live",
-        "Slot": "Slot",
         "Lottery": "Lottery",
-        "Sport": "Sport",
-        "Fishing": "Fishing",
         "Chess": "Poker",
         "Poker": "Poker",
-        "Gaming": "Gaming"
+        "Slot": "Slot",
+        "Sport": "Sport",
+        "Gaming": "Gaming",
+        "Fishing": "Fishing"
     },
     "WalletTransferStateTypeEnum": {
         "0": "Undefined",

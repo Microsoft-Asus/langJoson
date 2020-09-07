@@ -1,5 +1,6 @@
 {
     "createTime": "withdrawal time",
+    "transNumber": "the bank withdrawal slip number",
     "bankCard": "withdrawal bank card",
     "balance": "withdrawal Amount",
     "minAmountRange": "Withdrawal amount in the lowest range",
@@ -8,8 +9,7 @@
     "wallet": "Transfer out of the wallet",
     "amount": "withdrawl amount",
     "allPeople": "Withdrawal number",
-    "transNumber": "the bank withdrawal slip number",
+    "fee": "Fee",
     "allWithdrawl": "total withdrawl ",
-    "allAmount": "total withdrawl ",
-    "fee": "Fee"
+    "allAmount": "total withdrawl "
 }

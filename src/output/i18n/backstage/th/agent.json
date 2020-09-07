@@ -21,6 +21,7 @@
     "dispatchAmount": "",
     "dispatchDateTime": "",
     "dispatchState": "",
+    "identity": "",
     "sufficient": "",
     "notSufficient": "",
     "dispatched": "",
@@ -52,6 +53,5 @@
     "all": "",
     "parentAgent": "",
     "changeToAgentHint": "",
-    "changeToAgent": "",
-    "identity": ""
+    "changeToAgent": ""
 }

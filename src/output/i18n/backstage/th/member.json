@@ -8,6 +8,7 @@
     "resetActionTips": "",
     "cardNumber": "",
     "withdrawlBank": "",
+    "province": "",
     "county": "",
     "branchBank": "",
     "sureToDelCard": "",
@@ -57,6 +58,5 @@
     "MemberUrlLink": "",
     "withdrawlFeeFreeCount": "",
     "createSubordinate": "",
-    "province": "",
     "transferSubordinate": ""
 }

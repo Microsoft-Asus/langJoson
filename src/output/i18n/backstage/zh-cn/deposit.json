@@ -7,6 +7,8 @@
     "receiveName": "收款人",
     "receiveNumber": "收款卡号",
     "applyTime": "申请时间",
+    "receiveTime": "到帐时间",
+    "remitBalance": "充值金额",
     "remitInfor": "汇款资讯",
     "receiveInfor": "收款资讯",
     "depositState": "充值状态",
@@ -36,7 +38,5 @@
     "allPeople": "入款人数",
     "webmasterFee": "商户费用",
     "webmasterRate": "商户费率",
-    "AfterAudit": "剩余稽核点",
-    "receiveTime": "到帐时间",
-    "remitBalance": "充值金额"
+    "AfterAudit": "剩余稽核点"
 }

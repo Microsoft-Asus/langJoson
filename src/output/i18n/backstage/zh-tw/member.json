@@ -8,6 +8,7 @@
     "resetActionTips": "此動作會刪除所有銀行卡，並清空持卡人姓名，確定要繼續嗎？",
     "cardNumber": "卡號",
     "withdrawlBank": "取款銀行",
+    "province": "省",
     "county": "縣/市",
     "branchBank": "支行",
     "sureToDelCard": "確定要刪除銀行卡",
@@ -57,6 +58,5 @@
     "MemberUrlLink": "用戶註冊連結",
     "withdrawlFeeFreeCount": "日免費提款次數",
     "createSubordinate": "創建下級",
-    "province": "省",
     "transferSubordinate": "轉帳下級"
 }

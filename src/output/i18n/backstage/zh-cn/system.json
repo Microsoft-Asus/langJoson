@@ -51,6 +51,7 @@
     "sample": "样板",
     "sampleName": "样板名称",
     "sampleTips": "样板示意",
+    "betAmount": "投注金额",
     "betNumber": "注单内容",
     "transNumber": "注单号",
     "withdrawlAmount": "转出金额",
@@ -112,6 +113,7 @@
     "announcement": "公告内容",
     "announceState": "广播状态",
     "addAccount": "新增帐号",
+    "allCheck": "全选",
     "delRoleTips": "欲删除角色，请至管理者帐号将角色变更，该角色使用数量为0才能删除",
     "roleTips": "使用数量0才能删除",
     "usingAmount": "使用数量",
@@ -198,7 +200,5 @@
     "fundHint": "请用半形逗号分隔帐号",
     "benefitContract": "分润/契约",
     "add": "新增",
-    "betAmount": "投注金额",
-    "allCheck": "全选",
     "transferSubordinate": "转帐下级"
 }

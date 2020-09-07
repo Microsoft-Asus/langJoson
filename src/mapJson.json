@@ -5765,6 +5765,12 @@
         "zh-cn": "繁體中文",
         "zh-tw": "繁體中文"
     },
+    "frontstage.common.langs.th": {
+        "en": "Thai",
+        "zh-cn": "Thai",
+        "zh-tw": "Thai",
+        "th": ""
+    },
     "frontstage.common.topup": {
         "en": "Top up",
         "th": "",

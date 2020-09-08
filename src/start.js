@@ -182,7 +182,7 @@ const EXPORT_EXCEL = true;
     return await workbook.xlsx.writeFile('Inspection.xlsx').then(async () => {
       // console.log(this);
       /** 讀取檢查 */
-      readExcel();
+      // readExcel();
     }, errorHandler);
   })();
 })();

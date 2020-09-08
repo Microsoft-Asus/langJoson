@@ -73,12 +73,89 @@ module.exports = function () {
         if (fileName === 'undefined.json') {
           return;
         }
-        /** 重要!!! 團隊用兩格縮排 所以這裡寫回去要用兩格 不然git會很混亂 */
-        fs.writeFile(
-          path.resolve(...resolvePath),
-          JSON.stringify(outputJson[langkey][writePath], null, 2),
-          errorHandler,
-        );
+
+        const func = function (line) {
+          const key = line.split(':')[0].replace(/^\s+/, '').split('"').join('');
+          if (/[\"]{1,2}/.test(line.split(':')[1])) {
+            // console.log(line);
+          } else {
+            return true; //直接寫
+          }
+        };
+
+        const funcReplace = function (line, value) {
+          const arr = line.split(':');
+          const key = arr[0];
+          const ar = arr.slice(1, arr.length).join(':').split('"');
+          ar[1] = value;
+          return key + ':' + ar.join('"');
+        };
+
+        const funcSpace = function (line) {
+          const ar = [...line];
+          for (var i = 0; i < ar.length; i++) {
+            if (ar[i] !== ' ') {
+              break;
+            }
+          }
+          return i;
+        };
+
+        fs.readFile(path.resolve(...resolvePath.slice(2, resolvePath.length)), 'utf8', function (err, data) {
+          const jsonSort = {};
+          const KeyList = {};
+          KeyList.firstKey = '';
+          KeyList.secoundKey = '';
+          KeyList.thirdKey = '';
+
+          data.split('\n').forEach((line) => {
+            if (/^[\{\}]{1}$/.test(line)) {
+              // console.log(line); //直接寫
+            } else {
+              const spaceCount = funcSpace(line);
+              if (spaceCount === 2) {
+                // console.log(2, line);
+                const writeLine = func(line);
+                KeyList.firstKey = String(line.split(':')[0].split('"').join('')).trim();
+
+                if (writeLine === true) {
+                  // console.log(line);//直接寫
+                } else {
+                  line = funcReplace(line, outputJson[langkey][writePath][KeyList.firstKey]);
+                }
+
+                //jsonSort[key] = outputJson[langkey][writePath][key];
+              } else if (spaceCount === 4) {
+                const writeLine = func(line);
+                KeyList.secoundKey = String(line.split(':')[0].split('"').join('')).trim();
+                if (writeLine === true) {
+                  // console.log(line);
+                } else {
+                  line = funcReplace(line, outputJson[langkey][writePath][KeyList.firstKey][KeyList.secoundKey]);
+                }
+              } else if (spaceCount === 6) {
+                const writeLine = func(line);
+                KeyList.thirdKey = String(line.split(':')[0].split('"').join('')).trim();
+                if (writeLine === true) {
+                  // console.log(line);
+                } else {
+                  line = funcReplace(
+                    line,
+                    outputJson[langkey][writePath][KeyList.firstKey][KeyList.secoundKey][KeyList.thirdKey],
+                  );
+                }
+              }
+            }
+
+            fs.appendFile(path.resolve(...resolvePath), line + '\n', errorHandler);
+          });
+        });
+
+        // fs.writeFile(
+        //   path.resolve(...resolvePath),
+        //   JSON.stringify(outputJson[langkey][writePath], null, 2),
+        //   errorHandler,
+        // );
       });
     });
   }, errorHandler);

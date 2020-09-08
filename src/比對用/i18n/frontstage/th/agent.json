@@ -1,0 +1,26 @@
+{
+  "column": {
+    "AgentCreatedTime": "",
+    "AgentIdentityName": "",
+    "Balance": "",
+    "MemberAccount": "",
+    "ParentMemberAccount": "",
+    "AgentLink": {
+      "CreatedTime": ""
+    },
+    "RegisterCount": ""
+  },
+  "common": {
+    "memberNotExist": ""
+  },
+  "betRecord": {
+    "pickGameCategory": ""
+  },
+  "TeamActiveMemberCount": "",
+  "TeamSettlementAmount": "",
+  "TeamDeposit": "",
+  "TeamValidBetAmount": "",
+  "TeamStrategyRebateAmount": "",
+  "TeamPayoutAmount": "",
+  "TeamBenefitAmount": ""
+}

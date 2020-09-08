@@ -1,0 +1,21 @@
+{
+  "column": {
+    "AgentCreatedTime": "开户时间",
+    "AgentIdentityName": "身份",
+    "Balance": "钱包余额",
+    "MemberAccount": "用户名",
+    "ParentMemberAccount": "所属上级",
+    "AgentLink": {
+      "CreatedTime": "生成时间"
+    },
+    "RegisterCount": "注册人数"
+  },
+  "common": {
+    "memberNotExist": "你尝试访问的会员不存在"
+  },
+  "betRecord": {
+    "pickGameCategory": "游戏分类"
+  },
+  "TeamActiveMemberCount": "活跃人数",
+  "TeamSettlementAmount": "团队盈亏"
+}

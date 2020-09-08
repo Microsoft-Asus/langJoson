@@ -12,6 +12,9 @@ module.exports = function () {
 
   /** 預先輸出資料夾 */
   const oupputPath = path.resolve('.', 'output');
+
+  delDir(oupputPath);
+
   if (!is_dir(oupputPath)) {
     fs.mkdirSync(oupputPath);
   }
@@ -52,7 +55,7 @@ module.exports = function () {
               obj[k] = obj[k] || {};
               func(ar, obj[k]);
             } else {
-              obj[k] = (rowjson[key] || '').split('\\n').join('\n');
+              obj[k] = (rowjson[key] || '').split('\\n').join('\n').split('\\"').join('"');
             }
           };
           outputJson[key] = outputJson[key] || {};
@@ -75,9 +78,8 @@ module.exports = function () {
         }
 
         const func = function (line) {
-          const key = line.split(':')[0].replace(/^\s+/, '').split('"').join('');
           if (/[\"]{1,2}/.test(line.split(':')[1])) {
-            // console.log(line);
+            return false;
           } else {
             return true; //直接寫
           }
@@ -91,50 +93,55 @@ module.exports = function () {
           return key + ':' + ar.join('"');
         };
 
-        const funcSpace = function (line) {
-          const ar = [...line];
-          for (var i = 0; i < ar.length; i++) {
-            if (ar[i] !== ' ') {
-              break;
-            }
-          }
-          return i;
-        };
-
         fs.readFile(path.resolve(...resolvePath.slice(2, resolvePath.length)), 'utf8', function (err, data) {
           const jsonSort = {};
           const KeyList = {};
           KeyList.firstKey = '';
           KeyList.secoundKey = '';
           KeyList.thirdKey = '';
+          const logger = fs.createWriteStream(path.resolve(...resolvePath), {
+            flags: 'a', // 'a' means appending (old data will be preserved)
+          });
+          const dataArray = data.split('\n');
+          const spaceCondition = [];
+          dataArray.forEach((line) => {
+            const spaceCount = getSpaceCount(line);
 
-          data.split('\n').forEach((line) => {
-            if (/^[\{\}]{1}$/.test(line)) {
+            if (spaceCount !== 0 && spaceCondition.indexOf(spaceCount) < 0) {
+              spaceCondition.push(spaceCount);
+            }
+          });
+
+          dataArray.forEach((line) => {
+            if (line === '\n' || line === ' ' || !line || line === '}') {
+              return;
+            }
+
+            if (/^[\{]{1}$/.test(line)) {
               // console.log(line); //直接寫
             } else {
-              const spaceCount = funcSpace(line);
-              if (spaceCount === 2) {
+              const spaceCount = getSpaceCount(line);
+              const writeLine = func(line);
+              if (spaceCount === spaceCondition[0]) {
                 // console.log(2, line);
-                const writeLine = func(line);
+
                 KeyList.firstKey = String(line.split(':')[0].split('"').join('')).trim();
 
                 if (writeLine === true) {
                   // console.log(line);//直接寫
                 } else {
                   line = funcReplace(line, outputJson[langkey][writePath][KeyList.firstKey]);
+                  outputJson[langkey][writePath][KeyList.firstKey] = null;
                 }
-
-                //jsonSort[key] = outputJson[langkey][writePath][key];
-              } else if (spaceCount === 4) {
-                const writeLine = func(line);
+              } else if (spaceCount === spaceCondition[1]) {
                 KeyList.secoundKey = String(line.split(':')[0].split('"').join('')).trim();
                 if (writeLine === true) {
                   // console.log(line);
                 } else {
                   line = funcReplace(line, outputJson[langkey][writePath][KeyList.firstKey][KeyList.secoundKey]);
+                  outputJson[langkey][writePath][KeyList.firstKey][KeyList.secoundKey] = null;
                 }
-              } else if (spaceCount === 6) {
-                const writeLine = func(line);
+              } else if (spaceCount === spaceCondition[2]) {
                 KeyList.thirdKey = String(line.split(':')[0].split('"').join('')).trim();
                 if (writeLine === true) {
                   // console.log(line);
@@ -143,12 +150,16 @@ module.exports = function () {
                     line,
                     outputJson[langkey][writePath][KeyList.firstKey][KeyList.secoundKey][KeyList.thirdKey],
                   );
+                  outputJson[langkey][writePath][KeyList.firstKey][KeyList.secoundKey][KeyList.thirdKey] = null;
                 }
               }
             }
 
-            fs.appendFile(path.resolve(...resolvePath), line + '\n', errorHandler);
+            logger.write(line + '\n');
           });
+
+          logger.write('}');
+          logger.end();
         });
 
         // fs.writeFile(
@@ -185,4 +196,30 @@ function errorHandler(err) {
     console.log(err);
     throw err;
   }
+}
+
+function delDir(path) {
+  let files = [];
+  if (fs.existsSync(path)) {
+    files = fs.readdirSync(path);
+    files.forEach((file, index) => {
+      let curPath = path + '/' + file;
+      if (fs.statSync(curPath).isDirectory()) {
+        delDir(curPath); //遞迴刪除資料夾
+      } else {
+        fs.unlinkSync(curPath); //刪除檔案
+      }
+    });
+    fs.rmdirSync(path);
+  }
+}
+
+function getSpaceCount(line) {
+  const ar = [...line];
+  for (var i = 0; i < ar.length; i++) {
+    if (ar[i] !== ' ') {
+      break;
+    }
+  }
+  return i;
 }

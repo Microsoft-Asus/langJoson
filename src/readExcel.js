@@ -116,7 +116,7 @@ module.exports = function () {
           });
 
           dataArray.forEach((line) => {
-            if (line === '\n' || line === ' ' || !line || line === '}') {
+            if (line === '\n' || !line.trim()) {
               return;
             }
 
@@ -141,7 +141,6 @@ module.exports = function () {
             logger.write(line + '\n');
           });
 
-          logger.write('}');
           logger.end();
         });
 

@@ -3,6 +3,7 @@ const path = require('path');
 
 //Excel JS
 const Excel = require('exceljs');
+const filesJs = require('./files.js');
 
 module.exports = function () {
   console.log('readExcelJS');
@@ -13,13 +14,13 @@ module.exports = function () {
   /** 預先輸出資料夾 */
   const oupputPath = path.resolve('.', 'output');
 
-  delDir(oupputPath);
+  filesJs.delDir(oupputPath);
 
-  if (!is_dir(oupputPath)) {
+  if (!filesJs.is_dir(oupputPath)) {
     fs.mkdirSync(oupputPath);
   }
   const i18nPath = path.resolve('.', 'output', 'i18n');
-  if (!is_dir(i18nPath)) {
+  if (!filesJs.is_dir(i18nPath)) {
     fs.mkdirSync(i18nPath);
   }
   createDir(dirPath, ['.', 'output', 'i18n']);
@@ -157,42 +158,17 @@ module.exports = function () {
 function createDir(dirsetting, patharray) {
   Object.values(dirsetting).forEach((it) => {
     const dirpath = path.resolve(...patharray, it);
-    const dir = is_dir(dirpath);
+    const dir = filesJs.is_dir(dirpath);
     if (!dir) {
       fs.mkdirSync(dirpath);
     }
   });
 }
 
-function is_dir(path) {
-  try {
-    const stats = fs.statSync(path);
-    return stats.isDirectory();
-  } catch (err) {
-    return false;
-  }
-}
-
 function errorHandler(err) {
   if (err) {
     console.log(err);
     throw err;
-  }
-}
-
-function delDir(path) {
-  let files = [];
-  if (fs.existsSync(path)) {
-    files = fs.readdirSync(path);
-    files.forEach((file, index) => {
-      let curPath = path + '/' + file;
-      if (fs.statSync(curPath).isDirectory()) {
-        delDir(curPath); //遞迴刪除資料夾
-      } else {
-        fs.unlinkSync(curPath); //刪除檔案
-      }
-    });
-    fs.rmdirSync(path);
   }
 }
 

@@ -7,6 +7,7 @@ const json2xls = require('json2xls');
 const Excel = require('exceljs');
 const workbook = new Excel.Workbook();
 
+const filesJs = require('./files.js');
 const readExcel = require('./readExcel.js');
 /** 輸出開關
  *  true => 輸出Excel
@@ -20,7 +21,7 @@ const EXPORT_EXCEL = true;
   }
   //資料夾名字 backstage ,frontstage
   const i18nDirPath = fs.readdirSync(path.resolve('.', 'i18n')).filter((it) => {
-    return is_dir(path.resolve('.', 'i18n', it));
+    return filesJs.is_dir(path.resolve('.', 'i18n', it));
   });
   //en, zh-cn, zh-tw
   const langList = [];
@@ -38,9 +39,9 @@ const EXPORT_EXCEL = true;
   const repeatZhTw = {};
   //組合不重複的語系資料夾名字,做第一階段的過濾,取出全部的語系結構
   i18nDirPath.forEach((dirpath, id) => {
-    if (!is_dir(path.resolve('.', 'i18n', dirpath))) return;
+    if (!filesJs.is_dir(path.resolve('.', 'i18n', dirpath))) return;
     fs.readdirSync(path.resolve('.', 'i18n', dirpath)).forEach((pathname) => {
-      if (langList.indexOf(pathname) < 0 && is_dir(path.resolve('.', 'i18n', dirpath, pathname))) {
+      if (langList.indexOf(pathname) < 0 && filesJs.is_dir(path.resolve('.', 'i18n', dirpath, pathname))) {
         langList.push(pathname);
       }
     });
@@ -194,11 +195,11 @@ function walkFilesSync(dirname, filter = undefined) {
     fs.readdirSync(dirname).forEach((fname) => {
       const fpath = path.join(dirname, fname);
 
-      if (is_file(fpath)) {
+      if (filesJs.is_file(fpath)) {
         if ((filter && filter(fname, dirname)) || true) {
           files.push(fpath);
         }
-      } else if (is_dir(fpath)) {
+      } else if (filesJs.is_dir(fpath)) {
         files = files.concat(walkFilesSync(fpath, filter));
       }
     });
@@ -207,20 +208,6 @@ function walkFilesSync(dirname, filter = undefined) {
   } catch (err) {
     throw err;
   }
-}
-
-function is_dir(path) {
-  try {
-    const stats = fs.statSync(path);
-    return stats.isDirectory();
-  } catch (err) {
-    return false;
-  }
-}
-
-function is_file(path) {
-  const stats = fs.statSync(path);
-  return stats.isFile();
 }
 
 function flattenObject(ob) {

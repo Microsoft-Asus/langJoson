@@ -96,7 +96,7 @@ module.exports = function () {
 
           return key + ':' + beforeVal.replace(replaceVal, value);
         };
-
+        //因為ZH_TW是基準所以用ZH_TW來做會比較完整
         const modulePath = ['i18n', resolvePath[3], 'zh-tw', fileName];
         fs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
           const KeyList = [];

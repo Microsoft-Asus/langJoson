@@ -2545,14 +2545,19 @@
     "zh-tw": "登入記錄"
   },
   "backstage.menu.LoginRecordMember": {
-    "en": "Login Search",
-    "zh-cn": "登入记录",
-    "zh-tw": "登入記錄"
+    "en": "Member Login Search",
+    "zh-cn": "用户登入记录",
+    "zh-tw": "用戶登入記錄"
   },
   "backstage.menu.LoginRecordCross": {
     "en": "Cross Search",
     "zh-cn": "交叉查询",
     "zh-tw": "交叉查詢"
+  },
+  "backstage.menu.LoginRecordManager": {
+    "en": "Manager Login Search",
+    "zh-cn": "管理员登入记录",
+    "zh-tw": "管理員登入記錄"
   },
   "backstage.menu.OperationRecord": {
     "en": "Operation record",
@@ -2729,10 +2734,15 @@
     "zh-cn": "代理报表",
     "zh-tw": "代理報表"
   },
-  "backstage.organizationTreeSearch.translateLevel": {
-    "en": "Translate level",
-    "zh-cn": "转移层级",
-    "zh-tw": "轉移層級"
+  "backstage.menu.ProviderLoginRecord": {
+    "en": "Provider login record",
+    "zh-cn": "系统商登入记录",
+    "zh-tw": "系統商登入記錄"
+  },
+  "backstage.organizationTreeSearch.translateAgent": {
+    "en": "Translate agent",
+    "zh-cn": "转移代理",
+    "zh-tw": "轉移代理"
   },
   "backstage.organizationTreeSearch.agentLevel": {
     "en": "Agent level",

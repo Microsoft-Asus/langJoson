@@ -120,7 +120,7 @@ module.exports = function () {
               return;
             }
 
-            if (/^[\{]{1}$/.test(line) || /[\}]{1}[\,]{0,1}$/.test(line)) {
+            if (line.trim() == '{' || line.trim() == '}' || line.trim() == '},') {
               // console.log(line); //直接寫
             } else {
               const spaceCount = getSpaceCount(line);

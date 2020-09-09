@@ -55,7 +55,7 @@ module.exports = function () {
               obj[k] = obj[k] || {};
               func(ar, obj[k]);
             } else {
-              obj[k] = (rowjson[key] || '').split('\\n').join('\n').split('\\"').join("'").split('"').join("'");
+              obj[k] = EscapeCharacter(rowjson[key] || '');
             }
           };
           outputJson[key] = outputJson[key] || {};
@@ -212,4 +212,11 @@ function getDeepJson(obj, ind, arr) {
   }
 
   return obj[arr[ind]];
+}
+
+function EscapeCharacter(value) {
+  value = value.split('"').join('\\"');
+  value = value.split('\\').join('\\'); //mac Excel再直接編輯時候跳脫字元會隱藏一條
+
+  return value;
 }

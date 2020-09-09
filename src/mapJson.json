@@ -5172,7 +5172,7 @@
   "frontstage.form.placeholder.newFundsPassword": {
     "en": "New fund password",
     "zh-cn": "新资金密码",
-    "zh-tw": "\b新資金密碼"
+    "zh-tw": "\\b新資金密碼"
   },
   "frontstage.form.label.BranchBankName": {
     "en": "Branch name",

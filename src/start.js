@@ -12,7 +12,7 @@ const readExcel = require('./readExcel.js');
  *  true => 輸出Excel
  *  false => 讀取Excel 輸出 i18n
  */
-const EXPORT_EXCEL = false;
+const EXPORT_EXCEL = true;
 (function () {
   if (!EXPORT_EXCEL) {
     readExcel();
@@ -81,7 +81,7 @@ const EXPORT_EXCEL = false;
 
   Object.keys(mapJson).forEach((key) => {
     langList.forEach((lang) => {
-      mapJson[key][lang] = mapJson[key][lang] || '';
+      mapJson[key][lang] = EscapeCharacter(mapJson[key][lang]) || '';
       //追加紀錄最大字長作為調整Excel欄位寬度
       maxWordLength[lang] = maxWordLength[lang] || 0;
       maxWordLength[lang] =
@@ -248,4 +248,12 @@ function errorHandler(err) {
     console.log(err);
     throw err;
   }
+}
+
+function EscapeCharacter(value) {
+  if (typeof value !== 'string') {
+    return value;
+  }
+  value = value.split('\b').join('\\b');
+  return value;
 }

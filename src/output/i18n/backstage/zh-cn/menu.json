@@ -102,8 +102,9 @@
   "ManagerSettingAudit": "系统设置",
   "ManagerSettingGame": "游戏平台开关",
   "LoginRecord": "登入记录",
-  "LoginRecordMember": "登入记录",
+  "LoginRecordMember": "用户登入记录",
   "LoginRecordCross": "交叉查询",
+  "LoginRecordManager": "管理员登入记录",
   "OperationRecord": "操作记录",
   "OperationRecordAll": "操作记录",
   "OperationRecordSingle": "用户操作查询",
@@ -150,5 +151,6 @@
   "OrganizationTreeSearch": "组织体系查询",
   "PaymentChannelDepositFee": "充值手续费",
   "PaymentChannelDepositFeeEditor": "充值手续费编辑",
-  "ReportAgent": "代理报表"
+  "ReportAgent": "代理报表",
+  "ProviderLoginRecord": "系统商登入记录"
 }

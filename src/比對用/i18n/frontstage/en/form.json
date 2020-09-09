@@ -8,36 +8,37 @@
     "BankCardHolderName": "Cardholder can only enter once.",
     "email": "Please enter email",
     "emailCode": "Enter email verification code",
-    "confirmPassword": "Please enter the password again",
     "phone": "Please enter your mobile number",
     "validateCode": "Please enter the verification code",
+    "confirmPassword": "Please enter the password again",
+    "phoneCode": "Please enter SMS verification code",
+    "password": "Please enter your password",
     "nickname": "change nickname",
     "setPassword": "Setting login password",
-    "phoneCode": "Please enter SMS verification code",
     "PhoneOrEmail": "Phone / Email / Account",
-    "password": "Please enter your password",
     "account": "please enter your account",
     "newPhone": "enter new phone number",
     "newPassword": "enter a new login password",
-    "confirmFundsPassword": "Confirm fund password",
-    "newFundsPassword": "New fund password"
+    "newFundsPassword": "New fund password",
+    "confirmFundsPassword": "Confirm fund password"
   },
   "label": {
     "BranchBankName": "Branch name",
     "Bank": "bank",
+    "BankCardNumber": "Bank card number",
+    "BankCardHolder": "Cardholder",
     "PickState": "Select status",
     "confirmWithdrawal": "Confirmation of withdrawals",
-    "BankCardHolder": "Cardholder",
-    "BankCardNumber": "Bank card number",
-    "emailValidate": "Verify via Mailbox ",
     "phoneValidate": "Verify via Phone",
+    "emailValidate": "Verify via Mailbox ",
     "depositAmount": "Recharge amount",
     "BankName": "Remittance bank",
     "randomDecimal": "Random decimal",
+    "PhoneLogin": "SMS login",
     "EmailLogin": "Email Login",
     "PasswdLogin": "Password login",
-    "PhoneLogin": "SMS login",
-    "transferAmount": "Transfer amount"
+    "transferAmount": "Transfer amount",
+    "fundsPassword": ""
   },
   "button": {
     "Add": "Add",
@@ -45,11 +46,12 @@
     "inquire": "Inquire",
     "submitValidateCode": "verify",
     "submit": "Submit",
-    "refresh": "Refresh",
     "doSignIn": "Sign up now",
-    "doLogin": "log in immediately",
+    "refresh": "Refresh",
     "deposit": "Add credit",
+    "withdrawal": "Withdrawal",
     "transfer": "Transfer",
-    "withdrawal": "Withdrawal"
+    "doLogin": "log in immediately",
+    "reset": ""
   }
 }

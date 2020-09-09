@@ -1,10 +1,10 @@
 {
   "column": {
-    "AgentCreatedTime": "Created Time",
-    "AgentIdentityName": "Identity",
-    "Balance": "Balance",
     "MemberAccount": "Account",
+    "AgentIdentityName": "Identity",
     "ParentMemberAccount": "Parent",
+    "Balance": "Balance",
+    "AgentCreatedTime": "Created Time",
     "AgentLink": {
       "CreatedTime": "Created time"
     },
@@ -17,5 +17,10 @@
     "pickGameCategory": "Game Category"
   },
   "TeamActiveMemberCount": "Active number",
+  "TeamDeposit": "",
+  "TeamValidBetAmount": "",
+  "TeamStrategyRebateAmount": "",
+  "TeamPayoutAmount": "",
+  "TeamBenefitAmount": "",
   "TeamSettlementAmount": "Team profit and loss"
 }

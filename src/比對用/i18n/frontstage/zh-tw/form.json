@@ -19,7 +19,7 @@
     "account": "請輸入帳號",
     "newPhone": "請輸入新手機號碼",
     "newPassword": "請輸入新登錄密碼",
-    "newFundsPassword": "\b新資金密碼",
+    "newFundsPassword": "新資金密碼",
     "confirmFundsPassword": "確認資金密碼"
   },
   "label": {

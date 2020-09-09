@@ -5,8 +5,8 @@
     "2": "Add credit successfully.",
     "3": "Failure of recharge",
     "Failed": "Adding credit failed.",
-    "PendingReview": "In the process of adding credit",
     "Success": "Add credit successfully.",
+    "PendingReview": "In the process of adding credit",
     "Undefined": "Undefined"
   },
   "WithdrawalStateTypeEnum": {
@@ -15,21 +15,21 @@
     "2": "Out of payment",
     "3": "Paid out (automatic)",
     "4": "refuse",
+    "Undefined": "Undefined",
     "PendingReview": "Pending",
-    "Reject": "refuse",
     "Success": "Out of payment",
     "SuccessAuto": "The money has been transferred (automatically).",
-    "Undefined": "Undefined"
+    "Reject": "refuse"
   },
   "WalletTransferStateTypeEnum": {
     "0": "Undefined",
     "1": "Not completed",
     "2": "Completed",
     "3": "Transfer failed",
-    "Canceled": "Transfer failed",
-    "Finished": "Completed",
+    "Undefined": "Undefined",
     "NotFinished": "Not completed",
-    "Undefined": "Undefined"
+    "Finished": "Completed",
+    "Canceled": "Transfer failed"
   },
   "TppChannelEnum": {
     "0": "Undefined",
@@ -40,14 +40,14 @@
     "5": "Tpp-Jingdong Pay",
     "6": "Tpp-UnionPay QrCode",
     "7": "Tpp-Quick Pass",
-    "Alipay": "Tpp- Alipay",
-    "BankCard": "Bank card transfer",
-    "JingdongQrCode": "Tpp-Jingdong Pay",
-    "OnlinePayment": "Tpp-online payment",
     "Undefined": "Undefined",
-    "UnionPay": "Tpp-Quick Pass",
-    "UnionPayQrCode": "Tpp-UnionPay QrCode",
+    "BankCard": "Bank card transfer",
+    "OnlinePayment": "Tpp-online payment",
     "WeChatPay": "Tpp-WeChat payment",
+    "Alipay": "Tpp- Alipay",
+    "JingdongQrCode": "Tpp-Jingdong Pay",
+    "UnionPayQrCode": "Tpp-UnionPay QrCode",
+    "UnionPay": "Tpp-Quick Pass",
     "BqPay": "Tpp-cloud flash payment"
   },
   "BetOrderState": {
@@ -57,12 +57,12 @@
     "3": "Reverse order",
     "4": "already edited",
     "5": "Cancelled",
-    "Canceled": "Cancelled",
-    "Finished": "Paid",
-    "Modified": "already edited",
+    "Undefined": "Undefined",
     "NotFinished": "No payout",
+    "Finished": "Paid",
     "Reversed": "Reverse order",
-    "Undefined": "Undefined"
+    "Modified": "already edited",
+    "Canceled": "Cancelled"
   },
   "Agent": {
     "BenefitSharingSourceEnum": {
@@ -71,24 +71,27 @@
       "2": "Negative profit",
       "3": "Negative profit (uneven accounts)",
       "4": "Recharge",
-      "WinLose": "Negative profit",
+      "Undefined": "Undefined",
       "BetAviliable": "Valid bet",
-      "Deposit": "Recharge",
+      "WinLose": "Negative profit",
       "Lose": "Negative profit (uneven accounts)",
-      "Undefined": "Undefined"
+      "Deposit": "Recharge"
     },
     "SettlementCategoryEnum": {
+      "0": "",
       "1": "hour",
       "2": "day",
       "3": "week",
       "4": "half a month",
       "5": "month",
       "6": "season",
-      "Quarter": "season",
-      "Month": "month",
+      "Undefined": "",
       "Hour": "hour",
       "Day": "day",
-      "HalfMonth": "half a month"
+      "Week": "",
+      "HalfMonth": "half a month",
+      "Month": "month",
+      "Quarter": "season"
     }
   },
   "GameCategoryEnum": {
@@ -99,14 +102,14 @@
     "5": "Gaming",
     "6": "Poker",
     "7": "Fishing",
-    "Chess": "Poker",
-    "Fishing": "Fishing",
-    "Gaming": "Gaming",
     "Live": "Live",
-    "Lottery": "Lottery",
-    "Poker": "Poker",
     "Slot": "Slot",
+    "Lottery": "Lottery",
     "Sport": "Sport",
+    "Gaming": "Gaming",
+    "Chess": "Poker",
+    "Poker": "Poker",
+    "Fishing": "Fishing",
     "ESport": "ESport"
   }
 }

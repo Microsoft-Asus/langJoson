@@ -8,36 +8,37 @@
     "BankCardHolderName": "持卡人只能输入一次",
     "email": "请输入邮箱",
     "emailCode": "输入邮箱验证码",
-    "confirmPassword": "请再次输入密码",
     "phone": "请输入手机号码",
     "validateCode": "请输入验证码",
+    "confirmPassword": "请再次输入密码",
+    "phoneCode": "请输入短信验证码",
+    "password": "请输入登录密码",
     "nickname": "修改昵称",
     "setPassword": "设置登录密码",
-    "phoneCode": "请输入短信验证码",
     "PhoneOrEmail": "手机/邮箱/帐号",
-    "password": "请输入登录密码",
     "account": "请输入帐号",
     "newPhone": "请输入新手机号码",
     "newPassword": "请输入新登录密码",
-    "confirmFundsPassword": "确认资金密码",
-    "newFundsPassword": "新资金密码"
+    "newFundsPassword": "新资金密码",
+    "confirmFundsPassword": "确认资金密码"
   },
   "label": {
     "BranchBankName": "支行名称",
     "Bank": "银行",
+    "BankCardNumber": "银行卡号",
+    "BankCardHolder": "持卡人",
     "PickState": "选择状态",
     "confirmWithdrawal": "确认提款",
-    "BankCardHolder": "持卡人",
-    "BankCardNumber": "银行卡号",
-    "emailValidate": "邮箱验证",
     "phoneValidate": "手机验证",
+    "emailValidate": "邮箱验证",
     "depositAmount": "充值金额",
     "BankName": "汇款银行",
     "randomDecimal": "随机小数",
+    "PhoneLogin": "短信登录",
     "EmailLogin": "邮箱登录",
     "PasswdLogin": "密码登录",
-    "PhoneLogin": "短信登录",
-    "transferAmount": "转帐金额"
+    "transferAmount": "转帐金额",
+    "fundsPassword": ""
   },
   "button": {
     "Add": "添加",
@@ -45,11 +46,12 @@
     "inquire": "查询",
     "submitValidateCode": "发送验证码",
     "submit": "送出",
-    "refresh": "刷新",
     "doSignIn": "立即注册",
-    "doLogin": "立即登录",
+    "refresh": "刷新",
     "deposit": "立即充值",
+    "withdrawal": "提款",
     "transfer": "转帐",
-    "withdrawal": "提款"
+    "doLogin": "立即登录",
+    "reset": ""
   }
 }

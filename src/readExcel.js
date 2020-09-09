@@ -55,7 +55,7 @@ module.exports = function () {
               obj[k] = obj[k] || {};
               func(ar, obj[k]);
             } else {
-              obj[k] = (rowjson[key] || '').split('\\n').join('\n').split('\\"').join('"');
+              obj[k] = (rowjson[key] || '').split('\\n').join('\n').split('\\"').join("'").split('"').join("'");
             }
           };
           outputJson[key] = outputJson[key] || {};
@@ -96,13 +96,11 @@ module.exports = function () {
 
           return key + ':' + beforeVal.replace(replaceVal, value);
         };
+
         const modulePath = ['i18n', resolvePath[3], 'zh-tw', fileName];
         fs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
-          const jsonSort = {};
-          const KeyList = {};
-          KeyList.firstKey = '';
-          KeyList.secoundKey = '';
-          KeyList.thirdKey = '';
+          const KeyList = [];
+
           const logger = fs.createWriteStream(path.resolve(...resolvePath), {
             flags: 'a', // 'a' means appending (old data will be preserved)
           });
@@ -121,41 +119,21 @@ module.exports = function () {
               return;
             }
 
-            if (/^[\{]{1}$/.test(line)) {
+            if (/^[\{]{1}$/.test(line) || /[\}]{1}[\,]{0,1}$/.test(line)) {
               // console.log(line); //直接寫
             } else {
               const spaceCount = getSpaceCount(line);
               const writeLine = func(line);
-              if (spaceCount === spaceCondition[0]) {
-                // console.log(2, line);
+              const findIndex = spaceCondition.indexOf(spaceCount);
+              KeyList[findIndex] = String(line.split(':')[0].split('"').join('')).trim();
+              KeyList.length = findIndex + 1;
+              // console.log(KeyList, findIndex, '///', line);
 
-                KeyList.firstKey = String(line.split(':')[0].split('"').join('')).trim();
-
-                if (writeLine === true) {
-                  // console.log(line);//直接寫
-                } else {
-                  line = funcReplace(line, outputJson[langkey][writePath][KeyList.firstKey]);
-                  outputJson[langkey][writePath][KeyList.firstKey] = null;
-                }
-              } else if (spaceCount === spaceCondition[1]) {
-                KeyList.secoundKey = String(line.split(':')[0].split('"').join('')).trim();
-                if (writeLine === true) {
-                  // console.log(line);
-                } else {
-                  line = funcReplace(line, outputJson[langkey][writePath][KeyList.firstKey][KeyList.secoundKey]);
-                  outputJson[langkey][writePath][KeyList.firstKey][KeyList.secoundKey] = null;
-                }
-              } else if (spaceCount === spaceCondition[2]) {
-                KeyList.thirdKey = String(line.split(':')[0].split('"').join('')).trim();
-                if (writeLine === true) {
-                  // console.log(line);
-                } else {
-                  line = funcReplace(
-                    line,
-                    outputJson[langkey][writePath][KeyList.firstKey][KeyList.secoundKey][KeyList.thirdKey],
-                  );
-                  outputJson[langkey][writePath][KeyList.firstKey][KeyList.secoundKey][KeyList.thirdKey] = null;
-                }
+              if (writeLine === true) {
+                // console.log(line);//直接寫
+              } else {
+                // console.log('########', KeyList);
+                line = funcReplace(line, getDeepJson(outputJson[langkey][writePath], 0, KeyList));
               }
             }
 
@@ -226,4 +204,12 @@ function getSpaceCount(line) {
     }
   }
   return i;
+}
+
+function getDeepJson(obj, ind, arr) {
+  if (ind < arr.length - 1) {
+    return getDeepJson(obj[arr[ind]], ind + 1, arr);
+  }
+
+  return obj[arr[ind]];
 }

@@ -5,8 +5,8 @@
     "2": "充值成功",
     "3": "充值失败",
     "Failed": "充值失败",
-    "PendingReview": "充值中",
     "Success": "充值成功",
+    "PendingReview": "充值中",
     "Undefined": "未定义"
   },
   "WithdrawalStateTypeEnum": {
@@ -15,21 +15,21 @@
     "2": "已出款",
     "3": "已出款（自动）",
     "4": "拒绝",
+    "Undefined": "未定义",
     "PendingReview": "待处理",
-    "Reject": "拒绝",
     "Success": "已出款",
     "SuccessAuto": "已出款（自动）",
-    "Undefined": "未定义"
+    "Reject": "拒绝"
   },
   "WalletTransferStateTypeEnum": {
     "0": "未定义",
     "1": "尚未完成",
     "2": "已完成",
     "3": "转帐失败",
-    "Canceled": "转帐失败",
-    "Finished": "已完成",
+    "Undefined": "未定义",
     "NotFinished": "尚未完成",
-    "Undefined": "未定义"
+    "Finished": "已完成",
+    "Canceled": "转帐失败"
   },
   "TppChannelEnum": {
     "0": "未定义",
@@ -40,14 +40,14 @@
     "5": "Tpp-京东支付",
     "6": "Tpp-银联扫码",
     "7": "Tpp-云闪付",
-    "Alipay": "Tpp-支付宝",
-    "BankCard": "银行卡转帐",
-    "JingdongQrCode": "Tpp-京东支付",
-    "OnlinePayment": "Tpp-线上支付",
     "Undefined": "未定义",
-    "UnionPay": "Tpp-云闪付",
-    "UnionPayQrCode": "Tpp-银联扫码",
+    "BankCard": "银行卡转帐",
+    "OnlinePayment": "Tpp-线上支付",
     "WeChatPay": "Tpp-微信支付",
+    "Alipay": "Tpp-支付宝",
+    "JingdongQrCode": "Tpp-京东支付",
+    "UnionPayQrCode": "Tpp-银联扫码",
+    "UnionPay": "Tpp-云闪付",
     "BqPay": "Tpp-云闪付"
   },
   "BetOrderState": {
@@ -57,12 +57,12 @@
     "3": "反向单",
     "4": "已修改",
     "5": "已取消",
-    "Canceled": "已取消",
-    "Finished": "已派彩",
-    "Modified": "已修改",
+    "Undefined": "未定义",
     "NotFinished": "未派彩",
+    "Finished": "已派彩",
     "Reversed": "反向单",
-    "Undefined": "未定义"
+    "Modified": "已修改",
+    "Canceled": "已取消"
   },
   "Agent": {
     "BenefitSharingSourceEnum": {
@@ -71,24 +71,27 @@
       "2": "负盈利(平帐)",
       "3": "负盈利(不平帐)",
       "4": "充值",
-      "WinLose": "负盈利(平帐)",
+      "Undefined": "未定义",
       "BetAviliable": "有效投注",
-      "Deposit": "充值",
+      "WinLose": "负盈利(平帐)",
       "Lose": "负盈利(不平帐)",
-      "Undefined": "未定义"
+      "Deposit": "充值"
     },
     "SettlementCategoryEnum": {
+      "0": "",
       "1": "小时",
       "2": "日",
       "3": "周",
       "4": "半月",
       "5": "月",
       "6": "季",
-      "Quarter": "季",
-      "Month": "月",
+      "Undefined": "",
       "Hour": "小时",
       "Day": "日",
-      "HalfMonth": "半月"
+      "Week": "",
+      "HalfMonth": "半月",
+      "Month": "月",
+      "Quarter": "季"
     }
   },
   "GameCategoryEnum": {
@@ -99,14 +102,14 @@
     "5": "电竞游戏",
     "6": "棋牌游戏",
     "7": "捕鱼游戏",
-    "Chess": "棋牌游戏",
-    "Fishing": "捕鱼游戏",
-    "Gaming": "电竞游戏",
     "Live": "真人视讯",
-    "Lottery": "彩票游戏",
-    "Poker": "棋牌游戏",
     "Slot": "电子游艺",
+    "Lottery": "彩票游戏",
     "Sport": "体育游戏",
+    "Gaming": "电竞游戏",
+    "Chess": "棋牌游戏",
+    "Poker": "棋牌游戏",
+    "Fishing": "捕鱼游戏",
     "ESport": "电竞游戏"
   }
 }

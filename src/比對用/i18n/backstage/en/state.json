@@ -1,17 +1,17 @@
 {
   "managerAccount": {
-    "Undefined": "Undefined",
     "Enable": "Enable",
     "Freeze": "freeze",
     "Block": "blacklist",
-    "Disable": "Disable"
-  },
-  "memberAccount": {
-    "Enable": "Enable",
-    "Freeze": "freeze",
-    "Black": "Black single",
     "Disable": "Disable",
     "Undefined": "Undefined"
+  },
+  "memberAccount": {
+    "Freeze": "freeze",
+    "Undefined": "Undefined",
+    "Enable": "Enable",
+    "Black": "Black single",
+    "Disable": "Disable"
   },
   "MessageMarquee": {
     "0": "Undefined",
@@ -26,17 +26,17 @@
     "NotYet": "not yet",
     "Passed": "passed"
   },
-  "Enable": "Enable",
   "Disable": "Disable",
+  "Enable": "Enable",
   "DepositTransStateEnum": {
     "0": "Undefined",
     "1": "Pending",
     "2": "Successful",
     "3": "Failed",
-    "Unknow": "Undefined",
+    "Fail": "Failed",
     "Pending": "Pending",
     "Success": "Successful",
-    "Fail": "Failed"
+    "Unknow": "Undefined"
   },
   "WithdrawalStateEnum": {
     "0": "Undefined",
@@ -44,7 +44,6 @@
     "2": "Successful",
     "3": "Failed",
     "Unknow": "Undefined",
-    "Pending": "",
     "Success": "Successful",
     "Fail": "Fail"
   },
@@ -52,21 +51,6 @@
     "Pending": "Pending"
   },
   "Close": "Close",
-  "webState": {
-    "running": "",
-    "BlackList": "",
-    "Closed": ""
-  },
-  "betState": {
-    "NotOver": "",
-    "Over": "",
-    "Reversed": "",
-    "Modified": "",
-    "Canceled": ""
-  },
-  "Rebate": "",
-  "Wage": "",
-  "Dividend": "",
-  "DepositBonus": "",
-  "Commission": ""
+  "webState": {},
+  "betState": {}
 }

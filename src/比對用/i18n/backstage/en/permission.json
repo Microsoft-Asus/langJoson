@@ -1,9 +1,9 @@
 {
-  "execute": "carried out",
   "View": "View",
-  "Edit": "edit",
   "query": "Inquire",
   "export": "Output",
+  "execute": "carried out",
+  "Edit": "edit",
   "Delete": "delete",
   "Add": "New"
 }

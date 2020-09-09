@@ -2,8 +2,8 @@
   "deleteBankCardLabel": "删除银行卡",
   "registerForm": {
     "hasRegistered": [
-      "已有帳號, {0}",
-      "馬上登錄"
+      "已有账号, {0}",
+      "马上登录"
     ]
   },
   "UserNickNameEditor": {

@@ -100,8 +100,9 @@
   "ManagerSettingAudit": "System settings",
   "ManagerSettingGame": "Game platform switch",
   "LoginRecord": "Login Record",
-  "LoginRecordMember": "Login Search",
+  "LoginRecordMember": "Member Login Search",
   "LoginRecordCross": "Cross Search",
+  "LoginRecordManager": "Manager Login Search",
   "OperationRecord": "Operation record",
   "OperationRecordAll": "Operation record",
   "ThirdParty": "Third-party payment settings",
@@ -136,5 +137,6 @@
   "OrganizationTreeSearch": "Organization tree search",
   "PaymentChannelDepositFee": "Deposit fee",
   "PaymentChannelDepositFeeEditor": "Edit deposit fee",
-  "ReportAgent": "Report agent"
+  "ReportAgent": "Report agent",
+  "ProviderLoginRecord": "Provider login record"
 }

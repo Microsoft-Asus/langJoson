@@ -3,10 +3,10 @@
     "success": "registration success"
   },
   "sendCode": {
-    "PhoneSuccess": "The verification code has been sent to your phone {0}",
     "EmailSuccess": "The verification code has been sent to your mailbox {0}",
-    "PhonePlzCheck": "You have sent the verification code, please go to your phone to receive the verification code.",
-    "EmailPlzCheck": "You have sent the verification code, please go to your email address to receive the verification code."
+    "PhoneSuccess": "The verification code has been sent to your phone {0}",
+    "EmailPlzCheck": "You have sent the verification code, please go to your email address to receive the verification code.",
+    "PhonePlzCheck": "You have sent the verification code, please go to your phone to receive the verification code."
   },
   "NicknameChanged": {},
   "nicknameModified": {

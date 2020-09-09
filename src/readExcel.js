@@ -88,12 +88,16 @@ module.exports = function () {
         const funcReplace = function (line, value) {
           const arr = line.split(':');
           const key = arr[0];
-          const ar = arr.slice(1, arr.length).join(':').split('"');
-          ar[1] = value;
-          return key + ':' + ar.join('"');
-        };
 
-        fs.readFile(path.resolve(...resolvePath.slice(2, resolvePath.length)), 'utf8', function (err, data) {
+          const beforeVal = arr.slice(1, arr.length).join(':');
+          const replaceVal = [...beforeVal]
+            .slice([...beforeVal].indexOf('"') + 1, [...beforeVal].lastIndexOf('"'))
+            .join('');
+
+          return key + ':' + beforeVal.replace(replaceVal, value);
+        };
+        const modulePath = ['i18n', resolvePath[3], 'zh-tw', fileName];
+        fs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
           const jsonSort = {};
           const KeyList = {};
           KeyList.firstKey = '';

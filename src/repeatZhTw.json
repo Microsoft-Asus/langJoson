@@ -244,7 +244,7 @@
     "repeatid": [
       93,
       621,
-      885
+      884
     ],
     "repeatkey": [
       "backstage.common.blackList",
@@ -672,7 +672,7 @@
     "key": "\"工資\"",
     "repeatid": [
       239,
-      893
+      892
     ],
     "repeatkey": [
       "backstage.deal.AgentStrategyWage",
@@ -683,7 +683,7 @@
     "key": "\"傭金\"",
     "repeatid": [
       242,
-      896
+      895
     ],
     "repeatkey": [
       "backstage.deal.AgentStrategyCommission",
@@ -1180,7 +1180,7 @@
     "key": "\"帳號已凍結\"",
     "repeatid": [
       341,
-      905
+      904
     ],
     "repeatkey": [
       "backstage.errorCode.UsernameFronzen",
@@ -1191,7 +1191,7 @@
     "key": "\"驗證碼錯誤\"",
     "repeatid": [
       361,
-      903,
+      902,
       947,
       951
     ],
@@ -1276,7 +1276,7 @@
     "key": "\"管理者帳號\"",
     "repeatid": [
       456,
-      869
+      868
     ],
     "repeatkey": [
       "backstage.menu.ManagerAccount",
@@ -1324,7 +1324,7 @@
     "key": "\"管理者帳號編輯\"",
     "repeatid": [
       477,
-      872
+      871
     ],
     "repeatkey": [
       "backstage.menu.ManagerAccountEditor",
@@ -1335,7 +1335,7 @@
     "key": "\"角色編輯\"",
     "repeatid": [
       479,
-      876
+      875
     ],
     "repeatkey": [
       "backstage.menu.RolePermissionEditor",
@@ -1346,7 +1346,7 @@
     "key": "\"角色新增\"",
     "repeatid": [
       480,
-      875
+      874
     ],
     "repeatkey": [
       "backstage.menu.RolePermissionAdder",
@@ -1357,7 +1357,7 @@
     "key": "\"管理者帳號列表\"",
     "repeatid": [
       485,
-      870
+      869
     ],
     "repeatkey": [
       "backstage.menu.ManagerAccountTable",
@@ -1445,8 +1445,8 @@
     "key": "\"\"",
     "repeatid": [
       602,
-      860,
-      883
+      922,
+      923
     ],
     "repeatkey": [
       "backstage.report.settleCycle",
@@ -1467,7 +1467,7 @@
       648,
       652,
       747,
-      897,
+      896,
       1186,
       1193,
       1194,
@@ -1573,7 +1573,7 @@
       645,
       649,
       655,
-      923
+      882
     ],
     "repeatkey": [
       "backstage.state.DepositTransStateEnum.1",
@@ -1836,8 +1836,8 @@
   {
     "key": "\"轉帳下級\"",
     "repeatid": [
-      868,
-      918
+      867,
+      917
     ],
     "repeatkey": [
       "backstage.member.transferSubordinate",
@@ -1847,7 +1847,7 @@
   {
     "key": "\"未派彩\"",
     "repeatid": [
-      887,
+      886,
       1230,
       1238
     ],
@@ -1860,7 +1860,7 @@
   {
     "key": "\"已派彩\"",
     "repeatid": [
-      888,
+      887,
       1231,
       1236
     ],
@@ -1873,7 +1873,7 @@
   {
     "key": "\"反向單\"",
     "repeatid": [
-      889,
+      888,
       1232,
       1239
     ],
@@ -1886,7 +1886,7 @@
   {
     "key": "\"已修改\"",
     "repeatid": [
-      890,
+      889,
       1233,
       1237
     ],
@@ -1899,7 +1899,7 @@
   {
     "key": "\"已取消\"",
     "repeatid": [
-      891,
+      890,
       1234,
       1235
     ],
@@ -1912,7 +1912,7 @@
   {
     "key": "\"轉帳成功\"",
     "repeatid": [
-      899,
+      898,
       1359
     ],
     "repeatkey": [
@@ -1923,7 +1923,7 @@
   {
     "key": "\"轉帳失敗\"",
     "repeatid": [
-      900,
+      899,
       1207,
       1208,
       1360

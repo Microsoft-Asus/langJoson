@@ -115,7 +115,7 @@ module.exports = function () {
             }
           });
 
-          dataArray.forEach((line) => {
+          dataArray.forEach((line, index, data) => {
             if (line === '\n' || !line.trim()) {
               return;
             }
@@ -138,7 +138,10 @@ module.exports = function () {
               }
             }
 
-            logger.write(line + '\n');
+            if (index < data.length - 1) {
+              line = line + '\n';
+            }
+            logger.write(line);
           });
 
           logger.end();

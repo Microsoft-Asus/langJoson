@@ -78,7 +78,7 @@ module.exports = function () {
           return;
         }
 
-        const func = function (line) {
+        const funcRegex = function (line) {
           if (/[\"]{1,2}/.test(line.split(':')[1])) {
             return false;
           } else {
@@ -124,17 +124,40 @@ module.exports = function () {
               // console.log(line); //直接寫
             } else {
               const spaceCount = getSpaceCount(line);
-              const writeLine = func(line);
-              const findIndex = spaceCondition.indexOf(spaceCount);
-              KeyList[findIndex] = String(line.split(':')[0].split('"').join('')).trim();
-              KeyList.length = findIndex + 1;
-              // console.log(KeyList, findIndex, '///', line);
+              const writeLine = funcRegex(line);
 
+              const findIndex = spaceCondition.indexOf(spaceCount);
+              if (line.indexOf(':') != -1) {
+                KeyList[findIndex] = String(line.split(':')[0].split('"').join('')).trim();
+                KeyList.length = findIndex + 1;
+              }
+              const newValue = getDeepJson(outputJson[langkey][writePath], 0, KeyList);
+              const regxline = line.split(' ').join('');
               if (writeLine === true) {
-                // console.log(line);//直接寫
+                // console.log(regxline);
+
+                if (typeof newValue === 'object') {
+                  const regxLine = Object.keys(newValue).join('');
+
+                  if (/^[0-9]+$/.test(regxLine) && !/[\[]/.test(line) && !/[\]]/.test(line)) {
+                    const lineKey = Object.keys(newValue).find((arrKey) => {
+                      if (newValue[arrKey] !== false) {
+                        return true;
+                      }
+                    });
+
+                    const characterArray = [' '.repeat(spaceCount), '"', ...EscapeCharacter(newValue[lineKey])];
+                    characterArray.push(line.indexOf(',') < 0 ? '"' : '",');
+                    line = characterArray.join('').split('\n').join('');
+
+                    newValue[lineKey] = false;
+                  }
+                }
+
+                // console.log(line); //直接寫
               } else {
                 // console.log('########', KeyList);
-                line = funcReplace(line, getDeepJson(outputJson[langkey][writePath], 0, KeyList));
+                line = funcReplace(line, newValue);
               }
             }
 
@@ -147,6 +170,7 @@ module.exports = function () {
           logger.end();
         });
 
+        /** 如果不管排序直接全塞 ˋ上面註解掉走這裡就好 */
         // fs.writeFile(
         //   path.resolve(...resolvePath),
         //   JSON.stringify(outputJson[langkey][writePath], null, 2),

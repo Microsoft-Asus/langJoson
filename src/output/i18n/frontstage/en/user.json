@@ -92,8 +92,8 @@
     "BankCardTransfer": "BankCard Transfer",
     "depositAmountRange": "The single adding credit amount is between ${min} - ${max}.",
     "bankcardOrderRemind": [
-      "該收款銀行卡僅適用此次充值訂單，下次充值需重新提交充值信息！",
-      "請登錄網上銀行或手機銀行完成轉帳"
+      "This bank card is only applicable to this credit adding order, and next time you add credit, you need to re-submit the information for credit adding.",
+      "Please log in online banking or mobile banking to complete the transfer."
     ],
     "goCheckDepositRecord": "Please go to {0} to examine the information of the credit adding order.",
     "noneAnyPaymentWay": "None any payment way"

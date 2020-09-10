@@ -92,8 +92,8 @@
     "BankCardTransfer": "",
     "depositAmountRange": "",
     "bankcardOrderRemind": [
-      "該收款銀行卡僅適用此次充值訂單，下次充值需重新提交充值信息！",
-      "請登錄網上銀行或手機銀行完成轉帳"
+      "",
+      ""
     ],
     "goCheckDepositRecord": "",
     "noneAnyPaymentWay": ""

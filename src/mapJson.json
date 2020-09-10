@@ -6593,6 +6593,13 @@
     "zh-cn": "排行榜",
     "zh-tw": "排行榜"
   },
+  "frontstage.amy.AmyAboutContent.PopularPlatforms": {
+    "en": "Popular platforms",
+    "zh-cn": "熱門平台",
+    "zh-tw": "熱門平台",
+    "th": "",
+    "vi": ""
+  },
   "frontstage.api.code.100": {
     "en": "This account already exists",
     "th": "",

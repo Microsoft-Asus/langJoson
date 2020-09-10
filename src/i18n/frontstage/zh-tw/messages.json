@@ -34,5 +34,12 @@
   "depositByBankCard": {
     "fail": "目前無法入款，請 {0} 分鐘後再次嘗試"
   },
-  "cannotPlayGame": "目前無法進入遊戲"
+  "cannotPlayGame": "目前無法進入遊戲",
+  "contract": {
+    "signingError": "簽約時發生錯誤。"
+  },
+  "removeFailed": "刪除{0}失敗",
+  "removeSuccess": "成功刪除{0}。",
+  "addChildMemberSuccess": "已成功添加會員 {0}。",
+  "addChildMemberFailed": "無法新增會員或帳號已存在。"
 }

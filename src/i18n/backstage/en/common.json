@@ -192,5 +192,22 @@
   "addSucceed": "Added successfully",
   "item": "Item",
   "setting": "Setting",
-  "move": "Move"
+  "move": "Move",
+  "continue": "Continue",
+  "post": "Post",
+  "agentAccount": "Agent account",
+  "langs": {
+    "en": "English",
+    "zh-cn": "Simplified Chinese",
+    "zh-tw": "Traditional Chinese",
+    "th": "Thai"
+  },
+  "backToPreviousLevel": "Back to previous level",
+  "editSuccessMsg": "Edit success",
+  "sendSuccessfully": "Send successfully",
+  "saving": "... Saving",
+  "interruptSaving": "Interrupt saving",
+  "keyValue": "Key value",
+  "description": "Description",
+  "nodeSaveYetPleaseEdit": "Node save yet, please edit"
 }

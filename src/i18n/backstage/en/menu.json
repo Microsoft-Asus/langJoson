@@ -138,5 +138,19 @@
   "PaymentChannelDepositFee": "Deposit fee",
   "PaymentChannelDepositFeeEditor": "Edit deposit fee",
   "ReportAgent": "Report agent",
-  "ProviderLoginRecord": "Login record"
+  "ProviderLoginRecord": "Login record",
+  "SystemAccount": "System account",
+  "SystemAccountTable": "System account table",
+  "SystemAccountAdder": "System account adder",
+  "SystemAccountEditor": "System account editor",
+  "SystemRole": "System role",
+  "SystemRoleTable": "System role table",
+  "SystemRoleAdder": "System role adder",
+  "SystemRoleEditor": "System role editor",
+  "ProviderLetterTable": "Provider letter table",
+  "ProviderLetterAdder": "Provider letter adder",
+  "ManagerLetter": "Manager letter",
+  "ManagerLetterTable": "Manager letter table",
+  "BenefitSharingSetting": "Benefit sharing setting",
+  "BenefitSharingGroup": "Benefit sharing group"
 }

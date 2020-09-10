@@ -1,5 +1,7 @@
 {
   "dashboard": "仪表板",
+  "systemManagment": "系统商管理",
+  "siteManagement": "商家后台管理",
   "SiteOwnerAccount": "商家帐号管理",
   "home": "首页",
   "MemberManage": "用户管理",

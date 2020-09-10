@@ -74,5 +74,9 @@
   "switch": "switch",
   "fillInAmount": "Fill in the amount",
   "HandlingFee": "Handling fee",
-  "ActualAmount": "Actual amount"
+  "ActualAmount": "Actual amount",
+  "otherdate": "Other dates",
+  "today": "today",
+  "yesterday": "yesterday",
+  "measureword": {}
 }

@@ -38,5 +38,7 @@
   "allPeople": "入款人数",
   "AfterAudit": "剩余稽核点",
   "webmasterFee": "商户费用",
-  "webmasterRate": "商户费率"
+  "webmasterRate": "商户费率",
+  "depositToWallet": "存入钱包",
+  "deposits": "存入金额"
 }

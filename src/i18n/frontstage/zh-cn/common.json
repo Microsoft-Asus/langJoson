@@ -74,5 +74,9 @@
   "switch": "开关",
   "fillInAmount": "填单金额",
   "HandlingFee": "手续费",
-  "ActualAmount": "实际金额"
+  "ActualAmount": "实际金额",
+  "otherdate": "其他日期",
+  "today": "今天",
+  "yesterday": "昨天",
+  "measureword": {}
 }

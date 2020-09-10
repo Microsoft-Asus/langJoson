@@ -35,7 +35,6 @@
       "BetAmount": "Bet amount",
       "BetNumber": "Betting slip number (Transaction number)",
       "CreatedTime": "The date of placing bets",
-      "GameType": "Gaming platform",
       "ValidAmount": "Valid betting",
       "WinLossAmount": "Amount of winning or losing",
       "PayoutAmount": "Payout amount"
@@ -256,5 +255,7 @@
     "CenterToLc": "[Center] to [Longcheng]",
     "CenterToRgLottery": "[Center] to [RgLottery]",
     "CenterToSa": "[Center] to [Sa]"
-  }
+  },
+  "gamePlatform": "gaming platform",
+  "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state"
 }

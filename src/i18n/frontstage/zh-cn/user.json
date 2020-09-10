@@ -35,7 +35,6 @@
       "BetAmount": "投注金额",
       "BetNumber": "注单编号 (交易单号)",
       "CreatedTime": "下注日期",
-      "GameType": "游戏平台",
       "ValidAmount": "有效投注",
       "WinLossAmount": "输赢金额",
       "PayoutAmount": "派彩金额"
@@ -256,5 +255,7 @@
     "CenterToLc": "[中心钱包]转[龙城]",
     "CenterToRgLottery": "[中心钱包]转[RgLottery]",
     "CenterToSa": "[中心钱包]转[沙龙]"
-  }
+  },
+  "gamePlatform": "游戏平台",
+  "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state"
 }

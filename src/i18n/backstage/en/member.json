@@ -55,5 +55,8 @@
   "sameLevel": "Same level",
   "signingContract": "Signing Contract",
   "agentAuthority": "Agent authority",
-  "MemberUrlLink": "Member url link"
+  "MemberUrlLink": "Member url link",
+  "withdrawlFeeFreeCount": "Withdrawl fee free count",
+  "createSubordinate": "Create subordinate"
+
 }

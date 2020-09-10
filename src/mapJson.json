@@ -293,6 +293,97 @@
     "zh-cn": "删除该策略",
     "zh-tw": "刪除該策略"
   },
+  "backstage.agent.sharingItem": {
+    "en": "Sharing item",
+    "th": "",
+    "vi": "",
+    "zh-cn": "分润项目",
+    "zh-tw": "分潤項目"
+  },
+  "backstage.agent.BetAviliable": {
+    "en": "Bet available",
+    "th": "",
+    "vi": "",
+    "zh-cn": "有效投注",
+    "zh-tw": "有效投注"
+  },
+  "backstage.agent.WinLose": {
+    "en": "Win lose",
+    "th": "",
+    "vi": "",
+    "zh-cn": "负盈利(平帐)",
+    "zh-tw": "負盈利(平帳)"
+  },
+  "backstage.agent.Lose": {
+    "en": "Lose",
+    "th": "",
+    "vi": "",
+    "zh-cn": "负盈利(不平帐)",
+    "zh-tw": "負盈利(不平帳)"
+  },
+  "backstage.agent.Deposit": {
+    "en": "Deposit",
+    "th": "",
+    "vi": "",
+    "zh-cn": "充值",
+    "zh-tw": "充值"
+  },
+  "backstage.agent.AllUser": {
+    "en": "All user",
+    "th": "",
+    "vi": "",
+    "zh-cn": "用户",
+    "zh-tw": "用戶"
+  },
+  "backstage.agent.Member": {
+    "en": "Member",
+    "th": "",
+    "vi": "",
+    "zh-cn": "会员",
+    "zh-tw": "會員"
+  },
+  "backstage.agent.percent": {
+    "en": "Percent",
+    "th": "",
+    "vi": "",
+    "zh-cn": "比例",
+    "zh-tw": "比例"
+  },
+  "backstage.agent.nLevelBack": {
+    "en": "n level back",
+    "th": "",
+    "vi": "",
+    "zh-cn": "N级返佣",
+    "zh-tw": "N級返佣"
+  },
+  "backstage.agent.all": {
+    "en": "All",
+    "th": "",
+    "vi": "",
+    "zh-cn": "所有",
+    "zh-tw": "所有"
+  },
+  "backstage.agent.parentAgent": {
+    "en": "Parent agent",
+    "th": "",
+    "vi": "",
+    "zh-cn": "所属代理",
+    "zh-tw": "所屬代理"
+  },
+  "backstage.agent.changeToAgentHint": {
+    "en": "Change to agent hint",
+    "th": "",
+    "vi": "",
+    "zh-cn": "一旦升为代理就不能调降回会员",
+    "zh-tw": "一旦升為代理就不能調降回會員"
+  },
+  "backstage.agent.changeToAgent": {
+    "en": "Change to agent",
+    "th": "",
+    "vi": "",
+    "zh-cn": "升为代理",
+    "zh-tw": "升為代理"
+  },
   "backstage.common.message": {
     "en": "hello i18n !!",
     "th": "",
@@ -1651,6 +1742,111 @@
     "zh-cn": "移动",
     "zh-tw": "移動"
   },
+  "backstage.common.continue": {
+    "en": "Continue",
+    "th": "",
+    "vi": "",
+    "zh-cn": "继续",
+    "zh-tw": "繼續"
+  },
+  "backstage.common.post": {
+    "en": "Post",
+    "th": "",
+    "vi": "",
+    "zh-cn": "发布",
+    "zh-tw": "發布"
+  },
+  "backstage.common.agentAccount": {
+    "en": "Agent account",
+    "th": "",
+    "vi": "",
+    "zh-cn": "代理帐号",
+    "zh-tw": "代理帳號"
+  },
+  "backstage.common.langs.en": {
+    "en": "English",
+    "zh-cn": "英文",
+    "zh-tw": "英文",
+    "th": "",
+    "vi": ""
+  },
+  "backstage.common.langs.zh-cn": {
+    "en": "Simplified Chinese",
+    "zh-cn": "简体中文",
+    "zh-tw": "簡體中文",
+    "th": "",
+    "vi": ""
+  },
+  "backstage.common.langs.zh-tw": {
+    "en": "Traditional Chinese",
+    "zh-cn": "繁体中文",
+    "zh-tw": "繁體中文",
+    "th": "",
+    "vi": ""
+  },
+  "backstage.common.langs.th": {
+    "en": "Thai",
+    "zh-cn": "泰文",
+    "zh-tw": "泰文",
+    "th": "",
+    "vi": ""
+  },
+  "backstage.common.backToPreviousLevel": {
+    "en": "Back to previous level",
+    "zh-cn": "返回上层",
+    "zh-tw": "返回上層",
+    "th": "",
+    "vi": ""
+  },
+  "backstage.common.editSuccessMsg": {
+    "en": "Edit success",
+    "zh-cn": "修改成功",
+    "zh-tw": "修改成功",
+    "th": "",
+    "vi": ""
+  },
+  "backstage.common.sendSuccessfully": {
+    "en": "Send successfully",
+    "zh-cn": "成功送出",
+    "zh-tw": "成功送出",
+    "th": "",
+    "vi": ""
+  },
+  "backstage.common.saving": {
+    "en": "... Saving",
+    "zh-cn": "... 储存中",
+    "zh-tw": "... 儲存中",
+    "th": "",
+    "vi": ""
+  },
+  "backstage.common.interruptSaving": {
+    "en": "Interrupt saving",
+    "zh-cn": "中断储存",
+    "zh-tw": "中斷儲存",
+    "th": "",
+    "vi": ""
+  },
+  "backstage.common.keyValue": {
+    "en": "Key value",
+    "zh-cn": "键值",
+    "zh-tw": "鍵值",
+    "th": "",
+    "vi": ""
+  },
+  "backstage.common.description": {
+    "en": "Description",
+    "zh-cn": "描述",
+    "zh-tw": "描述",
+    "th": "",
+    "vi": ""
+  },
+  "backstage.common.nodeSaveYetPleaseEdit": {
+    "en": "Node save yet, please edit",
+    "zh-cn": "节点尚未储存，请进入编辑",
+    "zh-tw": "節點尚未儲存，請進入編輯",
+    "th": "",
+    "vi": ""
+  },
   "backstage.deal.ParentDeposit": {
     "en": "Parent deposit",
     "th": "",
@@ -1893,14 +2089,14 @@
     "en": "AVIA to Center",
     "th": "",
     "vi": "",
-    "zh-cn": "[泛亚电竞]转[中心钱包]\\t",
+    "zh-cn": "[泛亚电竞]转[中心钱包]",
     "zh-tw": "[泛亞電競]轉[中心錢包]"
   },
   "backstage.deal.centerToEg": {
     "en": "Center to EG",
     "th": "",
     "vi": "",
-    "zh-cn": "[中心钱包]转[EG]\\t",
+    "zh-cn": "[中心钱包]转[EG]",
     "zh-tw": "[中心錢包]轉[EG]"
   },
   "backstage.deal.egToCenter": {
@@ -2005,7 +2201,7 @@
     "en": "NWG to Center",
     "th": "",
     "vi": "",
-    "zh-cn": "[新世界棋牌]转[中心钱包]\\t",
+    "zh-cn": "[新世界棋牌]转[中心钱包]",
     "zh-tw": "[新世界棋牌]轉[中心錢包]"
   },
   "backstage.deal.centerToRmg": {
@@ -2019,14 +2215,14 @@
     "en": "RMG to Center",
     "th": "",
     "vi": "",
-    "zh-cn": "[大富翁棋牌]转[中心钱包]\\t",
+    "zh-cn": "[大富翁棋牌]转[中心钱包]",
     "zh-tw": "[大富翁棋牌]轉[中心錢包]"
   },
   "backstage.deal.centerToSa": {
     "en": "Center to SA",
     "th": "",
     "vi": "",
-    "zh-cn": "[中心钱包]转[沙龙]\\t",
+    "zh-cn": "[中心钱包]转[沙龙]",
     "zh-tw": "[中心錢包]轉[沙龍]"
   },
   "backstage.deal.saToCenter": {
@@ -2047,8 +2243,8 @@
     "en": "TM to Center",
     "th": "",
     "vi": "",
-    "zh-tw": "[天美棋牌]轉[中心錢包]",
-    "zh-cn": ""
+    "zh-cn": "[天美棋牌]转[中心钱包]",
+    "zh-tw": "[天美棋牌]轉[中心錢包]"
   },
   "backstage.deal.centerToVr": {
     "en": "Center to VR",
@@ -2331,7 +2527,7 @@
     "zh-tw": "存款總額"
   },
   "backstage.deposit.allFundAdjustment": {
-    "en": "Total fund adjustement",
+    "en": "Total fund adjustment",
     "th": "",
     "vi": "",
     "zh-cn": "资金调整总额",
@@ -2364,6 +2560,27 @@
     "vi": "",
     "zh-cn": "商户费率",
     "zh-tw": "商戶費率"
+  },
+  "backstage.deposit.AfterAudit": {
+    "en": "After audit",
+    "th": "",
+    "vi": "",
+    "zh-cn": "剩余稽核点",
+    "zh-tw": "剩餘稽核點"
+  },
+  "backstage.deposit.depositToWallet": {
+    "en": "Deposit to wallet",
+    "zh-cn": "存入钱包",
+    "zh-tw": "存入錢包",
+    "th": "",
+    "vi": ""
+  },
+  "backstage.deposit.deposits": {
+    "en": "Deposits",
+    "zh-cn": "存入金额",
+    "zh-tw": "存入金額",
+    "th": "",
+    "vi": ""
   },
   "backstage.error.confirmPassword": {
     "en": "Does not match the password",
@@ -2602,6 +2819,34 @@
     "vi": "",
     "zh-cn": "没有权限",
     "zh-tw": "沒有權限"
+  },
+  "backstage.errorCode.VipDepositAmountSortError": {
+    "en": "VIP deposit amount sort error",
+    "th": "",
+    "vi": "",
+    "zh-cn": "晋升存款金额 递增设定错误",
+    "zh-tw": "晉升存款金額 遞增設定錯誤"
+  },
+  "backstage.errorCode.VipValidBetAmountSortError": {
+    "en": "VIP valid bet amount sort error",
+    "th": "",
+    "vi": "",
+    "zh-cn": "晋升有效投注 递增设定错误",
+    "zh-tw": "晉升有效投注 遞增設定錯誤"
+  },
+  "backstage.errorCode.VipKeepVipCumulativeDepositSortError": {
+    "en": "VIP keep VIP cumulative deposit sort error",
+    "th": "",
+    "vi": "",
+    "zh-cn": "保级要求（月存款累积） 递增设定错误",
+    "zh-tw": "保级要求（月存款累积） 遞增設定錯誤"
+  },
+  "backstage.errorCode.VipDeleteSortError": {
+    "en": "VIP delete sort error",
+    "th": "",
+    "vi": "",
+    "zh-cn": "vip 删除顺序错误",
+    "zh-tw": "vip 刪除順序錯誤"
   },
   "backstage.manageWebsitePattern.WebsiteInfo": {
     "en": "Website Information",
@@ -3022,6 +3267,20 @@
     "vi": "",
     "zh-cn": "用户注册连结",
     "zh-tw": "用戶註冊連結"
+  },
+  "backstage.member.withdrawlFeeFreeCount": {
+    "en": "Withdrawl fee free count",
+    "th": "",
+    "vi": "",
+    "zh-cn": "日免费提款次数",
+    "zh-tw": "日免費提款次數"
+  },
+  "backstage.member.createSubordinate": {
+    "en": "Create subordinate",
+    "th": "",
+    "vi": "",
+    "zh-cn": "创建下级",
+    "zh-tw": "創建下級"
   },
   "backstage.memberAcccount.resetConfirmMessage": {
     "en": "Send a reset notification to {0}?",
@@ -3902,15 +4161,15 @@
     "en": "System management",
     "th": "",
     "vi": "",
-    "zh-tw": "系統商管理",
-    "zh-cn": ""
+    "zh-cn": "系统商管理",
+    "zh-tw": "系統商管理"
   },
   "backstage.menu.siteManagement": {
     "en": "Business management",
     "th": "",
     "vi": "",
-    "zh-tw": "商家後台管理",
-    "zh-cn": ""
+    "zh-cn": "商家后台管理",
+    "zh-tw": "商家後台管理"
   },
   "backstage.menu.ProviderLetter": {
     "en": "System Notification",
@@ -4058,6 +4317,104 @@
     "vi": "",
     "zh-cn": "登入记录",
     "zh-tw": "登入記錄"
+  },
+  "backstage.menu.SystemAccount": {
+    "en": "System account",
+    "th": "",
+    "vi": "",
+    "zh-cn": "管理者帐号",
+    "zh-tw": "管理者帳號"
+  },
+  "backstage.menu.SystemAccountTable": {
+    "en": "System account table",
+    "th": "",
+    "vi": "",
+    "zh-cn": "管理者帐号列表",
+    "zh-tw": "管理者帳號列表"
+  },
+  "backstage.menu.SystemAccountAdder": {
+    "en": "System account adder",
+    "th": "",
+    "vi": "",
+    "zh-cn": "管理者帐号新增",
+    "zh-tw": "管理者帳號新增"
+  },
+  "backstage.menu.SystemAccountEditor": {
+    "en": "System account editor",
+    "th": "",
+    "vi": "",
+    "zh-cn": "管理者帐号编辑",
+    "zh-tw": "管理者帳號編輯"
+  },
+  "backstage.menu.SystemRole": {
+    "en": "System role",
+    "th": "",
+    "vi": "",
+    "zh-cn": "角色与权限设置",
+    "zh-tw": "角色與權限設置"
+  },
+  "backstage.menu.SystemRoleTable": {
+    "en": "System role table",
+    "th": "",
+    "vi": "",
+    "zh-cn": "角色与权限设置列表",
+    "zh-tw": "角色與權限設置列表"
+  },
+  "backstage.menu.SystemRoleAdder": {
+    "en": "System role adder",
+    "th": "",
+    "vi": "",
+    "zh-cn": "角色新增",
+    "zh-tw": "角色新增"
+  },
+  "backstage.menu.SystemRoleEditor": {
+    "en": "System role editor",
+    "th": "",
+    "vi": "",
+    "zh-cn": "角色编辑",
+    "zh-tw": "角色編輯"
+  },
+  "backstage.menu.ProviderLetterTable": {
+    "en": "Provider letter table",
+    "th": "",
+    "vi": "",
+    "zh-cn": "系统公告列表",
+    "zh-tw": "系统公告列表"
+  },
+  "backstage.menu.ProviderLetterAdder": {
+    "en": "Provider letter adder",
+    "th": "",
+    "vi": "",
+    "zh-cn": "系统公告新增",
+    "zh-tw": "系统公告新增"
+  },
+  "backstage.menu.ManagerLetter": {
+    "en": "Manager letter",
+    "th": "",
+    "vi": "",
+    "zh-cn": "系统公告",
+    "zh-tw": "系統公告"
+  },
+  "backstage.menu.ManagerLetterTable": {
+    "en": "Manager letter table",
+    "th": "",
+    "vi": "",
+    "zh-cn": "系统公告列表",
+    "zh-tw": "系統公告列表"
+  },
+  "backstage.menu.BenefitSharingSetting": {
+    "en": "Benefit sharing setting",
+    "th": "",
+    "vi": "",
+    "zh-cn": "分润设置",
+    "zh-tw": "分潤設置"
+  },
+  "backstage.menu.BenefitSharingGroup": {
+    "en": "Benefit sharing group",
+    "th": "",
+    "vi": "",
+    "zh-cn": "群组列表",
+    "zh-tw": "群組列表"
   },
   "backstage.organizationTreeSearch.translateAgent": {
     "en": "Translate agent",
@@ -4213,12 +4570,33 @@
     "zh-cn": "新增",
     "zh-tw": "新增"
   },
-  "backstage.report.settleCycle": {
-    "en": "",
-    "zh-cn": "",
+  "backstage.permission.permissionList": {
+    "en": "Permission list",
+    "zh-cn": "权限列表",
+    "zh-tw": "權限列表",
     "th": "",
-    "vi": "",
-    "zh-tw": ""
+    "vi": ""
+  },
+  "backstage.permission.setPermissionCorrespondingUrl": {
+    "en": "Set permission corresponding URL",
+    "zh-cn": "设定权限对应网址",
+    "zh-tw": "設定權限對應網址",
+    "th": "",
+    "vi": ""
+  },
+  "backstage.permission.editPermissionCorrespondingApiUrl": {
+    "en": "Edit permission corresponding API URL",
+    "zh-cn": "编辑权限对应的API网址",
+    "zh-tw": "編輯權限對應的API網址",
+    "th": "",
+    "vi": ""
+  },
+  "backstage.permission.ifMultipleUrlCorrespondencePleaseUseRegularExpression ": {
+    "en": "if multiple URL correspondence, please use Regular expression ",
+    "zh-cn": "多网址对应时，请使用正规表达式",
+    "zh-tw": "多網址對應時,請使用正則表達式",
+    "th": "",
+    "vi": ""
   },
   "backstage.report.settleQuarter": {
     "en": "Quarterly settlement",
@@ -4570,6 +4948,13 @@
     "zh-cn": "未定义",
     "zh-tw": "未定義"
   },
+  "backstage.state.WithdrawalStateEnum.Pending": {
+    "en": "Pending",
+    "th": "",
+    "vi": "",
+    "zh-cn": "待审核",
+    "zh-tw": "待審核"
+  },
   "backstage.state.WithdrawalStateEnum.Success": {
     "en": "Successful",
     "th": "",
@@ -4597,6 +4982,97 @@
     "vi": "",
     "zh-cn": "关闭",
     "zh-tw": "關閉"
+  },
+  "backstage.state.webState.running": {
+    "en": "Running",
+    "th": "",
+    "vi": "",
+    "zh-cn": "营运中",
+    "zh-tw": "營運中"
+  },
+  "backstage.state.webState.BlackList": {
+    "en": "Black list",
+    "th": "",
+    "vi": "",
+    "zh-cn": " 黑名单",
+    "zh-tw": "黑名單"
+  },
+  "backstage.state.webState.Closed": {
+    "en": "Closed",
+    "th": "",
+    "vi": "",
+    "zh-cn": "已关闭",
+    "zh-tw": "已關閉"
+  },
+  "backstage.state.betState.NotOver": {
+    "en": "Not over",
+    "th": "",
+    "vi": "",
+    "zh-cn": "未派彩",
+    "zh-tw": "未派彩"
+  },
+  "backstage.state.betState.Over": {
+    "en": "Over",
+    "th": "",
+    "vi": "",
+    "zh-cn": "已派彩",
+    "zh-tw": "已派彩"
+  },
+  "backstage.state.betState.Reversed": {
+    "en": "Reversed",
+    "th": "",
+    "vi": "",
+    "zh-cn": "反向单",
+    "zh-tw": "反向單"
+  },
+  "backstage.state.betState.Modified": {
+    "en": "Modified",
+    "th": "",
+    "vi": "",
+    "zh-cn": "已修改",
+    "zh-tw": "已修改"
+  },
+  "backstage.state.betState.Canceled": {
+    "en": "Canceled",
+    "th": "",
+    "vi": "",
+    "zh-cn": "已取消",
+    "zh-tw": "已取消"
+  },
+  "backstage.state.Rebate": {
+    "en": "Rebate",
+    "th": "",
+    "vi": "",
+    "zh-cn": "返水",
+    "zh-tw": "返水"
+  },
+  "backstage.state.Wage": {
+    "en": "Wage",
+    "th": "",
+    "vi": "",
+    "zh-cn": "工资",
+    "zh-tw": "工資"
+  },
+  "backstage.state.Dividend": {
+    "en": "Dividend",
+    "th": "",
+    "vi": "",
+    "zh-cn": "分红",
+    "zh-tw": "分紅"
+  },
+  "backstage.state.DepositBonus": {
+    "en": "Deposit bonus",
+    "th": "",
+    "vi": "",
+    "zh-cn": "充值奖励",
+    "zh-tw": "充值獎勵"
+  },
+  "backstage.state.Commission": {
+    "en": "Commission",
+    "th": "",
+    "vi": "",
+    "zh-cn": "佣金",
+    "zh-tw": "傭金"
   },
   "backstage.system.openTime": {
     "en": "Opening time",
@@ -5208,7 +5684,7 @@
     "zh-tw": "將圖片拖放到這裡"
   },
   "backstage.system.searchCategory": {
-    "en": "",
+    "en": "Search category",
     "th": "",
     "vi": "",
     "zh-cn": "查询类别",
@@ -5362,7 +5838,7 @@
     "zh-tw": "遊戲損益"
   },
   "backstage.system.reward": {
-    "en": "",
+    "en": "Reward",
     "th": "",
     "vi": "",
     "zh-cn": "总反水",
@@ -5802,6 +6278,195 @@
     "zh-cn": "全部",
     "zh-tw": "全部"
   },
+  "backstage.system.resetQRcode": {
+    "en": "Reset QRcode",
+    "th": "",
+    "vi": "",
+    "zh-cn": "重置QR码",
+    "zh-tw": "重置QR碼"
+  },
+  "backstage.system.isEnableGoogleAuth": {
+    "en": "Enable google auth",
+    "th": "",
+    "vi": "",
+    "zh-cn": "是否启用双重验证",
+    "zh-tw": "是否啟用雙重驗證"
+  },
+  "backstage.system.subject": {
+    "en": "Subject",
+    "th": "",
+    "vi": "",
+    "zh-cn": "主题",
+    "zh-tw": "主題"
+  },
+  "backstage.system.postFor": {
+    "en": "postFor",
+    "th": "",
+    "vi": "",
+    "zh-cn": "发布对象",
+    "zh-tw": "發布對象"
+  },
+  "backstage.system.allManagers": {
+    "en": "All managers",
+    "th": "",
+    "vi": "",
+    "zh-cn": "全部商家",
+    "zh-tw": "全部商家"
+  },
+  "backstage.system.singleManagers": {
+    "en": "Single managers",
+    "th": "",
+    "vi": "",
+    "zh-cn": "单一商家",
+    "zh-tw": "單一商家"
+  },
+  "backstage.system.loginSetting": {
+    "en": "Login setting",
+    "th": "",
+    "vi": "",
+    "zh-cn": "登入设置",
+    "zh-tw": "登入設置"
+  },
+  "backstage.system.auditSetting": {
+    "en": "Audit setting",
+    "th": "",
+    "vi": "",
+    "zh-cn": "稽核设置",
+    "zh-tw": "稽核設置"
+  },
+  "backstage.system.activeSetting": {
+    "en": "Active setting",
+    "th": "",
+    "vi": "",
+    "zh-cn": "活跃人数设置",
+    "zh-tw": "活躍人數設置"
+  },
+  "backstage.system.agentName": {
+    "en": "Agent name",
+    "th": "",
+    "vi": "",
+    "zh-cn": "对应代理线",
+    "zh-tw": "對應代理線"
+  },
+  "backstage.system.groupPerson": {
+    "en": "Group person",
+    "th": "",
+    "vi": "",
+    "zh-cn": "群组人数",
+    "zh-tw": "群組人數"
+  },
+  "backstage.system.fundHint": {
+    "en": "Fund hint",
+    "th": "",
+    "vi": "",
+    "zh-cn": "请用半形逗号分隔帐号",
+    "zh-tw": "請用半形逗號分隔帳號"
+  },
+  "backstage.system.benefitContract": {
+    "en": "Benefit contract",
+    "th": "",
+    "vi": "",
+    "zh-cn": "分润/契约",
+    "zh-tw": "分潤/契約"
+  },
+  "backstage.system.transfer.Undefined": {
+    "en": "Undefined",
+    "th": "",
+    "vi": "",
+    "zh-cn": "未定义",
+    "zh-tw": "未定義"
+  },
+  "backstage.system.transfer.Transfering": {
+    "en": "Transfering",
+    "th": "",
+    "vi": "",
+    "zh-cn": "转帐中",
+    "zh-tw": "轉帳中"
+  },
+  "backstage.system.transfer.Success": {
+    "en": "Success",
+    "th": "",
+    "vi": "",
+    "zh-cn": "转帐成功",
+    "zh-tw": "轉帳成功"
+  },
+  "backstage.system.transfer.Fail": {
+    "en": "Fail",
+    "th": "",
+    "vi": "",
+    "zh-cn": "转帐失败",
+    "zh-tw": "轉帳失敗"
+  },
+  "backstage.system.loginMsg.success": {
+    "en": "Success",
+    "th": "",
+    "vi": "",
+    "zh-cn": "登入成功",
+    "zh-tw": "登入成功"
+  },
+  "backstage.system.loginMsg.fail": {
+    "en": "Fail",
+    "th": "",
+    "vi": "",
+    "zh-cn": "登入密码错误",
+    "zh-tw": "登入密碼錯誤"
+  },
+  "backstage.system.loginMsg.verifyError": {
+    "en": "Verify error",
+    "th": "",
+    "vi": "",
+    "zh-cn": "验证码错误",
+    "zh-tw": "驗證碼錯誤"
+  },
+  "backstage.system.loginMsg.accountDisable": {
+    "en": "Account disable",
+    "th": "",
+    "vi": "",
+    "zh-cn": "帐号已停用",
+    "zh-tw": "帳號已停用"
+  },
+  "backstage.system.loginMsg.accountFrozn": {
+    "en": "Account frozn",
+    "th": "",
+    "vi": "",
+    "zh-cn": "帐号已冻结",
+    "zh-tw": "帳號已凍結"
+  },
+  "backstage.system.loginMsg.errorFroznAccount": {
+    "en": "Error frozn account",
+    "th": "",
+    "vi": "",
+    "zh-cn": "密码/验证码错误并冻结此账号帐号",
+    "zh-tw": "密碼/驗證碼錯誤並凍結此賬號帳號"
+  },
+  "backstage.system.loginMsg.repeatLogin": {
+    "en": "repeatLogin",
+    "th": "",
+    "vi": "",
+    "zh-cn": "重复登入",
+    "zh-tw": "重複登入"
+  },
+  "backstage.system.loginMsg.blockedIP": {
+    "en": "Blocked IP",
+    "th": "",
+    "vi": "",
+    "zh-cn": "登入IP已被阻挡",
+    "zh-tw": "登入IP已被阻擋"
+  },
+  "backstage.system.announcing": {
+    "en": "Announcing",
+    "zh-cn": "广播中",
+    "zh-tw": "廣播中",
+    "th": "",
+    "vi": ""
+  },
+  "backstage.system.child": {
+    "en": "Child",
+    "zh-cn": "子层",
+    "zh-tw": "子層",
+    "th": "",
+    "vi": ""
+  },
   "backstage.widthdrawl.bank": {
     "en": "Withdrawal bank",
     "th": "",
@@ -5907,515 +6572,11 @@
     "zh-cn": "手续费",
     "zh-tw": "手續費"
   },
-  "backstage.agent.sharingItem": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "分润项目",
-    "zh-tw": "分潤項目",
-    "en": ""
-  },
-  "backstage.agent.BetAviliable": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "有效投注",
-    "zh-tw": "有效投注",
-    "en": ""
-  },
-  "backstage.agent.WinLose": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "负盈利(平帐)",
-    "zh-tw": "負盈利(平帳)",
-    "en": ""
-  },
-  "backstage.agent.Lose": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "负盈利(不平帐)",
-    "zh-tw": "負盈利(不平帳)",
-    "en": ""
-  },
-  "backstage.agent.Deposit": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "充值",
-    "zh-tw": "充值",
-    "en": ""
-  },
-  "backstage.agent.AllUser": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "用户",
-    "zh-tw": "用戶",
-    "en": ""
-  },
-  "backstage.agent.Member": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "会员",
-    "zh-tw": "會員",
-    "en": ""
-  },
-  "backstage.agent.percent": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "比例",
-    "zh-tw": "比例",
-    "en": ""
-  },
-  "backstage.agent.nLevelBack": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "N级返佣",
-    "zh-tw": "N級返佣",
-    "en": ""
-  },
-  "backstage.agent.all": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "所有",
-    "zh-tw": "所有",
-    "en": ""
-  },
-  "backstage.agent.parentAgent": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "所属代理",
-    "zh-tw": "所屬代理",
-    "en": ""
-  },
-  "backstage.agent.changeToAgentHint": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "一旦升为代理就不能调降回会员",
-    "zh-tw": "一旦升為代理就不能調降回會員",
-    "en": ""
-  },
-  "backstage.agent.changeToAgent": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "升为代理",
-    "zh-tw": "升為代理",
-    "en": ""
-  },
-  "backstage.common.continue": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "继续",
-    "zh-tw": "繼續",
-    "en": ""
-  },
-  "backstage.common.post": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "发布",
-    "zh-tw": "發布",
-    "en": ""
-  },
-  "backstage.common.agentAccount": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "代理帐号",
-    "zh-tw": "代理帳號",
-    "en": ""
-  },
-  "backstage.deposit.AfterAudit": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "剩余稽核点",
-    "zh-tw": "剩餘稽核點",
-    "en": ""
-  },
-  "backstage.errorCode.VipDepositAmountSortError": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "晋升存款金额 递增设定错误",
-    "zh-tw": "晉升存款金額 遞增設定錯誤",
-    "en": ""
-  },
-  "backstage.errorCode.VipValidBetAmountSortError": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "晋升有效投注 递增设定错误",
-    "zh-tw": "晉升有效投注 遞增設定錯誤",
-    "en": ""
-  },
-  "backstage.errorCode.VipKeepVipCumulativeDepositSortError": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "保级要求（月存款累积） 递增设定错误",
-    "zh-tw": "保级要求（月存款累积） 遞增設定錯誤",
-    "en": ""
-  },
-  "backstage.errorCode.VipDeleteSortError": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "vip 删除顺序错误",
-    "zh-tw": "vip 刪除順序錯誤",
-    "en": ""
-  },
-  "backstage.member.withdrawlFeeFreeCount": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "日免费提款次数",
-    "zh-tw": "日免費提款次數",
-    "en": ""
-  },
-  "backstage.member.createSubordinate": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "创建下级",
-    "zh-tw": "創建下級",
-    "en": ""
-  },
   "backstage.member.transferSubordinate": {
     "th": "",
     "vi": "",
     "zh-cn": "转帐下级",
     "zh-tw": "轉帳下級",
-    "en": ""
-  },
-  "backstage.menu.SystemAccount": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "管理者帐号",
-    "zh-tw": "管理者帳號",
-    "en": ""
-  },
-  "backstage.menu.SystemAccountTable": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "管理者帐号列表",
-    "zh-tw": "管理者帳號列表",
-    "en": ""
-  },
-  "backstage.menu.SystemAccountAdder": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "管理者帐号新增",
-    "zh-tw": "管理者帳號新增",
-    "en": ""
-  },
-  "backstage.menu.SystemAccountEditor": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "管理者帐号编辑",
-    "zh-tw": "管理者帳號編輯",
-    "en": ""
-  },
-  "backstage.menu.SystemRole": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "角色与权限设置",
-    "zh-tw": "角色與權限設置",
-    "en": ""
-  },
-  "backstage.menu.SystemRoleTable": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "角色与权限设置列表",
-    "zh-tw": "角色與權限設置列表",
-    "en": ""
-  },
-  "backstage.menu.SystemRoleAdder": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "角色新增",
-    "zh-tw": "角色新增",
-    "en": ""
-  },
-  "backstage.menu.SystemRoleEditor": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "角色编辑",
-    "zh-tw": "角色編輯",
-    "en": ""
-  },
-  "backstage.menu.ProviderLetterTable": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "系统公告列表",
-    "zh-tw": "系统公告列表",
-    "en": ""
-  },
-  "backstage.menu.ProviderLetterAdder": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "系统公告新增",
-    "zh-tw": "系统公告新增",
-    "en": ""
-  },
-  "backstage.menu.ManagerLetter": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "系统公告",
-    "zh-tw": "系統公告",
-    "en": ""
-  },
-  "backstage.menu.ManagerLetterTable": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "系统公告列表",
-    "zh-tw": "系統公告列表",
-    "en": ""
-  },
-  "backstage.menu.BenefitSharingSetting": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "分润设置",
-    "zh-tw": "分潤設置",
-    "en": ""
-  },
-  "backstage.menu.BenefitSharingGroup": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "群组列表",
-    "zh-tw": "群組列表",
-    "en": ""
-  },
-  "backstage.state.WithdrawalStateEnum.Pending": {
-    "th": "",
-    "vi": "",
-    "zh-tw": "待審核",
-    "en": "",
-    "zh-cn": ""
-  },
-  "backstage.state.webState.running": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "营运中",
-    "zh-tw": "營運中",
-    "en": ""
-  },
-  "backstage.state.webState.BlackList": {
-    "th": "",
-    "vi": "",
-    "zh-cn": " 黑名单",
-    "zh-tw": "黑名單",
-    "en": ""
-  },
-  "backstage.state.webState.Closed": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "已关闭",
-    "zh-tw": "已關閉",
-    "en": ""
-  },
-  "backstage.state.betState.NotOver": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "未派彩",
-    "zh-tw": "未派彩",
-    "en": ""
-  },
-  "backstage.state.betState.Over": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "已派彩",
-    "zh-tw": "已派彩",
-    "en": ""
-  },
-  "backstage.state.betState.Reversed": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "反向单",
-    "zh-tw": "反向單",
-    "en": ""
-  },
-  "backstage.state.betState.Modified": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "已修改",
-    "zh-tw": "已修改",
-    "en": ""
-  },
-  "backstage.state.betState.Canceled": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "已取消",
-    "zh-tw": "已取消",
-    "en": ""
-  },
-  "backstage.state.Rebate": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "返水",
-    "zh-tw": "返水",
-    "en": ""
-  },
-  "backstage.state.Wage": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "工资",
-    "zh-tw": "工資",
-    "en": ""
-  },
-  "backstage.state.Dividend": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "分红",
-    "zh-tw": "分紅",
-    "en": ""
-  },
-  "backstage.state.DepositBonus": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "充值奖励",
-    "zh-tw": "充值獎勵",
-    "en": ""
-  },
-  "backstage.state.Commission": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "佣金",
-    "zh-tw": "傭金",
-    "en": ""
-  },
-  "backstage.system.transfer.Undefined": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "未定义",
-    "zh-tw": "未定義",
-    "en": ""
-  },
-  "backstage.system.transfer.Transfering": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "转帐中",
-    "zh-tw": "轉帳中",
-    "en": ""
-  },
-  "backstage.system.transfer.Success": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "转帐成功",
-    "zh-tw": "轉帳成功",
-    "en": ""
-  },
-  "backstage.system.transfer.Fail": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "转帐失败",
-    "zh-tw": "轉帳失敗",
-    "en": ""
-  },
-  "backstage.system.loginMsg.success": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "登入成功",
-    "zh-tw": "登入成功",
-    "en": ""
-  },
-  "backstage.system.loginMsg.fail": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "登入密码错误",
-    "zh-tw": "登入密碼錯誤",
-    "en": ""
-  },
-  "backstage.system.loginMsg.verifyError": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "验证码错误",
-    "zh-tw": "驗證碼錯誤",
-    "en": ""
-  },
-  "backstage.system.loginMsg.accountDisable": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "帐号已停用",
-    "zh-tw": "帳號已停用",
-    "en": ""
-  },
-  "backstage.system.loginMsg.accountFrozn": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "帐号已冻结",
-    "zh-tw": "帳號已凍結",
-    "en": ""
-  },
-  "backstage.system.loginMsg.errorFroznAccount": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "密码/验证码错误并冻结此账号帐号",
-    "zh-tw": "密碼/驗證碼錯誤並凍結此賬號帳號",
-    "en": ""
-  },
-  "backstage.system.loginMsg.repeatLogin": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "重复登入",
-    "zh-tw": "重複登入",
-    "en": ""
-  },
-  "backstage.system.loginMsg.blockedIP": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "登入IP已被阻挡",
-    "zh-tw": "登入IP已被阻擋",
-    "en": ""
-  },
-  "backstage.system.resetQRcode": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "重置QR码",
-    "zh-tw": "重置QR碼",
-    "en": ""
-  },
-  "backstage.system.isEnableGoogleAuth": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "是否启用双重验证",
-    "zh-tw": "是否啟用雙重驗證",
-    "en": ""
-  },
-  "backstage.system.subject": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "主题",
-    "zh-tw": "主題",
-    "en": ""
-  },
-  "backstage.system.postFor": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "发布对象",
-    "zh-tw": "發布對象",
-    "en": ""
-  },
-  "backstage.system.allManagers": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "全部商家",
-    "zh-tw": "全部商家",
-    "en": ""
-  },
-  "backstage.system.singleManagers": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "单一商家",
-    "zh-tw": "單一商家",
-    "en": ""
-  },
-  "backstage.system.loginSetting": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "登入设置",
-    "zh-tw": "登入設置",
-    "en": ""
-  },
-  "backstage.system.auditSetting": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "稽核设置",
-    "zh-tw": "稽核設置",
-    "en": ""
-  },
-  "backstage.system.activeSetting": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "活跃人数设置",
-    "zh-tw": "活躍人數設置",
     "en": ""
   },
   "backstage.system.transferSubordinate": {
@@ -6425,47 +6586,12 @@
     "zh-tw": "轉帳下級",
     "en": ""
   },
-  "backstage.system.agentName": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "对应代理线",
-    "zh-tw": "對應代理線",
-    "en": ""
-  },
-  "backstage.system.groupPerson": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "群组人数",
-    "zh-tw": "群組人數",
-    "en": ""
-  },
-  "backstage.system.fundHint": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "请用半形逗号分隔帐号",
-    "zh-tw": "請用半形逗號分隔帳號",
-    "en": ""
-  },
-  "backstage.system.benefitContract": {
-    "th": "",
-    "vi": "",
-    "zh-cn": "分润/契约",
-    "zh-tw": "分潤/契約",
-    "en": ""
-  },
-  "backstage.deal.g": {
-    "zh-cn": "[中心钱包]转[AG]",
+  "backstage.common.WeChat": {
+    "zh-cn": "微信",
+    "zh-tw": "微信",
     "en": "",
     "th": "",
-    "vi": "",
-    "zh-tw": ""
-  },
-  "backstage.state.Cloase": {
-    "zh-cn": "",
-    "en": "",
-    "th": "",
-    "vi": "",
-    "zh-tw": ""
+    "vi": ""
   },
   "frontstage.adam.AdamESportHomeBlock.title": {
     "en": "{0} Gaming",
@@ -6578,6 +6704,139 @@
     "vi": "",
     "zh-cn": "团队盈亏",
     "zh-tw": "團隊盈虧"
+  },
+  "frontstage.agent.addAccount": {
+    "en": "Add Account",
+    "zh-cn": "手动开户",
+    "zh-tw": "手動開戶",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.addAccountByLink": {
+    "en": "New Link",
+    "zh-cn": "链结开户",
+    "zh-tw": "鏈結開戶",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.turnToAgent": {
+    "en": "Turn to agent",
+    "zh-cn": "转为代理",
+    "zh-tw": "轉為代理",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.linksMangement": {
+    "en": "Link management",
+    "zh-cn": "链结管理",
+    "zh-tw": "鏈結管理",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.contract.MemberAccount": {
+    "en": "Signed account",
+    "zh-cn": "签约帐号",
+    "zh-tw": "簽約帳號",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.ActiveMemberCountExpression": {
+    "en": "@:common.unlimit | {n} | {n}",
+    "zh-cn": "@:common.unlimit | {n} | {n}",
+    "zh-tw": "@:common.unlimit | {n} | {n}",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.ActiveMemberCount": {
+    "en": "Active number",
+    "zh-cn": "活跃人数",
+    "zh-tw": "活躍人數",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.BenefitSharingSource": {
+    "en": "Source of profit",
+    "zh-cn": "分润来源",
+    "zh-tw": "分潤來源",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.Proportion": {
+    "en": "Self-proportion",
+    "zh-cn": "自身比例",
+    "zh-tw": "自身比例",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.SettlementCycle": {
+    "en": "Billing cycle",
+    "zh-cn": "结算周期",
+    "zh-tw": "結算週期",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.SignedProportion": {
+    "en": "Signing ratio",
+    "zh-cn": "签约比例",
+    "zh-tw": "簽約比例",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.CreateLinkTipMessage": {
+    "en": "Only {0} links can be generated at most",
+    "zh-cn": "最多只能生成 {0} 組链结",
+    "zh-tw": "最多只能生成 {0} 組鏈結",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.contractReport.column.Amount": {
+    "en": "Amount issued",
+    "zh-cn": "发放金额",
+    "zh-tw": "發放金額",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.CurrentQuota": {
+    "en": "Calculation amount",
+    "zh-cn": "计算额度",
+    "zh-tw": "計算額度",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.sharingItem": {
+    "en": "Profit Sharing Project",
+    "zh-cn": "分润项目",
+    "zh-tw": "分潤項目",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.ContractProportion": {
+    "en": "Contract ratio",
+    "zh-cn": "合约比例",
+    "zh-tw": "合約比例",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.ContractReportAmount": {
+    "en": "Amount issued",
+    "zh-cn": "发放金额",
+    "zh-tw": "發放金額",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.BetInfo": {
+    "en": "Betting Information",
+    "zh-cn": "投注资讯",
+    "zh-tw": "投注資訊",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.agent.BetTaget": {
+    "en": "Game category/platform",
+    "zh-cn": "游戏分类/平台",
+    "zh-tw": "遊戲分類/平台",
+    "th": "",
+    "vi": ""
   },
   "frontstage.alex.AlexHomePage.winnercontent": {
     "en": "winner in {0}",
@@ -7173,6 +7432,27 @@
     "vi": "",
     "zh-cn": "实际金额",
     "zh-tw": "實際金額"
+  },
+  "frontstage.common.otherdate": {
+    "en": "Other dates",
+    "zh-cn": "其他日期",
+    "zh-tw": "其他日期",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.common.today": {
+    "en": "today",
+    "zh-cn": "今天",
+    "zh-tw": "今天",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.common.yesterday": {
+    "en": "yesterday",
+    "zh-cn": "昨天",
+    "zh-tw": "昨天",
+    "th": "",
+    "vi": ""
   },
   "frontstage.dd.sentence.ESport.0": {
     "en": "The betting page is delicate, the information is pithy, and the operation is simple, \n making placing bets simple and efficient.",
@@ -9246,13 +9526,6 @@
     "zh-cn": "下注日期",
     "zh-tw": "下注日期"
   },
-  "frontstage.user.betRecord.column.GameType": {
-    "en": "Gaming platform",
-    "th": "",
-    "vi": "",
-    "zh-cn": "游戏平台",
-    "zh-tw": "遊戲平台"
-  },
   "frontstage.user.betRecord.column.ValidAmount": {
     "en": "Valid betting",
     "th": "",
@@ -10338,6 +10611,20 @@
     "zh-cn": "[中心钱包]转[沙龙]",
     "zh-tw": "[中心錢包]轉[沙龙]"
   },
+  "frontstage.user.gamePlatform": {
+    "en": "gaming platform",
+    "zh-cn": "游戏平台",
+    "zh-tw": "遊戲平台",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.user.recordInfoNumTimeState": {
+    "en": "@:common.SerialNumber / @:common.time / @:common.state",
+    "zh-cn": "@:common.SerialNumber / @:common.time / @:common.state",
+    "zh-tw": "@:common.SerialNumber / @:common.time / @:common.state",
+    "th": "",
+    "vi": ""
+  },
   "frontstage.agent.TeamDeposit": {
     "th": "",
     "vi": "",
@@ -10384,6 +10671,13 @@
     "th": "",
     "vi": "",
     "zh-tw": "重置",
+    "en": "",
+    "zh-cn": ""
+  },
+  "frontstage.user.betRecord.column.GameType": {
+    "th": "",
+    "vi": "",
+    "zh-tw": "@:user.gamePlatform",
     "en": "",
     "zh-cn": ""
   },
@@ -10455,6 +10749,209 @@
     "vi": "",
     "zh-tw": "[中心錢包]轉[新世界棋牌]",
     "en": "",
+    "zh-cn": ""
+  },
+  "frontstage.agent.pickIdentity": {
+    "zh-tw": "選擇身份",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.agent.AddChildTipMessage": {
+    "zh-tw": "新添加會員的初始密碼為: {0}",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.agent.signWithMember": {
+    "zh-tw": "與 {0} 簽約",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.agent.GenerateLink": {
+    "zh-tw": "生成鏈結",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.agent.dashboard.TeamBalance": {
+    "zh-tw": "團隊餘額",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.agent.dashboard.title": {
+    "zh-tw": "今日團隊總覽",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.agent.dashboard.caption": {
+    "zh-tw": "統計數據與報表紀錄相同，統計區間為每日 {0}。",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.agent.dashboard.TeamDepositAmount": {
+    "zh-tw": "團隊充值",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.agent.dashboard.TeamWithdrawalAmount": {
+    "zh-tw": "團隊提款",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.agent.dashboard.TeamValidBetAmount": {
+    "zh-tw": "團隊投注",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.agent.dashboard.TeamBetMemberCount": {
+    "zh-tw": "投注人數",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.agent.dashboard.TeamRegistMemberCount": {
+    "zh-tw": "註冊人數",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.agent.dashboard.TeamMemberCount": {
+    "zh-tw": "團隊成員",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.common.tip": {
+    "zh-tw": "溫馨提醒",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.common.signed": {
+    "zh-tw": "已簽約",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.common.unsigned": {
+    "zh-tw": "未簽約",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.common.unlimit": {
+    "zh-tw": "無限制",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.common.sign": {
+    "zh-tw": "簽約",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.common.nextstep": {
+    "zh-tw": "下一步",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.common.SerialNumber": {
+    "zh-tw": "單號",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.common.time": {
+    "zh-tw": "時間",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.common.link": {
+    "zh-tw": "鏈結",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.common.measureword.people": {
+    "zh-tw": "{0} 人",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.messages.contract.signingError": {
+    "zh-tw": "簽約時發生錯誤。",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.messages.removeFailed": {
+    "zh-tw": "刪除{0}失敗",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.messages.removeSuccess": {
+    "zh-tw": "成功刪除{0}。",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.messages.addChildMemberSuccess": {
+    "zh-tw": "已成功添加會員 {0}。",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.messages.addChildMemberFailed": {
+    "zh-tw": "無法新增會員或帳號已存在。",
+    "en": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
+  },
+  "frontstage.user.recordInfoNumTime": {
+    "zh-tw": "@:common.SerialNumber / @:common.time",
+    "en": "",
+    "th": "",
+    "vi": "",
     "zh-cn": ""
   }
 }

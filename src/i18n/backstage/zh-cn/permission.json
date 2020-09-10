@@ -5,5 +5,9 @@
   "execute": "执行",
   "Edit": "编辑",
   "Delete": "删除",
-  "Add": "新增"
+  "Add": "新增",
+  "permissionList": "权限列表",
+  "setPermissionCorrespondingUrl": "设定权限对应网址",
+  "editPermissionCorrespondingApiUrl": "编辑权限对应的API网址",
+  "ifMultipleUrlCorrespondencePleaseUseRegularExpression ": "多网址对应时，请使用正规表达式"
 }

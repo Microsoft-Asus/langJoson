@@ -44,13 +44,13 @@
     "2": "出款成功",
     "3": "拒绝出款",
     "Unknow": "未定义",
+    "Pending": "待审核",
     "Success": "出款成功",
     "Fail": "拒绝"
   },
   "WithdrawlStateEnum": {
     "Pending": "待审核"
   },
-  "Cloase": "",
   "Close": "关闭",
   "webState": {
     "running": "营运中",

@@ -33,12 +33,12 @@
   "betRecord": {
     "column": {
       "CreatedTime": "下注日期",
-      "GameType": "遊戲平台",
       "BetNumber": "注单编号 (交易單號)",
       "BetAmount": "投注金額",
       "ValidAmount": "有效投注",
       "WinLossAmount": "輸贏金額",
-      "PayoutAmount": "派彩金額"
+      "PayoutAmount": "派彩金額",
+      "GameType": "@:user.gamePlatform"
     },
     "pickGamePlatform": "選擇平台"
   },
@@ -266,5 +266,8 @@
     "CenterToNwg": "[中心錢包]轉[新世界棋牌]",
     "CenterToSa": "[中心錢包]轉[沙龙]",
     "BqDeposit": "BQ入款"
-  }
+  },
+  "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state",
+  "recordInfoNumTime": "@:common.SerialNumber / @:common.time",
+  "gamePlatform": "遊戲平台"
 }

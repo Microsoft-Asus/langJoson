@@ -33,9 +33,12 @@
   "dailyAmountLimit": "Daily limit total amount",
   "deductionAudit": "Actual deduction audit",
   "allDeposit": "Total deposit",
-  "allFundAdjustment": "Total fund adjustement",
+  "allFundAdjustment": "Total fund adjustment",
   "allAmount": "Total deposit",
   "allPeople": "Number of deposits",
   "webmasterFee": "Webmaster fee",
-  "webmasterRate": "Webmaster Rate"
+  "webmasterRate": "Webmaster Rate",
+  "AfterAudit": "After audit",
+  "depositToWallet": "Deposit to wallet",
+  "deposits": "Deposits"
 }

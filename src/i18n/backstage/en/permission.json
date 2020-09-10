@@ -5,5 +5,9 @@
   "execute": "carried out",
   "Edit": "edit",
   "Delete": "delete",
-  "Add": "New"
+  "Add": "New",
+  "permissionList": "Permission list",
+  "setPermissionCorrespondingUrl": "Set permission corresponding URL",
+  "editPermissionCorrespondingApiUrl": "Edit permission corresponding API URL",
+  "ifMultipleUrlCorrespondencePleaseUseRegularExpression ": "if multiple URL correspondence, please use Regular expression "
 }

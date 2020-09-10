@@ -195,5 +195,20 @@
   "addSucceed": "新增成功",
   "item": "项目",
   "setting": "設定",
-  "move": "移动"
+  "move": "移动",
+  "WeChat": "微信",
+  "langs": {
+    "en": "英文",
+    "zh-cn": "简体中文",
+    "zh-tw": "繁体中文",
+    "th": "泰文"
+  },
+  "backToPreviousLevel": "返回上层",
+  "editSuccessMsg": "修改成功",
+  "sendSuccessfully": "成功送出",
+  "saving": "... 储存中",
+  "interruptSaving": "中断储存",
+  "keyValue": "键值",
+  "description": "描述",
+  "nodeSaveYetPleaseEdit": "节点尚未储存，请进入编辑"
 }

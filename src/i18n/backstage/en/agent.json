@@ -40,5 +40,18 @@
   "ifNotSetting": "If it is not set, you can apply for withdrawal without check after the amount is dispatched.",
   "pleaseInputBiggerThanPreVal": "Please input bigger than previous value",
   "decimalPointLimit": "Most to two decimal point",
-  "deleteThisStrategy": "Delete this strategy"
+  "deleteThisStrategy": "Delete this strategy",
+  "sharingItem": "Sharing item",
+  "BetAviliable": "Bet available",
+  "WinLose": "Win lose",
+  "Lose": "Lose",
+  "Deposit": "Deposit",
+  "AllUser": "All user",
+  "Member": "Member",
+  "percent": "Percent",
+  "nLevelBack": "n level back",
+  "all": "All",
+  "parentAgent": "Parent agent",
+  "changeToAgentHint": "Change to agent hint",
+  "changeToAgent": "Change to agent"
 }

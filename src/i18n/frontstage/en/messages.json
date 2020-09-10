@@ -34,5 +34,6 @@
   "depositByBankCard": {
     "fail": "Unable to deposit at this time, please try again in {0} minutes"
   },
-  "cannotPlayGame": "Can't enter the game right now"
+  "cannotPlayGame": "Can't enter the game right now",
+  "contract": {}
 }

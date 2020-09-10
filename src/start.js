@@ -241,7 +241,5 @@ function EscapeCharacter(value) {
   if (typeof value !== 'string') {
     return value;
   }
-  value = value.split('\b').join('\\b');
-  value = value.split('\t').join('\\t');
-  return value;
+  return value.split('\b').join('\\b').split('\t').join('\\t').split('\r').join('\\r');
 }

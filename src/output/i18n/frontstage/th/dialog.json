@@ -1,5 +1,5 @@
 {
-  "deleteBankCardLabel": "Delete bank card",
+  "deleteBankCardLabel": "",
   "registerForm": {
     "hasRegistered": [
       "已有帳號, {0}",
@@ -7,6 +7,6 @@
     ]
   },
   "UserNickNameEditor": {
-    "title": "change nickname"
+    "title": ""
   }
 }

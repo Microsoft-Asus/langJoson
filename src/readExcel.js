@@ -9,7 +9,7 @@ module.exports = function () {
   console.log('readExcelJS');
 
   const dirPath = JSON.parse(fs.readFileSync('dirPath.json', 'utf8'));
-  const langList = JSON.parse(fs.readFileSync('langList.json', 'utf8'));
+  const langList = ['zh-cn', 'zh-tw', 'en', 'th', 'vi'];
 
   /** 預先輸出資料夾 */
   const oupputPath = path.resolve('.', 'output');

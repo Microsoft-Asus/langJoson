@@ -1,57 +1,57 @@
 {
   "managerAccount": {
-    "Undefined": "Undefined",
-    "Enable": "Enable",
-    "Freeze": "freeze",
-    "Block": "blacklist",
-    "Disable": "Disable"
+    "Undefined": "",
+    "Enable": "",
+    "Freeze": "",
+    "Block": "",
+    "Disable": ""
   },
   "memberAccount": {
-    "Enable": "Enable",
-    "Freeze": "freeze",
-    "Black": "Black single",
-    "Disable": "Disable",
-    "Undefined": "Undefined"
+    "Enable": "",
+    "Freeze": "",
+    "Black": "",
+    "Disable": "",
+    "Undefined": ""
   },
   "MessageMarquee": {
-    "0": "Undefined",
-    "1": "Enable",
-    "2": "Disable",
-    "Undefined": "Undefined",
-    "Enable": "Enable",
-    "Disable": "Disable"
+    "0": "",
+    "1": "",
+    "2": "",
+    "Undefined": "",
+    "Enable": "",
+    "Disable": ""
   },
   "Promotions": {
-    "Actived": "actived",
-    "NotYet": "not yet",
-    "Passed": "passed"
+    "Actived": "",
+    "NotYet": "",
+    "Passed": ""
   },
-  "Enable": "Enable",
-  "Disable": "Disable",
+  "Enable": "",
+  "Disable": "",
   "DepositTransStateEnum": {
-    "0": "Undefined",
-    "1": "Pending",
-    "2": "Successful",
-    "3": "Failed",
-    "Unknow": "Undefined",
-    "Pending": "Pending",
-    "Success": "Successful",
-    "Fail": "Failed"
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": "",
+    "Unknow": "",
+    "Pending": "",
+    "Success": "",
+    "Fail": ""
   },
   "WithdrawalStateEnum": {
-    "0": "Undefined",
-    "1": "Pending",
-    "2": "Successful",
-    "3": "Failed",
-    "Unknow": "Undefined",
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": "",
+    "Unknow": "",
     "Pending": "",
-    "Success": "Successful",
-    "Fail": "Fail"
+    "Success": "",
+    "Fail": ""
   },
   "WithdrawlStateEnum": {
-    "Pending": "Pending"
+    "Pending": ""
   },
-  "Close": "Close",
+  "Close": "",
   "webState": {
     "running": "",
     "BlackList": "",

@@ -1,26 +1,26 @@
 {
   "column": {
-    "MemberAccount": "Account",
-    "AgentIdentityName": "Identity",
-    "ParentMemberAccount": "Parent",
-    "Balance": "Balance",
-    "AgentCreatedTime": "Created Time",
+    "MemberAccount": "",
+    "AgentIdentityName": "",
+    "ParentMemberAccount": "",
+    "Balance": "",
+    "AgentCreatedTime": "",
     "AgentLink": {
-      "CreatedTime": "Created time"
+      "CreatedTime": ""
     },
-    "RegisterCount": "Registered number"
+    "RegisterCount": ""
   },
   "common": {
-    "memberNotExist": "The member you are trying to access does not exist"
+    "memberNotExist": ""
   },
   "betRecord": {
-    "pickGameCategory": "Game Category"
+    "pickGameCategory": ""
   },
-  "TeamActiveMemberCount": "Active number",
+  "TeamActiveMemberCount": "",
   "TeamDeposit": "",
   "TeamValidBetAmount": "",
   "TeamStrategyRebateAmount": "",
   "TeamPayoutAmount": "",
   "TeamBenefitAmount": "",
-  "TeamSettlementAmount": "Team profit and loss"
+  "TeamSettlementAmount": ""
 }

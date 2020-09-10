@@ -1,10 +1,7 @@
 {
   "deleteBankCardLabel": "",
   "registerForm": {
-    "hasRegistered": [
-      "已有帳號, {0}",
-      "馬上登錄"
-    ]
+    "hasRegistered": []
   },
   "UserNickNameEditor": {
     "title": ""

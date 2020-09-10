@@ -5289,7 +5289,8 @@
     "vi": "",
     "zh-cn": "管理端使用域名",
     "zh-tw": "管理端使用域名",
-    "rowid": 667  },
+    "rowid": 667
+  },
   {
     "key": "backstage.system.backstageAccount",
     "en": "background manage account",
@@ -5409,7 +5410,7 @@
   },
   {
     "key": "backstage.system.quarterInterval",
-    "ef": "Quarter interval",
+    "en": "Quarter interval",
     "th": "",
     "vi": "",
     "zh-cn": "季区间",
@@ -5436,10 +5437,10 @@
   },
   {
     "key": "backstage.system.settleState",
-    "en": "SettlEment status",
+    "en": "Settlement status",
     "th": "",
     "vi": "",
-    "zh-cn": "结算瀶态",
+    "zh-cn": "结算状态",
     "zh-tw": "結算狀態",
     "rowid": 684
   },
@@ -5570,7 +5571,7 @@
     "rowid": 698
   },
   {
-    "key": "backstage.3ystem.platformCode",
+    "key": "backstage.system.platformCode",
     "en": "platform Code",
     "th": "",
     "vi": "",
@@ -8137,190 +8138,190 @@
   {
     "key": "frontstage.dd.sentence.ESport.0",
     "en": "The betting page is delicate, the information is pithy, and the operation is simple, \n making placing bets simple and efficient.",
-    "th": "投注界面柔美、信息簡潔、操作簡單<br />讓投注變得簡單高效",
-    "vi": "投注界面柔美、信息簡潔、操作簡單<br />讓投注變得簡單高效",
     "zh-cn": "投注界面柔美、信息简洁、操作简单\n让投注变得简单高效",
     "zh-tw": "投注界面柔美、信息簡潔、操作簡單<br />讓投注變得簡單高效",
+    "th": "",
+    "vi": "",
     "rowid": 1025
   },
   {
     "key": "frontstage.dd.sentence.ESport.1",
     "en": "There are plenty handicaps, with more than 50 special handicaps \n allowing you to enjoy a unique betting experience.",
-    "th": "盤口豐富，超過50種特殊盤口<br />讓你享受獨特的投注體驗",
-    "vi": "盤口豐富，超過50種特殊盤口<br />讓你享受獨特的投注體驗",
     "zh-cn": "盘口丰富，超过50种特殊盘口\n让你享受独特的投注体验",
     "zh-tw": "盤口豐富，超過50種特殊盤口<br />讓你享受獨特的投注體驗",
+    "th": "",
+    "vi": "",
     "rowid": 1026
   },
   {
     "key": "frontstage.dd.sentence.ESport.2",
     "en": "The awesome and cool betting interface with various betting methods \n is the most mature betting platform in Asia.",
-    "th": "超炫酷投注界面，投注玩法多樣<br />亞洲最成熟投注平台",
-    "vi": "超炫酷投注界面，投注玩法多樣<br />亞洲最成熟投注平台",
     "zh-cn": "超炫酷投注界面，投注玩法多样\n亚洲最成熟投注平台",
     "zh-tw": "超炫酷投注界面，投注玩法多樣<br />亞洲最成熟投注平台",
+    "th": "",
+    "vi": "",
     "rowid": 1027
   },
   {
     "key": "frontstage.dd.sentence.ESport.3",
     "en": "European licenses, hottest and most complete eSports and \n all kinds of eSports competitions.",
-    "th": "歐洲牌照 熱門最全電子競技<br />競技賽事 應有盡有",
-    "vi": "歐洲牌照 熱門最全電子競技<br />競技賽事 應有盡有",
     "zh-cn": "欧洲牌照 热门最全电子竞技\n竞技赛事 应有尽有",
     "zh-tw": "歐洲牌照 熱門最全電子競技<br />競技賽事 應有盡有",
+    "th": "",
+    "vi": "",
     "rowid": 1028
   },
   {
     "key": "frontstage.dd.sentence.sport.0",
     "en": "With diversified betting, there are many sport competitions that you can place bets during the game. \n With super high betting odds, you can win a lot of prize money.",
-    "th": "多樣化投注 超多賽事滾球<br/>超高賠率，贏到手軟",
-    "vi": "多樣化投注 超多賽事滾球<br/>超高賠率，贏到手軟",
     "zh-cn": "多样化投注 超多赛事滚球\n超高赔率，赢到手软",
     "zh-tw": "多樣化投注 超多賽事滾球<br/>超高賠率，贏到手軟",
+    "th": "",
+    "vi": "",
     "rowid": 1029
   },
   {
     "key": "frontstage.dd.sentence.sport.1",
     "en": "Plenty handicaps and compensation make betting more flexible, \n and tens of thousands of sports competitions with various handicaps for you to choose.",
-    "th": "盤口多 賠付款 讓投注更靈活<br/>數萬賽事多種盤口，供您選擇",
-    "vi": "盤口多 賠付款 讓投注更靈活<br/>數萬賽事多種盤口，供您選擇",
     "zh-cn": "盘口多 赔付款 让投注更灵活\n数万赛事多种盘口，供您选择",
     "zh-tw": "盤口多 賠付款 讓投注更靈活<br/>數萬賽事多種盤口，供您選擇",
+    "th": "",
+    "vi": "",
     "rowid": 1030
   },
   {
     "key": "frontstage.dd.sentence.sport.2",
     "en": "Plenty betting methods, such as handicaps, big and small, half-time and whole game, and mixed clearance, \n allow you to place bets while watching the game.",
-    "th": "讓球、大小、半全場、混合過關等豐富競猜玩法<br/>邊看比賽邊投注",
-    "vi": "讓球、大小、半全場、混合過關等豐富競猜玩法<br/>邊看比賽邊投注",
     "zh-cn": "让球、大小、半全场、混合过关等丰富竞猜玩法\n边看比赛边投注",
     "zh-tw": "讓球、大小、半全場、混合過關等豐富競猜玩法<br/>邊看比賽邊投注",
+    "th": "",
+    "vi": "",
     "rowid": 1031
   },
   {
     "key": "frontstage.dd.sentence.sport.3",
     "en": "Hong Kong style handicap, Asian style handicap and virtual sports to maximize your betting profit, \n and with various handicap options, there is always one suitable for you.",
-    "th": "香港盤 亞洲盤 虛擬運動 讓您的投注盈利最大化<br/>多種盤口選擇，總有一款適合您",
-    "vi": "香港盤 亞洲盤 虛擬運動 讓您的投注盈利最大化<br/>多種盤口選擇，總有一款適合您",
     "zh-cn": "香港盘 亚洲盘 虚拟运动 让您的投注盈利最大化\n多种盘口选择，总有一款适合您",
     "zh-tw": "香港盤 亞洲盤 虛擬運動 讓您的投注盈利最大化<br/>多種盤口選擇，總有一款適合您",
+    "th": "",
+    "vi": "",
     "rowid": 1032
   },
   {
     "key": "frontstage.dd.sentence.sport.4",
     "en": "Provide you with the most complete and hottest sport betting platform in the cyberspace. Let you enjoy fast bettings on hot games, extremely high betting odds and extremely fast compensation from the platform, so you can place bets without worry.",
-    "th": "為您提供全網最全最熱的體育投注平台，盡享熱門賽事快速投注、極高賽事賠率，平台極速賠付，投注無憂。",
-    "vi": "為您提供全網最全最熱的體育投注平台，盡享熱門賽事快速投注、極高賽事賠率，平台極速賠付，投注無憂。",
     "zh-cn": "为您提供全网最全最热的体育投注平台，尽享热门赛事快速投注、极高赛事赔率，平台极速赔付，投注无忧。",
     "zh-tw": "為您提供全網最全最熱的體育投注平台，盡享熱門賽事快速投注、極高賽事賠率，平台極速賠付，投注無憂。",
+    "th": "",
+    "vi": "",
     "rowid": 1033
   },
   {
     "key": "frontstage.dd.sentence.poker.0",
     "en": "Realistic and exciting new chess and card games, such as Fighting the Landlord and Golden Flower, that everything that one expects to find are here.",
-    "th": "真實、刺激的棋牌娛樂新潮流鬥地主、炸金花棋牌遊戲應有盡有",
-    "vi": "真實、刺激的棋牌娛樂新潮流鬥地主、炸金花棋牌遊戲應有盡有",
     "zh-cn": "真实、刺激的棋牌娱乐新潮流斗地主、炸金花棋牌游戏应有尽有",
     "zh-tw": "真實、刺激的棋牌娛樂新潮流鬥地主、炸金花棋牌遊戲應有盡有",
+    "th": "",
+    "vi": "",
     "rowid": 1034
   },
   {
     "key": "frontstage.dd.sentence.poker.1",
     "en": "Exquisite 3D images provide you with the most exciting battle experience.",
-    "th": "3D精美畫面，為您代理最刺激的對戰體驗",
-    "vi": "3D精美畫面，為您代理最刺激的對戰體驗",
     "zh-cn": "3D精美画面，为您代理最刺激的对战体验",
     "zh-tw": "3D精美畫面，為您代理最刺激的對戰體驗",
+    "th": "",
+    "vi": "",
     "rowid": 1035
   },
   {
     "key": "frontstage.dd.sentence.poker.2",
     "en": "Innovative gameplay, totally new entertainment experience of chess and card games.",
-    "th": "創新玩法，全新棋牌娛樂體驗",
-    "vi": "創新玩法，全新棋牌娛樂體驗",
     "zh-cn": "创新玩法，全新棋牌娱乐体验",
     "zh-tw": "創新玩法，全新棋牌娛樂體驗",
+    "th": "",
+    "vi": "",
     "rowid": 1036
   },
   {
     "key": "frontstage.dd.sentence.poker.3",
     "en": "We have most realistic and exciting chess and card games, and you can enjoy the new entertainment trend as much as you like.",
-    "th": "最真實、刺激的棋牌遊戲，盡享娛樂新潮流",
-    "vi": "最真實、刺激的棋牌遊戲，盡享娛樂新潮流",
     "zh-cn": "最真实、刺激的棋牌游戏，尽享娱乐新潮流",
     "zh-tw": "最真實、刺激的棋牌遊戲，盡享娛樂新潮流",
+    "th": "",
+    "vi": "",
     "rowid": 1037
   },
   {
     "key": "frontstage.dd.sentence.live.0",
     "en": "As a VIP, you can reserve a table to autonomously control the game rhythm and enjoy respected premium entertainment services.",
-    "th": "VIP包桌自主控制遊戲節奏，尊貴高級娛樂服務",
-    "vi": "VIP包桌自主控制遊戲節奏，尊貴高級娛樂服務",
     "zh-cn": "VIP包桌自主控制游戏节奏，尊贵高级娱乐服务",
     "zh-tw": "VIP包桌自主控制遊戲節奏，尊貴高級娛樂服務",
+    "th": "",
+    "vi": "",
     "rowid": 1038
   },
   {
     "key": "frontstage.dd.sentence.live.1",
     "en": "As European beautiful female dealers distribute the cards on-the-scene, it's the ultimate stimulation experience of gaming.",
-    "th": "歐洲美女荷官現場發牌、極致的博彩刺激體驗",
-    "vi": "歐洲美女荷官現場發牌、極致的博彩刺激體驗",
     "zh-cn": "欧洲美女荷官现场发牌、极致的博彩刺激体验",
     "zh-tw": "歐洲美女荷官現場發牌、極致的博彩刺激體驗",
+    "th": "",
+    "vi": "",
     "rowid": 1039
   },
   {
     "key": "frontstage.dd.sentence.live.2",
     "en": "With concise interface, Asian multiplayer live baccarat game platform is easy to place bets.",
-    "th": "亞洲多元真人百家樂遊戲平台，界面簡潔易投注",
-    "vi": "亞洲多元真人百家樂遊戲平台，界面簡潔易投注",
     "zh-cn": "亚洲多元真人百家乐游戏平台，界面简洁易投注",
     "zh-tw": "亞洲多元真人百家樂遊戲平台，界面簡潔易投注",
+    "th": "",
+    "vi": "",
     "rowid": 1040
   },
   {
     "key": "frontstage.dd.sentence.live.3",
     "en": "With many gameplays, fast Baccarat let you enjoy  first-rate game experience.",
-    "th": "玩法眾多，極速百家樂，暢享頂級遊戲體驗",
-    "vi": "玩法眾多，極速百家樂，暢享頂級遊戲體驗",
     "zh-cn": "玩法众多，极速百家乐，畅享顶级游戏体验",
     "zh-tw": "玩法眾多，極速百家樂，暢享頂級遊戲體驗",
+    "th": "",
+    "vi": "",
     "rowid": 1041
   },
   {
     "key": "frontstage.dd.sentence.lottery.0",
     "en": "Rich color, high bonus group\nExtreme betting experience, quick betting mode",
-    "th": "彩種豐富，高額獎金組\n極致投注體驗，快捷投注模式",
-    "vi": "彩種豐富，高額獎金組\n極致投注體驗，快捷投注模式",
     "zh-cn": "彩种丰富，高额奖金组\n极致投注体验，快捷投注模式",
     "zh-tw": "彩種豐富，高額獎金組\n極致投注體驗，快捷投注模式",
+    "th": "",
+    "vi": "",
     "rowid": 1042
   },
   {
     "key": "frontstage.dd.sentence.lottery.1",
     "en": "Double-sided disk Traditional disk Various betting methods\nRich color variety Gameplay stimulation",
-    "th": "雙面盤 傳統盤 投注方式多樣\n彩種豐富 玩法刺激",
-    "vi": "雙面盤 傳統盤 投注方式多樣\n彩種豐富 玩法刺激",
     "zh-cn": "双面盘 传统盘 投注方式多样\n彩种丰富 玩法刺激",
     "zh-tw": "雙面盤 傳統盤 投注方式多樣\n彩種豐富 玩法刺激",
+    "th": "",
+    "vi": "",
     "rowid": 1043
   },
   {
     "key": "frontstage.dd.sentence.lottery.2",
     "en": "Traditional lottery model and scratch lottery tickets\nEnjoy multiple fun with scratch cards",
-    "th": "傳統彩票模式與刮刮樂彩票\n盡興刮卡盡享多重趣味",
-    "vi": "傳統彩票模式與刮刮樂彩票\n盡興刮卡盡享多重趣味",
     "zh-cn": "传统彩票模式与刮刮乐彩票\n尽兴刮卡尽享多重趣味",
     "zh-tw": "傳統彩票模式與刮刮樂彩票\n盡興刮卡盡享多重趣味",
+    "th": "",
+    "vi": "",
     "rowid": 1044
   },
   {
     "key": "frontstage.dd.sentence.lottery.3",
     "en": "New-type video lottery, hot girl anchors always interact\nQuick cycle lottery mode, betting softly",
-    "th": "新型視訊彩票，火辣美女主播時時互動\n快週期開獎模式，投注到手軟",
-    "vi": "新型視訊彩票，火辣美女主播時時互動\n快週期開獎模式，投注到手軟",
     "zh-cn": "新型视讯彩票，火辣美女主播时时互动\n快周期开奖模式，投注到手软",
     "zh-tw": "新型視訊彩票，火辣美女主播時時互動\n快週期開獎模式，投注到手軟",
+    "th": "",
+    "vi": "",
     "rowid": 1045
   },
   {
@@ -8335,19 +8336,19 @@
   {
     "key": "frontstage.dialog.registerForm.hasRegistered.0",
     "en": "Already have an account, {0}",
-    "th": "已有帳號, {0}",
-    "vi": "已有帳號, {0}",
     "zh-cn": "已有账号, {0}",
     "zh-tw": "已有帳號, {0}",
+    "th": "",
+    "vi": "",
     "rowid": 1047
   },
   {
     "key": "frontstage.dialog.registerForm.hasRegistered.1",
     "en": "Log in now",
-    "th": "馬上登錄",
-    "vi": "馬上登錄",
     "zh-cn": "马上登录",
     "zh-tw": "馬上登錄",
+    "th": "",
+    "vi": "",
     "rowid": 1048
   },
   {

@@ -242,5 +242,6 @@ function EscapeCharacter(value) {
     return value;
   }
   value = value.split('\b').join('\\b');
+  value = value.split('\t').join('\\t');
   return value;
 }

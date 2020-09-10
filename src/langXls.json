@@ -1939,7 +1939,7 @@
     "key": "backstage.deal.aviaToCenter",
     "en": "AVIA to Center",
     "th": "AVIA to Center",
-    "zh-cn": "[泛亚电竞]转[中心钱包]\t",
+    "zh-cn": "[泛亚电竞]转[中心钱包]\\t",
     "zh-tw": "[泛亞電競]轉[中心錢包]",
     "rowid": 270
   },
@@ -1947,7 +1947,7 @@
     "key": "backstage.deal.centerToEg",
     "en": "Center to EG",
     "th": "Center to EG",
-    "zh-cn": "[中心钱包]转[EG]\t",
+    "zh-cn": "[中心钱包]转[EG]\\t",
     "zh-tw": "[中心錢包]轉[EG]",
     "rowid": 271
   },
@@ -2067,7 +2067,7 @@
     "key": "backstage.deal.nwgToCenter",
     "en": "NWG to Center",
     "th": "NWG to Center",
-    "zh-cn": "[新世界棋牌]转[中心钱包]\t",
+    "zh-cn": "[新世界棋牌]转[中心钱包]\\t",
     "zh-tw": "[新世界棋牌]轉[中心錢包]",
     "rowid": 286
   },
@@ -2083,7 +2083,7 @@
     "key": "backstage.deal.rmgToCenter",
     "en": "RMG to Center",
     "th": "RMG to Center",
-    "zh-cn": "[大富翁棋牌]转[中心钱包]\t",
+    "zh-cn": "[大富翁棋牌]转[中心钱包]\\t",
     "zh-tw": "[大富翁棋牌]轉[中心錢包]",
     "rowid": 288
   },
@@ -2091,7 +2091,7 @@
     "key": "backstage.deal.centerToSa",
     "en": "Center to SA",
     "th": "Center to SA",
-    "zh-cn": "[中心钱包]转[沙龙]\t",
+    "zh-cn": "[中心钱包]转[沙龙]\\t",
     "zh-tw": "[中心錢包]轉[沙龍]",
     "rowid": 289
   },

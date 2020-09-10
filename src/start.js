@@ -158,10 +158,11 @@ const EXPORT_EXCEL = true;
     'zh-tw': '繁體',
     en: '英文',
     th: '泰文',
+    vi: '越文',
     rowid: 'rowid',
   };
   const worksheet = workbook.addWorksheet('MySheet');
-  const excelColumn = Object.keys(xlsJsonFilter[0]).map((it) => {
+  const excelColumn = Object.keys(headerLangKey).map((it) => {
     return { header: headerLangKey[it], key: it, width: maxWordLength[it] };
   });
 

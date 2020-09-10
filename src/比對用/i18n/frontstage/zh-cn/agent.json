@@ -1,10 +1,10 @@
 {
   "column": {
-    "AgentCreatedTime": "开户时间",
-    "AgentIdentityName": "身份",
-    "Balance": "钱包余额",
     "MemberAccount": "用户名",
+    "AgentIdentityName": "身份",
     "ParentMemberAccount": "所属上级",
+    "Balance": "钱包余额",
+    "AgentCreatedTime": "开户时间",
     "AgentLink": {
       "CreatedTime": "生成时间"
     },
@@ -17,5 +17,10 @@
     "pickGameCategory": "游戏分类"
   },
   "TeamActiveMemberCount": "活跃人数",
+  "TeamDeposit": "",
+  "TeamValidBetAmount": "",
+  "TeamStrategyRebateAmount": "",
+  "TeamPayoutAmount": "",
+  "TeamBenefitAmount": "",
   "TeamSettlementAmount": "团队盈亏"
 }

@@ -4,7 +4,9 @@
       "CreatedTime": "充值日期",
       "TransNumber": "充值单号",
       "Channel": "充值渠道",
-      "Amount": "充值金额"
+      "Amount": "充值金额",
+      "Fee": "手续费",
+      "ActualReceiveAmount": "实收金额"
     }
   },
   "transferRecord": {
@@ -24,7 +26,8 @@
       "Amount": "提款金额",
       "WithdrawalAmount": "填单金额",
       "Subtotal": "实际金额",
-      "Fee": "手续费"
+      "Fee": "手续费",
+      "ActualWithdrawalAmount": "实际金额"
     }
   },
   "betRecord": {

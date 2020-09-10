@@ -78,6 +78,7 @@
       "Undefined": "未定义"
     },
     "SettlementCategoryEnum": {
+      "0": "未定义",
       "1": "小时",
       "2": "日",
       "3": "周",
@@ -88,7 +89,29 @@
       "Month": "月",
       "Hour": "小时",
       "Day": "日",
-      "HalfMonth": "半月"
+      "HalfMonth": "半月",
+      "Undefined": "未定义",
+      "Week": "周"
+    },
+    "ContractRecordStateEnum": {
+      "0": "未定义",
+      "1": "已派发",
+      "2": "尚未派发",
+      "3": "未达标",
+      "Undefined": "未定义",
+      "Sent": "已派发",
+      "NotSent": "尚未派发",
+      "NotSatisfy": "未达标"
+    },
+    "ContractRecordActiveMemberStateEnum": {
+      "0": "未定义",
+      "1": "无限制",
+      "2": "已满足",
+      "3": "未满足",
+      "NotSatisfied": "未满足",
+      "Satisfied": "已满足",
+      "Undefined": "未定义",
+      "Unlimited": "无限制"
     }
   },
   "GameCategoryEnum": {

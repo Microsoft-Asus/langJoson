@@ -71,5 +71,8 @@
   "registerByAccount": "By Account",
   "registerByEmail": "By Email",
   "registerByPhone": "By Phone",
-  "switch": "switch"
+  "switch": "switch",
+  "fillInAmount": "Fill in the amount",
+  "HandlingFee": "Handling fee",
+  "ActualAmount": "Actual amount"
 }

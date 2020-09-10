@@ -33,5 +33,6 @@
   },
   "depositByBankCard": {
     "fail": "目前無法入款，請 {0} 分鐘後再次嘗試"
-  }
+  },
+  "cannotPlayGame": "目前無法進入遊戲"
 }

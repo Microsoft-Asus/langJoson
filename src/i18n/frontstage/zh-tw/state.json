@@ -92,6 +92,26 @@
       "HalfMonth": "半月",
       "Month": "月",
       "Quarter": "季"
+    },
+    "ContractRecordStateEnum": {
+      "0": "未定義",
+      "1": "已派發",
+      "2": "尚未派發",
+      "3": "未達標",
+      "Undefined": "未定義",
+      "Sent": "已派發",
+      "NotSent": "尚未派發",
+      "NotSatisfy": "未達標"
+    },
+    "ContractRecordActiveMemberStateEnum": {
+      "0": "未定義",
+      "1": "無限制",
+      "2": "已滿足",
+      "3": "未滿足",
+      "Undefined": "未定義",
+      "Unlimited": "無限制",
+      "Satisfied": "已滿足",
+      "NotSatisfied": "未滿足"
     }
   },
   "GameCategoryEnum": {

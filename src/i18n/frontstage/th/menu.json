@@ -40,5 +40,6 @@
   "AgentTxRecord": "Tx record",
   "AgentTxTransferRecord": "Team transfer",
   "AgentTxWithdrawalRecord": "Team withdrawal",
-  "AgentTeamReport": "Team report"
+  "AgentTeamReport": "Team report",
+  "AgentContractReport": "Contract report"
 }

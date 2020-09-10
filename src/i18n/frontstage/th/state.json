@@ -78,6 +78,7 @@
       "Undefined": "Undefined"
     },
     "SettlementCategoryEnum": {
+      "0": "Undefined",
       "1": "hour",
       "2": "day",
       "3": "week",
@@ -88,7 +89,29 @@
       "Month": "month",
       "Hour": "hour",
       "Day": "day",
-      "HalfMonth": "half a month"
+      "HalfMonth": "half a month",
+      "Undefined": "Undefined",
+      "Week": "week"
+    },
+    "ContractRecordStateEnum": {
+      "0": "Undefined",
+      "1": "Distributed",
+      "2": "Distributed yet",
+      "3": "Not Met",
+      "Undefined": "Undefined",
+      "Sent": "Distributed",
+      "NotSent": "distributed yet",
+      "NotSatisfy": "Not Met"
+    },
+    "ContractRecordActiveMemberStateEnum": {
+      "0": "Undefined",
+      "1": "Unlimited",
+      "2": "Satisfied",
+      "3": "Not satisfied",
+      "NotSatisfied": "Not satisfied",
+      "Satisfied": "Satisfied",
+      "Undefined": "Undefined",
+      "Unlimited": "Unlimited"
     }
   },
   "GameCategoryEnum": {

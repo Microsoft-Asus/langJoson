@@ -1601,6 +1601,198 @@
     "zh-cn": "[FastBet]转[中心钱包]",
     "zh-tw": "[FastBet]轉[中心錢包]"
   },
+  "backstage.deal.centerToPs": {
+    "en": "Center to PS",
+    "th": "Center to PS",
+    "zh-cn": "[中心钱包]转[玩星]",
+    "zh-tw": "[中心錢包]轉[玩星]"
+  },
+  "backstage.deal.psToCenter": {
+    "en": "PS to Center",
+    "th": "PS to Center",
+    "zh-cn": "[玩星]转[中心钱包]",
+    "zh-tw": "[玩星]轉[中心錢包]"
+  },
+  "backstage.deal.centerToAvia": {
+    "en": "Center to AVIA",
+    "th": "Center to AVIA",
+    "zh-cn": "[中心钱包]转[泛亚电竞]",
+    "zh-tw": "[中心錢包]轉[泛亞電競]"
+  },
+  "backstage.deal.aviaToCenter": {
+    "en": "AVIA to Center",
+    "th": "AVIA to Center",
+    "zh-cn": "[泛亚电竞]转[中心钱包]\t",
+    "zh-tw": "[泛亞電競]轉[中心錢包]"
+  },
+  "backstage.deal.centerToEg": {
+    "en": "Center to EG",
+    "th": "Center to EG",
+    "zh-cn": "[中心钱包]转[EG]\t",
+    "zh-tw": "[中心錢包]轉[EG]"
+  },
+  "backstage.deal.egToCenter": {
+    "en": "EG to Center",
+    "th": "EG to Center",
+    "zh-cn": "[EG]转[中心钱包]",
+    "zh-tw": "[EG]轉[中心錢包]"
+  },
+  "backstage.deal.centerToIbo": {
+    "en": "Center to IBO",
+    "th": "Center to IBO",
+    "zh-cn": "[中心钱包]转[IBO]",
+    "zh-tw": "[中心錢包]轉[IBO]"
+  },
+  "backstage.deal.iboToCenter": {
+    "en": "IBO to Center",
+    "th": "IBO to Center",
+    "zh-cn": "[IBO]转[中心钱包]",
+    "zh-tw": "[IBO]轉[中心錢包]"
+  },
+  "backstage.deal.centerToKa": {
+    "en": "Center To KA",
+    "th": "Center To KA",
+    "zh-cn": "[中心钱包]转[KA游戏]",
+    "zh-tw": "[中心錢包]轉[KA遊戲]"
+  },
+  "backstage.deal.kaToCenter": {
+    "en": "KA to Center",
+    "th": "KA to Center",
+    "zh-cn": "[KA游戏]转[中心钱包]",
+    "zh-tw": "[KA遊戲]轉[中心錢包]"
+  },
+  "backstage.deal.centerToKk": {
+    "en": "Center to KK",
+    "th": "Center to KK",
+    "zh-cn": "[中心钱包]转[KK彩票]",
+    "zh-tw": "[中心錢包]轉[KK彩票]"
+  },
+  "backstage.deal.kkToCenter": {
+    "en": "KK to Center",
+    "th": "KK to Center",
+    "zh-cn": "[KK彩票]转[中心钱包]",
+    "zh-tw": "[KK彩票]轉[中心錢包]"
+  },
+  "backstage.deal.centerToMgPlus": {
+    "en": "Center to MG+",
+    "th": "Center to MG+",
+    "zh-cn": "[中心钱包]转[MG+]",
+    "zh-tw": "[中心錢包]轉[MG+]"
+  },
+  "backstage.deal.mgPlusToCenter": {
+    "en": "MG+ to Center",
+    "th": "MG+ to Center",
+    "zh-cn": "[MG+]转[中心钱包]",
+    "zh-tw": "[MG+]轉[中心錢包]"
+  },
+  "backstage.deal.centerToPg": {
+    "en": "Center to PG",
+    "th": "Center to PG",
+    "zh-cn": "[中心钱包]转[PG]",
+    "zh-tw": "[中心錢包]轉[PG]"
+  },
+  "backstage.deal.pgToCenter": {
+    "en": "PG to Center",
+    "th": "PG to Center",
+    "zh-cn": "[PG]转[中心钱包]",
+    "zh-tw": "[PG]轉[中心錢包]"
+  },
+  "backstage.deal.centerToLc": {
+    "en": "Center to LC",
+    "th": "Center to LC",
+    "zh-cn": "[中心钱包]转[龙城]",
+    "zh-tw": "[中心錢包]轉[龍城]"
+  },
+  "backstage.deal.lcToCenter": {
+    "en": "LC to center",
+    "th": "LC to center",
+    "zh-cn": "[龙城]转[中心钱包]",
+    "zh-tw": "[龍城]轉[中心錢包]"
+  },
+  "backstage.deal.centerToNwg": {
+    "en": "Center to NWG",
+    "th": "Center to NWG",
+    "zh-cn": "[中心钱包]转[新世界棋牌]",
+    "zh-tw": "[中心錢包]轉[新世界棋牌]"
+  },
+  "backstage.deal.nwgToCenter": {
+    "en": "NWG to Center",
+    "th": "NWG to Center",
+    "zh-cn": "[新世界棋牌]转[中心钱包]\t",
+    "zh-tw": "[新世界棋牌]轉[中心錢包]"
+  },
+  "backstage.deal.centerToRmg": {
+    "en": "Center to RMG",
+    "th": "Center to RMG",
+    "zh-cn": "[中心钱包]转[大富翁棋牌]",
+    "zh-tw": "[中心錢包]轉[大富翁棋牌]"
+  },
+  "backstage.deal.rmgToCenter": {
+    "en": "RMG to Center",
+    "th": "RMG to Center",
+    "zh-cn": "[大富翁棋牌]转[中心钱包]\t",
+    "zh-tw": "[大富翁棋牌]轉[中心錢包]"
+  },
+  "backstage.deal.centerToSa": {
+    "en": "Center to SA",
+    "th": "Center to SA",
+    "zh-cn": "[中心钱包]转[沙龙]\t",
+    "zh-tw": "[中心錢包]轉[沙龍]"
+  },
+  "backstage.deal.saToCenter": {
+    "en": "SA to Center",
+    "th": "SA to Center",
+    "zh-cn": "[沙龙]转[中心钱包]",
+    "zh-tw": "[沙龍]轉[中心錢包]"
+  },
+  "backstage.deal.centerToTm": {
+    "en": "Center toTM",
+    "th": "Center toTM",
+    "zh-cn": "[中心钱包]转[天美棋牌]",
+    "zh-tw": "[中心錢包]轉[天美棋牌]"
+  },
+  "backstage.deal.tmToCenter": {
+    "en": "TM to Center",
+    "th": "TM to Center",
+    "zh-tw": "[天美棋牌]轉[中心錢包]",
+    "zh-cn": ""
+  },
+  "backstage.deal.centerToVr": {
+    "en": "Center to VR",
+    "th": "Center to VR",
+    "zh-cn": "[中心钱包]转[VR彩票]",
+    "zh-tw": "[中心錢包]轉[VR彩票]"
+  },
+  "backstage.deal.vrToCenter": {
+    "en": "VR to Center",
+    "th": "VR to Center",
+    "zh-cn": "[VR彩票]转[中心钱包]",
+    "zh-tw": "[VR彩票]轉[中心錢包]"
+  },
+  "backstage.deal.centerToWm": {
+    "en": "Center to WM",
+    "th": "Center to WM",
+    "zh-cn": "[中心钱包]转[WM真人百家乐]",
+    "zh-tw": "[中心錢包]轉[WM真人百家樂]"
+  },
+  "backstage.deal.wmToCenter": {
+    "en": "WM to Center",
+    "th": "WM to Center",
+    "zh-cn": "[WM真人百家乐]转[中心钱包]",
+    "zh-tw": "[WM真人百家樂]轉[中心錢包]"
+  },
+  "backstage.deal.walletAuditSystemReset": {
+    "en": "Wallet audit system reset",
+    "th": "Wallet audit system reset",
+    "zh-cn": "系统归零",
+    "zh-tw": "系統歸零"
+  },
+  "backstage.deal.walletAuditArtificialReset": {
+    "en": "Wallet audit artficial reset",
+    "th": "Wallet audit artficial reset",
+    "zh-cn": "人工归零",
+    "zh-tw": "人工歸零"
+  },
   "backstage.deposit.amount": {
     "en": "Amount of adding credit",
     "th": "Amount of adding credit",
@@ -3282,10 +3474,10 @@
     "zh-tw": "代理報表"
   },
   "backstage.menu.ProviderLoginRecord": {
-    "en": "Provider login record",
-    "th": "Provider login record",
-    "zh-cn": "系统商登入记录",
-    "zh-tw": "系統商登入記錄"
+    "en": "Login record",
+    "th": "Login record",
+    "zh-cn": "登入记录",
+    "zh-tw": "登入記錄"
   },
   "backstage.organizationTreeSearch.translateAgent": {
     "en": "Translate agent",
@@ -5933,6 +6125,24 @@
     "zh-cn": "开关",
     "zh-tw": "開關"
   },
+  "frontstage.common.fillInAmount": {
+    "en": "Fill in the amount",
+    "th": "Fill in the amount",
+    "zh-cn": "填单金额",
+    "zh-tw": "填單金額"
+  },
+  "frontstage.common.HandlingFee": {
+    "en": "Handling fee",
+    "th": "Handling fee",
+    "zh-cn": "手续费",
+    "zh-tw": "手續費"
+  },
+  "frontstage.common.ActualAmount": {
+    "en": "Actual amount",
+    "th": "Actual amount",
+    "zh-cn": "实际金额",
+    "zh-tw": "實際金額"
+  },
   "frontstage.dd.sentence.ESport.0": {
     "en": "The betting page is delicate, the information is pithy, and the operation is simple, \n making placing bets simple and efficient.",
     "th": "The betting page is delicate, the information is pithy, and the operation is simple, \n making placing bets simple and efficient.",
@@ -6617,6 +6827,12 @@
     "zh-cn": "团队报表",
     "zh-tw": "團隊報表"
   },
+  "frontstage.menu.AgentContractReport": {
+    "en": "Contract report",
+    "th": "Contract report",
+    "zh-cn": "契约报表",
+    "zh-tw": "契約報表"
+  },
   "frontstage.messages.register.success": {
     "en": "registration success",
     "th": "registration success",
@@ -6724,6 +6940,12 @@
     "th": "Unable to deposit at this time, please try again in {0} minutes",
     "zh-cn": "目前无法入款，请 {0} 分钟后再次尝试",
     "zh-tw": "目前無法入款，請 {0} 分鐘後再次嘗試"
+  },
+  "frontstage.messages.cannotPlayGame": {
+    "en": "Can't enter the game right now",
+    "th": "Can't enter the game right now",
+    "zh-cn": "目前无法进入游戏",
+    "zh-tw": "目前無法進入遊戲"
   },
   "frontstage.rules.date": {
     "en": "Please enter the correct date format.",
@@ -7283,6 +7505,12 @@
     "zh-cn": "未定义",
     "zh-tw": "未定義"
   },
+  "frontstage.state.Agent.SettlementCategoryEnum.0": {
+    "en": "Undefined",
+    "th": "Undefined",
+    "zh-cn": "未定义",
+    "zh-tw": "未定義"
+  },
   "frontstage.state.Agent.SettlementCategoryEnum.1": {
     "en": "hour",
     "th": "hour",
@@ -7348,6 +7576,114 @@
     "th": "half a month",
     "zh-cn": "半月",
     "zh-tw": "半月"
+  },
+  "frontstage.state.Agent.SettlementCategoryEnum.Undefined": {
+    "en": "Undefined",
+    "th": "Undefined",
+    "zh-cn": "未定义",
+    "zh-tw": "未定義"
+  },
+  "frontstage.state.Agent.SettlementCategoryEnum.Week": {
+    "en": "week",
+    "th": "week",
+    "zh-cn": "周",
+    "zh-tw": "周"
+  },
+  "frontstage.state.Agent.ContractRecordStateEnum.0": {
+    "en": "Undefined",
+    "th": "Undefined",
+    "zh-cn": "未定义",
+    "zh-tw": "未定義"
+  },
+  "frontstage.state.Agent.ContractRecordStateEnum.1": {
+    "en": "Distributed",
+    "th": "Distributed",
+    "zh-cn": "已派发",
+    "zh-tw": "已派發"
+  },
+  "frontstage.state.Agent.ContractRecordStateEnum.2": {
+    "en": "Distributed yet",
+    "th": "Distributed yet",
+    "zh-cn": "尚未派发",
+    "zh-tw": "尚未派發"
+  },
+  "frontstage.state.Agent.ContractRecordStateEnum.3": {
+    "en": "Not Met",
+    "th": "Not Met",
+    "zh-cn": "未达标",
+    "zh-tw": "未達標"
+  },
+  "frontstage.state.Agent.ContractRecordStateEnum.Undefined": {
+    "en": "Undefined",
+    "th": "Undefined",
+    "zh-cn": "未定义",
+    "zh-tw": "未定義"
+  },
+  "frontstage.state.Agent.ContractRecordStateEnum.Sent": {
+    "en": "Distributed",
+    "th": "Distributed",
+    "zh-cn": "已派发",
+    "zh-tw": "已派發"
+  },
+  "frontstage.state.Agent.ContractRecordStateEnum.NotSent": {
+    "en": "distributed yet",
+    "th": "distributed yet",
+    "zh-cn": "尚未派发",
+    "zh-tw": "尚未派發"
+  },
+  "frontstage.state.Agent.ContractRecordStateEnum.NotSatisfy": {
+    "en": "Not Met",
+    "th": "Not Met",
+    "zh-cn": "未达标",
+    "zh-tw": "未達標"
+  },
+  "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.0": {
+    "en": "Undefined",
+    "th": "Undefined",
+    "zh-cn": "未定义",
+    "zh-tw": "未定義"
+  },
+  "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.1": {
+    "en": "Unlimited",
+    "th": "Unlimited",
+    "zh-cn": "无限制",
+    "zh-tw": "無限制"
+  },
+  "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.2": {
+    "en": "Satisfied",
+    "th": "Satisfied",
+    "zh-cn": "已满足",
+    "zh-tw": "已滿足"
+  },
+  "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.3": {
+    "en": "Not satisfied",
+    "th": "Not satisfied",
+    "zh-cn": "未满足",
+    "zh-tw": "未滿足"
+  },
+  "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.NotSatisfied": {
+    "en": "Not satisfied",
+    "th": "Not satisfied",
+    "zh-cn": "未满足",
+    "zh-tw": "未滿足"
+  },
+  "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.Satisfied": {
+    "en": "Satisfied",
+    "th": "Satisfied",
+    "zh-cn": "已满足",
+    "zh-tw": "已滿足"
+  },
+  "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.Undefined": {
+    "en": "Undefined",
+    "th": "Undefined",
+    "zh-cn": "未定义",
+    "zh-tw": "未定義"
+  },
+  "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.Unlimited": {
+    "en": "Unlimited",
+    "th": "Unlimited",
+    "zh-cn": "无限制",
+    "zh-tw": "無限制"
   },
   "frontstage.state.GameCategoryEnum.1": {
     "en": "Live",
@@ -7475,6 +7811,18 @@
     "zh-cn": "充值单号",
     "zh-tw": "充值單號"
   },
+  "frontstage.user.depositRecord.column.ActualReceiveAmount": {
+    "en": "Actual amount",
+    "th": "Actual amount",
+    "zh-cn": "实收金额",
+    "zh-tw": "實收金額"
+  },
+  "frontstage.user.depositRecord.column.Fee": {
+    "en": "Fee",
+    "th": "Fee",
+    "zh-cn": "手续费",
+    "zh-tw": "手續費"
+  },
   "frontstage.user.transferRecord.column.Amount": {
     "en": "Transfer amount",
     "th": "Transfer amount",
@@ -7546,6 +7894,12 @@
     "th": "Apply amount",
     "zh-cn": "填单金额",
     "zh-tw": "填單金額"
+  },
+  "frontstage.user.withdrawalRecord.column.ActualWithdrawalAmount": {
+    "en": "Actual amount",
+    "th": "Actual amount",
+    "zh-cn": "实际金额",
+    "zh-tw": "實際金額"
   },
   "frontstage.user.betRecord.column.BetAmount": {
     "en": "Bet amount",
@@ -8539,24 +8893,6 @@
   },
   "frontstage.form.button.reset": {
     "zh-tw": "重置",
-    "en": "",
-    "th": "",
-    "zh-cn": ""
-  },
-  "frontstage.state.Agent.SettlementCategoryEnum.0": {
-    "zh-tw": "未定義",
-    "en": "",
-    "th": "",
-    "zh-cn": ""
-  },
-  "frontstage.state.Agent.SettlementCategoryEnum.Undefined": {
-    "zh-tw": "未定義",
-    "en": "",
-    "th": "",
-    "zh-cn": ""
-  },
-  "frontstage.state.Agent.SettlementCategoryEnum.Week": {
-    "zh-tw": "周",
     "en": "",
     "th": "",
     "zh-cn": ""

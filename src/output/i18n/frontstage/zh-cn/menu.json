@@ -40,5 +40,6 @@
   "AgentTxTransferRecord": "团队转帐",
   "AgentTxDepositRecord": "团队入款",
   "AgentTxWithdrawalRecord": "团队提款",
-  "AgentTeamReport": "团队报表"
+  "AgentTeamReport": "团队报表",
+  "AgentContractReport": "契约报表"
 }

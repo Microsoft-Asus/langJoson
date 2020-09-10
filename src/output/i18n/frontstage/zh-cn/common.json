@@ -71,5 +71,8 @@
   "registerByPhone": "手机注册",
   "registerByEmail": "信箱注册",
   "registerByAccount": "帐号注册",
-  "switch": "开关"
+  "switch": "开关",
+  "fillInAmount": "填单金额",
+  "HandlingFee": "手续费",
+  "ActualAmount": "实际金额"
 }

@@ -4,7 +4,9 @@
       "Amount": "Amount of adding credit",
       "Channel": "The channel of adding credit",
       "CreatedTime": "The date of of adding credit",
-      "TransNumber": "Adding credit process sheet number"
+      "TransNumber": "Adding credit process sheet number",
+      "ActualReceiveAmount": "Actual amount",
+      "Fee": "Fee"
     }
   },
   "transferRecord": {
@@ -24,7 +26,8 @@
       "TransNumber": "the bank withdrawal slip number",
       "Subtotal": "Actual amount",
       "Fee": "Fee",
-      "WithdrawalAmount": "Apply amount"
+      "WithdrawalAmount": "Apply amount",
+      "ActualWithdrawalAmount": "Actual amount"
     }
   },
   "betRecord": {

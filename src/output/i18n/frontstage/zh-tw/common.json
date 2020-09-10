@@ -71,5 +71,8 @@
   "registerByPhone": "手機註冊",
   "registerByEmail": "信箱註冊",
   "registerByAccount": "帳號註冊",
-  "switch": "開關"
+  "switch": "開關",
+  "fillInAmount": "填單金額",
+  "HandlingFee": "手續費",
+  "ActualAmount": "實際金額"
 }

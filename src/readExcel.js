@@ -12,26 +12,28 @@ module.exports = function () {
   const dirPath = JSON.parse(fs.readFileSync('dirPath.json', 'utf8'));
   const langList = ['zh-cn', 'zh-tw', 'en', 'th', 'vi'];
 
+  const InspectionXlsx = fs.readdirSync(path.resolve('.')).find(file => {
+    return /Inspection_/.test(file);
+  });
+  //檢核檔案的日期
+  const xlsxDate = InspectionXlsx.replace('Inspection_', '').replace('.xlsx', '')
+  console.log(InspectionXlsx, xlsxDate)
+
   /** 預先輸出資料夾 */
-  const oupputPath = path.resolve('.', 'output');
+  const oupputPath = path.resolve('.', 'backup', xlsxDate, 'output');
 
   filesJs.delDir(oupputPath);
 
-  if (!filesJs.is_dir(oupputPath)) {
-    fs.mkdirSync(oupputPath);
-  }
-  const i18nPath = path.resolve('.', 'output', 'i18n');
-  if (!filesJs.is_dir(i18nPath)) {
-    fs.mkdirSync(i18nPath);
-  }
-  createDir(dirPath, ['.', 'output', 'i18n']);
-  Object.values(dirPath).forEach((it) => {
-    createDir(langList, ['.', 'output', 'i18n', it]);
+  Object.values(dirPath).forEach((foldstage) => {
+    Object.values(langList).forEach((it) => {
+      filesJs.createFolderSync(path.resolve('.', 'backup', xlsxDate, 'output', 'i18n', foldstage, it));
+    });
   });
+
 
   /** 讀取Inspection.xlsx */
   const workbook = new Excel.Workbook();
-  workbook.xlsx.readFile('Inspection.xlsx').then(function () {
+  workbook.xlsx.readFile(InspectionXlsx).then(function () {
     //Get sheet by Name
     const worksheet = workbook.getWorksheet('MySheet');
     const langXls = []; //寫檔以後可以跟讀取輸出的langXls.json做交互確認
@@ -48,7 +50,7 @@ module.exports = function () {
 
           const pathList = row.values[1].split('.');
 
-          const filePath = JSON.stringify(['.', 'output', 'i18n', pathList[0], key, pathList[1] + '.json']);
+          const filePath = JSON.stringify([pathList[0], key, pathList[1] + '.json']);
           const arr = pathList.slice(2, pathList.length);
           const func = function (ar, obj) {
             const k = ar.shift();
@@ -75,6 +77,7 @@ module.exports = function () {
     Object.keys(outputJson).forEach((langkey) => {
       Object.keys(outputJson[langkey]).forEach((writePath) => {
         const resolvePath = JSON.parse(writePath);
+
         const fileName = resolvePath[resolvePath.length - 1];
         if (fileName === 'undefined.json') {
           return;
@@ -82,12 +85,12 @@ module.exports = function () {
 
 
 
-        /** 因為ZH_TW是基準所以用ZH_TW來做會比較完整 */
-        const modulePath = ['i18n', resolvePath[3], 'zh-tw', fileName];
+        /** 模板位置 因為ZH_TW是基準所以用ZH_TW來做會比較完整 */
+        const modulePath = ['i18n', resolvePath[0], 'zh-tw', fileName];
         fs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
           const KeyList = [];
-
-          const logger = fs.createWriteStream(path.resolve(...resolvePath), {
+          /** 寫的位置 */
+          const logger = fs.createWriteStream(path.resolve('.', 'backup', xlsxDate, 'output', 'i18n', ...resolvePath), {
             flags: 'a', // 'a' means appending (old data will be preserved)
           });
           const dataArray = data.split('\n');

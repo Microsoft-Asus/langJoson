@@ -13,7 +13,7 @@ const readExcel = require('./readExcel.js');
  *  true => 輸出Excel
  *  false => 讀取Excel 輸出 i18n
  */
-const EXPORT_EXCEL = true;
+const EXPORT_EXCEL = false;
 (function () {
   if (!EXPORT_EXCEL) {
     readExcel();
@@ -178,6 +178,7 @@ const EXPORT_EXCEL = true;
       worksheet.mergeCells(`${key}${rowsIndex + 2}:${key}${rowsIndex + repeat.length - 1 + 2}`);
     });
   });
+
 
   (async function () {
     return await workbook.xlsx.writeFile('Inspection_' + backupDate + '.xlsx').then(async () => {

@@ -1,5 +1,6 @@
-const fs = require('fs');
+const fs = require('fs-extra');
 const path = require('path');
+
 exports = module.exports = function (name) { };
 
 exports.is_file = function (path) {
@@ -34,12 +35,20 @@ exports.delDir = function (path) {
 
 
 exports.copyFolderSync = function (from, to) {
-  fs.mkdirSync(to);
-  fs.readdirSync(from).forEach(element => {
-    if (fs.lstatSync(path.join(from, element)).isFile()) {
-      fs.copyFileSync(path.join(from, element), path.join(to, element));
-    } else {
-      this.copyFolderSync(path.join(from, element), path.join(to, element));
-    }
-  });
+  fs.copy(from, to)
+    .then(() => console.log('export completed!'))
+    .catch(err => {
+      console.log('An error occured while copying the folder.')
+      return console.error(err)
+    })
+}
+
+exports.createFolderSync = function (dir) {
+  fs.ensureDir(dir)
+    .then(() => {
+      // console.log('success!')
+    })
+    .catch(err => {
+      console.error(err)
+    })
 }

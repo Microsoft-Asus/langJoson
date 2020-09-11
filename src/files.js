@@ -1,6 +1,6 @@
 const fs = require('fs');
-
-exports = module.exports = function (name) {};
+const path = require('path');
+exports = module.exports = function (name) { };
 
 exports.is_file = function (path) {
   const stats = fs.statSync(path);
@@ -31,3 +31,15 @@ exports.delDir = function (path) {
     fs.rmdirSync(path);
   }
 };
+
+
+exports.copyFolderSync = function (from, to) {
+  fs.mkdirSync(to);
+  fs.readdirSync(from).forEach(element => {
+    if (fs.lstatSync(path.join(from, element)).isFile()) {
+      fs.copyFileSync(path.join(from, element), path.join(to, element));
+    } else {
+      this.copyFolderSync(path.join(from, element), path.join(to, element));
+    }
+  });
+}

@@ -13,7 +13,7 @@ const readExcel = require('./readExcel.js');
  *  true => 輸出Excel
  *  false => 讀取Excel 輸出 i18n
  */
-const EXPORT_EXCEL = false;
+const EXPORT_EXCEL = true;
 (function () {
   if (!EXPORT_EXCEL) {
     readExcel();
@@ -23,6 +23,8 @@ const EXPORT_EXCEL = false;
   const i18nDirPath = fs.readdirSync(path.resolve('.', 'i18n')).filter((it) => {
     return filesJs.is_dir(path.resolve('.', 'i18n', it));
   });
+  //建立輸出日期
+  const backupDate = (new Date().toDateString()).replace(/\s/g, '');
   //en, zh-cn, zh-tw
   const langList = [];
 
@@ -47,9 +49,6 @@ const EXPORT_EXCEL = false;
     });
   });
 
-  // console.log('i18nDirPath:', i18nDirPath);
-  // console.log('langList:', langList);
-  // console.log(jsonFilesPath[0]);
 
   jsonFilesPath.forEach((jfPath) => {
     // const match = jfPath.split('i18n')[1].match(jsonFileRegex);
@@ -181,10 +180,9 @@ const EXPORT_EXCEL = false;
   });
 
   (async function () {
-    return await workbook.xlsx.writeFile('Inspection.xlsx').then(async () => {
+    return await workbook.xlsx.writeFile('Inspection_' + backupDate + '.xlsx').then(async () => {
       // console.log(this);
-      /** 讀取檢查 */
-      // readExcel();
+      filesJs.copyFolderSync(path.resolve('.', 'i18n'), path.resolve('.', 'backup', backupDate, 'i18n'));
     }, errorHandler);
   })();
 })();

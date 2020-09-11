@@ -242,5 +242,6 @@ function EscapeCharacter(value) {
   if (typeof value !== 'string') {
     return value;
   }
-  return value.split('\b').join('\\b').split('\t').join('\\t').split('\r').join('\\r');
+
+  return value.split('\b').join('\\b').split('\t').join('\\t').split('\r').join('\\r').split('\n').join('\\n');
 }

@@ -195,5 +195,20 @@
   "addSucceed": "新增成功",
   "item": "項目",
   "setting": "設定",
-  "move": "移動"
+  "move": "移動",
+  "WeChat": "微信",
+  "langs": {
+    "en": "英文",
+    "zh-cn": "簡體中文",
+    "zh-tw": "繁體中文",
+    "th": "泰文"
+  },
+  "backToPreviousLevel": "返回上層",
+  "editSuccessMsg": "修改成功",
+  "sendSuccessfully": "成功送出",
+  "saving": "... 儲存中",
+  "interruptSaving": "中斷儲存",
+  "keyValue": "鍵值",
+  "description": "描述",
+  "nodeSaveYetPleaseEdit": "節點尚未儲存，請進入編輯"
 }

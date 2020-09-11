@@ -3,10 +3,10 @@
     "success": "注册成功"
   },
   "sendCode": {
-    "PhoneSuccess": "已送出验证码到手机 {0}",
     "EmailSuccess": "已送出验证码到信箱 {0}",
-    "PhonePlzCheck": "您已经送出验证码，请至手机收取验证码。",
-    "EmailPlzCheck": "您已经送出验证码，请至信箱收取验证码。"
+    "PhoneSuccess": "已送出验证码到手机 {0}",
+    "EmailPlzCheck": "您已经送出验证码，请至信箱收取验证码。",
+    "PhonePlzCheck": "您已经送出验证码，请至手机收取验证码。"
   },
   "NicknameChanged": {},
   "nicknameModified": {
@@ -34,5 +34,6 @@
   "depositByBankCard": {
     "fail": "目前无法入款，请 {0} 分钟后再次尝试"
   },
-  "cannotPlayGame": "目前无法进入游戏"
+  "cannotPlayGame": "目前无法进入游戏",
+  "contract": {}
 }

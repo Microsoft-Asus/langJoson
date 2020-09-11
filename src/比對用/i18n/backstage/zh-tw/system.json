@@ -200,5 +200,7 @@
   "loseWin": "輸贏",
   "gameBetOverview": "遊戲投注額",
   "benefitContract": "分潤/契約",
-  "all": "全部"
+  "all": "全部",
+  "announcing": "廣播中",
+  "child": "子層"
 }

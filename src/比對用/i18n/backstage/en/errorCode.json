@@ -13,10 +13,6 @@
   "UsernameError": "Account Error",
   "UsernameExist": "Account Exist",
   "UsernameDisable": "Account Disable",
-  "VipDepositAmountSortError": "",
-  "VipValidBetAmountSortError": "",
-  "VipKeepVipCumulativeDepositSortError": "",
-  "VipDeleteSortError": "",
   "RemarkLengthError": "Remark Length Error",
   "MultipleError": "Multiple Error",
   "FormatError": "Format Error",
@@ -35,5 +31,9 @@
   "SubItemExist": "Sub Item Exist",
   "GameCodeExist": "Game Code Exist",
   "BankAccountExist": "Bank Account Exist",
-  "Forbidden": "Forbidden"
+  "Forbidden": "Forbidden",
+  "VipDepositAmountSortError": "VIP deposit amount sort error",
+  "VipValidBetAmountSortError": "VIP valid bet amount sort error",
+  "VipKeepVipCumulativeDepositSortError": "VIP keep VIP cumulative deposit sort error",
+  "VipDeleteSortError": "VIP delete sort error"
 }

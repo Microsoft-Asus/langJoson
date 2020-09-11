@@ -43,10 +43,7 @@
   "SingleMember": "Single User",
   "Agent": "Agent",
   "withdrawlFee": "Withdrawal Fee",
-  "withdrawlFeeFreeCount": "",
   "openSetting": "Open Settings",
-  "createSubordinate": "",
-  "transferSubordinate": "",
   "EditMemberData": "Edit Member Information",
   "EditBankerCard": "Edit bank card information",
   "ResetBankerCardName": "Reset bank card name",
@@ -58,5 +55,8 @@
   "sameLevel": "Same level",
   "signingContract": "Signing Contract",
   "agentAuthority": "Agent authority",
-  "MemberUrlLink": "Member url link"
+  "MemberUrlLink": "Member url link",
+  "withdrawlFeeFreeCount": "Withdrawl fee free count",
+  "createSubordinate": "Create subordinate"
+
 }

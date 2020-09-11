@@ -1,18 +1,18 @@
 {
   "depositRecord": {
     "column": {
+      "Amount": "Amount of adding credit",
+      "Channel": "The channel of adding credit",
       "CreatedTime": "The date of of adding credit",
       "TransNumber": "Adding credit process sheet number",
-      "Channel": "The channel of adding credit",
-      "Amount": "Amount of adding credit",
-      "Fee": "Fee",
-      "ActualReceiveAmount": "Actual amount"
+      "ActualReceiveAmount": "Actual amount",
+      "Fee": "Fee"
     }
   },
   "transferRecord": {
     "column": {
-      "CreatedTime": "Transfer date",
       "Amount": "Transfer amount",
+      "CreatedTime": "Transfer date",
       "From": "Transfer out",
       "To": "Transfer into",
       "TransNumber": "Bank transfer slip number"
@@ -20,22 +20,21 @@
   },
   "withdrawalRecord": {
     "column": {
+      "Amount": "Withdrawal amount",
+      "BankCardNumber": "Cash card",
       "CreatedTime": "Withdrawal date",
       "TransNumber": "the bank withdrawal slip number",
-      "BankCardNumber": "Cash card",
-      "Amount": "Withdrawal amount",
-      "WithdrawalAmount": "Apply amount",
       "Subtotal": "Actual amount",
       "Fee": "Fee",
+      "WithdrawalAmount": "Apply amount",
       "ActualWithdrawalAmount": "Actual amount"
     }
   },
   "betRecord": {
     "column": {
-      "CreatedTime": "The date of placing bets",
-      "GameType": "Gaming platform",
-      "BetNumber": "Betting slip number (Transaction number)",
       "BetAmount": "Bet amount",
+      "BetNumber": "Betting slip number (Transaction number)",
+      "CreatedTime": "The date of placing bets",
       "ValidAmount": "Valid betting",
       "WinLossAmount": "Amount of winning or losing",
       "PayoutAmount": "Payout amount"
@@ -44,58 +43,52 @@
   },
   "promotionRecord": {
     "column": {
+      "Amount": "Amount",
       "CreatedTime": "Arrival time",
-      "TransNumber": "Single number",
-      "Amount": "Amount"
+      "TransNumber": "Single number"
     }
   },
   "securitySetting": {
     "Phone": {
       "label": "mobile phone number",
       "remark": "By receiving a text message from your mobile phone to log in your account, you can receive notifications of changes in account funds and receive a prompt message when the account is suspected of abnormal operation.",
-      "modifySuccessMsg": "Reset phone successfully",
-      "modifyFailingMsg": ""
+      "modifySuccessMsg": "Reset phone successfully"
     },
     "Email": {
       "label": "mailbox",
-      "remark": "By using email address to log in your account, you can receive notifications of changes in account funds and receive a prompt message when the account is suspected of abnormal operation.",
       "modifySuccessMsg": "Email reset succeeded",
-      "modifyFailingMsg": ""
+      "remark": "By using email address to log in your account, you can receive notifications of changes in account funds and receive a prompt message when the account is suspected of abnormal operation."
     },
     "Password": {
       "label": "login password",
-      "remark": "You need to set a password, when you log in you can use the password to log in.",
       "modifySuccessMsg": "Succeeded in resetting the login password",
-      "mifyFailingMsg": ""
+      "remark": "You need to set a password, when you log in you can use the password to log in."
     },
     "FundsPassword": {
       "label": "Fund password",
-      "remark": "Set a fund password to ensure the safety of funds.",
       "modifySuccessMsg": "Reset fund password successfully",
-      "settingSuccessMsg": "Funding password set successfully",
-      "mifyFailingMsg": "",
-      "settingFailingMsg": ""
-    },
-    "modifyFailingMsg": ""
+      "remark": "Set a fund password to ensure the safety of funds.",
+      "settingSuccessMsg": "Funding password set successfully"
+    }
   },
   "BankCard": {
     "addBankCard": "Add bank card"
   },
   "DailyRewordRecord": {
     "column": {
-      "CreatedTime": "date",
       "Amount": "Bet amount",
+      "CreatedTime": "date",
       "RewardAmount": "Rebate amount"
     }
   },
   "deposit": {
-    "BankCardTransfer": "BankCard Transfer",
     "depositAmountRange": "The single adding credit amount is between ${min} - ${max}.",
     "bankcardOrderRemind": [
-      "該收款銀行卡僅適用此次充值訂單，下次充值需重新提交充值信息！",
-      "請登錄網上銀行或手機銀行完成轉帳"
+      "This bank card is only applicable to this credit adding order, and next time you add credit, you need to re-submit the information for credit adding.",
+      "Please log in online banking or mobile banking to complete the transfer."
     ],
     "goCheckDepositRecord": "Please go to {0} to examine the information of the credit adding order.",
+    "BankCardTransfer": "BankCard Transfer",
     "noneAnyPaymentWay": "None any payment way"
   },
   "TppPaymentTypeEnum": {
@@ -104,35 +97,33 @@
     "JingdongQrCode": "Jingdong Pay",
     "UnionPayQrCode": "UnionPay QrCode",
     "OnlinePayment": "Online Payment",
-    "UnionPay": "Quick Pass",
-    "BqPay": ""
+    "UnionPay": "Quick Pass"
   },
-  "QQcode": "QQ number",
-  "mainWallet": "Central wallet",
   "transfer": {
     "transferFrom": "Transfer out",
     "transferTo": "Transfer into",
-    "doTransfer": "Transfer immediately",
     "msg": {
       "successfulTransfer": "Successful transfer",
       "transferFailed": "Transfer failed"
     },
+    "doTransfer": "Transfer immediately",
     "transAmount": "Transfer amount"
   },
+  "mainWallet": "Central wallet",
   "securitySettings": "Security Settings",
   "withdrawal": {
-    "fundsPasswdNotFoundMsg": "You can only withdraw after setting the fund password!",
-    "bankCardNotFoundMsg": "Add your bank card",
-    "numberOfremainingWithdrawals": "Numbers of free withdrawals remaining",
-    "debitCard": "Arrival bank card",
-    "withdrawableMsg": "The effective bet amount has met the clearance audit point, so you can withdraw money.",
-    "noWithdrawalMsg": "The effective bet amount has not yet met the clearance audit point, so you cannot withdraw money.",
     "withdrawalCheck": {
       "title": "Withdraw{0}of cash to the bank card."
     },
     "validate": {
       "title": "Withdrawal verification"
-    }
+    },
+    "bankCardNotFoundMsg": "Add your bank card",
+    "fundsPasswdNotFoundMsg": "You can only withdraw after setting the fund password!",
+    "debitCard": "Arrival bank card",
+    "noWithdrawalMsg": "The effective bet amount has not yet met the clearance audit point, so you cannot withdraw money.",
+    "numberOfremainingWithdrawals": "Numbers of free withdrawals remaining",
+    "withdrawableMsg": "The effective bet amount has met the clearance audit point, so you can withdraw money."
   },
   "fundsPassword": "Fund password",
   "modifyBankCardHolderNameMsg": "Please contact the customer service to modify the cardholder's name.",
@@ -145,21 +136,22 @@
     "confirmFundsPassword": "Confirm new fund password"
   },
   "vip": {
-    "MonthlyValidBetAmount": "Monthly valid bets",
+    "MonthlyKeepVipDepositAmount": "Monthly keep rank deposit",
     "MonthlyRiseVipDepositAmount": "Monthly rank up deposit",
-    "MonthlyKeepVipDepositAmount": "Monthly keep rank deposit"
+    "MonthlyValidBetAmount": "Monthly valid bets"
   },
   "userAccount": {
     "otherWallets": "Other wallets"
   },
+  "QQcode": "QQ number",
   "oneClick": {
-    "label": "One-click",
     "caption": {
-      "noTransferableWallet": "No transferable wallet",
       "clickAgainForCancel": "3s left, click again for cancel",
+      "noTransferableWallet": "No transferable wallet",
       "transAllBackToCenter": "Transfer all back to the Center",
       "syncFetchingBalance": "Sync wallet balance"
-    }
+    },
+    "label": "One-click"
   },
   "ModifyPasswordDialog": {
     "title": "Modify login password"
@@ -180,9 +172,9 @@
   },
   "changeRecord": {
     "column": {
-      "TransNumber": "No.",
       "CreatedTime": "CreatedTime",
       "DiffBalance": "Transaction amount",
+      "TransNumber": "No.",
       "AfterBalance": "After Balance"
     }
   },
@@ -228,43 +220,42 @@
     "TmToCenter": "[天美棋牌] to [Center Wallet]",
     "WithdrawalFee": "Withdrawal fee",
     "WmToCenter": "[WM Real Baccarat] to [Central Wallet]",
-    "ArtificialWithdrawal": "Put forward manually",
-    "ArtificialDeposit": "Manual deposit",
     "ArtificialDepositPromotions": "Manual deposit - event discount",
-    "BatchDeposit": "Batch deposit",
-    "BatchDepositPromotions": "Batch deposit - event discount",
+    "ArtificialDeposit": "Manual deposit",
+    "AgToCenter": "[AG] to [Center]",
+    "AgentStrategyCommission": "Agency strategy - Commission",
+    "AgentStrategyDepositBonus": "Agent strategy - recharge reward",
+    "AgentStrategyDividend": "Agency strategy - dividends",
+    "AgentStrategyOther": "Agent policy - other",
     "AgentStrategyRebate": "Agent strategy - backwater",
     "AgentStrategyWage": "Agency strategy - salary",
-    "AgentStrategyDividend": "Agency strategy - dividends",
-    "BatchDepositExcludProfitAndLoss": "Batch deposit - excluding profit and loss",
-    "ArtificialWithdrawalExcludProfitAndLoss": "Manual proposal - excluding profit and loss",
-    "ArtificialDepositExcludProfitAndLoss": "Manual deposit - excluding profit and loss",
-    "AgentStrategyCommission": "Agency strategy - Commission",
-    "AgentStrategyOther": "Agent policy - other",
-    "AgentStrategyDepositBonus": "Agent strategy - recharge reward",
     "AllMemberSearchEnd": "Query criteria for all members - [End]",
+    "ArtificialDepositExcludProfitAndLoss": "Manual deposit - excluding profit and loss",
+    "ArtificialWithdrawal": "Put forward manually",
+    "ArtificialWithdrawalExcludProfitAndLoss": "Manual proposal - excluding profit and loss",
+    "AviaToCenter": "[Avia] to [Center]",
+    "BatchDeposit": "Batch deposit",
+    "BatchDepositExcludProfitAndLoss": "Batch deposit - excluding profit and loss",
+    "BatchDepositPromotions": "Batch deposit - event discount",
+    "BbinToCenter": "[NewBBIN] to [Center]",
     "Bet": "Bet",
     "BetCanceled": "Bet Canceled",
+    "BetDeleted": "cancellation",
     "BetFinished": "BetFinished",
     "BetModified": "BetModified",
-    "BetDeleted": "cancellation",
+    "BqDeposit": "BQ income",
     "CenterToAg": "[Center] to [AG]",
-    "AgToCenter": "[AG] to [Center]",
-    "CenterToBbin": "[Center] to [NewBBIN]",
-    "BbinToCenter": "[NewBBIN] to [Center]",
-    "CenterToRgLottery": "[Center] to [RgLottery]",
-    "CenterToFastBet": "[Center] to [FastBet]",
-    "CenterToPs": "",
     "CenterToAvia": "[Center] to [Avia]",
-    "AviaToCenter": "[Avia] to [Center]",
+    "CenterToBbin": "[Center] to [NewBBIN]",
     "CenterToEg": "[Center] to [EG]",
+    "CenterToFastBet": "[Center] to [FastBet]",
     "CenterToIbo": "[Center] to [IBO]",
-    "CenterToKk": "[Center] to [KK lottery]",
     "CenterToKa": "[Center] to [KA Game]",
-    "CenterToMgPlus": "",
+    "CenterToKk": "[Center] to [KK lottery]",
     "CenterToLc": "[Center] to [Longcheng]",
-    "CenterToNwg": "",
-    "CenterToSa": "[Center] to [Sa]",
-    "BqDeposit": "BQ income"
-  }
+    "CenterToRgLottery": "[Center] to [RgLottery]",
+    "CenterToSa": "[Center] to [Sa]"
+  },
+  "gamePlatform": "gaming platform",
+  "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state"
 }

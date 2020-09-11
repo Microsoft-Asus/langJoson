@@ -74,5 +74,20 @@
   "switch": "開關",
   "fillInAmount": "填單金額",
   "HandlingFee": "手續費",
-  "ActualAmount": "實際金額"
+  "ActualAmount": "實際金額",
+  "today": "今天",
+  "yesterday": "昨天",
+  "otherdate": "其他日期",
+  "tip": "溫馨提醒",
+  "signed": "已簽約",
+  "unsigned": "未簽約",
+  "unlimit": "無限制",
+  "sign": "簽約",
+  "nextstep": "下一步",
+  "SerialNumber": "單號",
+  "time": "時間",
+  "link": "鏈結",
+  "measureword": {
+    "people": "{0} 人"
+  }
 }

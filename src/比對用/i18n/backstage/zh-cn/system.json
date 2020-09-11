@@ -200,5 +200,7 @@
   "loseWin": "输赢",
   "gameBetOverview": "游戏投注额",
   "benefitContract": "分润/契约",
-  "all": "全部"
+  "all": "全部",
+  "announcing": "广播中",
+  "child": "子层"
 }

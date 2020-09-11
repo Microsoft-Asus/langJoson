@@ -3,11 +3,11 @@
   "export": "Output",
   "execute": "carried out",
   "Edit": "edit",
-  "Add": "New",
   "permissionList": "Permission list",
   "setPermissionCorrespondingUrl": "Set permission corresponding URL",
   "editPermissionCorrespondingApiUrl": "Edit permission corresponding API URL",
   "ifMultipleUrlCorrespondencePleaseUseRegularExpression ": "if multiple URL correspondence, please use Regular expression ",
-  "query": "Inquire",
-  "Delete": "delete"
+  "Delete": "delete",
+  "Add": "New",
+  "query": "Inquire"
 }

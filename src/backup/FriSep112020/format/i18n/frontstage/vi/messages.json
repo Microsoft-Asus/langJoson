@@ -22,7 +22,6 @@
     "success": "",
     "fail": ""
   },
-  "editSuccessMsg": "",
   "validationCodeSended": "",
   "cannotUpdateBalance": "",
   "cannotLoginMsg": "",
@@ -35,10 +34,12 @@
   "removeSuccess": "",
   "addChildMemberSuccess": "",
   "addChildMemberFailed": "",
+  "editSuccessMsg": "",
   "depositByTpp": {
     "fail": ""
   },
   "depositByBankCard": {
     "fail": ""
-  }
+  },
+  "NicknameChanged": {}
 }

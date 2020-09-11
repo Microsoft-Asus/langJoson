@@ -2,17 +2,14 @@
   "date": "",
   "datetime": "",
   "email": "",
-  "intOnly": "",
   "max": "",
   "minDatetime": "",
   "phone": "",
   "maxDatetime": "",
-  "numeral": "",
   "minLength": "",
   "min": "",
   "password": "",
   "maxLength": "",
-  "reg": "",
   "range": "",
   "length": "",
   "lengthOfCode": "",
@@ -26,5 +23,8 @@
   "maxWithdrawalAmount": "",
   "restDailyWithdrawalCount": "",
   "required": "",
-  "includes": ""
+  "includes": "",
+  "reg": "",
+  "intOnly": "",
+  "numeral": ""
 }

@@ -24,34 +24,34 @@
   },
   "label": {
     "BranchBankName": "Branch name",
-    "Bank": "bank",
     "PickState": "Select status",
     "confirmWithdrawal": "Confirmation of withdrawals",
     "BankCardHolder": "Cardholder",
     "BankCardNumber": "Bank card number",
     "emailValidate": "Verify via Mailbox ",
     "phoneValidate": "Verify via Phone",
-    "depositAmount": "Recharge amount",
     "BankName": "Remittance bank",
     "randomDecimal": "Random decimal",
     "EmailLogin": "Email Login",
     "PasswdLogin": "Password login",
     "PhoneLogin": "SMS login",
-    "fundsPassword": "",
-    "transferAmount": "Transfer amount"
+    "Bank": "bank",
+    "depositAmount": "Recharge amount",
+    "transferAmount": "Transfer amount",
+    "fundsPassword": ""
   },
   "button": {
     "Add": "Add",
     "doTransfer": "Transfer the money.",
     "submitValidateCode": "verify",
-    "refresh": "Refresh",
     "doSignIn": "Sign up now",
     "doLogin": "log in immediately",
     "deposit": "Add credit",
-    "transfer": "Transfer",
-    "withdrawal": "Withdrawal",
     "reset": "",
     "submit": "Submit",
-    "inquire": "Inquire"
+    "inquire": "Inquire",
+    "refresh": "Refresh",
+    "transfer": "Transfer",
+    "withdrawal": "Withdrawal"
   }
 }

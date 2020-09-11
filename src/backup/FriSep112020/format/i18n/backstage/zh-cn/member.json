@@ -18,8 +18,8 @@
   "systemSetLevel": "系统自动计算",
   "securitySetting": "安全性设置",
   "withdralPassword": "提款密码",
-  "modifyDataTips": "按下\\\"修改\\\"并输入用户新的\\\"电话/邮箱\\\"，再按下\\\"送出\\\"发送验证通知",
-  "afterModifyDataTips": "当用户通过验证后，新\\\"电话/邮箱\\\"才会显示在此。",
+  "modifyDataTips": "按下\"修改\"并输入用户新的\"电话/邮箱\"，再按下\"送出\"发送验证通知",
+  "afterModifyDataTips": "当用户通过验证后，新\"电话/邮箱\"才会显示在此。",
   "chooseResetToPhone": "选择發送重置信件至电话",
   "chooseResetToMail": "或 邮箱",
   "vipTips": "晋升投注额以北京时间每月1号00:00:00至每月最后一天23:59:59的有效投注额计算",
@@ -39,7 +39,6 @@
   "accountState": "帐户状态",
   "transNumber": "交易单号",
   "allUsers": "全网用戶",
-  "SingleMember": "单一用戶",
   "Agent": "代理",
   "withdrawlFee": "提款手续费",
   "openSetting": "开放设置",
@@ -58,5 +57,6 @@
   "withdrawlFeeFreeCount": "日免费提款次数",
   "createSubordinate": "创建下级",
   "province": "省",
+  "SingleMember": "单一用戶",
   "transferSubordinate": "转帐下级"
 }

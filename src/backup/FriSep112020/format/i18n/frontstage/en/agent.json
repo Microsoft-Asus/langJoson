@@ -7,8 +7,8 @@
     "AgentLink": {
       "CreatedTime": "Created time"
     },
-    "RegisterCount": "Registered number",
-    "AgentIdentityName": "Identity"
+    "AgentIdentityName": "Identity",
+    "RegisterCount": "Registered number"
   },
   "common": {
     "memberNotExist": "The member you are trying to access does not exist"
@@ -16,7 +16,6 @@
   "betRecord": {
     "pickGameCategory": "Game Category"
   },
-  "TeamActiveMemberCount": "Active number",
   "TeamSettlementAmount": "Team profit and loss",
   "addAccount": "Add Account",
   "addAccountByLink": "New Link",
@@ -26,21 +25,13 @@
     "MemberAccount": "Signed account"
   },
   "ActiveMemberCountExpression": "@:common.unlimit | {n} | {n}",
-  "ActiveMemberCount": "Active number",
   "BenefitSharingSource": "Source of profit",
   "Proportion": "Self-proportion",
-  "SettlementCycle": "Billing cycle",
   "SignedProportion": "Signing ratio",
   "CreateLinkTipMessage": "Only {0} links can be generated at most",
-  "CurrentQuota": "Calculation amount",
-  "sharingItem": "Profit Sharing Project",
   "ContractProportion": "Contract ratio",
   "BetInfo": "Betting Information",
   "BetTaget": "Game category/platform",
-  "TeamDeposit": "",
-  "TeamValidBetAmount": "",
-  "TeamStrategyRebateAmount": "",
-  "TeamPayoutAmount": "",
   "TeamBenefitAmount": "",
   "pickIdentity": "",
   "AddChildTipMessage": "",
@@ -51,16 +42,25 @@
     "title": "",
     "caption": "",
     "TeamDepositAmount": "",
-    "TeamWithdrawalAmount": "",
-    "TeamValidBetAmount": "",
     "TeamBetMemberCount": "",
+    "TeamMemberCount": "",
     "TeamRegistMemberCount": "",
-    "TeamMemberCount": ""
+    "TeamValidBetAmount": "",
+    "TeamWithdrawalAmount": ""
   },
+  "CurrentQuota": "Calculation amount",
   "contractReport": {
     "column": {
       "Amount": "Amount issued"
     }
   },
-  "ContractReportAmount": "Amount issued"
+  "ContractReportAmount": "Amount issued",
+  "sharingItem": "Profit Sharing Project",
+  "TeamValidBetAmount": "",
+  "TeamDeposit": "",
+  "TeamActiveMemberCount": "Active number",
+  "ActiveMemberCount": "Active number",
+  "SettlementCycle": "Billing cycle",
+  "TeamPayoutAmount": "",
+  "TeamStrategyRebateAmount": ""
 }

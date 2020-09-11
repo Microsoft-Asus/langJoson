@@ -24,34 +24,34 @@
   },
   "label": {
     "BranchBankName": "支行名称",
-    "Bank": "银行",
     "PickState": "选择状态",
     "confirmWithdrawal": "确认提款",
     "BankCardHolder": "持卡人",
     "BankCardNumber": "银行卡号",
     "emailValidate": "邮箱验证",
     "phoneValidate": "手机验证",
-    "depositAmount": "充值金额",
     "BankName": "汇款银行",
     "randomDecimal": "随机小数",
     "EmailLogin": "邮箱登录",
     "PasswdLogin": "密码登录",
     "PhoneLogin": "短信登录",
-    "fundsPassword": "",
-    "transferAmount": "转帐金额"
+    "Bank": "银行",
+    "depositAmount": "充值金额",
+    "transferAmount": "转帐金额",
+    "fundsPassword": "资金密码"
   },
   "button": {
     "Add": "添加",
     "doTransfer": "来去转帐",
     "submitValidateCode": "发送验证码",
-    "refresh": "刷新",
     "doSignIn": "立即注册",
     "doLogin": "立即登录",
     "deposit": "立即充值",
-    "transfer": "转帐",
-    "withdrawal": "提款",
-    "reset": "",
+    "reset": "重置",
     "submit": "送出",
-    "inquire": "查询"
+    "inquire": "查询",
+    "refresh": "刷新",
+    "transfer": "转帐",
+    "withdrawal": "提款"
   }
 }

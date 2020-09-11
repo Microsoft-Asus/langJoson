@@ -159,16 +159,17 @@ module.exports = function () {
           });
 
           /** 如果不管排序直接全塞 上面註解掉走這裡就好 讀取目前最新的i18n檔案 */
-          // const newi18nFilePath = ['.', 'i18n', ...resolvePath];
-          // const newi18nFileContent = fs.readFileSync(path.resolve(...newi18nFilePath), 'utf8');
-          // const newi18nFileData = JSON.parse(newi18nFileContent.toString());
-          // const i18nMergeJson = extend(true, {}, outputJson[langkey][writePath], newi18nFileData);
+          const newi18nFilePath = ['.', 'i18n', ...resolvePath];
+          const newi18nFileContent = fs.readFileSync(path.resolve(...newi18nFilePath), 'utf8');
+          const newi18nFileData = JSON.parse(newi18nFileContent.toString());
+          const i18nMergeJson = extend(true, {}, outputJson[langkey][writePath], newi18nFileData);
+
           // /**  extend合併之後輸出的檔案可以藉由git做差異分析 */
-          // fs.writeFile(
-          //   path.resolve(path.resolve('.', 'backup', xlsxDate, 'format', 'i18n', ...resolvePath)),
-          //   JSON.stringify(i18nMergeJson, null, 2),
-          //   errorHandler,
-          // );
+          fs.writeFile(
+            path.resolve(path.resolve('.', 'backup', xlsxDate, 'format', 'i18n', ...resolvePath)),
+            JSON.stringify(i18nMergeJson, null, 2),
+            errorHandler,
+          );
         } catch (err) { throw err; }
       });
     });

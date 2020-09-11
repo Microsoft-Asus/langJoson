@@ -1,26 +1,4 @@
 {
-  "DepositStateTypeEnum": {
-    "0": "",
-    "1": "",
-    "2": "",
-    "3": "",
-    "Failed": "",
-    "Undefined": "",
-    "PendingReview": "",
-    "Success": ""
-  },
-  "WithdrawalStateTypeEnum": {
-    "0": "",
-    "1": "",
-    "2": "",
-    "3": "",
-    "4": "",
-    "SuccessAuto": "",
-    "Undefined": "",
-    "PendingReview": "",
-    "Success": "",
-    "Reject": ""
-  },
   "TppChannelEnum": {
     "0": "",
     "1": "",
@@ -46,10 +24,38 @@
       "1": "",
       "2": "",
       "3": "",
-      "NotSent": "",
-      "Undefined": "",
       "Sent": "",
+      "Undefined": "",
+      "NotSent": "",
       "NotSatisfy": ""
+    },
+    "SettlementCategoryEnum": {
+      "0": "",
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "Quarter": "",
+      "Month": "",
+      "HalfMonth": "",
+      "Undefined": "",
+      "Hour": "",
+      "Day": "",
+      "Week": ""
+    },
+    "BenefitSharingSourceEnum": {
+      "0": "",
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "BetAviliable": "",
+      "WinLose": "",
+      "Lose": "",
+      "Deposit": "",
+      "Undefined": ""
     },
     "ContractRecordActiveMemberStateEnum": {
       "0": "",
@@ -60,35 +66,19 @@
       "Undefined": "",
       "Satisfied": "",
       "NotSatisfied": ""
-    },
-    "BenefitSharingSourceEnum": {
-      "0": "",
-      "1": "",
-      "2": "",
-      "3": "",
-      "4": "",
-      "Undefined": "",
-      "Deposit": "",
-      "BetAviliable": "",
-      "WinLose": "",
-      "Lose": ""
-    },
-    "SettlementCategoryEnum": {
-      "0": "",
-      "1": "",
-      "2": "",
-      "3": "",
-      "4": "",
-      "5": "",
-      "6": "",
-      "Undefined": "",
-      "Hour": "",
-      "Day": "",
-      "Week": "",
-      "HalfMonth": "",
-      "Month": "",
-      "Quarter": ""
     }
+  },
+  "WithdrawalStateTypeEnum": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": "",
+    "4": "",
+    "Reject": "",
+    "Undefined": "",
+    "PendingReview": "",
+    "Success": "",
+    "SuccessAuto": ""
   },
   "GameCategoryEnum": {
     "1": "",
@@ -98,15 +88,25 @@
     "5": "",
     "6": "",
     "7": "",
-    "ESport": "",
     "Live": "",
     "Slot": "",
     "Lottery": "",
     "Sport": "",
-    "Fishing": "",
+    "Gaming": "",
+    "ESport": "",
     "Chess": "",
     "Poker": "",
-    "Gaming": ""
+    "Fishing": ""
+  },
+  "DepositStateTypeEnum": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": "",
+    "Undefined": "",
+    "Success": "",
+    "PendingReview": "",
+    "Failed": ""
   },
   "WalletTransferStateTypeEnum": {
     "0": "",
@@ -114,9 +114,9 @@
     "2": "",
     "3": "",
     "Undefined": "",
+    "Canceled": "",
     "NotFinished": "",
-    "Finished": "",
-    "Canceled": ""
+    "Finished": ""
   },
   "BetOrderState": {
     "0": "",

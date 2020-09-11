@@ -7,8 +7,8 @@
     "AgentLink": {
       "CreatedTime": "生成时间"
     },
-    "RegisterCount": "注册人数",
-    "AgentIdentityName": "身份"
+    "AgentIdentityName": "身份",
+    "RegisterCount": "注册人数"
   },
   "common": {
     "memberNotExist": "你尝试访问的会员不存在"
@@ -16,7 +16,6 @@
   "betRecord": {
     "pickGameCategory": "游戏分类"
   },
-  "TeamActiveMemberCount": "活跃人数",
   "TeamSettlementAmount": "团队盈亏",
   "addAccount": "手动开户",
   "addAccountByLink": "链结开户",
@@ -26,21 +25,13 @@
     "MemberAccount": "签约帐号"
   },
   "ActiveMemberCountExpression": "@:common.unlimit | {n} | {n}",
-  "ActiveMemberCount": "活跃人数",
   "BenefitSharingSource": "分润来源",
   "Proportion": "自身比例",
-  "SettlementCycle": "结算周期",
   "SignedProportion": "签约比例",
   "CreateLinkTipMessage": "最多只能生成 {0} 組链结",
-  "CurrentQuota": "计算额度",
-  "sharingItem": "分润项目",
   "ContractProportion": "合约比例",
   "BetInfo": "投注资讯",
   "BetTaget": "游戏分类/平台",
-  "TeamDeposit": "",
-  "TeamValidBetAmount": "",
-  "TeamStrategyRebateAmount": "",
-  "TeamPayoutAmount": "",
   "TeamBenefitAmount": "",
   "pickIdentity": "",
   "AddChildTipMessage": "",
@@ -51,16 +42,25 @@
     "title": "",
     "caption": "",
     "TeamDepositAmount": "",
-    "TeamWithdrawalAmount": "",
-    "TeamValidBetAmount": "",
     "TeamBetMemberCount": "",
-    "TeamRegistMemberCount": "",
-    "TeamMemberCount": ""
+    "TeamMemberCount": "",
+    "TeamRegistMemberCount": "注册人数",
+    "TeamValidBetAmount": "团队投注",
+    "TeamWithdrawalAmount": "团队提款"
   },
+  "CurrentQuota": "计算额度",
   "contractReport": {
     "column": {
       "Amount": "发放金额"
     }
   },
-  "ContractReportAmount": "发放金额"
+  "ContractReportAmount": "发放金额",
+  "sharingItem": "分润项目",
+  "TeamValidBetAmount": "有效投注",
+  "TeamDeposit": "充值",
+  "TeamActiveMemberCount": "活跃人数",
+  "ActiveMemberCount": "活跃人数",
+  "SettlementCycle": "结算周期",
+  "TeamPayoutAmount": "派彩金额",
+  "TeamStrategyRebateAmount": "返水金额"
 }

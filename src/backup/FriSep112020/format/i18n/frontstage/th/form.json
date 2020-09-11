@@ -24,34 +24,34 @@
   },
   "label": {
     "BranchBankName": "",
-    "Bank": "",
     "PickState": "",
     "confirmWithdrawal": "",
     "BankCardHolder": "",
     "BankCardNumber": "",
     "emailValidate": "",
     "phoneValidate": "",
-    "depositAmount": "",
     "BankName": "",
     "randomDecimal": "",
     "EmailLogin": "",
     "PasswdLogin": "",
     "PhoneLogin": "",
-    "fundsPassword": "",
-    "transferAmount": ""
+    "Bank": "",
+    "depositAmount": "",
+    "transferAmount": "",
+    "fundsPassword": ""
   },
   "button": {
     "Add": "",
     "doTransfer": "",
     "submitValidateCode": "",
-    "refresh": "",
     "doSignIn": "",
     "doLogin": "",
     "deposit": "",
-    "transfer": "",
-    "withdrawal": "",
     "reset": "",
     "submit": "",
-    "inquire": ""
+    "inquire": "",
+    "refresh": "",
+    "transfer": "",
+    "withdrawal": ""
   }
 }

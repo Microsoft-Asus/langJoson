@@ -39,7 +39,6 @@
   "accountState": "",
   "transNumber": "",
   "allUsers": "",
-  "SingleMember": "",
   "Agent": "",
   "withdrawlFee": "",
   "openSetting": "",
@@ -58,5 +57,6 @@
   "withdrawlFeeFreeCount": "",
   "createSubordinate": "",
   "province": "",
+  "SingleMember": "",
   "transferSubordinate": ""
 }

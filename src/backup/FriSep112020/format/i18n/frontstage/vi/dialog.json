@@ -1,10 +1,7 @@
 {
   "deleteBankCardLabel": "",
   "registerForm": {
-    "hasRegistered": {
-      "0": "",
-      "1": ""
-    }
+    "hasRegistered": []
   },
   "UserNickNameEditor": {
     "title": ""

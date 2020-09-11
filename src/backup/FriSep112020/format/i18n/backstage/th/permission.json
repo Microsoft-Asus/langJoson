@@ -3,11 +3,11 @@
   "export": "",
   "execute": "",
   "Edit": "",
-  "Add": "",
   "permissionList": "",
   "setPermissionCorrespondingUrl": "",
   "editPermissionCorrespondingApiUrl": "",
   "ifMultipleUrlCorrespondencePleaseUseRegularExpression ": "",
-  "query": "",
-  "Delete": ""
+  "Delete": "",
+  "Add": "",
+  "query": ""
 }

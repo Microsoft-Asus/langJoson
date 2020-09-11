@@ -1,11 +1,4 @@
 {
-  "managerAccount": {
-    "Block": "",
-    "Freeze": "",
-    "Undefined": "",
-    "Enable": "",
-    "Disable": ""
-  },
   "memberAccount": {
     "Black": "",
     "Freeze": "",
@@ -14,9 +7,26 @@
     "Disable": ""
   },
   "Promotions": {
-    "Actived": "",
     "NotYet": "",
-    "Passed": ""
+    "Passed": "",
+    "Actived": ""
+  },
+  "Close": "",
+  "webState": {
+    "running": "",
+    "Closed": "",
+    "BlackList": ""
+  },
+  "Rebate": "",
+  "Dividend": "",
+  "DepositBonus": "",
+  "deactivatedDeleted": "",
+  "managerAccount": {
+    "Freeze": "",
+    "Block": "",
+    "Undefined": "",
+    "Enable": "",
+    "Disable": ""
   },
   "WithdrawalStateEnum": {
     "0": "",
@@ -28,24 +38,6 @@
     "Pending": "",
     "Success": ""
   },
-  "Close": "",
-  "webState": {
-    "running": "",
-    "BlackList": "",
-    "Closed": ""
-  },
-  "betState": {
-    "NotOver": "",
-    "Over": "",
-    "Reversed": "",
-    "Modified": "",
-    "Canceled": ""
-  },
-  "Rebate": "",
-  "Wage": "",
-  "Dividend": "",
-  "DepositBonus": "",
-  "Commission": "",
   "MessageMarquee": {
     "0": "",
     "1": "",
@@ -64,9 +56,18 @@
     "Success": "",
     "Fail": ""
   },
+  "Wage": "",
+  "Commission": "",
   "Enable": "",
   "Disable": "",
   "WithdrawlStateEnum": {
     "Pending": ""
+  },
+  "betState": {
+    "NotOver": "",
+    "Over": "",
+    "Reversed": "",
+    "Modified": "",
+    "Canceled": ""
   }
 }

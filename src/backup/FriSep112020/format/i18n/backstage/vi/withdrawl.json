@@ -1,7 +1,6 @@
 {
   "createTime": "",
   "bankCard": "",
-  "balance": "",
   "minAmountRange": "",
   "maxAmountRange": "",
   "withdrawlAmount": "",
@@ -9,6 +8,7 @@
   "amount": "",
   "allPeople": "",
   "transNumber": "",
+  "balance": "",
   "allWithdrawl": "",
   "allAmount": "",
   "fee": ""

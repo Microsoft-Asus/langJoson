@@ -12,7 +12,6 @@
   "depositState": "State of adding credit",
   "depositType": "Type of adding credit",
   "receiveBalance": "Actual credit amount",
-  "depositAmount": "Deposit amount",
   "depositItem": "Deposit item",
   "normalAudit": "routine audit",
   "auditMultiple": "Preferential audit multiple",
@@ -38,7 +37,9 @@
   "webmasterRate": "Webmaster Rate",
   "AfterAudit": "After audit",
   "depositToWallet": "Deposit to wallet",
-  "deposits": "Deposits",
+  "searchTips": "During the normal audit, the \"effective total bet\" needs to be bigger than \"deposit amount\" before you can apply for the payment",
   "receiveTime": "Arrival time",
-  "remitBalance": "Amount of adding credit"
+  "remitBalance": "Amount of adding credit",
+  "depositAmount": "Deposit amount",
+  "deposits": "Deposits"
 }

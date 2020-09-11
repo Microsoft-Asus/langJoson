@@ -12,7 +12,6 @@
   "depositState": "",
   "depositType": "",
   "receiveBalance": "",
-  "depositAmount": "",
   "depositItem": "",
   "normalAudit": "",
   "auditMultiple": "",
@@ -38,7 +37,9 @@
   "webmasterRate": "",
   "AfterAudit": "",
   "depositToWallet": "",
-  "deposits": "",
+  "searchTips": "",
   "receiveTime": "",
-  "remitBalance": ""
+  "remitBalance": "",
+  "depositAmount": "",
+  "deposits": ""
 }

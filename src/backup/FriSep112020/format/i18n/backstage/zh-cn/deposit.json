@@ -12,7 +12,6 @@
   "depositState": "充值状态",
   "depositType": "充值类型",
   "receiveBalance": "实际到帐金额",
-  "depositAmount": "存入金额",
   "depositItem": "存入项目",
   "normalAudit": "常态稽核",
   "auditMultiple": "优惠稽核倍数",
@@ -38,7 +37,9 @@
   "webmasterRate": "商户费率",
   "AfterAudit": "剩余稽核点",
   "depositToWallet": "存入钱包",
-  "deposits": "存入金额",
+  "searchTips": "常态稽核时『有效总投注』需 ≧『存入金额』，才可申请岀款",
   "receiveTime": "到帐时间",
-  "remitBalance": "充值金额"
+  "remitBalance": "充值金额",
+  "depositAmount": "存入金额",
+  "deposits": "存入金额"
 }

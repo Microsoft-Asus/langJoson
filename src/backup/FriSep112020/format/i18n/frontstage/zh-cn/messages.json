@@ -22,7 +22,6 @@
     "success": "您已成功申请提款金额 {0} 元。",
     "fail": "无法新增提款单。"
   },
-  "editSuccessMsg": "修改成功",
   "validationCodeSended": "您已经送出验证码，请至手机/邮箱收取验证码。",
   "cannotUpdateBalance": "无法取得余额",
   "cannotLoginMsg": "目前无法登入，请确认帐号或密码。",
@@ -35,10 +34,12 @@
   "removeSuccess": "",
   "addChildMemberSuccess": "",
   "addChildMemberFailed": "",
+  "editSuccessMsg": "修改成功",
   "depositByTpp": {
     "fail": "目前无法入款，请 {0} 分钟后再次尝试"
   },
   "depositByBankCard": {
     "fail": "目前无法入款，请 {0} 分钟后再次尝试"
-  }
+  },
+  "NicknameChanged": {}
 }

@@ -20,12 +20,12 @@
   },
   "withdrawalRecord": {
     "column": {
-      "Amount": "提款金額",
       "BankCardNumber": "提款現金卡",
       "CreatedTime": "提款日期",
-      "WithdrawalAmount": "填單金額",
       "TransNumber": "提款單號",
+      "Amount": "提款金額",
       "Fee": "手續費",
+      "WithdrawalAmount": "填單金額",
       "Subtotal": "實際金額",
       "ActualWithdrawalAmount": "實際金額"
     }
@@ -34,33 +34,26 @@
     "column": {
       "BetNumber": "注单编号 (交易單號)",
       "CreatedTime": "下注日期",
-      "ValidAmount": "有效投注",
       "WinLossAmount": "輸贏金額",
-      "PayoutAmount": "派彩金額",
       "GameType": "@:user.gamePlatform",
+      "ValidAmount": "有效投注",
+      "PayoutAmount": "派彩金額",
       "BetAmount": "投注金額"
     },
     "pickGamePlatform": "選擇平台"
   },
-  "promotionRecord": {
-    "column": {
-      "TransNumber": "單號",
-      "Amount": "金額",
-      "CreatedTime": "到帳時間"
-    }
-  },
   "securitySetting": {
     "Phone": {
-      "label": "手機號碼",
       "remark": "通過接收手機短信來登錄帳號，帳戶資金變動通知，並在帳號有疑似異常操作時接收提示信息。",
       "modifySuccessMsg": "重置手機成功",
-      "modifyFailingMsg": "重置手機失敗"
+      "modifyFailingMsg": "重置手機失敗",
+      "label": "手機號碼"
     },
     "Email": {
-      "label": "郵箱",
       "modifySuccessMsg": "重置信箱成功",
       "remark": "通過郵箱來登錄帳號，帳戶資金變動通知，並在帳號有疑似異常操作時接收提示信息。",
-      "modifyFailingMsg": "重置郵箱失敗"
+      "modifyFailingMsg": "重置郵箱失敗",
+      "label": "郵箱"
     },
     "Password": {
       "label": "登錄密碼",
@@ -84,40 +77,30 @@
   "DailyRewordRecord": {
     "column": {
       "CreatedTime": "日期",
-      "RewardAmount": "返水金額",
-      "Amount": "投注金額"
+      "Amount": "投注金額",
+      "RewardAmount": "返水金額"
     }
   },
   "deposit": {
     "depositAmountRange": "單筆充值金額 ${min} - ${max}",
-    "bankcardOrderRemind": {
-      "0": "該收款銀行卡僅適用此次充值訂單，下次充值需重新提交充值信息！",
-      "1": "請登錄網上銀行或手機銀行完成轉帳"
-    },
+    "bankcardOrderRemind": [
+      "該收款銀行卡僅適用此次充值訂單，下次充值需重新提交充值信息！",
+      "請登錄網上銀行或手機銀行完成轉帳"
+    ],
     "goCheckDepositRecord": "去 {0} 查看充值訂單信息",
-    "BankCardTransfer": "銀行卡轉帳",
-    "noneAnyPaymentWay": "未提供任何充值方式"
-  },
-  "TppPaymentTypeEnum": {
-    "Alipay": "支付寶",
-    "WeChatPay": "微信支付",
-    "JingdongQrCode": "京東支付",
-    "UnionPayQrCode": "銀聯掃碼",
-    "OnlinePayment": "線上支付",
-    "UnionPay": "雲閃付",
-    "BqPay": "BQPay"
+    "noneAnyPaymentWay": "未提供任何充值方式",
+    "BankCardTransfer": "銀行卡轉帳"
   },
   "transfer": {
+    "doTransfer": "立即轉帳",
     "msg": {
       "successfulTransfer": "轉帳成功",
       "transferFailed": "轉帳失敗"
     },
-    "doTransfer": "立即轉帳",
     "transAmount": "轉帳金額",
     "transferFrom": "轉出",
     "transferTo": "轉入"
   },
-  "mainWallet": "中心錢包",
   "securitySettings": "安全設置",
   "withdrawal": {
     "withdrawalCheck": {
@@ -180,94 +163,111 @@
     "column": {
       "CreatedTime": "變動日期",
       "DiffBalance": "交易金額",
-      "TransNumber": "單號",
-      "AfterBalance": "交易餘額"
+      "AfterBalance": "交易餘額",
+      "TransNumber": "單號"
     }
   },
   "changeRecordType": {
-    "CenterToPg": "[中心錢包]轉[PG]",
-    "CenterToPt": "[中心錢包]轉[PT]",
-    "ChildDeposit": "下級充值",
-    "CenterToVr": "[中心錢包]轉[VR彩票]",
     "DepositBankCard": "入款 - 銀行卡",
-    "CenterToRmg": "[中心錢包]轉[大富翁棋牌]",
-    "FastBetToCenter": "[FastBet]轉[中心錢包]",
-    "CenterToSaba": "[中心錢包]轉[SABA沙巴]",
-    "CenterToRgBoard": "[中心錢包]轉[RgBoardGame]",
-    "CenterToTm": "[中心錢包]轉[天美棋牌]",
-    "EgToCenter": "[EG]轉[中心錢包]",
     "DepositFee": "入款手續費",
-    "CenterToWm": "[中心錢包]轉[WM真人百家樂]",
-    "IboToCenter": "[IBO]轉[中心錢包]",
     "KaToCenter": "[KA游戏]轉[中心錢包]",
     "DepositThirdParty": "入款 - 第三方",
-    "MgPlusToCenter": "[MG+]轉[中心錢包]",
     "DepositDailyReward": "入款 - 日返水",
-    "ParentDeposit": "上級充值",
     "LcToCenter": "[龙城]轉[中心錢包]",
-    "KkToCenter": "[KK彩票]轉[中心錢包]",
-    "NwgToCenter": "[新世界棋牌]轉[中心錢包]",
-    "PgToCenter": "[PG]轉[中心錢包]",
-    "PtToCenter": "[PT]轉[中心錢包]",
-    "WithdrawalReject": "拒絕出款",
-    "RgBoardToCenter": "[RgBoardGame]轉[中心錢包]",
     "WithdrawalPromotions": "出款優惠活動",
-    "Withdrawal": "出款",
-    "WalletAuditArtificialReset": "人工歸零",
-    "VrToCenter": "[VR彩票]轉[中心錢包]",
-    "SabaToCenter": "[SABA沙巴]轉[中心錢包]",
-    "RmgToCenter": "[大富翁棋牌]轉[中心錢包]",
-    "WalletAuditSystemReset": "系統歸零",
-    "RgLotteryToCenter": "[RgLottery]轉[中心錢包]",
-    "PsToCenter": "[玩星]轉[中心錢包]",
     "SaToCenter": "[沙龙]轉[中心錢包]",
-    "TmToCenter": "[天美棋牌]轉[中心錢包]",
     "WithdrawalFee": "出款手續費",
-    "WmToCenter": "[WM真人百家樂]轉[中心錢包]",
-    "ArtificialDepositPromotions": "人工存入-活動優惠",
-    "ArtificialDeposit": "人工存入",
     "AgToCenter": "[AG亞游]轉[中心錢包]",
     "AgentStrategyCommission": "代理策略-傭金",
     "AgentStrategyDepositBonus": "代理策略-充值獎勵",
     "AgentStrategyDividend": "代理策略-分紅",
-    "AgentStrategyOther": "代理策略-其他",
     "AgentStrategyRebate": "代理策略-反水",
     "AgentStrategyWage": "代理策略-工資",
     "AllMemberSearchEnd": "全部會員查詢條件-【結束】",
     "ArtificialDepositExcludProfitAndLoss": "人工存入-排除盈虧",
-    "ArtificialWithdrawal": "人工提出",
     "ArtificialWithdrawalExcludProfitAndLoss": "人工提出-排除盈虧",
     "AviaToCenter": "[泛亚电竞]轉[中心錢包]",
-    "BatchDeposit": "批次存入",
     "BatchDepositExcludProfitAndLoss": "批次存入-排除盈虧",
-    "BatchDepositPromotions": "批次存入-活動優惠",
-    "BbinToCenter": "[NewBBIN波音]轉[中心錢包]",
     "BetCanceled": "未接受注单",
-    "BetDeleted": "註銷",
-    "BetFinished": "派彩",
     "BetModified": "結算修正",
-    "BqDeposit": "BQ入款",
-    "CenterToAg": "[中心錢包]轉[AG]",
     "CenterToAvia": "[中心錢包]轉[泛亚电竞]",
-    "CenterToBbin": "[中心錢包]轉[NewBBIN波音]",
-    "CenterToEg": "[中心錢包]轉[EG]",
-    "CenterToFastBet": "[中心錢包]轉[FastBet]",
-    "CenterToIbo": "[中心錢包]轉[IBO]",
     "CenterToKa": "[中心錢包]轉[KA游戏]",
-    "CenterToKk": "[中心錢包]轉[KK彩票]",
     "CenterToLc": "[中心錢包]轉[龙城]",
-    "CenterToRgLottery": "[中心錢包]轉[RgLottery]",
     "CenterToSa": "[中心錢包]轉[沙龙]",
-    "CenterToPs": "[中心錢包]轉[玩星]",
-    "CenterToMgPlus": "[中心錢包]轉[MG+]",
-    "CenterToNwg": "[中心錢包]轉[新世界棋牌]",
+    "WithdrawalReject": "拒絕出款",
+    "Withdrawal": "出款",
     "Other": "其他",
     "Bet": "下注",
-    "Undefined": "未定義"
+    "BetFinished": "派彩",
+    "BetDeleted": "註銷",
+    "Undefined": "未定義",
+    "ParentDeposit": "上級充值",
+    "ChildDeposit": "下級充值",
+    "AgentStrategyOther": "代理策略-其他",
+    "BqDeposit": "BQ入款",
+    "ArtificialDepositPromotions": "人工存入-活動優惠",
+    "BatchDepositPromotions": "批次存入-活動優惠",
+    "CenterToAg": "[中心錢包]轉[AG]",
+    "CenterToBbin": "[中心錢包]轉[NewBBIN波音]",
+    "BbinToCenter": "[NewBBIN波音]轉[中心錢包]",
+    "CenterToSaba": "[中心錢包]轉[SABA沙巴]",
+    "SabaToCenter": "[SABA沙巴]轉[中心錢包]",
+    "CenterToPt": "[中心錢包]轉[PT]",
+    "PtToCenter": "[PT]轉[中心錢包]",
+    "CenterToRgLottery": "[中心錢包]轉[RgLottery]",
+    "RgLotteryToCenter": "[RgLottery]轉[中心錢包]",
+    "CenterToRgBoard": "[中心錢包]轉[RgBoardGame]",
+    "RgBoardToCenter": "[RgBoardGame]轉[中心錢包]",
+    "CenterToFastBet": "[中心錢包]轉[FastBet]",
+    "FastBetToCenter": "[FastBet]轉[中心錢包]",
+    "CenterToPs": "[中心錢包]轉[玩星]",
+    "PsToCenter": "[玩星]轉[中心錢包]",
+    "CenterToEg": "[中心錢包]轉[EG]",
+    "EgToCenter": "[EG]轉[中心錢包]",
+    "CenterToIbo": "[中心錢包]轉[IBO]",
+    "IboToCenter": "[IBO]轉[中心錢包]",
+    "CenterToKk": "[中心錢包]轉[KK彩票]",
+    "KkToCenter": "[KK彩票]轉[中心錢包]",
+    "CenterToMgPlus": "[中心錢包]轉[MG+]",
+    "MgPlusToCenter": "[MG+]轉[中心錢包]",
+    "CenterToPg": "[中心錢包]轉[PG]",
+    "PgToCenter": "[PG]轉[中心錢包]",
+    "CenterToNwg": "[中心錢包]轉[新世界棋牌]",
+    "NwgToCenter": "[新世界棋牌]轉[中心錢包]",
+    "CenterToRmg": "[中心錢包]轉[大富翁棋牌]",
+    "RmgToCenter": "[大富翁棋牌]轉[中心錢包]",
+    "CenterToTm": "[中心錢包]轉[天美棋牌]",
+    "TmToCenter": "[天美棋牌]轉[中心錢包]",
+    "CenterToVr": "[中心錢包]轉[VR彩票]",
+    "VrToCenter": "[VR彩票]轉[中心錢包]",
+    "CenterToWm": "[中心錢包]轉[WM真人百家樂]",
+    "WmToCenter": "[WM真人百家樂]轉[中心錢包]",
+    "WalletAuditSystemReset": "系統歸零",
+    "WalletAuditArtificialReset": "人工歸零",
+    "ArtificialDeposit": "人工存入",
+    "ArtificialWithdrawal": "人工提出",
+    "BatchDeposit": "批次存入"
   },
-  "gamePlatform": "遊戲平台",
   "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state",
   "recordInfoNumTime": "@:common.SerialNumber / @:common.time",
+  "mainWallet": "中心錢包",
+  "promotionRecord": {
+    "column": {
+      "Amount": "金額",
+      "CreatedTime": "到帳時間",
+      "TransNumber": "單號"
+    }
+  },
+  "TppPaymentTypeEnum": {
+    "Alipay": "支付寶",
+    "WeChatPay": "微信支付",
+    "JingdongQrCode": "京東支付",
+    "UnionPayQrCode": "銀聯掃碼",
+    "OnlinePayment": "線上支付",
+    "UnionPay": "雲閃付",
+    "BqPay": "BQPay"
+  },
+  "gamePlatform": "遊戲平台",
   "QQcode": "QQ號碼",
   "fundsPassword": "資金密碼"
 }

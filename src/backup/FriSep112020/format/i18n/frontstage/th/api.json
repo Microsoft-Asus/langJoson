@@ -7,11 +7,11 @@
     "104": "",
     "300": "",
     "MemberAccountOrPasswordError": "",
+    "VerificationCodeError": "",
     "MemberAccountExist": "",
     "MemberAccountNotExist": "",
     "MemberAccountLoginRepeatedly": "",
     "MemberAccountFreezeOrDisable": "",
-    "MemberLoginIpBlocked": "",
-    "VerificationCodeError": ""
+    "MemberLoginIpBlocked": ""
   }
 }

@@ -1,9 +1,7 @@
 {
   "UsernameNotExist": "account does not exist",
   "PasswordError": "wrong password",
-  "UsernameFronzen": "Account Fronzen",
   "PasswordErrorManyTimes": "The maximum number of password errors",
-  "Fail": "Fail",
   "ParameterError": "Parameter Error",
   "SignatureError": "Signature Error",
   "HttpMethodError": "HttpMethod Error",
@@ -21,7 +19,6 @@
   "AlreadyInUse": "Already In Use",
   "NeedVerificationCode": "Need Verification Code",
   "NeedToBindGoogleAuthentication": "Need To Bind Google Authentication",
-  "VerificationCodeError": "Verification Code Error",
   "NotLast": "Not Last",
   "RoleDisable": "Role Disable",
   "IpExist": "Ip Exist",
@@ -35,5 +32,8 @@
   "VipDepositAmountSortError": "VIP deposit amount sort error",
   "VipValidBetAmountSortError": "VIP valid bet amount sort error",
   "VipKeepVipCumulativeDepositSortError": "VIP keep VIP cumulative deposit sort error",
-  "VipDeleteSortError": "VIP delete sort error"
+  "VipDeleteSortError": "VIP delete sort error",
+  "Fail": "Fail",
+  "UsernameFronzen": "Account Fronzen",
+  "VerificationCodeError": "Verification Code Error"
 }

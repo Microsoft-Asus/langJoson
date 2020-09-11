@@ -1,11 +1,4 @@
 {
-  "managerAccount": {
-    "Block": "黑名單",
-    "Freeze": "凍結",
-    "Undefined": "未定義",
-    "Enable": "啟用",
-    "Disable": "停用"
-  },
   "memberAccount": {
     "Black": "黑單",
     "Freeze": "凍結",
@@ -14,9 +7,26 @@
     "Disable": "停用"
   },
   "Promotions": {
-    "Actived": "活動中",
     "NotYet": "未開始",
-    "Passed": "已結束"
+    "Passed": "已結束",
+    "Actived": "活動中"
+  },
+  "Close": "關閉",
+  "webState": {
+    "running": "營運中",
+    "Closed": "已關閉",
+    "BlackList": "黑名單"
+  },
+  "Rebate": "返水",
+  "Dividend": "分紅",
+  "DepositBonus": "充值獎勵",
+  "deactivatedDeleted": "停用已刪除",
+  "managerAccount": {
+    "Freeze": "凍結",
+    "Block": "黑名單",
+    "Undefined": "未定義",
+    "Enable": "啟用",
+    "Disable": "停用"
   },
   "WithdrawalStateEnum": {
     "0": "未定義",
@@ -28,24 +38,6 @@
     "Pending": "待審核",
     "Success": "出款成功"
   },
-  "Close": "關閉",
-  "webState": {
-    "running": "營運中",
-    "BlackList": "黑名單",
-    "Closed": "已關閉"
-  },
-  "betState": {
-    "NotOver": "未派彩",
-    "Over": "已派彩",
-    "Reversed": "反向單",
-    "Modified": "已修改",
-    "Canceled": "已取消"
-  },
-  "Rebate": "返水",
-  "Wage": "工資",
-  "Dividend": "分紅",
-  "DepositBonus": "充值獎勵",
-  "Commission": "傭金",
   "MessageMarquee": {
     "0": "未定義",
     "1": "啟用",
@@ -64,9 +56,18 @@
     "Success": "充值成功",
     "Fail": "充值失敗"
   },
+  "Wage": "工資",
+  "Commission": "傭金",
   "Enable": "啟用",
   "Disable": "停用",
   "WithdrawlStateEnum": {
     "Pending": "待審核"
+  },
+  "betState": {
+    "NotOver": "未派彩",
+    "Over": "已派彩",
+    "Reversed": "反向單",
+    "Modified": "已修改",
+    "Canceled": "已取消"
   }
 }

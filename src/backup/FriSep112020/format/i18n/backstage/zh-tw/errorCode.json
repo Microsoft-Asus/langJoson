@@ -1,9 +1,7 @@
 {
   "UsernameNotExist": "帳號不存在",
   "PasswordError": "密碼錯誤",
-  "UsernameFronzen": "帳號已凍結",
   "PasswordErrorManyTimes": "密碼錯誤次數達上限",
-  "Fail": "失敗",
   "ParameterError": "參數錯誤",
   "SignatureError": "簽章錯誤",
   "HttpMethodError": "HttpMethod 錯誤",
@@ -21,7 +19,6 @@
   "AlreadyInUse": "已經在使用中",
   "NeedVerificationCode": "需要驗證碼",
   "NeedToBindGoogleAuthentication": "需要綁定google 驗證碼",
-  "VerificationCodeError": "驗證碼錯誤",
   "NotLast": "不是最後一筆",
   "RoleDisable": "角色停用",
   "IpExist": "IP 存在",
@@ -35,5 +32,8 @@
   "VipDepositAmountSortError": "晉升存款金額 遞增設定錯誤",
   "VipValidBetAmountSortError": "晉升有效投注 遞增設定錯誤",
   "VipKeepVipCumulativeDepositSortError": "保级要求（月存款累积） 遞增設定錯誤",
-  "VipDeleteSortError": "vip 刪除順序錯誤"
+  "VipDeleteSortError": "vip 刪除順序錯誤",
+  "Fail": "失敗",
+  "UsernameFronzen": "帳號已凍結",
+  "VerificationCodeError": "驗證碼錯誤"
 }

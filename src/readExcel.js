@@ -157,7 +157,9 @@ module.exports = function () {
 
             logger.end();
           });
+        } catch (err) { throw err; }
 
+        try {
           /** 如果不管排序直接全塞 上面註解掉走這裡就好 讀取目前最新的i18n檔案 */
           const newi18nFilePath = ['.', 'i18n', ...resolvePath];
           const newi18nFileContent = fs.readFileSync(path.resolve(...newi18nFilePath), 'utf8');

@@ -1,5 +1,6 @@
 {
   "currencies": {
+    "Undefined": "",
     "RMB": "",
     "THB": "",
     "USD": "",
@@ -7,7 +8,6 @@
     "VND": "",
     "MYR": "",
     "PHP": "",
-    "INR": "",
-    "Undefined": ""
+    "INR": ""
   }
 }

@@ -1,7 +1,9 @@
 {
   "UsernameNotExist": "帐号不存在",
   "PasswordError": "密码错误",
+  "UsernameFronzen": "帐号已冻结",
   "PasswordErrorManyTimes": "密码错误次数达上限",
+  "Fail": "失败",
   "ParameterError": "参数错误",
   "SignatureError": "签章错误",
   "HttpMethodError": "HttpMethod 错误",
@@ -11,6 +13,10 @@
   "UsernameError": "帐号错误",
   "UsernameExist": "帐号已存在",
   "UsernameDisable": "帐号停用",
+  "VipDepositAmountSortError": "晋升存款金额 递增设定错误",
+  "VipValidBetAmountSortError": "晋升有效投注 递增设定错误",
+  "VipKeepVipCumulativeDepositSortError": "保级要求（月存款累积） 递增设定错误",
+  "VipDeleteSortError": "vip 删除顺序错误",
   "RemarkLengthError": "备注长度错误",
   "MultipleError": "倍数 错误",
   "FormatError": "格式 错误",
@@ -19,6 +25,7 @@
   "AlreadyInUse": "已经在使用中",
   "NeedVerificationCode": "需要验证码",
   "NeedToBindGoogleAuthentication": "需要绑定google 验证码",
+  "VerificationCodeError": "验证码错误",
   "NotLast": "不是最后一笔",
   "RoleDisable": "角色停用",
   "IpExist": "IP 存在",
@@ -28,12 +35,5 @@
   "SubItemExist": "子项目存在",
   "GameCodeExist": "游戏代码存在",
   "BankAccountExist": "银行户存在",
-  "Forbidden": "没有权限",
-  "VipDepositAmountSortError": "晋升存款金额 递增设定错误",
-  "VipValidBetAmountSortError": "晋升有效投注 递增设定错误",
-  "VipKeepVipCumulativeDepositSortError": "保级要求（月存款累积） 递增设定错误",
-  "VipDeleteSortError": "vip 删除顺序错误",
-  "Fail": "失败",
-  "UsernameFronzen": "帐号已冻结",
-  "VerificationCodeError": "验证码错误"
+  "Forbidden": "没有权限"
 }

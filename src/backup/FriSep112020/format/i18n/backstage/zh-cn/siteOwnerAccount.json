@@ -1,5 +1,6 @@
 {
   "currencies": {
+    "Undefined": "未定义",
     "RMB": "人民币 (RMB)",
     "THB": "泰铢 (THB)",
     "USD": "美元 (USD)",
@@ -7,7 +8,6 @@
     "VND": "越南盾 (VND)",
     "MYR": "林吉特 (MYR)",
     "PHP": "菲律宾比索 (PHP)",
-    "INR": "印度卢比 (INR)",
-    "Undefined": "未定义"
+    "INR": "印度卢比 (INR)"
   }
 }

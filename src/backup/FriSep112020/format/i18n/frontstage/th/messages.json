@@ -3,11 +3,12 @@
     "success": ""
   },
   "sendCode": {
-    "EmailSuccess": "",
     "PhoneSuccess": "",
-    "EmailPlzCheck": "",
-    "PhonePlzCheck": ""
+    "EmailSuccess": "",
+    "PhonePlzCheck": "",
+    "EmailPlzCheck": ""
   },
+  "NicknameChanged": {},
   "nicknameModified": {
     "success": ""
   },
@@ -22,10 +23,17 @@
     "success": "",
     "fail": ""
   },
+  "editSuccessMsg": "",
   "validationCodeSended": "",
   "cannotUpdateBalance": "",
   "cannotLoginMsg": "",
   "cannotRegisterForNow": "",
+  "depositByTpp": {
+    "fail": ""
+  },
+  "depositByBankCard": {
+    "fail": ""
+  },
   "cannotPlayGame": "",
   "contract": {
     "signingError": ""
@@ -33,13 +41,5 @@
   "removeFailed": "",
   "removeSuccess": "",
   "addChildMemberSuccess": "",
-  "addChildMemberFailed": "",
-  "editSuccessMsg": "",
-  "depositByTpp": {
-    "fail": ""
-  },
-  "depositByBankCard": {
-    "fail": ""
-  },
-  "NicknameChanged": {}
+  "addChildMemberFailed": ""
 }

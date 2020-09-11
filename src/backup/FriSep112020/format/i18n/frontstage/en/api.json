@@ -6,12 +6,12 @@
     "103": "This account has been deactivated",
     "104": "Member login IP has been blocked / disabled",
     "300": "verification code error",
-    "MemberAccountOrPasswordError": "Member account or password is wrong",
-    "VerificationCodeError": "verification code error",
-    "MemberAccountExist": "This account already exists",
-    "MemberAccountNotExist": "This account doesn't exist",
-    "MemberAccountLoginRepeatedly": "This account is already logged in",
     "MemberAccountFreezeOrDisable": "This account has been deactivated",
-    "MemberLoginIpBlocked": "Member login IP has been blocked / disabled"
+    "MemberAccountExist": "This account already exists",
+    "MemberAccountLoginRepeatedly": "This account is already logged in",
+    "VerificationCodeError": "verification code error",
+    "MemberLoginIpBlocked": "Member login IP has been blocked / disabled",
+    "MemberAccountOrPasswordError": "Member account or password is wrong",
+    "MemberAccountNotExist": "This account doesn't exist"
   }
 }

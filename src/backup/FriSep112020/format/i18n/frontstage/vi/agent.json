@@ -1,13 +1,13 @@
 {
   "column": {
-    "AgentCreatedTime": "",
-    "Balance": "",
     "MemberAccount": "",
+    "AgentIdentityName": "",
     "ParentMemberAccount": "",
+    "Balance": "",
+    "AgentCreatedTime": "",
     "AgentLink": {
       "CreatedTime": ""
     },
-    "AgentIdentityName": "",
     "RegisterCount": ""
   },
   "common": {
@@ -16,6 +16,12 @@
   "betRecord": {
     "pickGameCategory": ""
   },
+  "TeamActiveMemberCount": "",
+  "TeamDeposit": "",
+  "TeamValidBetAmount": "",
+  "TeamStrategyRebateAmount": "",
+  "TeamPayoutAmount": "",
+  "TeamBenefitAmount": "",
   "TeamSettlementAmount": "",
   "addAccount": "",
   "addAccountByLink": "",
@@ -32,7 +38,6 @@
   "ContractProportion": "",
   "BetInfo": "",
   "BetTaget": "",
-  "TeamBenefitAmount": "",
   "pickIdentity": "",
   "AddChildTipMessage": "",
   "signWithMember": "",
@@ -56,11 +61,6 @@
   },
   "ContractReportAmount": "",
   "sharingItem": "",
-  "TeamValidBetAmount": "",
-  "TeamDeposit": "",
-  "TeamActiveMemberCount": "",
   "ActiveMemberCount": "",
-  "SettlementCycle": "",
-  "TeamPayoutAmount": "",
-  "TeamStrategyRebateAmount": ""
+  "SettlementCycle": ""
 }

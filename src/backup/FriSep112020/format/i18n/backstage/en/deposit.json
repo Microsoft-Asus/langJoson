@@ -7,11 +7,14 @@
   "receiveName": "Payee’s Name",
   "receiveNumber": "Payee’s Account",
   "applyTime": "application time",
+  "receiveTime": "Arrival time",
+  "remitBalance": "Amount of adding credit",
   "remitInfor": "Remittance information",
   "receiveInfor": "Payment information",
   "depositState": "State of adding credit",
   "depositType": "Type of adding credit",
   "receiveBalance": "Actual credit amount",
+  "depositAmount": "Deposit amount",
   "depositItem": "Deposit item",
   "normalAudit": "routine audit",
   "auditMultiple": "Preferential audit multiple",
@@ -37,9 +40,6 @@
   "webmasterRate": "Webmaster Rate",
   "AfterAudit": "After audit",
   "depositToWallet": "Deposit to wallet",
-  "searchTips": "During the normal audit, the \"effective total bet\" needs to be bigger than \"deposit amount\" before you can apply for the payment",
-  "receiveTime": "Arrival time",
-  "remitBalance": "Amount of adding credit",
-  "depositAmount": "Deposit amount",
-  "deposits": "Deposits"
+  "deposits": "Deposits",
+  "searchTips": "During the normal audit, the \\\"effective total bet\\\" needs to be bigger than \\\"deposit amount\\\" before you can apply for the payment"
 }

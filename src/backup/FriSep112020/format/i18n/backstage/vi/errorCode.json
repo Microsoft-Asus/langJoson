@@ -1,7 +1,9 @@
 {
   "UsernameNotExist": "",
   "PasswordError": "",
+  "UsernameFronzen": "",
   "PasswordErrorManyTimes": "",
+  "Fail": "",
   "ParameterError": "",
   "SignatureError": "",
   "HttpMethodError": "",
@@ -11,6 +13,10 @@
   "UsernameError": "",
   "UsernameExist": "",
   "UsernameDisable": "",
+  "VipDepositAmountSortError": "",
+  "VipValidBetAmountSortError": "",
+  "VipKeepVipCumulativeDepositSortError": "",
+  "VipDeleteSortError": "",
   "RemarkLengthError": "",
   "MultipleError": "",
   "FormatError": "",
@@ -19,6 +25,7 @@
   "AlreadyInUse": "",
   "NeedVerificationCode": "",
   "NeedToBindGoogleAuthentication": "",
+  "VerificationCodeError": "",
   "NotLast": "",
   "RoleDisable": "",
   "IpExist": "",
@@ -28,12 +35,5 @@
   "SubItemExist": "",
   "GameCodeExist": "",
   "BankAccountExist": "",
-  "Forbidden": "",
-  "VipDepositAmountSortError": "",
-  "VipValidBetAmountSortError": "",
-  "VipKeepVipCumulativeDepositSortError": "",
-  "VipDeleteSortError": "",
-  "Fail": "",
-  "UsernameFronzen": "",
-  "VerificationCodeError": ""
+  "Forbidden": ""
 }

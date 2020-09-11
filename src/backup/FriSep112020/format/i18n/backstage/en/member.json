@@ -8,6 +8,7 @@
   "resetActionTips": "This action will delete all bank cards and clear the cardholder's name. Are you sure you want to continue?",
   "cardNumber": "bank card Number",
   "withdrawlBank": "Withdrawal bank",
+  "province": "province",
   "county": "county",
   "branchBank": "Sub-branch",
   "sureToDelCard": "Are you sure you want to delete the bank card?",
@@ -39,6 +40,7 @@
   "accountState": "Account status",
   "transNumber": "Transaction number",
   "allUsers": "All Users",
+  "SingleMember": "Single User",
   "Agent": "Agent",
   "withdrawlFee": "Withdrawal Fee",
   "openSetting": "Open Settings",
@@ -56,7 +58,5 @@
   "MemberUrlLink": "Member url link",
   "withdrawlFeeFreeCount": "Withdrawl fee free count",
   "createSubordinate": "Create subordinate",
-  "province": "province",
-  "SingleMember": "Single User",
   "transferSubordinate": ""
 }

@@ -8,6 +8,7 @@
   "resetActionTips": "",
   "cardNumber": "",
   "withdrawlBank": "",
+  "province": "",
   "county": "",
   "branchBank": "",
   "sureToDelCard": "",
@@ -39,9 +40,13 @@
   "accountState": "",
   "transNumber": "",
   "allUsers": "",
+  "SingleMember": "",
   "Agent": "",
   "withdrawlFee": "",
+  "withdrawlFeeFreeCount": "",
   "openSetting": "",
+  "createSubordinate": "",
+  "transferSubordinate": "",
   "EditMemberData": "",
   "EditBankerCard": "",
   "ResetBankerCardName": "",
@@ -53,10 +58,5 @@
   "sameLevel": "",
   "signingContract": "",
   "agentAuthority": "",
-  "MemberUrlLink": "",
-  "withdrawlFeeFreeCount": "",
-  "createSubordinate": "",
-  "province": "",
-  "SingleMember": "",
-  "transferSubordinate": ""
+  "MemberUrlLink": ""
 }

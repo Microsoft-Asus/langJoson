@@ -1,5 +1,6 @@
 {
   "currencies": {
+    "Undefined": "Undefined",
     "RMB": "Renminbi (RMB)",
     "THB": "Thai baht (THB)",
     "USD": "United States dollar (USD)",
@@ -7,7 +8,6 @@
     "VND": "Vietnamese đồng (VND)",
     "MYR": "Malaysian ringgit (MYR)",
     "PHP": "Philippine peso (PHP)",
-    "INR": "Indian Rupee (INR)",
-    "Undefined": "Undefined"
+    "INR": "Indian Rupee (INR)"
   }
 }

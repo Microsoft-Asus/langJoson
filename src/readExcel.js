@@ -78,25 +78,8 @@ module.exports = function () {
           return;
         }
 
-        const funcRegex = function (line) {
-          if (/[\"]{1,2}/.test(line.split(':')[1])) {
-            return false;
-          } else {
-            return true; //直接寫
-          }
-        };
 
-        const funcReplace = function (line, value) {
-          const arr = line.split(':');
-          const key = arr[0];
 
-          const beforeVal = arr.slice(1, arr.length).join(':');
-          const replaceVal = [...beforeVal]
-            .slice([...beforeVal].indexOf('"') + 1, [...beforeVal].lastIndexOf('"'))
-            .join('');
-
-          return key + ':' + beforeVal.replace(replaceVal, value);
-        };
         /** 因為ZH_TW是基準所以用ZH_TW來做會比較完整 */
         const modulePath = ['i18n', resolvePath[3], 'zh-tw', fileName];
         fs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
@@ -156,7 +139,7 @@ module.exports = function () {
                 // console.log(line); //直接寫
               } else {
                 // console.log('########', KeyList);
-                line = funcReplace(line, newValue);
+                line = contentReplace(line, newValue);
               }
             }
 
@@ -221,3 +204,24 @@ function EscapeCharacter(value) {
 
   return value;
 }
+
+function funcRegex(line) {
+  if (/[\"]{1,2}/.test(line.split(':')[1])) {
+    return false;
+  } else {
+    return true; //直接寫
+  }
+}
+
+
+function contentReplace(line, value) {
+  const arr = line.split(':');
+  const key = arr[0];
+
+  const beforeVal = arr.slice(1, arr.length).join(':');
+  const replaceVal = [...beforeVal]
+    .slice([...beforeVal].indexOf('"') + 1, [...beforeVal].lastIndexOf('"'))
+    .join('');
+
+  return key + ':' + beforeVal.replace(replaceVal, value);
+};

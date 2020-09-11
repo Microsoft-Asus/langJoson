@@ -27,12 +27,12 @@ readExcel.js 拿來讀取 Excel 輸出 i18n 的 -->可以另外複製出去獨�
  *  true => 輸出Excel
  *  false => 讀取Excel 輸出 i18n
  */
-EXPORT_EXCEL = true;
+EXPORT_EXCEL = true
 ```
 
 ## 輸出的 Excel 檔案
 
-src/Inspection.xlsx
+src/Inspection\_{日期}.xlsx
 
 key:程式看的
 
@@ -42,7 +42,8 @@ rowid: 可以跟 外部人員 核對用
 
 ## 解析產生的 i18n 檔案
 
-src/output
+src/backup/日期/output
+src/backup/日期/format
 
 ## 實作
 
@@ -60,7 +61,7 @@ src/output
 
 ### 2.匯入翻譯人員給的 Excel
 
-將 Inspection.xlsx 放入 src 下
+將 Inspection\_{日期}.xlsx 放入 src 下
 
 XPORT_EXCEL 設定 false
 

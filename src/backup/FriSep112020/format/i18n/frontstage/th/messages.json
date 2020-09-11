@@ -1,0 +1,44 @@
+{
+  "register": {
+    "success": ""
+  },
+  "sendCode": {
+    "EmailSuccess": "",
+    "PhoneSuccess": "",
+    "EmailPlzCheck": "",
+    "PhonePlzCheck": ""
+  },
+  "nicknameModified": {
+    "success": ""
+  },
+  "removeBankCard": {
+    "success": ""
+  },
+  "addBankCard": {
+    "success": ""
+  },
+  "confirmLogout": "",
+  "withdrawalRequest": {
+    "success": "",
+    "fail": ""
+  },
+  "editSuccessMsg": "",
+  "validationCodeSended": "",
+  "cannotUpdateBalance": "",
+  "cannotLoginMsg": "",
+  "cannotRegisterForNow": "",
+  "cannotPlayGame": "",
+  "contract": {
+    "signingError": ""
+  },
+  "removeFailed": "",
+  "removeSuccess": "",
+  "addChildMemberSuccess": "",
+  "addChildMemberFailed": "",
+  "depositByTpp": {
+    "fail": ""
+  },
+  "depositByBankCard": {
+    "fail": ""
+  }
+}

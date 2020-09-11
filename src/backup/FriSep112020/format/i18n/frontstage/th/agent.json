@@ -1,0 +1,66 @@
+{
+  "column": {
+    "AgentCreatedTime": "",
+    "Balance": "",
+    "MemberAccount": "",
+    "ParentMemberAccount": "",
+    "AgentLink": {
+      "CreatedTime": ""
+    },
+    "RegisterCount": "",
+    "AgentIdentityName": ""
+  },
+  "common": {
+    "memberNotExist": ""
+  },
+  "betRecord": {
+    "pickGameCategory": ""
+  },
+  "TeamActiveMemberCount": "",
+  "TeamSettlementAmount": "",
+  "addAccount": "",
+  "addAccountByLink": "",
+  "turnToAgent": "",
+  "linksMangement": "",
+  "contract": {
+    "MemberAccount": ""
+  },
+  "ActiveMemberCountExpression": "",
+  "ActiveMemberCount": "",
+  "BenefitSharingSource": "",
+  "Proportion": "",
+  "SettlementCycle": "",
+  "SignedProportion": "",
+  "CreateLinkTipMessage": "",
+  "CurrentQuota": "",
+  "sharingItem": "",
+  "ContractProportion": "",
+  "BetInfo": "",
+  "BetTaget": "",
+  "TeamDeposit": "",
+  "TeamValidBetAmount": "",
+  "TeamStrategyRebateAmount": "",
+  "TeamPayoutAmount": "",
+  "TeamBenefitAmount": "",
+  "pickIdentity": "",
+  "AddChildTipMessage": "",
+  "signWithMember": "",
+  "GenerateLink": "",
+  "dashboard": {
+    "TeamBalance": "",
+    "title": "",
+    "caption": "",
+    "TeamDepositAmount": "",
+    "TeamWithdrawalAmount": "",
+    "TeamValidBetAmount": "",
+    "TeamBetMemberCount": "",
+    "TeamRegistMemberCount": "",
+    "TeamMemberCount": ""
+  },
+  "contractReport": {
+    "column": {
+      "Amount": ""
+    }
+  },
+  "ContractReportAmount": ""
+}

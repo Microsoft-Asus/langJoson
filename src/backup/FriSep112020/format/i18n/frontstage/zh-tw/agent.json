@@ -1,0 +1,66 @@
+{
+  "column": {
+    "AgentCreatedTime": "開戶時間",
+    "Balance": "錢包餘額",
+    "MemberAccount": "用戶名",
+    "ParentMemberAccount": "所屬上級",
+    "AgentLink": {
+      "CreatedTime": "生成時間"
+    },
+    "RegisterCount": "註冊人數",
+    "AgentIdentityName": "身份"
+  },
+  "common": {
+    "memberNotExist": "你嘗試訪問的會員不存在"
+  },
+  "betRecord": {
+    "pickGameCategory": "遊戲分類"
+  },
+  "TeamActiveMemberCount": "活躍人數",
+  "TeamSettlementAmount": "團隊盈虧",
+  "addAccount": "手動開戶",
+  "addAccountByLink": "鏈結開戶",
+  "turnToAgent": "轉為代理",
+  "linksMangement": "鏈結管理",
+  "contract": {
+    "MemberAccount": "簽約帳號"
+  },
+  "ActiveMemberCountExpression": "@:common.unlimit | {n} | {n}",
+  "ActiveMemberCount": "活躍人數",
+  "BenefitSharingSource": "分潤來源",
+  "Proportion": "自身比例",
+  "SettlementCycle": "結算週期",
+  "SignedProportion": "簽約比例",
+  "CreateLinkTipMessage": "最多只能生成 {0} 組鏈結",
+  "CurrentQuota": "計算額度",
+  "sharingItem": "分潤項目",
+  "ContractProportion": "合約比例",
+  "BetInfo": "投注資訊",
+  "BetTaget": "遊戲分類/平台",
+  "TeamDeposit": "充值",
+  "TeamValidBetAmount": "有效投注",
+  "TeamStrategyRebateAmount": "返水金額",
+  "TeamPayoutAmount": "派彩金額",
+  "TeamBenefitAmount": "分潤待遇",
+  "pickIdentity": "選擇身份",
+  "AddChildTipMessage": "新添加會員的初始密碼為: {0}",
+  "signWithMember": "與 {0} 簽約",
+  "GenerateLink": "生成鏈結",
+  "dashboard": {
+    "TeamBalance": "團隊餘額",
+    "title": "今日團隊總覽",
+    "caption": "統計數據與報表紀錄相同，統計區間為每日 {0}。",
+    "TeamDepositAmount": "團隊充值",
+    "TeamWithdrawalAmount": "團隊提款",
+    "TeamValidBetAmount": "團隊投注",
+    "TeamBetMemberCount": "投注人數",
+    "TeamRegistMemberCount": "註冊人數",
+    "TeamMemberCount": "團隊成員"
+  },
+  "contractReport": {
+    "column": {
+      "Amount": "發放金額"
+    }
+  },
+  "ContractReportAmount": "發放金額"
+}

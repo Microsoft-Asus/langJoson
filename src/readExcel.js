@@ -27,6 +27,7 @@ module.exports = function () {
   Object.values(dirPath).forEach((foldstage) => {
     Object.values(langList).forEach((it) => {
       filesJs.createFolderSync(path.resolve('.', 'backup', xlsxDate, 'output', 'i18n', foldstage, it));
+      filesJs.createFolderSync(path.resolve('.', 'backup', xlsxDate, 'format', 'i18n', foldstage, it));
     });
   });
 
@@ -85,8 +86,8 @@ module.exports = function () {
 
 
 
-        /** 模板位置 因為ZH_TW是基準所以用ZH_TW來做會比較完整 */
-        const modulePath = ['i18n', resolvePath[0], 'zh-tw', fileName];
+        /** 讀取輸出日期的模板  而且因為ZH_TW是基準所以用ZH_TW來做會比較完整 */
+        const modulePath = ['.', 'backup', xlsxDate, 'i18n', resolvePath[0], 'zh-tw', fileName];
         fs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
           const KeyList = [];
           /** 寫的位置 */
@@ -158,25 +159,16 @@ module.exports = function () {
         });
 
         /** 如果不管排序直接全塞 ˋ上面註解掉走這裡就好 */
-        // fs.writeFile(
-        //   path.resolve(...resolvePath),
-        //   JSON.stringify(outputJson[langkey][writePath], null, 2),
-        //   errorHandler,
-        // );
+        fs.writeFile(
+          path.resolve(path.resolve('.', 'backup', xlsxDate, 'format', 'i18n', ...resolvePath)),
+          JSON.stringify(outputJson[langkey][writePath], null, 2),
+          errorHandler,
+        );
       });
     });
   }, errorHandler);
 };
 
-function createDir(dirsetting, patharray) {
-  Object.values(dirsetting).forEach((it) => {
-    const dirpath = path.resolve(...patharray, it);
-    const dir = filesJs.is_dir(dirpath);
-    if (!dir) {
-      fs.mkdirSync(dirpath);
-    }
-  });
-}
 
 function errorHandler(err) {
   if (err) {

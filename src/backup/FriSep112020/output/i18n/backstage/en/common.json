@@ -210,5 +210,16 @@
   "interruptSaving": "Interrupt saving",
   "keyValue": "Key value",
   "description": "Description",
-  "nodeSaveYetPleaseEdit": "Node save yet, please edit"
+  "nodeSaveYetPleaseEdit": "Node save yet, please edit",
+  "memberLevel": "Member level",
+  "Gender": {
+    "Male": "male",
+    "Female": "female",
+    "Unknow": "unknown"
+  },
+  "undefined": "Undefined",
+  "notSettled": "Not settled",
+  "catalog": "Catalog",
+  "block": "Block",
+  "list": "list"
 }

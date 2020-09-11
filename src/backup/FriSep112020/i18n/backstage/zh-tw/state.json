@@ -68,5 +68,6 @@
   "Wage": "工資",
   "Dividend": "分紅",
   "DepositBonus": "充值獎勵",
-  "Commission": "傭金"
+  "Commission": "傭金",
+  "deactivatedDeleted": "停用已刪除"
 }

@@ -61,5 +61,16 @@
   "centerToWm": "",
   "wmToCenter": "",
   "walletAuditSystemReset": "",
-  "walletAuditArtificialReset": ""
+  "walletAuditArtificialReset": "",
+  "TppPaymentTypeEnum": {
+    "Alipay": "",
+    "WeChatPay": "",
+    "JingdongQrCode": "",
+    "UnionPayQrCode": "",
+    "OnlinePayment": "",
+    "UnionPay": "",
+    "BqPay": "",
+    "bankCard": ""
+  },
+  "bankAcconutName": ""
 }

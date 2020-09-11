@@ -89,7 +89,7 @@
     }
   },
   "deposit": {
-    "BankCardTransfer": "银行卡转账",
+    "BankCardTransfer": "银行卡转帐",
     "depositAmountRange": "有效充值金额 ${min} - ${max}",
     "bankcardOrderRemind": [
       "该收款银行卡仅适用此次充值订单，下次充值需重新提交充值信息！",
@@ -254,16 +254,16 @@
     "BbinToCenter": "[NewBBIN波音]转[中心钱包]",
     "CenterToRgLottery": "[中心钱包]转[RgLottery]",
     "CenterToFastBet": "[中心钱包]转[FastBet]",
-    "CenterToPs": "",
+    "CenterToPs": "[中心钱包]转[玩星]",
     "CenterToAvia": "[中心钱包]转[泛亚电竞]",
     "AviaToCenter": "[泛亚电竞]转[中心钱包]",
     "CenterToEg": "[中心钱包]转[EG]",
     "CenterToIbo": "[中心钱包]转[IBO]",
     "CenterToKk": "[中心钱包]转[KK彩票]",
     "CenterToKa": "[中心钱包]转[KA游戏]",
-    "CenterToMgPlus": "",
+    "CenterToMgPlus": "[中心钱包]转[MG+]",
     "CenterToLc": "[中心钱包]转[龙城]",
-    "CenterToNwg": "",
+    "CenterToNwg": "[中心钱包]转[新世界棋牌]",
     "CenterToSa": "[中心钱包]转[沙龙]",
     "BqDeposit": "BQ入款"
   },

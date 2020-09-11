@@ -40,5 +40,6 @@
   "webmasterFee": "Webmaster fee",
   "webmasterRate": "Webmaster Rate",
   "depositToWallet": "Deposit to wallet",
-  "deposits": "Deposits"
+  "deposits": "Deposits",
+  "searchTips": "During the normal audit, the \"effective total bet\" needs to be bigger than \"deposit amount\" before you can apply for the payment"
 }

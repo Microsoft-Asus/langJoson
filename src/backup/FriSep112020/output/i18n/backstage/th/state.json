@@ -68,5 +68,6 @@
   "Wage": "",
   "Dividend": "",
   "DepositBonus": "",
-  "Commission": ""
+  "Commission": "",
+  "deactivatedDeleted": ""
 }

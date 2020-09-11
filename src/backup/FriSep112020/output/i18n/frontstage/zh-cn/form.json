@@ -38,7 +38,7 @@
     "EmailLogin": "邮箱登录",
     "PasswdLogin": "密码登录",
     "transferAmount": "转帐金额",
-    "fundsPassword": ""
+    "fundsPassword": "资金密码"
   },
   "button": {
     "Add": "添加",
@@ -52,6 +52,6 @@
     "withdrawal": "提款",
     "transfer": "转帐",
     "doLogin": "立即登录",
-    "reset": ""
+    "reset": "重置"
   }
 }

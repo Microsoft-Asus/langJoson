@@ -61,5 +61,15 @@
   "centerToWm": "[中心钱包]转[WM真人百家乐]",
   "wmToCenter": "[WM真人百家乐]转[中心钱包]",
   "walletAuditSystemReset": "系统归零",
-  "walletAuditArtificialReset": "人工归零"
+  "walletAuditArtificialReset": "人工归零",
+  "TppPaymentTypeEnum": {
+    "Alipay": "支付宝",
+    "WeChatPay": "微信支付",
+    "JingdongQrCode": "京东支付",
+    "UnionPayQrCode": "银联扫码",
+    "OnlinePayment": "線上支付",
+    "UnionPay": "云闪付",
+    "bankCard": "银行卡"
+  },
+  "bankAcconutName": "银行户名"
 }

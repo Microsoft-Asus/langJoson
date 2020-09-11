@@ -105,7 +105,7 @@ const EXPORT_EXCEL = false;
   });
 
   //過濾出全部的重複內容
-  const repeatValue = Object.values(repeatAll).filter((it) => {
+  const repeatValue = Object.values(repeatZhTw).filter((it) => {
     return it.length > 1;
   });
   //針對ZH-TW的過濾
@@ -173,10 +173,14 @@ const EXPORT_EXCEL = false;
     });
 
     const letter = String('bcdefghijklmnopqrstuvwxyz').toUpperCase();
-
-    [...letter].slice(0, langList.length).forEach((key) => {
+    //因為只看繁體 所以只合併繁簡
+    [...letter].slice(0, 2).forEach((key) => {
       worksheet.mergeCells(`${key}${rowsIndex + 2}:${key}${rowsIndex + repeat.length - 1 + 2}`);
     });
+
+    // [...letter].slice(0, langList.length).forEach((key) => {
+    //   worksheet.mergeCells(`${key}${rowsIndex + 2}:${key}${rowsIndex + repeat.length - 1 + 2}`);
+    // });
   });
 
 

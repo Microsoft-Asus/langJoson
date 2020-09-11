@@ -68,5 +68,6 @@
   "Wage": "Wage",
   "Dividend": "Dividend",
   "DepositBonus": "Deposit bonus",
-  "Commission": "Commission"
+  "Commission": "Commission",
+  "deactivatedDeleted": "Deactivated deleted"
 }

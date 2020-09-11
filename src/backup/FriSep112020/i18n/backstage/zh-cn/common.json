@@ -210,5 +210,16 @@
   "interruptSaving": "中断储存",
   "keyValue": "键值",
   "description": "描述",
-  "nodeSaveYetPleaseEdit": "节点尚未储存，请进入编辑"
+  "nodeSaveYetPleaseEdit": "节点尚未储存，请进入编辑",
+  "memberLevel": "会员等级",
+  "Gender": {
+    "Female": "女性",
+    "Male": "男性",
+    "Unknow": "未知"
+  },
+  "undefined": "未定义",
+  "notSettled": "未结算",
+  "catalog": "目录",
+  "block": "区块",
+  "list": "列表"
 }

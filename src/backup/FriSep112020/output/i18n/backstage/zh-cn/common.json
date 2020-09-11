@@ -6,7 +6,7 @@
   "headerTitle": "后台系统",
   "AccountStateWorking": "正常",
   "AccountStateFreeze": "冻结",
-  "Account": "帐号",
+  "Account": "帐户",
   "Name": "名称",
   "Role": "角色",
   "AccountState": "帐号状态",
@@ -15,9 +15,9 @@
   "Remarks": "备注",
   "submit": "送出",
   "reset": "重置",
-  "Username": "帐号",
+  "Username": "帐户",
   "save": "储存",
-  "username": "帐号",
+  "username": "帐户",
   "undo": "回复",
   "days": "周日_周一_周二_周三_周四_周五_周六",
   "daysShort": "日_一_二_三_四_五_六",
@@ -210,5 +210,16 @@
   "interruptSaving": "中断储存",
   "keyValue": "键值",
   "description": "描述",
-  "nodeSaveYetPleaseEdit": "节点尚未储存，请进入编辑"
+  "nodeSaveYetPleaseEdit": "节点尚未储存，请进入编辑",
+  "memberLevel": "会员等级",
+  "Gender": {
+    "Male": "男性",
+    "Female": "女性",
+    "Unknow": "未知"
+  },
+  "undefined": "未定义",
+  "notSettled": "未结算",
+  "catalog": "目录",
+  "block": "区块",
+  "list": "列表"
 }

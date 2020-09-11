@@ -210,5 +210,16 @@
   "interruptSaving": "中斷儲存",
   "keyValue": "鍵值",
   "description": "描述",
-  "nodeSaveYetPleaseEdit": "節點尚未儲存，請進入編輯"
+  "nodeSaveYetPleaseEdit": "節點尚未儲存，請進入編輯",
+  "memberLevel": "會員等級",
+  "Gender": {
+    "Male": "男性",
+    "Female": "女性",
+    "Unknow": "未知"
+  },
+  "undefined": "未定義",
+  "notSettled": "未結算",
+  "catalog": "目錄",
+  "block": "區塊",
+  "list": "列表"
 }

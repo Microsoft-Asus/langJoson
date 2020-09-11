@@ -210,5 +210,16 @@
   "interruptSaving": "",
   "keyValue": "",
   "description": "",
-  "nodeSaveYetPleaseEdit": ""
+  "nodeSaveYetPleaseEdit": "",
+  "memberLevel": "",
+  "Gender": {
+    "Male": "",
+    "Female": "",
+    "Unknow": ""
+  },
+  "undefined": "",
+  "notSettled": "",
+  "catalog": "",
+  "block": "",
+  "list": ""
 }

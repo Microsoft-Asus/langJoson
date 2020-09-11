@@ -15,7 +15,7 @@
     "Unknow": "未知"
   },
   "Login": "登录",
-  "remove": "删除",
+  "remove": "刪除",
   "cancel": "取消",
   "confirm": "确认",
   "copySuccess": "已复制 {0}",
@@ -54,7 +54,7 @@
   "gameList": "游戏列表",
   "langs": {
     "en": "English",
-    "zh-tw": "繁體中文",
+    "zh-tw": "繁体中文",
     "zh-cn": "简体中文",
     "th": "Thai"
   },
@@ -81,10 +81,10 @@
   "tip": "",
   "signed": "",
   "unsigned": "",
-  "unlimit": "",
+  "unlimit": "无限制",
   "sign": "",
   "nextstep": "",
-  "SerialNumber": "",
+  "SerialNumber": "单号",
   "time": "",
   "link": "",
   "measureword": {

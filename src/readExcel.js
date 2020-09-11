@@ -4,6 +4,7 @@ const path = require('path');
 //Excel JS
 const Excel = require('exceljs');
 const filesJs = require('./files.js');
+const extend = require("extend");
 
 module.exports = function () {
   console.log('readExcelJS');
@@ -69,6 +70,7 @@ module.exports = function () {
       }
     });
 
+    const cloneJson = extend(true, {}, outputJson);
     /** 讀出來的JSON結構 依序取出檔案名 */
     Object.keys(outputJson).forEach((langkey) => {
       Object.keys(outputJson[langkey]).forEach((writePath) => {
@@ -114,7 +116,7 @@ module.exports = function () {
                 KeyList[findIndex] = String(line.split(':')[0].split('"').join('')).trim();
                 KeyList.length = findIndex + 1;
               }
-              const newValue = getDeepJson(outputJson[langkey][writePath], 0, KeyList);
+              const newValue = getDeepJson(cloneJson[langkey][writePath], 0, KeyList);
 
               if (writeLine === true) {
 

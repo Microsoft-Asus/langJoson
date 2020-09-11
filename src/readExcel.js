@@ -162,7 +162,7 @@ module.exports = function () {
           const newi18nFilePath = ['.', 'i18n', ...resolvePath];
           const newi18nFileContent = fs.readFileSync(path.resolve(...newi18nFilePath), 'utf8');
           const newi18nFileData = JSON.parse(newi18nFileContent.toString());
-          const i18nMergeJson = extend(true, {}, outputJson[langkey][writePath], newi18nFileData);
+          const i18nMergeJson = extend(true, {}, newi18nFileData, outputJson[langkey][writePath]);
 
           // /**  extend合併之後輸出的檔案可以藉由git做差異分析 */
           fs.writeFile(

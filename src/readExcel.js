@@ -28,7 +28,7 @@ module.exports = function () {
     createDir(langList, ['.', 'output', 'i18n', it]);
   });
 
-  //讀取Inspection.xlsx
+  /** 讀取Inspection.xlsx */
   const workbook = new Excel.Workbook();
   workbook.xlsx.readFile('Inspection.xlsx').then(function () {
     //Get sheet by Name
@@ -36,7 +36,7 @@ module.exports = function () {
     const langXls = []; //寫檔以後可以跟讀取輸出的langXls.json做交互確認
     const outputJson = {}; //輸出的整理
     worksheet.eachRow({ includeEmpty: true }, function (row, rowNumber) {
-      // console.log('Row ' + rowNumber + ' = ' + JSON.stringify(row.values));
+      /** 一列列讀出來 */
       if (rowNumber > 1) {
         const currRow = worksheet.getRow(rowNumber);
 
@@ -69,7 +69,7 @@ module.exports = function () {
       }
     });
 
-    // console.log(outputJson['zh-tw']['[".","output","i18n","frontstage","zh-tw","agent.json"]']);
+    /** 讀出來的JSON結構 依序取出檔案名 */
     Object.keys(outputJson).forEach((langkey) => {
       Object.keys(outputJson[langkey]).forEach((writePath) => {
         const resolvePath = JSON.parse(writePath);
@@ -97,7 +97,7 @@ module.exports = function () {
 
           return key + ':' + beforeVal.replace(replaceVal, value);
         };
-        //因為ZH_TW是基準所以用ZH_TW來做會比較完整
+        /** 因為ZH_TW是基準所以用ZH_TW來做會比較完整 */
         const modulePath = ['i18n', resolvePath[3], 'zh-tw', fileName];
         fs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
           const KeyList = [];
@@ -132,9 +132,8 @@ module.exports = function () {
                 KeyList.length = findIndex + 1;
               }
               const newValue = getDeepJson(outputJson[langkey][writePath], 0, KeyList);
-              const regxline = line.split(' ').join('');
+
               if (writeLine === true) {
-                // console.log(regxline);
 
                 if (typeof newValue === 'object') {
                   const regxLine = Object.keys(newValue).join('');

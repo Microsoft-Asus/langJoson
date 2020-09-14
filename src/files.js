@@ -21,14 +21,14 @@ exports.is_dir = function (path) {
   }
 };
 
-exports.delDir = function (path) {
+exports.delDirSync = function (path) {
   let files = [];
   if (fs.existsSync(path)) {
     files = fs.readdirSync(path);
     files.forEach((file, index) => {
       let curPath = path + '/' + file;
       if (fs.statSync(curPath).isDirectory()) {
-        this.delDir(curPath); //遞迴刪除資料夾
+        this.delDirSync(curPath); //遞迴刪除資料夾
       } else {
         fs.unlinkSync(curPath); //刪除檔案
       }

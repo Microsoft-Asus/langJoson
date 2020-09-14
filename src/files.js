@@ -1,11 +1,15 @@
 const fs = require('fs-extra');
 const path = require('path');
 
-exports = module.exports = function (name) { };
+exports = module.exports = function (name) {};
 
 exports.is_file = function (path) {
-  const stats = fs.statSync(path);
-  return stats.isFile();
+  try {
+    const stats = fs.statSync(path);
+    return stats.isFile();
+  } catch (err) {
+    return false;
+  }
 };
 
 exports.is_dir = function (path) {
@@ -33,22 +37,31 @@ exports.delDir = function (path) {
   }
 };
 
-
-exports.copyFolderSync = function (from, to) {
+exports.copyFolder = function (from, to) {
   fs.copy(from, to)
     .then(() => console.log('export completed!'))
-    .catch(err => {
-      console.log('An error occured while copying the folder.')
-      return console.error(err)
-    })
-}
+    .catch((err) => {
+      console.log('An error occured while copying the folder.');
+      return console.error(err);
+    });
+};
 
-exports.createFolderSync = function (dir) {
+exports.createFolder = function (dir) {
   fs.ensureDir(dir)
     .then(() => {
       // console.log('success!')
     })
-    .catch(err => {
-      console.error(err)
+    .catch((err) => {
+      console.error(err);
+    });
+};
+
+exports.remove = function (path) {
+  fs.remove(path)
+    .then(() => {
+      // console.log('success!');
     })
-}
+    .catch((err) => {
+      console.error(err);
+    });
+};

@@ -4,20 +4,27 @@ const path = require('path');
 //Excel JS
 const Excel = require('exceljs');
 const filesJs = require('./files.js');
-const extend = require("extend");
+const extend = require('extend');
 
 module.exports = function () {
   console.log('readExcelJS');
 
   const dirPath = JSON.parse(fs.readFileSync('dirPath.json', 'utf8'));
-  const langList = ['zh-cn', 'zh-tw', 'en', 'th', 'vi'];
+  const columnKeyList = JSON.parse(fs.readFileSync('columnKeyList.json', 'utf8'));
 
-  const InspectionXlsx = fs.readdirSync(path.resolve('.')).find(file => {
+  const langList = Object.keys(columnKeyList).filter((key) => {
+    if (key !== 'key' && key !== 'rowid') {
+      return true;
+    }
+  });
+  console.log(langList);
+
+  const InspectionXlsx = fs.readdirSync(path.resolve('.')).find((file) => {
     return /Inspection_/.test(file);
   });
   //檢核檔案的日期
-  const xlsxDate = InspectionXlsx.replace('Inspection_', '').replace('.xlsx', '')
-  console.log(InspectionXlsx, xlsxDate)
+  const xlsxDate = InspectionXlsx.replace('Inspection_', '').replace('.xlsx', '');
+  console.log(InspectionXlsx, xlsxDate);
 
   /** 預先輸出資料夾 */
   const oupputPath = path.resolve('.', 'backup', xlsxDate, 'output');
@@ -26,11 +33,10 @@ module.exports = function () {
 
   Object.values(dirPath).forEach((foldstage) => {
     Object.values(langList).forEach((it) => {
-      filesJs.createFolderSync(path.resolve('.', 'backup', xlsxDate, 'output', 'i18n', foldstage, it));
-      filesJs.createFolderSync(path.resolve('.', 'backup', xlsxDate, 'format', 'i18n', foldstage, it));
+      filesJs.createFolder(path.resolve('.', 'backup', xlsxDate, 'output', 'i18n', foldstage, it));
+      filesJs.createFolder(path.resolve('.', 'backup', xlsxDate, 'format', 'i18n', foldstage, it));
     });
   });
-
 
   /** 讀取Inspection.xlsx */
   const workbook = new Excel.Workbook();
@@ -84,16 +90,18 @@ module.exports = function () {
           return;
         }
 
-
         try {
           /** 讀取輸出日期的模板  而且因為ZH_TW是基準所以用ZH_TW來做會比較完整 之後輸出的檔案可以藉由git做差異分析 */
           const modulePath = ['.', 'backup', xlsxDate, 'i18n', resolvePath[0], 'zh-tw', fileName];
           fs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
             const KeyList = [];
             /** 寫的位置 */
-            const logger = fs.createWriteStream(path.resolve('.', 'backup', xlsxDate, 'output', 'i18n', ...resolvePath), {
-              flags: 'a', // 'a' means appending (old data will be preserved)
-            });
+            const logger = fs.createWriteStream(
+              path.resolve('.', 'backup', xlsxDate, 'output', 'i18n', ...resolvePath),
+              {
+                flags: 'a', // 'a' means appending (old data will be preserved)
+              },
+            );
             const dataArray = data.split('\n');
             const spaceCondition = [];
             dataArray.forEach((line) => {
@@ -123,7 +131,6 @@ module.exports = function () {
                 const newValue = getDeepJson(cloneJson[langkey][writePath], 0, KeyList);
 
                 if (writeLine === true) {
-
                   if (typeof newValue === 'object') {
                     const regxLine = Object.keys(newValue).join('');
 
@@ -157,13 +164,19 @@ module.exports = function () {
 
             logger.end();
           });
-        } catch (err) { throw err; }
+        } catch (err) {
+          throw err;
+        }
 
         try {
           /** 如果不管排序直接全塞 上面註解掉走這裡就好 讀取目前最新的i18n檔案 */
+          var newi18nFileData = {};
           const newi18nFilePath = ['.', 'i18n', ...resolvePath];
-          const newi18nFileContent = fs.readFileSync(path.resolve(...newi18nFilePath), 'utf8');
-          const newi18nFileData = JSON.parse(newi18nFileContent.toString());
+          if (filesJs.is_file(path.resolve(...newi18nFilePath))) {
+            const newi18nFileContent = fs.readFileSync(path.resolve(...newi18nFilePath), 'utf8');
+            newi18nFileData = JSON.parse(newi18nFileContent.toString());
+          }
+
           const i18nMergeJson = extend(true, {}, newi18nFileData, outputJson[langkey][writePath]);
 
           // /**  extend合併之後輸出的檔案可以藉由git做差異分析 */
@@ -172,12 +185,13 @@ module.exports = function () {
             JSON.stringify(i18nMergeJson, null, 2),
             errorHandler,
           );
-        } catch (err) { throw err; }
+        } catch (err) {
+          throw err;
+        }
       });
     });
   }, errorHandler);
 };
-
 
 function errorHandler(err) {
   if (err) {
@@ -219,15 +233,12 @@ function funcRegex(line) {
   }
 }
 
-
 function contentReplace(line, value) {
   const arr = line.split(':');
   const key = arr[0];
 
   const beforeVal = arr.slice(1, arr.length).join(':');
-  const replaceVal = [...beforeVal]
-    .slice([...beforeVal].indexOf('"') + 1, [...beforeVal].lastIndexOf('"'))
-    .join('');
+  const replaceVal = [...beforeVal].slice([...beforeVal].indexOf('"') + 1, [...beforeVal].lastIndexOf('"')).join('');
 
   return key + ':' + beforeVal.replace(replaceVal, value);
-};
+}

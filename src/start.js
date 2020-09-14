@@ -24,12 +24,20 @@ const EXPORT_EXCEL = false;
     return filesJs.is_dir(path.resolve('.', 'i18n', it));
   });
   //建立輸出日期
-  const backupDate = (new Date().toDateString()).replace(/\s/g, '');
+  const d = new Date();
+  const backupDate = d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate());
   //en, zh-cn, zh-tw
   const langList = [];
 
   //輸出
   const mapJson = {};
+
+  fs.readdirSync(path.resolve('.')).filter((file) => {
+    if (/Inspection_/.test(file) && !RegExp(backupDate, 'g').test(file)) {
+      filesJs.remove(file);
+    }
+  });
+
   //正則分類 資料夾區塊--->for mac
   // const jsonFileRegex = new RegExp(`\/([a-z]+)\/([a-z\-]{2,})\/([a-z]+)\.json$`, 'i');
   const jsonFilesPath = walkFilesSync(path.resolve('.', 'i18n'), (fname, dirname) => {
@@ -48,7 +56,6 @@ const EXPORT_EXCEL = false;
       }
     });
   });
-
 
   jsonFilesPath.forEach((jfPath) => {
     // const match = jfPath.split('i18n')[1].match(jsonFileRegex);
@@ -143,7 +150,6 @@ const EXPORT_EXCEL = false;
   fs.writeFileSync('langXls.xlsx', xls, 'binary');
   //檢查輸出的JSON是不是自己要的
   fs.writeFile('dirPath.json', JSON.stringify(i18nDirPath, null, 2), errorHandler);
-  fs.writeFile('langList.json', JSON.stringify(langList, null, 2), errorHandler);
   fs.writeFile('mapJson.json', JSON.stringify(mapJson, null, 2), errorHandler);
   fs.writeFile('langXls.json', JSON.stringify(xlsJsonFilter, null, 2), errorHandler);
   fs.writeFile('repeatMap.json', JSON.stringify(repeatMap, null, 2), errorHandler);
@@ -160,6 +166,10 @@ const EXPORT_EXCEL = false;
     vi: '越文',
     rowid: 'rowid',
   };
+  langList.forEach((langkey) => {
+    headerLangKey[langkey] = headerLangKey[langkey] || '';
+  });
+
   const worksheet = workbook.addWorksheet('MySheet');
   const excelColumn = Object.keys(headerLangKey).map((it) => {
     return { header: headerLangKey[it], key: it, width: maxWordLength[it] };
@@ -182,12 +192,13 @@ const EXPORT_EXCEL = false;
     //   worksheet.mergeCells(`${key}${rowsIndex + 2}:${key}${rowsIndex + repeat.length - 1 + 2}`);
     // });
   });
-
+  fs.writeFile('columnKeyList.json', JSON.stringify(headerLangKey, null, 2), errorHandler);
 
   (async function () {
     return await workbook.xlsx.writeFile('Inspection_' + backupDate + '.xlsx').then(async () => {
       // console.log(this);
-      filesJs.copyFolderSync(path.resolve('.', 'i18n'), path.resolve('.', 'backup', backupDate, 'i18n'));
+
+      filesJs.copyFolder(path.resolve('.', 'i18n'), path.resolve('.', 'backup', backupDate, 'i18n'));
     }, errorHandler);
   })();
 })();
@@ -247,4 +258,8 @@ function EscapeCharacter(value) {
   }
 
   return value.split('\b').join('\\b').split('\t').join('\\t').split('\r').join('\\r').split('\n').join('\\n');
+}
+
+function pad(n) {
+  return n < 10 ? '0' + n : n;
 }

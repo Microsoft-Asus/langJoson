@@ -29,7 +29,7 @@ module.exports = function () {
   /** 預先輸出資料夾 */
   const oupputPath = path.resolve('.', 'backup', xlsxDate, 'output');
 
-  filesJs.delDir(oupputPath);
+  filesJs.delDirSync(oupputPath);
 
   Object.values(dirPath).forEach((foldstage) => {
     Object.values(langList).forEach((it) => {

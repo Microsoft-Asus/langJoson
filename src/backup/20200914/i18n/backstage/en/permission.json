@@ -1,0 +1,13 @@
+{
+  "View": "View",
+  "query": "Inquire",
+  "export": "Output",
+  "execute": "carried out",
+  "Edit": "edit",
+  "Delete": "delete",
+  "Add": "New",
+  "permissionList": "Permission list",
+  "setPermissionCorrespondingUrl": "Set permission corresponding URL",
+  "editPermissionCorrespondingApiUrl": "Edit permission corresponding API URL",
+  "ifMultipleUrlCorrespondencePleaseUseRegularExpression ": "if multiple URL correspondence, please use Regular expression "
+}

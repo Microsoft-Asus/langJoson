@@ -13,7 +13,7 @@ const readExcel = require('./readExcel.js');
  *  true => 輸出Excel
  *  false => 讀取Excel 輸出 i18n
  */
-const EXPORT_EXCEL = true;
+const EXPORT_EXCEL = false;
 (function () {
   if (!EXPORT_EXCEL) {
     readExcel();

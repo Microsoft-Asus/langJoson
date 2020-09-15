@@ -14,10 +14,10 @@ const readExcel = require('./readExcel.js');
  *  true => 輸出Excel
  *  false => 讀取Excel 輸出 i18n
  */
-const EXPORT_EXCEL = true;
+const EXPORT_EXCEL = false;
 (function () {
   if (!EXPORT_EXCEL) {
-    readExcel();
+    filesJs.copyFolder(path.resolve('.', 'i18n'), path.resolve('.', '比對用', 'i18n'), readExcel);
     return;
   }
   //資料夾名字 backstage ,frontstage

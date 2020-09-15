@@ -43,9 +43,13 @@ exports.delDirSync = function (path) {
   }
 };
 
-exports.copyFolder = function (from, to) {
+exports.copyFolder = function (from, to, complete) {
   fs.copy(from, to)
-    .then(() => console.log('export completed!'))
+    .then(() => {
+      if (complete) {
+        complete();
+      }
+    })
     .catch((err) => {
       return console.error(err);
     });

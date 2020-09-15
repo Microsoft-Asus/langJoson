@@ -46,14 +46,8 @@ exports.copyFolder = function (from, to) {
     });
 };
 
-exports.createFolder = function (dir) {
-  fs.ensureDir(dir)
-    .then(() => {
-      // console.log('success!')
-    })
-    .catch((err) => {
-      console.error(err);
-    });
+exports.createFolderSync = function (dir) {
+  fs.ensureDirSync(dir);
 };
 
 exports.remove = function (path) {

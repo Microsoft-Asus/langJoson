@@ -29,172 +29,168 @@ module.exports = function () {
   /** 預先輸出資料夾 */
   const oupputPath = path.resolve('.', 'backup', xlsxDate, 'output');
 
-  filesJs.delDir(oupputPath);
+  filesJs.delDirSync(oupputPath);
 
-  (async function () {
-    await Object.values(dirPath).forEach(async (foldstage) => {
-      await Object.values(langList).forEach(async (it) => {
-        await Promise.all([
-          filesJs.createFolder(path.resolve('.', 'backup', xlsxDate, 'output', 'i18n', foldstage, it)),
-          filesJs.createFolder(path.resolve('.', 'backup', xlsxDate, 'format', 'i18n', foldstage, it)),
-        ]);
-      });
+  Object.values(dirPath).forEach((foldstage) => {
+    Object.values(langList).forEach((it) => {
+      filesJs.createFolderSync(path.resolve('.', 'backup', xlsxDate, 'output', 'i18n', foldstage, it));
+      filesJs.createFolderSync(path.resolve('.', 'backup', xlsxDate, 'format', 'i18n', foldstage, it));
     });
-  })().then(() => {
-    /** 讀取Inspection.xlsx */
-    const workbook = new Excel.Workbook();
-    workbook.xlsx.readFile(InspectionXlsx).then(function () {
-      //Get sheet by Name
-      const worksheet = workbook.getWorksheet('MySheet');
-      const langXls = []; //寫檔以後可以跟讀取輸出的langXls.json做交互確認
-      const outputJson = {}; //輸出的整理
-      worksheet.eachRow({ includeEmpty: true }, function (row, rowNumber) {
-        /** 一列列讀出來 */
-        if (rowNumber > 1) {
-          const currRow = worksheet.getRow(rowNumber);
+  });
 
-          const rowjson = {};
-          rowjson.key = row.values[1];
-          langList.forEach((key, index) => {
-            rowjson[key] = currRow.getCell(index + 2).value;
+  /** 讀取Inspection.xlsx */
+  const workbook = new Excel.Workbook();
+  workbook.xlsx.readFile(InspectionXlsx).then(function () {
+    //Get sheet by Name
+    const worksheet = workbook.getWorksheet('MySheet');
+    const langXls = []; //寫檔以後可以跟讀取輸出的langXls.json做交互確認
+    const outputJson = {}; //輸出的整理
+    worksheet.eachRow({ includeEmpty: true }, function (row, rowNumber) {
+      /** 一列列讀出來 */
+      if (rowNumber > 1) {
+        const currRow = worksheet.getRow(rowNumber);
 
-            const pathList = row.values[1].split('.');
+        const rowjson = {};
+        rowjson.key = row.values[1];
+        langList.forEach((key, index) => {
+          rowjson[key] = currRow.getCell(index + 2).value;
 
-            const filePath = JSON.stringify([pathList[0], key, pathList[1] + '.json']);
-            const arr = pathList.slice(2, pathList.length);
-            const func = function (ar, obj) {
-              const k = ar.shift();
+          const pathList = row.values[1].split('.');
 
-              if (ar.length > 0) {
-                obj[k] = obj[k] || {};
-                func(ar, obj[k]);
-              } else {
-                obj[k] = EscapeCharacter(rowjson[key] || '');
-              }
-            };
-            outputJson[key] = outputJson[key] || {};
-            outputJson[key][filePath] = outputJson[key][filePath] || {};
-            func(arr, outputJson[key][filePath]);
-          });
+          const filePath = JSON.stringify([pathList[0], key, pathList[1] + '.json']);
+          const arr = pathList.slice(2, pathList.length);
+          const func = function (ar, obj) {
+            const k = ar.shift();
 
-          rowjson.rowid = currRow.getCell(worksheet.columnCount).value;
-          langXls.push(rowjson);
+            if (ar.length > 0) {
+              obj[k] = obj[k] || {};
+              func(ar, obj[k]);
+            } else {
+              obj[k] = EscapeCharacter(rowjson[key] || '');
+            }
+          };
+          outputJson[key] = outputJson[key] || {};
+          outputJson[key][filePath] = outputJson[key][filePath] || {};
+          func(arr, outputJson[key][filePath]);
+        });
+
+        rowjson.rowid = currRow.getCell(worksheet.columnCount).value;
+        langXls.push(rowjson);
+      }
+    });
+
+    const cloneJson = extend(true, {}, outputJson);
+    /** 讀出來的JSON結構 依序取出檔案名 */
+    Object.keys(outputJson).forEach((langkey) => {
+      Object.keys(outputJson[langkey]).forEach((writePath) => {
+        const resolvePath = JSON.parse(writePath);
+
+        const fileName = resolvePath[resolvePath.length - 1];
+        if (fileName === 'undefined.json') {
+          return;
         }
-      });
 
-      const cloneJson = extend(true, {}, outputJson);
-      /** 讀出來的JSON結構 依序取出檔案名 */
-      Object.keys(outputJson).forEach((langkey) => {
-        Object.keys(outputJson[langkey]).forEach((writePath) => {
-          const resolvePath = JSON.parse(writePath);
+        try {
+          /** 讀取輸出日期的模板  而且因為ZH_TW是基準所以用ZH_TW來做會比較完整 之後輸出的檔案可以藉由git做差異分析 */
+          const modulePath = ['.', 'backup', xlsxDate, 'i18n', resolvePath[0], 'zh-tw', fileName];
+          fs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
+            const KeyList = [];
+            /** 寫的位置 */
+            const logger = fs.createWriteStream(
+              path.resolve('.', 'backup', xlsxDate, 'output', 'i18n', ...resolvePath),
+              {
+                flags: 'a', // 'a' means appending (old data will be preserved)
+              },
+            );
+            const dataArray = data.split('\n');
+            const spaceCondition = [];
+            dataArray.forEach((line) => {
+              const spaceCount = getSpaceCount(line);
 
-          const fileName = resolvePath[resolvePath.length - 1];
-          if (fileName === 'undefined.json') {
-            return;
-          }
+              if (spaceCount !== 0 && spaceCondition.indexOf(spaceCount) < 0) {
+                spaceCondition.push(spaceCount);
+              }
+            });
 
-          try {
-            /** 讀取輸出日期的模板  而且因為ZH_TW是基準所以用ZH_TW來做會比較完整 之後輸出的檔案可以藉由git做差異分析 */
-            const modulePath = ['.', 'backup', xlsxDate, 'i18n', resolvePath[0], 'zh-tw', fileName];
-            fs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
-              const KeyList = [];
-              /** 寫的位置 */
-              const logger = fs.createWriteStream(
-                path.resolve('.', 'backup', xlsxDate, 'output', 'i18n', ...resolvePath),
-                {
-                  flags: 'a', // 'a' means appending (old data will be preserved)
-                },
-              );
-              const dataArray = data.split('\n');
-              const spaceCondition = [];
-              dataArray.forEach((line) => {
+            dataArray.forEach((line, index, data) => {
+              if (line === '\n' || !line.trim()) {
+                return;
+              }
+
+              if (line.trim() == '{' || line.trim() == '}' || line.trim() == '},') {
+                // console.log(line); //直接寫
+              } else {
                 const spaceCount = getSpaceCount(line);
+                const writeLine = funcRegex(line);
 
-                if (spaceCount !== 0 && spaceCondition.indexOf(spaceCount) < 0) {
-                  spaceCondition.push(spaceCount);
+                const findIndex = spaceCondition.indexOf(spaceCount);
+                if (line.indexOf(':') != -1) {
+                  KeyList[findIndex] = String(line.split(':')[0].split('"').join('')).trim();
+                  KeyList.length = findIndex + 1;
                 }
-              });
+                const newValue = getDeepJson(cloneJson[langkey][writePath], 0, KeyList);
 
-              dataArray.forEach((line, index, data) => {
-                if (line === '\n' || !line.trim()) {
-                  return;
-                }
+                if (writeLine === true) {
+                  if (typeof newValue === 'object') {
+                    const regxLine = Object.keys(newValue).join('');
 
-                if (line.trim() == '{' || line.trim() == '}' || line.trim() == '},') {
+                    if (/^[0-9]+$/.test(regxLine) && !/[\[]/.test(line) && !/[\]]/.test(line)) {
+                      const lineKey = Object.keys(newValue).find((arrKey) => {
+                        if (newValue[arrKey] !== false) {
+                          return true;
+                        }
+                      });
+
+                      const characterArray = [' '.repeat(spaceCount), '"', ...EscapeCharacter(newValue[lineKey])];
+                      characterArray.push(line.indexOf(',') < 0 ? '"' : '",');
+                      line = characterArray.join('').split('\n').join('');
+
+                      newValue[lineKey] = false;
+                    }
+                  }
+
                   // console.log(line); //直接寫
                 } else {
-                  const spaceCount = getSpaceCount(line);
-                  const writeLine = funcRegex(line);
-
-                  const findIndex = spaceCondition.indexOf(spaceCount);
-                  if (line.indexOf(':') != -1) {
-                    KeyList[findIndex] = String(line.split(':')[0].split('"').join('')).trim();
-                    KeyList.length = findIndex + 1;
-                  }
-                  const newValue = getDeepJson(cloneJson[langkey][writePath], 0, KeyList);
-
-                  if (writeLine === true) {
-                    if (typeof newValue === 'object') {
-                      const regxLine = Object.keys(newValue).join('');
-
-                      if (/^[0-9]+$/.test(regxLine) && !/[\[]/.test(line) && !/[\]]/.test(line)) {
-                        const lineKey = Object.keys(newValue).find((arrKey) => {
-                          if (newValue[arrKey] !== false) {
-                            return true;
-                          }
-                        });
-
-                        const characterArray = [' '.repeat(spaceCount), '"', ...EscapeCharacter(newValue[lineKey])];
-                        characterArray.push(line.indexOf(',') < 0 ? '"' : '",');
-                        line = characterArray.join('').split('\n').join('');
-
-                        newValue[lineKey] = false;
-                      }
-                    }
-
-                    // console.log(line); //直接寫
-                  } else {
-                    // console.log('########', KeyList);
-                    line = contentReplace(line, newValue);
-                  }
+                  // console.log('########', KeyList);
+                  line = contentReplace(line, newValue);
                 }
+              }
 
-                if (index < data.length - 1) {
-                  line = line + '\n';
-                }
-                logger.write(line);
-              });
-
-              logger.end();
+              if (index < data.length - 1) {
+                line = line + '\n';
+              }
+              logger.write(line);
             });
-          } catch (err) {
-            throw err;
+
+            logger.end();
+          });
+        } catch (err) {
+          throw err;
+        }
+
+        try {
+          /** 如果不管排序直接全塞 上面註解掉走這裡就好 讀取目前最新的i18n檔案 */
+          var newi18nFileData = {};
+          const newi18nFilePath = ['.', 'i18n', ...resolvePath];
+          if (filesJs.is_file(path.resolve(...newi18nFilePath))) {
+            const newi18nFileContent = fs.readFileSync(path.resolve(...newi18nFilePath), 'utf8');
+            newi18nFileData = JSON.parse(newi18nFileContent.toString());
           }
 
-          try {
-            /** 如果不管排序直接全塞 上面註解掉走這裡就好 讀取目前最新的i18n檔案 */
-            var newi18nFileData = {};
-            const newi18nFilePath = ['.', 'i18n', ...resolvePath];
-            if (filesJs.is_file(path.resolve(...newi18nFilePath))) {
-              const newi18nFileContent = fs.readFileSync(path.resolve(...newi18nFilePath), 'utf8');
-              newi18nFileData = JSON.parse(newi18nFileContent.toString());
-            }
+          const i18nMergeJson = extend(true, {}, newi18nFileData, outputJson[langkey][writePath]);
 
-            const i18nMergeJson = extend(true, {}, newi18nFileData, outputJson[langkey][writePath]);
-
-            // /**  extend合併之後輸出的檔案可以藉由git做差異分析 */
-            fs.writeFile(
-              path.resolve(path.resolve('.', 'backup', xlsxDate, 'format', 'i18n', ...resolvePath)),
-              JSON.stringify(i18nMergeJson, null, 2),
-              errorHandler,
-            );
-          } catch (err) {
-            throw err;
-          }
-        });
+          // /**  extend合併之後輸出的檔案可以藉由git做差異分析 */
+          fs.writeFile(
+            path.resolve(path.resolve('.', 'backup', xlsxDate, 'format', 'i18n', ...resolvePath)),
+            JSON.stringify(i18nMergeJson, null, 2),
+            errorHandler,
+          );
+        } catch (err) {
+          throw err;
+        }
       });
-    }, errorHandler);
-  });
+    });
+  }, errorHandler);
 };
 
 function errorHandler(err) {

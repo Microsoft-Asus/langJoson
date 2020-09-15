@@ -8,6 +8,7 @@ const Excel = require('exceljs');
 const workbook = new Excel.Workbook();
 
 const filesJs = require('./files.js');
+
 const readExcel = require('./readExcel.js');
 /** 輸出開關
  *  true => 輸出Excel
@@ -197,7 +198,6 @@ const EXPORT_EXCEL = false;
   (async function () {
     return await workbook.xlsx.writeFile('Inspection_' + backupDate + '.xlsx').then(async () => {
       // console.log(this);
-
       filesJs.copyFolder(path.resolve('.', 'i18n'), path.resolve('.', 'backup', backupDate, 'i18n'));
     }, errorHandler);
   })();

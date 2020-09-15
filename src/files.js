@@ -3,6 +3,12 @@ const path = require('path');
 
 exports = module.exports = function (name) {};
 
+(function () {
+  for (const [key, value] of Object.entries(fs)) {
+    exports[key] = value;
+  }
+})();
+
 exports.is_file = function (path) {
   try {
     const stats = fs.statSync(path);
@@ -41,7 +47,6 @@ exports.copyFolder = function (from, to) {
   fs.copy(from, to)
     .then(() => console.log('export completed!'))
     .catch((err) => {
-      console.log('An error occured while copying the folder.');
       return console.error(err);
     });
 };

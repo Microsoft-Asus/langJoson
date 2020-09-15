@@ -1,4 +1,3 @@
-const fs = require('fs');
 const path = require('path');
 
 //Excel JS
@@ -9,8 +8,8 @@ const extend = require('extend');
 module.exports = function () {
   console.log('readExcelJS');
 
-  const dirPath = JSON.parse(fs.readFileSync('dirPath.json', 'utf8'));
-  const columnKeyList = JSON.parse(fs.readFileSync('columnKeyList.json', 'utf8'));
+  const dirPath = JSON.parse(filesJs.readFileSync('dirPath.json', 'utf8'));
+  const columnKeyList = JSON.parse(filesJs.readFileSync('columnKeyList.json', 'utf8'));
 
   const langList = Object.keys(columnKeyList).filter((key) => {
     if (key !== 'key' && key !== 'rowid') {
@@ -19,7 +18,7 @@ module.exports = function () {
   });
   console.log(langList);
 
-  const InspectionXlsx = fs.readdirSync(path.resolve('.')).find((file) => {
+  const InspectionXlsx = filesJs.readdirSync(path.resolve('.')).find((file) => {
     return /Inspection_/.test(file);
   });
   //檢核檔案的日期
@@ -104,10 +103,10 @@ module.exports = function () {
         try {
           /**  */
           const modulePath = ['.', 'backup', xlsxDate, 'i18n', resolvePath[0], 'zh-tw', fileName];
-          fs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
+          filesJs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
             const KeyList = [];
             /** 寫的位置 */
-            const logger = fs.createWriteStream(
+            const logger = filesJs.createWriteStream(
               path.resolve('.', 'backup', xlsxDate, 'output', 'i18n', ...resolvePath),
               {
                 flags: 'a', // 'a' means appending (old data will be preserved)
@@ -187,7 +186,7 @@ module.exports = function () {
           var newi18nFileData = {};
           const newi18nFilePath = ['.', 'i18n', ...resolvePath];
           if (filesJs.is_file(path.resolve(...newi18nFilePath))) {
-            const newi18nFileContent = fs.readFileSync(path.resolve(...newi18nFilePath), 'utf8');
+            const newi18nFileContent = filesJs.readFileSync(path.resolve(...newi18nFilePath), 'utf8');
             newi18nFileData = JSON.parse(newi18nFileContent.toString());
           }
 
@@ -197,7 +196,7 @@ module.exports = function () {
           const i18nMergeJson = extend(true, {}, newi18nFileData, outputJson[langkey][writePath]);
 
           // /**  extend合併之後輸出的檔案可以藉由git做差異分析 */
-          fs.writeFile(
+          filesJs.writeFile(
             path.resolve(path.resolve('.', 'backup', xlsxDate, 'format', 'i18n', ...resolvePath)),
             JSON.stringify(i18nMergeJson, null, 2),
             errorHandler,

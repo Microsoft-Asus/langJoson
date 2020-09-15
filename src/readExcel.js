@@ -91,7 +91,7 @@ module.exports = function () {
         }
 
         try {
-          /** 讀取輸出日期的模板  而且因為ZH_TW是基準所以用ZH_TW來做會比較完整 之後輸出的檔案可以藉由git做差異分析 */
+          /** 讀取輸出日期時的模板  而且因為ZH_TW是基準所以用ZH_TW來做會比較完整 之後輸出的檔案可以藉由git做差異分析 */
           const modulePath = ['.', 'backup', xlsxDate, 'i18n', resolvePath[0], 'zh-tw', fileName];
           fs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
             const KeyList = [];
@@ -121,7 +121,6 @@ module.exports = function () {
                 // console.log(line); //直接寫
               } else {
                 const spaceCount = getSpaceCount(line);
-                const writeLine = funcRegex(line);
 
                 const findIndex = spaceCondition.indexOf(spaceCount);
                 if (line.indexOf(':') != -1) {
@@ -130,7 +129,7 @@ module.exports = function () {
                 }
                 const newValue = getDeepJson(cloneJson[langkey][writePath], 0, KeyList);
 
-                if (writeLine === true) {
+                if (!/[\"]{1,2}/.test(line.split(':')[1])) {
                   if (typeof newValue === 'object') {
                     const regxLine = Object.keys(newValue).join('');
 
@@ -202,6 +201,7 @@ function errorHandler(err) {
     throw err;
   }
 }
+
 //取得空格數
 function getSpaceCount(line) {
   const ar = [...line];
@@ -227,6 +227,7 @@ function escapeCharacter(value) {
 
   return value;
 }
+
 //返回JSON檔時要轉換回轉譯字元
 function ConvertEscapeCharacters(obj) {
   if (typeof obj === 'object') {
@@ -252,13 +253,6 @@ function ConvertEscapeCharacters(obj) {
   }
 }
 
-function funcRegex(line) {
-  if (/[\"]{1,2}/.test(line.split(':')[1])) {
-    return false;
-  } else {
-    return true; //直接寫
-  }
-}
 //內文取代成新的
 function contentReplace(line, value) {
   const arr = line.split(':');

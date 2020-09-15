@@ -68,3 +68,7 @@ exports.remove = function (path) {
       console.error(err);
     });
 };
+
+exports.copyFile = function (from, to, complete) {
+  fs.copy(from, to, complete);
+};

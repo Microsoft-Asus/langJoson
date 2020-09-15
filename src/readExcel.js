@@ -196,10 +196,10 @@ module.exports = function () {
           const i18nMergeJson = extend(true, {}, newi18nFileData, outputJson[langkey][writePath]);
 
           // /**  extend合併之後輸出的檔案可以藉由git做差異分析 */
-          filesJs.writeFile(
+          filesJs.createFileSync(
             path.resolve(path.resolve('.', 'backup', xlsxDate, 'format', 'i18n', ...resolvePath)),
             JSON.stringify(i18nMergeJson, null, 2),
-            errorHandler,
+            'utf8',
           );
         } catch (err) {
           throw err;

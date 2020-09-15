@@ -59,6 +59,10 @@ exports.createFolderSync = function (dir) {
   fs.ensureDirSync(dir);
 };
 
+exports.createFileSync = function (path, data, opt) {
+  fs.outputFileSync(path, data, opt);
+};
+
 exports.removeFile = function (path) {
   fs.remove(path)
     .then(() => {

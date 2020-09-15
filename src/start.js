@@ -88,7 +88,7 @@ const EXPORT_EXCEL = false;
 
   Object.keys(mapJson).forEach((key) => {
     langList.forEach((lang) => {
-      mapJson[key][lang] = EscapeCharacter(mapJson[key][lang]) || '';
+      mapJson[key][lang] = escapeCharacterReplace(mapJson[key][lang]) || '';
       //追加紀錄最大字長作為調整Excel欄位寬度
       maxWordLength[lang] = maxWordLength[lang] || 0;
       maxWordLength[lang] =
@@ -252,7 +252,7 @@ function errorHandler(err) {
   }
 }
 
-function EscapeCharacter(value) {
+function escapeCharacterReplace(value) {
   if (typeof value !== 'string') {
     return value;
   }

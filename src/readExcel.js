@@ -66,7 +66,7 @@ module.exports = function () {
               obj[k] = obj[k] || {};
               func(ar, obj[k]);
             } else {
-              obj[k] = EscapeCharacter(rowjson[key] || '');
+              obj[k] = escapeCharacter(rowjson[key] || '');
             }
           };
           outputJson[key] = outputJson[key] || {};
@@ -141,7 +141,7 @@ module.exports = function () {
                         }
                       });
 
-                      const characterArray = [' '.repeat(spaceCount), '"', ...EscapeCharacter(newValue[lineKey])];
+                      const characterArray = [' '.repeat(spaceCount), '"', ...newValue[lineKey]];
                       characterArray.push(line.indexOf(',') < 0 ? '"' : '",');
                       line = characterArray.join('').split('\n').join('');
 
@@ -177,6 +177,9 @@ module.exports = function () {
             newi18nFileData = JSON.parse(newi18nFileContent.toString());
           }
 
+          //因為輸出Excel時需要轉換轉譯字元不然會消失,回來時就要反轉回來
+          ConvertEscapeCharacters(outputJson[langkey][writePath]);
+
           const i18nMergeJson = extend(true, {}, newi18nFileData, outputJson[langkey][writePath]);
 
           // /**  extend合併之後輸出的檔案可以藉由git做差異分析 */
@@ -199,7 +202,7 @@ function errorHandler(err) {
     throw err;
   }
 }
-
+//取得空格數
 function getSpaceCount(line) {
   const ar = [...line];
   for (var i = 0; i < ar.length; i++) {
@@ -218,11 +221,35 @@ function getDeepJson(obj, ind, arr) {
   return obj[arr[ind]];
 }
 
-function EscapeCharacter(value) {
+function escapeCharacter(value) {
   value = value.split('"').join('\\"');
   value = value.split('\\').join('\\'); //mac Excel再直接編輯時候跳脫字元會隱藏一條
 
   return value;
+}
+//返回JSON檔時要轉換回轉譯字元
+function ConvertEscapeCharacters(obj) {
+  if (typeof obj === 'object') {
+    for (const [key, value] of Object.entries(obj)) {
+      if (typeof value === 'object') {
+        ConvertEscapeCharacters(value);
+      } else if (value && typeof value === 'string') {
+        obj[key] = value
+          .split('\\n')
+          .join('\n')
+          .split('\\b')
+          .join('\b')
+          .split('\\t')
+          .join('\t')
+          .split('\\r')
+          .join('\r')
+          .split('\\"')
+          .join('"');
+      }
+    }
+  } else {
+    console.log('ConvertEscapeCharacters ERROR-->', typeof obj);
+  }
 }
 
 function funcRegex(line) {
@@ -232,7 +259,7 @@ function funcRegex(line) {
     return true; //直接寫
   }
 }
-
+//內文取代成新的
 function contentReplace(line, value) {
   const arr = line.split(':');
   const key = arr[0];

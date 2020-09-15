@@ -1,0 +1,73 @@
+{
+  "managerAccount": {
+    "Undefined": "未定義",
+    "Enable": "啟用",
+    "Freeze": "凍結",
+    "Block": "黑名單",
+    "Disable": "停用"
+  },
+  "memberAccount": {
+    "Enable": "啟用",
+    "Freeze": "凍結",
+    "Black": "黑單",
+    "Disable": "停用",
+    "Undefined": "未定義"
+  },
+  "MessageMarquee": {
+    "0": "未定義",
+    "1": "啟用",
+    "2": "停用",
+    "Undefined": "未定義",
+    "Enable": "啟用",
+    "Disable": "停用"
+  },
+  "Promotions": {
+    "Actived": "活動中",
+    "NotYet": "未開始",
+    "Passed": "已結束"
+  },
+  "Enable": "啟用",
+  "Disable": "停用",
+  "DepositTransStateEnum": {
+    "0": "未定義",
+    "1": "待審核",
+    "2": "充值成功",
+    "3": "充值失敗",
+    "Unknow": "未定義",
+    "Pending": "待審核",
+    "Success": "充值成功",
+    "Fail": "充值失敗"
+  },
+  "WithdrawalStateEnum": {
+    "0": "未定義",
+    "1": "待審核",
+    "2": "出款成功",
+    "3": "拒絕出款",
+    "Unknow": "未定義",
+    "Pending": "待審核",
+    "Success": "出款成功",
+    "Fail": "拒絕"
+  },
+  "WithdrawlStateEnum": {
+    "Pending": "待審核"
+  },
+  "Close": "關閉",
+  "webState": {
+    "running": "營運中",
+    "BlackList": "黑名單",
+    "Closed": "已關閉"
+  },
+  "betState": {
+    "NotOver": "未派彩",
+    "Over": "已派彩",
+    "Reversed": "反向單",
+    "Modified": "已修改",
+    "Canceled": "已取消"
+  },
+  "Rebate": "返水",
+  "Wage": "工資",
+  "Dividend": "分紅",
+  "DepositBonus": "充值獎勵",
+  "Commission": "傭金",
+  "deactivatedDeleted": "停用已刪除"
+}

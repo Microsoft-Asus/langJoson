@@ -35,7 +35,7 @@ const EXPORT_EXCEL = true;
 
   fs.readdirSync(path.resolve('.')).filter((file) => {
     if (/Inspection_/.test(file) && !RegExp(backupDate, 'g').test(file)) {
-      filesJs.remove(file);
+      filesJs.removeFile(file);
     }
   });
 

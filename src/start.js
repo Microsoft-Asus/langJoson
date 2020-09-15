@@ -158,6 +158,16 @@ const EXPORT_EXCEL = false;
   fs.writeFile('enumID2Key.json', JSON.stringify(enumID2Key, null, 2), errorHandler);
 
   //產出有合併欄位的 Excels
+  /**
+   * 繁體中文	zh-tw
+   * 簡體中文	zh-cn
+   * 英文	en
+   * 越文	vi
+   * 泰文	th
+   * 馬來文	ms
+   * 印尼文	id
+   * 印度文	hi
+   */
   const headerLangKey = {
     key: 'key',
     'zh-cn': '简体',

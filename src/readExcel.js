@@ -90,8 +90,19 @@ module.exports = function () {
           return;
         }
 
+        /**
+         * 方法一
+         * 讀取輸出日期時的模板
+         * 而且因為ZH_TW是基準所以用ZH_TW來做會比較完整
+         * 之後輸出的檔案可以藉由git做差異分析
+         * 如果新的檔案有新增的話就要手動
+         *
+         * 所以這裡是拿來做分析用
+         * 不建議拿來做主要的檔案
+         */
+
         try {
-          /** 讀取輸出日期時的模板  而且因為ZH_TW是基準所以用ZH_TW來做會比較完整 之後輸出的檔案可以藉由git做差異分析 */
+          /**  */
           const modulePath = ['.', 'backup', xlsxDate, 'i18n', resolvePath[0], 'zh-tw', fileName];
           fs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
             const KeyList = [];
@@ -167,8 +178,12 @@ module.exports = function () {
           throw err;
         }
 
+        /**
+         * 方法二
+         * 如果不管排序直接全塞 上面註解掉走這裡就好 讀取目前最新的i18n檔案
+         * 和回來的Excel輸出的JSON做 extend
+         */
         try {
-          /** 如果不管排序直接全塞 上面註解掉走這裡就好 讀取目前最新的i18n檔案 */
           var newi18nFileData = {};
           const newi18nFilePath = ['.', 'i18n', ...resolvePath];
           if (filesJs.is_file(path.resolve(...newi18nFilePath))) {

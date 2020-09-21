@@ -227,7 +227,7 @@ function walkFilesSync(dirname, filter = undefined) {
       const fpath = path.join(dirname, fname);
 
       if (filesJs.is_file(fpath)) {
-        if ((filter && filter(fname, dirname)) || true) {
+        if (filter && filter(fname, dirname)) {
           files.push(fpath);
         }
       } else if (filesJs.is_dir(fpath)) {

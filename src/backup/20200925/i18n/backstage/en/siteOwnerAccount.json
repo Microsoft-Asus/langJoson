@@ -1,0 +1,13 @@
+{
+  "currencies": {
+    "Undefined": "Undefined",
+    "RMB": "Renminbi (RMB)",
+    "THB": "Thai baht (THB)",
+    "USD": "United States dollar (USD)",
+    "IDR": "Indonesian rupiah (IDR)",
+    "VND": "Vietnamese đồng (VND)",
+    "MYR": "Malaysian ringgit (MYR)",
+    "PHP": "Philippine peso (PHP)",
+    "INR": "Indian Rupee (INR)"
+  }
+}

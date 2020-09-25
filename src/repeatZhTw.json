@@ -3,7 +3,7 @@
     "key": "\"計算額度\"",
     "repeatid": [
       17,
-      993
+      998
     ],
     "repeatkey": [
       "backstage.agent.quota",
@@ -25,8 +25,8 @@
     "key": "\"發放金額\"",
     "repeatid": [
       19,
-      992,
-      996
+      997,
+      1001
     ],
     "repeatkey": [
       "backstage.agent.dispatchAmount",
@@ -38,7 +38,7 @@
     "key": "\"身份\"",
     "repeatid": [
       22,
-      970
+      975
     ],
     "repeatkey": [
       "backstage.agent.identity",
@@ -49,8 +49,8 @@
     "key": "\"已派發\"",
     "repeatid": [
       25,
-      1329,
-      1333
+      1336,
+      1340
     ],
     "repeatkey": [
       "backstage.agent.dispatched",
@@ -70,11 +70,22 @@
     ]
   },
   {
+    "key": "\"週\"",
+    "repeatid": [
+      32,
+      275
+    ],
+    "repeatkey": [
+      "backstage.agent.settleMiniWeek",
+      "backstage.common.unitWeek"
+    ]
+  },
+  {
     "key": "\"季\"",
     "repeatid": [
       33,
-      1320,
-      1321
+      1327,
+      1328
     ],
     "repeatkey": [
       "backstage.agent.settleMiniQuarter",
@@ -86,8 +97,8 @@
     "key": "\"月\"",
     "repeatid": [
       34,
-      1319,
-      1322
+      1326,
+      1329
     ],
     "repeatkey": [
       "backstage.agent.settleMiniMonth",
@@ -99,8 +110,8 @@
     "key": "\"半月\"",
     "repeatid": [
       35,
-      1318,
-      1325
+      1325,
+      1332
     ],
     "repeatkey": [
       "backstage.agent.settleMiniHalfMonth",
@@ -112,7 +123,7 @@
     "key": "\"分潤項目\"",
     "repeatid": [
       42,
-      994
+      999
     ],
     "repeatkey": [
       "backstage.agent.sharingItem",
@@ -123,10 +134,10 @@
     "key": "\"有效投注\"",
     "repeatid": [
       43,
-      1305,
-      1310,
-      1383,
-      1541
+      1312,
+      1317,
+      1390,
+      1554
     ],
     "repeatkey": [
       "backstage.agent.BetAviliable",
@@ -140,8 +151,8 @@
     "key": "\"負盈利(平帳)\"",
     "repeatid": [
       44,
-      1306,
-      1309
+      1313,
+      1316
     ],
     "repeatkey": [
       "backstage.agent.WinLose",
@@ -153,8 +164,8 @@
     "key": "\"負盈利(不平帳)\"",
     "repeatid": [
       45,
-      1307,
-      1312
+      1314,
+      1319
     ],
     "repeatkey": [
       "backstage.agent.Lose",
@@ -166,11 +177,11 @@
     "key": "\"充值\"",
     "repeatid": [
       46,
-      1068,
-      1165,
-      1308,
-      1311,
-      1540
+      1075,
+      1172,
+      1315,
+      1318,
+      1553
     ],
     "repeatkey": [
       "backstage.agent.Deposit",
@@ -185,7 +196,7 @@
     "key": "\"會員\"",
     "repeatid": [
       48,
-      1076
+      1083
     ],
     "repeatkey": [
       "backstage.agent.Member",
@@ -222,7 +233,7 @@
     "key": "\"登錄\"",
     "repeatid": [
       58,
-      1029
+      1036
     ],
     "repeatkey": [
       "backstage.common.login",
@@ -233,8 +244,8 @@
     "key": "\"凍結\"",
     "repeatid": [
       60,
-      692,
-      696
+      697,
+      701
     ],
     "repeatkey": [
       "backstage.common.AccountStateFreeze",
@@ -246,7 +257,7 @@
     "key": "\"備註\"",
     "repeatid": [
       68,
-      1044
+      1051
     ],
     "repeatkey": [
       "backstage.common.Remarks",
@@ -257,7 +268,7 @@
     "key": "\"重置\"",
     "repeatid": [
       69,
-      1546
+      1582
     ],
     "repeatkey": [
       "backstage.common.reset",
@@ -268,7 +279,7 @@
     "key": "\"送出\"",
     "repeatid": [
       70,
-      1152
+      1159
     ],
     "repeatkey": [
       "backstage.common.submit",
@@ -279,7 +290,7 @@
     "key": "\"週日_週一_週二_週三_週四_週五_週六\"",
     "repeatid": [
       75,
-      1020
+      1027
     ],
     "repeatkey": [
       "backstage.common.days",
@@ -290,7 +301,7 @@
     "key": "\"日_一_二_三_四_五_六\"",
     "repeatid": [
       76,
-      1021
+      1028
     ],
     "repeatkey": [
       "backstage.common.daysShort",
@@ -302,8 +313,8 @@
     "repeatid": [
       77,
       78,
-      1022,
-      1023
+      1029,
+      1030
     ],
     "repeatkey": [
       "backstage.common.months",
@@ -316,8 +327,8 @@
     "key": "\"拒絕出款\"",
     "repeatid": [
       80,
-      723,
-      1488
+      728,
+      1495
     ],
     "repeatkey": [
       "backstage.common.rejectWithdrawal",
@@ -329,7 +340,7 @@
     "key": "\"登出\"",
     "repeatid": [
       85,
-      1057
+      1064
     ],
     "repeatkey": [
       "backstage.common.logout",
@@ -351,8 +362,8 @@
     "key": "\"黑名單\"",
     "repeatid": [
       106,
-      693,
-      731
+      698,
+      736
     ],
     "repeatkey": [
       "backstage.common.blackList",
@@ -364,7 +375,7 @@
     "key": "\"郵箱\"",
     "repeatid": [
       119,
-      1393
+      1400
     ],
     "repeatkey": [
       "backstage.common.mail",
@@ -375,7 +386,7 @@
     "key": "\"手機號碼\"",
     "repeatid": [
       120,
-      1390
+      1397
     ],
     "repeatkey": [
       "backstage.common.phone",
@@ -386,7 +397,7 @@
     "key": "\"中心錢包\"",
     "repeatid": [
       125,
-      1425
+      1432
     ],
     "repeatkey": [
       "backstage.common.centerWallet",
@@ -397,7 +408,7 @@
     "key": "\"取消\"",
     "repeatid": [
       127,
-      1032
+      1039
     ],
     "repeatkey": [
       "backstage.common.cancel",
@@ -408,7 +419,7 @@
     "key": "\"性別\"",
     "repeatid": [
       128,
-      1049
+      1056
     ],
     "repeatkey": [
       "backstage.common.gender",
@@ -419,7 +430,7 @@
     "key": "\"生日\"",
     "repeatid": [
       130,
-      1047
+      1054
     ],
     "repeatkey": [
       "backstage.common.birthday",
@@ -430,7 +441,7 @@
     "key": "\"修改\"",
     "repeatid": [
       131,
-      1048
+      1055
     ],
     "repeatkey": [
       "backstage.common.modify",
@@ -441,8 +452,8 @@
     "key": "\"無限制\"",
     "repeatid": [
       135,
-      1337,
-      1343,
+      1344,
+      1350,
       1574
     ],
     "repeatkey": [
@@ -456,9 +467,9 @@
     "key": "\"拒絕\"",
     "repeatid": [
       138,
-      727,
-      1261,
-      1263
+      732,
+      1268,
+      1270
     ],
     "repeatkey": [
       "backstage.common.reject",
@@ -471,7 +482,7 @@
     "key": "\"銀行\"",
     "repeatid": [
       149,
-      1134
+      1141
     ],
     "repeatkey": [
       "backstage.common.bank",
@@ -482,7 +493,7 @@
     "key": "\"請填寫此欄位\"",
     "repeatid": [
       156,
-      1227
+      1234
     ],
     "repeatkey": [
       "backstage.common.pleaseFilledField",
@@ -493,7 +504,7 @@
     "key": "\"不包含在予列中\"",
     "repeatid": [
       163,
-      1224
+      1231
     ],
     "repeatkey": [
       "backstage.common.notIncluded",
@@ -504,7 +515,7 @@
     "key": "\"請輸入正確格式\"",
     "repeatid": [
       164,
-      1236
+      1243
     ],
     "repeatkey": [
       "backstage.common.pleaseInputRight",
@@ -515,7 +526,7 @@
     "key": "\"只允許輸入整數\"",
     "repeatid": [
       165,
-      1225
+      1232
     ],
     "repeatkey": [
       "backstage.common.onlyInteger",
@@ -526,7 +537,7 @@
     "key": "\"只允許輸入數字\"",
     "repeatid": [
       166,
-      1231
+      1238
     ],
     "repeatkey": [
       "backstage.common.onlyNumber",
@@ -537,7 +548,7 @@
     "key": "\"金額\"",
     "repeatid": [
       175,
-      1387
+      1394
     ],
     "repeatkey": [
       "backstage.common.amount",
@@ -548,7 +559,7 @@
     "key": "\"失敗\"",
     "repeatid": [
       187,
-      392
+      397
     ],
     "repeatkey": [
       "backstage.common.fail",
@@ -559,9 +570,9 @@
     "key": "\"真人視訊\"",
     "repeatid": [
       188,
-      1178,
-      1344,
-      1354
+      1185,
+      1351,
+      1361
     ],
     "repeatkey": [
       "backstage.common.Live",
@@ -574,9 +585,9 @@
     "key": "\"電子遊藝\"",
     "repeatid": [
       189,
-      1181,
-      1345,
-      1357
+      1188,
+      1352,
+      1364
     ],
     "repeatkey": [
       "backstage.common.Slot",
@@ -589,9 +600,9 @@
     "key": "\"彩票遊戲\"",
     "repeatid": [
       190,
-      1179,
-      1346,
-      1355
+      1186,
+      1353,
+      1362
     ],
     "repeatkey": [
       "backstage.common.Lottery",
@@ -604,8 +615,8 @@
     "key": "\"體育遊戲\"",
     "repeatid": [
       191,
-      1347,
-      1358
+      1354,
+      1365
     ],
     "repeatkey": [
       "backstage.common.Sport",
@@ -618,9 +629,9 @@
     "repeatid": [
       192,
       231,
-      1348,
-      1353,
-      1359
+      1355,
+      1360,
+      1366
     ],
     "repeatkey": [
       "backstage.common.ESport",
@@ -634,10 +645,10 @@
     "key": "\"棋牌遊戲\"",
     "repeatid": [
       193,
-      1180,
-      1349,
-      1351,
-      1356
+      1187,
+      1356,
+      1358,
+      1363
     ],
     "repeatkey": [
       "backstage.common.Chess",
@@ -651,9 +662,9 @@
     "key": "\"捕魚遊戲\"",
     "repeatid": [
       194,
-      1188,
-      1350,
-      1352
+      1195,
+      1357,
+      1359
     ],
     "repeatkey": [
       "backstage.common.Fishing",
@@ -667,7 +678,7 @@
     "repeatid": [
       199,
       232,
-      1491
+      1498
     ],
     "repeatkey": [
       "backstage.common.withdrawl",
@@ -679,7 +690,7 @@
     "key": "\"其他\"",
     "repeatid": [
       208,
-      1475
+      1482
     ],
     "repeatkey": [
       "backstage.common.other",
@@ -690,7 +701,7 @@
     "key": "\"下注\"",
     "repeatid": [
       209,
-      1521
+      1528
     ],
     "repeatkey": [
       "backstage.common.bet",
@@ -701,7 +712,7 @@
     "key": "\"派彩\"",
     "repeatid": [
       211,
-      1524
+      1531
     ],
     "repeatkey": [
       "backstage.common.sendAmount",
@@ -712,7 +723,7 @@
     "key": "\"註銷\"",
     "repeatid": [
       213,
-      1523
+      1530
     ],
     "repeatkey": [
       "backstage.common.betCancel",
@@ -720,11 +731,22 @@
     ]
   },
   {
+    "key": "\"重置成功\"",
+    "repeatid": [
+      217,
+      1549
+    ],
+    "repeatkey": [
+      "backstage.common.resetSuccessed",
+      "frontstage.user.resetpasswd.stepLabel.SetSuccess"
+    ]
+  },
+  {
     "key": "\"活躍人數\"",
     "repeatid": [
       219,
-      978,
-      986
+      983,
+      991
     ],
     "repeatkey": [
       "backstage.common.activePerson",
@@ -736,8 +758,8 @@
     "key": "\"刪除\"",
     "repeatid": [
       224,
-      669,
-      1030
+      674,
+      1037
     ],
     "repeatkey": [
       "backstage.common.remove",
@@ -749,8 +771,8 @@
     "key": "\"新增\"",
     "repeatid": [
       238,
-      670,
-      836
+      675,
+      841
     ],
     "repeatkey": [
       "backstage.common.add",
@@ -762,7 +784,7 @@
     "key": "\"繁體中文\"",
     "repeatid": [
       254,
-      1065
+      1072
     ],
     "repeatkey": [
       "backstage.common.langs.zh-tw",
@@ -773,7 +795,7 @@
     "key": "\"修改成功\"",
     "repeatid": [
       257,
-      1213
+      1220
     ],
     "repeatkey": [
       "backstage.common.editSuccessMsg",
@@ -784,7 +806,7 @@
     "key": "\"女性\"",
     "repeatid": [
       265,
-      1026
+      1033
     ],
     "repeatkey": [
       "backstage.common.Gender.Female",
@@ -795,7 +817,7 @@
     "key": "\"男性\"",
     "repeatid": [
       266,
-      1027
+      1034
     ],
     "repeatkey": [
       "backstage.common.Gender.Male",
@@ -806,7 +828,7 @@
     "key": "\"未知\"",
     "repeatid": [
       267,
-      1028
+      1035
     ],
     "repeatkey": [
       "backstage.common.Gender.Unknow",
@@ -817,36 +839,36 @@
     "key": "\"未定義\"",
     "repeatid": [
       268,
-      682,
-      695,
-      697,
-      701,
-      704,
-      712,
-      719,
-      720,
+      687,
+      700,
+      702,
+      706,
+      709,
+      717,
       724,
-      834,
-      929,
-      1249,
+      725,
+      729,
+      839,
+      934,
       1256,
-      1257,
-      1266,
-      1267,
+      1263,
+      1264,
+      1273,
       1274,
-      1275,
-      1287,
-      1292,
-      1303,
-      1304,
-      1313,
-      1314,
-      1326,
-      1328,
-      1332,
-      1336,
-      1342,
-      1486
+      1281,
+      1282,
+      1294,
+      1299,
+      1310,
+      1311,
+      1320,
+      1321,
+      1333,
+      1335,
+      1339,
+      1343,
+      1349,
+      1493
     ],
     "repeatkey": [
       "backstage.common.undefined",
@@ -885,8 +907,8 @@
   {
     "key": "\"上級充值\"",
     "repeatid": [
-      273,
-      1481
+      276,
+      1488
     ],
     "repeatkey": [
       "backstage.deal.ParentDeposit",
@@ -896,8 +918,8 @@
   {
     "key": "\"下級充值\"",
     "repeatid": [
-      274,
-      1464
+      277,
+      1471
     ],
     "repeatkey": [
       "backstage.deal.ChildDeposit",
@@ -907,8 +929,8 @@
   {
     "key": "\"工資\"",
     "repeatid": [
-      276,
-      739
+      279,
+      744
     ],
     "repeatkey": [
       "backstage.deal.AgentStrategyWage",
@@ -918,8 +940,8 @@
   {
     "key": "\"傭金\"",
     "repeatid": [
-      279,
-      742
+      282,
+      747
     ],
     "repeatkey": [
       "backstage.deal.AgentStrategyCommission",
@@ -929,8 +951,8 @@
   {
     "key": "\"代理策略-其他\"",
     "repeatid": [
-      280,
-      1509
+      283,
+      1516
     ],
     "repeatkey": [
       "backstage.deal.AgentStrategyOther",
@@ -940,8 +962,8 @@
   {
     "key": "\"BQ入款\"",
     "repeatid": [
-      284,
-      1526
+      287,
+      1533
     ],
     "repeatkey": [
       "backstage.deal.BqDeposit",
@@ -951,8 +973,8 @@
   {
     "key": "\"充值手續費\"",
     "repeatid": [
-      286,
-      631
+      289,
+      636
     ],
     "repeatkey": [
       "backstage.deal.DepositFee",
@@ -962,8 +984,8 @@
   {
     "key": "\"人工存入-活動優惠\"",
     "repeatid": [
-      288,
-      1503
+      291,
+      1510
     ],
     "repeatkey": [
       "backstage.deal.artificialDepositPromotions",
@@ -973,8 +995,8 @@
   {
     "key": "\"批次存入-活動優惠\"",
     "repeatid": [
-      289,
-      1519
+      292,
+      1526
     ],
     "repeatkey": [
       "backstage.deal.batchDepositPromotions",
@@ -984,8 +1006,8 @@
   {
     "key": "\"[中心錢包]轉[AG]\"",
     "repeatid": [
-      290,
-      1527
+      293,
+      1534
     ],
     "repeatkey": [
       "backstage.deal.centerToAg",
@@ -995,8 +1017,8 @@
   {
     "key": "\"[中心錢包]轉[NewBBIN波音]\"",
     "repeatid": [
-      292,
-      1529
+      295,
+      1536
     ],
     "repeatkey": [
       "backstage.deal.centerToNewBbin",
@@ -1006,8 +1028,8 @@
   {
     "key": "\"[NewBBIN波音]轉[中心錢包]\"",
     "repeatid": [
-      293,
-      1520
+      296,
+      1527
     ],
     "repeatkey": [
       "backstage.deal.NewBbinToCenter",
@@ -1017,8 +1039,8 @@
   {
     "key": "\"[中心錢包]轉[SABA沙巴]\"",
     "repeatid": [
-      294,
-      1469
+      297,
+      1476
     ],
     "repeatkey": [
       "backstage.deal.centerToSaba",
@@ -1028,8 +1050,8 @@
   {
     "key": "\"[SABA沙巴]轉[中心錢包]\"",
     "repeatid": [
-      295,
-      1494
+      298,
+      1501
     ],
     "repeatkey": [
       "backstage.deal.sabaToCenter",
@@ -1039,8 +1061,8 @@
   {
     "key": "\"[中心錢包]轉[PT]\"",
     "repeatid": [
-      296,
-      1463
+      299,
+      1470
     ],
     "repeatkey": [
       "backstage.deal.centerToPt",
@@ -1050,8 +1072,8 @@
   {
     "key": "\"[PT]轉[中心錢包]\"",
     "repeatid": [
-      297,
-      1487
+      300,
+      1494
     ],
     "repeatkey": [
       "backstage.deal.ptToCenter",
@@ -1061,8 +1083,8 @@
   {
     "key": "\"[中心錢包]轉[RgLottery]\"",
     "repeatid": [
-      298,
-      1536
+      301,
+      1543
     ],
     "repeatkey": [
       "backstage.deal.centerToRgLottery",
@@ -1072,8 +1094,8 @@
   {
     "key": "\"[RgLottery]轉[中心錢包]\"",
     "repeatid": [
-      299,
-      1497
+      302,
+      1504
     ],
     "repeatkey": [
       "backstage.deal.rgLotteryToCenter",
@@ -1083,8 +1105,8 @@
   {
     "key": "\"[中心錢包]轉[RgBoardGame]\"",
     "repeatid": [
-      300,
-      1470
+      303,
+      1477
     ],
     "repeatkey": [
       "backstage.deal.centerToRgBoardGame",
@@ -1094,8 +1116,8 @@
   {
     "key": "\"[RgBoardGame]轉[中心錢包]\"",
     "repeatid": [
-      301,
-      1489
+      304,
+      1496
     ],
     "repeatkey": [
       "backstage.deal.rgBoardGameToCenter",
@@ -1105,8 +1127,8 @@
   {
     "key": "\"[中心錢包]轉[FastBet]\"",
     "repeatid": [
-      302,
-      1531
+      305,
+      1538
     ],
     "repeatkey": [
       "backstage.deal.centerToFastBet",
@@ -1116,8 +1138,8 @@
   {
     "key": "\"[FastBet]轉[中心錢包]\"",
     "repeatid": [
-      303,
-      1468
+      306,
+      1475
     ],
     "repeatkey": [
       "backstage.deal.fastBetToCenter",
@@ -1127,8 +1149,8 @@
   {
     "key": "\"[中心錢包]轉[玩星]\"",
     "repeatid": [
-      304,
-      1555
+      307,
+      1598
     ],
     "repeatkey": [
       "backstage.deal.centerToPs",
@@ -1138,8 +1160,8 @@
   {
     "key": "\"[玩星]轉[中心錢包]\"",
     "repeatid": [
-      305,
-      1498
+      308,
+      1505
     ],
     "repeatkey": [
       "backstage.deal.psToCenter",
@@ -1149,8 +1171,8 @@
   {
     "key": "\"[中心錢包]轉[EG]\"",
     "repeatid": [
-      308,
-      1530
+      311,
+      1537
     ],
     "repeatkey": [
       "backstage.deal.centerToEg",
@@ -1160,8 +1182,8 @@
   {
     "key": "\"[EG]轉[中心錢包]\"",
     "repeatid": [
-      309,
-      1472
+      312,
+      1479
     ],
     "repeatkey": [
       "backstage.deal.egToCenter",
@@ -1171,8 +1193,8 @@
   {
     "key": "\"[中心錢包]轉[IBO]\"",
     "repeatid": [
-      310,
-      1532
+      313,
+      1539
     ],
     "repeatkey": [
       "backstage.deal.centerToIbo",
@@ -1182,8 +1204,8 @@
   {
     "key": "\"[IBO]轉[中心錢包]\"",
     "repeatid": [
-      311,
-      1476
+      314,
+      1483
     ],
     "repeatkey": [
       "backstage.deal.iboToCenter",
@@ -1193,8 +1215,8 @@
   {
     "key": "\"[中心錢包]轉[KK彩票]\"",
     "repeatid": [
-      314,
-      1534
+      317,
+      1541
     ],
     "repeatkey": [
       "backstage.deal.centerToKk",
@@ -1204,8 +1226,8 @@
   {
     "key": "\"[KK彩票]轉[中心錢包]\"",
     "repeatid": [
-      315,
-      1483
+      318,
+      1490
     ],
     "repeatkey": [
       "backstage.deal.kkToCenter",
@@ -1215,8 +1237,8 @@
   {
     "key": "\"[中心錢包]轉[MG+]\"",
     "repeatid": [
-      316,
-      1556
+      319,
+      1599
     ],
     "repeatkey": [
       "backstage.deal.centerToMgPlus",
@@ -1226,8 +1248,8 @@
   {
     "key": "\"[MG+]轉[中心錢包]\"",
     "repeatid": [
-      317,
-      1479
+      320,
+      1486
     ],
     "repeatkey": [
       "backstage.deal.mgPlusToCenter",
@@ -1237,8 +1259,8 @@
   {
     "key": "\"[中心錢包]轉[PG]\"",
     "repeatid": [
-      318,
-      1462
+      321,
+      1469
     ],
     "repeatkey": [
       "backstage.deal.centerToPg",
@@ -1248,8 +1270,8 @@
   {
     "key": "\"[PG]轉[中心錢包]\"",
     "repeatid": [
-      319,
-      1485
+      322,
+      1492
     ],
     "repeatkey": [
       "backstage.deal.pgToCenter",
@@ -1259,8 +1281,8 @@
   {
     "key": "\"[中心錢包]轉[新世界棋牌]\"",
     "repeatid": [
-      322,
-      1557
+      325,
+      1600
     ],
     "repeatkey": [
       "backstage.deal.centerToNwg",
@@ -1270,8 +1292,8 @@
   {
     "key": "\"[新世界棋牌]轉[中心錢包]\"",
     "repeatid": [
-      323,
-      1484
+      326,
+      1491
     ],
     "repeatkey": [
       "backstage.deal.nwgToCenter",
@@ -1281,8 +1303,8 @@
   {
     "key": "\"[中心錢包]轉[大富翁棋牌]\"",
     "repeatid": [
-      324,
-      1467
+      327,
+      1474
     ],
     "repeatkey": [
       "backstage.deal.centerToRmg",
@@ -1292,8 +1314,8 @@
   {
     "key": "\"[大富翁棋牌]轉[中心錢包]\"",
     "repeatid": [
-      325,
-      1495
+      328,
+      1502
     ],
     "repeatkey": [
       "backstage.deal.rmgToCenter",
@@ -1303,8 +1325,8 @@
   {
     "key": "\"[中心錢包]轉[天美棋牌]\"",
     "repeatid": [
-      328,
-      1471
+      331,
+      1478
     ],
     "repeatkey": [
       "backstage.deal.centerToTm",
@@ -1314,8 +1336,8 @@
   {
     "key": "\"[天美棋牌]轉[中心錢包]\"",
     "repeatid": [
-      329,
-      1500
+      332,
+      1507
     ],
     "repeatkey": [
       "backstage.deal.tmToCenter",
@@ -1325,8 +1347,8 @@
   {
     "key": "\"[中心錢包]轉[VR彩票]\"",
     "repeatid": [
-      330,
-      1465
+      333,
+      1472
     ],
     "repeatkey": [
       "backstage.deal.centerToVr",
@@ -1336,8 +1358,8 @@
   {
     "key": "\"[VR彩票]轉[中心錢包]\"",
     "repeatid": [
-      331,
-      1493
+      334,
+      1500
     ],
     "repeatkey": [
       "backstage.deal.vrToCenter",
@@ -1347,8 +1369,8 @@
   {
     "key": "\"[中心錢包]轉[WM真人百家樂]\"",
     "repeatid": [
-      332,
-      1474
+      335,
+      1481
     ],
     "repeatkey": [
       "backstage.deal.centerToWm",
@@ -1358,8 +1380,8 @@
   {
     "key": "\"[WM真人百家樂]轉[中心錢包]\"",
     "repeatid": [
-      333,
-      1502
+      336,
+      1509
     ],
     "repeatkey": [
       "backstage.deal.wmToCenter",
@@ -1369,8 +1391,8 @@
   {
     "key": "\"系統歸零\"",
     "repeatid": [
-      334,
-      1496
+      337,
+      1503
     ],
     "repeatkey": [
       "backstage.deal.walletAuditSystemReset",
@@ -1380,8 +1402,8 @@
   {
     "key": "\"人工歸零\"",
     "repeatid": [
-      335,
-      1492
+      338,
+      1499
     ],
     "repeatkey": [
       "backstage.deal.walletAuditArtificialReset",
@@ -1391,8 +1413,8 @@
   {
     "key": "\"支付寶\"",
     "repeatid": [
-      336,
-      1413
+      339,
+      1420
     ],
     "repeatkey": [
       "backstage.deal.TppPaymentTypeEnum.Alipay",
@@ -1402,8 +1424,8 @@
   {
     "key": "\"微信支付\"",
     "repeatid": [
-      337,
-      1414
+      340,
+      1421
     ],
     "repeatkey": [
       "backstage.deal.TppPaymentTypeEnum.WeChatPay",
@@ -1413,8 +1435,8 @@
   {
     "key": "\"京東支付\"",
     "repeatid": [
-      338,
-      1415
+      341,
+      1422
     ],
     "repeatkey": [
       "backstage.deal.TppPaymentTypeEnum.JingdongQrCode",
@@ -1424,8 +1446,8 @@
   {
     "key": "\"銀聯掃碼\"",
     "repeatid": [
-      339,
-      1416
+      342,
+      1423
     ],
     "repeatkey": [
       "backstage.deal.TppPaymentTypeEnum.UnionPayQrCode",
@@ -1435,8 +1457,8 @@
   {
     "key": "\"線上支付\"",
     "repeatid": [
-      340,
-      1417
+      343,
+      1424
     ],
     "repeatkey": [
       "backstage.deal.TppPaymentTypeEnum.OnlinePayment",
@@ -1446,8 +1468,8 @@
   {
     "key": "\"雲閃付\"",
     "repeatid": [
-      341,
-      1418
+      344,
+      1425
     ],
     "repeatkey": [
       "backstage.deal.TppPaymentTypeEnum.UnionPay",
@@ -1457,8 +1479,8 @@
   {
     "key": "\"到帳時間\"",
     "repeatid": [
-      352,
-      1388
+      355,
+      1395
     ],
     "repeatkey": [
       "backstage.deposit.receiveTime",
@@ -1468,9 +1490,9 @@
   {
     "key": "\"充值金額\"",
     "repeatid": [
-      353,
-      1141,
-      1361
+      356,
+      1148,
+      1368
     ],
     "repeatkey": [
       "backstage.deposit.remitBalance",
@@ -1481,8 +1503,8 @@
   {
     "key": "\"存入金額\"",
     "repeatid": [
-      359,
-      385
+      362,
+      388
     ],
     "repeatkey": [
       "backstage.deposit.depositAmount",
@@ -1492,8 +1514,8 @@
   {
     "key": "\"帳號已凍結\"",
     "repeatid": [
-      390,
-      937
+      395,
+      942
     ],
     "repeatkey": [
       "backstage.errorCode.UsernameFronzen",
@@ -1503,10 +1525,10 @@
   {
     "key": "\"驗證碼錯誤\"",
     "repeatid": [
-      410,
-      935,
-      1007,
-      1011
+      415,
+      940,
+      1013,
+      1017
     ],
     "repeatkey": [
       "backstage.errorCode.VerificationCodeError",
@@ -1518,8 +1540,8 @@
   {
     "key": "\"省\"",
     "repeatid": [
-      437,
-      1025
+      442,
+      1032
     ],
     "repeatkey": [
       "backstage.member.province",
@@ -1529,8 +1551,8 @@
   {
     "key": "\"單一用戶\"",
     "repeatid": [
-      469,
-      570
+      472,
+      575
     ],
     "repeatkey": [
       "backstage.member.SingleMember",
@@ -1540,8 +1562,8 @@
   {
     "key": "\"儀表板\"",
     "repeatid": [
-      495,
-      509
+      500,
+      514
     ],
     "repeatkey": [
       "backstage.menu.dashboard",
@@ -1551,10 +1573,10 @@
   {
     "key": "\"首頁\"",
     "repeatid": [
-      497,
-      510,
-      1019,
-      1169
+      502,
+      515,
+      1026,
+      1176
     ],
     "repeatkey": [
       "backstage.menu.home",
@@ -1566,8 +1588,8 @@
   {
     "key": "\"網站管理\"",
     "repeatid": [
-      504,
-      512
+      509,
+      517
     ],
     "repeatkey": [
       "backstage.menu.siteManageTitle",
@@ -1577,8 +1599,8 @@
   {
     "key": "\"系統管理\"",
     "repeatid": [
-      505,
-      508
+      510,
+      513
     ],
     "repeatkey": [
       "backstage.menu.systemManageTitle",
@@ -1588,8 +1610,8 @@
   {
     "key": "\"管理者帳號\"",
     "repeatid": [
-      511,
-      635
+      516,
+      640
     ],
     "repeatkey": [
       "backstage.menu.ManagerAccount",
@@ -1599,10 +1621,10 @@
   {
     "key": "\"系統設置\"",
     "repeatid": [
-      513,
-      592,
-      593,
-      625
+      518,
+      597,
+      598,
+      630
     ],
     "repeatkey": [
       "backstage.menu.WebsiteSetting",
@@ -1614,8 +1636,8 @@
   {
     "key": "\"投注記錄\"",
     "repeatid": [
-      517,
-      1162
+      522,
+      1169
     ],
     "repeatkey": [
       "backstage.menu.MemberAccountBetRecord",
@@ -1623,10 +1645,21 @@
     ]
   },
   {
+    "key": "\"角色權限設置\"",
+    "repeatid": [
+      529,
+      644
+    ],
+    "repeatkey": [
+      "backstage.menu.RolePermission",
+      "backstage.menu.SystemRole"
+    ]
+  },
+  {
     "key": "\"登入\"",
     "repeatid": [
-      525,
-      547
+      530,
+      552
     ],
     "repeatkey": [
       "backstage.menu.login",
@@ -1636,8 +1669,8 @@
   {
     "key": "\"管理者帳號編輯\"",
     "repeatid": [
-      532,
-      638
+      537,
+      643
     ],
     "repeatkey": [
       "backstage.menu.ManagerAccountEditor",
@@ -1647,8 +1680,8 @@
   {
     "key": "\"角色編輯\"",
     "repeatid": [
-      534,
-      642
+      539,
+      647
     ],
     "repeatkey": [
       "backstage.menu.RolePermissionEditor",
@@ -1658,8 +1691,8 @@
   {
     "key": "\"角色新增\"",
     "repeatid": [
-      535,
-      641
+      540,
+      646
     ],
     "repeatkey": [
       "backstage.menu.RolePermissionAdder",
@@ -1667,10 +1700,21 @@
     ]
   },
   {
+    "key": "\"角色權限設置列表\"",
+    "repeatid": [
+      544,
+      645
+    ],
+    "repeatkey": [
+      "backstage.menu.RolePermissionTable",
+      "backstage.menu.SystemRoleTable"
+    ]
+  },
+  {
     "key": "\"管理者帳號列表\"",
     "repeatid": [
-      540,
-      636
+      545,
+      641
     ],
     "repeatkey": [
       "backstage.menu.ManagerAccountTable",
@@ -1680,8 +1724,8 @@
   {
     "key": "\"優惠活動\"",
     "repeatid": [
-      548,
-      1170
+      553,
+      1177
     ],
     "repeatkey": [
       "backstage.menu.PromotionsList",
@@ -1691,8 +1735,8 @@
   {
     "key": "\"人工存入\"",
     "repeatid": [
-      565,
-      1504
+      570,
+      1511
     ],
     "repeatkey": [
       "backstage.menu.FundDeposit",
@@ -1702,8 +1746,8 @@
   {
     "key": "\"人工提出\"",
     "repeatid": [
-      566,
-      1514
+      571,
+      1521
     ],
     "repeatkey": [
       "backstage.menu.FundWithdrawal",
@@ -1713,8 +1757,8 @@
   {
     "key": "\"批次存入\"",
     "repeatid": [
-      567,
-      1517
+      572,
+      1524
     ],
     "repeatkey": [
       "backstage.menu.FundBatchDeposit",
@@ -1724,8 +1768,8 @@
   {
     "key": "\"登入記錄\"",
     "repeatid": [
-      595,
-      634
+      600,
+      639
     ],
     "repeatkey": [
       "backstage.menu.LoginRecord",
@@ -1735,8 +1779,8 @@
   {
     "key": "\"操作記錄\"",
     "repeatid": [
-      599,
-      600
+      604,
+      605
     ],
     "repeatkey": [
       "backstage.menu.OperationRecord",
@@ -1746,8 +1790,8 @@
   {
     "key": "\"查詢\"",
     "repeatid": [
-      665,
-      1150
+      670,
+      1157
     ],
     "repeatkey": [
       "backstage.permission.query",
@@ -1757,11 +1801,11 @@
   {
     "key": "\"啟用\"",
     "repeatid": [
-      691,
-      698,
-      702,
-      705,
-      711
+      696,
+      703,
+      707,
+      710,
+      716
     ],
     "repeatkey": [
       "backstage.state.managerAccount.Enable",
@@ -1774,11 +1818,11 @@
   {
     "key": "\"停用\"",
     "repeatid": [
-      694,
-      700,
-      703,
-      706,
-      710
+      699,
+      705,
+      708,
+      711,
+      715
     ],
     "repeatkey": [
       "backstage.state.managerAccount.Disable",
@@ -1791,8 +1835,8 @@
   {
     "key": "\"活動中\"",
     "repeatid": [
-      707,
-      824
+      712,
+      829
     ],
     "repeatkey": [
       "backstage.state.Promotions.Actived",
@@ -1802,11 +1846,11 @@
   {
     "key": "\"待審核\"",
     "repeatid": [
-      713,
-      717,
-      721,
-      725,
-      728
+      718,
+      722,
+      726,
+      730,
+      733
     ],
     "repeatkey": [
       "backstage.state.DepositTransStateEnum.1",
@@ -1819,10 +1863,10 @@
   {
     "key": "\"充值成功\"",
     "repeatid": [
-      714,
-      718,
-      1251,
-      1255
+      719,
+      723,
+      1258,
+      1262
     ],
     "repeatkey": [
       "backstage.state.DepositTransStateEnum.2",
@@ -1834,8 +1878,8 @@
   {
     "key": "\"充值失敗\"",
     "repeatid": [
-      715,
-      716
+      720,
+      721
     ],
     "repeatkey": [
       "backstage.state.DepositTransStateEnum.3",
@@ -1845,8 +1889,8 @@
   {
     "key": "\"出款成功\"",
     "repeatid": [
-      722,
-      726
+      727,
+      731
     ],
     "repeatkey": [
       "backstage.state.WithdrawalStateEnum.2",
@@ -1856,9 +1900,9 @@
   {
     "key": "\"未派彩\"",
     "repeatid": [
-      733,
-      1293,
-      1301
+      738,
+      1300,
+      1308
     ],
     "repeatkey": [
       "backstage.state.betState.NotOver",
@@ -1869,9 +1913,9 @@
   {
     "key": "\"已派彩\"",
     "repeatid": [
-      734,
-      1294,
-      1299
+      739,
+      1301,
+      1306
     ],
     "repeatkey": [
       "backstage.state.betState.Over",
@@ -1882,9 +1926,9 @@
   {
     "key": "\"反向單\"",
     "repeatid": [
-      735,
-      1295,
-      1302
+      740,
+      1302,
+      1309
     ],
     "repeatkey": [
       "backstage.state.betState.Reversed",
@@ -1895,9 +1939,9 @@
   {
     "key": "\"已修改\"",
     "repeatid": [
-      736,
-      1296,
-      1300
+      741,
+      1303,
+      1307
     ],
     "repeatkey": [
       "backstage.state.betState.Modified",
@@ -1908,9 +1952,9 @@
   {
     "key": "\"已取消\"",
     "repeatid": [
-      737,
-      1297,
-      1298
+      742,
+      1304,
+      1305
     ],
     "repeatkey": [
       "backstage.state.betState.Canceled",
@@ -1921,8 +1965,8 @@
   {
     "key": "\"結算週期\"",
     "repeatid": [
-      758,
-      989
+      763,
+      994
     ],
     "repeatkey": [
       "backstage.system.settleCycle",
@@ -1932,9 +1976,9 @@
   {
     "key": "\"派彩金額\"",
     "repeatid": [
-      765,
-      1385,
-      1543
+      770,
+      1392,
+      1556
     ],
     "repeatkey": [
       "backstage.system.betWin",
@@ -1945,8 +1989,8 @@
   {
     "key": "\"遊戲平台\"",
     "repeatid": [
-      770,
-      1538
+      775,
+      1545
     ],
     "repeatkey": [
       "backstage.system.gamePlatform",
@@ -1956,8 +2000,8 @@
   {
     "key": "\"狀態\"",
     "repeatid": [
-      791,
-      1035
+      796,
+      1042
     ],
     "repeatkey": [
       "backstage.system.state",
@@ -1967,9 +2011,9 @@
   {
     "key": "\"投注金額\"",
     "repeatid": [
-      796,
-      1380,
-      1404
+      801,
+      1387,
+      1411
     ],
     "repeatkey": [
       "backstage.system.betAmount",
@@ -1980,8 +2024,8 @@
   {
     "key": "\"常駐活動\"",
     "repeatid": [
-      821,
-      1041
+      826,
+      1048
     ],
     "repeatkey": [
       "backstage.system.residentActivity",
@@ -1991,8 +2035,8 @@
   {
     "key": "\"全選\"",
     "repeatid": [
-      859,
-      1074
+      864,
+      1081
     ],
     "repeatkey": [
       "backstage.system.allCheck",
@@ -2002,8 +2046,8 @@
   {
     "key": "\"註冊人數\"",
     "repeatid": [
-      885,
-      975,
+      890,
+      980,
       1569
     ],
     "repeatkey": [
@@ -2015,8 +2059,8 @@
   {
     "key": "\"刷新\"",
     "repeatid": [
-      889,
-      1153
+      894,
+      1160
     ],
     "repeatkey": [
       "backstage.system.fresh",
@@ -2026,8 +2070,8 @@
   {
     "key": "\"轉帳成功\"",
     "repeatid": [
-      931,
-      1421
+      936,
+      1428
     ],
     "repeatkey": [
       "backstage.system.transfer.Success",
@@ -2037,10 +2081,10 @@
   {
     "key": "\"轉帳失敗\"",
     "repeatid": [
-      932,
-      1270,
-      1271,
-      1422
+      937,
+      1277,
+      1278,
+      1429
     ],
     "repeatkey": [
       "backstage.system.transfer.Fail",
@@ -2052,8 +2096,8 @@
   {
     "key": "\"提款單號\"",
     "repeatid": [
-      946,
-      1375
+      952,
+      1382
     ],
     "repeatkey": [
       "backstage.withdrawl.transNumber",
@@ -2063,8 +2107,8 @@
   {
     "key": "\"提款金額\"",
     "repeatid": [
-      948,
-      1372
+      954,
+      1379
     ],
     "repeatkey": [
       "backstage.withdrawl.balance",
@@ -2074,8 +2118,8 @@
   {
     "key": "\"提款總額\"",
     "repeatid": [
-      954,
-      955
+      960,
+      961
     ],
     "repeatkey": [
       "backstage.withdrawl.allWithdrawl",
@@ -2085,10 +2129,10 @@
   {
     "key": "\"手續費\"",
     "repeatid": [
-      957,
-      1082,
-      1366,
-      1377
+      963,
+      1089,
+      1373,
+      1384
     ],
     "repeatkey": [
       "backstage.withdrawl.fee",
@@ -2098,21 +2142,10 @@
     ]
   },
   {
-    "key": "\"\"",
-    "repeatid": [
-      958,
-      959
-    ],
-    "repeatkey": [
-      "backstage.agent.level",
-      "backstage.agent.gameCategory"
-    ]
-  },
-  {
     "key": "\"轉帳下級\"",
     "repeatid": [
-      960,
-      961
+      965,
+      966
     ],
     "repeatkey": [
       "backstage.member.transferSubordinate",
@@ -2122,8 +2155,8 @@
   {
     "key": "\"BQPay\"",
     "repeatid": [
-      963,
-      1554
+      967,
+      1597
     ],
     "repeatkey": [
       "backstage.deal.TppPaymentTypeEnum.BqPay",
@@ -2133,8 +2166,8 @@
   {
     "key": "\"會員帳號存在\"",
     "repeatid": [
-      1002,
-      1009
+      1007,
+      1015
     ],
     "repeatkey": [
       "frontstage.api.code.100",
@@ -2144,8 +2177,8 @@
   {
     "key": "\"會員帳號不存在\"",
     "repeatid": [
-      1003,
-      1014
+      1008,
+      1020
     ],
     "repeatkey": [
       "frontstage.api.code.101",
@@ -2155,8 +2188,8 @@
   {
     "key": "\"會員帳號重複登入\"",
     "repeatid": [
-      1004,
-      1010
+      1009,
+      1016
     ],
     "repeatkey": [
       "frontstage.api.code.102",
@@ -2166,8 +2199,8 @@
   {
     "key": "\"會員帳號凍結/停用\"",
     "repeatid": [
-      1005,
-      1008
+      1010,
+      1014
     ],
     "repeatkey": [
       "frontstage.api.code.103",
@@ -2177,8 +2210,8 @@
   {
     "key": "\"會員登入IP已被阻擋/停用\"",
     "repeatid": [
-      1006,
-      1012
+      1011,
+      1018
     ],
     "repeatkey": [
       "frontstage.api.code.104",
@@ -2188,8 +2221,8 @@
   {
     "key": "\"全部遊戲\"",
     "repeatid": [
-      1038,
-      1071
+      1045,
+      1078
     ],
     "repeatkey": [
       "frontstage.common.slots.totalGaming",
@@ -2199,8 +2232,8 @@
   {
     "key": "\"QQ號碼\"",
     "repeatid": [
-      1046,
-      1445
+      1053,
+      1452
     ],
     "repeatkey": [
       "frontstage.common.QQCode",
@@ -2210,8 +2243,8 @@
   {
     "key": "\"註冊\"",
     "repeatid": [
-      1067,
-      1069
+      1074,
+      1076
     ],
     "repeatkey": [
       "frontstage.common.Signup",
@@ -2221,8 +2254,8 @@
   {
     "key": "\"填單金額\"",
     "repeatid": [
-      1081,
-      1378
+      1088,
+      1385
     ],
     "repeatkey": [
       "frontstage.common.fillInAmount",
@@ -2232,9 +2265,9 @@
   {
     "key": "\"實際金額\"",
     "repeatid": [
-      1083,
-      1376,
-      1379
+      1090,
+      1383,
+      1386
     ],
     "repeatkey": [
       "frontstage.common.ActualAmount",
@@ -2245,8 +2278,8 @@
   {
     "key": "\"修改暱稱\"",
     "repeatid": [
-      1111,
-      1123
+      1118,
+      1130
     ],
     "repeatkey": [
       "frontstage.dialog.UserNickNameEditor.title",
@@ -2256,9 +2289,9 @@
   {
     "key": "\"轉帳金額\"",
     "repeatid": [
-      1147,
-      1367,
-      1424
+      1154,
+      1374,
+      1431
     ],
     "repeatkey": [
       "frontstage.form.label.transferAmount",
@@ -2269,8 +2302,8 @@
   {
     "key": "\"轉帳\"",
     "repeatid": [
-      1157,
-      1166
+      1164,
+      1173
     ],
     "repeatkey": [
       "frontstage.form.button.transfer",
@@ -2280,8 +2313,8 @@
   {
     "key": "\"提款\"",
     "repeatid": [
-      1158,
-      1167
+      1165,
+      1174
     ],
     "repeatkey": [
       "frontstage.form.button.withdrawal",
@@ -2291,8 +2324,8 @@
   {
     "key": "\"交易紀錄\"",
     "repeatid": [
-      1174,
-      1197
+      1181,
+      1204
     ],
     "repeatkey": [
       "frontstage.menu.UserTransRecord",
@@ -2302,7 +2335,7 @@
   {
     "key": "\"團隊投注\"",
     "repeatid": [
-      1194,
+      1201,
       1567
     ],
     "repeatkey": [
@@ -2313,7 +2346,7 @@
   {
     "key": "\"團隊提款\"",
     "repeatid": [
-      1199,
+      1206,
       1566
     ],
     "repeatkey": [
@@ -2324,8 +2357,8 @@
   {
     "key": "\"目前無法入款，請 {0} 分鐘後再次嘗試\"",
     "repeatid": [
-      1218,
-      1219
+      1225,
+      1226
     ],
     "repeatkey": [
       "frontstage.messages.depositByTpp.fail",
@@ -2335,8 +2368,8 @@
   {
     "key": "\"充值中\"",
     "repeatid": [
-      1250,
-      1254
+      1257,
+      1261
     ],
     "repeatkey": [
       "frontstage.state.DepositStateTypeEnum.1",
@@ -2346,8 +2379,8 @@
   {
     "key": "\"充值失败\"",
     "repeatid": [
-      1252,
-      1253
+      1259,
+      1260
     ],
     "repeatkey": [
       "frontstage.state.DepositStateTypeEnum.3",
@@ -2357,8 +2390,8 @@
   {
     "key": "\"待處理\"",
     "repeatid": [
-      1258,
-      1262
+      1265,
+      1269
     ],
     "repeatkey": [
       "frontstage.state.WithdrawalStateTypeEnum.1",
@@ -2368,8 +2401,8 @@
   {
     "key": "\"已出款\"",
     "repeatid": [
-      1259,
-      1264
+      1266,
+      1271
     ],
     "repeatkey": [
       "frontstage.state.WithdrawalStateTypeEnum.2",
@@ -2379,8 +2412,8 @@
   {
     "key": "\"已出款(自動)\"",
     "repeatid": [
-      1260,
-      1265
+      1267,
+      1272
     ],
     "repeatkey": [
       "frontstage.state.WithdrawalStateTypeEnum.3",
@@ -2390,8 +2423,8 @@
   {
     "key": "\"尚未完成\"",
     "repeatid": [
-      1268,
-      1273
+      1275,
+      1280
     ],
     "repeatkey": [
       "frontstage.state.WalletTransferStateTypeEnum.1",
@@ -2401,8 +2434,8 @@
   {
     "key": "\"已完成\"",
     "repeatid": [
-      1269,
-      1272
+      1276,
+      1279
     ],
     "repeatkey": [
       "frontstage.state.WalletTransferStateTypeEnum.2",
@@ -2412,9 +2445,9 @@
   {
     "key": "\"銀行卡轉帳\"",
     "repeatid": [
-      1276,
-      1284,
-      1411
+      1283,
+      1291,
+      1418
     ],
     "repeatkey": [
       "frontstage.state.TppChannelEnum.1",
@@ -2425,8 +2458,8 @@
   {
     "key": "\"Tpp-線上支付\"",
     "repeatid": [
-      1277,
-      1286
+      1284,
+      1293
     ],
     "repeatkey": [
       "frontstage.state.TppChannelEnum.2",
@@ -2436,8 +2469,8 @@
   {
     "key": "\"Tpp-微信支付\"",
     "repeatid": [
-      1278,
-      1290
+      1285,
+      1297
     ],
     "repeatkey": [
       "frontstage.state.TppChannelEnum.3",
@@ -2447,8 +2480,8 @@
   {
     "key": "\"Tpp-支付寶\"",
     "repeatid": [
-      1279,
-      1283
+      1286,
+      1290
     ],
     "repeatkey": [
       "frontstage.state.TppChannelEnum.4",
@@ -2458,8 +2491,8 @@
   {
     "key": "\"Tpp-京東支付\"",
     "repeatid": [
-      1280,
-      1285
+      1287,
+      1292
     ],
     "repeatkey": [
       "frontstage.state.TppChannelEnum.5",
@@ -2469,8 +2502,8 @@
   {
     "key": "\"Tpp-銀聯掃碼\"",
     "repeatid": [
-      1281,
-      1289
+      1288,
+      1296
     ],
     "repeatkey": [
       "frontstage.state.TppChannelEnum.6",
@@ -2480,8 +2513,8 @@
   {
     "key": "\"Tpp-雲閃付\"",
     "repeatid": [
-      1282,
-      1288
+      1289,
+      1295
     ],
     "repeatkey": [
       "frontstage.state.TppChannelEnum.7",
@@ -2491,8 +2524,8 @@
   {
     "key": "\"小時\"",
     "repeatid": [
-      1315,
-      1323
+      1322,
+      1330
     ],
     "repeatkey": [
       "frontstage.state.Agent.SettlementCategoryEnum.1",
@@ -2502,8 +2535,8 @@
   {
     "key": "\"日\"",
     "repeatid": [
-      1316,
-      1324
+      1323,
+      1331
     ],
     "repeatkey": [
       "frontstage.state.Agent.SettlementCategoryEnum.2",
@@ -2513,8 +2546,8 @@
   {
     "key": "\"周\"",
     "repeatid": [
-      1317,
-      1327
+      1324,
+      1334
     ],
     "repeatkey": [
       "frontstage.state.Agent.SettlementCategoryEnum.3",
@@ -2524,8 +2557,8 @@
   {
     "key": "\"尚未派發\"",
     "repeatid": [
-      1330,
-      1334
+      1337,
+      1341
     ],
     "repeatkey": [
       "frontstage.state.Agent.ContractRecordStateEnum.2",
@@ -2535,8 +2568,8 @@
   {
     "key": "\"未達標\"",
     "repeatid": [
-      1331,
-      1335
+      1338,
+      1342
     ],
     "repeatkey": [
       "frontstage.state.Agent.ContractRecordStateEnum.3",
@@ -2546,8 +2579,8 @@
   {
     "key": "\"已滿足\"",
     "repeatid": [
-      1338,
-      1341
+      1345,
+      1348
     ],
     "repeatkey": [
       "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.2",
@@ -2557,8 +2590,8 @@
   {
     "key": "\"未滿足\"",
     "repeatid": [
-      1339,
-      1340
+      1346,
+      1347
     ],
     "repeatkey": [
       "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.3",
@@ -2568,8 +2601,8 @@
   {
     "key": "\"轉出\"",
     "repeatid": [
-      1369,
-      1419
+      1376,
+      1426
     ],
     "repeatkey": [
       "frontstage.user.transferRecord.column.From",
@@ -2579,8 +2612,8 @@
   {
     "key": "\"轉入\"",
     "repeatid": [
-      1370,
-      1420
+      1377,
+      1427
     ],
     "repeatkey": [
       "frontstage.user.transferRecord.column.To",
@@ -2590,8 +2623,8 @@
   {
     "key": "\"單號\"",
     "repeatid": [
-      1389,
-      1460,
+      1396,
+      1467,
       1577
     ],
     "repeatkey": [
@@ -2603,9 +2636,9 @@
   {
     "key": "\"資金密碼\"",
     "repeatid": [
-      1399,
-      1435,
-      1545
+      1406,
+      1442,
+      1581
     ],
     "repeatkey": [
       "frontstage.user.securitySetting.FundsPassword.label",
@@ -2616,8 +2649,8 @@
   {
     "key": "\"返水金額\"",
     "repeatid": [
-      1406,
-      1542
+      1413,
+      1555
     ],
     "repeatkey": [
       "frontstage.user.DailyRewordRecord.column.RewardAmount",

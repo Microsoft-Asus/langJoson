@@ -1,0 +1,17 @@
+{
+  "translateAgent": "Translate agent",
+  "agentLevel": "Agent level",
+  "addChildAgentAccount": "Add child agent account",
+  "contractList": "Contract list",
+  "gameCategory": "Game category",
+  "gamePlatform": "Game platform",
+  "defaultPassword": "Default password is aa123456",
+  "resetContract": "Reset contract",
+  "willRestContract": "All related contract will be reset",
+  "isAlreadyTheTop": "Is already the top",
+  "levelOne": "Level one",
+  "chooseTargetAccount": "Choose target account",
+  "chooseTarget": "Choose target",
+  "willMove": "Will move to",
+  "mayAffectAccounting": "It may affect accounting"
+}

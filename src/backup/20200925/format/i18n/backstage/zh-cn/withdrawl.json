@@ -1,0 +1,15 @@
+{
+  "createTime": "提款时间",
+  "transNumber": "提款单号",
+  "bankCard": "提款银行卡",
+  "balance": "提款金额",
+  "minAmountRange": "提款金额范围最低",
+  "maxAmountRange": "提款金额范围最高",
+  "withdrawlAmount": "出款金额",
+  "wallet": "提出钱包",
+  "amount": "提出金额",
+  "allWithdrawl": "提款总额",
+  "allAmount": "提款总额",
+  "allPeople": "出款人数",
+  "fee": "手续费"
+}

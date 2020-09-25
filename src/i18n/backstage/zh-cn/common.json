@@ -221,5 +221,8 @@
   "notSettled": "未结算",
   "catalog": "目录",
   "block": "区块",
-  "list": "列表"
+  "list": "列表",
+  "default": "预设",
+  "searchDateRange": "搜寻范围: {0}{1} 内",
+  "unitWeek": "周"
 }

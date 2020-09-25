@@ -220,5 +220,8 @@
   "notSettled": "Not settled",
   "catalog": "Catalog",
   "block": "Block",
-  "list": "list"
+  "list": "list",
+  "default": "Default",
+  "searchDateRange": "Search range: within {0} {1}",
+  "unitWeek": "week"
 }

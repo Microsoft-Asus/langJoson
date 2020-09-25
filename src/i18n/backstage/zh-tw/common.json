@@ -221,5 +221,8 @@
   "notSettled": "未結算",
   "catalog": "目錄",
   "block": "區塊",
-  "list": "列表"
+  "list": "列表",
+  "default": "預設",
+  "searchDateRange": "搜尋範圍: {0}{1}內",
+  "unitWeek": "週"
 }

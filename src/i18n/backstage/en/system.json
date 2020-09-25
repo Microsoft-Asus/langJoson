@@ -44,7 +44,7 @@
   "platformCode": "platform Code",
   "platformState": "platform state",
   "thirdPlatformTips": "This only affects the setting items of the merchant paying channels, and it does not directly disable the merchant for paying the companies.",
-  "supportPayType": "Supported payment methods",
+  "payType": "Payment methods",
   "addNewOne": "AddNew",
   "state": "state",
   "picture": "picture",
@@ -201,5 +201,6 @@
     "blockedIP": "Blocked IP"
   },
   "announcing": "Announcing",
-  "child": "Child"
+  "child": "Child",
+  "backstage": "Backstage"
 }

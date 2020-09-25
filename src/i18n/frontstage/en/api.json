@@ -5,6 +5,7 @@
     "102": "This account is already logged in",
     "103": "This account has been deactivated",
     "104": "Member login IP has been blocked / disabled",
+    "105": "Broken proxy link",
     "300": "verification code error",
     "MemberAccountFreezeOrDisable": "This account has been deactivated",
     "MemberAccountExist": "This account already exists",
@@ -12,6 +13,7 @@
     "VerificationCodeError": "verification code error",
     "MemberLoginIpBlocked": "Member login IP has been blocked / disabled",
     "MemberAccountOrPasswordError": "Member account or password is wrong",
-    "MemberAccountNotExist": "This account doesn't exist"
+    "MemberAccountNotExist": "This account doesn't exist",
+    "MemberAgentLinkError": "@:api.code.105"
   }
 }

@@ -44,7 +44,7 @@
   "platformCode": "平台代码",
   "platformState": "平台状态",
   "thirdPlatformTips": "仅影响商家支付渠道设置项目，并无直接停用商家支付商号作用。",
-  "supportPayType": "支持-支付类型",
+  "payType": "支付类型",
   "addNewOne": "新增一笔",
   "state": "状态",
   "picture": "图片",
@@ -111,7 +111,7 @@
     "verifyError": "验证码错误",
     "accountDisable": "帐号已停用",
     "accountFrozn": "帐号已冻结",
-    "errorFroznAccount": "密码/验证码错误并冻结此账号帐号",
+    "errorFroznAccount": "密码/验证码错误并冻结此账号",
     "repeatLogin": "重复登入",
     "blockedIP": "登入IP已被阻挡"
   },
@@ -202,5 +202,6 @@
   "benefitContract": "分润/契约",
   "all": "全部",
   "announcing": "广播中",
-  "child": "子层"
+  "child": "子层",
+  "backstage": "后台"
 }

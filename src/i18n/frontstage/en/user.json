@@ -257,5 +257,15 @@
     "CenterToSa": "[Center] to [Sa]"
   },
   "gamePlatform": "gaming platform",
-  "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state"
+  "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state",
+  "resetpasswd": {
+    "stepLabel": {
+      "InputAccount": "Enter account",
+      "SetPasswd": "Set new password",
+      "SetSuccess": "Reset successfully",
+      "ValidEmail": "Verify Email"
+    },
+    "setSuccessMessage": "You have successfully set a login password, {0} for now",
+    "validEmailMessage": "The reset password link has been sent to your mailbox, please click on the link in your personal mailbox"
+  }
 }

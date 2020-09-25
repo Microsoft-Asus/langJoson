@@ -141,7 +141,7 @@
     "MonthlyValidBetAmount": "月累计有效投注"
   },
   "userAccount": {
-    "otherWallets": "其他钱包余额"
+    "otherWallets": "其他钱包"
   },
   "QQcode": "QQ号码",
   "oneClick": {
@@ -257,5 +257,15 @@
     "CenterToSa": "[中心钱包]转[沙龙]"
   },
   "gamePlatform": "游戏平台",
-  "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state"
+  "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state",
+  "resetpasswd": {
+    "stepLabel": {
+      "InputAccount": "输入帐号",
+      "SetPasswd": "设定新密码",
+      "SetSuccess": "重置成功",
+      "ValidEmail": "验证信箱"
+    },
+    "setSuccessMessage": "您已成功设定登入密码，请重新 {0}",
+    "validEmailMessage": "重置密码连结已送到您的信箱，请至个人信箱点选连结"
+  }
 }

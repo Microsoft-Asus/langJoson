@@ -1379,6 +1379,16 @@
     "zh-cn": "周",
     "zh-tw": "週"
   },
+  "backstage.common.WeChat": {
+    "en": "",
+    "zh-cn": "微信",
+    "zh-tw": "微信"
+  },
+  "backstage.common.countryCode": {
+    "en": "Country code",
+    "zh-cn": "国码",
+    "zh-tw": "國碼"
+  },
   "backstage.deal.ParentDeposit": {
     "en": "Parent deposit",
     "zh-cn": "上级充值",
@@ -1728,6 +1738,11 @@
     "en": "Bank card",
     "zh-cn": "银行卡",
     "zh-tw": "银行卡"
+  },
+  "backstage.deal.TppPaymentTypeEnum.BqPay": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "BQPay"
   },
   "backstage.deal.bankAcconutName": {
     "en": "Bank account name",
@@ -2463,6 +2478,16 @@
     "en": "Register count",
     "zh-cn": "注册次数",
     "zh-tw": "註冊次數"
+  },
+  "backstage.member.face": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "頭像"
+  },
+  "backstage.member.transferSubordinate": {
+    "en": "",
+    "zh-cn": "转帐下级",
+    "zh-tw": "轉帳下級"
   },
   "backstage.memberAcccount.resetConfirmMessage": {
     "en": "Send a reset notification to {0}?",
@@ -3269,6 +3294,11 @@
     "zh-cn": "群组列表",
     "zh-tw": "群組列表"
   },
+  "backstage.menu.ProviderOperateRecord": {
+    "en": "Operate record",
+    "zh-cn": "操作记录",
+    "zh-tw": "操作記錄"
+  },
   "backstage.organizationTreeSearch.translateAgent": {
     "en": "Translate agent",
     "zh-cn": "转移代理",
@@ -3371,7 +3401,7 @@
   },
   "backstage.permission.Delete": {
     "en": "delete",
-    "zh-cn": "删除",
+    "zh-cn": "刪除",
     "zh-tw": "刪除"
   },
   "backstage.permission.Add": {
@@ -3681,7 +3711,7 @@
   },
   "backstage.state.webState.BlackList": {
     "en": "Black list",
-    "zh-cn": " 黑名单",
+    "zh-cn": "黑名单",
     "zh-tw": "黑名單"
   },
   "backstage.state.webState.Closed": {
@@ -4744,6 +4774,11 @@
     "zh-cn": "后台",
     "zh-tw": "後台"
   },
+  "backstage.system.transferSubordinate": {
+    "en": "",
+    "zh-cn": "转帐下级",
+    "zh-tw": "轉帳下級"
+  },
   "backstage.widthdrawl.bank": {
     "en": "Withdrawal bank",
     "zh-cn": "提款银行",
@@ -4818,31 +4853,6 @@
     "en": "Fee",
     "zh-cn": "手续费",
     "zh-tw": "手續費"
-  },
-  "backstage.common.WeChat": {
-    "zh-cn": "微信",
-    "zh-tw": "微信",
-    "en": ""
-  },
-  "backstage.member.transferSubordinate": {
-    "zh-cn": "转帐下级",
-    "zh-tw": "轉帳下級",
-    "en": ""
-  },
-  "backstage.system.transferSubordinate": {
-    "zh-cn": "转帐下级",
-    "zh-tw": "轉帳下級",
-    "en": ""
-  },
-  "backstage.deal.TppPaymentTypeEnum.BqPay": {
-    "zh-tw": "BQPay",
-    "en": "",
-    "zh-cn": ""
-  },
-  "backstage.member.face": {
-    "zh-tw": "頭像",
-    "en": "",
-    "zh-cn": ""
   },
   "frontstage.adam.AdamESportHomeBlock.title": {
     "en": "{0} Gaming",
@@ -4984,6 +4994,51 @@
     "zh-cn": "最多只能生成 {0} 組链结",
     "zh-tw": "最多只能生成 {0} 組鏈結"
   },
+  "frontstage.agent.dashboard.TeamBalance": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "團隊餘額"
+  },
+  "frontstage.agent.dashboard.title": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "今日團隊總覽"
+  },
+  "frontstage.agent.dashboard.caption": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "統計數據與報表紀錄相同，統計區間為每日 {0}。"
+  },
+  "frontstage.agent.dashboard.TeamDepositAmount": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "團隊充值"
+  },
+  "frontstage.agent.dashboard.TeamBetMemberCount": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "投注人數"
+  },
+  "frontstage.agent.dashboard.TeamMemberCount": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "團隊成員"
+  },
+  "frontstage.agent.dashboard.TeamRegistMemberCount": {
+    "en": "",
+    "zh-cn": "注册人数",
+    "zh-tw": "註冊人數"
+  },
+  "frontstage.agent.dashboard.TeamValidBetAmount": {
+    "en": "",
+    "zh-cn": "团队投注",
+    "zh-tw": "團隊投注"
+  },
+  "frontstage.agent.dashboard.TeamWithdrawalAmount": {
+    "en": "",
+    "zh-cn": "团队提款",
+    "zh-tw": "團隊提款"
+  },
   "frontstage.agent.contractReport.column.Amount": {
     "en": "Amount issued",
     "zh-cn": "发放金额",
@@ -5018,6 +5073,51 @@
     "en": "Game category/platform",
     "zh-cn": "游戏分类/平台",
     "zh-tw": "遊戲分類/平台"
+  },
+  "frontstage.agent.TeamBenefitAmount": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "分潤待遇"
+  },
+  "frontstage.agent.pickIdentity": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "選擇身份"
+  },
+  "frontstage.agent.AddChildTipMessage": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "新添加會員的初始密碼為: {0}"
+  },
+  "frontstage.agent.signWithMember": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "與 {0} 簽約"
+  },
+  "frontstage.agent.GenerateLink": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "生成鏈結"
+  },
+  "frontstage.agent.TeamValidBetAmount": {
+    "en": "",
+    "zh-cn": "有效投注",
+    "zh-tw": "有效投注"
+  },
+  "frontstage.agent.TeamDeposit": {
+    "en": "",
+    "zh-cn": "充值",
+    "zh-tw": "充值"
+  },
+  "frontstage.agent.TeamPayoutAmount": {
+    "en": "",
+    "zh-cn": "派彩金额",
+    "zh-tw": "派彩金額"
+  },
+  "frontstage.agent.TeamStrategyRebateAmount": {
+    "en": "",
+    "zh-cn": "返水金额",
+    "zh-tw": "返水金額"
   },
   "frontstage.alex.AlexHomePage.winnercontent": {
     "en": "winner in {0}",
@@ -5186,7 +5286,7 @@
   },
   "frontstage.common.remove": {
     "en": "delete",
-    "zh-cn": "删除",
+    "zh-cn": "刪除",
     "zh-tw": "刪除"
   },
   "frontstage.common.confirm": {
@@ -5361,7 +5461,7 @@
   },
   "frontstage.common.langs.zh-tw": {
     "en": "繁體中文",
-    "zh-cn": "繁體中文",
+    "zh-cn": "繁体中文",
     "zh-tw": "繁體中文"
   },
   "frontstage.common.langs.th": {
@@ -5416,7 +5516,7 @@
   },
   "frontstage.common.member": {
     "en": "member",
-    "zh-cn": "会员",
+    "zh-cn": "头像",
     "zh-tw": "會員"
   },
   "frontstage.common.registerByAccount": {
@@ -5468,6 +5568,56 @@
     "en": "yesterday",
     "zh-cn": "昨天",
     "zh-tw": "昨天"
+  },
+  "frontstage.common.measureword.people": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "{0} 人"
+  },
+  "frontstage.common.tip": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "溫馨提醒"
+  },
+  "frontstage.common.signed": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "已簽約"
+  },
+  "frontstage.common.unsigned": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "未簽約"
+  },
+  "frontstage.common.sign": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "簽約"
+  },
+  "frontstage.common.nextstep": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "下一步"
+  },
+  "frontstage.common.time": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "時間"
+  },
+  "frontstage.common.link": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "鏈結"
+  },
+  "frontstage.common.unlimit": {
+    "en": "",
+    "zh-cn": "无限制",
+    "zh-tw": "無限制"
+  },
+  "frontstage.common.SerialNumber": {
+    "en": "",
+    "zh-cn": "单号",
+    "zh-tw": "單號"
   },
   "frontstage.dd.sentence.ESport.0": {
     "en": "The betting page is delicate, the information is pithy, and the operation is simple, \\n making placing bets simple and efficient.",
@@ -5607,7 +5757,7 @@
   "frontstage.form.placeholder.PlzSelectBank": {
     "en": "Choose bank",
     "zh-cn": "选择银行",
-    "zh-tw": "選擇銀行"
+    "zh-tw": "銀行名稱"
   },
   "frontstage.form.placeholder.pickdate": {
     "en": "Pick a date",
@@ -5774,6 +5924,11 @@
     "zh-cn": "转帐金额",
     "zh-tw": "轉帳金額"
   },
+  "frontstage.form.label.fundsPassword": {
+    "en": "",
+    "zh-cn": "资金密码",
+    "zh-tw": "資金密碼"
+  },
   "frontstage.form.button.Add": {
     "en": "Add",
     "zh-cn": "添加",
@@ -5829,6 +5984,11 @@
     "zh-cn": "提款",
     "zh-tw": "提款"
   },
+  "frontstage.form.button.reset": {
+    "en": "",
+    "zh-cn": "重置",
+    "zh-tw": "重置"
+  },
   "frontstage.menu.UserDailyRewordRecord": {
     "en": "Daily return record",
     "zh-cn": "日返水纪录",
@@ -5866,7 +6026,7 @@
   },
   "frontstage.menu.UserTransfer": {
     "en": "Transfer accounts",
-    "zh-cn": "转账",
+    "zh-cn": "转帐",
     "zh-tw": "轉帳"
   },
   "frontstage.menu.UserWithdrawal": {
@@ -6084,6 +6244,11 @@
     "zh-cn": "成功添加银行卡",
     "zh-tw": "成功添加銀行卡"
   },
+  "frontstage.messages.addBankCard.fail": {
+    "en": "Unable to add bank card",
+    "zh-cn": "无法新增银行卡",
+    "zh-tw": "無法新增銀行卡"
+  },
   "frontstage.messages.confirmLogout": {
     "en": "Are you sure you want to log out?",
     "zh-cn": "确定要登出吗？",
@@ -6138,6 +6303,41 @@
     "en": "Can't enter the game right now",
     "zh-cn": "目前无法进入游戏",
     "zh-tw": "目前無法進入遊戲"
+  },
+  "frontstage.messages.contract.signingError": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "簽約時發生錯誤。"
+  },
+  "frontstage.messages.resetpasswd.sendLinkEmailError": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "無法發送重置連線"
+  },
+  "frontstage.messages.resetpasswd.resetPasswdError": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "無法重設登入密碼"
+  },
+  "frontstage.messages.removeFailed": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "刪除{0}失敗"
+  },
+  "frontstage.messages.removeSuccess": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "成功刪除{0}。"
+  },
+  "frontstage.messages.addChildMemberSuccess": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "已成功添加會員 {0}。"
+  },
+  "frontstage.messages.addChildMemberFailed": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "無法新增會員或帳號已存在。"
   },
   "frontstage.rules.date": {
     "en": "Please enter the correct date format.",
@@ -6964,6 +7164,11 @@
     "zh-cn": "派彩金额",
     "zh-tw": "派彩金額"
   },
+  "frontstage.user.betRecord.column.GameType": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "@:user.gamePlatform"
+  },
   "frontstage.user.betRecord.pickGamePlatform": {
     "en": "Choose a platform",
     "zh-cn": "选择平台",
@@ -6999,6 +7204,11 @@
     "zh-cn": "重置手机成功",
     "zh-tw": "重置手機成功"
   },
+  "frontstage.user.securitySetting.Phone.modifyFailingMsg": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "重置手機失敗"
+  },
   "frontstage.user.securitySetting.Email.label": {
     "en": "mailbox",
     "zh-cn": "邮箱",
@@ -7014,6 +7224,11 @@
     "zh-cn": "通过邮箱来登录账号，账户资金变动通知，并在账号有疑似异常操作时接收提示信息。",
     "zh-tw": "通過郵箱來登錄帳號，帳戶資金變動通知，並在帳號有疑似異常操作時接收提示信息。"
   },
+  "frontstage.user.securitySetting.Email.modifyFailingMsg": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "重置郵箱失敗"
+  },
   "frontstage.user.securitySetting.Password.label": {
     "en": "login password",
     "zh-cn": "登录密码",
@@ -7028,6 +7243,11 @@
     "en": "You need to set a password, when you log in you can use the password to log in.",
     "zh-cn": "设置密码，登录时可使用密码登录。",
     "zh-tw": "設置密碼，登錄時可使用密碼登錄。"
+  },
+  "frontstage.user.securitySetting.Password.mifyFailingMsg": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "重置登錄密碼失敗"
   },
   "frontstage.user.securitySetting.FundsPassword.label": {
     "en": "Fund password",
@@ -7048,6 +7268,21 @@
     "en": "Funding password set successfully",
     "zh-cn": "设置资金密码成功",
     "zh-tw": "設置資金密碼成功"
+  },
+  "frontstage.user.securitySetting.FundsPassword.mifyFailingMsg": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "重置資金密碼失敗"
+  },
+  "frontstage.user.securitySetting.FundsPassword.settingFailingMsg": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "設置資金密碼失敗"
+  },
+  "frontstage.user.securitySetting.modifyFailingMsg": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "修改失敗"
   },
   "frontstage.user.BankCard.addBankCard": {
     "en": "Add bank card",
@@ -7091,7 +7326,7 @@
   },
   "frontstage.user.deposit.BankCardTransfer": {
     "en": "BankCard Transfer",
-    "zh-cn": "银行卡转账",
+    "zh-cn": "银行卡转帐",
     "zh-tw": "銀行卡轉帳"
   },
   "frontstage.user.deposit.noneAnyPaymentWay": {
@@ -7128,6 +7363,11 @@
     "en": "Quick Pass",
     "zh-cn": "云闪付",
     "zh-tw": "雲閃付"
+  },
+  "frontstage.user.TppPaymentTypeEnum.BqPay": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "BQPay"
   },
   "frontstage.user.transfer.transferFrom": {
     "en": "Transfer out",
@@ -7724,6 +7964,21 @@
     "zh-cn": "[中心钱包]转[沙龙]",
     "zh-tw": "[中心錢包]轉[沙龙]"
   },
+  "frontstage.user.changeRecordType.CenterToPs": {
+    "en": "",
+    "zh-cn": "[中心钱包]转[玩星]",
+    "zh-tw": "[中心錢包]轉[玩星]"
+  },
+  "frontstage.user.changeRecordType.CenterToMgPlus": {
+    "en": "",
+    "zh-cn": "[中心钱包]转[MG+]",
+    "zh-tw": "[中心錢包]轉[MG+]"
+  },
+  "frontstage.user.changeRecordType.CenterToNwg": {
+    "en": "",
+    "zh-cn": "[中心钱包]转[新世界棋牌]",
+    "zh-tw": "[中心錢包]轉[新世界棋牌]"
+  },
   "frontstage.user.gamePlatform": {
     "en": "gaming platform",
     "zh-cn": "游戏平台",
@@ -7764,249 +8019,34 @@
     "zh-cn": "重置密码连结已送到您的信箱，请至个人信箱点选连结",
     "zh-tw": "重置密碼連結已送到您的信箱，請至個人信箱點選連結"
   },
-  "frontstage.agent.TeamDeposit": {
-    "zh-tw": "充值",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.TeamValidBetAmount": {
-    "zh-tw": "有效投注",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.TeamStrategyRebateAmount": {
-    "zh-tw": "返水金額",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.TeamPayoutAmount": {
-    "zh-tw": "派彩金額",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.TeamBenefitAmount": {
-    "zh-tw": "分潤待遇",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.pickIdentity": {
-    "zh-tw": "選擇身份",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.AddChildTipMessage": {
-    "zh-tw": "新添加會員的初始密碼為: {0}",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.signWithMember": {
-    "zh-tw": "與 {0} 簽約",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.GenerateLink": {
-    "zh-tw": "生成鏈結",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.dashboard.TeamBalance": {
-    "zh-tw": "團隊餘額",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.dashboard.title": {
-    "zh-tw": "今日團隊總覽",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.dashboard.caption": {
-    "zh-tw": "統計數據與報表紀錄相同，統計區間為每日 {0}。",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.dashboard.TeamDepositAmount": {
-    "zh-tw": "團隊充值",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.dashboard.TeamWithdrawalAmount": {
-    "zh-tw": "團隊提款",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.dashboard.TeamValidBetAmount": {
-    "zh-tw": "團隊投注",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.dashboard.TeamBetMemberCount": {
-    "zh-tw": "投注人數",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.dashboard.TeamRegistMemberCount": {
-    "zh-tw": "註冊人數",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.agent.dashboard.TeamMemberCount": {
-    "zh-tw": "團隊成員",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.common.tip": {
-    "zh-tw": "溫馨提醒",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.common.signed": {
-    "zh-tw": "已簽約",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.common.unsigned": {
-    "zh-tw": "未簽約",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.common.unlimit": {
-    "zh-tw": "無限制",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.common.sign": {
-    "zh-tw": "簽約",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.common.nextstep": {
-    "zh-tw": "下一步",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.common.SerialNumber": {
-    "zh-tw": "單號",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.common.time": {
-    "zh-tw": "時間",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.common.link": {
-    "zh-tw": "鏈結",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.common.measureword.people": {
-    "zh-tw": "{0} 人",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.form.label.fundsPassword": {
-    "zh-tw": "資金密碼",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.form.button.reset": {
-    "zh-tw": "重置",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.messages.contract.signingError": {
-    "zh-tw": "簽約時發生錯誤。",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.messages.removeFailed": {
-    "zh-tw": "刪除{0}失敗",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.messages.removeSuccess": {
-    "zh-tw": "成功刪除{0}。",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.messages.addChildMemberSuccess": {
-    "zh-tw": "已成功添加會員 {0}。",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.messages.addChildMemberFailed": {
-    "zh-tw": "無法新增會員或帳號已存在。",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.messages.resetpasswd.sendLinkEmailError": {
-    "zh-tw": "無法發送重置連線",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.messages.resetpasswd.resetPasswdError": {
-    "zh-tw": "無法重設登入密碼",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.user.betRecord.column.GameType": {
-    "zh-tw": "@:user.gamePlatform",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.user.securitySetting.Phone.modifyFailingMsg": {
-    "zh-tw": "重置手機失敗",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.user.securitySetting.Email.modifyFailingMsg": {
-    "zh-tw": "重置郵箱失敗",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.user.securitySetting.Password.mifyFailingMsg": {
-    "zh-tw": "重置登錄密碼失敗",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.user.securitySetting.FundsPassword.mifyFailingMsg": {
-    "zh-tw": "重置資金密碼失敗",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.user.securitySetting.FundsPassword.settingFailingMsg": {
-    "zh-tw": "設置資金密碼失敗",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.user.securitySetting.modifyFailingMsg": {
-    "zh-tw": "修改失敗",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.user.TppPaymentTypeEnum.BqPay": {
-    "zh-tw": "BQPay",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.user.changeRecordType.CenterToPs": {
-    "zh-tw": "[中心錢包]轉[玩星]",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.user.changeRecordType.CenterToMgPlus": {
-    "zh-tw": "[中心錢包]轉[MG+]",
-    "en": "",
-    "zh-cn": ""
-  },
-  "frontstage.user.changeRecordType.CenterToNwg": {
-    "zh-tw": "[中心錢包]轉[新世界棋牌]",
-    "en": "",
-    "zh-cn": ""
-  },
   "frontstage.user.recordInfoNumTime": {
-    "zh-tw": "@:common.SerialNumber / @:common.time",
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "@:common.SerialNumber / @:common.time"
+  },
+  "frontstage.common.bankName": {
+    "zh-tw": "銀行名稱",
     "en": "",
     "zh-cn": ""
+  },
+  "langs.common.langs.en": {
+    "en": "English",
+    "zh-cn": "English",
+    "zh-tw": "English"
+  },
+  "langs.common.langs.zh-cn": {
+    "en": "简体中文",
+    "zh-cn": "简体中文",
+    "zh-tw": "简体中文"
+  },
+  "langs.common.langs.zh-tw": {
+    "en": "繁體中文",
+    "zh-cn": "繁體中文",
+    "zh-tw": "繁體中文"
+  },
+  "langs.common.langs.th": {
+    "en": "Thai",
+    "zh-cn": "泰文",
+    "zh-tw": "Thai"
   }
 }

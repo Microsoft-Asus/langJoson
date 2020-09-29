@@ -12,7 +12,7 @@
       "en": "Calculation amount",
       "zh-cn": "计算额度",
       "zh-tw": "計算額度",
-      "rowid": 998
+      "rowid": 1009
     }
   ],
   [
@@ -44,14 +44,14 @@
       "en": "Amount issued",
       "zh-cn": "发放金额",
       "zh-tw": "發放金額",
-      "rowid": 997
+      "rowid": 1008
     },
     {
       "key": "frontstage.agent.ContractReportAmount",
       "en": "Amount issued",
       "zh-cn": "发放金额",
       "zh-tw": "發放金額",
-      "rowid": 1001
+      "rowid": 1012
     }
   ],
   [
@@ -67,7 +67,7 @@
       "en": "Identity",
       "zh-cn": "身份",
       "zh-tw": "身份",
-      "rowid": 975
+      "rowid": 977
     }
   ],
   [
@@ -83,14 +83,14 @@
       "en": "Distributed",
       "zh-cn": "已派发",
       "zh-tw": "已派發",
-      "rowid": 1336
+      "rowid": 1376
     },
     {
       "key": "frontstage.state.Agent.ContractRecordStateEnum.Sent",
       "en": "Distributed",
       "zh-cn": "已派发",
       "zh-tw": "已派發",
-      "rowid": 1340
+      "rowid": 1380
     }
   ],
   [
@@ -138,14 +138,14 @@
       "en": "season",
       "zh-cn": "季",
       "zh-tw": "季",
-      "rowid": 1327
+      "rowid": 1367
     },
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.Quarter",
       "en": "season",
       "zh-cn": "季",
       "zh-tw": "季",
-      "rowid": 1328
+      "rowid": 1368
     }
   ],
   [
@@ -161,14 +161,14 @@
       "en": "month",
       "zh-cn": "月",
       "zh-tw": "月",
-      "rowid": 1326
+      "rowid": 1366
     },
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.Month",
       "en": "month",
       "zh-cn": "月",
       "zh-tw": "月",
-      "rowid": 1329
+      "rowid": 1369
     }
   ],
   [
@@ -184,14 +184,14 @@
       "en": "half a month",
       "zh-cn": "半月",
       "zh-tw": "半月",
-      "rowid": 1325
+      "rowid": 1365
     },
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.HalfMonth",
       "en": "half a month",
       "zh-cn": "半月",
       "zh-tw": "半月",
-      "rowid": 1332
+      "rowid": 1372
     }
   ],
   [
@@ -207,7 +207,7 @@
       "en": "Profit Sharing Project",
       "zh-cn": "分润项目",
       "zh-tw": "分潤項目",
-      "rowid": 999
+      "rowid": 1010
     }
   ],
   [
@@ -219,32 +219,32 @@
       "rowid": 43
     },
     {
+      "key": "frontstage.agent.TeamValidBetAmount",
+      "en": "",
+      "zh-cn": "有效投注",
+      "zh-tw": "有效投注",
+      "rowid": 1020
+    },
+    {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.1",
       "en": "Valid bet",
       "zh-cn": "有效投注",
       "zh-tw": "有效投注",
-      "rowid": 1312
+      "rowid": 1352
     },
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.BetAviliable",
       "en": "Valid bet",
       "zh-cn": "有效投注",
       "zh-tw": "有效投注",
-      "rowid": 1317
+      "rowid": 1357
     },
     {
       "key": "frontstage.user.betRecord.column.ValidAmount",
       "en": "Valid betting",
       "zh-cn": "有效投注",
       "zh-tw": "有效投注",
-      "rowid": 1390
-    },
-    {
-      "key": "frontstage.agent.TeamValidBetAmount",
-      "zh-tw": "有效投注",
-      "en": "",
-      "zh-cn": "",
-      "rowid": 1554
+      "rowid": 1430
     }
   ],
   [
@@ -260,14 +260,14 @@
       "en": "Negative profit",
       "zh-cn": "负盈利(平帐)",
       "zh-tw": "負盈利(平帳)",
-      "rowid": 1313
+      "rowid": 1353
     },
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.WinLose",
       "en": "Negative profit",
       "zh-cn": "负盈利(平帐)",
       "zh-tw": "負盈利(平帳)",
-      "rowid": 1316
+      "rowid": 1356
     }
   ],
   [
@@ -283,14 +283,14 @@
       "en": "Negative profit (uneven accounts)",
       "zh-cn": "负盈利(不平帐)",
       "zh-tw": "負盈利(不平帳)",
-      "rowid": 1314
+      "rowid": 1354
     },
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.Lose",
       "en": "Negative profit (uneven accounts)",
       "zh-cn": "负盈利(不平帐)",
       "zh-tw": "負盈利(不平帳)",
-      "rowid": 1319
+      "rowid": 1359
     }
   ],
   [
@@ -302,39 +302,39 @@
       "rowid": 46
     },
     {
+      "key": "frontstage.agent.TeamDeposit",
+      "en": "",
+      "zh-cn": "充值",
+      "zh-tw": "充值",
+      "rowid": 1021
+    },
+    {
       "key": "frontstage.common.topup",
       "en": "Top up",
       "zh-cn": "充值",
       "zh-tw": "充值",
-      "rowid": 1075
+      "rowid": 1095
     },
     {
       "key": "frontstage.menu.UserDeposit",
       "en": "Recharge",
       "zh-cn": "充值",
       "zh-tw": "充值",
-      "rowid": 1172
+      "rowid": 1204
     },
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.4",
       "en": "Recharge",
       "zh-cn": "充值",
       "zh-tw": "充值",
-      "rowid": 1315
+      "rowid": 1355
     },
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.Deposit",
       "en": "Recharge",
       "zh-cn": "充值",
       "zh-tw": "充值",
-      "rowid": 1318
-    },
-    {
-      "key": "frontstage.agent.TeamDeposit",
-      "zh-tw": "充值",
-      "en": "",
-      "zh-cn": "",
-      "rowid": 1553
+      "rowid": 1358
     }
   ],
   [
@@ -348,9 +348,9 @@
     {
       "key": "frontstage.common.member",
       "en": "member",
-      "zh-cn": "会员",
+      "zh-cn": "头像",
       "zh-tw": "會員",
-      "rowid": 1083
+      "rowid": 1103
     }
   ],
   [
@@ -412,7 +412,7 @@
       "en": "LogIn",
       "zh-cn": "登录",
       "zh-tw": "登錄",
-      "rowid": 1036
+      "rowid": 1056
     }
   ],
   [
@@ -428,14 +428,14 @@
       "en": "freeze",
       "zh-cn": "冻结",
       "zh-tw": "凍結",
-      "rowid": 697
+      "rowid": 703
     },
     {
       "key": "backstage.state.memberAccount.Freeze",
       "en": "freeze",
       "zh-cn": "冻结",
       "zh-tw": "凍結",
-      "rowid": 701
+      "rowid": 707
     }
   ],
   [
@@ -451,7 +451,7 @@
       "en": "Note",
       "zh-cn": "备注",
       "zh-tw": "備註",
-      "rowid": 1051
+      "rowid": 1071
     }
   ],
   [
@@ -464,10 +464,10 @@
     },
     {
       "key": "frontstage.form.button.reset",
-      "zh-tw": "重置",
       "en": "",
-      "zh-cn": "",
-      "rowid": 1582
+      "zh-cn": "重置",
+      "zh-tw": "重置",
+      "rowid": 1197
     }
   ],
   [
@@ -483,7 +483,7 @@
       "en": "Submit",
       "zh-cn": "送出",
       "zh-tw": "送出",
-      "rowid": 1159
+      "rowid": 1190
     }
   ],
   [
@@ -499,7 +499,7 @@
       "en": "Sunday_Wednesday_Tuesday_Thursday_Friday_Saturday",
       "zh-cn": "周日_周一_周二_周三_周四_周五_周六",
       "zh-tw": "週日_週一_週二_週三_週四_週五_週六",
-      "rowid": 1027
+      "rowid": 1047
     }
   ],
   [
@@ -515,7 +515,7 @@
       "en": "Sun_Wed_Tue_Thu_Fri_Sat",
       "zh-cn": "日_一_二_三_四_五_六",
       "zh-tw": "日_一_二_三_四_五_六",
-      "rowid": 1028
+      "rowid": 1048
     }
   ],
   [
@@ -538,14 +538,14 @@
       "en": "January_February_March_April_May_June_July_August_September_October_November_December",
       "zh-cn": "一月_二月_三月_四月_五月_六月_七月_八月_九月_十月_十一月_十二月",
       "zh-tw": "一月_二月_三月_四月_五月_六月_七月_八月_九月_十月_十一月_十二月",
-      "rowid": 1029
+      "rowid": 1049
     },
     {
       "key": "frontstage.common.monthsShort",
       "en": "Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec",
       "zh-cn": "一月_二月_三月_四月_五月_六月_七月_八月_九月_十月_十一月_十二月",
       "zh-tw": "一月_二月_三月_四月_五月_六月_七月_八月_九月_十月_十一月_十二月",
-      "rowid": 1030
+      "rowid": 1050
     }
   ],
   [
@@ -561,14 +561,14 @@
       "en": "Failed",
       "zh-cn": "拒绝出款",
       "zh-tw": "拒絕出款",
-      "rowid": 728
+      "rowid": 734
     },
     {
       "key": "frontstage.user.changeRecordType.WithdrawalReject",
       "en": "Refuse to pay",
       "zh-cn": "拒绝出款",
       "zh-tw": "拒絕出款",
-      "rowid": 1495
+      "rowid": 1543
     }
   ],
   [
@@ -584,7 +584,7 @@
       "en": "Logout",
       "zh-cn": "登出",
       "zh-tw": "登出",
-      "rowid": 1064
+      "rowid": 1084
     }
   ],
   [
@@ -616,14 +616,14 @@
       "en": "blacklist",
       "zh-cn": "黑名单",
       "zh-tw": "黑名單",
-      "rowid": 698
+      "rowid": 704
     },
     {
       "key": "backstage.state.webState.BlackList",
       "en": "Black list",
-      "zh-cn": " 黑名单",
+      "zh-cn": "黑名单",
       "zh-tw": "黑名單",
-      "rowid": 736
+      "rowid": 742
     }
   ],
   [
@@ -639,7 +639,7 @@
       "en": "mailbox",
       "zh-cn": "邮箱",
       "zh-tw": "郵箱",
-      "rowid": 1400
+      "rowid": 1442
     }
   ],
   [
@@ -655,7 +655,7 @@
       "en": "mobile phone number",
       "zh-cn": "手机号码",
       "zh-tw": "手機號碼",
-      "rowid": 1397
+      "rowid": 1438
     }
   ],
   [
@@ -671,7 +671,7 @@
       "en": "Central wallet",
       "zh-cn": "中心钱包",
       "zh-tw": "中心錢包",
-      "rowid": 1432
+      "rowid": 1480
     }
   ],
   [
@@ -687,7 +687,7 @@
       "en": "cancel",
       "zh-cn": "取消",
       "zh-tw": "取消",
-      "rowid": 1039
+      "rowid": 1059
     }
   ],
   [
@@ -703,7 +703,7 @@
       "en": "gender",
       "zh-cn": "性别",
       "zh-tw": "性別",
-      "rowid": 1056
+      "rowid": 1076
     }
   ],
   [
@@ -719,7 +719,7 @@
       "en": "birthday",
       "zh-cn": "生日",
       "zh-tw": "生日",
-      "rowid": 1054
+      "rowid": 1074
     }
   ],
   [
@@ -735,7 +735,7 @@
       "en": "modify",
       "zh-cn": "修改",
       "zh-tw": "修改",
-      "rowid": 1055
+      "rowid": 1075
     }
   ],
   [
@@ -747,25 +747,25 @@
       "rowid": 135
     },
     {
+      "key": "frontstage.common.unlimit",
+      "en": "",
+      "zh-cn": "无限制",
+      "zh-tw": "無限制",
+      "rowid": 1122
+    },
+    {
       "key": "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.1",
       "en": "Unlimited",
       "zh-cn": "无限制",
       "zh-tw": "無限制",
-      "rowid": 1344
+      "rowid": 1384
     },
     {
       "key": "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.Unlimited",
       "en": "Unlimited",
       "zh-cn": "无限制",
       "zh-tw": "無限制",
-      "rowid": 1350
-    },
-    {
-      "key": "frontstage.common.unlimit",
-      "zh-tw": "無限制",
-      "en": "",
-      "zh-cn": "",
-      "rowid": 1574
+      "rowid": 1390
     }
   ],
   [
@@ -781,21 +781,21 @@
       "en": "Fail",
       "zh-cn": "拒绝",
       "zh-tw": "拒絕",
-      "rowid": 732
+      "rowid": 738
     },
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.4",
       "en": "refuse",
       "zh-cn": "拒绝",
       "zh-tw": "拒絕",
-      "rowid": 1268
+      "rowid": 1308
     },
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.Reject",
       "en": "refuse",
       "zh-cn": "拒绝",
       "zh-tw": "拒絕",
-      "rowid": 1270
+      "rowid": 1310
     }
   ],
   [
@@ -811,7 +811,7 @@
       "en": "bank",
       "zh-cn": "银行",
       "zh-tw": "銀行",
-      "rowid": 1141
+      "rowid": 1171
     }
   ],
   [
@@ -827,7 +827,7 @@
       "en": "Please fill in this field.",
       "zh-cn": "请填写此栏位",
       "zh-tw": "請填寫此欄位",
-      "rowid": 1234
+      "rowid": 1274
     }
   ],
   [
@@ -843,7 +843,7 @@
       "en": "It's not included in the sequence.",
       "zh-cn": "不包含在予列中",
       "zh-tw": "不包含在予列中",
-      "rowid": 1231
+      "rowid": 1271
     }
   ],
   [
@@ -859,7 +859,7 @@
       "en": "Please enter the correct format.",
       "zh-cn": "请输入正确格式",
       "zh-tw": "請輸入正確格式",
-      "rowid": 1243
+      "rowid": 1283
     }
   ],
   [
@@ -875,7 +875,7 @@
       "en": "Only integral numbers are allowed.",
       "zh-cn": "只允许输入整数",
       "zh-tw": "只允許輸入整數",
-      "rowid": 1232
+      "rowid": 1272
     }
   ],
   [
@@ -891,7 +891,7 @@
       "en": "Only numbers are allowed.",
       "zh-cn": "只允许输入数字",
       "zh-tw": "只允許輸入數字",
-      "rowid": 1238
+      "rowid": 1278
     }
   ],
   [
@@ -907,7 +907,7 @@
       "en": "Amount",
       "zh-cn": "金额",
       "zh-tw": "金額",
-      "rowid": 1394
+      "rowid": 1435
     }
   ],
   [
@@ -923,7 +923,7 @@
       "en": "Fail",
       "zh-cn": "失败",
       "zh-tw": "失敗",
-      "rowid": 397
+      "rowid": 400
     }
   ],
   [
@@ -939,21 +939,21 @@
       "en": "Live",
       "zh-cn": "真人视讯",
       "zh-tw": "真人視訊",
-      "rowid": 1185
+      "rowid": 1217
     },
     {
       "key": "frontstage.state.GameCategoryEnum.1",
       "en": "Live",
       "zh-cn": "真人视讯",
       "zh-tw": "真人視訊",
-      "rowid": 1351
+      "rowid": 1391
     },
     {
       "key": "frontstage.state.GameCategoryEnum.Live",
       "en": "Live",
       "zh-cn": "真人视讯",
       "zh-tw": "真人視訊",
-      "rowid": 1361
+      "rowid": 1401
     }
   ],
   [
@@ -969,21 +969,21 @@
       "en": "Slots",
       "zh-cn": "电子游艺",
       "zh-tw": "電子遊藝",
-      "rowid": 1188
+      "rowid": 1220
     },
     {
       "key": "frontstage.state.GameCategoryEnum.2",
       "en": "Slot",
       "zh-cn": "电子游艺",
       "zh-tw": "電子遊藝",
-      "rowid": 1352
+      "rowid": 1392
     },
     {
       "key": "frontstage.state.GameCategoryEnum.Slot",
       "en": "Slot",
       "zh-cn": "电子游艺",
       "zh-tw": "電子遊藝",
-      "rowid": 1364
+      "rowid": 1404
     }
   ],
   [
@@ -999,21 +999,21 @@
       "en": "Lottery",
       "zh-cn": "彩票游戏",
       "zh-tw": "彩票遊戲",
-      "rowid": 1186
+      "rowid": 1218
     },
     {
       "key": "frontstage.state.GameCategoryEnum.3",
       "en": "Lottery",
       "zh-cn": "彩票游戏",
       "zh-tw": "彩票遊戲",
-      "rowid": 1353
+      "rowid": 1393
     },
     {
       "key": "frontstage.state.GameCategoryEnum.Lottery",
       "en": "Lottery",
       "zh-cn": "彩票游戏",
       "zh-tw": "彩票遊戲",
-      "rowid": 1362
+      "rowid": 1402
     }
   ],
   [
@@ -1029,14 +1029,14 @@
       "en": "Sport",
       "zh-cn": "体育游戏",
       "zh-tw": "體育遊戲",
-      "rowid": 1354
+      "rowid": 1394
     },
     {
       "key": "frontstage.state.GameCategoryEnum.Sport",
       "en": "Sport",
       "zh-cn": "体育游戏",
       "zh-tw": "體育遊戲",
-      "rowid": 1365
+      "rowid": 1405
     }
   ],
   [
@@ -1059,21 +1059,21 @@
       "en": "Gaming",
       "zh-cn": "电竞游戏",
       "zh-tw": "電競遊戲",
-      "rowid": 1355
+      "rowid": 1395
     },
     {
       "key": "frontstage.state.GameCategoryEnum.Gaming",
       "en": "Gaming",
       "zh-cn": "电竞游戏",
       "zh-tw": "電競遊戲",
-      "rowid": 1360
+      "rowid": 1400
     },
     {
       "key": "frontstage.state.GameCategoryEnum.ESport",
       "en": "ESport",
       "zh-cn": "电竞游戏",
       "zh-tw": "電競遊戲",
-      "rowid": 1366
+      "rowid": 1406
     }
   ],
   [
@@ -1089,28 +1089,28 @@
       "en": "Poker",
       "zh-cn": "棋牌游戏",
       "zh-tw": "棋牌遊戲",
-      "rowid": 1187
+      "rowid": 1219
     },
     {
       "key": "frontstage.state.GameCategoryEnum.6",
       "en": "Poker",
       "zh-cn": "棋牌游戏",
       "zh-tw": "棋牌遊戲",
-      "rowid": 1356
+      "rowid": 1396
     },
     {
       "key": "frontstage.state.GameCategoryEnum.Chess",
       "en": "Poker",
       "zh-cn": "棋牌游戏",
       "zh-tw": "棋牌遊戲",
-      "rowid": 1358
+      "rowid": 1398
     },
     {
       "key": "frontstage.state.GameCategoryEnum.Poker",
       "en": "Poker",
       "zh-cn": "棋牌游戏",
       "zh-tw": "棋牌遊戲",
-      "rowid": 1363
+      "rowid": 1403
     }
   ],
   [
@@ -1126,21 +1126,21 @@
       "en": "Fishing game",
       "zh-cn": "捕鱼游戏",
       "zh-tw": "捕魚遊戲",
-      "rowid": 1195
+      "rowid": 1227
     },
     {
       "key": "frontstage.state.GameCategoryEnum.7",
       "en": "Fishing",
       "zh-cn": "捕鱼游戏",
       "zh-tw": "捕魚遊戲",
-      "rowid": 1357
+      "rowid": 1397
     },
     {
       "key": "frontstage.state.GameCategoryEnum.Fishing",
       "en": "Fishing",
       "zh-cn": "捕鱼游戏",
       "zh-tw": "捕魚遊戲",
-      "rowid": 1359
+      "rowid": 1399
     }
   ],
   [
@@ -1163,7 +1163,7 @@
       "en": "Dispensing",
       "zh-cn": "出款",
       "zh-tw": "出款",
-      "rowid": 1498
+      "rowid": 1546
     }
   ],
   [
@@ -1179,7 +1179,7 @@
       "en": "other",
       "zh-cn": "其他",
       "zh-tw": "其他",
-      "rowid": 1482
+      "rowid": 1530
     }
   ],
   [
@@ -1195,7 +1195,7 @@
       "en": "Bet",
       "zh-cn": "下注",
       "zh-tw": "下注",
-      "rowid": 1528
+      "rowid": 1576
     }
   ],
   [
@@ -1211,7 +1211,7 @@
       "en": "BetFinished",
       "zh-cn": "派彩",
       "zh-tw": "派彩",
-      "rowid": 1531
+      "rowid": 1579
     }
   ],
   [
@@ -1227,7 +1227,7 @@
       "en": "cancellation",
       "zh-cn": "注销",
       "zh-tw": "註銷",
-      "rowid": 1530
+      "rowid": 1578
     }
   ],
   [
@@ -1243,7 +1243,7 @@
       "en": "Reset successfully",
       "zh-cn": "重置成功",
       "zh-tw": "重置成功",
-      "rowid": 1549
+      "rowid": 1600
     }
   ],
   [
@@ -1259,14 +1259,14 @@
       "en": "Active number",
       "zh-cn": "活跃人数",
       "zh-tw": "活躍人數",
-      "rowid": 983
+      "rowid": 985
     },
     {
       "key": "frontstage.agent.ActiveMemberCount",
       "en": "Active number",
       "zh-cn": "活跃人数",
       "zh-tw": "活躍人數",
-      "rowid": 991
+      "rowid": 993
     }
   ],
   [
@@ -1280,16 +1280,16 @@
     {
       "key": "backstage.permission.Delete",
       "en": "delete",
-      "zh-cn": "删除",
+      "zh-cn": "刪除",
       "zh-tw": "刪除",
-      "rowid": 674
+      "rowid": 680
     },
     {
       "key": "frontstage.common.remove",
       "en": "delete",
-      "zh-cn": "删除",
+      "zh-cn": "刪除",
       "zh-tw": "刪除",
-      "rowid": 1037
+      "rowid": 1057
     }
   ],
   [
@@ -1305,14 +1305,14 @@
       "en": "New",
       "zh-cn": "新增",
       "zh-tw": "新增",
-      "rowid": 675
+      "rowid": 681
     },
     {
       "key": "backstage.system.add",
       "en": "Add",
       "zh-cn": "新增",
       "zh-tw": "新增",
-      "rowid": 841
+      "rowid": 847
     }
   ],
   [
@@ -1326,9 +1326,16 @@
     {
       "key": "frontstage.common.langs.zh-tw",
       "en": "繁體中文",
+      "zh-cn": "繁体中文",
+      "zh-tw": "繁體中文",
+      "rowid": 1092
+    },
+    {
+      "key": "langs.common.langs.zh-tw",
+      "en": "繁體中文",
       "zh-cn": "繁體中文",
       "zh-tw": "繁體中文",
-      "rowid": 1072
+      "rowid": 1608
     }
   ],
   [
@@ -1344,7 +1351,7 @@
       "en": "Successfully modified",
       "zh-cn": "修改成功",
       "zh-tw": "修改成功",
-      "rowid": 1220
+      "rowid": 1253
     }
   ],
   [
@@ -1360,7 +1367,7 @@
       "en": "female",
       "zh-cn": "女性",
       "zh-tw": "女性",
-      "rowid": 1033
+      "rowid": 1053
     }
   ],
   [
@@ -1376,7 +1383,7 @@
       "en": "male",
       "zh-cn": "男性",
       "zh-tw": "男性",
-      "rowid": 1034
+      "rowid": 1054
     }
   ],
   [
@@ -1392,7 +1399,7 @@
       "en": "unknown",
       "zh-cn": "未知",
       "zh-tw": "未知",
-      "rowid": 1035
+      "rowid": 1055
     }
   ],
   [
@@ -1408,210 +1415,210 @@
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 687
+      "rowid": 693
     },
     {
       "key": "backstage.state.managerAccount.Undefined",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 700
+      "rowid": 706
     },
     {
       "key": "backstage.state.memberAccount.Undefined",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 702
+      "rowid": 708
     },
     {
       "key": "backstage.state.MessageMarquee.0",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 706
+      "rowid": 712
     },
     {
       "key": "backstage.state.MessageMarquee.Undefined",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 709
+      "rowid": 715
     },
     {
       "key": "backstage.state.DepositTransStateEnum.0",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 717
+      "rowid": 723
     },
     {
       "key": "backstage.state.DepositTransStateEnum.Unknow",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 724
+      "rowid": 730
     },
     {
       "key": "backstage.state.WithdrawalStateEnum.0",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 725
+      "rowid": 731
     },
     {
       "key": "backstage.state.WithdrawalStateEnum.Unknow",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 729
+      "rowid": 735
     },
     {
       "key": "backstage.system.undefined",
       "en": "undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 839
+      "rowid": 845
     },
     {
       "key": "backstage.system.transfer.Undefined",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 934
+      "rowid": 940
     },
     {
       "key": "frontstage.state.DepositStateTypeEnum.0",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1256
+      "rowid": 1296
     },
     {
       "key": "frontstage.state.DepositStateTypeEnum.Undefined",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1263
+      "rowid": 1303
     },
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.0",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1264
+      "rowid": 1304
     },
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.Undefined",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1273
+      "rowid": 1313
     },
     {
       "key": "frontstage.state.WalletTransferStateTypeEnum.0",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1274
+      "rowid": 1314
     },
     {
       "key": "frontstage.state.WalletTransferStateTypeEnum.Undefined",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1281
+      "rowid": 1321
     },
     {
       "key": "frontstage.state.TppChannelEnum.0",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1282
+      "rowid": 1322
     },
     {
       "key": "frontstage.state.TppChannelEnum.Undefined",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1294
+      "rowid": 1334
     },
     {
       "key": "frontstage.state.BetOrderState.0",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1299
+      "rowid": 1339
     },
     {
       "key": "frontstage.state.BetOrderState.Undefined",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1310
+      "rowid": 1350
     },
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.0",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1311
+      "rowid": 1351
     },
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.Undefined",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1320
+      "rowid": 1360
     },
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.0",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1321
+      "rowid": 1361
     },
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.Undefined",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1333
+      "rowid": 1373
     },
     {
       "key": "frontstage.state.Agent.ContractRecordStateEnum.0",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1335
+      "rowid": 1375
     },
     {
       "key": "frontstage.state.Agent.ContractRecordStateEnum.Undefined",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1339
+      "rowid": 1379
     },
     {
       "key": "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.0",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1343
+      "rowid": 1383
     },
     {
       "key": "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.Undefined",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1349
+      "rowid": 1389
     },
     {
       "key": "frontstage.user.changeRecordType.Undefined",
       "en": "Undefined",
       "zh-cn": "未定义",
       "zh-tw": "未定義",
-      "rowid": 1493
+      "rowid": 1541
     }
   ],
   [
@@ -1620,14 +1627,14 @@
       "en": "Parent deposit",
       "zh-cn": "上级充值",
       "zh-tw": "上級充值",
-      "rowid": 276
+      "rowid": 278
     },
     {
       "key": "frontstage.user.changeRecordType.ParentDeposit",
       "en": "Superior recharge",
       "zh-cn": "上级充值",
       "zh-tw": "上級充值",
-      "rowid": 1488
+      "rowid": 1536
     }
   ],
   [
@@ -1636,14 +1643,14 @@
       "en": "Child deposit",
       "zh-cn": "下级充值",
       "zh-tw": "下級充值",
-      "rowid": 277
+      "rowid": 279
     },
     {
       "key": "frontstage.user.changeRecordType.ChildDeposit",
       "en": "Lower level recharge",
       "zh-cn": "下级充值",
       "zh-tw": "下級充值",
-      "rowid": 1471
+      "rowid": 1519
     }
   ],
   [
@@ -1652,14 +1659,14 @@
       "en": "Agent strategy wage",
       "zh-cn": "工资",
       "zh-tw": "工資",
-      "rowid": 279
+      "rowid": 281
     },
     {
       "key": "backstage.state.Wage",
       "en": "Wage",
       "zh-cn": "工资",
       "zh-tw": "工資",
-      "rowid": 744
+      "rowid": 750
     }
   ],
   [
@@ -1668,14 +1675,14 @@
       "en": "Agent strategy commission",
       "zh-cn": "佣金",
       "zh-tw": "傭金",
-      "rowid": 282
+      "rowid": 284
     },
     {
       "key": "backstage.state.Commission",
       "en": "Commission",
       "zh-cn": "佣金",
       "zh-tw": "傭金",
-      "rowid": 747
+      "rowid": 753
     }
   ],
   [
@@ -1684,14 +1691,14 @@
       "en": "Agent strategy other",
       "zh-cn": "代理策略-其他",
       "zh-tw": "代理策略-其他",
-      "rowid": 283
+      "rowid": 285
     },
     {
       "key": "frontstage.user.changeRecordType.AgentStrategyOther",
       "en": "Agent policy - other",
       "zh-cn": "代理策略-其他",
       "zh-tw": "代理策略-其他",
-      "rowid": 1516
+      "rowid": 1564
     }
   ],
   [
@@ -1700,14 +1707,14 @@
       "en": "BQ deposit",
       "zh-cn": "BQ入款",
       "zh-tw": "BQ入款",
-      "rowid": 287
+      "rowid": 289
     },
     {
       "key": "frontstage.user.changeRecordType.BqDeposit",
       "en": "BQ income",
       "zh-cn": "BQ入款",
       "zh-tw": "BQ入款",
-      "rowid": 1533
+      "rowid": 1581
     }
   ],
   [
@@ -1716,14 +1723,14 @@
       "en": "Deposit fee",
       "zh-cn": "充值手续费",
       "zh-tw": "充值手續費",
-      "rowid": 289
+      "rowid": 291
     },
     {
       "key": "backstage.menu.PaymentChannelDepositFee",
       "en": "Deposit fee",
       "zh-cn": "充值手续费",
       "zh-tw": "充值手續費",
-      "rowid": 636
+      "rowid": 641
     }
   ],
   [
@@ -1732,14 +1739,14 @@
       "en": "Artificial deposit promotions",
       "zh-cn": "人工存入-活动优惠",
       "zh-tw": "人工存入-活動優惠",
-      "rowid": 291
+      "rowid": 293
     },
     {
       "key": "frontstage.user.changeRecordType.ArtificialDepositPromotions",
       "en": "Manual deposit - event discount",
       "zh-cn": "人工存入-活动优惠",
       "zh-tw": "人工存入-活動優惠",
-      "rowid": 1510
+      "rowid": 1558
     }
   ],
   [
@@ -1748,14 +1755,14 @@
       "en": "Batch deposit promotions",
       "zh-cn": "批次存入-活动优惠",
       "zh-tw": "批次存入-活動優惠",
-      "rowid": 292
+      "rowid": 294
     },
     {
       "key": "frontstage.user.changeRecordType.BatchDepositPromotions",
       "en": "Batch deposit - event discount",
       "zh-cn": "批次存入-活动优惠",
       "zh-tw": "批次存入-活動優惠",
-      "rowid": 1526
+      "rowid": 1574
     }
   ],
   [
@@ -1764,14 +1771,14 @@
       "en": "Center to AG",
       "zh-cn": "[中心钱包]转[AG]",
       "zh-tw": "[中心錢包]轉[AG]",
-      "rowid": 293
+      "rowid": 295
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToAg",
       "en": "[Center] to [AG]",
       "zh-cn": "[中心钱包]转[AG]",
       "zh-tw": "[中心錢包]轉[AG]",
-      "rowid": 1534
+      "rowid": 1582
     }
   ],
   [
@@ -1780,14 +1787,14 @@
       "en": "Center to new BBIN",
       "zh-cn": "[中心钱包]转[NewBBIN波音]",
       "zh-tw": "[中心錢包]轉[NewBBIN波音]",
-      "rowid": 295
+      "rowid": 297
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToBbin",
       "en": "[Center] to [NewBBIN]",
       "zh-cn": "[中心钱包]转[NewBBIN波音]",
       "zh-tw": "[中心錢包]轉[NewBBIN波音]",
-      "rowid": 1536
+      "rowid": 1584
     }
   ],
   [
@@ -1796,14 +1803,14 @@
       "en": "New BBIN to center",
       "zh-cn": "[NewBBIN波音]转[中心钱包]",
       "zh-tw": "[NewBBIN波音]轉[中心錢包]",
-      "rowid": 296
+      "rowid": 298
     },
     {
       "key": "frontstage.user.changeRecordType.BbinToCenter",
       "en": "[NewBBIN] to [Center]",
       "zh-cn": "[NewBBIN波音]转[中心钱包]",
       "zh-tw": "[NewBBIN波音]轉[中心錢包]",
-      "rowid": 1527
+      "rowid": 1575
     }
   ],
   [
@@ -1812,14 +1819,14 @@
       "en": "Center to SABA",
       "zh-cn": "[中心钱包]转[SABA沙巴]",
       "zh-tw": "[中心錢包]轉[SABA沙巴]",
-      "rowid": 297
+      "rowid": 299
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToSaba",
       "en": "[Center] to [SABA]",
       "zh-cn": "[中心钱包]转[SABA沙巴]",
       "zh-tw": "[中心錢包]轉[SABA沙巴]",
-      "rowid": 1476
+      "rowid": 1524
     }
   ],
   [
@@ -1828,14 +1835,14 @@
       "en": "Saba to center",
       "zh-cn": "[SABA沙巴]转[中心钱包]",
       "zh-tw": "[SABA沙巴]轉[中心錢包]",
-      "rowid": 298
+      "rowid": 300
     },
     {
       "key": "frontstage.user.changeRecordType.SabaToCenter",
       "en": "[SABA] to [Central Wallet]",
       "zh-cn": "[SABA沙巴]转[中心钱包]",
       "zh-tw": "[SABA沙巴]轉[中心錢包]",
-      "rowid": 1501
+      "rowid": 1549
     }
   ],
   [
@@ -1844,14 +1851,14 @@
       "en": "Center to PT",
       "zh-cn": "[中心钱包]转[PT]",
       "zh-tw": "[中心錢包]轉[PT]",
-      "rowid": 299
+      "rowid": 301
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToPt",
       "en": "[Center] to [Pt]",
       "zh-cn": "[中心钱包]转[PT]",
       "zh-tw": "[中心錢包]轉[PT]",
-      "rowid": 1470
+      "rowid": 1518
     }
   ],
   [
@@ -1860,14 +1867,14 @@
       "en": "PT to center",
       "zh-cn": "[PT]转[中心钱包]",
       "zh-tw": "[PT]轉[中心錢包]",
-      "rowid": 300
+      "rowid": 302
     },
     {
       "key": "frontstage.user.changeRecordType.PtToCenter",
       "en": "[PT] to [Center]",
       "zh-cn": "[PT]转[中心钱包]",
       "zh-tw": "[PT]轉[中心錢包]",
-      "rowid": 1494
+      "rowid": 1542
     }
   ],
   [
@@ -1876,14 +1883,14 @@
       "en": "Center to RgLottery",
       "zh-cn": "[中心钱包]转[RgLottery]",
       "zh-tw": "[中心錢包]轉[RgLottery]",
-      "rowid": 301
+      "rowid": 303
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToRgLottery",
       "en": "[Center] to [RgLottery]",
       "zh-cn": "[中心钱包]转[RgLottery]",
       "zh-tw": "[中心錢包]轉[RgLottery]",
-      "rowid": 1543
+      "rowid": 1591
     }
   ],
   [
@@ -1892,14 +1899,14 @@
       "en": "RgLottery to center",
       "zh-cn": "[RgLottery]转[中心钱包]",
       "zh-tw": "[RgLottery]轉[中心錢包]",
-      "rowid": 302
+      "rowid": 304
     },
     {
       "key": "frontstage.user.changeRecordType.RgLotteryToCenter",
       "en": "[RgLottery] to [Center]",
       "zh-cn": "[RgLottery]转[中心钱包]",
       "zh-tw": "[RgLottery]轉[中心錢包]",
-      "rowid": 1504
+      "rowid": 1552
     }
   ],
   [
@@ -1908,14 +1915,14 @@
       "en": "Center to RgBoardGame",
       "zh-cn": "[中心钱包]转[RgBoardGame]",
       "zh-tw": "[中心錢包]轉[RgBoardGame]",
-      "rowid": 303
+      "rowid": 305
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToRgBoard",
       "en": "[Central Wallet] to [RgBoardGame]",
       "zh-cn": "[中心钱包]转[RgBoardGame]",
       "zh-tw": "[中心錢包]轉[RgBoardGame]",
-      "rowid": 1477
+      "rowid": 1525
     }
   ],
   [
@@ -1924,14 +1931,14 @@
       "en": "RgBoardGame to center",
       "zh-cn": "[RgBoardGame]转[中心钱包]",
       "zh-tw": "[RgBoardGame]轉[中心錢包]",
-      "rowid": 304
+      "rowid": 306
     },
     {
       "key": "frontstage.user.changeRecordType.RgBoardToCenter",
       "en": "[RgBoardGame] to [Center]",
       "zh-cn": "[RgBoardGame]转[中心钱包]",
       "zh-tw": "[RgBoardGame]轉[中心錢包]",
-      "rowid": 1496
+      "rowid": 1544
     }
   ],
   [
@@ -1940,14 +1947,14 @@
       "en": "Center to FastBet",
       "zh-cn": "[中心钱包]转[FastBet]",
       "zh-tw": "[中心錢包]轉[FastBet]",
-      "rowid": 305
+      "rowid": 307
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToFastBet",
       "en": "[Center] to [FastBet]",
       "zh-cn": "[中心钱包]转[FastBet]",
       "zh-tw": "[中心錢包]轉[FastBet]",
-      "rowid": 1538
+      "rowid": 1586
     }
   ],
   [
@@ -1956,14 +1963,14 @@
       "en": "FastBet to center",
       "zh-cn": "[FastBet]转[中心钱包]",
       "zh-tw": "[FastBet]轉[中心錢包]",
-      "rowid": 306
+      "rowid": 308
     },
     {
       "key": "frontstage.user.changeRecordType.FastBetToCenter",
       "en": "[fastbet] to [Center]",
       "zh-cn": "[FastBet]转[中心钱包]",
       "zh-tw": "[FastBet]轉[中心錢包]",
-      "rowid": 1475
+      "rowid": 1523
     }
   ],
   [
@@ -1972,14 +1979,14 @@
       "en": "Center to PS",
       "zh-cn": "[中心钱包]转[玩星]",
       "zh-tw": "[中心錢包]轉[玩星]",
-      "rowid": 307
+      "rowid": 309
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToPs",
-      "zh-tw": "[中心錢包]轉[玩星]",
       "en": "",
-      "zh-cn": "",
-      "rowid": 1598
+      "zh-cn": "[中心钱包]转[玩星]",
+      "zh-tw": "[中心錢包]轉[玩星]",
+      "rowid": 1593
     }
   ],
   [
@@ -1988,14 +1995,14 @@
       "en": "PS to Center",
       "zh-cn": "[玩星]转[中心钱包]",
       "zh-tw": "[玩星]轉[中心錢包]",
-      "rowid": 308
+      "rowid": 310
     },
     {
       "key": "frontstage.user.changeRecordType.PsToCenter",
       "en": "[玩星] to [Center]",
       "zh-cn": "[玩星]转[中心钱包]",
       "zh-tw": "[玩星]轉[中心錢包]",
-      "rowid": 1505
+      "rowid": 1553
     }
   ],
   [
@@ -2004,14 +2011,14 @@
       "en": "Center to EG",
       "zh-cn": "[中心钱包]转[EG]",
       "zh-tw": "[中心錢包]轉[EG]",
-      "rowid": 311
+      "rowid": 313
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToEg",
       "en": "[Center] to [EG]",
       "zh-cn": "[中心钱包]转[EG]",
       "zh-tw": "[中心錢包]轉[EG]",
-      "rowid": 1537
+      "rowid": 1585
     }
   ],
   [
@@ -2020,14 +2027,14 @@
       "en": "EG to Center",
       "zh-cn": "[EG]转[中心钱包]",
       "zh-tw": "[EG]轉[中心錢包]",
-      "rowid": 312
+      "rowid": 314
     },
     {
       "key": "frontstage.user.changeRecordType.EgToCenter",
       "en": "[EG] to [Center]",
       "zh-cn": "[EG]转[中心钱包]",
       "zh-tw": "[EG]轉[中心錢包]",
-      "rowid": 1479
+      "rowid": 1527
     }
   ],
   [
@@ -2036,14 +2043,14 @@
       "en": "Center to IBO",
       "zh-cn": "[中心钱包]转[IBO]",
       "zh-tw": "[中心錢包]轉[IBO]",
-      "rowid": 313
+      "rowid": 315
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToIbo",
       "en": "[Center] to [IBO]",
       "zh-cn": "[中心钱包]转[IBO]",
       "zh-tw": "[中心錢包]轉[IBO]",
-      "rowid": 1539
+      "rowid": 1587
     }
   ],
   [
@@ -2052,14 +2059,14 @@
       "en": "IBO to Center",
       "zh-cn": "[IBO]转[中心钱包]",
       "zh-tw": "[IBO]轉[中心錢包]",
-      "rowid": 314
+      "rowid": 316
     },
     {
       "key": "frontstage.user.changeRecordType.IboToCenter",
       "en": "[IBO] to [Center]",
       "zh-cn": "[IBO]转[中心钱包]",
       "zh-tw": "[IBO]轉[中心錢包]",
-      "rowid": 1483
+      "rowid": 1531
     }
   ],
   [
@@ -2068,14 +2075,14 @@
       "en": "Center to KK",
       "zh-cn": "[中心钱包]转[KK彩票]",
       "zh-tw": "[中心錢包]轉[KK彩票]",
-      "rowid": 317
+      "rowid": 319
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToKk",
       "en": "[Center] to [KK lottery]",
       "zh-cn": "[中心钱包]转[KK彩票]",
       "zh-tw": "[中心錢包]轉[KK彩票]",
-      "rowid": 1541
+      "rowid": 1589
     }
   ],
   [
@@ -2084,14 +2091,14 @@
       "en": "KK to Center",
       "zh-cn": "[KK彩票]转[中心钱包]",
       "zh-tw": "[KK彩票]轉[中心錢包]",
-      "rowid": 318
+      "rowid": 320
     },
     {
       "key": "frontstage.user.changeRecordType.KkToCenter",
       "en": "[KK Lottery] to [Central Wallet]",
       "zh-cn": "[KK彩票]转[中心钱包]",
       "zh-tw": "[KK彩票]轉[中心錢包]",
-      "rowid": 1490
+      "rowid": 1538
     }
   ],
   [
@@ -2100,14 +2107,14 @@
       "en": "Center to MG+",
       "zh-cn": "[中心钱包]转[MG+]",
       "zh-tw": "[中心錢包]轉[MG+]",
-      "rowid": 319
+      "rowid": 321
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToMgPlus",
-      "zh-tw": "[中心錢包]轉[MG+]",
       "en": "",
-      "zh-cn": "",
-      "rowid": 1599
+      "zh-cn": "[中心钱包]转[MG+]",
+      "zh-tw": "[中心錢包]轉[MG+]",
+      "rowid": 1594
     }
   ],
   [
@@ -2116,14 +2123,14 @@
       "en": "MG+ to Center",
       "zh-cn": "[MG+]转[中心钱包]",
       "zh-tw": "[MG+]轉[中心錢包]",
-      "rowid": 320
+      "rowid": 322
     },
     {
       "key": "frontstage.user.changeRecordType.MgPlusToCenter",
       "en": "[MG+] to [Central Wallet]",
       "zh-cn": "[MG+]转[中心钱包]",
       "zh-tw": "[MG+]轉[中心錢包]",
-      "rowid": 1486
+      "rowid": 1534
     }
   ],
   [
@@ -2132,14 +2139,14 @@
       "en": "Center to PG",
       "zh-cn": "[中心钱包]转[PG]",
       "zh-tw": "[中心錢包]轉[PG]",
-      "rowid": 321
+      "rowid": 323
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToPg",
       "en": "[Center] to [PG]",
       "zh-cn": "[中心钱包]转[PG]",
       "zh-tw": "[中心錢包]轉[PG]",
-      "rowid": 1469
+      "rowid": 1517
     }
   ],
   [
@@ -2148,14 +2155,14 @@
       "en": "PG to Center",
       "zh-cn": "[PG]转[中心钱包]",
       "zh-tw": "[PG]轉[中心錢包]",
-      "rowid": 322
+      "rowid": 324
     },
     {
       "key": "frontstage.user.changeRecordType.PgToCenter",
       "en": "[PG] to [Central Wallet]",
       "zh-cn": "[PG]转[中心钱包]",
       "zh-tw": "[PG]轉[中心錢包]",
-      "rowid": 1492
+      "rowid": 1540
     }
   ],
   [
@@ -2164,14 +2171,14 @@
       "en": "Center to NWG",
       "zh-cn": "[中心钱包]转[新世界棋牌]",
       "zh-tw": "[中心錢包]轉[新世界棋牌]",
-      "rowid": 325
+      "rowid": 327
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToNwg",
-      "zh-tw": "[中心錢包]轉[新世界棋牌]",
       "en": "",
-      "zh-cn": "",
-      "rowid": 1600
+      "zh-cn": "[中心钱包]转[新世界棋牌]",
+      "zh-tw": "[中心錢包]轉[新世界棋牌]",
+      "rowid": 1595
     }
   ],
   [
@@ -2180,14 +2187,14 @@
       "en": "NWG to Center",
       "zh-cn": "[新世界棋牌]转[中心钱包]",
       "zh-tw": "[新世界棋牌]轉[中心錢包]",
-      "rowid": 326
+      "rowid": 328
     },
     {
       "key": "frontstage.user.changeRecordType.NwgToCenter",
       "en": "[新世界棋牌] to [Center Wallet]",
       "zh-cn": "[新世界棋牌]转[中心钱包]",
       "zh-tw": "[新世界棋牌]轉[中心錢包]",
-      "rowid": 1491
+      "rowid": 1539
     }
   ],
   [
@@ -2196,14 +2203,14 @@
       "en": "Center to RMG",
       "zh-cn": "[中心钱包]转[大富翁棋牌]",
       "zh-tw": "[中心錢包]轉[大富翁棋牌]",
-      "rowid": 327
+      "rowid": 329
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToRmg",
       "en": "[Center Wallet] Transfer to [大富翁棋牌]",
       "zh-cn": "[中心钱包]转[大富翁棋牌]",
       "zh-tw": "[中心錢包]轉[大富翁棋牌]",
-      "rowid": 1474
+      "rowid": 1522
     }
   ],
   [
@@ -2212,14 +2219,14 @@
       "en": "RMG to Center",
       "zh-cn": "[大富翁棋牌]转[中心钱包]",
       "zh-tw": "[大富翁棋牌]轉[中心錢包]",
-      "rowid": 328
+      "rowid": 330
     },
     {
       "key": "frontstage.user.changeRecordType.RmgToCenter",
       "en": "[大富翁棋牌] transfer [Center]",
       "zh-cn": "[大富翁棋牌]转[中心钱包]",
       "zh-tw": "[大富翁棋牌]轉[中心錢包]",
-      "rowid": 1502
+      "rowid": 1550
     }
   ],
   [
@@ -2228,14 +2235,14 @@
       "en": "Center toTM",
       "zh-cn": "[中心钱包]转[天美棋牌]",
       "zh-tw": "[中心錢包]轉[天美棋牌]",
-      "rowid": 331
+      "rowid": 333
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToTm",
       "en": "[Center] to [天美]",
       "zh-cn": "[中心钱包]转[天美棋牌]",
       "zh-tw": "[中心錢包]轉[天美棋牌]",
-      "rowid": 1478
+      "rowid": 1526
     }
   ],
   [
@@ -2244,14 +2251,14 @@
       "en": "TM to Center",
       "zh-cn": "[天美棋牌]转[中心钱包]",
       "zh-tw": "[天美棋牌]轉[中心錢包]",
-      "rowid": 332
+      "rowid": 334
     },
     {
       "key": "frontstage.user.changeRecordType.TmToCenter",
       "en": "[天美棋牌] to [Center Wallet]",
       "zh-cn": "[天美棋牌]转[中心钱包]",
       "zh-tw": "[天美棋牌]轉[中心錢包]",
-      "rowid": 1507
+      "rowid": 1555
     }
   ],
   [
@@ -2260,14 +2267,14 @@
       "en": "Center to VR",
       "zh-cn": "[中心钱包]转[VR彩票]",
       "zh-tw": "[中心錢包]轉[VR彩票]",
-      "rowid": 333
+      "rowid": 335
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToVr",
       "en": "[Central Wallet] to [VR Lottery]",
       "zh-cn": "[中心钱包]转[VR彩票]",
       "zh-tw": "[中心錢包]轉[VR彩票]",
-      "rowid": 1472
+      "rowid": 1520
     }
   ],
   [
@@ -2276,14 +2283,14 @@
       "en": "VR to Center",
       "zh-cn": "[VR彩票]转[中心钱包]",
       "zh-tw": "[VR彩票]轉[中心錢包]",
-      "rowid": 334
+      "rowid": 336
     },
     {
       "key": "frontstage.user.changeRecordType.VrToCenter",
       "en": "[VR lottery] to [Center]",
       "zh-cn": "[VR彩票]转[中心钱包]",
       "zh-tw": "[VR彩票]轉[中心錢包]",
-      "rowid": 1500
+      "rowid": 1548
     }
   ],
   [
@@ -2292,14 +2299,14 @@
       "en": "Center to WM",
       "zh-cn": "[中心钱包]转[WM真人百家乐]",
       "zh-tw": "[中心錢包]轉[WM真人百家樂]",
-      "rowid": 335
+      "rowid": 337
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToWm",
       "en": "[Center] to [WM live baccarat]",
       "zh-cn": "[中心钱包]转[WM真人百家乐]",
       "zh-tw": "[中心錢包]轉[WM真人百家樂]",
-      "rowid": 1481
+      "rowid": 1529
     }
   ],
   [
@@ -2308,14 +2315,14 @@
       "en": "WM to Center",
       "zh-cn": "[WM真人百家乐]转[中心钱包]",
       "zh-tw": "[WM真人百家樂]轉[中心錢包]",
-      "rowid": 336
+      "rowid": 338
     },
     {
       "key": "frontstage.user.changeRecordType.WmToCenter",
       "en": "[WM Real Baccarat] to [Central Wallet]",
       "zh-cn": "[WM真人百家乐]转[中心钱包]",
       "zh-tw": "[WM真人百家樂]轉[中心錢包]",
-      "rowid": 1509
+      "rowid": 1557
     }
   ],
   [
@@ -2324,14 +2331,14 @@
       "en": "Wallet audit system reset",
       "zh-cn": "系统归零",
       "zh-tw": "系統歸零",
-      "rowid": 337
+      "rowid": 339
     },
     {
       "key": "frontstage.user.changeRecordType.WalletAuditSystemReset",
       "en": "System zeroing",
       "zh-cn": "系统归零",
       "zh-tw": "系統歸零",
-      "rowid": 1503
+      "rowid": 1551
     }
   ],
   [
@@ -2340,14 +2347,14 @@
       "en": "Wallet audit artficial reset",
       "zh-cn": "人工归零",
       "zh-tw": "人工歸零",
-      "rowid": 338
+      "rowid": 340
     },
     {
       "key": "frontstage.user.changeRecordType.WalletAuditArtificialReset",
       "en": "Manual reset",
       "zh-cn": "人工归零",
       "zh-tw": "人工歸零",
-      "rowid": 1499
+      "rowid": 1547
     }
   ],
   [
@@ -2356,14 +2363,14 @@
       "en": "Alipay",
       "zh-cn": "支付宝",
       "zh-tw": "支付寶",
-      "rowid": 339
+      "rowid": 341
     },
     {
       "key": "frontstage.user.TppPaymentTypeEnum.Alipay",
       "en": "Alipay",
       "zh-cn": "支付宝",
       "zh-tw": "支付寶",
-      "rowid": 1420
+      "rowid": 1467
     }
   ],
   [
@@ -2372,14 +2379,14 @@
       "en": "WeChat Pay",
       "zh-cn": "微信支付",
       "zh-tw": "微信支付",
-      "rowid": 340
+      "rowid": 342
     },
     {
       "key": "frontstage.user.TppPaymentTypeEnum.WeChatPay",
       "en": "WeChat Pay",
       "zh-cn": "微信支付",
       "zh-tw": "微信支付",
-      "rowid": 1421
+      "rowid": 1468
     }
   ],
   [
@@ -2388,14 +2395,14 @@
       "en": "Jingdong Pay",
       "zh-cn": "京东支付",
       "zh-tw": "京東支付",
-      "rowid": 341
+      "rowid": 343
     },
     {
       "key": "frontstage.user.TppPaymentTypeEnum.JingdongQrCode",
       "en": "Jingdong Pay",
       "zh-cn": "京东支付",
       "zh-tw": "京東支付",
-      "rowid": 1422
+      "rowid": 1469
     }
   ],
   [
@@ -2404,14 +2411,14 @@
       "en": "UnionPay QrCode",
       "zh-cn": "银联扫码",
       "zh-tw": "銀聯掃碼",
-      "rowid": 342
+      "rowid": 344
     },
     {
       "key": "frontstage.user.TppPaymentTypeEnum.UnionPayQrCode",
       "en": "UnionPay QrCode",
       "zh-cn": "银联扫码",
       "zh-tw": "銀聯掃碼",
-      "rowid": 1423
+      "rowid": 1470
     }
   ],
   [
@@ -2420,14 +2427,14 @@
       "en": "Online Payment",
       "zh-cn": "線上支付",
       "zh-tw": "線上支付",
-      "rowid": 343
+      "rowid": 345
     },
     {
       "key": "frontstage.user.TppPaymentTypeEnum.OnlinePayment",
       "en": "Online Payment",
       "zh-cn": "線上支付",
       "zh-tw": "線上支付",
-      "rowid": 1424
+      "rowid": 1471
     }
   ],
   [
@@ -2436,14 +2443,30 @@
       "en": "Quick Pass",
       "zh-cn": "云闪付",
       "zh-tw": "雲閃付",
-      "rowid": 344
+      "rowid": 346
     },
     {
       "key": "frontstage.user.TppPaymentTypeEnum.UnionPay",
       "en": "Quick Pass",
       "zh-cn": "云闪付",
       "zh-tw": "雲閃付",
-      "rowid": 1425
+      "rowid": 1472
+    }
+  ],
+  [
+    {
+      "key": "backstage.deal.TppPaymentTypeEnum.BqPay",
+      "en": "",
+      "zh-cn": "",
+      "zh-tw": "BQPay",
+      "rowid": 348
+    },
+    {
+      "key": "frontstage.user.TppPaymentTypeEnum.BqPay",
+      "en": "",
+      "zh-cn": "",
+      "zh-tw": "BQPay",
+      "rowid": 1473
     }
   ],
   [
@@ -2452,14 +2475,14 @@
       "en": "Arrival time",
       "zh-cn": "到帐时间",
       "zh-tw": "到帳時間",
-      "rowid": 355
+      "rowid": 358
     },
     {
       "key": "frontstage.user.promotionRecord.column.CreatedTime",
       "en": "Arrival time",
       "zh-cn": "到帐时间",
       "zh-tw": "到帳時間",
-      "rowid": 1395
+      "rowid": 1436
     }
   ],
   [
@@ -2468,21 +2491,21 @@
       "en": "Amount of adding credit",
       "zh-cn": "充值金额",
       "zh-tw": "充值金額",
-      "rowid": 356
+      "rowid": 359
     },
     {
       "key": "frontstage.form.label.depositAmount",
       "en": "Recharge amount",
       "zh-cn": "充值金额",
       "zh-tw": "充值金額",
-      "rowid": 1148
+      "rowid": 1178
     },
     {
       "key": "frontstage.user.depositRecord.column.Amount",
       "en": "Amount of adding credit",
       "zh-cn": "充值金额",
       "zh-tw": "充值金額",
-      "rowid": 1368
+      "rowid": 1408
     }
   ],
   [
@@ -2491,14 +2514,14 @@
       "en": "Deposit amount",
       "zh-cn": "存入金额",
       "zh-tw": "存入金額",
-      "rowid": 362
+      "rowid": 365
     },
     {
       "key": "backstage.deposit.deposits",
       "en": "Deposits",
       "zh-cn": "存入金额",
       "zh-tw": "存入金額",
-      "rowid": 388
+      "rowid": 391
     }
   ],
   [
@@ -2507,14 +2530,14 @@
       "en": "Account Fronzen",
       "zh-cn": "帐号已冻结",
       "zh-tw": "帳號已凍結",
-      "rowid": 395
+      "rowid": 398
     },
     {
       "key": "backstage.system.loginMsg.accountFrozn",
       "en": "Account frozn",
       "zh-cn": "帐号已冻结",
       "zh-tw": "帳號已凍結",
-      "rowid": 942
+      "rowid": 948
     }
   ],
   [
@@ -2523,28 +2546,28 @@
       "en": "Verification Code Error",
       "zh-cn": "验证码错误",
       "zh-tw": "驗證碼錯誤",
-      "rowid": 415
+      "rowid": 418
     },
     {
       "key": "backstage.system.loginMsg.verifyError",
       "en": "Verify error",
       "zh-cn": "验证码错误",
       "zh-tw": "驗證碼錯誤",
-      "rowid": 940
+      "rowid": 946
     },
     {
       "key": "frontstage.api.code.300",
       "en": "verification code error",
       "zh-cn": "验证码错误",
       "zh-tw": "驗證碼錯誤",
-      "rowid": 1013
+      "rowid": 1033
     },
     {
       "key": "frontstage.api.code.VerificationCodeError",
       "en": "verification code error",
       "zh-cn": "验证码错误",
       "zh-tw": "驗證碼錯誤",
-      "rowid": 1017
+      "rowid": 1037
     }
   ],
   [
@@ -2553,14 +2576,14 @@
       "en": "province",
       "zh-cn": "省",
       "zh-tw": "省",
-      "rowid": 442
+      "rowid": 445
     },
     {
       "key": "frontstage.common.province",
       "en": "province",
       "zh-cn": "省",
       "zh-tw": "省",
-      "rowid": 1032
+      "rowid": 1052
     }
   ],
   [
@@ -2569,14 +2592,30 @@
       "en": "Single User",
       "zh-cn": "单一用戶",
       "zh-tw": "單一用戶",
-      "rowid": 472
+      "rowid": 475
     },
     {
       "key": "backstage.menu.DealRecordSingle",
       "en": "Single",
       "zh-cn": "单一用户",
       "zh-tw": "單一用戶",
-      "rowid": 575
+      "rowid": 580
+    }
+  ],
+  [
+    {
+      "key": "backstage.member.transferSubordinate",
+      "en": "",
+      "zh-cn": "转帐下级",
+      "zh-tw": "轉帳下級",
+      "rowid": 497
+    },
+    {
+      "key": "backstage.system.transferSubordinate",
+      "en": "",
+      "zh-cn": "转帐下级",
+      "zh-tw": "轉帳下級",
+      "rowid": 955
     }
   ],
   [
@@ -2585,14 +2624,14 @@
       "en": "Dashboard",
       "zh-cn": "仪表板",
       "zh-tw": "儀表板",
-      "rowid": 500
+      "rowid": 505
     },
     {
       "key": "backstage.menu.Dashboard",
       "en": "Dashboard",
       "zh-cn": "仪表板",
       "zh-tw": "儀表板",
-      "rowid": 514
+      "rowid": 519
     }
   ],
   [
@@ -2601,28 +2640,28 @@
       "en": "Home",
       "zh-cn": "首页",
       "zh-tw": "首頁",
-      "rowid": 502
+      "rowid": 507
     },
     {
       "key": "backstage.menu.Home",
       "en": "Home",
       "zh-cn": "首页",
       "zh-tw": "首頁",
-      "rowid": 515
+      "rowid": 520
     },
     {
       "key": "frontstage.common.HomePage",
       "en": "Home",
       "zh-cn": "首页",
       "zh-tw": "首頁",
-      "rowid": 1026
+      "rowid": 1046
     },
     {
       "key": "frontstage.menu.Home",
       "en": "home page",
       "zh-cn": "首页",
       "zh-tw": "首頁",
-      "rowid": 1176
+      "rowid": 1208
     }
   ],
   [
@@ -2631,14 +2670,14 @@
       "en": "Website management",
       "zh-cn": "网站管理",
       "zh-tw": "網站管理",
-      "rowid": 509
+      "rowid": 514
     },
     {
       "key": "backstage.menu.WebsiteManage",
       "en": "Website management",
       "zh-cn": "网站管理",
       "zh-tw": "網站管理",
-      "rowid": 517
+      "rowid": 522
     }
   ],
   [
@@ -2647,14 +2686,14 @@
       "en": "System Management",
       "zh-cn": "系统管理",
       "zh-tw": "系統管理",
-      "rowid": 510
+      "rowid": 515
     },
     {
       "key": "backstage.menu.SystemManage",
       "en": "system management",
       "zh-cn": "系统管理",
       "zh-tw": "系統管理",
-      "rowid": 513
+      "rowid": 518
     }
   ],
   [
@@ -2663,14 +2702,14 @@
       "en": "Manager account",
       "zh-cn": "管理者帐号",
       "zh-tw": "管理者帳號",
-      "rowid": 516
+      "rowid": 521
     },
     {
       "key": "backstage.menu.SystemAccount",
       "en": "System account",
       "zh-cn": "管理者帐号",
       "zh-tw": "管理者帳號",
-      "rowid": 640
+      "rowid": 645
     }
   ],
   [
@@ -2679,28 +2718,28 @@
       "en": "System settings",
       "zh-cn": "系统设置",
       "zh-tw": "系統設置",
-      "rowid": 518
+      "rowid": 523
     },
     {
       "key": "backstage.menu.ManagerSetting",
       "en": "System settings",
       "zh-cn": "系统设置",
       "zh-tw": "系統設置",
-      "rowid": 597
+      "rowid": 602
     },
     {
       "key": "backstage.menu.ManagerSettingAudit",
       "en": "System settings",
       "zh-cn": "系统设置",
       "zh-tw": "系統設置",
-      "rowid": 598
+      "rowid": 603
     },
     {
       "key": "backstage.menu.ProviderSystemConfig",
       "en": "System Settings",
       "zh-cn": "系统设置",
       "zh-tw": "系統設置",
-      "rowid": 630
+      "rowid": 635
     }
   ],
   [
@@ -2709,14 +2748,14 @@
       "en": "betting record",
       "zh-cn": "投注记录",
       "zh-tw": "投注記錄",
-      "rowid": 522
+      "rowid": 527
     },
     {
       "key": "frontstage.menu.UserBetRecord",
       "en": "betting record",
       "zh-cn": "投注记录",
       "zh-tw": "投注記錄",
-      "rowid": 1169
+      "rowid": 1201
     }
   ],
   [
@@ -2725,14 +2764,14 @@
       "en": "Role permission settings",
       "zh-cn": "角色权限设置",
       "zh-tw": "角色權限設置",
-      "rowid": 529
+      "rowid": 534
     },
     {
       "key": "backstage.menu.SystemRole",
       "en": "System role",
       "zh-cn": "角色权限设置",
       "zh-tw": "角色權限設置",
-      "rowid": 644
+      "rowid": 649
     }
   ],
   [
@@ -2741,14 +2780,14 @@
       "en": "Sign in",
       "zh-cn": "登入",
       "zh-tw": "登入",
-      "rowid": 530
+      "rowid": 535
     },
     {
       "key": "backstage.menu.Login",
       "en": "Sign in",
       "zh-cn": "登入",
       "zh-tw": "登入",
-      "rowid": 552
+      "rowid": 557
     }
   ],
   [
@@ -2757,14 +2796,14 @@
       "en": "Manager account editing",
       "zh-cn": "管理者帐号编辑",
       "zh-tw": "管理者帳號編輯",
-      "rowid": 537
+      "rowid": 542
     },
     {
       "key": "backstage.menu.SystemAccountEditor",
       "en": "System account editor",
       "zh-cn": "管理者帐号编辑",
       "zh-tw": "管理者帳號編輯",
-      "rowid": 643
+      "rowid": 648
     }
   ],
   [
@@ -2773,14 +2812,14 @@
       "en": "Role editing",
       "zh-cn": "角色编辑",
       "zh-tw": "角色編輯",
-      "rowid": 539
+      "rowid": 544
     },
     {
       "key": "backstage.menu.SystemRoleEditor",
       "en": "System role editor",
       "zh-cn": "角色编辑",
       "zh-tw": "角色編輯",
-      "rowid": 647
+      "rowid": 652
     }
   ],
   [
@@ -2789,14 +2828,14 @@
       "en": "Role added",
       "zh-cn": "角色新增",
       "zh-tw": "角色新增",
-      "rowid": 540
+      "rowid": 545
     },
     {
       "key": "backstage.menu.SystemRoleAdder",
       "en": "System role adder",
       "zh-cn": "角色新增",
       "zh-tw": "角色新增",
-      "rowid": 646
+      "rowid": 651
     }
   ],
   [
@@ -2805,14 +2844,14 @@
       "en": "Role list",
       "zh-cn": "角色权限设置列表",
       "zh-tw": "角色權限設置列表",
-      "rowid": 544
+      "rowid": 549
     },
     {
       "key": "backstage.menu.SystemRoleTable",
       "en": "System role table",
       "zh-cn": "角色权限设置列表",
       "zh-tw": "角色權限設置列表",
-      "rowid": 645
+      "rowid": 650
     }
   ],
   [
@@ -2821,14 +2860,14 @@
       "en": "Manager account list",
       "zh-cn": "管理者帐号列表",
       "zh-tw": "管理者帳號列表",
-      "rowid": 545
+      "rowid": 550
     },
     {
       "key": "backstage.menu.SystemAccountTable",
       "en": "System account table",
       "zh-cn": "管理者帐号列表",
       "zh-tw": "管理者帳號列表",
-      "rowid": 641
+      "rowid": 646
     }
   ],
   [
@@ -2837,14 +2876,14 @@
       "en": "Promotions",
       "zh-cn": "优惠活动",
       "zh-tw": "優惠活動",
-      "rowid": 553
+      "rowid": 558
     },
     {
       "key": "frontstage.menu.Promotions",
       "en": "Promotions",
       "zh-cn": "优惠活动",
       "zh-tw": "優惠活動",
-      "rowid": 1177
+      "rowid": 1209
     }
   ],
   [
@@ -2853,14 +2892,14 @@
       "en": "Fund Deposit",
       "zh-cn": "人工存入",
       "zh-tw": "人工存入",
-      "rowid": 570
+      "rowid": 575
     },
     {
       "key": "frontstage.user.changeRecordType.ArtificialDeposit",
       "en": "Manual deposit",
       "zh-cn": "人工存入",
       "zh-tw": "人工存入",
-      "rowid": 1511
+      "rowid": 1559
     }
   ],
   [
@@ -2869,14 +2908,14 @@
       "en": "FundWithdrawal",
       "zh-cn": "人工提出",
       "zh-tw": "人工提出",
-      "rowid": 571
+      "rowid": 576
     },
     {
       "key": "frontstage.user.changeRecordType.ArtificialWithdrawal",
       "en": "Put forward manually",
       "zh-cn": "人工提出",
       "zh-tw": "人工提出",
-      "rowid": 1521
+      "rowid": 1569
     }
   ],
   [
@@ -2885,14 +2924,14 @@
       "en": "Fund Batch Deposit",
       "zh-cn": "批次存入",
       "zh-tw": "批次存入",
-      "rowid": 572
+      "rowid": 577
     },
     {
       "key": "frontstage.user.changeRecordType.BatchDeposit",
       "en": "Batch deposit",
       "zh-cn": "批次存入",
       "zh-tw": "批次存入",
-      "rowid": 1524
+      "rowid": 1572
     }
   ],
   [
@@ -2901,14 +2940,14 @@
       "en": "Login Record",
       "zh-cn": "登入记录",
       "zh-tw": "登入記錄",
-      "rowid": 600
+      "rowid": 605
     },
     {
       "key": "backstage.menu.ProviderLoginRecord",
       "en": "Login record",
       "zh-cn": "登入记录",
       "zh-tw": "登入記錄",
-      "rowid": 639
+      "rowid": 644
     }
   ],
   [
@@ -2917,14 +2956,21 @@
       "en": "Operation record",
       "zh-cn": "操作记录",
       "zh-tw": "操作記錄",
-      "rowid": 604
+      "rowid": 609
     },
     {
       "key": "backstage.menu.OperationRecordAll",
       "en": "Operation record",
       "zh-cn": "操作记录",
       "zh-tw": "操作記錄",
-      "rowid": 605
+      "rowid": 610
+    },
+    {
+      "key": "backstage.menu.ProviderOperateRecord",
+      "en": "Operate record",
+      "zh-cn": "操作记录",
+      "zh-tw": "操作記錄",
+      "rowid": 659
     }
   ],
   [
@@ -2933,14 +2979,14 @@
       "en": "Inquire",
       "zh-cn": "查询",
       "zh-tw": "查詢",
-      "rowid": 670
+      "rowid": 676
     },
     {
       "key": "frontstage.form.button.inquire",
       "en": "Inquire",
       "zh-cn": "查询",
       "zh-tw": "查詢",
-      "rowid": 1157
+      "rowid": 1188
     }
   ],
   [
@@ -2949,35 +2995,35 @@
       "en": "Enable",
       "zh-cn": "启用",
       "zh-tw": "啟用",
-      "rowid": 696
+      "rowid": 702
     },
     {
       "key": "backstage.state.memberAccount.Enable",
       "en": "Enable",
       "zh-cn": "启用",
       "zh-tw": "啟用",
-      "rowid": 703
+      "rowid": 709
     },
     {
       "key": "backstage.state.MessageMarquee.1",
       "en": "Enable",
       "zh-cn": "启用",
       "zh-tw": "啟用",
-      "rowid": 707
+      "rowid": 713
     },
     {
       "key": "backstage.state.MessageMarquee.Enable",
       "en": "Enable",
       "zh-cn": "启用",
       "zh-tw": "啟用",
-      "rowid": 710
+      "rowid": 716
     },
     {
       "key": "backstage.state.Enable",
       "en": "Enable",
       "zh-cn": "启用",
       "zh-tw": "啟用",
-      "rowid": 716
+      "rowid": 722
     }
   ],
   [
@@ -2986,35 +3032,35 @@
       "en": "Disable",
       "zh-cn": "停用",
       "zh-tw": "停用",
-      "rowid": 699
+      "rowid": 705
     },
     {
       "key": "backstage.state.memberAccount.Disable",
       "en": "Disable",
       "zh-cn": "停用",
       "zh-tw": "停用",
-      "rowid": 705
+      "rowid": 711
     },
     {
       "key": "backstage.state.MessageMarquee.2",
       "en": "Disable",
       "zh-cn": "停用",
       "zh-tw": "停用",
-      "rowid": 708
+      "rowid": 714
     },
     {
       "key": "backstage.state.MessageMarquee.Disable",
       "en": "Disable",
       "zh-cn": "停用",
       "zh-tw": "停用",
-      "rowid": 711
+      "rowid": 717
     },
     {
       "key": "backstage.state.Disable",
       "en": "Disable",
       "zh-cn": "停用",
       "zh-tw": "停用",
-      "rowid": 715
+      "rowid": 721
     }
   ],
   [
@@ -3023,14 +3069,14 @@
       "en": "actived",
       "zh-cn": "活动中",
       "zh-tw": "活動中",
-      "rowid": 712
+      "rowid": 718
     },
     {
       "key": "backstage.system.activing",
       "en": "activing",
       "zh-cn": "活动中",
       "zh-tw": "活動中",
-      "rowid": 829
+      "rowid": 835
     }
   ],
   [
@@ -3039,35 +3085,35 @@
       "en": "Pending",
       "zh-cn": "待审核",
       "zh-tw": "待審核",
-      "rowid": 718
+      "rowid": 724
     },
     {
       "key": "backstage.state.DepositTransStateEnum.Pending",
       "en": "Pending",
       "zh-cn": "待审核",
       "zh-tw": "待審核",
-      "rowid": 722
+      "rowid": 728
     },
     {
       "key": "backstage.state.WithdrawalStateEnum.1",
       "en": "Pending",
       "zh-cn": "待审核",
       "zh-tw": "待審核",
-      "rowid": 726
+      "rowid": 732
     },
     {
       "key": "backstage.state.WithdrawalStateEnum.Pending",
       "en": "Pending",
       "zh-cn": "待审核",
       "zh-tw": "待審核",
-      "rowid": 730
+      "rowid": 736
     },
     {
       "key": "backstage.state.WithdrawlStateEnum.Pending",
       "en": "Pending",
       "zh-cn": "待审核",
       "zh-tw": "待審核",
-      "rowid": 733
+      "rowid": 739
     }
   ],
   [
@@ -3076,28 +3122,28 @@
       "en": "Successful",
       "zh-cn": "充值成功",
       "zh-tw": "充值成功",
-      "rowid": 719
+      "rowid": 725
     },
     {
       "key": "backstage.state.DepositTransStateEnum.Success",
       "en": "Successful",
       "zh-cn": "充值成功",
       "zh-tw": "充值成功",
-      "rowid": 723
+      "rowid": 729
     },
     {
       "key": "frontstage.state.DepositStateTypeEnum.2",
       "en": "Add credit successfully.",
       "zh-cn": "充值成功",
       "zh-tw": "充值成功",
-      "rowid": 1258
+      "rowid": 1298
     },
     {
       "key": "frontstage.state.DepositStateTypeEnum.Success",
       "en": "Add credit successfully.",
       "zh-cn": "充值成功",
       "zh-tw": "充值成功",
-      "rowid": 1262
+      "rowid": 1302
     }
   ],
   [
@@ -3106,14 +3152,14 @@
       "en": "Failed",
       "zh-cn": "充值失败",
       "zh-tw": "充值失敗",
-      "rowid": 720
+      "rowid": 726
     },
     {
       "key": "backstage.state.DepositTransStateEnum.Fail",
       "en": "Failed",
       "zh-cn": "充值失败",
       "zh-tw": "充值失敗",
-      "rowid": 721
+      "rowid": 727
     }
   ],
   [
@@ -3122,14 +3168,14 @@
       "en": "Successful",
       "zh-cn": "出款成功",
       "zh-tw": "出款成功",
-      "rowid": 727
+      "rowid": 733
     },
     {
       "key": "backstage.state.WithdrawalStateEnum.Success",
       "en": "Successful",
       "zh-cn": "出款成功",
       "zh-tw": "出款成功",
-      "rowid": 731
+      "rowid": 737
     }
   ],
   [
@@ -3138,21 +3184,21 @@
       "en": "Not over",
       "zh-cn": "未派彩",
       "zh-tw": "未派彩",
-      "rowid": 738
+      "rowid": 744
     },
     {
       "key": "frontstage.state.BetOrderState.1",
       "en": "No payout",
       "zh-cn": "未派彩",
       "zh-tw": "未派彩",
-      "rowid": 1300
+      "rowid": 1340
     },
     {
       "key": "frontstage.state.BetOrderState.NotFinished",
       "en": "No payout",
       "zh-cn": "未派彩",
       "zh-tw": "未派彩",
-      "rowid": 1308
+      "rowid": 1348
     }
   ],
   [
@@ -3161,21 +3207,21 @@
       "en": "Over",
       "zh-cn": "已派彩",
       "zh-tw": "已派彩",
-      "rowid": 739
+      "rowid": 745
     },
     {
       "key": "frontstage.state.BetOrderState.2",
       "en": "Paid",
       "zh-cn": "已派彩",
       "zh-tw": "已派彩",
-      "rowid": 1301
+      "rowid": 1341
     },
     {
       "key": "frontstage.state.BetOrderState.Finished",
       "en": "Paid",
       "zh-cn": "已派彩",
       "zh-tw": "已派彩",
-      "rowid": 1306
+      "rowid": 1346
     }
   ],
   [
@@ -3184,21 +3230,21 @@
       "en": "Reversed",
       "zh-cn": "反向单",
       "zh-tw": "反向單",
-      "rowid": 740
+      "rowid": 746
     },
     {
       "key": "frontstage.state.BetOrderState.3",
       "en": "Reverse order",
       "zh-cn": "反向单",
       "zh-tw": "反向單",
-      "rowid": 1302
+      "rowid": 1342
     },
     {
       "key": "frontstage.state.BetOrderState.Reversed",
       "en": "Reverse order",
       "zh-cn": "反向单",
       "zh-tw": "反向單",
-      "rowid": 1309
+      "rowid": 1349
     }
   ],
   [
@@ -3207,21 +3253,21 @@
       "en": "Modified",
       "zh-cn": "已修改",
       "zh-tw": "已修改",
-      "rowid": 741
+      "rowid": 747
     },
     {
       "key": "frontstage.state.BetOrderState.4",
       "en": "already edited",
       "zh-cn": "已修改",
       "zh-tw": "已修改",
-      "rowid": 1303
+      "rowid": 1343
     },
     {
       "key": "frontstage.state.BetOrderState.Modified",
       "en": "already edited",
       "zh-cn": "已修改",
       "zh-tw": "已修改",
-      "rowid": 1307
+      "rowid": 1347
     }
   ],
   [
@@ -3230,21 +3276,21 @@
       "en": "Canceled",
       "zh-cn": "已取消",
       "zh-tw": "已取消",
-      "rowid": 742
+      "rowid": 748
     },
     {
       "key": "frontstage.state.BetOrderState.5",
       "en": "Cancelled",
       "zh-cn": "已取消",
       "zh-tw": "已取消",
-      "rowid": 1304
+      "rowid": 1344
     },
     {
       "key": "frontstage.state.BetOrderState.Canceled",
       "en": "Cancelled",
       "zh-cn": "已取消",
       "zh-tw": "已取消",
-      "rowid": 1305
+      "rowid": 1345
     }
   ],
   [
@@ -3253,14 +3299,14 @@
       "en": "Settlement interval",
       "zh-cn": "结算周期",
       "zh-tw": "結算週期",
-      "rowid": 763
+      "rowid": 769
     },
     {
       "key": "frontstage.agent.SettlementCycle",
       "en": "Billing cycle",
       "zh-cn": "结算周期",
       "zh-tw": "結算週期",
-      "rowid": 994
+      "rowid": 996
     }
   ],
   [
@@ -3269,21 +3315,21 @@
       "en": "Lottery payout amount",
       "zh-cn": "派彩金额",
       "zh-tw": "派彩金額",
-      "rowid": 770
+      "rowid": 776
+    },
+    {
+      "key": "frontstage.agent.TeamPayoutAmount",
+      "en": "",
+      "zh-cn": "派彩金额",
+      "zh-tw": "派彩金額",
+      "rowid": 1022
     },
     {
       "key": "frontstage.user.betRecord.column.PayoutAmount",
       "en": "Payout amount",
       "zh-cn": "派彩金额",
       "zh-tw": "派彩金額",
-      "rowid": 1392
-    },
-    {
-      "key": "frontstage.agent.TeamPayoutAmount",
-      "zh-tw": "派彩金額",
-      "en": "",
-      "zh-cn": "",
-      "rowid": 1556
+      "rowid": 1432
     }
   ],
   [
@@ -3292,14 +3338,14 @@
       "en": "Game platform",
       "zh-cn": "游戏平台",
       "zh-tw": "遊戲平台",
-      "rowid": 775
+      "rowid": 781
     },
     {
       "key": "frontstage.user.gamePlatform",
       "en": "gaming platform",
       "zh-cn": "游戏平台",
       "zh-tw": "遊戲平台",
-      "rowid": 1545
+      "rowid": 1596
     }
   ],
   [
@@ -3308,14 +3354,14 @@
       "en": "state",
       "zh-cn": "状态",
       "zh-tw": "狀態",
-      "rowid": 796
+      "rowid": 802
     },
     {
       "key": "frontstage.common.state",
       "en": "status",
       "zh-cn": "状态",
       "zh-tw": "狀態",
-      "rowid": 1042
+      "rowid": 1062
     }
   ],
   [
@@ -3324,21 +3370,21 @@
       "en": "Bet amount",
       "zh-cn": "投注金额",
       "zh-tw": "投注金額",
-      "rowid": 801
+      "rowid": 807
     },
     {
       "key": "frontstage.user.betRecord.column.BetAmount",
       "en": "Bet amount",
       "zh-cn": "投注金额",
       "zh-tw": "投注金額",
-      "rowid": 1387
+      "rowid": 1427
     },
     {
       "key": "frontstage.user.DailyRewordRecord.column.Amount",
       "en": "Bet amount",
       "zh-cn": "投注金额",
       "zh-tw": "投注金額",
-      "rowid": 1411
+      "rowid": 1458
     }
   ],
   [
@@ -3347,14 +3393,14 @@
       "en": "Permanent activities",
       "zh-cn": "常驻活动",
       "zh-tw": "常駐活動",
-      "rowid": 826
+      "rowid": 832
     },
     {
       "key": "frontstage.common.promotions.permanentEvent",
       "en": "permanent activities",
       "zh-cn": "常驻活动",
       "zh-tw": "常駐活動",
-      "rowid": 1048
+      "rowid": 1068
     }
   ],
   [
@@ -3363,14 +3409,14 @@
       "en": "select all",
       "zh-cn": "全选",
       "zh-tw": "全選",
-      "rowid": 864
+      "rowid": 870
     },
     {
       "key": "frontstage.common.selectAll",
       "en": "select all",
       "zh-cn": "全选",
       "zh-tw": "全選",
-      "rowid": 1081
+      "rowid": 1101
     }
   ],
   [
@@ -3379,21 +3425,21 @@
       "en": "Registered",
       "zh-cn": "注册人数",
       "zh-tw": "註冊人數",
-      "rowid": 890
+      "rowid": 896
     },
     {
       "key": "frontstage.agent.column.RegisterCount",
       "en": "Registered number",
       "zh-cn": "注册人数",
       "zh-tw": "註冊人數",
-      "rowid": 980
+      "rowid": 982
     },
     {
       "key": "frontstage.agent.dashboard.TeamRegistMemberCount",
-      "zh-tw": "註冊人數",
       "en": "",
-      "zh-cn": "",
-      "rowid": 1569
+      "zh-cn": "注册人数",
+      "zh-tw": "註冊人數",
+      "rowid": 1005
     }
   ],
   [
@@ -3402,14 +3448,14 @@
       "en": "refresh",
       "zh-cn": "刷新",
       "zh-tw": "刷新",
-      "rowid": 894
+      "rowid": 900
     },
     {
       "key": "frontstage.form.button.refresh",
       "en": "Refresh",
       "zh-cn": "刷新",
       "zh-tw": "刷新",
-      "rowid": 1160
+      "rowid": 1191
     }
   ],
   [
@@ -3418,14 +3464,14 @@
       "en": "Success",
       "zh-cn": "转帐成功",
       "zh-tw": "轉帳成功",
-      "rowid": 936
+      "rowid": 942
     },
     {
       "key": "frontstage.user.transfer.msg.successfulTransfer",
       "en": "Successful transfer",
       "zh-cn": "转帐成功",
       "zh-tw": "轉帳成功",
-      "rowid": 1428
+      "rowid": 1476
     }
   ],
   [
@@ -3434,28 +3480,28 @@
       "en": "Fail",
       "zh-cn": "转帐失败",
       "zh-tw": "轉帳失敗",
-      "rowid": 937
+      "rowid": 943
     },
     {
       "key": "frontstage.state.WalletTransferStateTypeEnum.3",
       "en": "Transfer failed",
       "zh-cn": "转帐失败",
       "zh-tw": "轉帳失敗",
-      "rowid": 1277
+      "rowid": 1317
     },
     {
       "key": "frontstage.state.WalletTransferStateTypeEnum.Canceled",
       "en": "Transfer failed",
       "zh-cn": "转帐失败",
       "zh-tw": "轉帳失敗",
-      "rowid": 1278
+      "rowid": 1318
     },
     {
       "key": "frontstage.user.transfer.msg.transferFailed",
       "en": "Transfer failed",
       "zh-cn": "转帐失败",
       "zh-tw": "轉帳失敗",
-      "rowid": 1429
+      "rowid": 1477
     }
   ],
   [
@@ -3464,14 +3510,14 @@
       "en": "the bank withdrawal slip number",
       "zh-cn": "提款单号",
       "zh-tw": "提款單號",
-      "rowid": 952
+      "rowid": 959
     },
     {
       "key": "frontstage.user.withdrawalRecord.column.TransNumber",
       "en": "the bank withdrawal slip number",
       "zh-cn": "提款单号",
       "zh-tw": "提款單號",
-      "rowid": 1382
+      "rowid": 1422
     }
   ],
   [
@@ -3480,14 +3526,14 @@
       "en": "withdrawal Amount",
       "zh-cn": "提款金额",
       "zh-tw": "提款金額",
-      "rowid": 954
+      "rowid": 961
     },
     {
       "key": "frontstage.user.withdrawalRecord.column.Amount",
       "en": "Withdrawal amount",
       "zh-cn": "提款金额",
       "zh-tw": "提款金額",
-      "rowid": 1379
+      "rowid": 1419
     }
   ],
   [
@@ -3496,14 +3542,14 @@
       "en": "total withdrawl ",
       "zh-cn": "提款总额",
       "zh-tw": "提款總額",
-      "rowid": 960
+      "rowid": 967
     },
     {
       "key": "backstage.withdrawl.allAmount",
       "en": "total withdrawl ",
       "zh-cn": "提款总额",
       "zh-tw": "提款總額",
-      "rowid": 961
+      "rowid": 968
     }
   ],
   [
@@ -3512,60 +3558,76 @@
       "en": "Fee",
       "zh-cn": "手续费",
       "zh-tw": "手續費",
-      "rowid": 963
+      "rowid": 970
     },
     {
       "key": "frontstage.common.HandlingFee",
       "en": "Handling fee",
       "zh-cn": "手续费",
       "zh-tw": "手續費",
-      "rowid": 1089
+      "rowid": 1109
     },
     {
       "key": "frontstage.user.depositRecord.column.Fee",
       "en": "Fee",
       "zh-cn": "手续费",
       "zh-tw": "手續費",
-      "rowid": 1373
+      "rowid": 1413
     },
     {
       "key": "frontstage.user.withdrawalRecord.column.Fee",
       "en": "Fee",
       "zh-cn": "手续费",
       "zh-tw": "手續費",
-      "rowid": 1384
+      "rowid": 1424
     }
   ],
   [
     {
-      "key": "backstage.member.transferSubordinate",
-      "zh-cn": "转帐下级",
-      "zh-tw": "轉帳下級",
+      "key": "frontstage.agent.dashboard.TeamValidBetAmount",
       "en": "",
-      "rowid": 965
+      "zh-cn": "团队投注",
+      "zh-tw": "團隊投注",
+      "rowid": 1006
     },
     {
-      "key": "backstage.system.transferSubordinate",
-      "zh-cn": "转帐下级",
-      "zh-tw": "轉帳下級",
-      "en": "",
-      "rowid": 966
+      "key": "frontstage.menu.AgentBetRecord",
+      "en": "Team betting",
+      "zh-cn": "团队投注",
+      "zh-tw": "團隊投注",
+      "rowid": 1233
     }
   ],
   [
     {
-      "key": "backstage.deal.TppPaymentTypeEnum.BqPay",
-      "zh-tw": "BQPay",
+      "key": "frontstage.agent.dashboard.TeamWithdrawalAmount",
       "en": "",
-      "zh-cn": "",
-      "rowid": 967
+      "zh-cn": "团队提款",
+      "zh-tw": "團隊提款",
+      "rowid": 1007
     },
     {
-      "key": "frontstage.user.TppPaymentTypeEnum.BqPay",
-      "zh-tw": "BQPay",
+      "key": "frontstage.menu.AgentTxWithdrawalRecord",
+      "en": "Team withdrawal",
+      "zh-cn": "团队提款",
+      "zh-tw": "團隊提款",
+      "rowid": 1238
+    }
+  ],
+  [
+    {
+      "key": "frontstage.agent.TeamStrategyRebateAmount",
       "en": "",
-      "zh-cn": "",
-      "rowid": 1597
+      "zh-cn": "返水金额",
+      "zh-tw": "返水金額",
+      "rowid": 1023
+    },
+    {
+      "key": "frontstage.user.DailyRewordRecord.column.RewardAmount",
+      "en": "Rebate amount",
+      "zh-cn": "返水金额",
+      "zh-tw": "返水金額",
+      "rowid": 1460
     }
   ],
   [
@@ -3574,14 +3636,14 @@
       "en": "This account already exists",
       "zh-cn": "会员帐号存在",
       "zh-tw": "會員帳號存在",
-      "rowid": 1007
+      "rowid": 1027
     },
     {
       "key": "frontstage.api.code.MemberAccountExist",
       "en": "This account already exists",
       "zh-cn": "会员帐号存在",
       "zh-tw": "會員帳號存在",
-      "rowid": 1015
+      "rowid": 1035
     }
   ],
   [
@@ -3590,14 +3652,14 @@
       "en": "This account doesn't exist",
       "zh-cn": "会员帐号不存在",
       "zh-tw": "會員帳號不存在",
-      "rowid": 1008
+      "rowid": 1028
     },
     {
       "key": "frontstage.api.code.MemberAccountNotExist",
       "en": "This account doesn't exist",
       "zh-cn": "会员帐号不存在",
       "zh-tw": "會員帳號不存在",
-      "rowid": 1020
+      "rowid": 1040
     }
   ],
   [
@@ -3606,14 +3668,14 @@
       "en": "This account is already logged in",
       "zh-cn": "会员帐号重复登入",
       "zh-tw": "會員帳號重複登入",
-      "rowid": 1009
+      "rowid": 1029
     },
     {
       "key": "frontstage.api.code.MemberAccountLoginRepeatedly",
       "en": "This account is already logged in",
       "zh-cn": "会员帐号重复登入",
       "zh-tw": "會員帳號重複登入",
-      "rowid": 1016
+      "rowid": 1036
     }
   ],
   [
@@ -3622,14 +3684,14 @@
       "en": "This account has been deactivated",
       "zh-cn": "会员帐号冻结/停用",
       "zh-tw": "會員帳號凍結/停用",
-      "rowid": 1010
+      "rowid": 1030
     },
     {
       "key": "frontstage.api.code.MemberAccountFreezeOrDisable",
       "en": "This account has been deactivated",
       "zh-cn": "会员帐号冻结/停用",
       "zh-tw": "會員帳號凍結/停用",
-      "rowid": 1014
+      "rowid": 1034
     }
   ],
   [
@@ -3638,14 +3700,14 @@
       "en": "Member login IP has been blocked / disabled",
       "zh-cn": "会员登入IP已被阻挡/停用",
       "zh-tw": "會員登入IP已被阻擋/停用",
-      "rowid": 1011
+      "rowid": 1031
     },
     {
       "key": "frontstage.api.code.MemberLoginIpBlocked",
       "en": "Member login IP has been blocked / disabled",
       "zh-cn": "会员登入IP已被阻挡/停用",
       "zh-tw": "會員登入IP已被阻擋/停用",
-      "rowid": 1018
+      "rowid": 1038
     }
   ],
   [
@@ -3654,14 +3716,14 @@
       "en": "All games",
       "zh-cn": "全部游戏",
       "zh-tw": "全部遊戲",
-      "rowid": 1045
+      "rowid": 1065
     },
     {
       "key": "frontstage.common.allGame",
       "en": "All games",
       "zh-cn": "全部游戏",
       "zh-tw": "全部遊戲",
-      "rowid": 1078
+      "rowid": 1098
     }
   ],
   [
@@ -3670,14 +3732,62 @@
       "en": "QQ number",
       "zh-cn": "QQ号码",
       "zh-tw": "QQ號碼",
-      "rowid": 1053
+      "rowid": 1073
     },
     {
       "key": "frontstage.user.QQcode",
       "en": "QQ number",
       "zh-cn": "QQ号码",
       "zh-tw": "QQ號碼",
-      "rowid": 1452
+      "rowid": 1500
+    }
+  ],
+  [
+    {
+      "key": "frontstage.common.langs.en",
+      "en": "English",
+      "zh-cn": "English",
+      "zh-tw": "English",
+      "rowid": 1090
+    },
+    {
+      "key": "langs.common.langs.en",
+      "en": "English",
+      "zh-cn": "English",
+      "zh-tw": "English",
+      "rowid": 1606
+    }
+  ],
+  [
+    {
+      "key": "frontstage.common.langs.zh-cn",
+      "en": "简体中文",
+      "zh-cn": "简体中文",
+      "zh-tw": "简体中文",
+      "rowid": 1091
+    },
+    {
+      "key": "langs.common.langs.zh-cn",
+      "en": "简体中文",
+      "zh-cn": "简体中文",
+      "zh-tw": "简体中文",
+      "rowid": 1607
+    }
+  ],
+  [
+    {
+      "key": "frontstage.common.langs.th",
+      "en": "Thai",
+      "zh-cn": "Thai",
+      "zh-tw": "Thai",
+      "rowid": 1093
+    },
+    {
+      "key": "langs.common.langs.th",
+      "en": "Thai",
+      "zh-cn": "泰文",
+      "zh-tw": "Thai",
+      "rowid": 1609
     }
   ],
   [
@@ -3686,14 +3796,14 @@
       "en": "Sign up",
       "zh-cn": "注册",
       "zh-tw": "註冊",
-      "rowid": 1074
+      "rowid": 1094
     },
     {
       "key": "frontstage.common.Signin",
       "en": "Sign up",
       "zh-cn": "注册",
       "zh-tw": "註冊",
-      "rowid": 1076
+      "rowid": 1096
     }
   ],
   [
@@ -3702,14 +3812,14 @@
       "en": "Fill in the amount",
       "zh-cn": "填单金额",
       "zh-tw": "填單金額",
-      "rowid": 1088
+      "rowid": 1108
     },
     {
       "key": "frontstage.user.withdrawalRecord.column.WithdrawalAmount",
       "en": "Apply amount",
       "zh-cn": "填单金额",
       "zh-tw": "填單金額",
-      "rowid": 1385
+      "rowid": 1425
     }
   ],
   [
@@ -3718,21 +3828,44 @@
       "en": "Actual amount",
       "zh-cn": "实际金额",
       "zh-tw": "實際金額",
-      "rowid": 1090
+      "rowid": 1110
     },
     {
       "key": "frontstage.user.withdrawalRecord.column.Subtotal",
       "en": "Actual amount",
       "zh-cn": "实际金额",
       "zh-tw": "實際金額",
-      "rowid": 1383
+      "rowid": 1423
     },
     {
       "key": "frontstage.user.withdrawalRecord.column.ActualWithdrawalAmount",
       "en": "Actual amount",
       "zh-cn": "实际金额",
       "zh-tw": "實際金額",
-      "rowid": 1386
+      "rowid": 1426
+    }
+  ],
+  [
+    {
+      "key": "frontstage.common.SerialNumber",
+      "en": "",
+      "zh-cn": "单号",
+      "zh-tw": "單號",
+      "rowid": 1123
+    },
+    {
+      "key": "frontstage.user.promotionRecord.column.TransNumber",
+      "en": "Single number",
+      "zh-cn": "单号",
+      "zh-tw": "單號",
+      "rowid": 1437
+    },
+    {
+      "key": "frontstage.user.changeRecord.column.TransNumber",
+      "en": "No.",
+      "zh-cn": "单号",
+      "zh-tw": "單號",
+      "rowid": 1515
     }
   ],
   [
@@ -3741,14 +3874,30 @@
       "en": "change nickname",
       "zh-cn": "修改昵称",
       "zh-tw": "修改暱稱",
-      "rowid": 1118
+      "rowid": 1148
     },
     {
       "key": "frontstage.form.placeholder.nickname",
       "en": "change nickname",
       "zh-cn": "修改昵称",
       "zh-tw": "修改暱稱",
-      "rowid": 1130
+      "rowid": 1160
+    }
+  ],
+  [
+    {
+      "key": "frontstage.form.placeholder.PlzSelectBank",
+      "en": "Choose bank",
+      "zh-cn": "选择银行",
+      "zh-tw": "銀行名稱",
+      "rowid": 1151
+    },
+    {
+      "key": "frontstage.common.bankName",
+      "zh-tw": "銀行名稱",
+      "en": "",
+      "zh-cn": "",
+      "rowid": 1605
     }
   ],
   [
@@ -3757,21 +3906,44 @@
       "en": "Transfer amount",
       "zh-cn": "转帐金额",
       "zh-tw": "轉帳金額",
-      "rowid": 1154
+      "rowid": 1184
     },
     {
       "key": "frontstage.user.transferRecord.column.Amount",
       "en": "Transfer amount",
       "zh-cn": "转帐金额",
       "zh-tw": "轉帳金額",
-      "rowid": 1374
+      "rowid": 1414
     },
     {
       "key": "frontstage.user.transfer.transAmount",
       "en": "Transfer amount",
       "zh-cn": "转帐金额",
       "zh-tw": "轉帳金額",
-      "rowid": 1431
+      "rowid": 1479
+    }
+  ],
+  [
+    {
+      "key": "frontstage.form.label.fundsPassword",
+      "en": "",
+      "zh-cn": "资金密码",
+      "zh-tw": "資金密碼",
+      "rowid": 1185
+    },
+    {
+      "key": "frontstage.user.securitySetting.FundsPassword.label",
+      "en": "Fund password",
+      "zh-cn": "资金密码",
+      "zh-tw": "資金密碼",
+      "rowid": 1450
+    },
+    {
+      "key": "frontstage.user.fundsPassword",
+      "en": "Fund password",
+      "zh-cn": "资金密码",
+      "zh-tw": "資金密碼",
+      "rowid": 1490
     }
   ],
   [
@@ -3780,14 +3952,14 @@
       "en": "Transfer",
       "zh-cn": "转帐",
       "zh-tw": "轉帳",
-      "rowid": 1164
+      "rowid": 1195
     },
     {
       "key": "frontstage.menu.UserTransfer",
       "en": "Transfer accounts",
-      "zh-cn": "转账",
+      "zh-cn": "转帐",
       "zh-tw": "轉帳",
-      "rowid": 1173
+      "rowid": 1205
     }
   ],
   [
@@ -3796,14 +3968,14 @@
       "en": "Withdrawal",
       "zh-cn": "提款",
       "zh-tw": "提款",
-      "rowid": 1165
+      "rowid": 1196
     },
     {
       "key": "frontstage.menu.UserWithdrawal",
       "en": "drawing",
       "zh-cn": "提款",
       "zh-tw": "提款",
-      "rowid": 1174
+      "rowid": 1206
     }
   ],
   [
@@ -3812,46 +3984,14 @@
       "en": "Transaction record",
       "zh-cn": "交易纪录",
       "zh-tw": "交易紀錄",
-      "rowid": 1181
+      "rowid": 1213
     },
     {
       "key": "frontstage.menu.AgentTxRecord",
       "en": "Tx record",
       "zh-cn": "交易纪录",
       "zh-tw": "交易紀錄",
-      "rowid": 1204
-    }
-  ],
-  [
-    {
-      "key": "frontstage.menu.AgentBetRecord",
-      "en": "Team betting",
-      "zh-cn": "团队投注",
-      "zh-tw": "團隊投注",
-      "rowid": 1201
-    },
-    {
-      "key": "frontstage.agent.dashboard.TeamValidBetAmount",
-      "zh-tw": "團隊投注",
-      "en": "",
-      "zh-cn": "",
-      "rowid": 1567
-    }
-  ],
-  [
-    {
-      "key": "frontstage.menu.AgentTxWithdrawalRecord",
-      "en": "Team withdrawal",
-      "zh-cn": "团队提款",
-      "zh-tw": "團隊提款",
-      "rowid": 1206
-    },
-    {
-      "key": "frontstage.agent.dashboard.TeamWithdrawalAmount",
-      "zh-tw": "團隊提款",
-      "en": "",
-      "zh-cn": "",
-      "rowid": 1566
+      "rowid": 1236
     }
   ],
   [
@@ -3860,14 +4000,14 @@
       "en": "Unable to deposit at this time, please try again in {0} minutes",
       "zh-cn": "目前无法入款，请 {0} 分钟后再次尝试",
       "zh-tw": "目前無法入款，請 {0} 分鐘後再次嘗試",
-      "rowid": 1225
+      "rowid": 1258
     },
     {
       "key": "frontstage.messages.depositByBankCard.fail",
       "en": "Unable to deposit at this time, please try again in {0} minutes",
       "zh-cn": "目前无法入款，请 {0} 分钟后再次尝试",
       "zh-tw": "目前無法入款，請 {0} 分鐘後再次嘗試",
-      "rowid": 1226
+      "rowid": 1259
     }
   ],
   [
@@ -3876,14 +4016,14 @@
       "en": "In the process of adding credit",
       "zh-cn": "充值中",
       "zh-tw": "充值中",
-      "rowid": 1257
+      "rowid": 1297
     },
     {
       "key": "frontstage.state.DepositStateTypeEnum.PendingReview",
       "en": "In the process of adding credit",
       "zh-cn": "充值中",
       "zh-tw": "充值中",
-      "rowid": 1261
+      "rowid": 1301
     }
   ],
   [
@@ -3892,14 +4032,14 @@
       "en": "Failure of recharge",
       "zh-cn": "充值失败",
       "zh-tw": "充值失败",
-      "rowid": 1259
+      "rowid": 1299
     },
     {
       "key": "frontstage.state.DepositStateTypeEnum.Failed",
       "en": "Adding credit failed.",
       "zh-cn": "充值失败",
       "zh-tw": "充值失败",
-      "rowid": 1260
+      "rowid": 1300
     }
   ],
   [
@@ -3908,14 +4048,14 @@
       "en": "Pending",
       "zh-cn": "待处理",
       "zh-tw": "待處理",
-      "rowid": 1265
+      "rowid": 1305
     },
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.PendingReview",
       "en": "Pending",
       "zh-cn": "待处理",
       "zh-tw": "待處理",
-      "rowid": 1269
+      "rowid": 1309
     }
   ],
   [
@@ -3924,14 +4064,14 @@
       "en": "Out of payment",
       "zh-cn": "已出款",
       "zh-tw": "已出款",
-      "rowid": 1266
+      "rowid": 1306
     },
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.Success",
       "en": "Out of payment",
       "zh-cn": "已出款",
       "zh-tw": "已出款",
-      "rowid": 1271
+      "rowid": 1311
     }
   ],
   [
@@ -3940,14 +4080,14 @@
       "en": "Paid out (automatic)",
       "zh-cn": "已出款（自动）",
       "zh-tw": "已出款(自動)",
-      "rowid": 1267
+      "rowid": 1307
     },
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.SuccessAuto",
       "en": "The money has been transferred (automatically).",
       "zh-cn": "已出款（自动）",
       "zh-tw": "已出款(自動)",
-      "rowid": 1272
+      "rowid": 1312
     }
   ],
   [
@@ -3956,14 +4096,14 @@
       "en": "Not completed",
       "zh-cn": "尚未完成",
       "zh-tw": "尚未完成",
-      "rowid": 1275
+      "rowid": 1315
     },
     {
       "key": "frontstage.state.WalletTransferStateTypeEnum.NotFinished",
       "en": "Not completed",
       "zh-cn": "尚未完成",
       "zh-tw": "尚未完成",
-      "rowid": 1280
+      "rowid": 1320
     }
   ],
   [
@@ -3972,14 +4112,14 @@
       "en": "Completed",
       "zh-cn": "已完成",
       "zh-tw": "已完成",
-      "rowid": 1276
+      "rowid": 1316
     },
     {
       "key": "frontstage.state.WalletTransferStateTypeEnum.Finished",
       "en": "Completed",
       "zh-cn": "已完成",
       "zh-tw": "已完成",
-      "rowid": 1279
+      "rowid": 1319
     }
   ],
   [
@@ -3988,21 +4128,21 @@
       "en": "Bank card transfer",
       "zh-cn": "银行卡转帐",
       "zh-tw": "銀行卡轉帳",
-      "rowid": 1283
+      "rowid": 1323
     },
     {
       "key": "frontstage.state.TppChannelEnum.BankCard",
       "en": "Bank card transfer",
       "zh-cn": "银行卡转帐",
       "zh-tw": "銀行卡轉帳",
-      "rowid": 1291
+      "rowid": 1331
     },
     {
       "key": "frontstage.user.deposit.BankCardTransfer",
       "en": "BankCard Transfer",
-      "zh-cn": "银行卡转账",
+      "zh-cn": "银行卡转帐",
       "zh-tw": "銀行卡轉帳",
-      "rowid": 1418
+      "rowid": 1465
     }
   ],
   [
@@ -4011,14 +4151,14 @@
       "en": "Tpp-online payment",
       "zh-cn": "Tpp-线上支付",
       "zh-tw": "Tpp-線上支付",
-      "rowid": 1284
+      "rowid": 1324
     },
     {
       "key": "frontstage.state.TppChannelEnum.OnlinePayment",
       "en": "Tpp-online payment",
       "zh-cn": "Tpp-线上支付",
       "zh-tw": "Tpp-線上支付",
-      "rowid": 1293
+      "rowid": 1333
     }
   ],
   [
@@ -4027,14 +4167,14 @@
       "en": "Tpp-WeChat payment",
       "zh-cn": "Tpp-微信支付",
       "zh-tw": "Tpp-微信支付",
-      "rowid": 1285
+      "rowid": 1325
     },
     {
       "key": "frontstage.state.TppChannelEnum.WeChatPay",
       "en": "Tpp-WeChat payment",
       "zh-cn": "Tpp-微信支付",
       "zh-tw": "Tpp-微信支付",
-      "rowid": 1297
+      "rowid": 1337
     }
   ],
   [
@@ -4043,14 +4183,14 @@
       "en": "Tpp- Alipay",
       "zh-cn": "Tpp-支付宝",
       "zh-tw": "Tpp-支付寶",
-      "rowid": 1286
+      "rowid": 1326
     },
     {
       "key": "frontstage.state.TppChannelEnum.Alipay",
       "en": "Tpp- Alipay",
       "zh-cn": "Tpp-支付宝",
       "zh-tw": "Tpp-支付寶",
-      "rowid": 1290
+      "rowid": 1330
     }
   ],
   [
@@ -4059,14 +4199,14 @@
       "en": "Tpp-Jingdong Pay",
       "zh-cn": "Tpp-京东支付",
       "zh-tw": "Tpp-京東支付",
-      "rowid": 1287
+      "rowid": 1327
     },
     {
       "key": "frontstage.state.TppChannelEnum.JingdongQrCode",
       "en": "Tpp-Jingdong Pay",
       "zh-cn": "Tpp-京东支付",
       "zh-tw": "Tpp-京東支付",
-      "rowid": 1292
+      "rowid": 1332
     }
   ],
   [
@@ -4075,14 +4215,14 @@
       "en": "Tpp-UnionPay QrCode",
       "zh-cn": "Tpp-银联扫码",
       "zh-tw": "Tpp-銀聯掃碼",
-      "rowid": 1288
+      "rowid": 1328
     },
     {
       "key": "frontstage.state.TppChannelEnum.UnionPayQrCode",
       "en": "Tpp-UnionPay QrCode",
       "zh-cn": "Tpp-银联扫码",
       "zh-tw": "Tpp-銀聯掃碼",
-      "rowid": 1296
+      "rowid": 1336
     }
   ],
   [
@@ -4091,14 +4231,14 @@
       "en": "Tpp-Quick Pass",
       "zh-cn": "Tpp-云闪付",
       "zh-tw": "Tpp-雲閃付",
-      "rowid": 1289
+      "rowid": 1329
     },
     {
       "key": "frontstage.state.TppChannelEnum.UnionPay",
       "en": "Tpp-Quick Pass",
       "zh-cn": "Tpp-云闪付",
       "zh-tw": "Tpp-雲閃付",
-      "rowid": 1295
+      "rowid": 1335
     }
   ],
   [
@@ -4107,14 +4247,14 @@
       "en": "hour",
       "zh-cn": "小时",
       "zh-tw": "小時",
-      "rowid": 1322
+      "rowid": 1362
     },
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.Hour",
       "en": "hour",
       "zh-cn": "小时",
       "zh-tw": "小時",
-      "rowid": 1330
+      "rowid": 1370
     }
   ],
   [
@@ -4123,14 +4263,14 @@
       "en": "day",
       "zh-cn": "日",
       "zh-tw": "日",
-      "rowid": 1323
+      "rowid": 1363
     },
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.Day",
       "en": "day",
       "zh-cn": "日",
       "zh-tw": "日",
-      "rowid": 1331
+      "rowid": 1371
     }
   ],
   [
@@ -4139,14 +4279,14 @@
       "en": "week",
       "zh-cn": "周",
       "zh-tw": "周",
-      "rowid": 1324
+      "rowid": 1364
     },
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.Week",
       "en": "week",
       "zh-cn": "周",
       "zh-tw": "周",
-      "rowid": 1334
+      "rowid": 1374
     }
   ],
   [
@@ -4155,14 +4295,14 @@
       "en": "Distributed yet",
       "zh-cn": "尚未派发",
       "zh-tw": "尚未派發",
-      "rowid": 1337
+      "rowid": 1377
     },
     {
       "key": "frontstage.state.Agent.ContractRecordStateEnum.NotSent",
       "en": "distributed yet",
       "zh-cn": "尚未派发",
       "zh-tw": "尚未派發",
-      "rowid": 1341
+      "rowid": 1381
     }
   ],
   [
@@ -4171,14 +4311,14 @@
       "en": "Not Met",
       "zh-cn": "未达标",
       "zh-tw": "未達標",
-      "rowid": 1338
+      "rowid": 1378
     },
     {
       "key": "frontstage.state.Agent.ContractRecordStateEnum.NotSatisfy",
       "en": "Not Met",
       "zh-cn": "未达标",
       "zh-tw": "未達標",
-      "rowid": 1342
+      "rowid": 1382
     }
   ],
   [
@@ -4187,14 +4327,14 @@
       "en": "Satisfied",
       "zh-cn": "已满足",
       "zh-tw": "已滿足",
-      "rowid": 1345
+      "rowid": 1385
     },
     {
       "key": "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.Satisfied",
       "en": "Satisfied",
       "zh-cn": "已满足",
       "zh-tw": "已滿足",
-      "rowid": 1348
+      "rowid": 1388
     }
   ],
   [
@@ -4203,14 +4343,14 @@
       "en": "Not satisfied",
       "zh-cn": "未满足",
       "zh-tw": "未滿足",
-      "rowid": 1346
+      "rowid": 1386
     },
     {
       "key": "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.NotSatisfied",
       "en": "Not satisfied",
       "zh-cn": "未满足",
       "zh-tw": "未滿足",
-      "rowid": 1347
+      "rowid": 1387
     }
   ],
   [
@@ -4219,14 +4359,14 @@
       "en": "Transfer out",
       "zh-cn": "转出",
       "zh-tw": "轉出",
-      "rowid": 1376
+      "rowid": 1416
     },
     {
       "key": "frontstage.user.transfer.transferFrom",
       "en": "Transfer out",
       "zh-cn": "转出",
       "zh-tw": "轉出",
-      "rowid": 1426
+      "rowid": 1474
     }
   ],
   [
@@ -4235,76 +4375,14 @@
       "en": "Transfer into",
       "zh-cn": "转入",
       "zh-tw": "轉入",
-      "rowid": 1377
+      "rowid": 1417
     },
     {
       "key": "frontstage.user.transfer.transferTo",
       "en": "Transfer into",
       "zh-cn": "转入",
       "zh-tw": "轉入",
-      "rowid": 1427
-    }
-  ],
-  [
-    {
-      "key": "frontstage.user.promotionRecord.column.TransNumber",
-      "en": "Single number",
-      "zh-cn": "单号",
-      "zh-tw": "單號",
-      "rowid": 1396
-    },
-    {
-      "key": "frontstage.user.changeRecord.column.TransNumber",
-      "en": "No.",
-      "zh-cn": "单号",
-      "zh-tw": "單號",
-      "rowid": 1467
-    },
-    {
-      "key": "frontstage.common.SerialNumber",
-      "zh-tw": "單號",
-      "en": "",
-      "zh-cn": "",
-      "rowid": 1577
-    }
-  ],
-  [
-    {
-      "key": "frontstage.user.securitySetting.FundsPassword.label",
-      "en": "Fund password",
-      "zh-cn": "资金密码",
-      "zh-tw": "資金密碼",
-      "rowid": 1406
-    },
-    {
-      "key": "frontstage.user.fundsPassword",
-      "en": "Fund password",
-      "zh-cn": "资金密码",
-      "zh-tw": "資金密碼",
-      "rowid": 1442
-    },
-    {
-      "key": "frontstage.form.label.fundsPassword",
-      "zh-tw": "資金密碼",
-      "en": "",
-      "zh-cn": "",
-      "rowid": 1581
-    }
-  ],
-  [
-    {
-      "key": "frontstage.user.DailyRewordRecord.column.RewardAmount",
-      "en": "Rebate amount",
-      "zh-cn": "返水金额",
-      "zh-tw": "返水金額",
-      "rowid": 1413
-    },
-    {
-      "key": "frontstage.agent.TeamStrategyRebateAmount",
-      "zh-tw": "返水金額",
-      "en": "",
-      "zh-cn": "",
-      "rowid": 1555
+      "rowid": 1475
     }
   ]
 ]

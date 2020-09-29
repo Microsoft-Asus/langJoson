@@ -199,8 +199,8 @@
   "WeChat": "",
   "langs": {
     "en": "English",
-    "zh-cn": "Simplified Chinese",
     "zh-tw": "Traditional Chinese",
+    "zh-cn": "Simplified Chinese",
     "th": "Thai"
   },
   "backToPreviousLevel": "Back to previous level",

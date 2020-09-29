@@ -19,8 +19,8 @@
     "newPassword": "",
     "confirmFundsPassword": "",
     "newFundsPassword": "",
-    "nickname": "",
-    "PlzSelectBank": ""
+    "PlzSelectBank": "",
+    "nickname": ""
   },
   "label": {
     "BranchBankName": "",

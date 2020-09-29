@@ -140,12 +140,6 @@
   "continue": "",
   "post": "",
   "agentAccount": "",
-  "langs": {
-    "en": "",
-    "zh-cn": "",
-    "th": "",
-    "zh-tw": ""
-  },
   "backToPreviousLevel": "",
   "sendSuccessfully": "",
   "saving": "",
@@ -219,6 +213,12 @@
   "activePerson": "",
   "remove": "",
   "add": "",
+  "langs": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "",
+    "th": ""
+  },
   "editSuccessMsg": "",
   "Gender": {
     "Female": "",

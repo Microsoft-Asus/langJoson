@@ -58,5 +58,7 @@
   "createSubordinate": "Create subordinate",
   "onlineMemberAccount": "Online member account",
   "loginPassword": "Login password",
-  "registerCount": "Register count"
+  "registerCount": "Register count",
+  "face": "",
+  "transferSubordinate": ""
 }

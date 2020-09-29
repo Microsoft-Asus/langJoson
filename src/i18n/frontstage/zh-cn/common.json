@@ -15,7 +15,7 @@
     "Unknow": "未知"
   },
   "Login": "登录",
-  "remove": "删除",
+  "remove": "刪除",
   "confirm": "确认",
   "cancel": "取消",
   "copySuccess": "已复制 {0}",
@@ -55,7 +55,7 @@
   "langs": {
     "en": "English",
     "zh-cn": "简体中文",
-    "zh-tw": "繁體中文",
+    "zh-tw": "繁体中文",
     "th": "Thai"
   },
   "Signup": "注册",
@@ -67,7 +67,7 @@
   "unread": "未读",
   "selectAll": "全选",
   "details": "查看详情",
-  "member": "会员",
+  "member": "头像",
   "registerByAccount": "帐号注册",
   "registerByEmail": "信箱注册",
   "registerByPhone": "手机注册",
@@ -78,5 +78,16 @@
   "otherdate": "其他日期",
   "today": "今天",
   "yesterday": "昨天",
-  "measureword": {}
+  "measureword": {
+    "people": ""
+  },
+  "tip": "",
+  "signed": "",
+  "unsigned": "",
+  "sign": "",
+  "nextstep": "",
+  "time": "",
+  "link": "",
+  "unlimit": "无限制",
+  "SerialNumber": "单号"
 }

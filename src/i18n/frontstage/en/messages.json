@@ -16,7 +16,8 @@
     "success": "The bank card has been deleted."
   },
   "addBankCard": {
-    "success": "Added the bank card successfully."
+    "success": "Added the bank card successfully.",
+    "fail": "Unable to add bank card"
   },
   "confirmLogout": "Are you sure you want to log out?",
   "withdrawalRequest": {
@@ -35,6 +36,15 @@
     "fail": "Unable to deposit at this time, please try again in {0} minutes"
   },
   "cannotPlayGame": "Can't enter the game right now",
-  "contract": {},
-  "resetpasswd": {}
+  "contract": {
+    "signingError": ""
+  },
+  "resetpasswd": {
+    "sendLinkEmailError": "",
+    "resetPasswdError": ""
+  },
+  "removeFailed": "",
+  "removeSuccess": "",
+  "addChildMemberSuccess": "",
+  "addChildMemberFailed": ""
 }

@@ -224,5 +224,6 @@
   "list": "列表",
   "default": "預設",
   "searchDateRange": "搜尋範圍: {0}{1}內",
-  "unitWeek": "週"
+  "unitWeek": "週",
+  "countryCode": "國碼"
 }

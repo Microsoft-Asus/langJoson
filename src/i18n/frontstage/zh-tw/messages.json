@@ -16,7 +16,8 @@
     "success": "已刪除銀行卡。"
   },
   "addBankCard": {
-    "success": "成功添加銀行卡"
+    "success": "成功添加銀行卡",
+    "fail": "無法新增銀行卡"
   },
   "confirmLogout": "確定要登出嗎？",
   "withdrawalRequest": {

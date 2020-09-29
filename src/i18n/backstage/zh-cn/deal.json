@@ -69,7 +69,8 @@
     "UnionPayQrCode": "银联扫码",
     "OnlinePayment": "線上支付",
     "UnionPay": "云闪付",
-    "bankCard": "银行卡"
+    "bankCard": "银行卡",
+    "BqPay": ""
   },
   "bankAcconutName": "银行户名"
 }

@@ -2,7 +2,7 @@
   "placeholder": {
     "BranchBankName": "請輸入支行名稱",
     "PlzInputBankCardNumber": "請輸入銀行卡號",
-    "PlzSelectBank": "選擇銀行",
+    "PlzSelectBank": "銀行名稱",
     "pickdate": "日期選擇",
     "fundsPassword": "請輸入資金密碼",
     "BankCardHolderName": "持卡人只能輸入一次",

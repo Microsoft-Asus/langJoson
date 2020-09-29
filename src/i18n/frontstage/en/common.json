@@ -78,5 +78,16 @@
   "otherdate": "Other dates",
   "today": "today",
   "yesterday": "yesterday",
-  "measureword": {}
+  "measureword": {
+    "people": ""
+  },
+  "tip": "",
+  "signed": "",
+  "unsigned": "",
+  "sign": "",
+  "nextstep": "",
+  "time": "",
+  "link": "",
+  "unlimit": "",
+  "SerialNumber": ""
 }

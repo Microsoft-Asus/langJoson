@@ -37,7 +37,8 @@
     "EmailLogin": "Email Login",
     "PasswdLogin": "Password login",
     "PhoneLogin": "SMS login",
-    "transferAmount": "Transfer amount"
+    "transferAmount": "Transfer amount",
+    "fundsPassword": ""
   },
   "button": {
     "Add": "Add",
@@ -50,6 +51,7 @@
     "doLogin": "log in immediately",
     "deposit": "Add credit",
     "transfer": "Transfer",
-    "withdrawal": "Withdrawal"
+    "withdrawal": "Withdrawal",
+    "reset": ""
   }
 }

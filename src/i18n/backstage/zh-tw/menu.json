@@ -152,5 +152,6 @@
   "PaymentChannelDepositFee": "充值手續費",
   "PaymentChannelDepositFeeEditor": "充值手續費編輯",
   "ReportAgent": "代理報表",
-  "ProviderLoginRecord": "登入記錄"
+  "ProviderLoginRecord": "登入記錄",
+  "ProviderOperateRecord": "操作記錄"
 }

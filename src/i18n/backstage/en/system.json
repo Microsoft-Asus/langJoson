@@ -202,5 +202,6 @@
   },
   "announcing": "Announcing",
   "child": "Child",
-  "backstage": "Backstage"
+  "backstage": "Backstage",
+  "transferSubordinate": ""
 }

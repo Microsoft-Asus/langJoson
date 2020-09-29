@@ -37,7 +37,8 @@
       "CreatedTime": "The date of placing bets",
       "ValidAmount": "Valid betting",
       "WinLossAmount": "Amount of winning or losing",
-      "PayoutAmount": "Payout amount"
+      "PayoutAmount": "Payout amount",
+      "GameType": ""
     },
     "pickGamePlatform": "Choose a platform"
   },
@@ -52,24 +53,30 @@
     "Phone": {
       "label": "mobile phone number",
       "remark": "By receiving a text message from your mobile phone to log in your account, you can receive notifications of changes in account funds and receive a prompt message when the account is suspected of abnormal operation.",
-      "modifySuccessMsg": "Reset phone successfully"
+      "modifySuccessMsg": "Reset phone successfully",
+      "modifyFailingMsg": ""
     },
     "Email": {
       "label": "mailbox",
       "modifySuccessMsg": "Email reset succeeded",
-      "remark": "By using email address to log in your account, you can receive notifications of changes in account funds and receive a prompt message when the account is suspected of abnormal operation."
+      "remark": "By using email address to log in your account, you can receive notifications of changes in account funds and receive a prompt message when the account is suspected of abnormal operation.",
+      "modifyFailingMsg": ""
     },
     "Password": {
       "label": "login password",
       "modifySuccessMsg": "Succeeded in resetting the login password",
-      "remark": "You need to set a password, when you log in you can use the password to log in."
+      "remark": "You need to set a password, when you log in you can use the password to log in.",
+      "mifyFailingMsg": ""
     },
     "FundsPassword": {
       "label": "Fund password",
       "modifySuccessMsg": "Reset fund password successfully",
       "remark": "Set a fund password to ensure the safety of funds.",
-      "settingSuccessMsg": "Funding password set successfully"
-    }
+      "settingSuccessMsg": "Funding password set successfully",
+      "mifyFailingMsg": "",
+      "settingFailingMsg": ""
+    },
+    "modifyFailingMsg": ""
   },
   "BankCard": {
     "addBankCard": "Add bank card"
@@ -97,7 +104,8 @@
     "JingdongQrCode": "Jingdong Pay",
     "UnionPayQrCode": "UnionPay QrCode",
     "OnlinePayment": "Online Payment",
-    "UnionPay": "Quick Pass"
+    "UnionPay": "Quick Pass",
+    "BqPay": ""
   },
   "transfer": {
     "transferFrom": "Transfer out",
@@ -254,7 +262,10 @@
     "CenterToKk": "[Center] to [KK lottery]",
     "CenterToLc": "[Center] to [Longcheng]",
     "CenterToRgLottery": "[Center] to [RgLottery]",
-    "CenterToSa": "[Center] to [Sa]"
+    "CenterToSa": "[Center] to [Sa]",
+    "CenterToPs": "",
+    "CenterToMgPlus": "",
+    "CenterToNwg": ""
   },
   "gamePlatform": "gaming platform",
   "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state",
@@ -267,5 +278,6 @@
     },
     "setSuccessMessage": "You have successfully set a login password, {0} for now",
     "validEmailMessage": "The reset password link has been sent to your mailbox, please click on the link in your personal mailbox"
-  }
+  },
+  "recordInfoNumTime": ""
 }

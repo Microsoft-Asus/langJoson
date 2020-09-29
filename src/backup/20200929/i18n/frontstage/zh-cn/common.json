@@ -55,8 +55,8 @@
   "langs": {
     "en": "English",
     "zh-cn": "简体中文",
-    "zh-tw": "繁体中文",
-    "th": "Thai"
+    "zh-tw": "繁體中文",
+    "th": "泰文"
   },
   "Signup": "注册",
   "topup": "充值",
@@ -89,5 +89,6 @@
   "time": "",
   "link": "",
   "unlimit": "无限制",
-  "SerialNumber": "单号"
+  "SerialNumber": "单号",
+  "bankName": "选择银行"
 }

@@ -1261,17 +1261,17 @@
   },
   "backstage.common.langs.en": {
     "en": "English",
-    "zh-cn": "英文",
-    "zh-tw": "英文"
+    "zh-cn": "English",
+    "zh-tw": "English"
   },
   "backstage.common.langs.zh-cn": {
     "en": "Simplified Chinese",
     "zh-cn": "简体中文",
-    "zh-tw": "簡體中文"
+    "zh-tw": "简体中文"
   },
   "backstage.common.langs.zh-tw": {
     "en": "Traditional Chinese",
-    "zh-cn": "繁体中文",
+    "zh-cn": "繁體中文",
     "zh-tw": "繁體中文"
   },
   "backstage.common.langs.th": {
@@ -5461,13 +5461,13 @@
   },
   "frontstage.common.langs.zh-tw": {
     "en": "繁體中文",
-    "zh-cn": "繁体中文",
+    "zh-cn": "繁體中文",
     "zh-tw": "繁體中文"
   },
   "frontstage.common.langs.th": {
     "en": "Thai",
-    "zh-cn": "Thai",
-    "zh-tw": "Thai"
+    "zh-cn": "泰文",
+    "zh-tw": "泰文"
   },
   "frontstage.common.Signup": {
     "en": "Sign up",
@@ -5618,6 +5618,11 @@
     "en": "",
     "zh-cn": "单号",
     "zh-tw": "單號"
+  },
+  "frontstage.common.bankName": {
+    "en": "",
+    "zh-cn": "选择银行",
+    "zh-tw": "銀行名稱"
   },
   "frontstage.dd.sentence.ESport.0": {
     "en": "The betting page is delicate, the information is pithy, and the operation is simple, \\n making placing bets simple and efficient.",
@@ -8023,30 +8028,5 @@
     "en": "",
     "zh-cn": "",
     "zh-tw": "@:common.SerialNumber / @:common.time"
-  },
-  "frontstage.common.bankName": {
-    "zh-tw": "銀行名稱",
-    "en": "",
-    "zh-cn": ""
-  },
-  "langs.common.langs.en": {
-    "en": "English",
-    "zh-cn": "English",
-    "zh-tw": "English"
-  },
-  "langs.common.langs.zh-cn": {
-    "en": "简体中文",
-    "zh-cn": "简体中文",
-    "zh-tw": "简体中文"
-  },
-  "langs.common.langs.zh-tw": {
-    "en": "繁體中文",
-    "zh-cn": "繁體中文",
-    "zh-tw": "繁體中文"
-  },
-  "langs.common.langs.th": {
-    "en": "Thai",
-    "zh-cn": "泰文",
-    "zh-tw": "Thai"
   }
 }

@@ -60,5 +60,6 @@
   "face": "",
   "onlineMemberAccount": "Online member account",
   "loginPassword": "Login password",
-  "registerCount": "Register count"
+  "registerCount": "Register count",
+  "copyTips": "{0} will replace the content of other languages"
 }

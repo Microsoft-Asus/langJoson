@@ -200,8 +200,10 @@
   "langs": {
     "en": "English",
     "zh-tw": "繁體中文",
-    "zh-cn": "简体中文",
-    "th": "泰文"
+    "th": "泰文",
+    "vn": "越南文",
+    "inr": "印度文",
+    "zh-cn": "简体中文"
   },
   "backToPreviousLevel": "返回上层",
   "editSuccessMsg": "修改成功",
@@ -225,5 +227,15 @@
   "default": "预设",
   "searchDateRange": "搜寻范围: {0}{1} 内",
   "unitWeek": "周",
-  "countryCode": "国码"
+  "countryCode": "国码",
+  "languages": {
+    "en": "英文",
+    "zh-cn": "简体中文",
+    "zh-tw": "繁體中文",
+    "vn": "越南文",
+    "th": "泰文",
+    "inr": "印度文"
+  },
+  "copy": "复制",
+  "replaceSuccessfully": "取代成功"
 }

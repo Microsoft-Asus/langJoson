@@ -200,8 +200,10 @@
   "langs": {
     "en": "",
     "zh-tw": "",
-    "zh-cn": "",
-    "th": ""
+    "th": "",
+    "vn": "",
+    "inr": "",
+    "zh-cn": ""
   },
   "backToPreviousLevel": "",
   "editSuccessMsg": "",
@@ -225,5 +227,15 @@
   "default": "",
   "searchDateRange": "",
   "unitWeek": "",
-  "countryCode": ""
+  "countryCode": "",
+  "languages": {
+    "en": "",
+    "zh-cn": "",
+    "zh-tw": "",
+    "vn": "",
+    "th": "",
+    "inr": ""
+  },
+  "copy": "",
+  "replaceSuccessfully": ""
 }

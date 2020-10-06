@@ -60,5 +60,6 @@
   "loginPassword": "Login password",
   "registerCount": "Register count",
   "face": "",
-  "transferSubordinate": ""
+  "transferSubordinate": "",
+  "copyTips": "{0} will replace the content of other languages"
 }

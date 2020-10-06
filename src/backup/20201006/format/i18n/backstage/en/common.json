@@ -200,7 +200,9 @@
     "en": "English",
     "zh-cn": "Simplified Chinese",
     "zh-tw": "Traditional Chinese",
-    "th": "Thai"
+    "th": "Thai",
+    "vn": "Vietnamese",
+    "inr": "Indian"
   },
   "backToPreviousLevel": "Back to previous level",
   "editSuccessMsg": "Edit success",
@@ -225,5 +227,15 @@
   "searchDateRange": "Search range: within {0} {1}",
   "unitWeek": "week",
   "WeChat": "",
-  "countryCode": "Country code"
+  "countryCode": "Country code",
+  "languages": {
+    "en": "English",
+    "zh-cn": "Simplified Chinese",
+    "zh-tw": "Traditional Chinese",
+    "vn": "Vietnamese",
+    "th": "Thai",
+    "inr": "Indian"
+  },
+  "copy": "copy",
+  "replaceSuccessfully": "Replace successfully"
 }

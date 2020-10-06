@@ -60,5 +60,6 @@
   "face": "頭像",
   "onlineMemberAccount": "上線會員帳號",
   "loginPassword": "登入密碼",
-  "registerCount": "註冊次數"
+  "registerCount": "註冊次數",
+  "copyTips": "{0} 將會取代其他語系的內容"
 }

@@ -5994,6 +5994,11 @@
     "zh-cn": "重置",
     "zh-tw": "重置"
   },
+  "frontstage.form.button.send": {
+    "en": "send",
+    "zh-cn": "发送",
+    "zh-tw": "發送"
+  },
   "frontstage.menu.UserDailyRewordRecord": {
     "en": "Daily return record",
     "zh-cn": "日返水纪录",

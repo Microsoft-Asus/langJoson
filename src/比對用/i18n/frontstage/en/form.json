@@ -52,6 +52,7 @@
     "deposit": "Add credit",
     "transfer": "Transfer",
     "withdrawal": "Withdrawal",
-    "reset": ""
+    "reset": "",
+    "send": "send"
   }
 }

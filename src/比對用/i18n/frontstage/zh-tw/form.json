@@ -52,6 +52,7 @@
     "withdrawal": "提款",
     "transfer": "轉帳",
     "doLogin": "立即登錄",
-    "reset": "重置"
+    "reset": "重置",
+    "send": "發送"
   }
 }

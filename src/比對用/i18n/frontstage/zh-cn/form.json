@@ -52,6 +52,7 @@
     "deposit": "立即充值",
     "transfer": "转帐",
     "withdrawal": "提款",
-    "reset": "重置"
+    "reset": "重置",
+    "send": "发送"
   }
 }

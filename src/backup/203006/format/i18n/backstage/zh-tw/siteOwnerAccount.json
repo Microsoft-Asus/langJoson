@@ -1,0 +1,13 @@
+{
+  "currencies": {
+    "Undefined": "未定義",
+    "RMB": "人民幣 (RMB)",
+    "THB": "泰銖 (THB)",
+    "USD": "美元 (USD)",
+    "IDR": "印尼盾 (IDR)",
+    "VND": "越南盾 (VND)",
+    "MYR": "另吉 (MYR)",
+    "PHP": "菲律賓披索 (PHP)",
+    "INR": "印度盧比 (INR)"
+  }
+}

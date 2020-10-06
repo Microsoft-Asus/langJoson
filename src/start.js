@@ -26,7 +26,7 @@ const EXPORT_EXCEL = false;
   });
   //建立輸出日期
   const d = new Date();
-  const backupDate = d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate());
+  const backupDate = d.getFullYear() + '' + pad(d.getMonth() + 1) + pad(d.getDate());
   //en, zh-cn, zh-tw
   const langList = [];
 

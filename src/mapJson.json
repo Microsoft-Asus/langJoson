@@ -311,7 +311,7 @@
   },
   "backstage.common.Account": {
     "en": "account number",
-    "zh-cn": "帐号",
+    "zh-cn": "帐户",
     "zh-tw": "帳號"
   },
   "backstage.common.Name": {
@@ -356,7 +356,7 @@
   },
   "backstage.common.Username": {
     "en": "account number",
-    "zh-cn": "帐号",
+    "zh-cn": "帐户",
     "zh-tw": "帳號"
   },
   "backstage.common.save": {
@@ -366,7 +366,7 @@
   },
   "backstage.common.username": {
     "en": "account number",
-    "zh-cn": "帐号",
+    "zh-cn": "帐户",
     "zh-tw": "帳號"
   },
   "backstage.common.undo": {
@@ -1279,6 +1279,16 @@
     "zh-cn": "泰文",
     "zh-tw": "泰文"
   },
+  "backstage.common.langs.vn": {
+    "en": "Vietnamese",
+    "zh-cn": "越南文",
+    "zh-tw": "越南文"
+  },
+  "backstage.common.langs.inr": {
+    "en": "Indian",
+    "zh-cn": "印度文",
+    "zh-tw": "印度文"
+  },
   "backstage.common.backToPreviousLevel": {
     "en": "Back to previous level",
     "zh-cn": "返回上层",
@@ -1388,6 +1398,46 @@
     "en": "Country code",
     "zh-cn": "国码",
     "zh-tw": "國碼"
+  },
+  "backstage.common.languages.en": {
+    "en": "English",
+    "zh-cn": "英文",
+    "zh-tw": "英文"
+  },
+  "backstage.common.languages.zh-cn": {
+    "en": "Simplified Chinese",
+    "zh-cn": "简体中文",
+    "zh-tw": "簡體中文"
+  },
+  "backstage.common.languages.zh-tw": {
+    "en": "Traditional Chinese",
+    "zh-cn": "繁体中文",
+    "zh-tw": "繁體中文"
+  },
+  "backstage.common.languages.vn": {
+    "en": "Vietnamese",
+    "zh-cn": "越南文",
+    "zh-tw": "越南文"
+  },
+  "backstage.common.languages.th": {
+    "en": "Thai",
+    "zh-cn": "泰文",
+    "zh-tw": "泰文"
+  },
+  "backstage.common.languages.inr": {
+    "en": "Indian",
+    "zh-cn": "印度文",
+    "zh-tw": "印度文"
+  },
+  "backstage.common.copy": {
+    "en": "copy",
+    "zh-cn": "复制",
+    "zh-tw": "複製"
+  },
+  "backstage.common.replaceSuccessfully": {
+    "en": "Replace successfully",
+    "zh-cn": "取代成功",
+    "zh-tw": "取代成功"
   },
   "backstage.deal.ParentDeposit": {
     "en": "Parent deposit",
@@ -2488,6 +2538,11 @@
     "en": "",
     "zh-cn": "转帐下级",
     "zh-tw": "轉帳下級"
+  },
+  "backstage.member.copyTips": {
+    "en": "{0} will replace the content of other languages",
+    "zh-cn": "{0} 将会取代其他语系的内容",
+    "zh-tw": "{0} 將會取代其他語系的內容"
   },
   "backstage.memberAcccount.resetConfirmMessage": {
     "en": "Send a reset notification to {0}?",

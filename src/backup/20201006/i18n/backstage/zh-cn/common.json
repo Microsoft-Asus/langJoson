@@ -6,7 +6,7 @@
   "headerTitle": "后台系统",
   "AccountStateFreeze": "冻结",
   "AccountStateWorking": "正常",
-  "Account": "帐号",
+  "Account": "帐户",
   "Name": "名称",
   "Role": "角色",
   "AccountState": "帐号状态",
@@ -15,9 +15,9 @@
   "Remarks": "备注",
   "reset": "重置",
   "submit": "送出",
-  "Username": "帐号",
+  "Username": "帐户",
   "save": "储存",
-  "username": "帐号",
+  "username": "帐户",
   "undo": "回复",
   "days": "周日_周一_周二_周三_周四_周五_周六",
   "daysShort": "日_一_二_三_四_五_六",
@@ -201,7 +201,9 @@
     "en": "English",
     "zh-cn": "简体中文",
     "zh-tw": "繁體中文",
-    "th": "泰文"
+    "th": "泰文",
+    "vn": "越南文",
+    "inr": "印度文"
   },
   "backToPreviousLevel": "返回上层",
   "editSuccessMsg": "修改成功",
@@ -225,5 +227,15 @@
   "default": "预设",
   "searchDateRange": "搜寻范围: {0}{1} 内",
   "unitWeek": "周",
-  "countryCode": "国码"
+  "countryCode": "国码",
+  "languages": {
+    "en": "英文",
+    "zh-cn": "简体中文",
+    "zh-tw": "繁体中文",
+    "vn": "越南文",
+    "th": "泰文",
+    "inr": "印度文"
+  },
+  "copy": "复制",
+  "replaceSuccessfully": "取代成功"
 }

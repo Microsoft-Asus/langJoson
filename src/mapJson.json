@@ -1271,7 +1271,7 @@
   },
   "backstage.common.langs.zh-tw": {
     "en": "Traditional Chinese",
-    "zh-cn": "繁體中文",
+    "zh-cn": "繁体中文",
     "zh-tw": "繁體中文"
   },
   "backstage.common.langs.th": {
@@ -1414,7 +1414,7 @@
     "zh-cn": "繁体中文",
     "zh-tw": "繁體中文"
   },
-  "backstage.common.languages.vn": {
+  "backstage.common.languages.vi": {
     "en": "Vietnamese",
     "zh-cn": "越南文",
     "zh-tw": "越南文"
@@ -1424,7 +1424,7 @@
     "zh-cn": "泰文",
     "zh-tw": "泰文"
   },
-  "backstage.common.languages.inr": {
+  "backstage.common.languages.hi": {
     "en": "Indian",
     "zh-cn": "印度文",
     "zh-tw": "印度文"
@@ -6268,6 +6268,11 @@
     "en": "Contract report",
     "zh-cn": "契约报表",
     "zh-tw": "契約報表"
+  },
+  "frontstage.menu.ResetPasswd": {
+    "en": "reset Password",
+    "zh-cn": "重置密码",
+    "zh-tw": "重置密碼"
   },
   "frontstage.messages.register.success": {
     "en": "registration success",

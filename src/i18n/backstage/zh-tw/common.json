@@ -200,10 +200,10 @@
   "langs": {
     "en": "English",
     "zh-tw": "繁體中文",
-    "th": "泰文",
     "vn": "越南文",
     "inr": "印度文",
-    "zh-cn": "简体中文"
+    "zh-cn": "简体中文",
+    "th": "泰文"
   },
   "backToPreviousLevel": "返回上層",
   "editSuccessMsg": "修改成功",
@@ -232,9 +232,9 @@
     "en": "英文",
     "zh-cn": "簡體中文",
     "zh-tw": "繁體中文",
-    "vn": "越南文",
+    "vi": "越南文",
     "th": "泰文",
-    "inr": "印度文"
+    "hi": "印度文"
   },
   "copy": "複製",
   "replaceSuccessfully": "取代成功"

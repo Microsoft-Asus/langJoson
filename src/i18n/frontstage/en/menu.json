@@ -41,5 +41,6 @@
   "AgentTxTransferRecord": "Team transfer",
   "AgentTxWithdrawalRecord": "Team withdrawal",
   "AgentTeamReport": "Team report",
-  "AgentContractReport": "Contract report"
+  "AgentContractReport": "Contract report",
+  "ResetPasswd": "reset Password"
 }

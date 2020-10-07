@@ -41,5 +41,6 @@
   "AgentTxDepositRecord": "團隊入款",
   "AgentTxWithdrawalRecord": "團隊提款",
   "AgentTeamReport": "團隊報表",
-  "AgentContractReport": "契約報表"
+  "AgentContractReport": "契約報表",
+  "ResetPasswd": "重置密碼"
 }

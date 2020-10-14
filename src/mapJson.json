@@ -1439,6 +1439,11 @@
     "zh-cn": "取代成功",
     "zh-tw": "取代成功"
   },
+  "backstage.common.decimalPointLimit": {
+    "en": "Most to {0} decimal point",
+    "zh-cn": "最多小数点后 {0} 位数",
+    "zh-tw": "最多小數點後 {0} 位數"
+  },
   "backstage.deal.ParentDeposit": {
     "en": "Parent deposit",
     "zh-cn": "上级充值",
@@ -2213,6 +2218,11 @@
     "en": "VIP delete sort error",
     "zh-cn": "vip 删除顺序错误",
     "zh-tw": "vip 刪除順序錯誤"
+  },
+  "backstage.errorCode.AuditNotCleared": {
+    "en": "Audit note cleared",
+    "zh-cn": "稽核点未清空",
+    "zh-tw": "稽核點未清空"
   },
   "backstage.manageWebsitePattern.WebsiteInfo": {
     "en": "Website Information",
@@ -5185,7 +5195,7 @@
     "zh-tw": "排行榜"
   },
   "frontstage.amy.AmyAboutContent.PopularPlatforms": {
-    "en": "Popular platforms",
+    "en": "PopularPlatforms",
     "zh-cn": "熱門平台",
     "zh-tw": "熱門平台"
   },

@@ -1,0 +1,13 @@
+{
+  "execute": "執行",
+  "View": "查看",
+  "Edit": "編輯",
+  "query": "查詢",
+  "export": "輸出",
+  "Delete": "刪除",
+  "Add": "新增",
+  "permissionList": "權限列表",
+  "setPermissionCorrespondingUrl": "設定權限對應網址",
+  "editPermissionCorrespondingApiUrl": "編輯權限對應的API網址",
+  "ifMultipleUrlCorrespondencePleaseUseRegularExpression ": "多網址對應時,請使用正則表達式"
+}

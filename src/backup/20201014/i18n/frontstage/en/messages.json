@@ -1,0 +1,50 @@
+{
+  "register": {
+    "success": "registration success"
+  },
+  "sendCode": {
+    "EmailSuccess": "The verification code has been sent to your mailbox {0}",
+    "PhoneSuccess": "The verification code has been sent to your phone {0}",
+    "EmailPlzCheck": "You have sent the verification code, please go to your email address to receive the verification code.",
+    "PhonePlzCheck": "You have sent the verification code, please go to your phone to receive the verification code."
+  },
+  "NicknameChanged": {},
+  "nicknameModified": {
+    "success": "Change your nickname successfully."
+  },
+  "removeBankCard": {
+    "success": "The bank card has been deleted."
+  },
+  "addBankCard": {
+    "success": "Added the bank card successfully.",
+    "fail": "Unable to add bank card"
+  },
+  "confirmLogout": "Are you sure you want to log out?",
+  "withdrawalRequest": {
+    "success": "You have successfully applied for a withdrawal of  {0} dollars.",
+    "fail": "You cannot add a withdrawal slip."
+  },
+  "editSuccessMsg": "Successfully modified",
+  "validationCodeSended": "You have sent out the verification code. Please go to your mobile phone / email to collect the verification code.",
+  "cannotUpdateBalance": "Unable to get the balance.",
+  "cannotLoginMsg": "You can't log in right now, please confirm your account or password.",
+  "cannotRegisterForNow": "Unable to register right now.",
+  "depositByTpp": {
+    "fail": "Unable to deposit at this time, please try again in {0} minutes"
+  },
+  "depositByBankCard": {
+    "fail": "Unable to deposit at this time, please try again in {0} minutes"
+  },
+  "cannotPlayGame": "Can't enter the game right now",
+  "contract": {
+    "signingError": ""
+  },
+  "resetpasswd": {
+    "sendLinkEmailError": "",
+    "resetPasswdError": ""
+  },
+  "removeFailed": "",
+  "removeSuccess": "",
+  "addChildMemberSuccess": "",
+  "addChildMemberFailed": ""
+}

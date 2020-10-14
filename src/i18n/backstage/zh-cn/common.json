@@ -237,5 +237,6 @@
     "hi": "印度文"
   },
   "copy": "复制",
-  "replaceSuccessfully": "取代成功"
+  "replaceSuccessfully": "取代成功",
+  "decimalPointLimit": "最多小数点后 {0} 位数"
 }

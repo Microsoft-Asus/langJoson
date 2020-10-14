@@ -175,6 +175,7 @@ const EXPORT_EXCEL = true;
     en: '英文',
     th: '泰文',
     vi: '越文',
+    hi:'印地文',
     rowid: 'rowid',
   };
   langList.forEach((langkey) => {

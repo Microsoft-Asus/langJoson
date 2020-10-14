@@ -237,5 +237,6 @@
     "hi": "Indian"
   },
   "copy": "copy",
-  "replaceSuccessfully": "Replace successfully"
+  "replaceSuccessfully": "Replace successfully",
+  "decimalPointLimit": "Most to {0} decimal point"
 }

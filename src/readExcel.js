@@ -279,7 +279,7 @@ function contentReplace(line, value) {
 }
 
 function clearFormat(params) {
-  if (typeof params === 'object' && params) {
-    console.log(params)
+  if (typeof params === 'object' && params && params.richText) {
+    console.log(params.richText)
   }
 }

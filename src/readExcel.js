@@ -101,7 +101,7 @@ module.exports = function () {
          */
 
         try {
-          /**  */
+          /** FriSep112020 -->這裡的樣板日期要以送翻譯社時的輸出資料夾做比對 */
           const modulePath = ['.', 'backup', 'FriSep112020', 'i18n', resolvePath[0], 'zh-tw', fileName];
           filesJs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
             const KeyList = [];

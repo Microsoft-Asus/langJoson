@@ -19,8 +19,8 @@
   "systemSetLevel": "系统自动计算",
   "securitySetting": "安全性设置",
   "withdralPassword": "提款密码",
-  "modifyDataTips": "按下\"修改\"并输入用户新的\"电话/邮箱\"，再按下\"送出\"发送验证通知",
-  "afterModifyDataTips": "当用户通过验证后，新\"电话/邮箱\"才会显示在此。",
+  "modifyDataTips": "按下\"修改\"并输入用户新的\"邮箱\"，再按下\"送出\"发送验证通知",
+  "afterModifyDataTips": "当用户通过验证后，新\"邮箱\"才会显示在此。",
   "vipTips": "晋升投注额以北京时间每月1号00:00:00至每月最后一天23:59:59的有效投注额计算",
   "delHighestLevel": "先删除最高层级",
   "cantDelBasicVIP": "不能删除基础VIP层",
@@ -61,5 +61,7 @@
   "loginPassword": "登入密码",
   "registerCount": "注册次数",
   "face": "",
-  "copyTips": "{0} 将会取代其他语系的内容"
+  "copyTips": "{0} 将会取代其他语系的内容",
+  "chooseResetToPhone": "选择發送重置信件至电话",
+  "chooseResetToMail": "或 邮箱"
 }

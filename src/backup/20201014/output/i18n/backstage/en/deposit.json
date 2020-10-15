@@ -18,7 +18,7 @@
   "depositItem": "Deposit item",
   "normalAudit": "routine audit",
   "auditMultiple": "Preferential audit multiple",
-  "auditTips": "During normal audit, ",
+  "auditTips": "During the normal audit, the \"effective total bet\" needs to be bigger than \"deposit amount\" before you can apply for the payment ",
   "restAudit": "Audit of remaining quota",
   "totalAmount": "Total amount",
   "clearAudit": "Clear audit",
@@ -41,7 +41,5 @@
   "webmasterRate": "Webmaster Rate",
   "depositToWallet": "Deposit to wallet",
   "deposits": "Deposits",
-  "searchTips": "During the normal audit, the \"effective total bet\" needs to be bigger than \"deposit amount\" before you can apply for the payment",
-  "receiveAmount": "Receive amount",
-  "receivedAmount": "Receive amount"
+  "searchTips": "During the normal audit, the \"effective total bet\" needs to be bigger than \"deposit amount\" before you can apply for the payment"
 }

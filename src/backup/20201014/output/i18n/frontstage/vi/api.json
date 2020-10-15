@@ -1,19 +1,17 @@
 {
   "code": {
-    "100": "",
-    "101": "",
-    "102": "",
-    "103": "",
-    "104": "",
-    "105": "",
-    "300": "",
-    "MemberAccountExist": "",
-    "MemberAccountLoginRepeatedly": "",
-    "MemberAccountFreezeOrDisable": "",
-    "VerificationCodeError": "",
-    "MemberLoginIpBlocked": "",
-    "MemberAccountOrPasswordError": "",
-    "MemberAccountNotExist": "",
-    "MemberAgentLinkError": ""
+    "100": "Số tài khoản hội viên tồn tại",
+    "101": "Số tài khoản hội viên không tồn tại",
+    "102": "Số tài khoản hội viên đã đăng nhập",
+    "103": "Số tài khoản hội viên đóng băng / ngừng sử dụng",
+    "104": "IP đăng nhập hội viên đã bị chặn / ngừng sử dụng",
+    "300": "Mã nghiệm chứng bị lỗi",
+    "MemberAccountExist": "Số tài khoản hội viên tồn tại",
+    "MemberAccountLoginRepeatedly": "Số tài khoản hội viên đã đăng nhập",
+    "MemberAccountFreezeOrDisable": "Số tài khoản hội viên đóng băng / ngừng sử dụng",
+    "VerificationCodeError": "Mã nghiệm chứng bị lỗi",
+    "MemberLoginIpBlocked": "IP đăng nhập hội viên đã bị chặn / ngừng sử dụng",
+    "MemberAccountOrPasswordError": "Số tài khoản và mật khẩu hội viên bị lỗi",
+    "MemberAccountNotExist": "Số tài khoản hội viên không tồn tại"
   }
 }

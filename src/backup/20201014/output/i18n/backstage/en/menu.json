@@ -152,6 +152,5 @@
   "PaymentChannelDepositFee": "Deposit fee",
   "PaymentChannelDepositFeeEditor": "Edit deposit fee",
   "ReportAgent": "Report agent",
-  "ProviderLoginRecord": "Login record",
-  "ProviderOperateRecord": "Operate record"
+  "ProviderLoginRecord": "Login record"
 }

@@ -2,7 +2,7 @@
   "placeholder": {
     "BranchBankName": "請輸入支行名稱",
     "PlzInputBankCardNumber": "請輸入銀行卡號",
-    "PlzSelectBank": "銀行名稱",
+    "PlzSelectBank": "選擇銀行",
     "pickdate": "日期選擇",
     "fundsPassword": "請輸入資金密碼",
     "BankCardHolderName": "持卡人只能輸入一次",
@@ -15,11 +15,11 @@
     "password": "請輸入登錄密碼",
     "nickname": "修改暱稱",
     "setPassword": "設置登錄密碼",
-    "PhoneOrEmail": "郵箱/帳號",
+    "PhoneOrEmail": "手機/郵箱/帳號",
     "account": "請輸入帳號",
     "newPhone": "請輸入新手機號碼",
     "newPassword": "請輸入新登錄密碼",
-    "newFundsPassword": "\b新資金密碼",
+    "newFundsPassword": "新資金密碼",
     "confirmFundsPassword": "確認資金密碼"
   },
   "label": {

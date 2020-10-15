@@ -1,15 +1,15 @@
 {
-  "createTime": "",
-  "transNumber": "",
-  "bankCard": "",
-  "balance": "",
-  "minAmountRange": "",
-  "maxAmountRange": "",
-  "withdrawlAmount": "",
-  "wallet": "",
-  "amount": "",
-  "allWithdrawl": "",
-  "allAmount": "",
-  "allPeople": "",
-  "fee": ""
+  "createTime": "विथ्ड्रॉअल का समय",
+  "transNumber": "बैंक विथ्ड्रॉअल स्लिप नंबर",
+  "bankCard": "विथ्ड्रॉअल बैंक कार्ड ",
+  "balance": "विथ्ड्रॉअल राशि",
+  "minAmountRange": "सबसे कम रेंज में विथ्ड्रॉअल राशि",
+  "maxAmountRange": "सबसे उच्चतम रेंज में विथ्ड्रॉअल राशि",
+  "withdrawlAmount": "विथ्ड्रॉअल राशि ",
+  "wallet": "वॉलेट से बाहर ट्रांसफर ",
+  "amount": "विथ्ड्रॉअल राशि",
+  "allWithdrawl": "कुल विथ्ड्रॉअल",
+  "allAmount": "कुल विथ्ड्रॉअल",
+  "allPeople": "विथ्ड्रॉअल संख्या",
+  "fee": "फीस"
 }

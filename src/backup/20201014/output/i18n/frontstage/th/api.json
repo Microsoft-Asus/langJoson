@@ -1,19 +1,17 @@
 {
   "code": {
-    "100": "",
-    "101": "",
-    "102": "",
-    "103": "",
-    "104": "",
-    "105": "",
-    "300": "",
-    "MemberAccountExist": "",
-    "MemberAccountLoginRepeatedly": "",
-    "MemberAccountFreezeOrDisable": "",
-    "VerificationCodeError": "",
-    "MemberLoginIpBlocked": "",
-    "MemberAccountOrPasswordError": "",
-    "MemberAccountNotExist": "",
-    "MemberAgentLinkError": ""
+    "100": "มีบัญชีสมาชิกอยู่",
+    "101": "ไม่มีบัญชีสมาชิก",
+    "102": "บัญชีสมาชิกเข้าสู่ระบบซ้ำ",
+    "103": "บัญชีสมาชิกถูกระงับ / ปิดการใช้งาน",
+    "104": "IP เข้าสู่ระบบสมาชิกถูกบล็อก / ปิดใช้งาน",
+    "300": "เกิดข้อผิดพลาดในการยืนยันรหัส",
+    "MemberAccountExist": "มีบัญชีสมาชิกอยู่",
+    "MemberAccountLoginRepeatedly": "บัญชีสมาชิกเข้าสู่ระบบซ้ำ",
+    "MemberAccountFreezeOrDisable": "บัญชีสมาชิกถูกระงับ / ปิดการใช้งาน",
+    "VerificationCodeError": "เกิดข้อผิดพลาดในการยืนยันรหัส",
+    "MemberLoginIpBlocked": "IP เข้าสู่ระบบสมาชิกถูกบล็อก / ปิดใช้งาน",
+    "MemberAccountOrPasswordError": "บัญชีสมาชิกหรือรหัสผ่านไม่ถูกต้อง",
+    "MemberAccountNotExist": "ไม่มีบัญชีสมาชิก"
   }
 }

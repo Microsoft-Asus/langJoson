@@ -14,7 +14,7 @@
     "nickname": "change nickname",
     "setPassword": "Setting login password",
     "phoneCode": "Please enter SMS verification code",
-    "PhoneOrEmail": "Email / Account",
+    "PhoneOrEmail": "Phone / Email / Account",
     "password": "Please enter your password",
     "account": "please enter your account",
     "newPhone": "enter new phone number",
@@ -38,7 +38,7 @@
     "PasswdLogin": "Password login",
     "PhoneLogin": "SMS login",
     "transferAmount": "Transfer amount",
-    "fundsPassword": ""
+    "fundsPassword": "Fund password"
   },
   "button": {
     "Add": "Add",
@@ -52,7 +52,7 @@
     "deposit": "Add credit",
     "transfer": "Transfer",
     "withdrawal": "Withdrawal",
-    "reset": "",
+    "reset": "Reset",
     "send": "send"
   }
 }

@@ -38,7 +38,7 @@
       "ValidAmount": "有效投注",
       "WinLossAmount": "输赢金额",
       "PayoutAmount": "派彩金额",
-      "GameType": ""
+      "GameType": "@:user.gamePlatform"
     },
     "pickGamePlatform": "选择平台"
   },
@@ -52,31 +52,31 @@
   "securitySetting": {
     "Phone": {
       "label": "手机号码",
-      "remark": "通过接收手机短信来登录账号，账户资金变动通知，并在账号有疑似异常操作时接收提示信息。",
+      "remark": "绑定手机，提高帐户的安全性。",
       "modifySuccessMsg": "重置手机成功",
-      "modifyFailingMsg": ""
+      "modifyFailingMsg": "重置手机失败"
     },
     "Email": {
       "label": "邮箱",
       "modifySuccessMsg": "重置信箱成功",
-      "remark": "通过邮箱来登录账号，账户资金变动通知，并在账号有疑似异常操作时接收提示信息。",
-      "modifyFailingMsg": ""
+      "remark": "绑定邮箱，提高帐户的安全性。",
+      "modifyFailingMsg": "重置邮箱失败"
     },
     "Password": {
       "label": "登录密码",
       "modifySuccessMsg": "重置登录密码成功",
-      "remark": "设置密码，登录时可使用密码登录。",
-      "mifyFailingMsg": ""
+      "remark": "建议玩家不定时的修改登录密码，可提高帐号的安全性。",
+      "mifyFailingMsg": "重置登录密码失败"
     },
     "FundsPassword": {
       "label": "资金密码",
       "modifySuccessMsg": "重置资金密码成功",
-      "remark": "设置提款密码，保障资金安全。",
+      "remark": "建议玩家不定时的修改资金密码，可提高帐号的安全性。",
       "settingSuccessMsg": "设置资金密码成功",
-      "mifyFailingMsg": "",
-      "settingFailingMsg": ""
+      "mifyFailingMsg": "重置资金密码失败",
+      "settingFailingMsg": "设置资金密码失败"
     },
-    "modifyFailingMsg": ""
+    "modifyFailingMsg": "修改失败"
   },
   "BankCard": {
     "addBankCard": "添加银行卡"
@@ -105,7 +105,7 @@
     "UnionPayQrCode": "银联扫码",
     "OnlinePayment": "線上支付",
     "UnionPay": "云闪付",
-    "BqPay": ""
+    "BqPay": "BQPay"
   },
   "transfer": {
     "transferFrom": "转出",
@@ -149,7 +149,7 @@
     "MonthlyValidBetAmount": "月累计有效投注"
   },
   "userAccount": {
-    "otherWallets": "其他钱包"
+    "otherWallets": "其他钱包余额"
   },
   "QQcode": "QQ号码",
   "oneClick": {
@@ -194,15 +194,15 @@
     "DepositBankCard": "入款-银行卡",
     "CenterToRmg": "[中心钱包]转[大富翁棋牌]",
     "FastBetToCenter": "[FastBet]转[中心钱包]",
-    "CenterToSaba": "[中心钱包]转[SABA沙巴]",
+    "CenterToSaba": "[中心钱包]转[SABA]",
     "CenterToRgBoard": "[中心钱包]转[RgBoardGame]",
     "CenterToTm": "[中心钱包]转[天美棋牌]",
     "EgToCenter": "[EG]转[中心钱包]",
     "DepositFee": "入款手续费",
-    "CenterToWm": "[中心钱包]转[WM真人百家乐]",
+    "CenterToWm": "[中心钱包]转[WM]",
     "Other": "其他",
     "IboToCenter": "[IBO]转[中心钱包]",
-    "KaToCenter": "[KA游戏]转[中心钱包]",
+    "KaToCenter": "[KA]转[中心钱包]",
     "DepositThirdParty": "入款-第三方",
     "MgPlusToCenter": "[MG+]转[中心钱包]",
     "DepositDailyReward": "入款-日返水",
@@ -227,7 +227,7 @@
     "SaToCenter": "[沙龙]转[中心钱包]",
     "TmToCenter": "[天美棋牌]转[中心钱包]",
     "WithdrawalFee": "出款手续费",
-    "WmToCenter": "[WM真人百家乐]转[中心钱包]",
+    "WmToCenter": "[WM]转[中心钱包]",
     "ArtificialDepositPromotions": "人工存入-活动优惠",
     "ArtificialDeposit": "人工存入",
     "AgToCenter": "[AG亚游]转[中心钱包]",
@@ -245,7 +245,7 @@
     "BatchDeposit": "批次存入",
     "BatchDepositExcludProfitAndLoss": "批次存入-排除盈亏",
     "BatchDepositPromotions": "批次存入-活动优惠",
-    "BbinToCenter": "[NewBBIN波音]转[中心钱包]",
+    "BbinToCenter": "[NewBBIN]转[中心钱包]",
     "Bet": "下注",
     "BetCanceled": "未接受注单",
     "BetDeleted": "注销",
@@ -254,11 +254,11 @@
     "BqDeposit": "BQ入款",
     "CenterToAg": "[中心钱包]转[AG]",
     "CenterToAvia": "[中心钱包]转[泛亚电竞]",
-    "CenterToBbin": "[中心钱包]转[NewBBIN波音]",
+    "CenterToBbin": "[中心钱包]转[NewBBIN]",
     "CenterToEg": "[中心钱包]转[EG]",
     "CenterToFastBet": "[中心钱包]转[FastBet]",
     "CenterToIbo": "[中心钱包]转[IBO]",
-    "CenterToKa": "[中心钱包]转[KA游戏]",
+    "CenterToKa": "[中心钱包]转[KA]",
     "CenterToKk": "[中心钱包]转[KK彩票]",
     "CenterToLc": "[中心钱包]转[龙城]",
     "CenterToRgLottery": "[中心钱包]转[RgLottery]",
@@ -279,5 +279,5 @@
     "setSuccessMessage": "您已成功设定登入密码，请重新 {0}",
     "validEmailMessage": "重置密码连结已送到您的信箱，请至个人信箱点选连结"
   },
-  "recordInfoNumTime": ""
+  "recordInfoNumTime": "@:user.gamePlatform"
 }

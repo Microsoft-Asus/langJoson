@@ -29,6 +29,14 @@
   "Proportion": "",
   "SignedProportion": "",
   "CreateLinkTipMessage": "",
+  "ContractProportion": "",
+  "BetInfo": "",
+  "BetTaget": "",
+  "TeamBenefitAmount": "",
+  "pickIdentity": "",
+  "AddChildTipMessage": "",
+  "signWithMember": "",
+  "GenerateLink": "",
   "dashboard": {
     "TeamBalance": "",
     "title": "",
@@ -40,14 +48,6 @@
     "TeamValidBetAmount": "",
     "TeamWithdrawalAmount": ""
   },
-  "ContractProportion": "",
-  "BetInfo": "",
-  "BetTaget": "",
-  "TeamBenefitAmount": "",
-  "pickIdentity": "",
-  "AddChildTipMessage": "",
-  "signWithMember": "",
-  "GenerateLink": "",
   "CurrentQuota": "",
   "contractReport": {
     "column": {

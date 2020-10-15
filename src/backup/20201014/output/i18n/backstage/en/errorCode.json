@@ -35,6 +35,5 @@
   "SubItemExist": "Sub Item Exist",
   "GameCodeExist": "Game Code Exist",
   "BankAccountExist": "Bank Account Exist",
-  "Forbidden": "Forbidden",
-  "AuditNotCleared": "Audit note cleared"
+  "Forbidden": "Forbidden"
 }

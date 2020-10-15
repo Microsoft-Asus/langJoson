@@ -1,283 +1,273 @@
 {
   "depositRecord": {
     "column": {
-      "CreatedTime": "",
-      "TransNumber": "",
-      "Channel": "",
-      "Amount": "",
-      "Fee": "",
-      "ActualReceiveAmount": ""
+      "CreatedTime": "Ngày tháng nạp tiền",
+      "TransNumber": "Số đơn nạp tiền",
+      "Channel": "Đường kênh nạp tiền",
+      "Amount": "Số tiền nạp",
+      "Fee": "Phí thực hiện",
+      "ActualReceiveAmount": "Số tiền thực thu"
     }
   },
   "transferRecord": {
     "column": {
-      "CreatedTime": "",
-      "Amount": "",
-      "From": "",
-      "To": "",
-      "TransNumber": ""
+      "CreatedTime": "Ngày tháng chuyển khoản",
+      "Amount": "Số tiền chuyển khoản",
+      "From": "Chuyển ra",
+      "To": "Chuyển vào",
+      "TransNumber": "Số đơn chuyển khoản"
     }
   },
   "withdrawalRecord": {
     "column": {
-      "CreatedTime": "",
-      "TransNumber": "",
-      "BankCardNumber": "",
-      "Amount": "",
-      "WithdrawalAmount": "",
-      "Subtotal": "",
-      "Fee": "",
-      "ActualWithdrawalAmount": ""
+      "CreatedTime": "Ngày rút tiền",
+      "TransNumber": "Mã số đơn rút tiền",
+      "BankCardNumber": "Thẻ rút tiền mặt",
+      "Amount": "Số tiền rút",
+      "WithdrawalAmount": "Số tiền điền đơn",
+      "Subtotal": "Số tiền thực tế",
+      "Fee": "Phí thực hiện",
+      "ActualWithdrawalAmount": "Số tiền thực tế"
     }
   },
   "betRecord": {
     "column": {
-      "CreatedTime": "",
-      "BetNumber": "",
-      "BetAmount": "",
-      "ValidAmount": "",
-      "WinLossAmount": "",
-      "PayoutAmount": "",
-      "GameType": ""
+      "CreatedTime": "Ngày tháng đặt cược",
+      "BetNumber": "Mã số đơn đặt cược (số đơn giao dịch)",
+      "BetAmount": "Số tiền đặt cược",
+      "ValidAmount": "Đặt cược có hiệu lực",
+      "WinLossAmount": "Số tiền thắng hoặc thua",
+      "PayoutAmount": "Số tiền thưởng được phát",
+      "GameType": "@:user.gamePlatform"
     },
-    "pickGamePlatform": ""
+    "pickGamePlatform": "Chọn diễn đàn"
   },
   "promotionRecord": {
     "column": {
-      "CreatedTime": "",
-      "TransNumber": "",
-      "Amount": ""
+      "CreatedTime": "Thời gian vào tài khoản",
+      "TransNumber": "Số đơn",
+      "Amount": "Số tiền"
     }
   },
   "securitySetting": {
     "Phone": {
-      "label": "",
-      "remark": "",
-      "modifySuccessMsg": "",
-      "modifyFailingMsg": ""
+      "label": "Số điện thoại di động",
+      "remark": "Ràng buộc với điện thoại d i động, nâng cao tính an toàn của tài khoản.",
+      "modifySuccessMsg": "Thiết lập lại điện thoại di động thành công",
+      "modifyFailingMsg": "Thiết lập lại số điện thoại di động không thành công"
     },
     "Email": {
-      "label": "",
-      "remark": "",
-      "modifySuccessMsg": "",
-      "modifyFailingMsg": ""
+      "label": "Hòm thư điện tử",
+      "remark": "Ràng buộc với hòm thư điện tử, nâng cao tính an toàn của tài khoản.",
+      "modifySuccessMsg": "Thiết lập lại hòm thư điện tử thành công",
+      "modifyFailingMsg": "Thiết lập lại hòm thư điện tử không thành công"
     },
     "Password": {
-      "label": "",
-      "remark": "",
-      "modifySuccessMsg": "",
-      "mifyFailingMsg": ""
+      "label": "Đăng nhập mật khẩu",
+      "remark": "Khuyến nghị người chơi sửa đổi mật khẩu đăng nhập không định kỳ, có thể nâng cao tính an toàn của số tài khoản.",
+      "modifySuccessMsg": "Thiết lập lại mật khẩu đăng nhập thành công",
+      "mifyFailingMsg": "Thiết lập lại mật khẩu đăng nhập không thành công"
     },
     "FundsPassword": {
-      "label": "",
-      "remark": "",
-      "modifySuccessMsg": "",
-      "settingSuccessMsg": "",
-      "mifyFailingMsg": "",
-      "settingFailingMsg": ""
+      "label": "Mật khẩu vốn quỹ",
+      "remark": "Khuyến nghị người chơi sửa đổi mật khẩu vốn quỹ không định kỳ, có thể nâng cao tính an toàn của số tài khoản.",
+      "modifySuccessMsg": "Thiết lập lại mật khẩu vốn quỹ thành công.",
+      "settingSuccessMsg": "Thiết lập mật khẩu vốn quỹ thành công.",
+      "mifyFailingMsg": "Thiết lập lại mật khẩu vốn quỹ không thành công",
+      "settingFailingMsg": "Thiết lập mật khẩu vốn quỹ không thành công"
     },
-    "modifyFailingMsg": ""
+    "modifyFailingMsg": "Sửa đổi không thành công"
   },
   "BankCard": {
-    "addBankCard": ""
+    "addBankCard": "Thêm thẻ ngân hàng"
   },
   "DailyRewordRecord": {
     "column": {
-      "CreatedTime": "",
-      "Amount": "",
-      "RewardAmount": ""
+      "CreatedTime": "Ngày tháng",
+      "Amount": "Số tiền đặt cược",
+      "RewardAmount": "Số tiền thưởng đặt cược"
     }
   },
   "deposit": {
-    "BankCardTransfer": "",
-    "depositAmountRange": "",
+    "BankCardTransfer": "Chuyển khoản bằng thẻ ngân hàng",
+    "depositAmountRange": "Số tiền nạp một lần từ ${min} - ${max}",
     "bankcardOrderRemind": [
-      "",
-      ""
+      "Thẻ ngân hàng nhận tiền này chỉ áp dụng cho đơn đặt nạp tiền lần này, lần nạp sau cần phải giao nộp lại thông tin nạp tiền!",
+      "Xin vui lòng đăng nhập vào ngân hàng mạng hoặc ngân hàng điện thoại di động để hoàn thành chuyển khoản."
     ],
-    "goCheckDepositRecord": "",
-    "noneAnyPaymentWay": ""
+    "goCheckDepositRecord": "Vào {0} để tra cứu thông tin đơn đặt nạp tiền.",
+    "noneAnyPaymentWay": "Chưa cung cấp bất kỳ phương thức nạp tiền nào."
   },
   "TppPaymentTypeEnum": {
-    "Alipay": "",
-    "WeChatPay": "",
-    "JingdongQrCode": "",
-    "UnionPayQrCode": "",
-    "OnlinePayment": "",
-    "UnionPay": "",
-    "BqPay": ""
+    "Alipay": "Alipay",
+    "WeChatPay": "Thanh toán qua WeChat",
+    "JingdongQrCode": "Thanh toán qua JingDong",
+    "UnionPayQrCode": "Quẹt mã QR UnionPay",
+    "OnlinePayment": "Thanh toán trực tuyến",
+    "UnionPay": "Thanh toán nhanh",
+    "BqPay": "BQPay"
   },
-  "QQcode": "",
-  "mainWallet": "",
+  "QQcode": "Mã số QQ",
+  "mainWallet": "Túi tiền trung tâm",
   "transfer": {
-    "transferFrom": "",
-    "transferTo": "",
-    "doTransfer": "",
+    "transferFrom": "Chuyển ra",
+    "transferTo": "Chuyển vào",
+    "doTransfer": "Chuyển khoản ngay",
     "msg": {
-      "successfulTransfer": "",
-      "transferFailed": ""
+      "successfulTransfer": "Chuyển khoản thành công",
+      "transferFailed": "Chuyển khoản không thành công"
     },
-    "transAmount": ""
+    "transAmount": "Số tiền chuyển khoản"
   },
-  "securitySettings": "",
+  "securitySettings": "Thiết lập an toàn",
   "withdrawal": {
-    "fundsPasswdNotFoundMsg": "",
-    "bankCardNotFoundMsg": "",
-    "numberOfremainingWithdrawals": "",
-    "debitCard": "",
-    "withdrawableMsg": "",
-    "noWithdrawalMsg": "",
+    "fundsPasswdNotFoundMsg": "Thiết lập mật khẩu vốn quỹ, sau đó mới được rút tiền!",
+    "bankCardNotFoundMsg": "Thêm thẻ ngân hàng của bạn",
+    "numberOfremainingWithdrawals": "Số lần rút tiền miễn phí còn lại",
+    "debitCard": "Thẻ ngân hàng chuyển vào",
+    "withdrawableMsg": "Lượng đánh mã có hiệu lực đã phù hợp với điểm kiểm toán loại bỏ, có thể tiến hành rút tiền.",
+    "noWithdrawalMsg": "Lượng đánh mã có hiệu lực không phù hợp với điểm kiểm toán loại bỏ, không thể rút tiền.",
     "withdrawalCheck": {
-      "title": ""
+      "title": "Rút số tiền {0} vào thẻ ngân hàng"
     },
     "validate": {
-      "title": ""
+      "title": "Nghiệm chứng rút tiền"
     }
   },
-  "fundsPassword": "",
-  "modifyBankCardHolderNameMsg": "",
+  "fundsPassword": "Mật khẩu vốn quỹ",
+  "modifyBankCardHolderNameMsg": "Sửa đổi họ tên người giữ thẻ, xin vui lòng liên hệ với Dịch vụ Khách hàng.",
   "EmailEditDialog": {
-    "title": ""
+    "title": "Sửa đổi hòm thư điện tử"
   },
   "ModifyFundsPasswordDialog": {
-    "title": "",
-    "currentFundsPassword": "",
-    "confirmFundsPassword": ""
+    "title": "Thiết lập mật khẩu vốn quỹ",
+    "currentFundsPassword": "Mật khẩu vốn quỹ hiện tại",
+    "confirmFundsPassword": "Xác nhận mật khẩu vốn quỹ mới"
   },
   "vip": {
-    "MonthlyValidBetAmount": "",
-    "MonthlyRiseVipDepositAmount": "",
-    "MonthlyKeepVipDepositAmount": ""
+    "MonthlyValidBetAmount": "Đặt cược có hiệu lực tích lũy hàng tháng",
+    "MonthlyRiseVipDepositAmount": "Số tiền gửi tích lũy hàng tháng",
+    "MonthlyKeepVipDepositAmount": "Yêu cầu duy trì cấp hạng tích lũy hàng tháng"
   },
   "userAccount": {
-    "otherWallets": ""
+    "otherWallets": "Số dư túi tiền khác"
   },
   "oneClick": {
-    "label": "",
+    "label": "Thu về bằng một nhấp",
     "caption": {
-      "noTransferableWallet": "",
-      "clickAgainForCancel": "",
-      "transAllBackToCenter": "",
-      "syncFetchingBalance": ""
+      "noTransferableWallet": "Không có túi tiền có thể chuyển khoản",
+      "clickAgainForCancel": "Tiến hành sau 3 giây, nhấp lại để hủy bỏ.",
+      "transAllBackToCenter": "Chuyển khoản toàn bộ về túi tiền trung tâm",
+      "syncFetchingBalance": "Đang đồng bộ số dư túi tiền"
     }
   },
   "ModifyPasswordDialog": {
-    "title": ""
+    "title": "Sửa đổi mật khẩu đăng nhập"
   },
   "ModifyPhoneDialog": {
-    "title": ""
+    "title": "Sửa đổi số điện thoại di động"
   },
   "letter": {
     "column": {
-      "IsRead": "",
-      "Title": "",
-      "CreatedTime": ""
+      "IsRead": "Đã đọc",
+      "Title": "Tiêu đề",
+      "CreatedTime": "Thời gian đăng lên"
     },
     "messages": {
-      "confirmRemove": ""
+      "confirmRemove": "Có chắc chắn muốn di rời lá thư hay không?"
     },
-    "hasUnreadLetter": ""
+    "hasUnreadLetter": "Thư chưa đọc"
   },
   "changeRecord": {
     "column": {
-      "TransNumber": "",
-      "CreatedTime": "",
-      "DiffBalance": "",
-      "AfterBalance": ""
+      "TransNumber": "Số đơn",
+      "CreatedTime": "Ngày tháng thay đổi",
+      "DiffBalance": "Số tiền giao dịch",
+      "AfterBalance": "Số dư giao dịch"
     }
   },
   "changeRecordType": {
-    "CenterToPg": "",
-    "CenterToPt": "",
-    "ChildDeposit": "",
-    "CenterToVr": "",
-    "DepositBankCard": "",
-    "CenterToRmg": "",
-    "FastBetToCenter": "",
-    "CenterToSaba": "",
-    "CenterToRgBoard": "",
-    "CenterToTm": "",
-    "EgToCenter": "",
-    "DepositFee": "",
-    "CenterToWm": "",
-    "Other": "",
-    "IboToCenter": "",
-    "KaToCenter": "",
-    "DepositThirdParty": "",
-    "MgPlusToCenter": "",
-    "DepositDailyReward": "",
-    "ParentDeposit": "",
-    "LcToCenter": "",
-    "KkToCenter": "",
-    "NwgToCenter": "",
-    "PgToCenter": "",
-    "Undefined": "",
-    "PtToCenter": "",
-    "WithdrawalReject": "",
-    "RgBoardToCenter": "",
-    "WithdrawalPromotions": "",
-    "Withdrawal": "",
-    "WalletAuditArtificialReset": "",
-    "VrToCenter": "",
-    "SabaToCenter": "",
-    "RmgToCenter": "",
-    "WalletAuditSystemReset": "",
-    "RgLotteryToCenter": "",
-    "PsToCenter": "",
-    "SaToCenter": "",
-    "TmToCenter": "",
-    "WithdrawalFee": "",
-    "WmToCenter": "",
-    "ArtificialWithdrawal": "",
-    "ArtificialDeposit": "",
-    "ArtificialDepositPromotions": "",
-    "BatchDeposit": "",
-    "BatchDepositPromotions": "",
-    "AgentStrategyRebate": "",
-    "AgentStrategyWage": "",
-    "AgentStrategyDividend": "",
-    "BatchDepositExcludProfitAndLoss": "",
-    "ArtificialWithdrawalExcludProfitAndLoss": "",
-    "ArtificialDepositExcludProfitAndLoss": "",
-    "AgentStrategyCommission": "",
-    "AgentStrategyOther": "",
-    "AgentStrategyDepositBonus": "",
-    "AllMemberSearchEnd": "",
-    "Bet": "",
-    "BetCanceled": "",
-    "BetFinished": "",
-    "BetModified": "",
-    "BetDeleted": "",
-    "CenterToAg": "",
-    "AgToCenter": "",
-    "CenterToBbin": "",
-    "BbinToCenter": "",
-    "CenterToRgLottery": "",
-    "CenterToFastBet": "",
-    "CenterToPs": "",
-    "CenterToAvia": "",
-    "AviaToCenter": "",
-    "CenterToEg": "",
-    "CenterToIbo": "",
-    "CenterToKk": "",
-    "CenterToKa": "",
-    "CenterToMgPlus": "",
-    "CenterToLc": "",
-    "CenterToNwg": "",
-    "CenterToSa": "",
-    "BqDeposit": ""
+    "CenterToPg": "[Túi tiền trung tâm] chuyển qua [PG]",
+    "CenterToPt": "[Túi tiền trung tâm] chuyển qua [PT]",
+    "ChildDeposit": "Nạp tiền cấp dưới",
+    "CenterToVr": "[Túi tiền trung tâm] chuyển qua [VR]",
+    "DepositBankCard": "Gửi tiền – Thẻ ngân hàng",
+    "CenterToRmg": "[Túi tiền trung tâm] chuyển qua [RMG]",
+    "FastBetToCenter": "[FastBet] chuyển qua [Túi tiền trung tâm]",
+    "CenterToSaba": "[Túi tiền trung tâm] chuyển qua [SABA]",
+    "CenterToRgBoard": "[Túi tiền trung tâm] chuyển qua [RgBoardGame]",
+    "CenterToTm": "[Túi tiền trung tâm] chuyển qua [TM]",
+    "EgToCenter": "[EG] chuyển qua [Túi tiền trung tâm]",
+    "DepositFee": "Phí thực hiện gửi tiền",
+    "CenterToWm": "[Túi tiền trung tâm] chuyển qua [WM]",
+    "Other": "Khác",
+    "IboToCenter": "[IBO] chuyển qua [Túi tiền trung tâm]",
+    "KaToCenter": "[KA] chuyển qua [Túi tiền trung tâm]",
+    "DepositThirdParty": "Gửi tiền – Bên thứ ba",
+    "MgPlusToCenter": "[MG+] chuyển qua [Túi tiền trung tâm]",
+    "DepositDailyReward": "Gửi tiền – Tiền thưởng đặt cược hàng ngày",
+    "ParentDeposit": "Nạp tiền cấp trên",
+    "LcToCenter": "[LC] chuyển qua [Túi tiền trung tâm]",
+    "KkToCenter": "[KK] chuyển qua [Túi tiền trung tâm]",
+    "NwgToCenter": "[NWG] chuyển qua [Túi tiền trung tâm]",
+    "PgToCenter": "[PG] chuyển qua [Túi tiền trung tâm]",
+    "Undefined": "Không xác định",
+    "PtToCenter": "[PT] chuyển qua [Túi tiền trung tâm]",
+    "WithdrawalReject": "Từ chối rút tiền",
+    "RgBoardToCenter": "[RgBoardGame] chuyển qua [Túi tiền trung tâm]",
+    "WithdrawalPromotions": "Hoạt động ưu đãi gửi tiền",
+    "Withdrawal": "Rút tiền",
+    "WalletAuditArtificialReset": "Về 0 thủ công",
+    "VrToCenter": "[VR] chuyển qua [Túi tiền trung tâm]",
+    "SabaToCenter": "[SABA] chuyển qua [Túi tiền trung tâm]",
+    "RmgToCenter": "[RMG] chuyển qua [Túi tiền trung tâm]",
+    "WalletAuditSystemReset": "Hệ thống về 0",
+    "RgLotteryToCenter": "[RgLottery] chuyển qua [Túi tiền trung tâm]",
+    "PsToCenter": "[PS] chuyển qua [Túi tiền trung tâm]",
+    "SaToCenter": "[SA] chuyển qua [Túi tiền trung tâm]",
+    "TmToCenter": "[TM] chuyển qua [Túi tiền trung tâm]",
+    "WithdrawalFee": "Phí thực hiện gửi tiền",
+    "WmToCenter": "[WM] chuyển qua [Túi tiền trung tâm]",
+    "ArtificialWithdrawal": "Rút tiền thủ công",
+    "ArtificialDeposit": "Gửi tiền thủ công",
+    "ArtificialDepositPromotions": "Gửi tiền thủ công – Ưu đãi hoạt động",
+    "BatchDeposit": "Gửi tiền từng đợt",
+    "BatchDepositPromotions": "Gửi tiền theo đợt – Ưu đãi hoạt động",
+    "AgentStrategyRebate": "Sách lược Đại lý – Tiền thưởng đặt cược",
+    "AgentStrategyWage": "Sách lược Đại lý – Tiền lương",
+    "AgentStrategyDividend": "Sách lược Đại lý – Chia lợi nhuận",
+    "BatchDepositExcludProfitAndLoss": "Gửi tiền từng đợt – Loại trừ lãi lỗ",
+    "ArtificialWithdrawalExcludProfitAndLoss": "Rút tiền thủ công – Loại trừ lãi lỗ",
+    "ArtificialDepositExcludProfitAndLoss": "Gửi tiền thủ công – Loại trừ lãi lỗ",
+    "AgentStrategyCommission": "Sách lược Đại lý – Tiền hoa hồng",
+    "AgentStrategyOther": "Sách lược Đại lý – Khác",
+    "AgentStrategyDepositBonus": "Sách lược Đại lý – Thưởng nạp tiền",
+    "AllMemberSearchEnd": "Điều kiện tra cứu toàn bộ hội viên – [Kết thúc]",
+    "Bet": "Đặt cược",
+    "BetCanceled": "Chưa chấp nhận đơn đặt cược",
+    "BetFinished": "Phát tiền thưởng",
+    "BetModified": "Sửa đổi kết toán",
+    "BetDeleted": "Xóa sổ",
+    "CenterToAg": "[Túi tiền trung tâm] chuyển qua [AG]",
+    "AgToCenter": "[AG] chuyển qua [Túi tiền trung tâm]",
+    "CenterToBbin": "[Túi tiền trung tâm] chuyển qua [NewBBIN]",
+    "BbinToCenter": "[NewBBIN] chuyển qua [Túi tiền trung tâm]",
+    "CenterToRgLottery": "[Túi tiền trung tâm] chuyển qua [RgLottery]",
+    "CenterToFastBet": "[Túi tiền trung tâm] chuyển qua [FastBet]",
+    "CenterToPs": "[Túi tiền trung tâm] chuyển qua [PS]",
+    "CenterToAvia": "[Túi tiền trung tâm] chuyển qua [Avia]",
+    "AviaToCenter": "[Avia] chuyển qua [Túi tiền trung tâm]",
+    "CenterToEg": "[Túi tiền trung tâm] chuyển qua [EG]",
+    "CenterToIbo": "[Túi tiền trung tâm] chuyển qua [IBO]",
+    "CenterToKk": "[Túi tiền trung tâm] chuyển qua [KK]",
+    "CenterToKa": "[Túi tiền trung tâm] chuyển qua [KA]",
+    "CenterToMgPlus": "[Túi tiền trung tâm] chuyển qua [MG+]",
+    "CenterToLc": "[Túi tiền trung tâm] chuyển qua [LC]",
+    "CenterToNwg": "[Túi tiền trung tâm] chuyển qua [NWG]",
+    "CenterToSa": "[Túi tiền trung tâm] chuyển qua [SA]",
+    "BqDeposit": "Gửi tiền BQ"
   },
-  "recordInfoNumTimeState": "",
-  "recordInfoNumTime": "",
-  "gamePlatform": "",
-  "resetpasswd": {
-    "stepLabel": {
-      "InputAccount": "",
-      "ValidEmail": "",
-      "SetPasswd": "",
-      "SetSuccess": ""
-    },
-    "setSuccessMessage": "",
-    "validEmailMessage": ""
-  }
+  "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state",
+  "recordInfoNumTime": "@:common.SerialNumber / @:common.time",
+  "gamePlatform": "Diễn đàn trò chơi"
 }

@@ -3,8 +3,8 @@
   "forgetPasswordTip": "",
   "Page404NotFoundSentence": "",
   "HomePage": "",
-  "days": "",
-  "daysShort": "",
+  "days": "रविवार_सोमवार_मंगलवार_बुधवार_गुरूवार_शुक्रवार_शनिवार",
+  "daysShort": "रवि_मोन_मंगल_बुध_गुरू_शुक्र_शनि",
   "months": "",
   "monthsShort": "",
   "county": "",
@@ -89,6 +89,5 @@
   "link": "",
   "measureword": {
     "people": ""
-  },
-  "bankName": ""
+  }
 }

@@ -1,7 +1,7 @@
 {
   "required": "Please fill in this field.",
   "phone": "Please enter the correct cellphone number.",
-  "intOnly": "Only integral numbers are allowed.",
+  "intOnly": "Only integers are allowed",
   "numeral": "Only numbers are allowed.",
   "password": "The password must contain 8 to 18 digits of capital English letters, lowercase English letters and numbers.",
   "email": "Please enter the correct email address format.",

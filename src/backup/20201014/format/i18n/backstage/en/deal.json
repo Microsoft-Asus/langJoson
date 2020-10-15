@@ -2,10 +2,10 @@
   "ParentDeposit": "Parent deposit",
   "ChildDeposit": "Child deposit",
   "AgentStrategyRebate": "Agent strategy rebate",
-  "AgentStrategyWage": "Agent strategy wage",
+  "AgentStrategyWage": "Wage",
   "AgentStrategyDividend": "Agent strategy dividend",
   "AgentStrategyDepositBonus": "Agent strategy deposit bonus",
-  "AgentStrategyCommission": "Agent strategy commission",
+  "AgentStrategyCommission": "Agent commission",
   "AgentStrategyOther": "Agent strategy other",
   "ArtificialDepositExcludProfitAndLoss": "Artificial deposit exclud profit and loss",
   "ArtificialWithdrawalExcludProfitAndLoss": "Artificial withdrawal exclud profit and loss",
@@ -70,7 +70,7 @@
     "OnlinePayment": "Online Payment",
     "UnionPay": "Quick Pass",
     "bankCard": "Bank card",
-    "BqPay": ""
+    "BqPay": "BQPay"
   },
   "bankAcconutName": "Bank account name"
 }

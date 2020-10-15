@@ -41,6 +41,5 @@
   "AgentTxDepositRecord": "团队入款",
   "AgentTxWithdrawalRecord": "团队提款",
   "AgentTeamReport": "团队报表",
-  "AgentContractReport": "契约报表",
-  "ResetPasswd": "重置密码"
+  "AgentContractReport": "契约报表"
 }

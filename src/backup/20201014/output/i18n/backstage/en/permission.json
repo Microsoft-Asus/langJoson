@@ -5,7 +5,7 @@
   "query": "Inquire",
   "export": "Output",
   "Delete": "delete",
-  "Add": "New",
+  "Add": "Add",
   "permissionList": "Permission list",
   "setPermissionCorrespondingUrl": "Set permission corresponding URL",
   "editPermissionCorrespondingApiUrl": "Edit permission corresponding API URL",

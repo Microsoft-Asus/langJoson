@@ -111,7 +111,7 @@
     "verifyError": "驗證碼錯誤",
     "accountDisable": "帳號已停用",
     "accountFrozn": "帳號已凍結",
-    "errorFroznAccount": "密碼/驗證碼錯誤並凍結此帳號",
+    "errorFroznAccount": "密碼/驗證碼錯誤並凍結此賬號帳號",
     "repeatLogin": "重複登入",
     "blockedIP": "登入IP已被阻擋"
   },
@@ -203,5 +203,6 @@
   "all": "全部",
   "announcing": "廣播中",
   "child": "子層",
-  "backstage": "後台"
+  "backstage": "後台",
+  "supportPayType": "支持-支付類型"
 }

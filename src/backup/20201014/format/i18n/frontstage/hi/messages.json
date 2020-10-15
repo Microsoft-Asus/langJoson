@@ -15,8 +15,7 @@
     "success": ""
   },
   "addBankCard": {
-    "success": "",
-    "fail": ""
+    "success": ""
   },
   "confirmLogout": "",
   "withdrawalRequest": {
@@ -30,10 +29,6 @@
   "cannotPlayGame": "",
   "contract": {
     "signingError": ""
-  },
-  "resetpasswd": {
-    "sendLinkEmailError": "",
-    "resetPasswdError": ""
   },
   "removeFailed": "",
   "removeSuccess": "",

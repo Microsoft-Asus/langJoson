@@ -1,5 +1,5 @@
 {
-  "transAmount": "",
-  "transCategory": "",
-  "AgentLinkDeleteTip": ""
+  "transAmount": "Số tiền giao dịch",
+  "transCategory": "Loại hình giao dịch",
+  "AgentLinkDeleteTip": "Trạng thái ngừng dùng mới có thể xóa bỏ"
 }

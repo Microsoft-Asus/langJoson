@@ -42,11 +42,11 @@
     "0": "Undefined",
     "1": "Pending",
     "2": "Successful",
-    "3": "Failed",
+    "3": "Reject Withdrawal",
     "Unknow": "Undefined",
     "Pending": "Pending",
     "Success": "Successful",
-    "Fail": "Fail"
+    "Fail": "refuse"
   },
   "WithdrawlStateEnum": {
     "Pending": "Pending"
@@ -54,7 +54,7 @@
   "Close": "Close",
   "webState": {
     "running": "Running",
-    "BlackList": "Black list",
+    "BlackList": "blacklist",
     "Closed": "Closed"
   },
   "betState": {
@@ -68,6 +68,6 @@
   "Wage": "Wage",
   "Dividend": "Dividend",
   "DepositBonus": "Deposit bonus",
-  "Commission": "Commission",
+  "Commission": "Agent commission",
   "deactivatedDeleted": "Deactivated deleted"
 }

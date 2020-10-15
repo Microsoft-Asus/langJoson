@@ -56,7 +56,7 @@
     "en": "English",
     "zh-tw": "繁体中文",
     "zh-cn": "简体中文",
-    "th": "泰文"
+    "th": "Thai"
   },
   "Signup": "注册",
   "topup": "充值",
@@ -67,7 +67,7 @@
   "unread": "未读",
   "selectAll": "全选",
   "details": "查看详情",
-  "member": "头像",
+  "member": "会员",
   "registerByPhone": "手机注册",
   "registerByEmail": "信箱注册",
   "registerByAccount": "帐号注册",
@@ -78,17 +78,16 @@
   "today": "今天",
   "yesterday": "昨天",
   "otherdate": "其他日期",
-  "tip": "",
-  "signed": "",
-  "unsigned": "",
+  "tip": "温馨提醒",
+  "signed": "已签约",
+  "unsigned": "未签约",
   "unlimit": "无限制",
-  "sign": "",
-  "nextstep": "",
+  "sign": "签约",
+  "nextstep": "下一步",
   "SerialNumber": "单号",
-  "time": "",
-  "link": "",
+  "time": "时间",
+  "link": "链结",
   "measureword": {
-    "people": ""
-  },
-  "bankName": "选择银行"
+    "people": "{0} 人"
+  }
 }

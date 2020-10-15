@@ -35,6 +35,5 @@
   "SubItemExist": "子项目存在",
   "GameCodeExist": "游戏代码存在",
   "BankAccountExist": "银行户存在",
-  "Forbidden": "没有权限",
-  "AuditNotCleared": "稽核点未清空"
+  "Forbidden": "没有权限"
 }

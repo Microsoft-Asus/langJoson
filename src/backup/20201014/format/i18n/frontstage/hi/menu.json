@@ -27,7 +27,6 @@
   "AgentTxTransferRecord": "",
   "AgentTeamReport": "",
   "AgentContractReport": "",
-  "ResetPasswd": "",
   "UserDeposit": "",
   "Live": "",
   "Slots": "",
@@ -37,10 +36,10 @@
   "Home": "",
   "UserBetRecord": "",
   "Promotions": "",
-  "AgentBetRecord": "",
-  "AgentTxWithdrawalRecord": "",
   "UserTransfer": "",
   "UserWithdrawal": "",
   "UserTransRecord": "",
-  "AgentTxRecord": ""
+  "AgentTxRecord": "",
+  "AgentBetRecord": "",
+  "AgentTxWithdrawalRecord": ""
 }

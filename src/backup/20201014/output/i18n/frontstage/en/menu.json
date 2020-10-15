@@ -19,8 +19,8 @@
   "UserAccount": "account information",
   "ESport": "ESport",
   "Sport": "Sport",
-  "Poker": "Poker",
-  "Slots": "Slots",
+  "Poker": "Chess",
+  "Slots": "Slot",
   "Live": "Live",
   "Lottery": "Lottery",
   "AboutLicence": "AboutLicence",
@@ -28,7 +28,7 @@
   "AboutPolicy": "AboutPolicy",
   "AboutHelp": "AboutHelp",
   "UserLetter": "Station Letter",
-  "Fishing": "Fishing game",
+  "Fishing": "Fishing",
   "Agent": "Team center",
   "AgentDashboard": "Team overview",
   "UserChangeRecord": "Change record",
@@ -36,11 +36,10 @@
   "AgentContracts": "Contracts",
   "AgentBetRecord": "Team betting",
   "AgentTxRecord": "Tx record",
-  "AgentTxChangeRecord": "Tx change",
+  "AgentTxChangeRecord": "Record total transaction for the team",
   "AgentTxTransferRecord": "Team transfer",
   "AgentTxDepositRecord": "Team deposit",
   "AgentTxWithdrawalRecord": "Team withdrawal",
   "AgentTeamReport": "Team report",
-  "AgentContractReport": "Contract report",
-  "ResetPasswd": "reset Password"
+  "AgentContractReport": "Contract report"
 }

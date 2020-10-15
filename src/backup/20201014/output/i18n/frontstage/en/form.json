@@ -15,7 +15,7 @@
     "password": "Please enter your password",
     "nickname": "change nickname",
     "setPassword": "Setting login password",
-    "PhoneOrEmail": "Email / Account",
+    "PhoneOrEmail": "Phone / Email / Account",
     "account": "please enter your account",
     "newPhone": "enter new phone number",
     "newPassword": "enter a new login password",
@@ -38,7 +38,7 @@
     "EmailLogin": "Email Login",
     "PasswdLogin": "Password login",
     "transferAmount": "Transfer amount",
-    "fundsPassword": ""
+    "fundsPassword": "Fund password"
   },
   "button": {
     "Add": "Add",
@@ -52,7 +52,6 @@
     "withdrawal": "Withdrawal",
     "transfer": "Transfer",
     "doLogin": "log in immediately",
-    "reset": "",
-    "send": "send"
+    "reset": "Reset"
   }
 }

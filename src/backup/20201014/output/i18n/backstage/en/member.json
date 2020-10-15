@@ -19,8 +19,10 @@
   "systemSetLevel": "System calculation",
   "securitySetting": "Security settings",
   "withdralPassword": "fund password",
-  "modifyDataTips": "Click ",
-  "afterModifyDataTips": "After the user passes the verification, the new mobile phone number/email address will display here.",
+  "modifyDataTips": "Click \"Modify\" and enter the user's new email address, and then click \"Send\" to send a verification notice.",
+  "afterModifyDataTips": "After the user passes the verification, the new email address will display here.",
+  "chooseResetToPhone": "Choose to send a reset letter to your mobile phone.",
+  "chooseResetToMail": "or email",
   "vipTips": "The level upgrade bet amount is calculated based on the effective bet amount from 00:00:00 on the 1st of each month to 23:59:59 on the last day of each month of Beijing time.",
   "delHighestLevel": "Delete the highest level first",
   "cantDelBasicVIP": "The basic VIP level can’t be deleted.",
@@ -44,7 +46,7 @@
   "withdrawlFeeFreeCount": "Withdrawl fee free count",
   "openSetting": "Open Settings",
   "createSubordinate": "Create subordinate",
-  "transferSubordinate": "",
+  "transferSubordinate": "Transfer to the subordinate",
   "EditMemberData": "Edit Member Information",
   "EditBankerCard": "Edit bank card information",
   "ResetBankerCardName": "Reset bank card name",
@@ -56,10 +58,5 @@
   "sameLevel": "Same level",
   "signingContract": "Signing Contract",
   "agentAuthority": "Agent authority",
-  "MemberUrlLink": "Member url link",
-  "face": "",
-  "onlineMemberAccount": "Online member account",
-  "loginPassword": "Login password",
-  "registerCount": "Register count",
-  "copyTips": "{0} will replace the content of other languages"
+  "MemberUrlLink": "Member url link"
 }

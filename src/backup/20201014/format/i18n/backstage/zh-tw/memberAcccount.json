@@ -2,5 +2,6 @@
   "resetConfirmMessage": "發送重置通知至 {0} 嗎？",
   "resetConfirm": "確定重置嗎",
   "pleaseChoose": "請選擇",
-  "sendVerificationMessage": "發送驗證信件至 {0} 嗎？"
+  "sendVerificationMessage": "發送驗證信件至 {0} 嗎？",
+  "sendPhoneVerification": "發送驗證簡訊至{0}"
 }

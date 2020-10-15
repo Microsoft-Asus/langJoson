@@ -45,7 +45,7 @@
   "MemberVIPEditor": "VIP分層編輯",
   "MemberVIPAdder": "VIP分層新建",
   "MemberVIPTable": "VIP分層列表",
-  "RolePermissionTable": "角色權限設置列表",
+  "RolePermissionTable": "角色列表",
   "ManagerAccountTable": "管理者帳號列表",
   "MessageManage": "訊息管理",
   "MessageMarquee": "最新消息",
@@ -122,8 +122,8 @@
   "SystemAccountTable": "管理者帳號列表",
   "SystemAccountAdder": "管理者帳號新增",
   "SystemAccountEditor": "管理者帳號編輯",
-  "SystemRole": "角色權限設置",
-  "SystemRoleTable": "角色權限設置列表",
+  "SystemRole": "角色與權限設置",
+  "SystemRoleTable": "角色與權限設置列表",
   "SystemRoleAdder": "角色新增",
   "SystemRoleEditor": "角色編輯",
   "ProviderLetter": "系統公告設置",
@@ -152,6 +152,5 @@
   "PaymentChannelDepositFee": "充值手續費",
   "PaymentChannelDepositFeeEditor": "充值手續費編輯",
   "ReportAgent": "代理報表",
-  "ProviderLoginRecord": "登入記錄",
-  "ProviderOperateRecord": "操作記錄"
+  "ProviderLoginRecord": "登入記錄"
 }

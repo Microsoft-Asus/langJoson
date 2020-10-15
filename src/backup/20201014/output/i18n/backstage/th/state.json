@@ -1,73 +1,73 @@
 {
   "managerAccount": {
-    "Undefined": "",
-    "Enable": "",
-    "Freeze": "",
-    "Block": "",
-    "Disable": ""
+    "Undefined": "ไม่ได้กำหนด",
+    "Enable": "เปิดใช้งาน",
+    "Freeze": "ทำให้หยุด ",
+    "Block": "บัญชีดำ",
+    "Disable": "ปิดใช้งาน"
   },
   "memberAccount": {
-    "Enable": "",
-    "Freeze": "",
-    "Black": "",
-    "Disable": "",
-    "Undefined": ""
+    "Enable": "เปิดใช้งาน",
+    "Freeze": "ทำให้หยุด ",
+    "Black": "กายการดำ",
+    "Disable": "ปิดใช้งาน",
+    "Undefined": "ไม่ได้กำหนด"
   },
   "MessageMarquee": {
-    "0": "",
-    "1": "",
-    "2": "",
-    "Undefined": "",
-    "Enable": "",
-    "Disable": ""
+    "0": "ไม่ได้กำหนด",
+    "1": "เปิดใช้งาน",
+    "2": "ปิดใช้งาน",
+    "Undefined": "ไม่ได้กำหนด",
+    "Enable": "เปิดใช้งาน",
+    "Disable": "ปิดใช้งาน"
   },
   "Promotions": {
-    "Actived": "",
-    "NotYet": "",
-    "Passed": ""
+    "Actived": "กำลังใช้งาน",
+    "NotYet": "ยังไม่เริ่ม",
+    "Passed": "จบแล้ว"
   },
-  "Enable": "",
-  "Disable": "",
+  "Enable": "เปิดใช้งาน",
+  "Disable": "ปิดใช้งาน",
   "DepositTransStateEnum": {
-    "0": "",
-    "1": "",
-    "2": "",
-    "3": "",
-    "Unknow": "",
-    "Pending": "",
-    "Success": "",
-    "Fail": ""
+    "0": "ไม่ได้กำหนด",
+    "1": "รอตรวจสอบ",
+    "2": "เติมเงินเรียบร้อย",
+    "3": "การเติมเงินล้มเหลว",
+    "Unknow": "ไม่ได้กำหนด",
+    "Pending": "รอตรวจสอบ",
+    "Success": "เติมเงินเรียบร้อย",
+    "Fail": "การเติมเงินล้มเหลว"
   },
   "WithdrawalStateEnum": {
-    "0": "",
-    "1": "",
-    "2": "",
-    "3": "",
-    "Unknow": "",
-    "Pending": "",
-    "Success": "",
-    "Fail": ""
+    "0": "ไม่ได้กำหนด",
+    "1": "รอตรวจสอบ",
+    "2": "ถอนได้สำเร็จ",
+    "3": "ปฏิเสธการจ่ายเงิน",
+    "Unknow": "ไม่ได้กำหนด",
+    "Pending": "รอตรวจสอบ",
+    "Success": "ถอนได้สำเร็จ",
+    "Fail": "ปฏิเสธ"
   },
   "WithdrawlStateEnum": {
-    "Pending": ""
+    "Pending": "รอตรวจสอบ"
   },
-  "Close": "",
+  "Close": "ปิด",
   "webState": {
-    "running": "",
-    "BlackList": "",
-    "Closed": ""
+    "running": "กำลังดำเนินการ",
+    "BlackList": "บัญชีดำ",
+    "Closed": "ปิดแล้ว"
   },
   "betState": {
-    "NotOver": "",
-    "Over": "",
-    "Reversed": "",
-    "Modified": "",
-    "Canceled": ""
+    "NotOver": "ยังไม่ได้ปันผล",
+    "Over": "จ่ายเงินปันผลแล้ว",
+    "Reversed": "ลำดับย้อนกลับ",
+    "Modified": "แก้ไขแล้ว",
+    "Canceled": "ยกเลิกแล้ว"
   },
-  "Rebate": "",
-  "Wage": "",
-  "Dividend": "",
-  "DepositBonus": "",
-  "Commission": "",
-  "deactivatedDeleted": ""
+  "Rebate": "ส่วนลด",
+  "Wage": "ค่าจ้าง",
+  "Dividend": "เงินปันผล",
+  "DepositBonus": "รางวัลการเติมเงิน",
+  "Commission": "ค่าคอมมิชชั่น",
+  "deactivatedDeleted": "ลบการปิดใช้งานแล้ว"
 }

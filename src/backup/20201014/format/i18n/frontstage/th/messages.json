@@ -1,49 +1,44 @@
 {
   "register": {
-    "success": ""
+    "success": "การลงทะเบียนสำเร็จ"
   },
   "sendCode": {
-    "EmailSuccess": "",
-    "PhoneSuccess": "",
-    "EmailPlzCheck": "",
-    "PhonePlzCheck": ""
+    "EmailSuccess": "รหัสยืนยันถูกส่งไปที่อีเมลแล้ว {0}",
+    "PhoneSuccess": "รหัสยืนยันถูกส่งไปที่โทรศัพท์มือถือแล้ว {0}",
+    "EmailPlzCheck": "คุณได้ส่งรหัสยืนยันแล้วโปรดไปที่อีเมลเพื่อรับรหัสยืนยัน",
+    "PhonePlzCheck": "คุณได้ส่งรหัสยืนยันแล้วโปรดไปที่โทรศัพท์มือถือของคุณเพื่อรับรหัสยืนยัน"
   },
   "nicknameModified": {
-    "success": ""
+    "success": "แก้ไขชื่อเล่นเรียบร้อยแล้ว"
   },
   "removeBankCard": {
-    "success": ""
+    "success": "ลบบัตรธนาคารแล้ว"
   },
   "addBankCard": {
-    "success": "",
-    "fail": ""
+    "success": "เพิ่มบัตรธนาคารเรียบร้อยแล้ว"
   },
-  "confirmLogout": "",
+  "confirmLogout": "คุณแน่ใจว่าต้องการที่จะออกจากระบบหรือไม่?",
   "withdrawalRequest": {
-    "success": "",
-    "fail": ""
+    "success": "คุณได้ทำการถอนเงินจำนวน {0} หยวนสำเร็จแล้ว",
+    "fail": "ไม่สามารถเพิ่มคำสั่งถอนได้"
   },
-  "validationCodeSended": "",
-  "cannotUpdateBalance": "",
-  "cannotLoginMsg": "",
-  "cannotRegisterForNow": "",
-  "cannotPlayGame": "",
+  "validationCodeSended": "คุณได้ส่งรหัสยืนยันแล้วโปรดไปที่โทรศัพท์มือถือ / อีเมลเพื่อรับรหัสยืนยัน",
+  "cannotUpdateBalance": "ไม่สามารถรับยอดคงเหลือ",
+  "cannotLoginMsg": "ไม่สามารถเข้าสู่ระบบได้ในขณะนี้โปรดตรวจสอบบัญชีหรือรหัสผ่านของคุณ",
+  "cannotRegisterForNow": "ไม่สามารถลงทะเบียนได้ในขณะนี้",
+  "cannotPlayGame": "ตอนนี้ไม่สามารถเข้าสู่ระบบเกมได้",
   "contract": {
-    "signingError": ""
+    "signingError": "เกิดข้อผิดพลาดขณะเซ็นสัญญา"
   },
-  "resetpasswd": {
-    "sendLinkEmailError": "",
-    "resetPasswdError": ""
-  },
-  "removeFailed": "",
-  "removeSuccess": "",
-  "addChildMemberSuccess": "",
-  "addChildMemberFailed": "",
-  "editSuccessMsg": "",
+  "removeFailed": "ลบ {0}ไม่สำเร็จ",
+  "removeSuccess": "ลบ {0} สำเร็จ",
+  "addChildMemberSuccess": "เพิ่มเป็นสมาชิก {0} เรียบร้อยแล้ว",
+  "addChildMemberFailed": "ไม่สามารถเพิ่มสมาชิกได้หรือมีบัญชีอยู่แล้ว",
+  "editSuccessMsg": "แก้ไขเรียบร้อยแล้ว",
   "depositByTpp": {
-    "fail": ""
+    "fail": "ไม่สามารถฝากเงินได้ในขณะนี้โปรดลองอีกครั้งใน {0} นาที"
   },
   "depositByBankCard": {
-    "fail": ""
+    "fail": "ไม่สามารถฝากเงินได้ในขณะนี้โปรดลองอีกครั้งใน {0} นาที"
   }
 }

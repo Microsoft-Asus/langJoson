@@ -198,11 +198,9 @@
   "move": "移動",
   "WeChat": "微信",
   "langs": {
-    "en": "English",
+    "en": "英文",
+    "zh-cn": "簡體中文",
     "zh-tw": "繁體中文",
-    "vn": "越南文",
-    "inr": "印度文",
-    "zh-cn": "简体中文",
     "th": "泰文"
   },
   "backToPreviousLevel": "返回上層",
@@ -223,20 +221,5 @@
   "notSettled": "未結算",
   "catalog": "目錄",
   "block": "區塊",
-  "list": "列表",
-  "default": "預設",
-  "searchDateRange": "搜尋範圍: {0}{1}內",
-  "unitWeek": "週",
-  "countryCode": "國碼",
-  "languages": {
-    "en": "英文",
-    "zh-cn": "簡體中文",
-    "zh-tw": "繁體中文",
-    "vi": "越南文",
-    "th": "泰文",
-    "hi": "印度文"
-  },
-  "copy": "複製",
-  "replaceSuccessfully": "取代成功",
-  "decimalPointLimit": "最多小數點後 {0} 位數"
+  "list": "列表"
 }

@@ -16,8 +16,7 @@
     "success": ""
   },
   "addBankCard": {
-    "success": "",
-    "fail": ""
+    "success": ""
   },
   "confirmLogout": "",
   "withdrawalRequest": {
@@ -42,9 +41,5 @@
   "removeFailed": "",
   "removeSuccess": "",
   "addChildMemberSuccess": "",
-  "addChildMemberFailed": "",
-  "resetpasswd": {
-    "sendLinkEmailError": "",
-    "resetPasswdError": ""
-  }
+  "addChildMemberFailed": ""
 }

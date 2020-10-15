@@ -269,15 +269,5 @@
   },
   "recordInfoNumTimeState": "",
   "recordInfoNumTime": "",
-  "gamePlatform": "",
-  "resetpasswd": {
-    "stepLabel": {
-      "InputAccount": "",
-      "ValidEmail": "",
-      "SetPasswd": "",
-      "SetSuccess": ""
-    },
-    "setSuccessMessage": "",
-    "validEmailMessage": ""
-  }
+  "gamePlatform": ""
 }

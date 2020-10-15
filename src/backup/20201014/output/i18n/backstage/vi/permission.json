@@ -1,13 +1,13 @@
 {
-  "execute": "",
-  "View": "",
-  "Edit": "",
-  "query": "",
-  "export": "",
-  "Delete": "",
-  "Add": "",
-  "permissionList": "",
-  "setPermissionCorrespondingUrl": "",
-  "editPermissionCorrespondingApiUrl": "",
+  "execute": "Tiến hành",
+  "View": "Tra cứu",
+  "Edit": "Biên tập",
+  "query": "Tra cứu",
+  "export": "Cho ra",
+  "Delete": "Xóa bỏ",
+  "Add": "Thêm",
+  "permissionList": "Bảng liệt kê quyền hạn",
+  "setPermissionCorrespondingUrl": "Thiết lập địa chỉ trang web đối ứng quyền hạn",
+  "editPermissionCorrespondingApiUrl": "Biên tập địa chỉ trang web API đối ứng quyền hạn",
   "ifMultipleUrlCorrespondencePleaseUseRegularExpression ": "undefined"
 }

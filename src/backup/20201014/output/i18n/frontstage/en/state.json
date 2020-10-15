@@ -67,14 +67,14 @@
   "Agent": {
     "BenefitSharingSourceEnum": {
       "0": "Undefined",
-      "1": "Valid bet",
-      "2": "Negative profit",
-      "3": "Negative profit (uneven accounts)",
+      "1": "Valid betting",
+      "2": "Negative carry (balanced)",
+      "3": "Negative carry (unbalanced)",
       "4": "Recharge",
       "Undefined": "Undefined",
-      "BetAviliable": "Valid bet",
-      "WinLose": "Negative profit",
-      "Lose": "Negative profit (uneven accounts)",
+      "BetAviliable": "Valid betting",
+      "WinLose": "Negative carry (balanced)",
+      "Lose": "Negative carry (unbalanced)",
       "Deposit": "Recharge"
     },
     "SettlementCategoryEnum": {
@@ -119,16 +119,16 @@
     "2": "Slot",
     "3": "Lottery",
     "4": "Sport",
-    "5": "Gaming",
-    "6": "Poker",
+    "5": "ESport",
+    "6": "Chess",
     "7": "Fishing",
     "Live": "Live",
     "Slot": "Slot",
     "Lottery": "Lottery",
     "Sport": "Sport",
-    "Gaming": "Gaming",
-    "Chess": "Poker",
-    "Poker": "Poker",
+    "Gaming": "ESport",
+    "Chess": "Chess",
+    "Poker": "Chess",
     "Fishing": "Fishing",
     "ESport": "ESport"
   }

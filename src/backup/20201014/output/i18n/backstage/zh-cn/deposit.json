@@ -41,7 +41,5 @@
   "webmasterRate": "商户费率",
   "depositToWallet": "存入钱包",
   "deposits": "存入金额",
-  "searchTips": "常态稽核时『有效总投注』需 ≧『存入金额』，才可申请岀款",
-  "receiveAmount": "接收金额",
-  "receivedAmount": "到账金额"
+  "searchTips": "常态稽核时『有效总投注』需 ≧『存入金额』，才可申请岀款"
 }

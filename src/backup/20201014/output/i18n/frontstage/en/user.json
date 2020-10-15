@@ -38,7 +38,7 @@
       "ValidAmount": "Valid betting",
       "WinLossAmount": "Amount of winning or losing",
       "PayoutAmount": "Payout amount",
-      "GameType": ""
+      "GameType": "@:user.gamePlatform"
     },
     "pickGamePlatform": "Choose a platform"
   },
@@ -51,32 +51,32 @@
   },
   "securitySetting": {
     "Phone": {
-      "label": "mobile phone number",
-      "remark": "By receiving a text message from your mobile phone to log in your account, you can receive notifications of changes in account funds and receive a prompt message when the account is suspected of abnormal operation.",
+      "label": "phone number",
+      "remark": "You need to bind your mobile phone to your account to improve the security level. ",
       "modifySuccessMsg": "Reset phone successfully",
-      "modifyFailingMsg": ""
+      "modifyFailingMsg": "Phone number reset failed"
     },
     "Email": {
-      "label": "mailbox",
-      "remark": "By using email address to log in your account, you can receive notifications of changes in account funds and receive a prompt message when the account is suspected of abnormal operation.",
-      "modifySuccessMsg": "Email reset succeeded",
-      "modifyFailingMsg": ""
+      "label": "mail",
+      "remark": "You need to bind your email address to your account to improve the security level.",
+      "modifySuccessMsg": "Reset email successfully",
+      "modifyFailingMsg": "Email reset failed"
     },
     "Password": {
       "label": "login password",
-      "remark": "You need to set a password, when you log in you can use the password to log in.",
+      "remark": "It is recommended that the player changes the login password from time to time to improve the security level of the account.",
       "modifySuccessMsg": "Succeeded in resetting the login password",
-      "mifyFailingMsg": ""
+      "mifyFailingMsg": "Password reset failed"
     },
     "FundsPassword": {
       "label": "Fund password",
-      "remark": "Set a fund password to ensure the safety of funds.",
+      "remark": "It is recommended that the player changes the fund password from time to time to improve the security level of the account.",
       "modifySuccessMsg": "Reset fund password successfully",
       "settingSuccessMsg": "Funding password set successfully",
-      "mifyFailingMsg": "",
-      "settingFailingMsg": ""
+      "mifyFailingMsg": "Fund password reset failed",
+      "settingFailingMsg": "Fund password set failed"
     },
-    "modifyFailingMsg": ""
+    "modifyFailingMsg": "Fail to edit"
   },
   "BankCard": {
     "addBankCard": "Add bank card"
@@ -105,7 +105,7 @@
     "UnionPayQrCode": "UnionPay QrCode",
     "OnlinePayment": "Online Payment",
     "UnionPay": "Quick Pass",
-    "BqPay": ""
+    "BqPay": "BQPay"
   },
   "QQcode": "QQ number",
   "mainWallet": "Central wallet",
@@ -192,42 +192,42 @@
     "ChildDeposit": "Lower level recharge",
     "CenterToVr": "[Central Wallet] to [VR Lottery]",
     "DepositBankCard": "Deposit - bank card",
-    "CenterToRmg": "[Center Wallet] Transfer to [大富翁棋牌]",
+    "CenterToRmg": "[Center Wallet] Transfer to [RMG]",
     "FastBetToCenter": "[fastbet] to [Center]",
     "CenterToSaba": "[Center] to [SABA]",
     "CenterToRgBoard": "[Central Wallet] to [RgBoardGame]",
-    "CenterToTm": "[Center] to [天美]",
+    "CenterToTm": "[Center] to [TM]",
     "EgToCenter": "[EG] to [Center]",
     "DepositFee": "Deposit fee",
-    "CenterToWm": "[Center] to [WM live baccarat]",
+    "CenterToWm": "[Center] to [WM]",
     "Other": "other",
     "IboToCenter": "[IBO] to [Center]",
-    "KaToCenter": "[Ka game] to [Center]",
+    "KaToCenter": "[KA] to [Center]",
     "DepositThirdParty": "Income - third party",
     "MgPlusToCenter": "[MG+] to [Central Wallet]",
     "DepositDailyReward": "Income - daily return",
     "ParentDeposit": "Superior recharge",
-    "LcToCenter": "[龙城] transfer [Center]",
+    "LcToCenter": "[LC] transfer [Center]",
     "KkToCenter": "[KK Lottery] to [Central Wallet]",
-    "NwgToCenter": "[新世界棋牌] to [Center Wallet]",
+    "NwgToCenter": "[NWG] to [Center Wallet]",
     "PgToCenter": "[PG] to [Central Wallet]",
     "Undefined": "Undefined",
     "PtToCenter": "[PT] to [Center]",
-    "WithdrawalReject": "Refuse to pay",
+    "WithdrawalReject": "Reject Withdrawal",
     "RgBoardToCenter": "[RgBoardGame] to [Center]",
     "WithdrawalPromotions": "Preferential activities",
-    "Withdrawal": "Dispensing",
+    "Withdrawal": "Withdrawal",
     "WalletAuditArtificialReset": "Manual reset",
     "VrToCenter": "[VR lottery] to [Center]",
     "SabaToCenter": "[SABA] to [Central Wallet]",
-    "RmgToCenter": "[大富翁棋牌] transfer [Center]",
+    "RmgToCenter": "[RMG] transfer [Center]",
     "WalletAuditSystemReset": "System zeroing",
     "RgLotteryToCenter": "[RgLottery] to [Center]",
     "PsToCenter": "[玩星] to [Center]",
-    "SaToCenter": "[沙龙] transfer [center wallet]",
-    "TmToCenter": "[天美棋牌] to [Center Wallet]",
+    "SaToCenter": "[SA] transfer [center wallet]",
+    "TmToCenter": "[TM] to [Center Wallet]",
     "WithdrawalFee": "Withdrawal fee",
-    "WmToCenter": "[WM Real Baccarat] to [Central Wallet]",
+    "WmToCenter": "[WM] to [Central Wallet]",
     "ArtificialWithdrawal": "Put forward manually",
     "ArtificialDeposit": "Manual deposit",
     "ArtificialDepositPromotions": "Manual deposit - event discount",
@@ -240,44 +240,34 @@
     "ArtificialWithdrawalExcludProfitAndLoss": "Manual proposal - excluding profit and loss",
     "ArtificialDepositExcludProfitAndLoss": "Manual deposit - excluding profit and loss",
     "AgentStrategyCommission": "Agency strategy - Commission",
-    "AgentStrategyOther": "Agent policy - other",
+    "AgentStrategyOther": "Agent strategy other",
     "AgentStrategyDepositBonus": "Agent strategy - recharge reward",
     "AllMemberSearchEnd": "Query criteria for all members - [End]",
     "Bet": "Bet",
     "BetCanceled": "Bet Canceled",
     "BetFinished": "BetFinished",
     "BetModified": "BetModified",
-    "BetDeleted": "cancellation",
+    "BetDeleted": "Cancel",
     "CenterToAg": "[Center] to [AG]",
     "AgToCenter": "[AG] to [Center]",
     "CenterToBbin": "[Center] to [NewBBIN]",
     "BbinToCenter": "[NewBBIN] to [Center]",
     "CenterToRgLottery": "[Center] to [RgLottery]",
     "CenterToFastBet": "[Center] to [FastBet]",
-    "CenterToPs": "",
+    "CenterToPs": "[Center] to [PS]",
     "CenterToAvia": "[Center] to [Avia]",
     "AviaToCenter": "[Avia] to [Center]",
     "CenterToEg": "[Center] to [EG]",
     "CenterToIbo": "[Center] to [IBO]",
-    "CenterToKk": "[Center] to [KK lottery]",
-    "CenterToKa": "[Center] to [KA Game]",
-    "CenterToMgPlus": "",
-    "CenterToLc": "[Center] to [Longcheng]",
-    "CenterToNwg": "",
-    "CenterToSa": "[Center] to [Sa]",
+    "CenterToKk": "[Center] to [KK Lottery]",
+    "CenterToKa": "[Center] to [KA]",
+    "CenterToMgPlus": "[Center] to [MG+]",
+    "CenterToLc": "[Center] to [LC]",
+    "CenterToNwg": "[Center] to [NWG]",
+    "CenterToSa": "[Center] to [SA]",
     "BqDeposit": "BQ income"
   },
   "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state",
-  "recordInfoNumTime": "",
-  "gamePlatform": "gaming platform",
-  "resetpasswd": {
-    "stepLabel": {
-      "InputAccount": "Enter account",
-      "ValidEmail": "Verify Email",
-      "SetPasswd": "Set new password",
-      "SetSuccess": "Reset successfully"
-    },
-    "setSuccessMessage": "You have successfully set a login password, {0} for now",
-    "validEmailMessage": "The reset password link has been sent to your mailbox, please click on the link in your personal mailbox"
-  }
+  "recordInfoNumTime": "@:user.gamePlatform",
+  "gamePlatform": "gaming platform"
 }

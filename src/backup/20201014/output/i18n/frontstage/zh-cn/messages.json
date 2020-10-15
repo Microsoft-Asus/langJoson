@@ -16,8 +16,7 @@
     "success": "已删除银行卡。"
   },
   "addBankCard": {
-    "success": "成功添加银行卡",
-    "fail": "无法新增银行卡"
+    "success": "成功添加银行卡"
   },
   "confirmLogout": "确定要登出吗？",
   "withdrawalRequest": {
@@ -37,14 +36,10 @@
   },
   "cannotPlayGame": "目前无法进入游戏",
   "contract": {
-    "signingError": ""
+    "signingError": "签约时發生错误。"
   },
-  "removeFailed": "",
-  "removeSuccess": "",
-  "addChildMemberSuccess": "",
-  "addChildMemberFailed": "",
-  "resetpasswd": {
-    "sendLinkEmailError": "",
-    "resetPasswdError": ""
-  }
+  "removeFailed": "删除{0}失败",
+  "removeSuccess": "成功删除{0}。",
+  "addChildMemberSuccess": "已成功添加会员 {0}。",
+  "addChildMemberFailed": "无法新增会员或帐号已存在。"
 }

@@ -249,16 +249,6 @@
     "BatchDeposit": ""
   },
   "recordInfoNumTimeState": "",
-  "resetpasswd": {
-    "stepLabel": {
-      "InputAccount": "",
-      "SetPasswd": "",
-      "ValidEmail": "",
-      "SetSuccess": ""
-    },
-    "setSuccessMessage": "",
-    "validEmailMessage": ""
-  },
   "recordInfoNumTime": "",
   "mainWallet": "",
   "promotionRecord": {

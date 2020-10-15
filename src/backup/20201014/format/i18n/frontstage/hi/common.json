@@ -31,6 +31,12 @@
   "contactEmail": "",
   "contactus": "",
   "gameList": "",
+  "langs": {
+    "en": "",
+    "zh-cn": "",
+    "th": "",
+    "zh-tw": ""
+  },
   "contactCS": "",
   "onlineCS": "",
   "unread": "",
@@ -42,9 +48,6 @@
   "otherdate": "",
   "today": "",
   "yesterday": "",
-  "measureword": {
-    "people": ""
-  },
   "tip": "",
   "signed": "",
   "unsigned": "",
@@ -52,12 +55,15 @@
   "nextstep": "",
   "time": "",
   "link": "",
+  "measureword": {
+    "people": ""
+  },
   "topup": "",
   "member": "",
   "Login": "",
   "remark": "",
-  "days": "",
-  "daysShort": "",
+  "days": "रविवार_सोमवार_मंगलवार_बुधवार_गुरूवार_शुक्रवार_शनिवार",
+  "daysShort": "रवि_मोन_मंगल_बुध_गुरू_शुक्र_शनि",
   "months": "",
   "monthsShort": "",
   "Logout": "",
@@ -67,12 +73,6 @@
   "doEdit": "",
   "unlimit": "",
   "remove": "",
-  "langs": {
-    "en": "",
-    "zh-cn": "",
-    "zh-tw": "",
-    "th": ""
-  },
   "Gender": {
     "Female": "",
     "Male": "",
@@ -89,6 +89,5 @@
   "Signin": "",
   "fillInAmount": "",
   "ActualAmount": "",
-  "SerialNumber": "",
-  "bankName": ""
+  "SerialNumber": ""
 }

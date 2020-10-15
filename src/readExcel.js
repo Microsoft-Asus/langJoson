@@ -281,11 +281,11 @@ function contentReplace(line, value) {
 function clearFormat(params) {
   if (typeof params === 'object' && params && params.richText) {
     const ar = Object.values(params.richText).map((item)=>{
-      console.log(item.text)
       if(item.text){
         return item.text
       }
     })
-    console.log(ar);
+    return ar.join('');
   }
+  return params;
 }

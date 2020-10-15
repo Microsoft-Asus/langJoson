@@ -73,7 +73,7 @@ module.exports = function () {
           func(arr, outputJson[key][filePath]);
         });
 
-        rowjson.rowid = currRow.getCell(worksheet.columnCount).value;
+        rowjson.rowid = clearFormat(currRow.getCell(worksheet.columnCount).value);
         langXls.push(rowjson);
       }
     });

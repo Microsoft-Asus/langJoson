@@ -52,7 +52,7 @@ module.exports = function () {
         const rowjson = {};
         rowjson.key = row.values[1];
         langList.forEach((key, index) => {
-          rowjson[key] = currRow.getCell(index + 2).value;
+          rowjson[key] =clearFormat(currRow.getCell(index + 2).value);
 
           const pathList = row.values[1].split('.');
 
@@ -276,4 +276,10 @@ function contentReplace(line, value) {
   const replaceVal = [...beforeVal].slice([...beforeVal].indexOf('"') + 1, [...beforeVal].lastIndexOf('"')).join('');
 
   return key + ':' + beforeVal.replace(replaceVal, value);
+}
+
+function clearFormat(params) {
+  if (typeof params === 'object') {
+    console.log(params)
+  }
 }

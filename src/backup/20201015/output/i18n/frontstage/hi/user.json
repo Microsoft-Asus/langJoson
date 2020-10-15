@@ -1,0 +1,283 @@
+{
+  "depositRecord": {
+    "column": {
+      "CreatedTime": "The date of of adding credit",
+      "TransNumber": "Adding credit process sheet number",
+      "Channel": "The channel of adding credit",
+      "Amount": "Amount of adding credit",
+      "Fee": "Fee",
+      "ActualReceiveAmount": "Actual amount"
+    }
+  },
+  "transferRecord": {
+    "column": {
+      "CreatedTime": "Transfer date",
+      "Amount": "Transfer amount",
+      "From": "Transfer out",
+      "To": "Transfer into",
+      "TransNumber": "Bank transfer slip number"
+    }
+  },
+  "withdrawalRecord": {
+    "column": {
+      "CreatedTime": "Withdrawal date",
+      "TransNumber": "the bank withdrawal slip number",
+      "BankCardNumber": "Cash card",
+      "Amount": "Withdrawal amount",
+      "WithdrawalAmount": "Apply amount",
+      "Subtotal": "Actual amount",
+      "Fee": "Fee",
+      "ActualWithdrawalAmount": "Actual amount"
+    }
+  },
+  "betRecord": {
+    "column": {
+      "CreatedTime": "The date of placing bets",
+      "BetNumber": "Betting slip number (Transaction number)",
+      "BetAmount": "Bet amount",
+      "ValidAmount": "Valid betting",
+      "WinLossAmount": "Amount of winning or losing",
+      "PayoutAmount": "Payout amount",
+      "GameType": "@:user.gamePlatform"
+    },
+    "pickGamePlatform": "Choose a platform"
+  },
+  "promotionRecord": {
+    "column": {
+      "CreatedTime": "Arrival time",
+      "TransNumber": "Single number",
+      "Amount": "Amount"
+    }
+  },
+  "securitySetting": {
+    "Phone": {
+      "label": "phone number",
+      "remark": "You need to bind your mobile phone to your account to improve the security level. ",
+      "modifySuccessMsg": "Reset phone successfully",
+      "modifyFailingMsg": "Phone number reset failed"
+    },
+    "Email": {
+      "label": "mail",
+      "remark": "You need to bind your email address to your account to improve the security level.",
+      "modifySuccessMsg": "Reset email successfully",
+      "modifyFailingMsg": "Email reset failed"
+    },
+    "Password": {
+      "label": "login password",
+      "remark": "It is recommended that the player changes the login password from time to time to improve the security level of the account.",
+      "modifySuccessMsg": "Succeeded in resetting the login password",
+      "mifyFailingMsg": "Password reset failed"
+    },
+    "FundsPassword": {
+      "label": "Fund password",
+      "remark": "It is recommended that the player changes the fund password from time to time to improve the security level of the account.",
+      "modifySuccessMsg": "Reset fund password successfully",
+      "settingSuccessMsg": "Funding password set successfully",
+      "mifyFailingMsg": "Fund password reset failed",
+      "settingFailingMsg": "Fund password set failed"
+    },
+    "modifyFailingMsg": "Fail to edit"
+  },
+  "BankCard": {
+    "addBankCard": "Add bank card"
+  },
+  "DailyRewordRecord": {
+    "column": {
+      "CreatedTime": "date",
+      "Amount": "Bet amount",
+      "RewardAmount": "Rebate amount"
+    }
+  },
+  "deposit": {
+    "BankCardTransfer": "BankCard Transfer",
+    "depositAmountRange": "The single adding credit amount is between ${min} - ${max}.",
+    "bankcardOrderRemind": [
+      "This bank card is only applicable to this credit adding order, and next time you add credit, you need to re-submit the information for credit adding.",
+      "Please log in online banking or mobile banking to complete the transfer."
+    ],
+    "goCheckDepositRecord": "Please go to {0} to examine the information of the credit adding order.",
+    "noneAnyPaymentWay": "None any payment way"
+  },
+  "TppPaymentTypeEnum": {
+    "Alipay": "Alipay",
+    "WeChatPay": "WeChat Pay",
+    "JingdongQrCode": "Jingdong Pay",
+    "UnionPayQrCode": "UnionPay QrCode",
+    "OnlinePayment": "Online Payment",
+    "UnionPay": "Quick Pass",
+    "BqPay": "BQPay"
+  },
+  "QQcode": "QQ number",
+  "mainWallet": "Central wallet",
+  "transfer": {
+    "transferFrom": "Transfer out",
+    "transferTo": "Transfer into",
+    "doTransfer": "Transfer immediately",
+    "msg": {
+      "successfulTransfer": "Successful transfer",
+      "transferFailed": "Transfer failed"
+    },
+    "transAmount": "Transfer amount"
+  },
+  "securitySettings": "Security Settings",
+  "withdrawal": {
+    "fundsPasswdNotFoundMsg": "You can only withdraw after setting the fund password!",
+    "bankCardNotFoundMsg": "Add your bank card",
+    "numberOfremainingWithdrawals": "Numbers of free withdrawals remaining",
+    "debitCard": "Arrival bank card",
+    "withdrawableMsg": "The effective bet amount has met the clearance audit point, so you can withdraw money.",
+    "noWithdrawalMsg": "The effective bet amount has not yet met the clearance audit point, so you cannot withdraw money.",
+    "withdrawalCheck": {
+      "title": "Withdraw{0}of cash to the bank card."
+    },
+    "validate": {
+      "title": "Withdrawal verification"
+    }
+  },
+  "fundsPassword": "Fund password",
+  "modifyBankCardHolderNameMsg": "Please contact the customer service to modify the cardholder's name.",
+  "EmailEditDialog": {
+    "title": "Modify Email"
+  },
+  "ModifyFundsPasswordDialog": {
+    "title": "Set fund password",
+    "currentFundsPassword": "Current funds password",
+    "confirmFundsPassword": "Confirm new fund password"
+  },
+  "vip": {
+    "MonthlyValidBetAmount": "Monthly valid bets",
+    "MonthlyRiseVipDepositAmount": "Monthly rank up deposit",
+    "MonthlyKeepVipDepositAmount": "Monthly keep rank deposit"
+  },
+  "userAccount": {
+    "otherWallets": "Other wallets"
+  },
+  "oneClick": {
+    "label": "One-click",
+    "caption": {
+      "noTransferableWallet": "No transferable wallet",
+      "clickAgainForCancel": "3s left, click again for cancel",
+      "transAllBackToCenter": "Transfer all back to the Center",
+      "syncFetchingBalance": "Sync wallet balance"
+    }
+  },
+  "ModifyPasswordDialog": {
+    "title": "Modify login password"
+  },
+  "ModifyPhoneDialog": {
+    "title": "Modify mobile phone number"
+  },
+  "letter": {
+    "column": {
+      "IsRead": "Already read",
+      "Title": "title",
+      "CreatedTime": "release time"
+    },
+    "messages": {
+      "confirmRemove": "Are you sure you want to remove the letter?"
+    },
+    "hasUnreadLetter": "Unread letter"
+  },
+  "changeRecord": {
+    "column": {
+      "TransNumber": "No.",
+      "CreatedTime": "CreatedTime",
+      "DiffBalance": "Transaction amount",
+      "AfterBalance": "After Balance"
+    }
+  },
+  "changeRecordType": {
+    "CenterToPg": "[Center] to [PG]",
+    "CenterToPt": "[Center] to [Pt]",
+    "ChildDeposit": "Lower level recharge",
+    "CenterToVr": "[Central Wallet] to [VR Lottery]",
+    "DepositBankCard": "Deposit - bank card",
+    "CenterToRmg": "[Center Wallet] Transfer to [RMG]",
+    "FastBetToCenter": "[fastbet] to [Center]",
+    "CenterToSaba": "[Center] to [SABA]",
+    "CenterToRgBoard": "[Central Wallet] to [RgBoardGame]",
+    "CenterToTm": "[Center] to [TM]",
+    "EgToCenter": "[EG] to [Center]",
+    "DepositFee": "Deposit fee",
+    "CenterToWm": "[Center] to [WM]",
+    "Other": "other",
+    "IboToCenter": "[IBO] to [Center]",
+    "KaToCenter": "[KA] to [Center]",
+    "DepositThirdParty": "Income - third party",
+    "MgPlusToCenter": "[MG+] to [Central Wallet]",
+    "DepositDailyReward": "Income - daily return",
+    "ParentDeposit": "Superior recharge",
+    "LcToCenter": "[LC] transfer [Center]",
+    "KkToCenter": "[KK Lottery] to [Central Wallet]",
+    "NwgToCenter": "[NWG] to [Center Wallet]",
+    "PgToCenter": "[PG] to [Central Wallet]",
+    "Undefined": "Undefined",
+    "PtToCenter": "[PT] to [Center]",
+    "WithdrawalReject": "Reject Withdrawal",
+    "RgBoardToCenter": "[RgBoardGame] to [Center]",
+    "WithdrawalPromotions": "Preferential activities",
+    "Withdrawal": "Withdrawal",
+    "WalletAuditArtificialReset": "Manual reset",
+    "VrToCenter": "[VR lottery] to [Center]",
+    "SabaToCenter": "[SABA] to [Central Wallet]",
+    "RmgToCenter": "[RMG] transfer [Center]",
+    "WalletAuditSystemReset": "System zeroing",
+    "RgLotteryToCenter": "[RgLottery] to [Center]",
+    "PsToCenter": "[玩星] to [Center]",
+    "SaToCenter": "[SA] transfer [center wallet]",
+    "TmToCenter": "[TM] to [Center Wallet]",
+    "WithdrawalFee": "Withdrawal fee",
+    "WmToCenter": "[WM] to [Central Wallet]",
+    "ArtificialWithdrawal": "Put forward manually",
+    "ArtificialDeposit": "Manual deposit",
+    "ArtificialDepositPromotions": "Manual deposit - event discount",
+    "BatchDeposit": "Batch deposit",
+    "BatchDepositPromotions": "Batch deposit - event discount",
+    "AgentStrategyRebate": "Agent strategy - backwater",
+    "AgentStrategyWage": "Agency strategy - salary",
+    "AgentStrategyDividend": "Agency strategy - dividends",
+    "BatchDepositExcludProfitAndLoss": "Batch deposit - excluding profit and loss",
+    "ArtificialWithdrawalExcludProfitAndLoss": "Manual proposal - excluding profit and loss",
+    "ArtificialDepositExcludProfitAndLoss": "Manual deposit - excluding profit and loss",
+    "AgentStrategyCommission": "Agency strategy - Commission",
+    "AgentStrategyOther": "Agent strategy other",
+    "AgentStrategyDepositBonus": "Agent strategy - recharge reward",
+    "AllMemberSearchEnd": "Query criteria for all members - [End]",
+    "Bet": "Bet",
+    "BetCanceled": "Bet Canceled",
+    "BetFinished": "BetFinished",
+    "BetModified": "BetModified",
+    "BetDeleted": "Cancel",
+    "CenterToAg": "[Center] to [AG]",
+    "AgToCenter": "[AG] to [Center]",
+    "CenterToBbin": "[Center] to [NewBBIN]",
+    "BbinToCenter": "[NewBBIN] to [Center]",
+    "CenterToRgLottery": "[Center] to [RgLottery]",
+    "CenterToFastBet": "[Center] to [FastBet]",
+    "CenterToPs": "[Center] to [PS]",
+    "CenterToAvia": "[Center] to [Avia]",
+    "AviaToCenter": "[Avia] to [Center]",
+    "CenterToEg": "[Center] to [EG]",
+    "CenterToIbo": "[Center] to [IBO]",
+    "CenterToKk": "[Center] to [KK Lottery]",
+    "CenterToKa": "[Center] to [KA]",
+    "CenterToMgPlus": "[Center] to [MG+]",
+    "CenterToLc": "[Center] to [LC]",
+    "CenterToNwg": "[Center] to [NWG]",
+    "CenterToSa": "[Center] to [SA]",
+    "BqDeposit": "BQ income"
+  },
+  "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state",
+  "recordInfoNumTime": "@:user.gamePlatform",
+  "gamePlatform": "gaming platform",
+  "resetpasswd": {
+    "stepLabel": {
+      "InputAccount": "Enter account",
+      "ValidEmail": "Verify Email",
+      "SetPasswd": "Set new password",
+      "SetSuccess": "Reset successfully"
+    },
+    "setSuccessMessage": "You have successfully set a login password, {0} for now",
+    "validEmailMessage": "The reset password link has been sent to your mailbox, please click on the link in your personal mailbox"
+  }
+}

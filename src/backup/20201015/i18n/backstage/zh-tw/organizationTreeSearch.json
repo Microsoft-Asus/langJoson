@@ -1,0 +1,17 @@
+{
+  "translateAgent": "轉移代理",
+  "agentLevel": "代理層級",
+  "addChildAgentAccount": "新增直屬代理",
+  "contractList": "合約清單",
+  "gameCategory": "遊戲類別",
+  "gamePlatform": "遊戲接口",
+  "defaultPassword": "預設密碼： aa123456",
+  "resetContract": "重置契約",
+  "willRestContract": "下線的契約將會全部重置",
+  "isAlreadyTheTop": "已經是最上層",
+  "levelOne": "第一層",
+  "chooseTargetAccount": "選擇轉移帳號",
+  "chooseTarget": "選擇轉移位置",
+  "willMove": "將會移動到",
+  "mayAffectAccounting": "這可能會影響帳務"
+}

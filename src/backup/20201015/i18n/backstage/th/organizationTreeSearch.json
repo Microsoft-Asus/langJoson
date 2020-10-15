@@ -1,0 +1,17 @@
+{
+  "translateAgent": "การย้ายตัวแทน",
+  "agentLevel": "ระดับตัวแทน",
+  "addChildAgentAccount": "เพิ่มตัวแทนโดยตรง",
+  "contractList": "รายการสัญญา",
+  "gameCategory": "หมวดหมู่เกม",
+  "gamePlatform": "อินเทอร์เฟซเกม",
+  "defaultPassword": "รหัสผ่านเริ่มต้น: aa123456",
+  "resetContract": "รีเซ็ตสัญญา",
+  "willRestContract": "สัญญาออฟไลน์ทั้งหมดจะถูกรีเซ็ต",
+  "isAlreadyTheTop": "ด้านบนสุด",
+  "levelOne": "ระดับหนึ่ง",
+  "chooseTargetAccount": "เลือกบัญชีการโอน",
+  "chooseTarget": "เลือกสถานที่โอน",
+  "willMove": "จะย้ายไปที่",
+  "mayAffectAccounting": "สิ่งนี้อาจส่งผลต่อการบัญชี"
+}

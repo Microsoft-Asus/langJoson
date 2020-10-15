@@ -1,0 +1,12 @@
+{
+  "deleteBankCardLabel": "ลบบัตรธนาคาร",
+  "registerForm": {
+    "hasRegistered": {
+      "0": "มีบัญชีอยู่แล้ว {0}",
+      "1": "ลงชื่อเข้าใช้เดี๋ยวนี้"
+    }
+  },
+  "UserNickNameEditor": {
+    "title": "เปลี่ยนชื่อเล่น"
+  }
+}

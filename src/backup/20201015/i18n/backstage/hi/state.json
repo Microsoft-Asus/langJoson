@@ -1,0 +1,73 @@
+{
+  "memberAccount": {
+    "Black": "काला एकल",
+    "Freeze": "फ्रीज़ करें",
+    "Undefined": "अपरिभाषित",
+    "Enable": "सक्षम करें",
+    "Disable": "अक्षम करें"
+  },
+  "Promotions": {
+    "NotYet": "अब तक नहीं",
+    "Passed": "पारित ",
+    "Actived": "सक्रिय"
+  },
+  "Close": "बंद करें ",
+  "webState": {
+    "running": "चल रहा है",
+    "Closed": "बंद है",
+    "BlackList": "ब्लैकलिस्ट"
+  },
+  "Rebate": "छूट",
+  "Dividend": "लाभांश",
+  "DepositBonus": "डिपॉज़िट बोनस",
+  "deactivatedDeleted": "निष्क्रिय किया हुआ डिलीट किया गया",
+  "managerAccount": {
+    "Freeze": "फ्रीज़ करें",
+    "Block": "ब्लैकलिस्ट",
+    "Undefined": "अपरिभाषित",
+    "Enable": "सक्षम करें",
+    "Disable": "अक्षम करें"
+  },
+  "WithdrawalStateEnum": {
+    "0": "अपरिभाषित",
+    "1": "पेंडिंग",
+    "2": "सफल",
+    "3": "विथ्ड्रॉअल अस्वीकार करें",
+    "Fail": "इनकार करें ",
+    "Unknow": "अपरिभाषित",
+    "Pending": "पेंडिंग",
+    "Success": "सफल"
+  },
+  "MessageMarquee": {
+    "0": "अपरिभाषित",
+    "1": "सक्षम करें",
+    "2": "अक्षम करें",
+    "Undefined": "अपरिभाषित",
+    "Enable": "सक्षम करें",
+    "Disable": "अक्षम करें"
+  },
+  "DepositTransStateEnum": {
+    "0": "अपरिभाषित",
+    "1": "पेंडिंग",
+    "2": "सफल",
+    "3": "विफल ",
+    "Unknow": "अपरिभाषित",
+    "Pending": "पेंडिंग",
+    "Success": "सफल",
+    "Fail": "विफल "
+  },
+  "Wage": "वेतन",
+  "Commission": "कमीशन",
+  "Enable": "सक्षम करें",
+  "Disable": "अक्षम करें",
+  "WithdrawlStateEnum": {
+    "Pending": "पेंडिंग"
+  },
+  "betState": {
+    "NotOver": "समाप्त नहीं हुआ",
+    "Over": "समाप्त",
+    "Reversed": "उलट किया गया",
+    "Modified": "संशोधित",
+    "Canceled": "रद्द किया गया"
+  }
+}

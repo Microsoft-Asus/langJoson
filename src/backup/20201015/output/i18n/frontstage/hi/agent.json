@@ -1,0 +1,66 @@
+{
+  "column": {
+    "MemberAccount": "Account",
+    "AgentIdentityName": "Identity",
+    "ParentMemberAccount": "Parent",
+    "Balance": "Balance",
+    "AgentCreatedTime": "Created Time",
+    "AgentLink": {
+      "CreatedTime": "Created time"
+    },
+    "RegisterCount": "Registered number"
+  },
+  "common": {
+    "memberNotExist": "The member you are trying to access does not exist"
+  },
+  "betRecord": {
+    "pickGameCategory": "Game Category"
+  },
+  "TeamActiveMemberCount": "Active number",
+  "TeamDeposit": "Recharge",
+  "TeamValidBetAmount": "Valid betting",
+  "TeamStrategyRebateAmount": "Rebate amount",
+  "TeamPayoutAmount": "Payout amount",
+  "TeamBenefitAmount": "Benefit sharing treatment",
+  "TeamSettlementAmount": "Team profit and loss",
+  "addAccount": "Add Account",
+  "pickIdentity": "Choose a status",
+  "AddChildTipMessage": "The initial password of the newly added member is {0}",
+  "addAccountByLink": "New Link",
+  "linksMangement": "Link management",
+  "turnToAgent": "Turn to agent",
+  "SettlementCycle": "Billing cycle",
+  "BenefitSharingSource": "Source of profit",
+  "contract": {
+    "MemberAccount": "Signed account"
+  },
+  "Proportion": "Self-proportion",
+  "ActiveMemberCount": "Active number",
+  "SignedProportion": "Signing ratio",
+  "signWithMember": "Sign a contract with {0}",
+  "ActiveMemberCountExpression": "@:common.unlimit | {n} | {n}",
+  "GenerateLink": "To generate a link",
+  "CreateLinkTipMessage": "Only {0} links can be generated at most",
+  "dashboard": {
+    "TeamBalance": "The account balance of the team",
+    "title": "Today team overview",
+    "caption": "The statistical data is the same as the record of the report, and the statistical interval is daily {0}",
+    "TeamDepositAmount": "Team deposit",
+    "TeamWithdrawalAmount": "Team withdrawal",
+    "TeamValidBetAmount": "Team betting",
+    "TeamBetMemberCount": "Numbers of the people who bet",
+    "TeamRegistMemberCount": "Registered number",
+    "TeamMemberCount": "Members of the team"
+  },
+  "sharingItem": "Benefit sharing items",
+  "CurrentQuota": "Calculation amount",
+  "contractReport": {
+    "column": {
+      "Amount": "Amount given away"
+    }
+  },
+  "ContractProportion": "Contract ratio",
+  "ContractReportAmount": "Amount given away",
+  "BetInfo": "Betting Information",
+  "BetTaget": "Game category/platform"
+}

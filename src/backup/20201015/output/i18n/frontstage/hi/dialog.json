@@ -1,0 +1,12 @@
+{
+  "deleteBankCardLabel": "Delete bank card",
+  "registerForm": {
+    "Already have an account, {0}"
+      "0": "false",
+      "1": "Log in now"
+    }
+  },
+  "UserNickNameEditor": {
+    "title": "change nickname"
+  }
+}

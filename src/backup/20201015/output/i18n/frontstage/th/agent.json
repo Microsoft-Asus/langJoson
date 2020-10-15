@@ -1,0 +1,66 @@
+{
+  "column": {
+    "MemberAccount": "ชื่อผู้ใช้",
+    "AgentIdentityName": "สถานะ",
+    "ParentMemberAccount": "เป็นเจ้าของที่เหนือกว่า",
+    "Balance": "ยอดคงเหลือใน Wallet",
+    "AgentCreatedTime": "เวลาเปิดบัญชี",
+    "AgentLink": {
+      "CreatedTime": "เวลาที่สร้าง"
+    },
+    "RegisterCount": "จำนวนคนที่ลงทะเบียน"
+  },
+  "common": {
+    "memberNotExist": "ไม่มีสมาชิกที่คุณพยายามเข้าถึง"
+  },
+  "betRecord": {
+    "pickGameCategory": "หมวดหมู่เกม"
+  },
+  "TeamActiveMemberCount": "จำนวนคนที่ใช้งาน",
+  "TeamDeposit": "เติมเงิน",
+  "TeamValidBetAmount": "การเดิมพันที่ถูกต้อง",
+  "TeamStrategyRebateAmount": "ยอดส่วนลด",
+  "TeamPayoutAmount": "จำนวนเงินปันผล",
+  "TeamBenefitAmount": "สินน้ำใจเงินปันผล ",
+  "TeamSettlementAmount": "กำไรและขาดทุนของทีม",
+  "addAccount": "เปิดบัญชีด้วยตนเอง",
+  "pickIdentity": "เลือกสถานะ",
+  "AddChildTipMessage": "เพิ่มรหัสผ่านเริ่มต้นของสมาชิกเป็น: {0}",
+  "addAccountByLink": "เชื่อมโยงการเปิดบัญชี",
+  "linksMangement": "การจัดการลิงค์",
+  "turnToAgent": "เปลี่ยนเป็นตัวแทน",
+  "SettlementCycle": "รอบบิล",
+  "BenefitSharingSource": "แหล่งที่มาของผลกำไร",
+  "contract": {
+    "MemberAccount": "การเซ็นสัญญาบัญชี"
+  },
+  "Proportion": "สัดส่วนตนเอง",
+  "ActiveMemberCount": "จำนวนคนที่ใช้งาน",
+  "SignedProportion": "อัตราส่วนการเซ็นสัญญา",
+  "signWithMember": "ลงนามกับ {0}",
+  "ActiveMemberCountExpression": "@: common.unlimit | {n} | {n}",
+  "GenerateLink": "สร้างลิงค์",
+  "CreateLinkTipMessage": "สามารถสร้างลิงก์กลุ่มได้สูงสุด {0} รายการ",
+  "dashboard": {
+    "TeamBalance": "ยอดคงเหลืองของทีม",
+    "title": "ภาพรวมทีมวันนี้",
+    "caption": "ข้อมูลทางสถิติจะเหมือนกับบันทึกรายงาน และช่วงเวลาทางสถิติรายวันคือ{0}",
+    "TeamDepositAmount": "เติมเงินของทีม",
+    "TeamWithdrawalAmount": "การถอนของทีม",
+    "TeamValidBetAmount": "การเดิมพันของทีม",
+    "TeamBetMemberCount": "จำนวนคนที่เดิมพัน",
+    "TeamRegistMemberCount": "จำนวนคนที่ลงทะเบียน",
+    "TeamMemberCount": "สมาชิกในทีม"
+  },
+  "sharingItem": "รายการที่จะปันผล",
+  "CurrentQuota": "การคำนวณยอด ",
+  "contractReport": {
+    "column": {
+      "Amount": "จำนวนเงินที่แจกจ่าย"
+    }
+  },
+  "ContractProportion": "อัตราส่วนสัญญา",
+  "ContractReportAmount": "จำนวนเงินที่แจกจ่าย",
+  "BetInfo": "ข้อมูลการเดิมพัน",
+  "BetTaget": "หมวดหมู่เกม / แพลตฟอร์ม"
+}

@@ -1,0 +1,13 @@
+{
+  "execute": "किया गया",
+  "View": "व्यू ",
+  "Edit": "संपादित करें",
+  "query": "पूछताछ",
+  "export": "आउटपुट",
+  "Delete": "डिलीट करें",
+  "Add": "जोड़ें ",
+  "permissionList": "अनुमति सूची",
+  "setPermissionCorrespondingUrl": "यूआरएल संबंधित अनुमति सेट करें",
+  "editPermissionCorrespondingApiUrl": "एपीआई यूआरएल संबंधित अनुमति संपादित करें",
+  "ifMultipleUrlCorrespondencePleaseUseRegularExpression ": "undefined"
+}

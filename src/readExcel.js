@@ -102,7 +102,7 @@ module.exports = function () {
 
         try {
           /**  */
-          const modulePath = ['.', 'backup', xlsxDate, 'i18n', resolvePath[0], 'zh-tw', fileName];
+          const modulePath = ['.', 'backup', 'FriSep112020', 'i18n', resolvePath[0], 'zh-tw', fileName];
           filesJs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
             const KeyList = [];
             /** 寫的位置 */

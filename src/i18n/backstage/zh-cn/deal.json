@@ -70,7 +70,7 @@
     "OnlinePayment": "線上支付",
     "UnionPay": "云闪付",
     "bankCard": "银行卡",
-    "BqPay": ""
+    "BqPay": "BQPay"
   },
   "bankAcconutName": "银行户名"
 }

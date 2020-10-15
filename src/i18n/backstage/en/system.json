@@ -188,14 +188,14 @@
     "Undefined": "Undefined",
     "Transfering": "Transfering",
     "Success": "Success",
-    "Fail": "Fail"
+    "Fail": "Transfer failed"
   },
   "loginMsg": {
     "success": "Success",
     "fail": "Fail",
-    "verifyError": "Verify error",
+    "verifyError": "Verification Code Error",
     "accountDisable": "Account disable",
-    "accountFrozn": "Account frozn",
+    "accountFrozn": "Account Fronzen",
     "errorFroznAccount": "Error frozn account",
     "repeatLogin": "repeatLogin",
     "blockedIP": "Blocked IP"
@@ -203,5 +203,6 @@
   "announcing": "Announcing",
   "child": "Child",
   "backstage": "Backstage",
-  "transferSubordinate": ""
+  "transferSubordinate": "Transfer to the subordinate",
+  "supportPayType": "Supported payment methods"
 }

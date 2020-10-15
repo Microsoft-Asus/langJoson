@@ -37,14 +37,14 @@
   },
   "cannotPlayGame": "目前无法进入游戏",
   "contract": {
-    "signingError": ""
+    "signingError": "签约时發生错误。"
   },
   "resetpasswd": {
     "sendLinkEmailError": "",
     "resetPasswdError": ""
   },
-  "removeFailed": "",
-  "removeSuccess": "",
-  "addChildMemberSuccess": "",
-  "addChildMemberFailed": ""
+  "removeFailed": "删除{0}失败",
+  "removeSuccess": "成功删除{0}。",
+  "addChildMemberSuccess": "已成功添加会员 {0}。",
+  "addChildMemberFailed": "无法新增会员或帐号已存在。"
 }

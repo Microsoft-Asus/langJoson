@@ -54,19 +54,19 @@
       "label": "mobile phone number",
       "remark": "By receiving a text message from your mobile phone to log in your account, you can receive notifications of changes in account funds and receive a prompt message when the account is suspected of abnormal operation.",
       "modifySuccessMsg": "Reset phone successfully",
-      "modifyFailingMsg": ""
+      "modifyFailingMsg": "Failed to reset phone"
     },
     "Email": {
       "label": "mailbox",
       "modifySuccessMsg": "Email reset succeeded",
       "remark": "By using email address to log in your account, you can receive notifications of changes in account funds and receive a prompt message when the account is suspected of abnormal operation.",
-      "modifyFailingMsg": ""
+      "modifyFailingMsg": "Failed to reset mailbox"
     },
     "Password": {
       "label": "login password",
       "modifySuccessMsg": "Succeeded in resetting the login password",
       "remark": "You need to set a password, when you log in you can use the password to log in.",
-      "mifyFailingMsg": ""
+      "mifyFailingMsg": "Failed to reset login password"
     },
     "FundsPassword": {
       "label": "Fund password",
@@ -74,7 +74,7 @@
       "remark": "Set a fund password to ensure the safety of funds.",
       "settingSuccessMsg": "Funding password set successfully",
       "mifyFailingMsg": "",
-      "settingFailingMsg": ""
+      "settingFailingMsg": "Failed to set fund password"
     },
     "modifyFailingMsg": ""
   },

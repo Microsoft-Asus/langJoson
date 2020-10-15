@@ -1,0 +1,66 @@
+{
+  "column": {
+    "AgentCreatedTime": "เวลาเปิดบัญชี",
+    "Balance": "ยอดคงเหลือใน Wallet",
+    "MemberAccount": "ชื่อผู้ใช้",
+    "ParentMemberAccount": "เป็นเจ้าของที่เหนือกว่า",
+    "AgentLink": {
+      "CreatedTime": "เวลาที่สร้าง"
+    },
+    "AgentIdentityName": "สถานะ",
+    "RegisterCount": "จำนวนคนที่ลงทะเบียน"
+  },
+  "common": {
+    "memberNotExist": "ไม่มีสมาชิกที่คุณพยายามเข้าถึง"
+  },
+  "betRecord": {
+    "pickGameCategory": "หมวดหมู่เกม"
+  },
+  "TeamSettlementAmount": "กำไรและขาดทุนของทีม",
+  "addAccount": "เปิดบัญชีด้วยตนเอง",
+  "addAccountByLink": "เชื่อมโยงการเปิดบัญชี",
+  "turnToAgent": "เปลี่ยนเป็นตัวแทน",
+  "linksMangement": "การจัดการลิงค์",
+  "contract": {
+    "MemberAccount": "การเซ็นสัญญาบัญชี"
+  },
+  "ActiveMemberCountExpression": "@: common.unlimit | {n} | {n}",
+  "BenefitSharingSource": "แหล่งที่มาของผลกำไร",
+  "Proportion": "สัดส่วนตนเอง",
+  "SignedProportion": "อัตราส่วนการเซ็นสัญญา",
+  "CreateLinkTipMessage": "สามารถสร้างลิงก์กลุ่มได้สูงสุด {0} รายการ",
+  "ContractProportion": "อัตราส่วนสัญญา",
+  "BetInfo": "ข้อมูลการเดิมพัน",
+  "BetTaget": "หมวดหมู่เกม / แพลตฟอร์ม",
+  "TeamBenefitAmount": "สินน้ำใจเงินปันผล ",
+  "pickIdentity": "เลือกสถานะ",
+  "AddChildTipMessage": "เพิ่มรหัสผ่านเริ่มต้นของสมาชิกเป็น: {0}",
+  "signWithMember": "ลงนามกับ {0}",
+  "GenerateLink": "สร้างลิงค์",
+  "dashboard": {
+    "TeamBalance": "ยอดคงเหลืองของทีม",
+    "title": "ภาพรวมทีมวันนี้",
+    "caption": "ข้อมูลทางสถิติจะเหมือนกับบันทึกรายงาน และช่วงเวลาทางสถิติรายวันคือ{0}",
+    "TeamDepositAmount": "เติมเงินของทีม",
+    "TeamBetMemberCount": "จำนวนคนที่เดิมพัน",
+    "TeamMemberCount": "สมาชิกในทีม",
+    "TeamRegistMemberCount": "จำนวนคนที่ลงทะเบียน",
+    "TeamValidBetAmount": "การเดิมพันของทีม",
+    "TeamWithdrawalAmount": "การถอนของทีม"
+  },
+  "CurrentQuota": "การคำนวณยอด ",
+  "contractReport": {
+    "column": {
+      "Amount": "จำนวนเงินที่แจกจ่าย"
+    }
+  },
+  "ContractReportAmount": "จำนวนเงินที่แจกจ่าย",
+  "sharingItem": "รายการที่จะปันผล",
+  "TeamValidBetAmount": "การเดิมพันที่ถูกต้อง",
+  "TeamDeposit": "เติมเงิน",
+  "TeamActiveMemberCount": "จำนวนคนที่ใช้งาน",
+  "ActiveMemberCount": "จำนวนคนที่ใช้งาน",
+  "SettlementCycle": "รอบบิล",
+  "TeamPayoutAmount": "จำนวนเงินปันผล",
+  "TeamStrategyRebateAmount": "ยอดส่วนลด"
+}

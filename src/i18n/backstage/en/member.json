@@ -19,8 +19,8 @@
   "systemSetLevel": "System calculation",
   "securitySetting": "Security settings",
   "withdralPassword": "fund password",
-  "modifyDataTips": "Click ",
-  "afterModifyDataTips": "After the user passes the verification, the new mobile phone number/email address will display here.",
+  "modifyDataTips": "Click \"Modify\" and enter the user's new email address, and then click \"Send\" to send a verification notice.",
+  "afterModifyDataTips": "After the user passes the verification, the new email address will display here.",
   "vipTips": "The level upgrade bet amount is calculated based on the effective bet amount from 00:00:00 on the 1st of each month to 23:59:59 on the last day of each month of Beijing time.",
   "delHighestLevel": "Delete the highest level first",
   "cantDelBasicVIP": "The basic VIP level can’t be deleted.",
@@ -60,6 +60,8 @@
   "loginPassword": "Login password",
   "registerCount": "Register count",
   "face": "",
-  "transferSubordinate": "",
-  "copyTips": "{0} will replace the content of other languages"
+  "transferSubordinate": "Transfer to the subordinate",
+  "copyTips": "{0} will replace the content of other languages",
+  "chooseResetToPhone": "Choose to send a reset letter to your mobile phone.",
+  "chooseResetToMail": "or email"
 }

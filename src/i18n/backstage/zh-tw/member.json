@@ -61,5 +61,7 @@
   "onlineMemberAccount": "上線會員帳號",
   "loginPassword": "登入密碼",
   "registerCount": "註冊次數",
-  "copyTips": "{0} 將會取代其他語系的內容"
+  "copyTips": "{0} 將會取代其他語系的內容",
+  "chooseResetToPhone": "選擇發送重置信件至電話",
+  "chooseResetToMail": "或 郵箱"
 }

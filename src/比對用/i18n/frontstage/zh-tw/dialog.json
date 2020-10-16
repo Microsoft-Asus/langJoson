@@ -1,0 +1,12 @@
+{
+  "deleteBankCardLabel": "刪除銀行卡",
+  "registerForm": {
+    "hasRegistered": {
+      "0": "已有帳號, {0}",
+      "1": "馬上登錄"
+    }
+  },
+  "UserNickNameEditor": {
+    "title": "修改暱稱"
+  }
+}

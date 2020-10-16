@@ -1,0 +1,66 @@
+{
+  "column": {
+    "AgentCreatedTime": "Created Time",
+    "AgentIdentityName": "Identity",
+    "Balance": "Balance",
+    "MemberAccount": "Account",
+    "ParentMemberAccount": "Parent",
+    "AgentLink": {
+      "CreatedTime": "Created time"
+    },
+    "RegisterCount": "Registered number"
+  },
+  "common": {
+    "memberNotExist": "The member you are trying to access does not exist"
+  },
+  "betRecord": {
+    "pickGameCategory": "Game Category"
+  },
+  "TeamActiveMemberCount": "Active number",
+  "TeamSettlementAmount": "Team profit and loss",
+  "addAccount": "Add Account",
+  "addAccountByLink": "New Link",
+  "turnToAgent": "Turn to agent",
+  "linksMangement": "Link management",
+  "contract": {
+    "MemberAccount": "Signed account"
+  },
+  "ActiveMemberCountExpression": "@:common.unlimit | {n} | {n}",
+  "ActiveMemberCount": "Active number",
+  "BenefitSharingSource": "Source of profit",
+  "Proportion": "Self-proportion",
+  "SettlementCycle": "Billing cycle",
+  "SignedProportion": "Signing ratio",
+  "CreateLinkTipMessage": "Only {0} links can be generated at most",
+  "dashboard": {
+    "TeamBalance": "",
+    "title": "",
+    "caption": "",
+    "TeamDepositAmount": "",
+    "TeamBetMemberCount": "",
+    "TeamMemberCount": "",
+    "TeamRegistMemberCount": "",
+    "TeamValidBetAmount": "",
+    "TeamWithdrawalAmount": ""
+  },
+  "contractReport": {
+    "column": {
+      "Amount": "Amount issued"
+    }
+  },
+  "CurrentQuota": "Calculation amount",
+  "sharingItem": "Profit Sharing Project",
+  "ContractProportion": "Contract ratio",
+  "ContractReportAmount": "Amount issued",
+  "BetInfo": "Betting Information",
+  "BetTaget": "Game category/platform",
+  "TeamBenefitAmount": "",
+  "pickIdentity": "",
+  "AddChildTipMessage": "",
+  "signWithMember": "",
+  "GenerateLink": "",
+  "TeamValidBetAmount": "",
+  "TeamDeposit": "",
+  "TeamPayoutAmount": "",
+  "TeamStrategyRebateAmount": ""
+}

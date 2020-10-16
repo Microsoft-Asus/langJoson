@@ -1,0 +1,13 @@
+{
+  "View": "ตรวจสอบ",
+  "export": "เอาต์พุต",
+  "execute": "ดำเนินการ",
+  "Edit": "แก้ไข",
+  "permissionList": "รายการอนุญาต",
+  "setPermissionCorrespondingUrl": "ตั้งค่า URL ที่สอดคล้องกับสิทธิ์",
+  "editPermissionCorrespondingApiUrl": "แก้ไขURL ของ API ที่สอดคล้องกับสิทธิ์",
+  "ifMultipleUrlCorrespondencePleaseUseRegularExpression ": "หากมีการรองรับ URL หลายรายการโปรดใช้นิพจน์ทั่วไป",
+  "Delete": "ลบ",
+  "Add": "เพิ่ม",
+  "query": "สอบถาม"
+}

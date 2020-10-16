@@ -1,66 +1,66 @@
 {
   "column": {
-    "AgentCreatedTime": "Created Time",
-    "AgentIdentityName": "Identity",
-    "Balance": "Balance",
-    "MemberAccount": "Account",
-    "ParentMemberAccount": "Parent",
+    "AgentCreatedTime": "",
+    "Balance": "",
+    "MemberAccount": "",
+    "ParentMemberAccount": "",
     "AgentLink": {
-      "CreatedTime": "Created time"
+      "CreatedTime": ""
     },
-    "RegisterCount": "Registered number"
+    "AgentIdentityName": "",
+    "RegisterCount": ""
   },
   "common": {
-    "memberNotExist": "The member you are trying to access does not exist"
+    "memberNotExist": ""
   },
   "betRecord": {
-    "pickGameCategory": "Game Category"
+    "pickGameCategory": ""
   },
-  "TeamActiveMemberCount": "Active number",
-  "TeamSettlementAmount": "Team profit and loss",
-  "addAccount": "Add Account",
-  "addAccountByLink": "New Link",
-  "turnToAgent": "Turn to agent",
-  "linksMangement": "Link management",
+  "TeamSettlementAmount": "",
+  "addAccount": "",
+  "addAccountByLink": "",
+  "turnToAgent": "",
+  "linksMangement": "",
   "contract": {
-    "MemberAccount": "Signed account"
+    "MemberAccount": ""
   },
-  "ActiveMemberCountExpression": "@:common.unlimit | {n} | {n}",
-  "ActiveMemberCount": "Active number",
-  "BenefitSharingSource": "Source of profit",
-  "Proportion": "Self-proportion",
-  "SettlementCycle": "Billing cycle",
-  "SignedProportion": "Signing ratio",
-  "CreateLinkTipMessage": "Only {0} links can be generated at most",
+  "ActiveMemberCountExpression": "",
+  "BenefitSharingSource": "",
+  "Proportion": "",
+  "SignedProportion": "",
+  "CreateLinkTipMessage": "",
+  "ContractProportion": "",
+  "BetInfo": "",
+  "BetTaget": "",
+  "TeamBenefitAmount": "",
+  "pickIdentity": "",
+  "AddChildTipMessage": "",
+  "signWithMember": "",
+  "GenerateLink": "",
   "dashboard": {
-    "TeamBalance": "The account balance of the team",
-    "title": "Today team overview",
-    "caption": "The statistical data is the same as the record of the report, and the statistical interval is daily {0}",
-    "TeamDepositAmount": "Team deposit",
-    "TeamBetMemberCount": "Numbers of the people who bet",
-    "TeamMemberCount": "Members of the team",
-    "TeamRegistMemberCount": "Registered number",
-    "TeamValidBetAmount": "Team betting",
-    "TeamWithdrawalAmount": "Team withdrawal"
+    "TeamBalance": "",
+    "title": "",
+    "caption": "",
+    "TeamDepositAmount": "",
+    "TeamBetMemberCount": "",
+    "TeamMemberCount": "",
+    "TeamRegistMemberCount": "",
+    "TeamValidBetAmount": "",
+    "TeamWithdrawalAmount": ""
   },
+  "CurrentQuota": "",
   "contractReport": {
     "column": {
-      "Amount": "Amount given away"
+      "Amount": ""
     }
   },
-  "CurrentQuota": "Calculation amount",
-  "sharingItem": "Benefit sharing items",
-  "ContractProportion": "Contract ratio",
-  "ContractReportAmount": "Amount given away",
-  "BetInfo": "Betting Information",
-  "BetTaget": "Game category/platform",
-  "TeamBenefitAmount": "Benefit sharing treatment",
-  "pickIdentity": "Choose a status",
-  "AddChildTipMessage": "The initial password of the newly added member is {0}",
-  "signWithMember": "Sign a contract with {0}",
-  "GenerateLink": "To generate a link",
-  "TeamValidBetAmount": "Valid betting",
-  "TeamDeposit": "Recharge",
-  "TeamPayoutAmount": "Payout amount",
-  "TeamStrategyRebateAmount": "Rebate amount"
+  "ContractReportAmount": "",
+  "sharingItem": "",
+  "TeamValidBetAmount": "",
+  "TeamDeposit": "",
+  "TeamActiveMemberCount": "",
+  "ActiveMemberCount": "",
+  "SettlementCycle": "",
+  "TeamPayoutAmount": "",
+  "TeamStrategyRebateAmount": ""
 }

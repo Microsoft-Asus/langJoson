@@ -101,8 +101,8 @@ module.exports = function () {
          */
 
         try {
-          /** FriSep112020 or 20201015 -->這裡的樣板日期要以送翻譯社時的輸出資料夾做比對 */
-          const modulePath = ['.', 'backup', '20201015', 'i18n', resolvePath[0], 'zh-tw', fileName];
+          /** FriSep112020 or 20201016 -->這裡的樣板日期要以送翻譯社時的輸出資料夾做比對 */
+          const modulePath = ['.', 'backup', '20201016', 'i18n', resolvePath[0], 'zh-tw', fileName];
           filesJs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
             const KeyList = [];
             /** 寫的位置 */
@@ -112,6 +112,7 @@ module.exports = function () {
                 flags: 'a', // 'a' means appending (old data will be preserved)
               },
             );
+
             const dataArray = data.split('\n');
             const spaceCondition = [];
             dataArray.forEach((line) => {

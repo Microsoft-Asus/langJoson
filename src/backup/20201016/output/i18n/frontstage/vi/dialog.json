@@ -1,0 +1,12 @@
+{
+  "deleteBankCardLabel": "Xóa bỏ thẻ ngân hàng",
+  "registerForm": {
+    "Đã có số tài khoản, {0}"
+      "0": "false",
+      "1": "Đăng nhập ngay"
+    }
+  },
+  "UserNickNameEditor": {
+    "title": "Sửa đổi bí danh"
+  }
+}

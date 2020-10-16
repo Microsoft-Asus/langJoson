@@ -1,0 +1,283 @@
+{
+  "depositRecord": {
+    "column": {
+      "CreatedTime": "充值日期",
+      "TransNumber": "充值單號",
+      "Channel": "充值渠道",
+      "Amount": "充值金額",
+      "Fee": "手續費",
+      "ActualReceiveAmount": "實收金額"
+    }
+  },
+  "transferRecord": {
+    "column": {
+      "CreatedTime": "轉帳日期",
+      "Amount": "轉帳金額",
+      "From": "轉出",
+      "To": "轉入",
+      "TransNumber": "轉帳單號"
+    }
+  },
+  "withdrawalRecord": {
+    "column": {
+      "CreatedTime": "提款日期",
+      "TransNumber": "提款單號",
+      "BankCardNumber": "提款現金卡",
+      "Amount": "提款金額",
+      "WithdrawalAmount": "填單金額",
+      "Subtotal": "實際金額",
+      "Fee": "手續費",
+      "ActualWithdrawalAmount": "實際金額"
+    }
+  },
+  "betRecord": {
+    "column": {
+      "CreatedTime": "下注日期",
+      "BetNumber": "注单编号 (交易單號)",
+      "BetAmount": "投注金額",
+      "ValidAmount": "有效投注",
+      "WinLossAmount": "輸贏金額",
+      "PayoutAmount": "派彩金額",
+      "GameType": "@:user.gamePlatform"
+    },
+    "pickGamePlatform": "選擇平台"
+  },
+  "promotionRecord": {
+    "column": {
+      "CreatedTime": "到帳時間",
+      "TransNumber": "單號",
+      "Amount": "金額"
+    }
+  },
+  "securitySetting": {
+    "Phone": {
+      "label": "手機號碼",
+      "remark": "通過接收手機短信來登錄帳號，帳戶資金變動通知，並在帳號有疑似異常操作時接收提示信息。",
+      "modifySuccessMsg": "重置手機成功",
+      "modifyFailingMsg": "重置手機失敗"
+    },
+    "Email": {
+      "label": "郵箱",
+      "remark": "通過郵箱來登錄帳號，帳戶資金變動通知，並在帳號有疑似異常操作時接收提示信息。",
+      "modifySuccessMsg": "重置信箱成功",
+      "modifyFailingMsg": "重置郵箱失敗"
+    },
+    "Password": {
+      "label": "登錄密碼",
+      "remark": "設置密碼，登錄時可使用密碼登錄。",
+      "modifySuccessMsg": "重置登錄密碼成功",
+      "mifyFailingMsg": "重置登錄密碼失敗"
+    },
+    "FundsPassword": {
+      "label": "資金密碼",
+      "remark": "設置提款密碼，保障資金安全。",
+      "modifySuccessMsg": "重置資金密碼成功",
+      "settingSuccessMsg": "設置資金密碼成功",
+      "mifyFailingMsg": "重置資金密碼失敗",
+      "settingFailingMsg": "設置資金密碼失敗"
+    },
+    "modifyFailingMsg": "修改失敗"
+  },
+  "BankCard": {
+    "addBankCard": "添加銀行卡"
+  },
+  "DailyRewordRecord": {
+    "column": {
+      "CreatedTime": "日期",
+      "Amount": "投注金額",
+      "RewardAmount": "返水金額"
+    }
+  },
+  "deposit": {
+    "BankCardTransfer": "銀行卡轉帳",
+    "depositAmountRange": "單筆充值金額 ${min} - ${max}",
+    "bankcardOrderRemind": {
+      "0": "該收款銀行卡僅適用此次充值訂單，下次充值需重新提交充值信息！",
+      "1": "請登錄網上銀行或手機銀行完成轉帳"
+    },
+    "goCheckDepositRecord": "去 {0} 查看充值訂單信息",
+    "noneAnyPaymentWay": "未提供任何充值方式"
+  },
+  "TppPaymentTypeEnum": {
+    "Alipay": "支付寶",
+    "WeChatPay": "微信支付",
+    "JingdongQrCode": "京東支付",
+    "UnionPayQrCode": "銀聯掃碼",
+    "OnlinePayment": "線上支付",
+    "UnionPay": "雲閃付",
+    "BqPay": "BQPay"
+  },
+  "QQcode": "QQ號碼",
+  "mainWallet": "中心錢包",
+  "transfer": {
+    "transferFrom": "轉出",
+    "transferTo": "轉入",
+    "doTransfer": "立即轉帳",
+    "msg": {
+      "successfulTransfer": "轉帳成功",
+      "transferFailed": "轉帳失敗"
+    },
+    "transAmount": "轉帳金額"
+  },
+  "securitySettings": "安全設置",
+  "withdrawal": {
+    "fundsPasswdNotFoundMsg": "設置資金密碼後方可提款!",
+    "bankCardNotFoundMsg": "添加您的銀行卡",
+    "numberOfremainingWithdrawals": "剩餘免費提款次數",
+    "debitCard": "到帳銀行卡",
+    "withdrawableMsg": "有效打碼量已符合清除稽核點，可進行提款",
+    "noWithdrawalMsg": "有效打碼量尚未符合清除稽核點，無法提款",
+    "withdrawalCheck": {
+      "title": "提領現金 {0} 至銀行卡"
+    },
+    "validate": {
+      "title": "提款驗證"
+    }
+  },
+  "fundsPassword": "資金密碼",
+  "modifyBankCardHolderNameMsg": "修改持卡人姓名請聯絡客服",
+  "EmailEditDialog": {
+    "title": "修改郵箱"
+  },
+  "ModifyFundsPasswordDialog": {
+    "title": "設定資金密碼",
+    "currentFundsPassword": "當前資金密碼",
+    "confirmFundsPassword": "確認新資金密碼"
+  },
+  "vip": {
+    "MonthlyValidBetAmount": "月累計有效投注",
+    "MonthlyRiseVipDepositAmount": "月累計存款金額",
+    "MonthlyKeepVipDepositAmount": "月累計保級要求"
+  },
+  "userAccount": {
+    "otherWallets": "其他錢包"
+  },
+  "oneClick": {
+    "label": "一鍵收回",
+    "caption": {
+      "noTransferableWallet": "無可轉帳錢包",
+      "clickAgainForCancel": "3秒後執行，再次點擊以取消",
+      "transAllBackToCenter": "全部轉帳回中心錢包",
+      "syncFetchingBalance": "同步錢包餘額中"
+    }
+  },
+  "ModifyPasswordDialog": {
+    "title": "修改登錄密碼"
+  },
+  "ModifyPhoneDialog": {
+    "title": "修改手機號碼"
+  },
+  "letter": {
+    "column": {
+      "IsRead": "已讀取",
+      "Title": "標題",
+      "CreatedTime": "發布時間"
+    },
+    "messages": {
+      "confirmRemove": "確定要移除信件嗎？"
+    },
+    "hasUnreadLetter": "未讀信件"
+  },
+  "changeRecord": {
+    "column": {
+      "TransNumber": "單號",
+      "CreatedTime": "變動日期",
+      "DiffBalance": "交易金額",
+      "AfterBalance": "交易餘額"
+    }
+  },
+  "changeRecordType": {
+    "CenterToPg": "[中心錢包]轉[PG]",
+    "CenterToPt": "[中心錢包]轉[PT]",
+    "ChildDeposit": "下級充值",
+    "CenterToVr": "[中心錢包]轉[VR彩票]",
+    "DepositBankCard": "入款 - 銀行卡",
+    "CenterToRmg": "[中心錢包]轉[大富翁棋牌]",
+    "FastBetToCenter": "[FastBet]轉[中心錢包]",
+    "CenterToSaba": "[中心錢包]轉[SABA沙巴]",
+    "CenterToRgBoard": "[中心錢包]轉[RgBoardGame]",
+    "CenterToTm": "[中心錢包]轉[天美棋牌]",
+    "EgToCenter": "[EG]轉[中心錢包]",
+    "DepositFee": "入款手續費",
+    "CenterToWm": "[中心錢包]轉[WM真人百家樂]",
+    "Other": "其他",
+    "IboToCenter": "[IBO]轉[中心錢包]",
+    "KaToCenter": "[KA游戏]轉[中心錢包]",
+    "DepositThirdParty": "入款 - 第三方",
+    "MgPlusToCenter": "[MG+]轉[中心錢包]",
+    "DepositDailyReward": "入款 - 日返水",
+    "ParentDeposit": "上級充值",
+    "LcToCenter": "[龙城]轉[中心錢包]",
+    "KkToCenter": "[KK彩票]轉[中心錢包]",
+    "NwgToCenter": "[新世界棋牌]轉[中心錢包]",
+    "PgToCenter": "[PG]轉[中心錢包]",
+    "Undefined": "未定義",
+    "PtToCenter": "[PT]轉[中心錢包]",
+    "WithdrawalReject": "拒絕出款",
+    "RgBoardToCenter": "[RgBoardGame]轉[中心錢包]",
+    "WithdrawalPromotions": "出款優惠活動",
+    "Withdrawal": "出款",
+    "WalletAuditArtificialReset": "人工歸零",
+    "VrToCenter": "[VR彩票]轉[中心錢包]",
+    "SabaToCenter": "[SABA沙巴]轉[中心錢包]",
+    "RmgToCenter": "[大富翁棋牌]轉[中心錢包]",
+    "WalletAuditSystemReset": "系統歸零",
+    "RgLotteryToCenter": "[RgLottery]轉[中心錢包]",
+    "PsToCenter": "[玩星]轉[中心錢包]",
+    "SaToCenter": "[沙龙]轉[中心錢包]",
+    "TmToCenter": "[天美棋牌]轉[中心錢包]",
+    "WithdrawalFee": "出款手續費",
+    "WmToCenter": "[WM真人百家樂]轉[中心錢包]",
+    "ArtificialWithdrawal": "人工提出",
+    "ArtificialDeposit": "人工存入",
+    "ArtificialDepositPromotions": "人工存入-活動優惠",
+    "BatchDeposit": "批次存入",
+    "BatchDepositPromotions": "批次存入-活動優惠",
+    "AgentStrategyRebate": "代理策略-反水",
+    "AgentStrategyWage": "代理策略-工資",
+    "AgentStrategyDividend": "代理策略-分紅",
+    "BatchDepositExcludProfitAndLoss": "批次存入-排除盈虧",
+    "ArtificialWithdrawalExcludProfitAndLoss": "人工提出-排除盈虧",
+    "ArtificialDepositExcludProfitAndLoss": "人工存入-排除盈虧",
+    "AgentStrategyCommission": "代理策略-傭金",
+    "AgentStrategyOther": "代理策略-其他",
+    "AgentStrategyDepositBonus": "代理策略-充值獎勵",
+    "AllMemberSearchEnd": "全部會員查詢條件-【結束】",
+    "Bet": "下注",
+    "BetCanceled": "未接受注单",
+    "BetFinished": "派彩",
+    "BetModified": "結算修正",
+    "BetDeleted": "註銷",
+    "CenterToAg": "[中心錢包]轉[AG]",
+    "AgToCenter": "[AG亞游]轉[中心錢包]",
+    "CenterToBbin": "[中心錢包]轉[NewBBIN波音]",
+    "BbinToCenter": "[NewBBIN波音]轉[中心錢包]",
+    "CenterToRgLottery": "[中心錢包]轉[RgLottery]",
+    "CenterToFastBet": "[中心錢包]轉[FastBet]",
+    "CenterToPs": "[中心錢包]轉[玩星]",
+    "CenterToAvia": "[中心錢包]轉[泛亚电竞]",
+    "AviaToCenter": "[泛亚电竞]轉[中心錢包]",
+    "CenterToEg": "[中心錢包]轉[EG]",
+    "CenterToIbo": "[中心錢包]轉[IBO]",
+    "CenterToKk": "[中心錢包]轉[KK彩票]",
+    "CenterToKa": "[中心錢包]轉[KA游戏]",
+    "CenterToMgPlus": "[中心錢包]轉[MG+]",
+    "CenterToLc": "[中心錢包]轉[龙城]",
+    "CenterToNwg": "[中心錢包]轉[新世界棋牌]",
+    "CenterToSa": "[中心錢包]轉[沙龙]",
+    "BqDeposit": "BQ入款"
+  },
+  "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state",
+  "recordInfoNumTime": "@:common.SerialNumber / @:common.time",
+  "gamePlatform": "遊戲平台",
+  "resetpasswd": {
+    "stepLabel": {
+      "InputAccount": "輸入帳號",
+      "ValidEmail": "驗證信箱",
+      "SetPasswd": "設定新密碼",
+      "SetSuccess": "重置成功"
+    },
+    "setSuccessMessage": "您已成功設定登入密碼，請重新 {0}",
+    "validEmailMessage": "重置密碼連結已送到您的信箱，請至個人信箱點選連結"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "code": {
+    "100": "",
+    "101": "",
+    "102": "",
+    "103": "",
+    "104": "",
+    "105": "",
+    "300": "",
+    "MemberAccountOrPasswordError": "",
+    "VerificationCodeError": "",
+    "MemberAccountExist": "",
+    "MemberAccountNotExist": "",
+    "MemberAccountLoginRepeatedly": "",
+    "MemberAccountFreezeOrDisable": "",
+    "MemberLoginIpBlocked": "",
+    "MemberAgentLinkError": ""
+  }
+}

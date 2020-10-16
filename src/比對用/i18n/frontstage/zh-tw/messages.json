@@ -16,7 +16,8 @@
     "success": "已刪除銀行卡。"
   },
   "addBankCard": {
-    "success": "成功添加銀行卡"
+    "success": "成功添加銀行卡",
+    "fail": "無法新增銀行卡"
   },
   "confirmLogout": "確定要登出嗎？",
   "withdrawalRequest": {
@@ -41,5 +42,9 @@
   "removeFailed": "刪除{0}失敗",
   "removeSuccess": "成功刪除{0}。",
   "addChildMemberSuccess": "已成功添加會員 {0}。",
-  "addChildMemberFailed": "無法新增會員或帳號已存在。"
+  "addChildMemberFailed": "無法新增會員或帳號已存在。",
+  "resetpasswd": {
+    "sendLinkEmailError": "無法發送重置連線",
+    "resetPasswdError": "無法重設登入密碼"
+  }
 }

@@ -67,14 +67,14 @@
   "Agent": {
     "BenefitSharingSourceEnum": {
       "0": "Undefined",
-      "1": "Valid bet",
-      "2": "Negative profit",
-      "3": "Negative profit (uneven accounts)",
+      "1": "Valid betting",
+      "2": "Negative carry (balanced)",
+      "3": "Negative carry (unbalanced)",
       "4": "Recharge",
-      "WinLose": "Negative profit",
-      "BetAviliable": "Valid bet",
+      "WinLose": "Negative carry (balanced)",
+      "BetAviliable": "Valid betting",
       "Deposit": "Recharge",
-      "Lose": "Negative profit (uneven accounts)",
+      "Lose": "Negative carry (unbalanced)",
       "Undefined": "Undefined"
     },
     "SettlementCategoryEnum": {

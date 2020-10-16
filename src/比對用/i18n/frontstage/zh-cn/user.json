@@ -37,7 +37,8 @@
       "CreatedTime": "下注日期",
       "ValidAmount": "有效投注",
       "WinLossAmount": "输赢金额",
-      "PayoutAmount": "派彩金额"
+      "PayoutAmount": "派彩金额",
+      "GameType": "@:user.gamePlatform"
     },
     "pickGamePlatform": "选择平台"
   },
@@ -52,24 +53,30 @@
     "Phone": {
       "label": "手机号码",
       "remark": "通过接收手机短信来登录账号，账户资金变动通知，并在账号有疑似异常操作时接收提示信息。",
-      "modifySuccessMsg": "重置手机成功"
+      "modifySuccessMsg": "重置手机成功",
+      "modifyFailingMsg": "重置手机失败"
     },
     "Email": {
       "label": "邮箱",
       "modifySuccessMsg": "重置信箱成功",
-      "remark": "通过邮箱来登录账号，账户资金变动通知，并在账号有疑似异常操作时接收提示信息。"
+      "remark": "通过邮箱来登录账号，账户资金变动通知，并在账号有疑似异常操作时接收提示信息。",
+      "modifyFailingMsg": "重置邮箱失败"
     },
     "Password": {
       "label": "登录密码",
       "modifySuccessMsg": "重置登录密码成功",
-      "remark": "设置密码，登录时可使用密码登录。"
+      "remark": "建议玩家不定时的修改登录密码，可提高帐号的安全性。",
+      "mifyFailingMsg": "重置登录密码失败"
     },
     "FundsPassword": {
       "label": "资金密码",
       "modifySuccessMsg": "重置资金密码成功",
-      "remark": "设置提款密码，保障资金安全。",
-      "settingSuccessMsg": "设置资金密码成功"
-    }
+      "remark": "建议玩家不定时的修改资金密码，可提高帐号的安全性。",
+      "settingSuccessMsg": "设置资金密码成功",
+      "mifyFailingMsg": "重置资金密码失败",
+      "settingFailingMsg": "设置资金密码失败"
+    },
+    "modifyFailingMsg": "修改失败"
   },
   "BankCard": {
     "addBankCard": "添加银行卡"
@@ -83,12 +90,12 @@
   },
   "deposit": {
     "depositAmountRange": "有效充值金额 ${min} - ${max}",
-    "bankcardOrderRemind": [
-      "该收款银行卡仅适用此次充值订单，下次充值需重新提交充值信息！",
-      "请登录网上银行或手机银行完成转账"
-    ],
+    "bankcardOrderRemind": {
+      "0": "该收款银行卡仅适用此次充值订单，下次充值需重新提交充值信息！",
+      "1": "请登录网上银行或手机银行完成转账"
+    },
     "goCheckDepositRecord": "去 {0} 查看充值订单信息",
-    "BankCardTransfer": "银行卡转账",
+    "BankCardTransfer": "银行卡转帐",
     "noneAnyPaymentWay": "未提供任何充值方式"
   },
   "TppPaymentTypeEnum": {
@@ -97,7 +104,8 @@
     "JingdongQrCode": "京东支付",
     "UnionPayQrCode": "银联扫码",
     "OnlinePayment": "線上支付",
-    "UnionPay": "云闪付"
+    "UnionPay": "云闪付",
+    "BqPay": "BQPay"
   },
   "transfer": {
     "transferFrom": "转出",
@@ -254,8 +262,22 @@
     "CenterToKk": "[中心钱包]转[KK彩票]",
     "CenterToLc": "[中心钱包]转[龙城]",
     "CenterToRgLottery": "[中心钱包]转[RgLottery]",
-    "CenterToSa": "[中心钱包]转[沙龙]"
+    "CenterToSa": "[中心钱包]转[沙龙]",
+    "CenterToPs": "[中心钱包]转[玩星]",
+    "CenterToMgPlus": "[中心钱包]转[MG+]",
+    "CenterToNwg": "[中心钱包]转[新世界棋牌]"
   },
   "gamePlatform": "游戏平台",
-  "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state"
+  "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state",
+  "resetpasswd": {
+    "stepLabel": {
+      "InputAccount": "输入帐号",
+      "SetPasswd": "设定新密码",
+      "SetSuccess": "重置成功",
+      "ValidEmail": "验证信箱"
+    },
+    "setSuccessMessage": "您已成功设定登入密码，请重新 {0}",
+    "validEmailMessage": "重置密码连结已送到您的信箱，请至个人信箱点选连结"
+  },
+  "recordInfoNumTime": "@:common.SerialNumber / @:common.time"
 }

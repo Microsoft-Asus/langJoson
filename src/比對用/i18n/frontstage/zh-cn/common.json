@@ -15,7 +15,7 @@
     "Unknow": "未知"
   },
   "Login": "登录",
-  "remove": "删除",
+  "remove": "刪除",
   "confirm": "确认",
   "cancel": "取消",
   "copySuccess": "已复制 {0}",
@@ -55,8 +55,12 @@
   "langs": {
     "en": "English",
     "zh-cn": "简体中文",
-    "zh-tw": "繁體中文",
-    "th": "Thai"
+    "zh-tw": "繁体中文",
+    "th": "泰文",
+    "vi": "越南文",
+    "ms": "Bahasa Melayu",
+    "id": "bahasa Indonesia",
+    "hi": "印度文"
   },
   "Signup": "注册",
   "topup": "充值",
@@ -67,7 +71,7 @@
   "unread": "未读",
   "selectAll": "全选",
   "details": "查看详情",
-  "member": "会员",
+  "member": "头像",
   "registerByAccount": "帐号注册",
   "registerByEmail": "信箱注册",
   "registerByPhone": "手机注册",
@@ -78,5 +82,17 @@
   "otherdate": "其他日期",
   "today": "今天",
   "yesterday": "昨天",
-  "measureword": {}
+  "measureword": {
+    "people": "{0} 人"
+  },
+  "tip": "温馨提醒",
+  "signed": "已签约",
+  "unsigned": "未签约",
+  "sign": "签约",
+  "nextstep": "下一步",
+  "time": "时间",
+  "link": "链结",
+  "unlimit": "无限制",
+  "SerialNumber": "单号",
+  "bankName": "选择银行"
 }

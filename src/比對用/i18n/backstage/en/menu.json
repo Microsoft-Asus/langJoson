@@ -152,5 +152,6 @@
   "ManagerLetter": "Manager letter",
   "ManagerLetterTable": "Manager letter table",
   "BenefitSharingSetting": "Benefit sharing setting",
-  "BenefitSharingGroup": "Benefit sharing group"
+  "BenefitSharingGroup": "Benefit sharing group",
+  "ProviderOperateRecord": "Operate record"
 }

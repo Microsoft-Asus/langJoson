@@ -91,10 +91,10 @@
   "deposit": {
     "BankCardTransfer": "銀行卡轉帳",
     "depositAmountRange": "單筆充值金額 ${min} - ${max}",
-    "bankcardOrderRemind": [
-      "該收款銀行卡僅適用此次充值訂單，下次充值需重新提交充值信息！",
-      "請登錄網上銀行或手機銀行完成轉帳"
-    ],
+    "bankcardOrderRemind": {
+      "0": "該收款銀行卡僅適用此次充值訂單，下次充值需重新提交充值信息！",
+      "1": "請登錄網上銀行或手機銀行完成轉帳"
+    },
     "goCheckDepositRecord": "去 {0} 查看充值訂單信息",
     "noneAnyPaymentWay": "未提供任何充值方式"
   },
@@ -150,7 +150,7 @@
     "MonthlyKeepVipDepositAmount": "月累計保級要求"
   },
   "userAccount": {
-    "otherWallets": "其他錢包餘額"
+    "otherWallets": "其他錢包"
   },
   "oneClick": {
     "label": "一鍵收回",
@@ -269,5 +269,15 @@
   },
   "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state",
   "recordInfoNumTime": "@:common.SerialNumber / @:common.time",
-  "gamePlatform": "遊戲平台"
+  "gamePlatform": "遊戲平台",
+  "resetpasswd": {
+    "stepLabel": {
+      "InputAccount": "輸入帳號",
+      "ValidEmail": "驗證信箱",
+      "SetPasswd": "設定新密碼",
+      "SetSuccess": "重置成功"
+    },
+    "setSuccessMessage": "您已成功設定登入密碼，請重新 {0}",
+    "validEmailMessage": "重置密碼連結已送到您的信箱，請至個人信箱點選連結"
+  }
 }

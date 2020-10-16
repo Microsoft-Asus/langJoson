@@ -32,7 +32,17 @@
   "SettlementCycle": "Billing cycle",
   "SignedProportion": "Signing ratio",
   "CreateLinkTipMessage": "Only {0} links can be generated at most",
-  "dashboard": {},
+  "dashboard": {
+    "TeamBalance": "The account balance of the team",
+    "title": "Today team overview",
+    "caption": "The statistical data is the same as the record of the report, and the statistical interval is daily {0}",
+    "TeamDepositAmount": "Team deposit",
+    "TeamBetMemberCount": "Numbers of the people who bet",
+    "TeamMemberCount": "Members of the team",
+    "TeamRegistMemberCount": "Registered number",
+    "TeamValidBetAmount": "Team betting",
+    "TeamWithdrawalAmount": "Team withdrawal"
+  },
   "contractReport": {
     "column": {
       "Amount": "Amount issued"
@@ -43,5 +53,14 @@
   "ContractProportion": "Contract ratio",
   "ContractReportAmount": "Amount issued",
   "BetInfo": "Betting Information",
-  "BetTaget": "Game category/platform"
+  "BetTaget": "Game category/platform",
+  "TeamBenefitAmount": "Benefit sharing treatment",
+  "pickIdentity": "Choose a status",
+  "AddChildTipMessage": "The initial password of the newly added member is {0}",
+  "signWithMember": "Sign a contract with {0}",
+  "GenerateLink": "To generate a link",
+  "TeamValidBetAmount": "Valid betting",
+  "TeamDeposit": "Recharge",
+  "TeamPayoutAmount": "Payout amount",
+  "TeamStrategyRebateAmount": "Rebate amount"
 }

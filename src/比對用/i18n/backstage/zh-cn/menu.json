@@ -45,7 +45,7 @@
   "MemberVIPEditor": "VIP分层编辑",
   "MemberVIPAdder": "VIP分层新建",
   "MemberVIPTable": "VIP分层列表",
-  "RolePermissionTable": "角色列表",
+  "RolePermissionTable": "角色权限设置列表",
   "ManagerAccountTable": "管理者帐号列表",
   "MessageManage": "讯息管理",
   "MessageMarquee": "最新消息",
@@ -76,7 +76,7 @@
   "FundBatchDeposit": "批次存入",
   "DealRecord": "交易记录查詢",
   "DealRecordAll": "全部用户",
-  "DealRecordSingle": "单一用户",
+  "DealRecordSingle": "单一用戶",
   "WebsitePattern": "網站裝修管理",
   "GameMerchantSetting": "游戏平台设置",
   "IPSetting": "IP白名单设置",
@@ -122,8 +122,8 @@
   "SystemAccountTable": "管理者帐号列表",
   "SystemAccountAdder": "管理者帐号新增",
   "SystemAccountEditor": "管理者帐号编辑",
-  "SystemRole": "角色与权限设置",
-  "SystemRoleTable": "角色与权限设置列表",
+  "SystemRole": "角色权限设置",
+  "SystemRoleTable": "角色权限设置列表",
   "SystemRoleAdder": "角色新增",
   "SystemRoleEditor": "角色编辑",
   "ProviderLetter": "系统公告设置",
@@ -152,5 +152,6 @@
   "PaymentChannelDepositFee": "充值手续费",
   "PaymentChannelDepositFeeEditor": "充值手续费编辑",
   "ReportAgent": "代理报表",
-  "ProviderLoginRecord": "登入记录"
+  "ProviderLoginRecord": "登入记录",
+  "ProviderOperateRecord": "操作记录"
 }

@@ -35,5 +35,7 @@
   "VipDepositAmountSortError": "VIP deposit amount sort error",
   "VipValidBetAmountSortError": "VIP valid bet amount sort error",
   "VipKeepVipCumulativeDepositSortError": "VIP keep VIP cumulative deposit sort error",
-  "VipDeleteSortError": "VIP delete sort error"
+  "VipDeleteSortError": "VIP delete sort error",
+  "AuditNotCleared": "Audit note cleared",
+  "AgentIdentityNotExist": "Agent identity not exist"
 }

@@ -202,5 +202,7 @@
   "allCheck": "सभी का चयन करें",
   "registerUser": "पंजीकृत",
   "fresh": "रिफ्रेश करना",
-  "transferSubordinate": ""
+  "transferSubordinate": "",
+  "payType": "",
+  "backstage": ""
 }

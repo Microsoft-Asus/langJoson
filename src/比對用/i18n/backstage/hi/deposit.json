@@ -41,5 +41,7 @@
   "receiveTime": "आगमन समय",
   "remitBalance": "क्रेडिट जोड़ने की राशि",
   "depositAmount": "डिपॉज़िट राशि",
-  "deposits": "डिपॉज़िट राशि"
+  "deposits": "डिपॉज़िट राशि",
+  "receiveAmount": "",
+  "receivedAmount": ""
 }

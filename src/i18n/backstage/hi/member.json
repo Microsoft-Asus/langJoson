@@ -58,5 +58,10 @@
   "createSubordinate": "अधीनस्थ का निर्माण करें ",
   "province": "प्रांत",
   "SingleMember": "एकल उपयोगकर्ता",
-  "transferSubordinate": "अधीनस्थ को ट्रांसफर "
+  "transferSubordinate": "अधीनस्थ को ट्रांसफर ",
+  "onlineMemberAccount": "",
+  "loginPassword": "",
+  "registerCount": "",
+  "face": "",
+  "copyTips": ""
 }

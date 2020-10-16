@@ -38,7 +38,7 @@
       "ValidAmount": "Valid betting",
       "WinLossAmount": "Amount of winning or losing",
       "PayoutAmount": "Payout amount",
-      "GameType": ""
+      "GameType": "@:user.gamePlatform"
     },
     "pickGamePlatform": "Choose a platform"
   },
@@ -73,10 +73,10 @@
       "remark": "Set a fund password to ensure the safety of funds.",
       "modifySuccessMsg": "Reset fund password successfully",
       "settingSuccessMsg": "Funding password set successfully",
-      "mifyFailingMsg": "",
+      "mifyFailingMsg": "Fund password reset failed",
       "settingFailingMsg": "Failed to set fund password"
     },
-    "modifyFailingMsg": ""
+    "modifyFailingMsg": "Fail to edit"
   },
   "BankCard": {
     "addBankCard": "Add bank card"
@@ -91,10 +91,10 @@
   "deposit": {
     "BankCardTransfer": "BankCard Transfer",
     "depositAmountRange": "The single adding credit amount is between ${min} - ${max}.",
-    "bankcardOrderRemind": [
-      "This bank card is only applicable to this credit adding order, and next time you add credit, you need to re-submit the information for credit adding.",
-      "Please log in online banking or mobile banking to complete the transfer."
-    ],
+    "This bank card is only applicable to this credit adding order, and next time you add credit, you need to re-submit the information for credit adding."
+      "0": "false",
+      "1": "Please log in online banking or mobile banking to complete the transfer."
+    },
     "goCheckDepositRecord": "Please go to {0} to examine the information of the credit adding order.",
     "noneAnyPaymentWay": "None any payment way"
   },
@@ -105,7 +105,7 @@
     "UnionPayQrCode": "UnionPay QrCode",
     "OnlinePayment": "Online Payment",
     "UnionPay": "Quick Pass",
-    "BqPay": ""
+    "BqPay": "BQPay"
   },
   "QQcode": "QQ number",
   "mainWallet": "Central wallet",
@@ -254,21 +254,21 @@
     "BbinToCenter": "[NewBBIN] to [Center]",
     "CenterToRgLottery": "[Center] to [RgLottery]",
     "CenterToFastBet": "[Center] to [FastBet]",
-    "CenterToPs": "",
+    "CenterToPs": "[Center] to [PS]",
     "CenterToAvia": "[Center] to [Avia]",
     "AviaToCenter": "[Avia] to [Center]",
     "CenterToEg": "[Center] to [EG]",
     "CenterToIbo": "[Center] to [IBO]",
     "CenterToKk": "[Center] to [KK lottery]",
     "CenterToKa": "[Center] to [KA Game]",
-    "CenterToMgPlus": "",
+    "CenterToMgPlus": "[Center] to [MG+]",
     "CenterToLc": "[Center] to [Longcheng]",
-    "CenterToNwg": "",
+    "CenterToNwg": "[Center] to [NWG]",
     "CenterToSa": "[Center] to [Sa]",
     "BqDeposit": "BQ income"
   },
   "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state",
-  "recordInfoNumTime": "",
+  "recordInfoNumTime": "@:common.SerialNumber / @:common.time",
   "gamePlatform": "gaming platform",
   "resetpasswd": {
     "stepLabel": {

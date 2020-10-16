@@ -91,10 +91,10 @@
   "deposit": {
     "BankCardTransfer": "Chuyển khoản bằng thẻ ngân hàng",
     "depositAmountRange": "Số tiền nạp một lần từ ${min} - ${max}",
-    "bankcardOrderRemind": [
-      "Thẻ ngân hàng nhận tiền này chỉ áp dụng cho đơn đặt nạp tiền lần này, lần nạp sau cần phải giao nộp lại thông tin nạp tiền!",
-      "Xin vui lòng đăng nhập vào ngân hàng mạng hoặc ngân hàng điện thoại di động để hoàn thành chuyển khoản."
-    ],
+    "Thẻ ngân hàng nhận tiền này chỉ áp dụng cho đơn đặt nạp tiền lần này, lần nạp sau cần phải giao nộp lại thông tin nạp tiền!"
+      "0": "false",
+      "1": "Xin vui lòng đăng nhập vào ngân hàng mạng hoặc ngân hàng điện thoại di động để hoàn thành chuyển khoản."
+    },
     "goCheckDepositRecord": "Vào {0} để tra cứu thông tin đơn đặt nạp tiền.",
     "noneAnyPaymentWay": "Chưa cung cấp bất kỳ phương thức nạp tiền nào."
   },

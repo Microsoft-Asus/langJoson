@@ -35,5 +35,7 @@
   "VipDeleteSortError": "वीआईपी वर्गीकरण संबंधित गलती डिलीट करें",
   "Fail": "विफल",
   "UsernameFronzen": "खाता फ्रीज़ किया गया",
-  "VerificationCodeError": "सत्यापन कोड गलती "
+  "VerificationCodeError": "सत्यापन कोड गलती ",
+  "AuditNotCleared": "",
+  "AgentIdentityNotExist": ""
 }

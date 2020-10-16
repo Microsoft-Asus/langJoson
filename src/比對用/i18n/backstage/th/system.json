@@ -202,5 +202,7 @@
   "allCheck": "เลือกทั้งหมด",
   "registerUser": "จำนวนคนที่ลงทะเบียน",
   "fresh": "รีเฟรช",
-  "transferSubordinate": "อนไปยังระดับล่าง"
+  "transferSubordinate": "อนไปยังระดับล่าง",
+  "payType": "",
+  "backstage": ""
 }

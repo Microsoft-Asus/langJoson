@@ -41,5 +41,6 @@
   "UserTransRecord": "Ghi chép giao dịch",
   "AgentTxRecord": "Ghi chép giao dịch",
   "AgentBetRecord": "Đặt cược nhóm",
-  "AgentTxWithdrawalRecord": "Rút tiền nhóm"
+  "AgentTxWithdrawalRecord": "Rút tiền nhóm",
+  "ResetPasswd": ""
 }

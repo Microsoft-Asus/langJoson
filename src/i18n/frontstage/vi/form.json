@@ -52,6 +52,7 @@
     "inquire": "Tra cứu",
     "refresh": "Làm mới",
     "transfer": "Chuyển khoản",
-    "withdrawal": "Rút tiền"
+    "withdrawal": "Rút tiền",
+    "send": ""
   }
 }

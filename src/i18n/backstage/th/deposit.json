@@ -41,5 +41,7 @@
   "receiveTime": "เวลาที่เข้าบัญชี",
   "remitBalance": "จำนวนเงินที่เติม",
   "depositAmount": "ยอดเงินฝากเข้า",
-  "deposits": "ยอดเงินฝากเข้า"
+  "deposits": "ยอดเงินฝากเข้า",
+  "receiveAmount": "",
+  "receivedAmount": ""
 }

@@ -269,5 +269,15 @@
   },
   "gamePlatform": "Diễn đàn trò chơi",
   "QQcode": "Mã số QQ",
-  "fundsPassword": "Mật khẩu vốn quỹ"
+  "fundsPassword": "Mật khẩu vốn quỹ",
+  "resetpasswd": {
+    "stepLabel": {
+      "InputAccount": "",
+      "SetPasswd": "",
+      "ValidEmail": "",
+      "SetSuccess": ""
+    },
+    "setSuccessMessage": "",
+    "validEmailMessage": ""
+  }
 }

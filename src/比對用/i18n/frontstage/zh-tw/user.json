@@ -91,10 +91,10 @@
   "deposit": {
     "BankCardTransfer": "銀行卡轉帳",
     "depositAmountRange": "單筆充值金額 ${min} - ${max}",
-    "bankcardOrderRemind": [
-      "該收款銀行卡僅適用此次充值訂單，下次充值需重新提交充值信息！",
-      "請登錄網上銀行或手機銀行完成轉帳"
-    ],
+    "bankcardOrderRemind": {
+      "0": "該收款銀行卡僅適用此次充值訂單，下次充值需重新提交充值信息！",
+      "1": "請登錄網上銀行或手機銀行完成轉帳"
+    },
     "goCheckDepositRecord": "去 {0} 查看充值訂單信息",
     "noneAnyPaymentWay": "未提供任何充值方式"
   },

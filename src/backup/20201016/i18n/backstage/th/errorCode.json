@@ -35,5 +35,7 @@
   "VipDeleteSortError": "ลำดับการสั่งลบ Vip ไม่ถูกต้อง",
   "Fail": "ล้มเหลว",
   "UsernameFronzen": "บัญชีถูกระงับ",
-  "VerificationCodeError": "เกิดข้อผิดพลาดในการยืนยันรหัส"
+  "VerificationCodeError": "เกิดข้อผิดพลาดในการยืนยันรหัส",
+  "AuditNotCleared": "",
+  "AgentIdentityNotExist": ""
 }

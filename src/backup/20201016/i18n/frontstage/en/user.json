@@ -38,7 +38,7 @@
       "ValidAmount": "Valid betting",
       "WinLossAmount": "Amount of winning or losing",
       "PayoutAmount": "Payout amount",
-      "GameType": ""
+      "GameType": "@:user.gamePlatform"
     },
     "pickGamePlatform": "Choose a platform"
   },
@@ -73,10 +73,10 @@
       "modifySuccessMsg": "Reset fund password successfully",
       "remark": "Set a fund password to ensure the safety of funds.",
       "settingSuccessMsg": "Funding password set successfully",
-      "mifyFailingMsg": "",
+      "mifyFailingMsg": "Fund password reset failed",
       "settingFailingMsg": "Failed to set fund password"
     },
-    "modifyFailingMsg": ""
+    "modifyFailingMsg": "Fail to edit"
   },
   "BankCard": {
     "addBankCard": "Add bank card"
@@ -90,10 +90,10 @@
   },
   "deposit": {
     "depositAmountRange": "The single adding credit amount is between ${min} - ${max}.",
-    "bankcardOrderRemind": [
-      "This bank card is only applicable to this credit adding order, and next time you add credit, you need to re-submit the information for credit adding.",
-      "Please log in online banking or mobile banking to complete the transfer."
-    ],
+    "bankcardOrderRemind": {
+      "0": "This bank card is only applicable to this credit adding order, and next time you add credit, you need to re-submit the information for credit adding.",
+      "1": "Please log in online banking or mobile banking to complete the transfer."
+    },
     "goCheckDepositRecord": "Please go to {0} to examine the information of the credit adding order.",
     "BankCardTransfer": "BankCard Transfer",
     "noneAnyPaymentWay": "None any payment way"
@@ -105,7 +105,7 @@
     "UnionPayQrCode": "UnionPay QrCode",
     "OnlinePayment": "Online Payment",
     "UnionPay": "Quick Pass",
-    "BqPay": ""
+    "BqPay": "BQPay"
   },
   "transfer": {
     "transferFrom": "Transfer out",
@@ -263,9 +263,9 @@
     "CenterToLc": "[Center] to [Longcheng]",
     "CenterToRgLottery": "[Center] to [RgLottery]",
     "CenterToSa": "[Center] to [Sa]",
-    "CenterToPs": "",
-    "CenterToMgPlus": "",
-    "CenterToNwg": ""
+    "CenterToPs": "[Center] to [PS]",
+    "CenterToMgPlus": "[Center] to [MG+]",
+    "CenterToNwg": "[Center] to [NWG]"
   },
   "gamePlatform": "gaming platform",
   "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state",
@@ -279,5 +279,5 @@
     "setSuccessMessage": "You have successfully set a login password, {0} for now",
     "validEmailMessage": "The reset password link has been sent to your mailbox, please click on the link in your personal mailbox"
   },
-  "recordInfoNumTime": ""
+  "recordInfoNumTime": "@:common.SerialNumber / @:common.time"
 }

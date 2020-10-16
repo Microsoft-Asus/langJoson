@@ -58,5 +58,10 @@
   "createSubordinate": "Tạo lập cấp dưới",
   "province": "Tỉnh",
   "SingleMember": "Người sử dụng đơn nhất",
-  "transferSubordinate": "Cấp dưới chuyển khoản"
+  "transferSubordinate": "Cấp dưới chuyển khoản",
+  "onlineMemberAccount": "",
+  "loginPassword": "",
+  "registerCount": "",
+  "face": "",
+  "copyTips": ""
 }

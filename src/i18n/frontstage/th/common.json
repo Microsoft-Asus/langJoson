@@ -93,5 +93,6 @@
   "Signin": "ลงทะเบียน",
   "fillInAmount": "ใส่จำนวนเงิน",
   "ActualAmount": "จำนวนเงินจริง",
-  "SerialNumber": "หมายเลขเดี่ยว"
+  "SerialNumber": "หมายเลขเดี่ยว",
+  "bankName": ""
 }

@@ -3,8 +3,8 @@
   "forgetPasswordTip": "Please try to log in by mobile phone or email address, or you can contact the customer service.",
   "Page404NotFoundSentence": "The page you’re looking for has no longer existed, you can return to {0}",
   "HomePage": "Home",
-  "days": "Sunday_Wednesday_Tuesday_Thursday_Friday_Saturday",
-  "daysShort": "Sun_Wed_Tue_Thu_Fri_Sat",
+  "days": "Sunday_Monday_Wednesday_Tuesday_Thursday_Friday_Saturday",
+  "daysShort": "Sun_Mon_Wed_Tue_Thu_Fri_Sat",
   "months": "January_February_March_April_May_June_July_August_September_October_November_December",
   "monthsShort": "Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec",
   "county": "county",
@@ -83,16 +83,16 @@
   "today": "today",
   "yesterday": "yesterday",
   "measureword": {
-    "people": ""
+    "people": "{0} person/persons"
   },
-  "tip": "",
-  "signed": "",
-  "unsigned": "",
-  "sign": "",
-  "nextstep": "",
-  "time": "",
-  "link": "",
-  "unlimit": "",
-  "SerialNumber": "",
+  "tip": "Friendly Reminders",
+  "signed": "Already Signed a contract",
+  "unsigned": "Not sign a contract yet",
+  "sign": "Signing a contract",
+  "nextstep": "next",
+  "time": "time",
+  "link": "Link",
+  "unlimit": "Unlimited",
+  "SerialNumber": "Single number",
   "bankName": ""
 }

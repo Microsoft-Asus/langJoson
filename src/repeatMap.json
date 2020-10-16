@@ -165,11 +165,11 @@
     {
       "key": "backstage.common.unitWeek",
       "en": "week",
-      "zh-cn": "周",
-      "zh-tw": "週",
       "hi": "",
       "th": "",
       "vi": "",
+      "zh-cn": "周",
+      "zh-tw": "週",
       "rowid": 277
     }
   ],
@@ -304,7 +304,7 @@
     },
     {
       "key": "frontstage.agent.TeamValidBetAmount",
-      "en": "",
+      "en": "Valid betting",
       "hi": "",
       "th": "การเดิมพันที่ถูกต้อง",
       "vi": "Đặt cược có hiệu lực",
@@ -420,7 +420,7 @@
     },
     {
       "key": "frontstage.agent.TeamDeposit",
-      "en": "",
+      "en": "Recharge",
       "hi": "",
       "th": "เติมเงิน",
       "vi": "Nạp tiền",
@@ -644,7 +644,7 @@
     },
     {
       "key": "frontstage.form.button.reset",
-      "en": "",
+      "en": "Reset",
       "hi": "",
       "th": "รีเซ็ต",
       "vi": "Thiết lập lại",
@@ -688,7 +688,7 @@
     },
     {
       "key": "frontstage.common.days",
-      "en": "Sunday_Wednesday_Tuesday_Thursday_Friday_Saturday",
+      "en": "Sunday_Monday_Wednesday_Tuesday_Thursday_Friday_Saturday",
       "hi": "रविवार_सोमवार_मंगलवार_बुधवार_गुरूवार_शुक्रवार_शनिवार",
       "th": "วันอาทิตย์ _ วันจันทร์ _ วันอังคาร _ วันพุธ _ วันพฤหัสบดี _ วันศุกร์ _ วันเสาร์",
       "vi": "Chủ nhật _ Thứ Hai  Thứ Ba _ Thứ Tư _ Thứ Năm  Thứ Sáu _ Thứ Bảy",
@@ -710,7 +710,7 @@
     },
     {
       "key": "frontstage.common.daysShort",
-      "en": "Sun_Wed_Tue_Thu_Fri_Sat",
+      "en": "Sun_Mon_Wed_Tue_Thu_Fri_Sat",
       "hi": "रवि_मोन_मंगल_बुध_गुरू_शुक्र_शनि",
       "th": "วันอาทิตย์ _ วันจันทร์ _ วันอังคาร _ วันพุธ _ วันพฤหัสบดี _ วันศุกร์ _ วันเสาร์",
       "vi": "CN _ T. Hai _ T. Ba _ T. Tư _ T. Năm _ T. Sáu _ T. Bảy",
@@ -1036,7 +1036,7 @@
     },
     {
       "key": "frontstage.common.unlimit",
-      "en": "",
+      "en": "Unlimited",
       "hi": "",
       "th": "ไม่ จำกัด",
       "vi": "Không hạn chế",
@@ -1721,11 +1721,11 @@
     {
       "key": "frontstage.user.resetpasswd.stepLabel.SetSuccess",
       "en": "Reset successfully",
+      "th": "",
+      "vi": "",
       "zh-cn": "重置成功",
       "zh-tw": "重置成功",
       "hi": "",
-      "th": "",
-      "vi": "",
       "rowid": 1628
     }
   ],
@@ -1883,11 +1883,11 @@
     {
       "key": "backstage.common.languages.zh-tw",
       "en": "Traditional Chinese",
-      "zh-cn": "繁体中文",
-      "zh-tw": "繁體中文",
       "hi": "",
       "th": "",
       "vi": "",
+      "zh-cn": "繁体中文",
+      "zh-tw": "繁體中文",
       "rowid": 282
     },
     {
@@ -1896,7 +1896,7 @@
       "hi": "",
       "th": "จีนดั้งเดิม",
       "vi": "Tiếng Trung phồn thể",
-      "zh-cn": "繁體中文",
+      "zh-cn": "繁体中文",
       "zh-tw": "繁體中文",
       "rowid": 1113
     }
@@ -1915,11 +1915,11 @@
     {
       "key": "backstage.common.languages.th",
       "en": "Thai",
-      "zh-cn": "泰文",
-      "zh-tw": "泰文",
       "hi": "",
       "th": "",
       "vi": "",
+      "zh-cn": "泰文",
+      "zh-tw": "泰文",
       "rowid": 284
     },
     {
@@ -1937,21 +1937,21 @@
     {
       "key": "backstage.common.langs.vn",
       "en": "Vietnamese",
-      "zh-cn": "越南文",
-      "zh-tw": "越南文",
       "hi": "",
       "th": "",
       "vi": "",
+      "zh-cn": "越南文",
+      "zh-tw": "越南文",
       "rowid": 256
     },
     {
       "key": "backstage.common.languages.vi",
       "en": "Vietnamese",
-      "zh-cn": "越南文",
-      "zh-tw": "越南文",
       "hi": "",
       "th": "",
       "vi": "",
+      "zh-cn": "越南文",
+      "zh-tw": "越南文",
       "rowid": 283
     },
     {
@@ -1959,7 +1959,7 @@
       "en": "Tiếng Việt",
       "th": "",
       "vi": "",
-      "zh-cn": "Tiếng Việt",
+      "zh-cn": "越南文",
       "zh-tw": "越南文",
       "hi": "",
       "rowid": 1115
@@ -1969,21 +1969,21 @@
     {
       "key": "backstage.common.langs.inr",
       "en": "Indian",
-      "zh-cn": "印度文",
-      "zh-tw": "印度文",
       "hi": "",
       "th": "",
       "vi": "",
+      "zh-cn": "印度文",
+      "zh-tw": "印度文",
       "rowid": 257
     },
     {
       "key": "backstage.common.languages.hi",
       "en": "Indian",
-      "zh-cn": "印度文",
-      "zh-tw": "印度文",
       "hi": "",
       "th": "",
       "vi": "",
+      "zh-cn": "印度文",
+      "zh-tw": "印度文",
       "rowid": 285
     },
     {
@@ -1991,7 +1991,7 @@
       "en": "भारतीय",
       "th": "",
       "vi": "",
-      "zh-cn": "भारतीय",
+      "zh-cn": "印度文",
       "zh-tw": "印度文",
       "hi": "",
       "rowid": 1118
@@ -2894,7 +2894,7 @@
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToPs",
-      "en": "",
+      "en": "[Center] to [PS]",
       "hi": "",
       "th": "[กระเป๋าเงินกลาง] ถึง [PS]",
       "vi": "[Túi tiền trung tâm] chuyển qua [PS]",
@@ -3070,7 +3070,7 @@
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToMgPlus",
-      "en": "",
+      "en": "[Center] to [MG+]",
       "hi": "",
       "th": "[กระเป๋าเงินกลาง] ถึง[MG +]",
       "vi": "[Túi tiền trung tâm] chuyển qua [MG+]",
@@ -3158,7 +3158,7 @@
     },
     {
       "key": "frontstage.user.changeRecordType.CenterToNwg",
-      "en": "",
+      "en": "[Center] to [NWG]",
       "hi": "",
       "th": "[กระเป๋าเงินกลาง] ถึง [NWG]",
       "vi": "[Túi tiền trung tâm] chuyển qua [NWG]",
@@ -3554,7 +3554,7 @@
     },
     {
       "key": "frontstage.user.TppPaymentTypeEnum.BqPay",
-      "en": "",
+      "en": "BQPay",
       "hi": "",
       "th": "BQPay",
       "vi": "BQPay",
@@ -3742,7 +3742,7 @@
       "hi": "एकल उपयोगकर्ता",
       "th": "ผู้ใช้คนเดียว",
       "vi": "Người sử dụng đơn nhất",
-      "zh-cn": "单一用户",
+      "zh-cn": "单一用戶",
       "zh-tw": "單一用戶",
       "rowid": 597
     }
@@ -4251,11 +4251,11 @@
     {
       "key": "backstage.menu.ProviderOperateRecord",
       "en": "Operate record",
-      "zh-cn": "操作记录",
-      "zh-tw": "操作記錄",
       "hi": "",
       "th": "",
       "vi": "",
+      "zh-cn": "操作记录",
+      "zh-tw": "操作記錄",
       "rowid": 676
     }
   ],
@@ -4285,11 +4285,11 @@
     {
       "key": "backstage.rules.memberAccount",
       "en": "6-11 numbers + English composition (no case)",
-      "zh-cn": "6-11个数字+英文组成 (无大小写)",
-      "zh-tw": "6-11個數字+英文組成 (無大小寫)",
       "hi": "",
       "th": "",
       "vi": "",
+      "zh-cn": "6-11个数字+英文组成 (无大小写)",
+      "zh-tw": "6-11個數字+英文組成 (無大小寫)",
       "rowid": 710
     },
     {
@@ -4307,11 +4307,11 @@
     {
       "key": "backstage.rules.twin",
       "en": "Please confirm the content",
-      "zh-cn": "请确认内容",
-      "zh-tw": "請確認內容",
       "hi": "",
       "th": "",
       "vi": "",
+      "zh-cn": "请确认内容",
+      "zh-tw": "請確認內容",
       "rowid": 712
     },
     {
@@ -4784,7 +4784,7 @@
     },
     {
       "key": "frontstage.agent.TeamPayoutAmount",
-      "en": "",
+      "en": "Payout amount",
       "hi": "",
       "th": "จำนวนเงินปันผล",
       "vi": "Số tiền thưởng được phát",
@@ -4946,7 +4946,7 @@
     },
     {
       "key": "frontstage.agent.dashboard.TeamRegistMemberCount",
-      "en": "",
+      "en": "Registered number",
       "hi": "",
       "th": "จำนวนคนที่ลงทะเบียน",
       "vi": "Số người đăng ký",
@@ -5152,7 +5152,7 @@
   [
     {
       "key": "frontstage.agent.dashboard.TeamValidBetAmount",
-      "en": "",
+      "en": "Team betting",
       "hi": "",
       "th": "การเดิมพันของทีม",
       "vi": "Đặt cược nhóm",
@@ -5174,7 +5174,7 @@
   [
     {
       "key": "frontstage.agent.dashboard.TeamWithdrawalAmount",
-      "en": "",
+      "en": "Team withdrawal",
       "hi": "",
       "th": "การถอนของทีม",
       "vi": "Rút tiền nhóm",
@@ -5196,7 +5196,7 @@
   [
     {
       "key": "frontstage.agent.TeamStrategyRebateAmount",
-      "en": "",
+      "en": "Rebate amount",
       "hi": "",
       "th": "ยอดส่วนลด",
       "vi": "Số tiền thưởng đặt cược",
@@ -5448,7 +5448,7 @@
   [
     {
       "key": "frontstage.common.SerialNumber",
-      "en": "",
+      "en": "Single number",
       "hi": "",
       "th": "หมายเลขเดี่ยว",
       "vi": "Số đơn",
@@ -5481,11 +5481,11 @@
     {
       "key": "frontstage.common.bankName",
       "en": "",
+      "th": "",
+      "vi": "",
       "zh-cn": "选择银行",
       "zh-tw": "銀行名稱",
       "hi": "",
-      "th": "",
-      "vi": "",
       "rowid": 1149
     },
     {
@@ -5556,7 +5556,7 @@
   [
     {
       "key": "frontstage.form.label.fundsPassword",
-      "en": "",
+      "en": "Fund password",
       "hi": "",
       "th": "รหัสผ่านกองทุน",
       "vi": "Mật khẩu vốn quỹ",

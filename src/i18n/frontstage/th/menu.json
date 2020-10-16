@@ -41,5 +41,6 @@
   "UserTransRecord": "บันทึกการซื้อขาย",
   "AgentTxRecord": "บันทึกการซื้อขาย",
   "AgentBetRecord": "การเดิมพันของทีม",
-  "AgentTxWithdrawalRecord": "การถอนของทีม"
+  "AgentTxWithdrawalRecord": "การถอนของทีม",
+  "ResetPasswd": ""
 }

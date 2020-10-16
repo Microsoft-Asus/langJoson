@@ -35,5 +35,7 @@
   "VipDeleteSortError": "Thứ tự xóa bỏ VIP bị lỗi",
   "Fail": "Không thành công",
   "UsernameFronzen": "Số tài khoản đã đóng băng",
-  "VerificationCodeError": "Mã nghiệm chứng bị lỗi"
+  "VerificationCodeError": "Mã nghiệm chứng bị lỗi",
+  "AuditNotCleared": "",
+  "AgentIdentityNotExist": ""
 }

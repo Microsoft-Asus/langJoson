@@ -58,5 +58,10 @@
   "createSubordinate": "สร้างผู้ใต้บังคับบัญชา",
   "province": "จังหวัด",
   "SingleMember": "ผู้ใช้คนเดียว",
-  "transferSubordinate": "อนไปยังระดับล่าง"
+  "transferSubordinate": "อนไปยังระดับล่าง",
+  "onlineMemberAccount": "",
+  "loginPassword": "",
+  "registerCount": "",
+  "face": "",
+  "copyTips": ""
 }

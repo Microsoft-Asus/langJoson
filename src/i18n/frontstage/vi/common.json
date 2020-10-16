@@ -93,5 +93,6 @@
   "Signin": "Đăng ký",
   "fillInAmount": "Số tiền điền đơn",
   "ActualAmount": "Số tiền thực tế",
-  "SerialNumber": "Số đơn"
+  "SerialNumber": "Số đơn",
+  "bankName": ""
 }

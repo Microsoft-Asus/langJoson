@@ -152,5 +152,6 @@
   "LoginRecord": "บันทึกการเข้าสู่ระบบ",
   "ProviderLoginRecord": "บันทึกการเข้าสู่ระบบ",
   "OperationRecord": "บันทึกการดำเนินงาน",
-  "OperationRecordAll": "บันทึกการดำเนินงาน"
+  "OperationRecordAll": "บันทึกการดำเนินงาน",
+  "ProviderOperateRecord": ""
 }

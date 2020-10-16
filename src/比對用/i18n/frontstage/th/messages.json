@@ -15,7 +15,8 @@
     "success": "ลบบัตรธนาคารแล้ว"
   },
   "addBankCard": {
-    "success": "เพิ่มบัตรธนาคารเรียบร้อยแล้ว"
+    "success": "เพิ่มบัตรธนาคารเรียบร้อยแล้ว",
+    "fail": ""
   },
   "confirmLogout": "คุณแน่ใจว่าต้องการที่จะออกจากระบบหรือไม่?",
   "withdrawalRequest": {
@@ -40,5 +41,9 @@
   },
   "depositByBankCard": {
     "fail": "ไม่สามารถฝากเงินได้ในขณะนี้โปรดลองอีกครั้งใน {0} นาที"
+  },
+  "resetpasswd": {
+    "sendLinkEmailError": "",
+    "resetPasswdError": ""
   }
 }

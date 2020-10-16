@@ -91,10 +91,10 @@
   "deposit": {
     "BankCardTransfer": "",
     "depositAmountRange": "",
-    "bankcardOrderRemind": [
-      "",
-      ""
-    ],
+    ""
+      "0": "false",
+      "1": ""
+    },
     "goCheckDepositRecord": "",
     "noneAnyPaymentWay": ""
   },

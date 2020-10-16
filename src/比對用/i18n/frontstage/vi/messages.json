@@ -15,7 +15,8 @@
     "success": "Đã xóa bỏ thẻ ngân hàng."
   },
   "addBankCard": {
-    "success": "Thêm thử ngân hàng thành công."
+    "success": "Thêm thử ngân hàng thành công.",
+    "fail": ""
   },
   "confirmLogout": "Có chắc chắn muốn đăng xuất hay không?",
   "withdrawalRequest": {
@@ -40,5 +41,9 @@
   },
   "depositByBankCard": {
     "fail": "Hiện tại không thể gửi tiền, xin vui lòng thử lại sau {0} phút"
+  },
+  "resetpasswd": {
+    "sendLinkEmailError": "",
+    "resetPasswdError": ""
   }
 }

@@ -279,5 +279,5 @@
     "setSuccessMessage": "您已成功设定登入密码，请重新 {0}",
     "validEmailMessage": "重置密码连结已送到您的信箱，请至个人信箱点选连结"
   },
-  "recordInfoNumTime": "@:user.gamePlatform"
+  "recordInfoNumTime": "@:common.SerialNumber / @:common.time"
 }

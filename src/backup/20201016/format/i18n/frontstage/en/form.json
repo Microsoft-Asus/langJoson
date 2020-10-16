@@ -38,7 +38,7 @@
     "PasswdLogin": "Password login",
     "PhoneLogin": "SMS login",
     "transferAmount": "Transfer amount",
-    "fundsPassword": ""
+    "fundsPassword": "Fund password"
   },
   "button": {
     "Add": "Add",
@@ -52,7 +52,7 @@
     "deposit": "Add credit",
     "transfer": "Transfer",
     "withdrawal": "Withdrawal",
-    "reset": "",
+    "reset": "Reset",
     "send": "send"
   }
 }

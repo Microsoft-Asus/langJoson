@@ -41,5 +41,7 @@
   "receiveTime": "Thời gian vào tài khoản",
   "remitBalance": "Số tiền nạp",
   "depositAmount": "Số tiền gửi",
-  "deposits": "Số tiền gửi"
+  "deposits": "Số tiền gửi",
+  "receiveAmount": "",
+  "receivedAmount": ""
 }

@@ -269,5 +269,15 @@
   },
   "gamePlatform": "แพลตฟอร์มเกม",
   "QQcode": "หมายเลข QQ",
-  "fundsPassword": "รหัสผ่านกองทุน"
+  "fundsPassword": "รหัสผ่านกองทุน",
+  "resetpasswd": {
+    "stepLabel": {
+      "InputAccount": "",
+      "SetPasswd": "",
+      "ValidEmail": "",
+      "SetSuccess": ""
+    },
+    "setSuccessMessage": "",
+    "validEmailMessage": ""
+  }
 }

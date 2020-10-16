@@ -202,5 +202,7 @@
   "allCheck": "Chọn toàn bộ",
   "registerUser": "Số người đăng ký",
   "fresh": "Làm mới",
-  "transferSubordinate": "Cấp dưới chuyển khoản"
+  "transferSubordinate": "Cấp dưới chuyển khoản",
+  "payType": "",
+  "backstage": ""
 }

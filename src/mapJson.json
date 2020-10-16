@@ -2049,19 +2049,19 @@
   },
   "backstage.common.langs.vn": {
     "en": "Vietnamese",
-    "zh-cn": "越南文",
-    "zh-tw": "越南文",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "越南文",
+    "zh-tw": "越南文"
   },
   "backstage.common.langs.inr": {
     "en": "Indian",
-    "zh-cn": "印度文",
-    "zh-tw": "印度文",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "印度文",
+    "zh-tw": "印度文"
   },
   "backstage.common.backToPreviousLevel": {
     "en": "Back to previous level",
@@ -2201,27 +2201,27 @@
   },
   "backstage.common.default": {
     "en": "Default",
-    "zh-cn": "预设",
-    "zh-tw": "預設",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "预设",
+    "zh-tw": "預設"
   },
   "backstage.common.searchDateRange": {
     "en": "Search range: within {0} {1}",
-    "zh-cn": "搜寻范围: {0}{1} 内",
-    "zh-tw": "搜尋範圍: {0}{1}內",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "搜寻范围: {0}{1} 内",
+    "zh-tw": "搜尋範圍: {0}{1}內"
   },
   "backstage.common.unitWeek": {
     "en": "week",
-    "zh-cn": "周",
-    "zh-tw": "週",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "周",
+    "zh-tw": "週"
   },
   "backstage.common.WeChat": {
     "en": "WeChat",
@@ -2233,83 +2233,83 @@
   },
   "backstage.common.countryCode": {
     "en": "Country code",
-    "zh-cn": "国码",
-    "zh-tw": "國碼",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "国码",
+    "zh-tw": "國碼"
   },
   "backstage.common.languages.en": {
     "en": "English",
-    "zh-cn": "英文",
-    "zh-tw": "英文",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "英文",
+    "zh-tw": "英文"
   },
   "backstage.common.languages.zh-cn": {
     "en": "Simplified Chinese",
-    "zh-cn": "简体中文",
-    "zh-tw": "簡體中文",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "简体中文",
+    "zh-tw": "簡體中文"
   },
   "backstage.common.languages.zh-tw": {
     "en": "Traditional Chinese",
-    "zh-cn": "繁体中文",
-    "zh-tw": "繁體中文",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "繁体中文",
+    "zh-tw": "繁體中文"
   },
   "backstage.common.languages.vi": {
     "en": "Vietnamese",
-    "zh-cn": "越南文",
-    "zh-tw": "越南文",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "越南文",
+    "zh-tw": "越南文"
   },
   "backstage.common.languages.th": {
     "en": "Thai",
-    "zh-cn": "泰文",
-    "zh-tw": "泰文",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "泰文",
+    "zh-tw": "泰文"
   },
   "backstage.common.languages.hi": {
     "en": "Indian",
-    "zh-cn": "印度文",
-    "zh-tw": "印度文",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "印度文",
+    "zh-tw": "印度文"
   },
   "backstage.common.copy": {
     "en": "copy",
-    "zh-cn": "复制",
-    "zh-tw": "複製",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "复制",
+    "zh-tw": "複製"
   },
   "backstage.common.replaceSuccessfully": {
     "en": "Replace successfully",
-    "zh-cn": "取代成功",
-    "zh-tw": "取代成功",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "取代成功",
+    "zh-tw": "取代成功"
   },
   "backstage.common.decimalPointLimit": {
     "en": "Most to {0} decimal point",
-    "zh-cn": "最多小数点后 {0} 位数",
-    "zh-tw": "最多小數點後 {0} 位數",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "最多小数点后 {0} 位数",
+    "zh-tw": "最多小數點後 {0} 位數"
   },
   "backstage.deal.ParentDeposit": {
     "en": "Parent deposit",
@@ -3233,19 +3233,19 @@
   },
   "backstage.deposit.receiveAmount": {
     "en": "Receive amount",
-    "zh-cn": "接收金额",
-    "zh-tw": "接收金額",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "接收金额",
+    "zh-tw": "接收金額"
   },
   "backstage.deposit.receivedAmount": {
     "en": "Receive amount",
-    "zh-cn": "到账金额",
-    "zh-tw": "到帳金額",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "到账金额",
+    "zh-tw": "到帳金額"
   },
   "backstage.error.confirmPassword": {
     "en": "Does not match the password",
@@ -3553,19 +3553,19 @@
   },
   "backstage.errorCode.AuditNotCleared": {
     "en": "Audit note cleared",
-    "zh-cn": "稽核点未清空",
-    "zh-tw": "稽核點未清空",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "稽核点未清空",
+    "zh-tw": "稽核點未清空"
   },
   "backstage.errorCode.AgentIdentityNotExist": {
     "en": "Agent identity not exist",
-    "zh-cn": "代理身份不存在",
-    "zh-tw": "代理身份不存在",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "代理身份不存在",
+    "zh-tw": "代理身份不存在"
   },
   "backstage.manageWebsitePattern.WebsiteInfo": {
     "en": "Website Information",
@@ -4049,35 +4049,35 @@
   },
   "backstage.member.onlineMemberAccount": {
     "en": "Online member account",
-    "zh-cn": "上线会员账号",
-    "zh-tw": "上線會員帳號",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "上线会员账号",
+    "zh-tw": "上線會員帳號"
   },
   "backstage.member.loginPassword": {
     "en": "Login password",
-    "zh-cn": "登入密码",
-    "zh-tw": "登入密碼",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "登入密码",
+    "zh-tw": "登入密碼"
   },
   "backstage.member.registerCount": {
     "en": "Register count",
-    "zh-cn": "注册次数",
-    "zh-tw": "註冊次數",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "注册次数",
+    "zh-tw": "註冊次數"
   },
   "backstage.member.face": {
     "en": "",
-    "zh-cn": "",
-    "zh-tw": "頭像",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "",
+    "zh-tw": "頭像"
   },
   "backstage.member.transferSubordinate": {
     "en": "Transfer to the subordinate",
@@ -4089,11 +4089,11 @@
   },
   "backstage.member.copyTips": {
     "en": "{0} will replace the content of other languages",
-    "zh-cn": "{0} 将会取代其他语系的内容",
-    "zh-tw": "{0} 將會取代其他語系的內容",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "{0} 将会取代其他语系的内容",
+    "zh-tw": "{0} 將會取代其他語系的內容"
   },
   "backstage.member.chooseResetToPhone": {
     "en": "Choose to send a reset letter to your mobile phone.",
@@ -4780,7 +4780,7 @@
     "hi": "एकल उपयोगकर्ता",
     "th": "ผู้ใช้คนเดียว",
     "vi": "Người sử dụng đơn nhất",
-    "zh-cn": "单一用户",
+    "zh-cn": "单一用戶",
     "zh-tw": "單一用戶"
   },
   "backstage.menu.GameMerchantSetting": {
@@ -5409,11 +5409,11 @@
   },
   "backstage.menu.ProviderOperateRecord": {
     "en": "Operate record",
-    "zh-cn": "操作记录",
-    "zh-tw": "操作記錄",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "操作记录",
+    "zh-tw": "操作記錄"
   },
   "backstage.organizationTreeSearch.translateAgent": {
     "en": "Translate agent",
@@ -5681,27 +5681,27 @@
   },
   "backstage.rules.memberAccount": {
     "en": "6-11 numbers + English composition (no case)",
-    "zh-cn": "6-11个数字+英文组成 (无大小写)",
-    "zh-tw": "6-11個數字+英文組成 (無大小寫)",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "6-11个数字+英文组成 (无大小写)",
+    "zh-tw": "6-11個數字+英文組成 (無大小寫)"
   },
   "backstage.rules.notBlank": {
     "en": "It can't input blank in begin or end",
-    "zh-cn": "输入的开头或结尾不能是空白",
-    "zh-tw": "輸入的開頭或結尾不能是空白",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "输入的开头或结尾不能是空白",
+    "zh-tw": "輸入的開頭或結尾不能是空白"
   },
   "backstage.rules.twin": {
     "en": "Please confirm the content",
-    "zh-cn": "请确认内容",
-    "zh-tw": "請確認內容",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "请确认内容",
+    "zh-tw": "請確認內容"
   },
   "backstage.siteOwnerAccount.currencies.Undefined": {
     "en": "Undefined",
@@ -6561,11 +6561,11 @@
   },
   "backstage.system.payType": {
     "en": "Payment methods",
-    "zh-cn": "支付类型",
-    "zh-tw": "支付類型",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "支付类型",
+    "zh-tw": "支付類型"
   },
   "backstage.system.addNewOne": {
     "en": "AddNew",
@@ -7793,11 +7793,11 @@
   },
   "backstage.system.backstage": {
     "en": "Backstage",
-    "zh-cn": "后台",
-    "zh-tw": "後台",
     "hi": "",
     "th": "",
-    "vi": ""
+    "vi": "",
+    "zh-cn": "后台",
+    "zh-tw": "後台"
   },
   "backstage.system.transferSubordinate": {
     "en": "Transfer to the subordinate",
@@ -8160,7 +8160,7 @@
     "zh-tw": "最多只能生成 {0} 組鏈結"
   },
   "frontstage.agent.dashboard.TeamBalance": {
-    "en": "",
+    "en": "The account balance of the team",
     "hi": "",
     "th": "ยอดคงเหลืองของทีม",
     "vi": "Số dư nhóm",
@@ -8168,7 +8168,7 @@
     "zh-tw": "團隊餘額"
   },
   "frontstage.agent.dashboard.title": {
-    "en": "",
+    "en": "Today team overview",
     "hi": "",
     "th": "ภาพรวมทีมวันนี้",
     "vi": "Tổng quan nhóm hôm nay",
@@ -8176,7 +8176,7 @@
     "zh-tw": "今日團隊總覽"
   },
   "frontstage.agent.dashboard.caption": {
-    "en": "",
+    "en": "The statistical data is the same as the record of the report, and the statistical interval is daily {0}",
     "hi": "",
     "th": "ข้อมูลทางสถิติจะเหมือนกับบันทึกรายงาน และช่วงเวลาทางสถิติรายวันคือ{0}",
     "vi": "Số liệu thống kê giống với ghi chép Bảng báo cáo, khu thống kê là {0} hàng ngày.",
@@ -8184,7 +8184,7 @@
     "zh-tw": "統計數據與報表紀錄相同，統計區間為每日 {0}。"
   },
   "frontstage.agent.dashboard.TeamDepositAmount": {
-    "en": "",
+    "en": "Team deposit",
     "hi": "",
     "th": "เติมเงินของทีม",
     "vi": "Nạp tiền nhóm",
@@ -8192,7 +8192,7 @@
     "zh-tw": "團隊充值"
   },
   "frontstage.agent.dashboard.TeamBetMemberCount": {
-    "en": "",
+    "en": "Numbers of the people who bet",
     "hi": "",
     "th": "จำนวนคนที่เดิมพัน",
     "vi": "Số người đặt cược",
@@ -8200,7 +8200,7 @@
     "zh-tw": "投注人數"
   },
   "frontstage.agent.dashboard.TeamMemberCount": {
-    "en": "",
+    "en": "Members of the team",
     "hi": "",
     "th": "สมาชิกในทีม",
     "vi": "Thành viên nhóm",
@@ -8208,7 +8208,7 @@
     "zh-tw": "團隊成員"
   },
   "frontstage.agent.dashboard.TeamRegistMemberCount": {
-    "en": "",
+    "en": "Registered number",
     "hi": "",
     "th": "จำนวนคนที่ลงทะเบียน",
     "vi": "Số người đăng ký",
@@ -8216,7 +8216,7 @@
     "zh-tw": "註冊人數"
   },
   "frontstage.agent.dashboard.TeamValidBetAmount": {
-    "en": "",
+    "en": "Team betting",
     "hi": "",
     "th": "การเดิมพันของทีม",
     "vi": "Đặt cược nhóm",
@@ -8224,7 +8224,7 @@
     "zh-tw": "團隊投注"
   },
   "frontstage.agent.dashboard.TeamWithdrawalAmount": {
-    "en": "",
+    "en": "Team withdrawal",
     "hi": "",
     "th": "การถอนของทีม",
     "vi": "Rút tiền nhóm",
@@ -8288,7 +8288,7 @@
     "zh-tw": "遊戲分類/平台"
   },
   "frontstage.agent.TeamBenefitAmount": {
-    "en": "",
+    "en": "Benefit sharing treatment",
     "hi": "",
     "th": "สินน้ำใจเงินปันผล ",
     "vi": "Đãi ngộ chia lợi nhuận",
@@ -8296,7 +8296,7 @@
     "zh-tw": "分潤待遇"
   },
   "frontstage.agent.pickIdentity": {
-    "en": "",
+    "en": "Choose a status",
     "hi": "",
     "th": "เลือกสถานะ",
     "vi": "Chọn danh tính",
@@ -8304,7 +8304,7 @@
     "zh-tw": "選擇身份"
   },
   "frontstage.agent.AddChildTipMessage": {
-    "en": "",
+    "en": "The initial password of the newly added member is {0}",
     "hi": "",
     "th": "เพิ่มรหัสผ่านเริ่มต้นของสมาชิกเป็น: {0}",
     "vi": "Mật khẩu ban đầu của hội viên thêm mới: {0}",
@@ -8312,7 +8312,7 @@
     "zh-tw": "新添加會員的初始密碼為: {0}"
   },
   "frontstage.agent.signWithMember": {
-    "en": "",
+    "en": "Sign a contract with {0}",
     "hi": "",
     "th": "ลงนามกับ {0}",
     "vi": "Ký kết Hợp đồng với {0}",
@@ -8320,7 +8320,7 @@
     "zh-tw": "與 {0} 簽約"
   },
   "frontstage.agent.GenerateLink": {
-    "en": "",
+    "en": "To generate a link",
     "hi": "",
     "th": "สร้างลิงค์",
     "vi": "Liên kết hình thành",
@@ -8328,7 +8328,7 @@
     "zh-tw": "生成鏈結"
   },
   "frontstage.agent.TeamValidBetAmount": {
-    "en": "",
+    "en": "Valid betting",
     "hi": "",
     "th": "การเดิมพันที่ถูกต้อง",
     "vi": "Đặt cược có hiệu lực",
@@ -8336,7 +8336,7 @@
     "zh-tw": "有效投注"
   },
   "frontstage.agent.TeamDeposit": {
-    "en": "",
+    "en": "Recharge",
     "hi": "",
     "th": "เติมเงิน",
     "vi": "Nạp tiền",
@@ -8344,7 +8344,7 @@
     "zh-tw": "充值"
   },
   "frontstage.agent.TeamPayoutAmount": {
-    "en": "",
+    "en": "Payout amount",
     "hi": "",
     "th": "จำนวนเงินปันผล",
     "vi": "Số tiền thưởng được phát",
@@ -8352,7 +8352,7 @@
     "zh-tw": "派彩金額"
   },
   "frontstage.agent.TeamStrategyRebateAmount": {
-    "en": "",
+    "en": "Rebate amount",
     "hi": "",
     "th": "ยอดส่วนลด",
     "vi": "Số tiền thưởng đặt cược",
@@ -8425,11 +8425,11 @@
   },
   "frontstage.api.code.105": {
     "en": "Broken proxy link",
+    "th": "",
+    "vi": "",
     "zh-cn": "代理连结失效",
     "zh-tw": "代理連結失效",
-    "hi": "",
-    "th": "",
-    "vi": ""
+    "hi": ""
   },
   "frontstage.api.code.300": {
     "en": "verification code error",
@@ -8497,11 +8497,11 @@
   },
   "frontstage.api.code.MemberAgentLinkError": {
     "en": "@:api.code.105",
+    "th": "",
+    "vi": "",
     "zh-cn": "@:api.code.105",
     "zh-tw": "@:api.code.105",
-    "hi": "",
-    "th": "",
-    "vi": ""
+    "hi": ""
   },
   "frontstage.bulletin.title": {
     "en": "Latest Announcement",
@@ -8544,7 +8544,7 @@
     "zh-tw": "首頁"
   },
   "frontstage.common.days": {
-    "en": "Sunday_Wednesday_Tuesday_Thursday_Friday_Saturday",
+    "en": "Sunday_Monday_Wednesday_Tuesday_Thursday_Friday_Saturday",
     "hi": "रविवार_सोमवार_मंगलवार_बुधवार_गुरूवार_शुक्रवार_शनिवार",
     "th": "วันอาทิตย์ _ วันจันทร์ _ วันอังคาร _ วันพุธ _ วันพฤหัสบดี _ วันศุกร์ _ วันเสาร์",
     "vi": "Chủ nhật _ Thứ Hai  Thứ Ba _ Thứ Tư _ Thứ Năm  Thứ Sáu _ Thứ Bảy",
@@ -8552,7 +8552,7 @@
     "zh-tw": "週日_週一_週二_週三_週四_週五_週六"
   },
   "frontstage.common.daysShort": {
-    "en": "Sun_Wed_Tue_Thu_Fri_Sat",
+    "en": "Sun_Mon_Wed_Tue_Thu_Fri_Sat",
     "hi": "रवि_मोन_मंगल_बुध_गुरू_शुक्र_शनि",
     "th": "วันอาทิตย์ _ วันจันทร์ _ วันอังคาร _ วันพุธ _ วันพฤหัสบดี _ วันศุกร์ _ วันเสาร์",
     "vi": "CN _ T. Hai _ T. Ba _ T. Tư _ T. Năm _ T. Sáu _ T. Bảy",
@@ -8908,7 +8908,7 @@
     "hi": "",
     "th": "จีนดั้งเดิม",
     "vi": "Tiếng Trung phồn thể",
-    "zh-cn": "繁體中文",
+    "zh-cn": "繁体中文",
     "zh-tw": "繁體中文"
   },
   "frontstage.common.langs.th": {
@@ -8923,7 +8923,7 @@
     "en": "Tiếng Việt",
     "th": "",
     "vi": "",
-    "zh-cn": "Tiếng Việt",
+    "zh-cn": "越南文",
     "zh-tw": "越南文",
     "hi": ""
   },
@@ -8947,7 +8947,7 @@
     "en": "भारतीय",
     "th": "",
     "vi": "",
-    "zh-cn": "भारतीय",
+    "zh-cn": "印度文",
     "zh-tw": "印度文",
     "hi": ""
   },
@@ -9112,7 +9112,7 @@
     "zh-tw": "昨天"
   },
   "frontstage.common.measureword.people": {
-    "en": "",
+    "en": "{0} person/persons",
     "hi": "",
     "th": "{0} คน",
     "vi": "{0} người",
@@ -9120,7 +9120,7 @@
     "zh-tw": "{0} 人"
   },
   "frontstage.common.tip": {
-    "en": "",
+    "en": "Friendly Reminders",
     "hi": "",
     "th": "การแจ้งเตือน",
     "vi": "Lời nhắc ấm ấp",
@@ -9128,7 +9128,7 @@
     "zh-tw": "溫馨提醒"
   },
   "frontstage.common.signed": {
-    "en": "",
+    "en": "Already Signed a contract",
     "hi": "",
     "th": "เซ็นสัญญาแล้ว",
     "vi": "Đã ký kết Hợp đồng",
@@ -9136,7 +9136,7 @@
     "zh-tw": "已簽約"
   },
   "frontstage.common.unsigned": {
-    "en": "",
+    "en": "Not sign a contract yet",
     "hi": "",
     "th": "ยังไม่ได้เซ็นสัญญา",
     "vi": "Chưa ký kết Hợp đồng",
@@ -9144,7 +9144,7 @@
     "zh-tw": "未簽約"
   },
   "frontstage.common.sign": {
-    "en": "",
+    "en": "Signing a contract",
     "hi": "",
     "th": "เซ็นสัญญา",
     "vi": "Ký kết Hợp đồng",
@@ -9152,7 +9152,7 @@
     "zh-tw": "簽約"
   },
   "frontstage.common.nextstep": {
-    "en": "",
+    "en": "next",
     "hi": "",
     "th": "ขั้นตอนต่อไป",
     "vi": "Tiếp theo",
@@ -9160,7 +9160,7 @@
     "zh-tw": "下一步"
   },
   "frontstage.common.time": {
-    "en": "",
+    "en": "time",
     "hi": "",
     "th": "เวลา",
     "vi": "Thời gian",
@@ -9168,7 +9168,7 @@
     "zh-tw": "時間"
   },
   "frontstage.common.link": {
-    "en": "",
+    "en": "Link",
     "hi": "",
     "th": "ลิงค์",
     "vi": "Liên kết",
@@ -9176,7 +9176,7 @@
     "zh-tw": "鏈結"
   },
   "frontstage.common.unlimit": {
-    "en": "",
+    "en": "Unlimited",
     "hi": "",
     "th": "ไม่ จำกัด",
     "vi": "Không hạn chế",
@@ -9184,7 +9184,7 @@
     "zh-tw": "無限制"
   },
   "frontstage.common.SerialNumber": {
-    "en": "",
+    "en": "Single number",
     "hi": "",
     "th": "หมายเลขเดี่ยว",
     "vi": "Số đơn",
@@ -9193,11 +9193,11 @@
   },
   "frontstage.common.bankName": {
     "en": "",
+    "th": "",
+    "vi": "",
     "zh-cn": "选择银行",
     "zh-tw": "銀行名稱",
-    "hi": "",
-    "th": "",
-    "vi": ""
+    "hi": ""
   },
   "frontstage.dd.sentence.ESport.0": {
     "en": "The betting page is delicate, the information is pithy, and the operation is simple, \\n making placing bets simple and efficient.",
@@ -9688,7 +9688,7 @@
     "zh-tw": "轉帳金額"
   },
   "frontstage.form.label.fundsPassword": {
-    "en": "",
+    "en": "Fund password",
     "hi": "",
     "th": "รหัสผ่านกองทุน",
     "vi": "Mật khẩu vốn quỹ",
@@ -9784,7 +9784,7 @@
     "zh-tw": "提款"
   },
   "frontstage.form.button.reset": {
-    "en": "",
+    "en": "Reset",
     "hi": "",
     "th": "รีเซ็ต",
     "vi": "Thiết lập lại",
@@ -9793,11 +9793,11 @@
   },
   "frontstage.form.button.send": {
     "en": "send",
+    "th": "",
+    "vi": "",
     "zh-cn": "发送",
     "zh-tw": "發送",
-    "hi": "",
-    "th": "",
-    "vi": ""
+    "hi": ""
   },
   "frontstage.menu.UserDailyRewordRecord": {
     "en": "Daily return record",
@@ -10145,11 +10145,11 @@
   },
   "frontstage.menu.ResetPasswd": {
     "en": "reset Password",
+    "th": "",
+    "vi": "",
     "zh-cn": "重置密码",
     "zh-tw": "重置密碼",
-    "hi": "",
-    "th": "",
-    "vi": ""
+    "hi": ""
   },
   "frontstage.messages.register.success": {
     "en": "registration success",
@@ -10217,11 +10217,11 @@
   },
   "frontstage.messages.addBankCard.fail": {
     "en": "Unable to add bank card",
+    "th": "",
+    "vi": "",
     "zh-cn": "无法新增银行卡",
     "zh-tw": "無法新增銀行卡",
-    "hi": "",
-    "th": "",
-    "vi": ""
+    "hi": ""
   },
   "frontstage.messages.confirmLogout": {
     "en": "Are you sure you want to log out?",
@@ -10312,7 +10312,7 @@
     "zh-tw": "目前無法進入遊戲"
   },
   "frontstage.messages.contract.signingError": {
-    "en": "",
+    "en": "An error occurred while signing a contract.",
     "hi": "",
     "th": "เกิดข้อผิดพลาดขณะเซ็นสัญญา",
     "vi": "Phát sinh lỗi khi ký kết Hợp đồng.",
@@ -10321,22 +10321,22 @@
   },
   "frontstage.messages.resetpasswd.sendLinkEmailError": {
     "en": "",
+    "th": "",
+    "vi": "",
     "zh-cn": "",
     "zh-tw": "無法發送重置連線",
-    "hi": "",
-    "th": "",
-    "vi": ""
+    "hi": ""
   },
   "frontstage.messages.resetpasswd.resetPasswdError": {
     "en": "",
+    "th": "",
+    "vi": "",
     "zh-cn": "",
     "zh-tw": "無法重設登入密碼",
-    "hi": "",
-    "th": "",
-    "vi": ""
+    "hi": ""
   },
   "frontstage.messages.removeFailed": {
-    "en": "",
+    "en": "Failed to delete {0}",
     "hi": "",
     "th": "ลบ {0}ไม่สำเร็จ",
     "vi": "Xóa bỏ {0} không thành công.",
@@ -10344,7 +10344,7 @@
     "zh-tw": "刪除{0}失敗"
   },
   "frontstage.messages.removeSuccess": {
-    "en": "",
+    "en": "Successfully deleted {0}",
     "hi": "",
     "th": "ลบ {0} สำเร็จ",
     "vi": "Xóa bỏ {0} thành công.",
@@ -10352,7 +10352,7 @@
     "zh-tw": "成功刪除{0}。"
   },
   "frontstage.messages.addChildMemberSuccess": {
-    "en": "",
+    "en": "Successfully added Member {0}",
     "hi": "",
     "th": "เพิ่มเป็นสมาชิก {0} เรียบร้อยแล้ว",
     "vi": "Đã thêm thành công hội viên {0}.",
@@ -10360,7 +10360,7 @@
     "zh-tw": "已成功添加會員 {0}。"
   },
   "frontstage.messages.addChildMemberFailed": {
-    "en": "",
+    "en": "Can't add new member or the account already exists.",
     "hi": "",
     "th": "ไม่สามารถเพิ่มสมาชิกได้หรือมีบัญชีอยู่แล้ว",
     "vi": "Không thể thêm hội viên mới hoặc số tài khoản đã tồn tại.",
@@ -11688,7 +11688,7 @@
     "zh-tw": "派彩金額"
   },
   "frontstage.user.betRecord.column.GameType": {
-    "en": "",
+    "en": "@:user.gamePlatform",
     "hi": "",
     "th": "@: user.gamePlatform",
     "vi": "@:user.gamePlatform",
@@ -11856,7 +11856,7 @@
     "zh-tw": "設置資金密碼成功"
   },
   "frontstage.user.securitySetting.FundsPassword.mifyFailingMsg": {
-    "en": "",
+    "en": "Fund password reset failed",
     "hi": "",
     "th": "การรีเซ็ตรหัสผ่านกองทุนไม่สำเร็จ",
     "vi": "Thiết lập lại mật khẩu vốn quỹ không thành công",
@@ -11872,7 +11872,7 @@
     "zh-tw": "設置資金密碼失敗"
   },
   "frontstage.user.securitySetting.modifyFailingMsg": {
-    "en": "",
+    "en": "Fail to edit",
     "hi": "",
     "th": "แก้ไขล้มเหลียว",
     "vi": "Sửa đổi không thành công",
@@ -12008,7 +12008,7 @@
     "zh-tw": "雲閃付"
   },
   "frontstage.user.TppPaymentTypeEnum.BqPay": {
-    "en": "",
+    "en": "BQPay",
     "hi": "",
     "th": "BQPay",
     "vi": "BQPay",
@@ -12968,7 +12968,7 @@
     "zh-tw": "[中心錢包]轉[沙龙]"
   },
   "frontstage.user.changeRecordType.CenterToPs": {
-    "en": "",
+    "en": "[Center] to [PS]",
     "hi": "",
     "th": "[กระเป๋าเงินกลาง] ถึง [PS]",
     "vi": "[Túi tiền trung tâm] chuyển qua [PS]",
@@ -12976,7 +12976,7 @@
     "zh-tw": "[中心錢包]轉[玩星]"
   },
   "frontstage.user.changeRecordType.CenterToMgPlus": {
-    "en": "",
+    "en": "[Center] to [MG+]",
     "hi": "",
     "th": "[กระเป๋าเงินกลาง] ถึง[MG +]",
     "vi": "[Túi tiền trung tâm] chuyển qua [MG+]",
@@ -12984,7 +12984,7 @@
     "zh-tw": "[中心錢包]轉[MG+]"
   },
   "frontstage.user.changeRecordType.CenterToNwg": {
-    "en": "",
+    "en": "[Center] to [NWG]",
     "hi": "",
     "th": "[กระเป๋าเงินกลาง] ถึง [NWG]",
     "vi": "[Túi tiền trung tâm] chuyển qua [NWG]",
@@ -13009,58 +13009,58 @@
   },
   "frontstage.user.resetpasswd.stepLabel.InputAccount": {
     "en": "Enter account",
+    "th": "",
+    "vi": "",
     "zh-cn": "输入帐号",
     "zh-tw": "輸入帳號",
-    "hi": "",
-    "th": "",
-    "vi": ""
+    "hi": ""
   },
   "frontstage.user.resetpasswd.stepLabel.SetPasswd": {
     "en": "Set new password",
+    "th": "",
+    "vi": "",
     "zh-cn": "设定新密码",
     "zh-tw": "設定新密碼",
-    "hi": "",
-    "th": "",
-    "vi": ""
+    "hi": ""
   },
   "frontstage.user.resetpasswd.stepLabel.SetSuccess": {
     "en": "Reset successfully",
+    "th": "",
+    "vi": "",
     "zh-cn": "重置成功",
     "zh-tw": "重置成功",
-    "hi": "",
-    "th": "",
-    "vi": ""
+    "hi": ""
   },
   "frontstage.user.resetpasswd.stepLabel.ValidEmail": {
     "en": "Verify Email",
+    "th": "",
+    "vi": "",
     "zh-cn": "验证信箱",
     "zh-tw": "驗證信箱",
-    "hi": "",
-    "th": "",
-    "vi": ""
+    "hi": ""
   },
   "frontstage.user.resetpasswd.setSuccessMessage": {
     "en": "You have successfully set a login password, {0} for now",
+    "th": "",
+    "vi": "",
     "zh-cn": "您已成功设定登入密码，请重新 {0}",
     "zh-tw": "您已成功設定登入密碼，請重新 {0}",
-    "hi": "",
-    "th": "",
-    "vi": ""
+    "hi": ""
   },
   "frontstage.user.resetpasswd.validEmailMessage": {
     "en": "The reset password link has been sent to your mailbox, please click on the link in your personal mailbox",
+    "th": "",
+    "vi": "",
     "zh-cn": "重置密码连结已送到您的信箱，请至个人信箱点选连结",
     "zh-tw": "重置密碼連結已送到您的信箱，請至個人信箱點選連結",
-    "hi": "",
-    "th": "",
-    "vi": ""
+    "hi": ""
   },
   "frontstage.user.recordInfoNumTime": {
-    "en": "",
+    "en": "@:common.SerialNumber / @:common.time",
     "hi": "",
     "th": "@: common.SerialNumber / @: common.time",
     "vi": "@:common.SerialNumber / @:common.time",
-    "zh-cn": "@:user.gamePlatform",
+    "zh-cn": "@:common.SerialNumber / @:common.time",
     "zh-tw": "@:common.SerialNumber / @:common.time"
   }
 }

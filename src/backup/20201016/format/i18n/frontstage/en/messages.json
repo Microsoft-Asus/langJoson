@@ -37,14 +37,14 @@
   },
   "cannotPlayGame": "Can't enter the game right now",
   "contract": {
-    "signingError": ""
+    "signingError": "An error occurred while signing a contract."
   },
   "resetpasswd": {
     "sendLinkEmailError": "",
     "resetPasswdError": ""
   },
-  "removeFailed": "",
-  "removeSuccess": "",
-  "addChildMemberSuccess": "",
-  "addChildMemberFailed": ""
+  "removeFailed": "Failed to delete {0}",
+  "removeSuccess": "Successfully deleted {0}",
+  "addChildMemberSuccess": "Successfully added Member {0}",
+  "addChildMemberFailed": "Can't add new member or the account already exists."
 }

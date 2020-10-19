@@ -1,0 +1,13 @@
+{
+  "View": "Tra cứu",
+  "export": "Cho ra",
+  "execute": "Tiến hành",
+  "Edit": "Biên tập",
+  "permissionList": "Bảng liệt kê quyền hạn",
+  "setPermissionCorrespondingUrl": "Thiết lập địa chỉ trang web đối ứng quyền hạn",
+  "editPermissionCorrespondingApiUrl": "Biên tập địa chỉ trang web API đối ứng quyền hạn",
+  "ifMultipleUrlCorrespondencePleaseUseRegularExpression ": "Khi đối ứng với nhiều địa chỉ trang web, vui lòng sử dụng kiểu biểu đạt chính quy.",
+  "Delete": "Xóa bỏ",
+  "Add": "Thêm",
+  "query": "Tra cứu"
+}

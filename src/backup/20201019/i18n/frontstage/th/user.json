@@ -1,0 +1,283 @@
+{
+  "depositRecord": {
+    "column": {
+      "Channel": "ช่องเติมเงิน",
+      "CreatedTime": "วันที่เติมเงิน",
+      "TransNumber": "หมายเลขการเติมเงิน",
+      "ActualReceiveAmount": "จำนวนเงินที่ได้จริง",
+      "Amount": "จำนวนเงินที่เติม",
+      "Fee": "ค่าธรรมเนียม"
+    }
+  },
+  "transferRecord": {
+    "column": {
+      "CreatedTime": "วันที่โอน",
+      "TransNumber": "เลขที่โอน",
+      "Amount": "จำนวนเงินที่โอน",
+      "From": "โอนออก",
+      "To": "โอนเข้า"
+    }
+  },
+  "withdrawalRecord": {
+    "column": {
+      "BankCardNumber": "บัตรกดเงินสด",
+      "CreatedTime": "วันที่ถอน",
+      "TransNumber": "หมายเลขการถอน",
+      "Amount": "จำนวนเงินที่ถอน",
+      "Fee": "ค่าธรรมเนียม",
+      "WithdrawalAmount": "ใส่จำนวนเงิน",
+      "Subtotal": "จำนวนเงินจริง",
+      "ActualWithdrawalAmount": "จำนวนเงินจริง"
+    }
+  },
+  "betRecord": {
+    "column": {
+      "BetNumber": "หมายเลขคำสั่งซื้อ (หมายเลขการซื้อขาย)",
+      "CreatedTime": "วันที่เดิมพัน",
+      "WinLossAmount": "จำนวนเงินที่ชนะหรือแพ้",
+      "GameType": "@: user.gamePlatform",
+      "ValidAmount": "การเดิมพันที่ถูกต้อง",
+      "PayoutAmount": "จำนวนเงินปันผล",
+      "BetAmount": "จำนวนเงินเดิมพัน"
+    },
+    "pickGamePlatform": "เลือกแพลตฟอร์ม"
+  },
+  "securitySetting": {
+    "Phone": {
+      "remark": "ผูกกับเบอร์โทรศัพท์มือถือเพื่อความปลอดภัยของบัญชี",
+      "modifySuccessMsg": "รีเซ็ตโทรศัพท์สำเร็จ",
+      "modifyFailingMsg": "การรีเซ็ตโทรศัพท์ไม่สำเร็จ",
+      "label": "หมายเลขโทรศัพท์มือถือ"
+    },
+    "Email": {
+      "modifySuccessMsg": "รีเซ็ตอีเมลสำเร็จ",
+      "remark": "ผูกกับอีเมลเพื่อปรับปรุงความปลอดภัยของบัญชี",
+      "modifyFailingMsg": "การรีเซ็ตอีเมลไม่สำเร็จ",
+      "label": "อีเมล"
+    },
+    "Password": {
+      "label": "ใส่รหัสผ่าน",
+      "modifySuccessMsg": "รีเซ็ตรหัสผ่านเข้าสู่ระบบสำเร็จ",
+      "remark": "ขอแนะนำให้ผู้เล่นเปลี่ยนรหัสผ่านบ่อยๆ เพื่อความปลอดภัยของบัญชี",
+      "mifyFailingMsg": "การรีเซ็ตรหัสผ่านเข้าระบบไม่สำเร็จ"
+    },
+    "FundsPassword": {
+      "modifySuccessMsg": "รีเซ็ตรหัสผ่านกองทุนสำเร็จ",
+      "remark": "ขอแนะนำให้ผู้เล่นเปลี่ยนรหัสผ่านกองทุนบ่อยๆ เพื่อความปลอดภัยของบัญชี",
+      "settingSuccessMsg": "ตั้งรหัสผ่านกองทุนสำเร็จ",
+      "mifyFailingMsg": "การรีเซ็ตรหัสผ่านกองทุนไม่สำเร็จ",
+      "settingFailingMsg": "ตั้งรหัสผ่านกองทุนไม่สำเร็จ",
+      "label": "รหัสผ่านกองทุน"
+    },
+    "modifyFailingMsg": "แก้ไขล้มเหลียว"
+  },
+  "BankCard": {
+    "addBankCard": "เพิ่มบัตรธนาคาร"
+  },
+  "DailyRewordRecord": {
+    "column": {
+      "CreatedTime": "วันที่",
+      "Amount": "จำนวนเงินเดิมพัน",
+      "RewardAmount": "ยอดส่วนลด"
+    }
+  },
+  "deposit": {
+    "depositAmountRange": "เติมเงินครั้งเดียว $ {min} - $ {max}",
+    "bankcardOrderRemind": {
+      "0": "บัตรธนาคารนี้จะใช้ได้กับใบสั่งเติมเงินครั้งนี้เท่านั้น จะมีการส่งข้อมูลการเติมเงินอีกครั้งสำหรับการเติมครั้งต่อไป!",
+      "1": "กรุณาเข้าสู่ระบบธนาคารออนไลน์หรือธนาคารบนมือถือเพื่อทำการโอนเงิน"
+    },
+    "goCheckDepositRecord": "ไปที่ {0} เพื่อดูข้อมูลใบสั่งเติมเงิน",
+    "noneAnyPaymentWay": "ยังไม่มีวิธีการชำระเงิน",
+    "BankCardTransfer": "โอนเงินผ่านบัตรธนาคาร"
+  },
+  "transfer": {
+    "doTransfer": "โอนทันที",
+    "msg": {
+      "successfulTransfer": "โอนสำเร็จ",
+      "transferFailed": "การโอนล้มเหลว"
+    },
+    "transAmount": "จำนวนเงินที่โอน",
+    "transferFrom": "โอนออก",
+    "transferTo": "โอนเข้า"
+  },
+  "securitySettings": "ตั้งค่าความปลอดภัย",
+  "withdrawal": {
+    "withdrawalCheck": {
+      "title": "ถอนเงินสด {0} ไปยังบัตรธนาคาร"
+    },
+    "validate": {
+      "title": "การยืนยันการถอน"
+    },
+    "bankCardNotFoundMsg": "เพิ่มบัตรธนาคารของคุณ",
+    "fundsPasswdNotFoundMsg": "คุณสามารถถอนเงินได้หลังจากตั้งรหัสผ่านกองทุนเท่านั้น!",
+    "debitCard": "บัตรเดบิต",
+    "noWithdrawalMsg": "จำนวนรหัสที่ใส่ยังไม่ตรงตามจุดตรวจทีใช้ลบล้างได้ ดังนั้นคุณจึงไม่สามารถถอนเงินได้",
+    "numberOfremainingWithdrawals": "จำนวนการถอนฟรีที่เหลืออยู่",
+    "withdrawableMsg": "จำนวนรหัสที่ใส่ตรงตามจุดตรวจทีใช้ลบล้างได้  คุณสามารถถอนเงินได้"
+  },
+  "modifyBankCardHolderNameMsg": "โปรดติดต่อฝ่ายบริการลูกค้าเพื่อแก้ไขชื่อผู้ถือบัตร",
+  "EmailEditDialog": {
+    "title": "แก้ไขอีเมล"
+  },
+  "ModifyFundsPasswordDialog": {
+    "title": "ตั้งรหัสผ่านกองทุน",
+    "currentFundsPassword": "รหัสผ่านกองทุนปัจจุบัน",
+    "confirmFundsPassword": "ยืนยันรหัสผ่านกองทุนใหม่"
+  },
+  "vip": {
+    "MonthlyKeepVipDepositAmount": "ข้อกำหนดการสะสมรายเดือนตามระดับ",
+    "MonthlyRiseVipDepositAmount": "ยอดเงินฝากสะสมรายเดือน",
+    "MonthlyValidBetAmount": "การเดิมพันที่มีผลสะสมรายเดือน"
+  },
+  "userAccount": {
+    "otherWallets": "ยอดเงินในกระเป๋าเงินอื่น ๆ"
+  },
+  "oneClick": {
+    "caption": {
+      "clickAgainForCancel": "ดำเนินการหลังจาก 3 วินาทีคลิกอีกครั้งเพื่อยกเลิก",
+      "noTransferableWallet": "ไม่มีกระเป๋าเงินที่โอนได้",
+      "transAllBackToCenter": "โอนเงินทั้งหมดกลับไปที่กระเป๋าเงินกลาง",
+      "syncFetchingBalance": "กำลังซิงค์ยอดเงินในกระเป๋าเงิน"
+    },
+    "label": "การกู้คืนด้วยคลิกเดียว"
+  },
+  "ModifyPasswordDialog": {
+    "title": "แก้ไขรหัสผ่านเข้าสู่ระบบ"
+  },
+  "ModifyPhoneDialog": {
+    "title": "แก้ไขหมายเลขโทรศัพท์มือถือ"
+  },
+  "letter": {
+    "column": {
+      "IsRead": "อ่านแล้ว",
+      "Title": "หัวข้อ",
+      "CreatedTime": "เวลาปล่อย"
+    },
+    "messages": {
+      "confirmRemove": "แน่ใจไหมว่าต้องการลบจดหมาย ?"
+    },
+    "hasUnreadLetter": "ยังไม่ได้อ่านจดหมาย"
+  },
+  "changeRecord": {
+    "column": {
+      "CreatedTime": "เปลี่ยนวันที่",
+      "DiffBalance": "จำนวนการซื้อขาย",
+      "AfterBalance": "ยอดการซื้อขาย ",
+      "TransNumber": "หมายเลขเดี่ยว"
+    }
+  },
+  "changeRecordType": {
+    "DepositBankCard": "ฝากเข้า บัตรธนาคาร",
+    "DepositFee": "ค่าธรรมเนียมการฝาก",
+    "KaToCenter": "[KA] ถึง [กระเป๋าเงินกลาง]",
+    "DepositThirdParty": "เงินฝาก - บุคคลที่สาม",
+    "DepositDailyReward": "เงินฝาก - ส่วนลดรายวัน",
+    "LcToCenter": "[LC] ถึง  [กระเป๋าเงินกลาง]",
+    "WithdrawalPromotions": "ถอนเงิน  กิจกรรมโปรโมชั่น",
+    "SaToCenter": "[SA] ถึง [กระเป๋าเงินกลาง]",
+    "WithdrawalFee": "ค่าธรรมเนียมการถอน",
+    "AgToCenter": "[AG] ถึง [กระเป๋าเงินกลาง]",
+    "AgentStrategyCommission": "กลยุทธ์ของหน่วยงาน- ค่าคอมมิชชั่น",
+    "AgentStrategyDepositBonus": "กลยุทธ์ของหน่วยงาน รางวัลการเติมเงิน",
+    "AgentStrategyDividend": "กลยุทธ์ของหน่วยงาน- เงินปันผล",
+    "AgentStrategyRebate": "กลยุทธ์ของหน่วยงาน ส่วนลด",
+    "AgentStrategyWage": "กลยุทธ์ของหน่วยงาน- ค่าแรง",
+    "AllMemberSearchEnd": "เงื่อนไขการสอบถามสมาชิกทั้งหมด - [จบ]",
+    "ArtificialDepositExcludProfitAndLoss": "การฝากด้วยตนเองไม่รวมกำไรและขาดทุน",
+    "ArtificialWithdrawalExcludProfitAndLoss": "ข้อเสนอด้วยตนเองไม่รวมกำไรและขาดทุน",
+    "AviaToCenter": "[Avia] ถึง [กระเป๋าเงินกลาง]",
+    "BatchDepositExcludProfitAndLoss": "การฝากแบบกลุ่มไม่รวมกำไรและขาดทุน",
+    "BetCanceled": "ไม่ยอมรับการเดิมพัน",
+    "BetModified": "การแก้ไขการตั้งถิ่นฐาน",
+    "CenterToAvia": "[กระเป๋าเงินกลาง] ถึง [Avia]",
+    "CenterToKa": "[กระเป๋าเงินกลาง] ถึง [KA]",
+    "CenterToLc": "[กระเป๋าเงินกลาง] ถึง [LC]",
+    "CenterToSa": "[กระเป๋าเงินกลาง] ถึง [SA]",
+    "WithdrawalReject": "ปฏิเสธการจ่ายเงิน",
+    "Withdrawal": "ถอนเงิน",
+    "Other": "อื่น ๆ",
+    "Bet": "วางเดิมพัน",
+    "BetFinished": "แจกเงินรางวัล",
+    "BetDeleted": "ยกเลิก",
+    "Undefined": "ไม่ได้กำหนด",
+    "ParentDeposit": "เติมเงินระดับบน",
+    "ChildDeposit": "เติมเงินระดับล่าง",
+    "AgentStrategyOther": "กลยุทธ์หน่วยงาน - อื่น ๆ",
+    "BqDeposit": "เงินฝาก BQ",
+    "ArtificialDepositPromotions": "การฝากเงินด้วยตนเอง-ส่วนลดกิจกรรม",
+    "BatchDepositPromotions": "การฝากงวดนี้ -ส่วนลดกิจกรรม",
+    "CenterToAg": "[กระเป๋าเงินกลาง] ถึง [AG]",
+    "CenterToBbin": "[กระเป๋าเงินกลาง] ถึง [NewBBIN]",
+    "BbinToCenter": "[NewBBIN] ถึง [กระเป๋าเงินกลาง]",
+    "CenterToSaba": "[กระเป๋าเงินกลาง] ถึง [SABA]",
+    "SabaToCenter": "[SABA] ถึง [กระเป๋าเงินกลาง] ",
+    "CenterToPt": "[กระเป๋าเงินกลาง] ถึง [PT]",
+    "PtToCenter": "[PT] ถึง [กระเป๋าเงินกลาง]",
+    "CenterToRgLottery": "[กระเป๋าเงินกลาง] ถึง [RgLottery]",
+    "RgLotteryToCenter": "[RgLottery] ถึง [กระเป๋าเงินกลาง]",
+    "CenterToRgBoard": "[กระเป๋าเงินกลาง] ถึง [RgBoardGame]",
+    "RgBoardToCenter": "[RgBoardGame] ถึง [กระเป๋าเงินกลาง]",
+    "CenterToFastBet": "[กระเป๋าเงินกลาง] ถึง [FastBet]",
+    "FastBetToCenter": "[FastBet] ถึง [กระเป๋าเงินกลาง] ",
+    "CenterToPs": "[กระเป๋าเงินกลาง] ถึง [PS]",
+    "PsToCenter": "[PS] ถึง [กระเป๋าเงินกลาง]",
+    "CenterToEg": "[กระเป๋าเงินกลาง] ถึง [EG]",
+    "EgToCenter": "[EG] ถึง [กระเป๋าเงินกลาง]",
+    "CenterToIbo": "[กระเป๋าเงินกลาง] ถึง [IBO]",
+    "IboToCenter": "[IBO] โอนไปยัง [กระเป๋าเงินกลาง]",
+    "CenterToKk": "[กระเป๋าเงินกลาง] ถึง [KK]",
+    "KkToCenter": "[KK] ถึง[กระเป๋าเงินกลาง]",
+    "CenterToMgPlus": "[กระเป๋าเงินกลาง] ถึง[MG +]",
+    "MgPlusToCenter": "[MG +] ถึง [กระเป๋าเงินกลาง]",
+    "CenterToPg": "[กระเป๋าเงินกลาง] ถึง[PG]",
+    "PgToCenter": "[PG] ถึง [กระเป๋าเงินกลาง] ",
+    "CenterToNwg": "[กระเป๋าเงินกลาง] ถึง [NWG]",
+    "NwgToCenter": "[NWG] ถึง [กระเป๋าเงินกลาง]",
+    "CenterToRmg": "[กระเป๋าเงินกลาง] ถึง [RMG]",
+    "RmgToCenter": "[RMG] ถึง [กระเป๋าเงินกลาง]",
+    "CenterToTm": "[กระเป๋าเงินกลาง] ถึง [TM]",
+    "TmToCenter": "[TM] ถึง [กระเป๋าเงินกลาง]",
+    "CenterToVr": "[กระเป๋าเงินกลาง] ถึง [VR]",
+    "VrToCenter": "[VR] ถึง [กระเป๋าเงินกลาง]",
+    "CenterToWm": "[กระเป๋าเงินกลาง] ถึง [WM]",
+    "WmToCenter": "[WM] ถึง [กระเป๋าเงินกลาง]",
+    "WalletAuditSystemReset": "รีเซ็ตระบบ",
+    "WalletAuditArtificialReset": "รีเซ็ตด้วยตนเอง",
+    "ArtificialDeposit": "การฝากเงินด้วยตนเอง",
+    "ArtificialWithdrawal": "ถอนเงินด้วยตนเอง",
+    "BatchDeposit": "เงินฝากงวดนี้"
+  },
+  "recordInfoNumTimeState": "@: common.SerialNumber / @: common.time / @: common.state",
+  "recordInfoNumTime": "@: common.SerialNumber / @: common.time",
+  "mainWallet": "กระเป๋าเงินกลาง",
+  "promotionRecord": {
+    "column": {
+      "Amount": "จำนวนเงิน",
+      "CreatedTime": "เวลาที่เข้าบัญชี",
+      "TransNumber": "หมายเลขเดี่ยว"
+    }
+  },
+  "TppPaymentTypeEnum": {
+    "Alipay": "อาลิเพลย์ ",
+    "WeChatPay": "WeChat เพลย์",
+    "JingdongQrCode": "JD เพลย์",
+    "UnionPayQrCode": "ยูเนี่ยนเพย์ ",
+    "OnlinePayment": "การชำระเงินทางออนไลน์",
+    "UnionPay": "บัตรด่วน",
+    "BqPay": "BQPay"
+  },
+  "gamePlatform": "แพลตฟอร์มเกม",
+  "QQcode": "หมายเลข QQ",
+  "fundsPassword": "รหัสผ่านกองทุน",
+  "resetpasswd": {
+    "stepLabel": {
+      "InputAccount": "",
+      "SetPasswd": "",
+      "ValidEmail": "",
+      "SetSuccess": ""
+    },
+    "setSuccessMessage": "",
+    "validEmailMessage": ""
+  }
+}

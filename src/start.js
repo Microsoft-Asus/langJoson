@@ -14,7 +14,7 @@ const readExcel = require('./readExcel.js');
  *  true => 輸出Excel
  *  false => 讀取Excel 輸出 i18n
  */
-const EXPORT_EXCEL = false;
+const EXPORT_EXCEL = true;
 (function () {
   if (!EXPORT_EXCEL) {
     filesJs.copyFolder(path.resolve('.', 'i18n'), path.resolve('.', '比對用', 'i18n'), readExcel);

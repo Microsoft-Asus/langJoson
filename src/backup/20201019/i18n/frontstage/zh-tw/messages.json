@@ -1,0 +1,50 @@
+{
+  "register": {
+    "success": "註冊成功"
+  },
+  "sendCode": {
+    "PhoneSuccess": "已送出驗證碼到手機 {0}",
+    "EmailSuccess": "已送出驗證碼到信箱 {0}",
+    "PhonePlzCheck": "您已經送出驗證碼，請至手機收取驗證碼。",
+    "EmailPlzCheck": "您已經送出驗證碼，請至信箱收取驗證碼。"
+  },
+  "NicknameChanged": {},
+  "nicknameModified": {
+    "success": "成功修改暱稱。"
+  },
+  "removeBankCard": {
+    "success": "已刪除銀行卡。"
+  },
+  "addBankCard": {
+    "success": "成功添加銀行卡",
+    "fail": "無法新增銀行卡"
+  },
+  "confirmLogout": "確定要登出嗎？",
+  "withdrawalRequest": {
+    "success": "您已成功申请提款金額 {0} 元。",
+    "fail": "無法新增提款單。"
+  },
+  "editSuccessMsg": "修改成功",
+  "validationCodeSended": "您已經送出驗證碼，請至手機/信箱收取驗證碼。",
+  "cannotUpdateBalance": "無法取得餘額",
+  "cannotLoginMsg": "目前無法登入，請確認帳號或密碼。",
+  "cannotRegisterForNow": "目前無法註冊。",
+  "depositByTpp": {
+    "fail": "目前無法入款，請 {0} 分鐘後再次嘗試"
+  },
+  "depositByBankCard": {
+    "fail": "目前無法入款，請 {0} 分鐘後再次嘗試"
+  },
+  "cannotPlayGame": "目前無法進入遊戲",
+  "contract": {
+    "signingError": "簽約時發生錯誤。"
+  },
+  "removeFailed": "刪除{0}失敗",
+  "removeSuccess": "成功刪除{0}。",
+  "addChildMemberSuccess": "已成功添加會員 {0}。",
+  "addChildMemberFailed": "無法新增會員或帳號已存在。",
+  "resetpasswd": {
+    "sendLinkEmailError": "無法發送重置連線",
+    "resetPasswdError": "無法重設登入密碼"
+  }
+}

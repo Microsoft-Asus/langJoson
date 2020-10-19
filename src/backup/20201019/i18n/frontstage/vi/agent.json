@@ -1,0 +1,66 @@
+{
+  "column": {
+    "AgentCreatedTime": "Thời gian mở tài khoản",
+    "Balance": "Số dư túi tiền",
+    "MemberAccount": "Tên người sử dụng",
+    "ParentMemberAccount": "Cấp trên",
+    "AgentLink": {
+      "CreatedTime": "Thời gian tạo thành"
+    },
+    "AgentIdentityName": "Danh tính",
+    "RegisterCount": "Số người đăng ký"
+  },
+  "common": {
+    "memberNotExist": "Hội viên mà bạn thử đến thăm không tồn tại"
+  },
+  "betRecord": {
+    "pickGameCategory": "Phân loại trò chơi"
+  },
+  "TeamSettlementAmount": "Lãi lỗ của nhóm",
+  "addAccount": "Mở tài khoản bằng tay",
+  "addAccountByLink": "Mở tài khoản qua liên kết",
+  "turnToAgent": "Chuyển thành Đại lý",
+  "linksMangement": "Quản lý liên kết",
+  "contract": {
+    "MemberAccount": "Số tài khoản ký Hợp đồng"
+  },
+  "ActiveMemberCountExpression": "@:common.unlimit | {n} | {n}",
+  "BenefitSharingSource": "Nguồn chia lợi nhuận",
+  "Proportion": "Tỷ lệ bản thân",
+  "SignedProportion": "Tỷ lệ ký Hợp đồng",
+  "CreateLinkTipMessage": "Nhiều nhất chỉ được hình thành {0} nhóm liên kết",
+  "ContractProportion": "Tỷ lệ Hợp đồng",
+  "BetInfo": "Thông tin đặt cược",
+  "BetTaget": "Phân loại / điễn đàn trò chơi",
+  "TeamBenefitAmount": "Đãi ngộ chia lợi nhuận",
+  "pickIdentity": "Chọn danh tính",
+  "AddChildTipMessage": "Mật khẩu ban đầu của hội viên thêm mới: {0}",
+  "signWithMember": "Ký kết Hợp đồng với {0}",
+  "GenerateLink": "Liên kết hình thành",
+  "dashboard": {
+    "TeamBalance": "Số dư nhóm",
+    "title": "Tổng quan nhóm hôm nay",
+    "caption": "Số liệu thống kê giống với ghi chép Bảng báo cáo, khu thống kê là {0} hàng ngày.",
+    "TeamDepositAmount": "Nạp tiền nhóm",
+    "TeamBetMemberCount": "Số người đặt cược",
+    "TeamMemberCount": "Thành viên nhóm",
+    "TeamRegistMemberCount": "Số người đăng ký",
+    "TeamValidBetAmount": "Đặt cược nhóm",
+    "TeamWithdrawalAmount": "Rút tiền nhóm"
+  },
+  "CurrentQuota": "Hạn ngạch kết toán",
+  "contractReport": {
+    "column": {
+      "Amount": "Số tiền thưởng được phát"
+    }
+  },
+  "ContractReportAmount": "Số tiền thưởng được phát",
+  "sharingItem": "Hạng mục chia lợi nhuận",
+  "TeamValidBetAmount": "Đặt cược có hiệu lực",
+  "TeamDeposit": "Nạp tiền",
+  "TeamActiveMemberCount": "Số người hoạt động",
+  "ActiveMemberCount": "Số người hoạt động",
+  "SettlementCycle": "Chu kỳ kết toán",
+  "TeamPayoutAmount": "Số tiền thưởng được phát",
+  "TeamStrategyRebateAmount": "Số tiền thưởng đặt cược"
+}

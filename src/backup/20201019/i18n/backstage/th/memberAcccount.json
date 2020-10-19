@@ -1,0 +1,7 @@
+{
+  "resetConfirmMessage": "ส่งการแจ้งเตือนการรีเซ็ตไปที่ {0}ไหม?",
+  "resetConfirm": "คุณแน่ใจว่าจะรีเซ็ตหรือไม่?",
+  "pleaseChoose": "โปรดเลือก",
+  "sendVerificationMessage": "ส่งจดหมายยืนยันไปที่{0}ไหม?",
+  "sendPhoneVerification": "ส่ง ข้อความ ยืนยันไปที่ {0}ไหม?"
+}

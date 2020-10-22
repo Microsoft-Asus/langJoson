@@ -120,7 +120,7 @@ module.exports = function () {
           if (filesJs.is_file(path.resolve('.','langs',langsetting,fileName))) {
              /** 從樣板抓回來 **/
             const langsJson = JSON.parse(
-              filesJs.readFileSync(path.resolve('.', 'langs', langsetting, filename), 'utf8'),
+              filesJs.readFileSync(path.resolve('.', 'langs', langsetting, fileName), 'utf8'),
             );
           }
           //因為輸出Excel時需要轉換轉譯字元不然會消失,回來時就要反轉回來

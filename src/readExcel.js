@@ -54,7 +54,7 @@ module.exports = function () {
     //Get sheet by Name
     const worksheet = workbook.getWorksheet('MySheet');
     const langXls = []; //寫檔以後可以跟讀取輸出的langXls.json做交互確認
-    const outputJson = {}; //輸出的整理
+    const newExcelJson = {}; //輸出的整理
     worksheet.eachRow({ includeEmpty: true }, function (row, rowNumber) {
       /** 一列列讀出來 */
       if (rowNumber > 1) {
@@ -79,9 +79,9 @@ module.exports = function () {
               obj[k] = escapeCharacter(rowjson[key] || '');
             }
           };
-          outputJson[key] = outputJson[key] || {};
-          outputJson[key][filePath] = outputJson[key][filePath] || {};
-          func(arr, outputJson[key][filePath]);
+          newExcelJson[key] = newExcelJson[key] || {};
+          newExcelJson[key][filePath] = newExcelJson[key][filePath] || {};
+          func(arr, newExcelJson[key][filePath]);
         });
 
         rowjson.rowid = clearFormat(currRow.getCell(worksheet.columnCount).value);
@@ -89,11 +89,11 @@ module.exports = function () {
       }
     });
 
-    const cloneJson = extend(true, {}, outputJson);
+    const cloneJson = extend(true, {}, newExcelJson);
     /** 讀出來的JSON結構 依序取出檔案名 */
-    Object.keys(outputJson).forEach((langkey) => {
+    Object.keys(newExcelJson).forEach((langkey) => {
       console.log('####',langkey)
-      Object.keys(outputJson[langkey]).forEach((writePath) => {
+      Object.keys(newExcelJson[langkey]).forEach((writePath) => {
         const resolvePath = JSON.parse(writePath);
 
         const fileName = resolvePath[resolvePath.length - 1];
@@ -124,9 +124,11 @@ module.exports = function () {
             );
           }
           //因為輸出Excel時需要轉換轉譯字元不然會消失,回來時就要反轉回來
-          ConvertEscapeCharacters(outputJson[langkey][writePath]);
+          ConvertEscapeCharacters(newExcelJson[langkey][writePath]);
+          //這邊要一個刪除的mapping
 
-          const i18nMergeJson = extend(true, {}, newi18nFileData, outputJson[langkey][writePath]);
+          //
+          const i18nMergeJson = extend(true, {}, newi18nFileData, newExcelJson[langkey][writePath]);
 
           // /**  extend合併之後輸出的檔案可以藉由git做差異分析 */
           filesJs.createFileSync(

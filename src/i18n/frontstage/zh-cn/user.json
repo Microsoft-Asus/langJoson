@@ -188,7 +188,7 @@
   },
   "changeRecordType": {
     "CenterToPg": "[中心钱包]转[PG]",
-    "CenterToPt": "[中心钱包]转[PT]",
+    "CenterToPt": "[中心钱包]转[IMPT]",
     "ChildDeposit": "下级充值",
     "CenterToVr": "[中心钱包]转[VR彩票]",
     "DepositBankCard": "入款-银行卡",
@@ -212,7 +212,7 @@
     "NwgToCenter": "[新世界棋牌]转[中心钱包]",
     "PgToCenter": "[PG]转[中心钱包]",
     "Undefined": "未定义",
-    "PtToCenter": "[PT]转[中心钱包]",
+    "PtToCenter": "[IMPT]转[中心钱包]",
     "WithdrawalReject": "拒绝出款",
     "RgBoardToCenter": "[RgBoardGame]转[中心钱包]",
     "WithdrawalPromotions": "出款优惠活动",

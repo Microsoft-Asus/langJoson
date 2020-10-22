@@ -37,5 +37,6 @@
   "VipKeepVipCumulativeDepositSortError": "VIP keep VIP cumulative deposit sort error",
   "VipDeleteSortError": "VIP delete sort error",
   "AuditNotCleared": "Audit note cleared",
-  "AgentIdentityNotExist": "Agent identity not exist"
+  "AgentIdentityNotExist": "Agent identity not exist",
+  "Maintenance": "Maintenance"
 }

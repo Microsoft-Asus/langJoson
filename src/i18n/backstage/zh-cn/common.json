@@ -241,5 +241,6 @@
   },
   "copy": "复制",
   "replaceSuccessfully": "取代成功",
-  "decimalPointLimit": "最多小数点后 {0} 位数"
+  "decimalPointLimit": "最多小数点后 {0} 位数",
+  "pleaseEnterANumberGreaterThan": "请输入大于 {0} 的数字"
 }

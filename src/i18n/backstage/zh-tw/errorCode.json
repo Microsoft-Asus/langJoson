@@ -37,5 +37,6 @@
   "BankAccountExist": "銀行戶存在",
   "Forbidden": "沒有權限",
   "AuditNotCleared": "稽核點未清空",
-  "AgentIdentityNotExist": "代理身份不存在"
+  "AgentIdentityNotExist": "代理身份不存在",
+  "Maintenance": "維護中"
 }

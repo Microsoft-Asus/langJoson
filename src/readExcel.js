@@ -40,10 +40,7 @@ module.exports = function () {
   //樣板
 
   langList.forEach((key, index) => {
-    console.log(key)
-  const langs_filelist = Object.values(
-    filesJs.readdirSync(path.resolve('.', 'langs', key)),
-  );
+    const langs_filelist = Object.values(filesJs.readdirSync(path.resolve('.', 'langs', key)));
   });
 
   /** 讀取Inspection.xlsx */
@@ -61,7 +58,7 @@ module.exports = function () {
         const rowjson = {};
         rowjson.key = row.values[1];
         langList.forEach((key, index) => {
-          rowjson[key] =clearFormat(currRow.getCell(index + 2).value);
+          rowjson[key] = clearFormat(currRow.getCell(index + 2).value);
 
           const pathList = row.values[1].split('.');
 
@@ -97,7 +94,6 @@ module.exports = function () {
         if (fileName === 'undefined.json') {
           return;
         }
-
 
         /**
          *
@@ -202,11 +198,11 @@ function contentReplace(line, value) {
 
 function clearFormat(params) {
   if (typeof params === 'object' && params && params.richText) {
-    const ar = Object.values(params.richText).map((item)=>{
-      if(item.text){
-        return item.text
+    const ar = Object.values(params.richText).map((item) => {
+      if (item.text) {
+        return item.text;
       }
-    })
+    });
     return ar.join('');
   }
   return params;

@@ -1,0 +1,17 @@
+{
+  "translateAgent": "Chuyển giao Đại lý",
+  "agentLevel": "Cấp hạng Đại lý",
+  "addChildAgentAccount": "Thêm Đại lý trực thuộc",
+  "contractList": "Danh danh Hợp đồng",
+  "gameCategory": "Loại trò chơi",
+  "gamePlatform": "Giao diện trò chơi",
+  "defaultPassword": "Mật khẩu mặc định: aa123456",
+  "resetContract": "Thiết lập lại Hợp đồng",
+  "willRestContract": "Hợp đồng ngoại tuyến sẽ thiết lại toàn bộ",
+  "isAlreadyTheTop": "Đã là cấp hạng cao nhất",
+  "levelOne": "Cấp hạng một",
+  "chooseTargetAccount": "Chọn số tài khoản chuyển giao",
+  "chooseTarget": "Chọn vị trí chuyển giao",
+  "willMove": "Sẽ chuyển giao đến",
+  "mayAffectAccounting": "Có khả năng ảnh hưởng đến tính toán sổ sách"
+}

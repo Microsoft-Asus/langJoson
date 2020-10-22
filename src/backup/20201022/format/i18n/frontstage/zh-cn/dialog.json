@@ -1,0 +1,12 @@
+{
+  "deleteBankCardLabel": "删除银行卡",
+  "registerForm": {
+    "hasRegistered": {
+      "0": "已有账号, {0}",
+      "1": "马上登录"
+    }
+  },
+  "UserNickNameEditor": {
+    "title": "修改昵称"
+  }
+}

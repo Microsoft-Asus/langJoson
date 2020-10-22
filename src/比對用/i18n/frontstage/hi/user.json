@@ -188,7 +188,7 @@
   },
   "changeRecordType": {
     "CenterToPg": "[Center] to [PG]",
-    "CenterToPt": "[Center] to [Pt]",
+    "CenterToPt": "[Center] to [IMPT]",
     "ChildDeposit": "Lower level recharge",
     "CenterToVr": "[Central Wallet] to [VR Lottery]",
     "DepositBankCard": "Deposit - bank card",
@@ -212,7 +212,7 @@
     "NwgToCenter": "[新世界棋牌] to [Center Wallet]",
     "PgToCenter": "[PG] to [Central Wallet]",
     "Undefined": "Undefined",
-    "PtToCenter": "[PT] to [Center]",
+    "PtToCenter": "[IMPT] to [Center]",
     "WithdrawalReject": "Refuse to pay",
     "RgBoardToCenter": "[RgBoardGame] to [Center]",
     "WithdrawalPromotions": "Preferential activities",

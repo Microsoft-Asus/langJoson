@@ -2335,6 +2335,14 @@
     "zh-cn": "最多小数点后 {0} 位数",
     "zh-tw": "最多小數點後 {0} 位數"
   },
+  "backstage.common.pleaseEnterANumberGreaterThan": {
+    "en": "Please enter a number greater than {0}",
+    "zh-cn": "请输入大于 {0} 的数字",
+    "zh-tw": "請輸入大於 {0} 的數字",
+    "hi": "",
+    "th": "",
+    "vi": ""
+  },
   "backstage.deal.ParentDeposit": {
     "en": "Parent deposit",
     "hi": "माता-पिता डिपॉज़िट",
@@ -2520,20 +2528,20 @@
     "zh-tw": "[SABA沙巴]轉[中心錢包]"
   },
   "backstage.deal.centerToPt": {
-    "en": "Center to PT",
-    "hi": "[केंद्र] से [PT]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [PT]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [PT]",
-    "zh-cn": "[中心钱包]转[PT]",
-    "zh-tw": "[中心錢包]轉[PT]"
+    "en": "Center to IMPT",
+    "hi": "[केंद्र] से [IMPT]",
+    "th": "[กระเป๋าเงินกลาง] ถึง [IMPT]",
+    "vi": "[Túi tiền trung tâm] chuyển qua [IMPT]",
+    "zh-cn": "[中心钱包]转[IMPT]",
+    "zh-tw": "[中心錢包]轉[IMPT]"
   },
   "backstage.deal.ptToCenter": {
-    "en": "PT to center",
-    "hi": "[PT] से [केंद्र] ",
-    "th": "[PT] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[PT] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[PT]转[中心钱包]",
-    "zh-tw": "[PT]轉[中心錢包]"
+    "en": "IMPT to center",
+    "hi": "[IMPT] से [केंद्र] ",
+    "th": "[IMPT] ถึง [กระเป๋าเงินกลาง]",
+    "vi": "[IMPT] chuyển qua [Túi tiền trung tâm]",
+    "zh-cn": "[IMPT]转[中心钱包]",
+    "zh-tw": "[IMPT]轉[中心錢包]"
   },
   "backstage.deal.centerToRgLottery": {
     "en": "Center to RgLottery",
@@ -3590,6 +3598,14 @@
     "vi": "",
     "zh-cn": "代理身份不存在",
     "zh-tw": "代理身份不存在"
+  },
+  "backstage.errorCode.Maintenance": {
+    "en": "Maintenance",
+    "zh-cn": "维护中",
+    "zh-tw": "維護中",
+    "hi": "",
+    "th": "",
+    "vi": ""
   },
   "backstage.manageWebsitePattern.WebsiteInfo": {
     "en": "Website Information",
@@ -12392,12 +12408,12 @@
     "zh-tw": "[中心錢包]轉[PG]"
   },
   "frontstage.user.changeRecordType.CenterToPt": {
-    "en": "[Center] to [Pt]",
-    "hi": "[Center] to [Pt]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [PT]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [PT]",
-    "zh-cn": "[中心钱包]转[PT]",
-    "zh-tw": "[中心錢包]轉[PT]"
+    "en": "[Center] to [IMPT]",
+    "hi": "[Center] to [IMPT]",
+    "th": "[กระเป๋าเงินกลาง] ถึง [IMPT]",
+    "vi": "[Túi tiền trung tâm] chuyển qua [IMPT]",
+    "zh-cn": "[中心钱包]转[IMPT]",
+    "zh-tw": "[中心錢包]轉[IMPT]"
   },
   "frontstage.user.changeRecordType.ChildDeposit": {
     "en": "Lower level recharge",
@@ -12584,12 +12600,12 @@
     "zh-tw": "未定義"
   },
   "frontstage.user.changeRecordType.PtToCenter": {
-    "en": "[PT] to [Center]",
-    "hi": "[PT] to [Center]",
-    "th": "[PT] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[PT] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[PT]转[中心钱包]",
-    "zh-tw": "[PT]轉[中心錢包]"
+    "en": "[IMPT] to [Center]",
+    "hi": "[IMPT] to [Center]",
+    "th": "[IMPT] ถึง [กระเป๋าเงินกลาง]",
+    "vi": "[IMPT] chuyển qua [Túi tiền trung tâm]",
+    "zh-cn": "[IMPT]转[中心钱包]",
+    "zh-tw": ""
   },
   "frontstage.user.changeRecordType.WithdrawalReject": {
     "en": "Refuse to pay",
@@ -13086,5 +13102,13 @@
     "vi": "@:common.SerialNumber / @:common.time",
     "zh-cn": "@:common.SerialNumber / @:common.time",
     "zh-tw": "@:common.SerialNumber / @:common.time"
+  },
+  "frontstage.user.changeRecordType.ImptToCenter": {
+    "zh-tw": "[IMPT]轉[中心錢包]",
+    "en": "",
+    "hi": "",
+    "th": "",
+    "vi": "",
+    "zh-cn": ""
   }
 }

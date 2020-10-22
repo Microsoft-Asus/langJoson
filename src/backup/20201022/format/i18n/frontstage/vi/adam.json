@@ -1,0 +1,17 @@
+{
+  "AdamESportHomeBlock": {
+    "title": "{0} Trò chơi"
+  },
+  "AdamPokerHomeBlock": {
+    "title": "{0} Bài lá"
+  },
+  "AdamSportHomeBlock": {
+    "title": "{0} Thể thao"
+  },
+  "AdamLiveHomeBlock": {
+    "title": "{0} Trực tuyến"
+  },
+  "AdamLotteryHomeBlock": {
+    "title": "{0} Xổ số"
+  }
+}

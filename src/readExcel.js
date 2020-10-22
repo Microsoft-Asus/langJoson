@@ -107,6 +107,7 @@ module.exports = function () {
          */
         try {
           var newi18nFileData = {};
+          //[ 'backstage', 'vi', 'memberAccount.json' ]
           const newi18nFilePath = ['.', 'i18n', ...resolvePath];
           if (filesJs.is_file(path.resolve(...newi18nFilePath))) {
             const newi18nFileContent = filesJs.readFileSync(path.resolve(...newi18nFilePath), 'utf8');

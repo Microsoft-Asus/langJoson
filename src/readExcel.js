@@ -39,8 +39,8 @@ module.exports = function () {
 
   //樣板
   langList.forEach((key, index) => {
-    const langs_filelist = Object.values(filesJs.readdirSync(path.resolve('.', 'langs', key)));
-    console.log(langs_filelist);
+    // const langs_filelist = Object.values(filesJs.readdirSync(path.resolve('.', 'langs', key)));
+    // console.log(langs_filelist);
     /** 從樣板抓回來 **/
     // const langsJson = JSON.parse(
     //   filesJs.readFileSync(path.resolve('.', 'langs', key, filename), 'utf8'),
@@ -108,12 +108,17 @@ module.exports = function () {
         try {
           var newi18nFileData = {};
           //[ 'backstage', 'vi', 'memberAccount.json' ]
+          const langsetting = resolvePath[1];//語系
           const newi18nFilePath = ['.', 'i18n', ...resolvePath];
           if (filesJs.is_file(path.resolve(...newi18nFilePath))) {
             const newi18nFileContent = filesJs.readFileSync(path.resolve(...newi18nFilePath), 'utf8');
             newi18nFileData = JSON.parse(newi18nFileContent.toString());
           }
 
+          //從樣板拉
+          if (filesJs.is_file(path.resolve('.','langs',langsetting,fileName))) {
+            console.log(langsetting,'///',fileName)
+          }
           //因為輸出Excel時需要轉換轉譯字元不然會消失,回來時就要反轉回來
           ConvertEscapeCharacters(outputJson[langkey][writePath]);
 

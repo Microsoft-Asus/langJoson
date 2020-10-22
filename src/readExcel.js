@@ -92,6 +92,7 @@ module.exports = function () {
     const cloneJson = extend(true, {}, outputJson);
     /** 讀出來的JSON結構 依序取出檔案名 */
     Object.keys(outputJson).forEach((langkey) => {
+      console.log('####',langkey)
       Object.keys(outputJson[langkey]).forEach((writePath) => {
         const resolvePath = JSON.parse(writePath);
 
@@ -117,7 +118,10 @@ module.exports = function () {
 
           //從樣板拉
           if (filesJs.is_file(path.resolve('.','langs',langsetting,fileName))) {
-            console.log(langsetting,'///',fileName)
+             /** 從樣板抓回來 **/
+            const langsJson = JSON.parse(
+              filesJs.readFileSync(path.resolve('.', 'langs', key, filename), 'utf8'),
+            );
           }
           //因為輸出Excel時需要轉換轉譯字元不然會消失,回來時就要反轉回來
           ConvertEscapeCharacters(outputJson[langkey][writePath]);

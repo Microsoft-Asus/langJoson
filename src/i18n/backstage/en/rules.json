@@ -1,5 +1,5 @@
 {
   "memberAccount": "6-11 numbers + English composition (no case)",
   "notBlank": "It can't input blank in begin or end",
-  "twin": "Please confirm the content"
+  "twin": "@:rules.twin"
 }

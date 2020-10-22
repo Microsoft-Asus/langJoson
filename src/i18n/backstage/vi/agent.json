@@ -48,7 +48,7 @@
   "settleMiniQuarter": "Quý",
   "settleMiniMonth": "Tháng",
   "settleMiniHalfMonth": "Nửa tháng",
-  "sharingItem": "Hạng mục chia lợi nhuận",
+  "sharingItem": "@:agent.sharingItem",
   "BetAviliable": "Đặt cược có hiệu lực",
   "WinLose": "Lãi âm (tài khoản cân đối)",
   "Lose": "Lãi âm (tài khoản không cân đối)",

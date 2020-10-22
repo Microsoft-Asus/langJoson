@@ -14,7 +14,7 @@
   "MenuEditing": "Directory management",
   "SystemManage": "system management",
   "Dashboard": "Dashboard",
-  "Home": "Home",
+  "Home": "@:menu.Home",
   "ManagerAccount": "Manager account",
   "WebsiteManage": "Website management",
   "WebsiteSetting": "System settings",

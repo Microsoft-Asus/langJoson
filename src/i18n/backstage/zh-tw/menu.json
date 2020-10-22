@@ -16,7 +16,7 @@
   "MenuEditing": "目錄管理",
   "SystemManage": "系統管理",
   "Dashboard": "儀表板",
-  "Home": "首頁",
+  "Home": "@:menu.Home",
   "ManagerAccount": "管理者帳號",
   "WebsiteManage": "網站管理",
   "WebsiteSetting": "系統設置",

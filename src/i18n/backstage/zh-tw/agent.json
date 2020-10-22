@@ -1,6 +1,6 @@
 {
   "startegyName": "策略名稱",
-  "sharingItem": "分潤項目",
+  "sharingItem": "@:agent.sharingItem",
   "BetAviliable": "有效投注",
   "WinLose": "負盈利(平帳)",
   "Lose": "負盈利(不平帳)",

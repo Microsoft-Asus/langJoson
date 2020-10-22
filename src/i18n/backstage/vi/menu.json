@@ -123,7 +123,7 @@
   "dashboard": "Bảng điều khiển",
   "Dashboard": "Bảng điều khiển",
   "home": "Trang chủ",
-  "Home": "Trang chủ",
+  "Home": "@:menu.Home",
   "siteManageTitle": "Quản lý trang web",
   "WebsiteManage": "Quản lý trang web",
   "systemManageTitle": "Quản lý hệ thống",

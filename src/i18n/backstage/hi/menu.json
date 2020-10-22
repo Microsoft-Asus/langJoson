@@ -123,7 +123,7 @@
   "dashboard": "डैशबोर्ड",
   "Dashboard": "डैशबोर्ड",
   "home": "होम",
-  "Home": "होम",
+  "Home": "@:menu.Home",
   "siteManageTitle": "वेबसाइट प्रबंधन",
   "WebsiteManage": "वेबसाइट प्रबंधन",
   "systemManageTitle": "सिस्टम प्रबंधन",

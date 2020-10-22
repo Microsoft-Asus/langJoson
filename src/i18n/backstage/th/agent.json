@@ -48,7 +48,7 @@
   "settleMiniQuarter": "ฤดูกาล",
   "settleMiniMonth": "เดือน",
   "settleMiniHalfMonth": "ครึ่งเดือน",
-  "sharingItem": "รายการที่จะปันผล",
+  "sharingItem": "@:agent.sharingItem",
   "BetAviliable": "การเดิมพันที่ถูกต้อง",
   "WinLose": "กำไรขาดทุน  (บัญชีมีความสมดุล)",
   "Lose": "กำไรขาดทุน  (บัญชีไม่สมดุล)",

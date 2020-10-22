@@ -9,15 +9,8 @@
   "monthsShort": "@:common.monthsShort",
   "county": "县市",
   "province": "省",
-  "Gender": {
-    "Female": "女性",
-    "Male": "男性",
-    "Unknow": "未知"
-  },
+  "Gender": {},
   "Login": "登录",
-  "remove": "刪除",
-  "confirm": "确认",
-  "cancel": "取消",
   "copySuccess": "已复制 {0}",
   "noData": "查无资料",
   "state": "状态",
@@ -36,10 +29,7 @@
   "remark": "备注",
   "done": "完成",
   "QQCode": "QQ号码",
-  "birthday": "生日",
   "doEdit": "修改",
-  "gender": "性别",
-  "WeChat": "WeChat",
   "binded": "已绑定",
   "setup": "设置",
   "unset": "未设置",
@@ -80,8 +70,6 @@
   "HandlingFee": "手续费",
   "ActualAmount": "实际金额",
   "otherdate": "其他日期",
-  "today": "今天",
-  "yesterday": "昨天",
   "measureword": {
     "people": "{0} 人"
   },

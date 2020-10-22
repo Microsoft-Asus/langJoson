@@ -89,97 +89,9 @@ module.exports = function () {
           return;
         }
 
+
         /**
-         * 方法一
-         * 讀取輸出日期時的模板
-         * 而且因為ZH_TW是基準所以用ZH_TW來做會比較完整
-         * 之後輸出的檔案可以藉由git做差異分析
-         * 如果Key有新增的話就要分析後加入
          *
-         * 所以這裡是拿來做分析用
-         * 不建議拿來做主要的檔案
-         */
-
-        // try {
-        //   /** FriSep112020 or 20201016 -->這裡的樣板日期要以送翻譯社時的輸出資料夾做比對 */
-        //   const modulePath = ['.', 'backup', '20201016', 'i18n', resolvePath[0], 'zh-tw', fileName];
-        //   filesJs.readFile(path.resolve(...modulePath), 'utf8', function (err, data) {
-        //     const KeyList = [];
-        //     /** 寫的位置 */
-        //     const logger = filesJs.createWriteStream(
-        //       path.resolve('.', 'backup', xlsxDate, 'output', 'i18n', ...resolvePath),
-        //       {
-        //         flags: 'a', // 'a' means appending (old data will be preserved)
-        //       },
-        //     );
-
-        //     const dataArray = data.split('\n');
-        //     const spaceCondition = [];
-        //     dataArray.forEach((line) => {
-        //       const spaceCount = getSpaceCount(line);
-
-        //       if (spaceCount !== 0 && spaceCondition.indexOf(spaceCount) < 0) {
-        //         spaceCondition.push(spaceCount);
-        //       }
-        //     });
-
-        //     dataArray.forEach((line, index, data) => {
-        //       if (line === '\n' || !line.trim()) {
-        //         return;
-        //       }
-
-        //       if (line.trim() == '{' || line.trim() == '}' || line.trim() == '},') {
-        //         // console.log(line); //直接寫
-        //       } else {
-        //         const spaceCount = getSpaceCount(line);
-
-        //         const findIndex = spaceCondition.indexOf(spaceCount);
-        //         if (line.indexOf(':') != -1) {
-        //           KeyList[findIndex] = String(line.split(':')[0].split('"').join('')).trim();
-        //           KeyList.length = findIndex + 1;
-        //         }
-        //         const newValue = getDeepJson(cloneJson[langkey][writePath], 0, KeyList);
-
-        //         if (!/[\"]{1,2}/.test(line.split(':')[1])) {
-        //           if (typeof newValue === 'object') {
-        //             const regxLine = Object.keys(newValue).join('');
-
-        //             if (/^[0-9]+$/.test(regxLine) && !/[\[]/.test(line) && !/[\]]/.test(line)) {
-        //               const lineKey = Object.keys(newValue).find((arrKey) => {
-        //                 if (newValue[arrKey] !== false) {
-        //                   return true;
-        //                 }
-        //               });
-
-        //               const characterArray = [' '.repeat(spaceCount), '"', ...newValue[lineKey]];
-        //               characterArray.push(line.indexOf(',') < 0 ? '"' : '",');
-        //               line = characterArray.join('').split('\n').join('');
-
-        //               newValue[lineKey] = false;
-        //             }
-        //           }
-
-        //           // console.log(line); //直接寫
-        //         } else {
-        //           // console.log('########', KeyList);
-        //           line = contentReplace(line, newValue);
-        //         }
-        //       }
-
-        //       if (index < data.length - 1) {
-        //         line = line + '\n';
-        //       }
-        //       logger.write(line);
-        //     });
-
-        //     logger.end();
-        //   });
-        // } catch (err) {
-        //   throw err;
-        // }
-
-        /**
-         * 方法二
          * 如果不管排序直接全塞 上面註解掉走這裡就好 讀取目前最新的i18n檔案
          * 和回來的Excel輸出的JSON做 extend
          */

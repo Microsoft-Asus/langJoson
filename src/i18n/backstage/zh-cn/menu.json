@@ -16,7 +16,7 @@
   "MenuEditing": "目录管理",
   "SystemManage": "系统管理",
   "Dashboard": "仪表板",
-  "Home": "首页",
+  "Home": "@:menu.Home",
   "ManagerAccount": "管理者帐号",
   "WebsiteManage": "网站管理",
   "WebsiteSetting": "系统设置",

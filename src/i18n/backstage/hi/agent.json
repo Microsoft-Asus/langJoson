@@ -48,7 +48,7 @@
   "settleMiniQuarter": "मौसम",
   "settleMiniMonth": "महीना",
   "settleMiniHalfMonth": "आधा महीना",
-  "sharingItem": "लाभ साझा करनेवाली वस्तुएँ ",
+  "sharingItem": "@:agent.sharingItem",
   "BetAviliable": "मान्य बेटिंग",
   "WinLose": "नकारात्मक वहन  (संतुलित)",
   "Lose": "नकारात्मक वहन(असंतुलित)",

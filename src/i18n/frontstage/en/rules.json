@@ -18,7 +18,6 @@
   "range": "The range is between {0} and {1}.",
   "length": "The length is {0}.",
   "lengthOfCode": "Please enter the{0}digit verification code.",
-  "twin": "Please confirm the content",
   "insufficientBalance": "Insufficient balance",
   "runningOutDailyWithdrawalTimes": "There are no more withdrawals can be made.",
   "bankCardNumber": "Enter the correct bank card number",

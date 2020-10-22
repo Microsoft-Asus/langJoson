@@ -1,5 +1,5 @@
 {
   "notBlank": "",
   "memberAccount": "",
-  "twin": ""
+  "twin": "@:rules.twin"
 }

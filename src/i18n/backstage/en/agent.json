@@ -41,7 +41,7 @@
   "pleaseInputBiggerThanPreVal": "Please input bigger than previous value",
   "decimalPointLimit": "Most to two decimal point",
   "deleteThisStrategy": "Delete this strategy",
-  "sharingItem": "Benefit sharing items",
+  "sharingItem": "@:agent.sharingItem",
   "BetAviliable": "Valid betting",
   "WinLose": "Negative carry (balanced)",
   "Lose": "Negative carry (unbalanced)",

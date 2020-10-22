@@ -37,6 +37,15 @@ module.exports = function () {
     });
   });
 
+  //樣板
+
+  langList.forEach((key, index) => {
+    console.log(key)
+  const langs_filelist = Object.values(
+    filesJs.readdirSync(path.resolve('.', 'langs', key)),
+  );
+  });
+
   /** 讀取Inspection.xlsx */
   const workbook = new Excel.Workbook();
   workbook.xlsx.readFile(InspectionXlsx).then(function () {

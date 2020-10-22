@@ -38,9 +38,14 @@ module.exports = function () {
   });
 
   //樣板
-
   langList.forEach((key, index) => {
     const langs_filelist = Object.values(filesJs.readdirSync(path.resolve('.', 'langs', key)));
+    console.log(langs_filelist);
+    /** 從樣板抓回來 **/
+    // const langsJson = JSON.parse(
+    //   filesJs.readFileSync(path.resolve('.', 'langs', key, filename), 'utf8'),
+    // );
+
   });
 
   /** 讀取Inspection.xlsx */

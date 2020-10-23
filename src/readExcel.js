@@ -45,7 +45,6 @@ module.exports = function () {
     // const langsJson = JSON.parse(
     //   filesJs.readFileSync(path.resolve('.', 'langs', key, filename), 'utf8'),
     // );
-
   });
 
   /** 讀取Inspection.xlsx */
@@ -92,7 +91,7 @@ module.exports = function () {
     const cloneJson = extend(true, {}, newExcelJson);
     /** 讀出來的JSON結構 依序取出檔案名 */
     Object.keys(newExcelJson).forEach((langkey) => {
-      console.log('####',langkey)
+      console.log('####', langkey);
       Object.keys(newExcelJson[langkey]).forEach((writePath) => {
         const resolvePath = JSON.parse(writePath);
 
@@ -109,7 +108,7 @@ module.exports = function () {
         try {
           var newi18nFileData = {};
           //[ 'backstage', 'vi', 'memberAccount.json' ]
-          const langsetting = resolvePath[1];//語系
+          const langsetting = resolvePath[1]; //語系
           const newi18nFilePath = ['.', 'i18n', ...resolvePath];
           if (filesJs.is_file(path.resolve(...newi18nFilePath))) {
             const newi18nFileContent = filesJs.readFileSync(path.resolve(...newi18nFilePath), 'utf8');
@@ -122,19 +121,16 @@ module.exports = function () {
           const i18nMergeJson = extend(true, {}, newi18nFileData, newExcelJson[langkey][writePath]);
 
           //從整合樣板拉
-          if (filesJs.is_file(path.resolve('.','langs',langsetting,fileName))) {
-             /** 從樣板抓回來 **/
+          if (filesJs.is_file(path.resolve('.', 'langs', langsetting, fileName))) {
+            /** 從樣板抓回來 **/
             const langsJson = JSON.parse(
               filesJs.readFileSync(path.resolve('.', 'langs', langsetting, fileName), 'utf8'),
             );
 
             //這邊要一個刪除整合樣板已經有的的mapping
-            mapping(langsJson,i18nMergeJson);
+            mapping(langsJson, i18nMergeJson);
             //
           }
-
-
-
 
           // /**  extend合併之後輸出的檔案可以藉由git做差異分析 */
           filesJs.createFileSync(
@@ -234,14 +230,10 @@ function clearFormat(params) {
 function mapping(langs, outputjson) {
   if (typeof langs === typeof outputjson && typeof langs === 'object') {
     Object.keys(langs).forEach((k) => {
-
       if (typeof langs[k] === 'object') {
-
-        mapping( langs[k], outputjson[k]);
+        mapping(langs[k], outputjson[k]);
       } else if (langs[k] && outputjson[k] && langs[k].indexOf('@') == -1 && outputjson[k].indexOf('@') == -1) {
-        console.log(outputjson[k])
-        delete outputjson[k];//前台前端清除
-
+        delete outputjson[k]; //前台前端清除
       }
     });
   }

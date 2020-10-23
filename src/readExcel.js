@@ -116,18 +116,22 @@ module.exports = function () {
             newi18nFileData = JSON.parse(newi18nFileContent.toString());
           }
 
+          //因為輸出Excel時需要轉換轉譯字元不然會消失,回來時就要反轉回來
+          ConvertEscapeCharacters(newExcelJson[langkey][writePath]);
+
           //從樣板拉
           if (filesJs.is_file(path.resolve('.','langs',langsetting,fileName))) {
              /** 從樣板抓回來 **/
             const langsJson = JSON.parse(
               filesJs.readFileSync(path.resolve('.', 'langs', langsetting, fileName), 'utf8'),
             );
-          }
-          //因為輸出Excel時需要轉換轉譯字元不然會消失,回來時就要反轉回來
-          ConvertEscapeCharacters(newExcelJson[langkey][writePath]);
-          //這邊要一個刪除的mapping
 
-          //
+            //這邊要一個刪除的mapping
+            mapping(langsJson,newExcelJson[langkey][writePath]);
+            //
+          }
+
+
           const i18nMergeJson = extend(true, {}, newi18nFileData, newExcelJson[langkey][writePath]);
 
           // /**  extend合併之後輸出的檔案可以藉由git做差異分析 */
@@ -223,4 +227,20 @@ function clearFormat(params) {
     return ar.join('');
   }
   return params;
+}
+
+function mapping(langs, outputjson) {
+  if (typeof langs === typeof outputjson && typeof langs === 'object') {
+    Object.keys(langs).forEach((k) => {
+
+      if (typeof langs[k] === 'object') {
+
+        mapping( langs[k], outputjson[k]);
+      } else if (langs[k] === outputjson[k] && langs[k].indexOf('@:') == -1 && outputjson[k].indexOf('@:') == -1) {
+
+        delete outputjson[k];//前台前端清除
+
+      }
+    });
+  }
 }

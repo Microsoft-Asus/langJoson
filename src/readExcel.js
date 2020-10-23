@@ -118,8 +118,6 @@ module.exports = function () {
           //因為輸出Excel時需要轉換轉譯字元不然會消失,回來時就要反轉回來
           ConvertEscapeCharacters(newExcelJson[langkey][writePath]);
 
-          const i18nMergeJson = extend(true, {}, newi18nFileData, newExcelJson[langkey][writePath]);
-
           //從整合樣板拉
           if (filesJs.is_file(path.resolve('.', 'langs', langsetting, fileName))) {
             /** 從樣板抓回來 **/
@@ -128,9 +126,11 @@ module.exports = function () {
             );
 
             //這邊要一個刪除整合樣板已經有的的mapping
-            mapping(langsJson, i18nMergeJson);
+            mapping(langsJson, newExcelJson[langkey][writePath]);
             //
           }
+
+          const i18nMergeJson = extend(true, {}, newi18nFileData, newExcelJson[langkey][writePath]);
 
           // /**  extend合併之後輸出的檔案可以藉由git做差異分析 */
           filesJs.createFileSync(

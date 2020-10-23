@@ -119,14 +119,14 @@ module.exports = function () {
           //因為輸出Excel時需要轉換轉譯字元不然會消失,回來時就要反轉回來
           ConvertEscapeCharacters(newExcelJson[langkey][writePath]);
 
-          //從樣板拉
+          //從整合樣板拉
           if (filesJs.is_file(path.resolve('.','langs',langsetting,fileName))) {
              /** 從樣板抓回來 **/
             const langsJson = JSON.parse(
               filesJs.readFileSync(path.resolve('.', 'langs', langsetting, fileName), 'utf8'),
             );
 
-            //這邊要一個刪除的mapping
+            //這邊要一個刪除整合樣板已經有的的mapping
             mapping(langsJson,newExcelJson[langkey][writePath]);
             //
           }

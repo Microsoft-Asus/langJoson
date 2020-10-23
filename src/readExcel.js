@@ -238,8 +238,8 @@ function mapping(langs, outputjson) {
       if (typeof langs[k] === 'object') {
 
         mapping( langs[k], outputjson[k]);
-      } else if (langs[k] && outputjson[k] && langs[k].indexOf('@:') == -1 && outputjson[k].indexOf('@:') == -1) {
-
+      } else if (langs[k] && outputjson[k] && langs[k].indexOf('@') == -1 && outputjson[k].indexOf('@') == -1) {
+        console.log(outputjson[k])
         delete outputjson[k];//前台前端清除
 
       }

@@ -1,0 +1,19 @@
+{
+  "code": {
+    "100": "會員帳號存在",
+    "101": "會員帳號不存在",
+    "102": "會員帳號重複登入",
+    "103": "會員帳號凍結/停用",
+    "104": "會員登入IP已被阻擋/停用",
+    "105": "代理連結失效",
+    "300": "驗證碼錯誤",
+    "MemberAccountExist": "會員帳號存在",
+    "MemberAccountLoginRepeatedly": "會員帳號重複登入",
+    "MemberAccountFreezeOrDisable": "會員帳號凍結/停用",
+    "VerificationCodeError": "驗證碼錯誤",
+    "MemberLoginIpBlocked": "會員登入IP已被阻擋/停用",
+    "MemberAccountOrPasswordError": "會員帳號或密碼錯誤",
+    "MemberAccountNotExist": "會員帳號不存在",
+    "MemberAgentLinkError": "@:api.code.105"
+  }
+}

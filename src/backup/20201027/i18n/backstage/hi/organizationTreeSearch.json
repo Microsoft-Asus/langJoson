@@ -1,0 +1,17 @@
+{
+  "translateAgent": "एजेंट अनुवाद करें ",
+  "agentLevel": "एजेंट स्तर",
+  "addChildAgentAccount": "बाल एजेंट खाता जोड़ें",
+  "contractList": "कोन्ट्रेक्ट सूची",
+  "gameCategory": "गेम श्रेणी",
+  "gamePlatform": "गेम प्लेटफ़ॉर्म ",
+  "defaultPassword": "डिफ़ॉल्ट पासवर्ड aa123456 है",
+  "resetContract": "कोन्ट्रेक्ट को रीसेट करें",
+  "willRestContract": "सभी संबंधित कोन्ट्रेक्ट रीसेट हो जाएंगे",
+  "isAlreadyTheTop": "पहले से ही शीर्ष है",
+  "levelOne": "स्तर एक ",
+  "chooseTargetAccount": "लक्ष्य खाता चुनें",
+  "chooseTarget": "लक्ष्य चुनें",
+  "willMove": "पर चला जाएगा  ",
+  "mayAffectAccounting": "यह एकाउंटिंग को प्रभावित कर सकता है"
+}

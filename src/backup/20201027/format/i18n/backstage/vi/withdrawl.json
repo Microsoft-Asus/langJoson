@@ -1,0 +1,15 @@
+{
+  "createTime": "Thời gian rút tiền",
+  "bankCard": "Thẻ ngân hàng rút tiền",
+  "minAmountRange": "Số tiền rút trong phạm vi thấp nhất",
+  "maxAmountRange": "Số tiền rút trong phạm vi cao nhất",
+  "withdrawlAmount": "Số tiền chuyển ra",
+  "wallet": "Túi tiền rút",
+  "amount": "Số tiền rút",
+  "allPeople": "Số người chuyển tiền ra",
+  "transNumber": "Mã số đơn rút tiền",
+  "balance": "Số tiền rút",
+  "allWithdrawl": "Tổng số tiền rút",
+  "allAmount": "Tổng số tiền rút",
+  "fee": "Phí thực hiện"
+}

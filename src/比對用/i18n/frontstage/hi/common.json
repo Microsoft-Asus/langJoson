@@ -9,15 +9,8 @@
   "monthsShort": "@:common.monthsShort",
   "county": "county",
   "province": "province",
-  "Gender": {
-    "Female": "female",
-    "Male": "male",
-    "Unknow": "unknown"
-  },
+  "Gender": {},
   "Login": "LogIn",
-  "remove": "delete",
-  "confirm": "confirm",
-  "cancel": "cancel",
   "copySuccess": "{0} copied",
   "noData": "No information found",
   "state": "status",
@@ -36,10 +29,7 @@
   "remark": "Note",
   "done": "carry out",
   "QQCode": "QQ number",
-  "birthday": "birthday",
   "doEdit": "modify",
-  "gender": "gender",
-  "WeChat": "WeChat",
   "binded": "already been bound",
   "setup": "Set up",
   "unset": "Not set",
@@ -80,8 +70,6 @@
   "HandlingFee": "Handling fee",
   "ActualAmount": "Actual amount",
   "otherdate": "Other dates",
-  "today": "today",
-  "yesterday": "yesterday",
   "measureword": {
     "people": "{0} person/persons"
   },

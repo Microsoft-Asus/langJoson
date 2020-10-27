@@ -336,12 +336,12 @@
     "zh-tw": "刪除該策略"
   },
   "backstage.agent.sharingItem": {
-    "en": "Benefit sharing items",
-    "hi": "लाभ साझा करनेवाली वस्तुएँ ",
-    "th": "รายการที่จะปันผล",
-    "vi": "Hạng mục chia lợi nhuận",
-    "zh-cn": "分润项目",
-    "zh-tw": "分潤項目"
+    "en": "@:agent.sharingItem",
+    "hi": "@:agent.sharingItem",
+    "th": "@:agent.sharingItem",
+    "vi": "@:agent.sharingItem",
+    "zh-cn": "@:agent.sharingItem",
+    "zh-tw": "@:agent.sharingItem"
   },
   "backstage.agent.BetAviliable": {
     "en": "Valid betting",
@@ -696,12 +696,12 @@
     "zh-tw": "複製群組"
   },
   "backstage.common.confirm": {
-    "en": "Confirm",
-    "hi": "पुष्टि करें",
-    "th": "ยืนยัน",
-    "vi": "Xác nhận",
-    "zh-cn": "确定",
-    "zh-tw": "確定"
+    "en": "@:common.confirm",
+    "hi": "@:common.confirm",
+    "th": "@:common.confirm",
+    "vi": "@:common.confirm",
+    "zh-cn": "@:common.confirm",
+    "zh-tw": "@:common.confirm"
   },
   "backstage.common.search": {
     "en": "search",
@@ -1016,20 +1016,20 @@
     "zh-tw": "尚未儲存"
   },
   "backstage.common.cancel": {
-    "en": "cancel",
-    "hi": "रद्द करें",
-    "th": "ยกเลิก",
-    "vi": "Hủy bỏ",
-    "zh-cn": "取消",
-    "zh-tw": "取消"
+    "en": "@:common.cancel",
+    "hi": "@:common.cancel",
+    "th": "@:common.cancel",
+    "vi": "@:common.cancel",
+    "zh-cn": "@:common.cancel",
+    "zh-tw": "@:common.cancel"
   },
   "backstage.common.gender": {
-    "en": "gender",
-    "hi": "लिंग",
-    "th": "เพศ",
-    "vi": "Giới tính",
-    "zh-cn": "性别",
-    "zh-tw": "性別"
+    "en": "@:common.gender",
+    "hi": "@:common.gender",
+    "th": "@:common.gender",
+    "vi": "@:common.gender",
+    "zh-cn": "@:common.gender",
+    "zh-tw": "@:common.gender"
   },
   "backstage.common.nickName": {
     "en": "nickName",
@@ -1040,12 +1040,12 @@
     "zh-tw": "暱稱"
   },
   "backstage.common.birthday": {
-    "en": "birthday",
-    "hi": "जन्मदिन",
-    "th": "วันเกิด",
-    "vi": "Ngày sinh",
-    "zh-cn": "生日",
-    "zh-tw": "生日"
+    "en": "@:common.birthday",
+    "hi": "@:common.birthday",
+    "th": "@:common.birthday",
+    "vi": "@:common.birthday",
+    "zh-cn": "@:common.birthday",
+    "zh-tw": "@:common.birthday"
   },
   "backstage.common.modify": {
     "en": "modify",
@@ -1456,12 +1456,12 @@
     "zh-tw": "操作類型"
   },
   "backstage.common.yesterday": {
-    "en": "yesterday",
-    "hi": "बिता कल",
-    "th": "เมื่อวานนี้",
-    "vi": "Hôm qua",
-    "zh-cn": "昨日",
-    "zh-tw": "昨日"
+    "en": "@:common.yesterday",
+    "hi": "@:common.yesterday",
+    "th": "@:common.yesterday",
+    "vi": "@:common.yesterday",
+    "zh-cn": "@:common.yesterday",
+    "zh-tw": "@:common.yesterday"
   },
   "backstage.common.lastWeek": {
     "en": "Seven Day",
@@ -1792,12 +1792,12 @@
     "zh-tw": "重置並使用預設"
   },
   "backstage.common.remove": {
-    "en": "remove",
-    "hi": "डिलीट करें",
-    "th": "ลบ",
-    "vi": "Xóa bỏ",
-    "zh-cn": "刪除",
-    "zh-tw": "刪除"
+    "en": "@:common.remove",
+    "hi": "@:common.remove",
+    "th": "@:common.remove",
+    "vi": "@:common.remove",
+    "zh-cn": "@:common.remove",
+    "zh-tw": "@:common.remove"
   },
   "backstage.common.pleaseInputPasswordRight": {
     "en": "Please enter the correct password format: (case) English letters + numbers, 8-18 characters",
@@ -1912,12 +1912,12 @@
     "zh-tw": "新增"
   },
   "backstage.common.today": {
-    "en": "Today",
-    "hi": "आज",
-    "th": "วันนี้",
-    "vi": "Hôm nay",
-    "zh-cn": "今日",
-    "zh-tw": "今日"
+    "en": "@:common.today",
+    "hi": "@:common.today",
+    "th": "@:common.today",
+    "vi": "@:common.today",
+    "zh-cn": "@:common.today",
+    "zh-tw": "@:common.today"
   },
   "backstage.common.week": {
     "en": "Week",
@@ -2160,28 +2160,28 @@
     "zh-tw": "會員等級"
   },
   "backstage.common.Gender.Female": {
-    "en": "female",
-    "hi": "स्त्री",
-    "th": "หญิง",
-    "vi": "Nữ",
-    "zh-cn": "女性",
-    "zh-tw": "女性"
+    "en": "@:common.Gender.Female",
+    "hi": "@:common.Gender.Female",
+    "th": "@:common.Gender.Female",
+    "vi": "@:common.Gender.Female",
+    "zh-cn": "@:common.Gender.Female",
+    "zh-tw": "@:common.Gender.Female"
   },
   "backstage.common.Gender.Male": {
-    "en": "male",
-    "hi": "पुरुष",
-    "th": "ชาย",
-    "vi": "Nam",
-    "zh-cn": "男性",
-    "zh-tw": "男性"
+    "en": "@:common.Gender.Male",
+    "hi": "@:common.Gender.Male",
+    "th": "@:common.Gender.Male",
+    "vi": "@:common.Gender.Male",
+    "zh-cn": "@:common.Gender.Male",
+    "zh-tw": "@:common.Gender.Male"
   },
   "backstage.common.Gender.Unknow": {
-    "en": "unknown",
-    "hi": "अज्ञात",
-    "th": "ไม่ทราบ",
-    "vi": "Không biết",
-    "zh-cn": "未知",
-    "zh-tw": "未知"
+    "en": "@:common.Gender.Unknow",
+    "hi": "@:common.Gender.Unknow",
+    "th": "@:common.Gender.Unknow",
+    "vi": "@:common.Gender.Unknow",
+    "zh-cn": "@:common.Gender.Unknow",
+    "zh-tw": "@:common.Gender.Unknow"
   },
   "backstage.common.undefined": {
     "en": "Undefined",
@@ -2248,12 +2248,12 @@
     "zh-tw": "週"
   },
   "backstage.common.WeChat": {
-    "en": "WeChat",
-    "hi": "",
-    "th": "WeChat",
-    "vi": "WeChat",
-    "zh-cn": "微信",
-    "zh-tw": "微信"
+    "en": "@:common.WeChat",
+    "hi": "@:common.WeChat",
+    "th": "@:common.WeChat",
+    "vi": "@:common.WeChat",
+    "zh-cn": "@:common.WeChat",
+    "zh-tw": "@:common.WeChat"
   },
   "backstage.common.countryCode": {
     "en": "Country code",
@@ -2342,582 +2342,6 @@
     "hi": "",
     "th": "",
     "vi": ""
-  },
-  "backstage.deal.ParentDeposit": {
-    "en": "Parent deposit",
-    "hi": "माता-पिता डिपॉज़िट",
-    "th": "เติมเงินระดับบน",
-    "vi": "Nạp tiền cấp trên",
-    "zh-cn": "上级充值",
-    "zh-tw": "上級充值"
-  },
-  "backstage.deal.ChildDeposit": {
-    "en": "Child deposit",
-    "hi": "बालक डिपॉज़िट",
-    "th": "เติมเงินระดับล่าง",
-    "vi": "Nạp tiền cấp dưới",
-    "zh-cn": "下级充值",
-    "zh-tw": "下級充值"
-  },
-  "backstage.deal.AgentStrategyRebate": {
-    "en": "Agent strategy rebate",
-    "hi": "एजेंट रणनीति रीबेट",
-    "th": "ของสมนาคุณ",
-    "vi": "Tiền thưởng đặt cược",
-    "zh-cn": "反水",
-    "zh-tw": "反水"
-  },
-  "backstage.deal.AgentStrategyWage": {
-    "en": "Wage",
-    "hi": "वेतन",
-    "th": "ค่าจ้าง",
-    "vi": "Tiền lương",
-    "zh-cn": "工资",
-    "zh-tw": "工資"
-  },
-  "backstage.deal.AgentStrategyDividend": {
-    "en": "Agent strategy dividend",
-    "hi": "एजेंट रणनीति लाभांश",
-    "th": "เงินปันผล",
-    "vi": "Chia tiền hoa hồng",
-    "zh-cn": "分紅",
-    "zh-tw": "分红"
-  },
-  "backstage.deal.AgentStrategyDepositBonus": {
-    "en": "Agent strategy deposit bonus",
-    "hi": "एजेंट रणनीति डिपॉज़िट बोनस",
-    "th": "เติมเงินโบนัส",
-    "vi": "Tiền hoa hồng nạp tiền",
-    "zh-cn": "充值红利",
-    "zh-tw": "充值紅利"
-  },
-  "backstage.deal.AgentStrategyCommission": {
-    "en": "Agent commission",
-    "hi": "कमीशन",
-    "th": "ค่าคอมมิชชั่น",
-    "vi": "Tiền hoa hồng",
-    "zh-cn": "佣金",
-    "zh-tw": "傭金"
-  },
-  "backstage.deal.AgentStrategyOther": {
-    "en": "Agent strategy other",
-    "hi": "एजेंट रणनीति अन्य",
-    "th": "กลยุทธ์หน่วยงาน - อื่น ๆ",
-    "vi": "Sách lược Đại lý – Khác",
-    "zh-cn": "代理策略-其他",
-    "zh-tw": "代理策略-其他"
-  },
-  "backstage.deal.ArtificialDepositExcludProfitAndLoss": {
-    "en": "Artificial deposit exclud profit and loss",
-    "hi": "कृत्रिम डिपॉज़िट मुनाफा और हानि को बाहर करता है",
-    "th": "การฝากเงินด้วยตนเอง (ไม่รวมกำไรและขาดทุน)",
-    "vi": "Gửi tiền tại quầy (loại trừ lãi lỗ)",
-    "zh-cn": "人工存入 (排除盈亏)",
-    "zh-tw": "人工存入 (排除盈虧)"
-  },
-  "backstage.deal.ArtificialWithdrawalExcludProfitAndLoss": {
-    "en": "Artificial withdrawal exclud profit and loss",
-    "hi": "कृत्रिम विथ्ड्रॉअल मुनाफा और हानि को बाहर करता है",
-    "th": "การถอนออกด้วยตนเอง (ไม่รวมกำไรและขาดทุน)",
-    "vi": "Rút tiền bằng tay (loại trừ lãi lỗ)",
-    "zh-cn": "人工提出 (排除盈亏)",
-    "zh-tw": "人工提出 (排除盈虧)"
-  },
-  "backstage.deal.BatchDepositExcludProfitAndLoss": {
-    "en": "Batch deposit exclud profit and loss",
-    "hi": "बैच डिपॉज़िट मुनाफा और हानि को बाहर करता है ",
-    "th": "การฝากเงินครั้งนี้ (ไม่รวมกำไรและขาดทุน)",
-    "vi": "Gửi tiền theo lô (loại trừ lãi lỗ)",
-    "zh-cn": "批次存入 (排除盈亏)",
-    "zh-tw": "批次存入 (排除盈虧)"
-  },
-  "backstage.deal.BqDeposit": {
-    "en": "BQ deposit",
-    "hi": "बीक्यू डिपॉज़िट",
-    "th": "เงินฝาก BQ",
-    "vi": "Gửi tiền BQ",
-    "zh-cn": "BQ入款",
-    "zh-tw": "BQ入款"
-  },
-  "backstage.deal.WithdrawalFee": {
-    "en": "Withdrawal fee",
-    "hi": "विथ्ड्रॉअल शुल्क",
-    "th": "ค่าธรรมเนียมการถอน",
-    "vi": "Phí thực hiện rút tiền",
-    "zh-cn": "出款手續費",
-    "zh-tw": "出款手续费"
-  },
-  "backstage.deal.DepositFee": {
-    "en": "Deposit fee",
-    "hi": "डिपॉज़िट शुल्क",
-    "th": "ค่าธรรมเนียมการเติมเงิน",
-    "vi": "Phí thực hiện nạp tiền",
-    "zh-cn": "充值手续费",
-    "zh-tw": "充值手續費"
-  },
-  "backstage.deal.WithdrawalPromotions": {
-    "en": "Withdrawal promotions",
-    "hi": "विथ्ड्रॉअल प्रचार",
-    "th": "การแก้ไขกิจกรรมส่วนลด ",
-    "vi": "Chỉnh sửa ưu đãi hoạt động",
-    "zh-cn": "活动优惠修正",
-    "zh-tw": "活動優惠修正"
-  },
-  "backstage.deal.artificialDepositPromotions": {
-    "en": "Artificial deposit promotions",
-    "hi": "कृत्रिम डिपॉज़िट प्रचार",
-    "th": "การฝากเงินด้วยตนเอง-ส่วนลดกิจกรรม",
-    "vi": "Gửi tiền thủ công – Ưu đãi hoạt động",
-    "zh-cn": "人工存入-活动优惠",
-    "zh-tw": "人工存入-活動優惠"
-  },
-  "backstage.deal.batchDepositPromotions": {
-    "en": "Batch deposit promotions",
-    "hi": "बैच डिपॉज़िट प्रचार",
-    "th": "การฝากงวดนี้ -ส่วนลดกิจกรรม",
-    "vi": "Gửi tiền theo đợt – Ưu đãi hoạt động",
-    "zh-cn": "批次存入-活动优惠",
-    "zh-tw": "批次存入-活動優惠"
-  },
-  "backstage.deal.centerToAg": {
-    "en": "Center to AG",
-    "hi": "[केंद्र] से [AG]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [AG]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [AG]",
-    "zh-cn": "[中心钱包]转[AG]",
-    "zh-tw": "[中心錢包]轉[AG]"
-  },
-  "backstage.deal.agToCenter": {
-    "en": "AG to center",
-    "hi": "[AG] से [  [ केंद्र ] ]",
-    "th": "[AG] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[AG] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[AG]转[中心钱包]",
-    "zh-tw": "[AG]轉[中心錢包]"
-  },
-  "backstage.deal.centerToNewBbin": {
-    "en": "Center to new BBIN",
-    "hi": "[केंद्र] से [NewBBIN]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [NewBBIN]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [NewBBIN]",
-    "zh-cn": "[中心钱包]转[NewBBIN波音]",
-    "zh-tw": "[中心錢包]轉[NewBBIN波音]"
-  },
-  "backstage.deal.NewBbinToCenter": {
-    "en": "New BBIN to center",
-    "hi": "[NewBBIN] से [केंद्र]",
-    "th": "[NewBBIN] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[NewBBIN] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[NewBBIN波音]转[中心钱包]",
-    "zh-tw": "[NewBBIN波音]轉[中心錢包]"
-  },
-  "backstage.deal.centerToSaba": {
-    "en": "Center to SABA",
-    "hi": "[केंद्र] से [SABA]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [SABA]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [SABA]",
-    "zh-cn": "[中心钱包]转[SABA沙巴]",
-    "zh-tw": "[中心錢包]轉[SABA沙巴]"
-  },
-  "backstage.deal.sabaToCenter": {
-    "en": "Saba to center",
-    "hi": "[SABA] से [केंद्र] ",
-    "th": "[SABA] ถึง [กระเป๋าเงินกลาง] ",
-    "vi": "[SABA] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[SABA沙巴]转[中心钱包]",
-    "zh-tw": "[SABA沙巴]轉[中心錢包]"
-  },
-  "backstage.deal.centerToPt": {
-    "en": "Center to IMPT",
-    "hi": "[केंद्र] से [IMPT]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [IMPT]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [IMPT]",
-    "zh-cn": "[中心钱包]转[IMPT]",
-    "zh-tw": "[中心錢包]轉[IMPT]"
-  },
-  "backstage.deal.ptToCenter": {
-    "en": "IMPT to center",
-    "hi": "[IMPT] से [केंद्र] ",
-    "th": "[IMPT] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[IMPT] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[IMPT]转[中心钱包]",
-    "zh-tw": "[IMPT]轉[中心錢包]"
-  },
-  "backstage.deal.centerToRgLottery": {
-    "en": "Center to RgLottery",
-    "hi": "[केंद्र] से [RgLottery]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [RgLottery]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [RgLottery]",
-    "zh-cn": "[中心钱包]转[RgLottery]",
-    "zh-tw": "[中心錢包]轉[RgLottery]"
-  },
-  "backstage.deal.rgLotteryToCenter": {
-    "en": "RgLottery to center",
-    "hi": "[RgLottery] से [केंद्र] ",
-    "th": "[RgLottery] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[RgLottery] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[RgLottery]转[中心钱包]",
-    "zh-tw": "[RgLottery]轉[中心錢包]"
-  },
-  "backstage.deal.centerToRgBoardGame": {
-    "en": "Center to RgBoardGame",
-    "hi": "[केंद्र] से [RgBoardGame]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [RgBoardGame]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [RgBoardGame]",
-    "zh-cn": "[中心钱包]转[RgBoardGame]",
-    "zh-tw": "[中心錢包]轉[RgBoardGame]"
-  },
-  "backstage.deal.rgBoardGameToCenter": {
-    "en": "RgBoardGame to center",
-    "hi": "[RgBoardGame] से [केंद्र] ",
-    "th": "[RgBoardGame] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[RgBoardGame] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[RgBoardGame]转[中心钱包]",
-    "zh-tw": "[RgBoardGame]轉[中心錢包]"
-  },
-  "backstage.deal.centerToFastBet": {
-    "en": "Center to FastBet",
-    "hi": "[केंद्र] से [FastBet]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [FastBet]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [FastBet]",
-    "zh-cn": "[中心钱包]转[FastBet]",
-    "zh-tw": "[中心錢包]轉[FastBet]"
-  },
-  "backstage.deal.fastBetToCenter": {
-    "en": "FastBet to center",
-    "hi": "[FastBet] से [केंद्र] ",
-    "th": "[FastBet] ถึง [กระเป๋าเงินกลาง] ",
-    "vi": "[FastBet] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[FastBet]转[中心钱包]",
-    "zh-tw": "[FastBet]轉[中心錢包]"
-  },
-  "backstage.deal.centerToPs": {
-    "en": "Center to PS",
-    "hi": "[केंद्र] से [PS]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [PS]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [PS]",
-    "zh-cn": "[中心钱包]转[玩星]",
-    "zh-tw": "[中心錢包]轉[玩星]"
-  },
-  "backstage.deal.psToCenter": {
-    "en": "PS to Center",
-    "hi": "[PS] से [केंद्र] ",
-    "th": "[PS] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[PS] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[玩星]转[中心钱包]",
-    "zh-tw": "[玩星]轉[中心錢包]"
-  },
-  "backstage.deal.centerToAvia": {
-    "en": "Center to AVIA",
-    "hi": "[ केंद्र ] से [AVIA]  ",
-    "th": "[กระเป๋าเงินกลาง] ถึง [AVIA]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [AVIA]",
-    "zh-cn": "[中心钱包]转[泛亚电竞]",
-    "zh-tw": "[中心錢包]轉[泛亞電競]"
-  },
-  "backstage.deal.aviaToCenter": {
-    "en": "AVIA to Center",
-    "hi": "[AVIA] से  [ केंद्र ] ",
-    "th": "[AVIA] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[AVIA] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[泛亚电竞]转[中心钱包]",
-    "zh-tw": "[泛亞電競]轉[中心錢包]"
-  },
-  "backstage.deal.centerToEg": {
-    "en": "Center to EG",
-    "hi": "[केंद्र] से [EG]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [EG]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [EG]",
-    "zh-cn": "[中心钱包]转[EG]",
-    "zh-tw": "[中心錢包]轉[EG]"
-  },
-  "backstage.deal.egToCenter": {
-    "en": "EG to Center",
-    "hi": "[EG] से [केंद्र] ",
-    "th": "[EG] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[EG] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[EG]转[中心钱包]",
-    "zh-tw": "[EG]轉[中心錢包]"
-  },
-  "backstage.deal.centerToIbo": {
-    "en": "Center to IBO",
-    "hi": "[केंद्र] से [IBO]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [IBO]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [IBO]",
-    "zh-cn": "[中心钱包]转[IBO]",
-    "zh-tw": "[中心錢包]轉[IBO]"
-  },
-  "backstage.deal.iboToCenter": {
-    "en": "IBO to Center",
-    "hi": "[IBO] से [केंद्र] ",
-    "th": "[IBO] โอนไปยัง [กระเป๋าเงินกลาง]",
-    "vi": "[IBO] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[IBO]转[中心钱包]",
-    "zh-tw": "[IBO]轉[中心錢包]"
-  },
-  "backstage.deal.centerToKa": {
-    "en": "Center To KA",
-    "hi": " [ केंद्र ] से [KA] ",
-    "th": "[กระเป๋าเงินกลาง] ถึง [KA]  ",
-    "vi": "[Túi tiền trung tâm] chuyển qua [KA]",
-    "zh-cn": "[中心钱包]转[KA游戏]",
-    "zh-tw": "[中心錢包]轉[KA遊戲]"
-  },
-  "backstage.deal.kaToCenter": {
-    "en": "KA to Center",
-    "hi": "[KA] से  [ केंद्र ]   ",
-    "th": "[KA] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[KA] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[KA游戏]转[中心钱包]",
-    "zh-tw": "[KA遊戲]轉[中心錢包]"
-  },
-  "backstage.deal.centerToKk": {
-    "en": "Center to KK",
-    "hi": "[केंद्र] से [KK]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [KK]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [KK]",
-    "zh-cn": "[中心钱包]转[KK彩票]",
-    "zh-tw": "[中心錢包]轉[KK彩票]"
-  },
-  "backstage.deal.kkToCenter": {
-    "en": "KK to Center",
-    "hi": "[KK] से [केंद्र] ",
-    "th": "[KK] ถึง[กระเป๋าเงินกลาง]",
-    "vi": "[KK] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[KK彩票]转[中心钱包]",
-    "zh-tw": "[KK彩票]轉[中心錢包]"
-  },
-  "backstage.deal.centerToMgPlus": {
-    "en": "Center to MG+",
-    "hi": "[केंद्र] से [MG+]",
-    "th": "[กระเป๋าเงินกลาง] ถึง[MG +]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [MG+]",
-    "zh-cn": "[中心钱包]转[MG+]",
-    "zh-tw": "[中心錢包]轉[MG+]"
-  },
-  "backstage.deal.mgPlusToCenter": {
-    "en": "MG+ to Center",
-    "hi": "[MG+] से [केंद्र] ",
-    "th": "[MG +] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[MG+] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[MG+]转[中心钱包]",
-    "zh-tw": "[MG+]轉[中心錢包]"
-  },
-  "backstage.deal.centerToPg": {
-    "en": "Center to PG",
-    "hi": "[केंद्र] से [PG]",
-    "th": "[กระเป๋าเงินกลาง] ถึง[PG]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [PG]",
-    "zh-cn": "[中心钱包]转[PG]",
-    "zh-tw": "[中心錢包]轉[PG]"
-  },
-  "backstage.deal.pgToCenter": {
-    "en": "PG to Center",
-    "hi": "[PG] से [केंद्र] ",
-    "th": "[PG] ถึง [กระเป๋าเงินกลาง] ",
-    "vi": "[PG] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[PG]转[中心钱包]",
-    "zh-tw": "[PG]轉[中心錢包]"
-  },
-  "backstage.deal.centerToLc": {
-    "en": "Center to LC",
-    "hi": " [ केंद्र ] से [LC]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [LC]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [LC]",
-    "zh-cn": "[中心钱包]转[龙城]",
-    "zh-tw": "[中心錢包]轉[龍城]"
-  },
-  "backstage.deal.lcToCenter": {
-    "en": "LC to center",
-    "hi": "[LC] से  [ केंद्र ] ",
-    "th": "[LC] ถึง [กระเป๋าเงินกลาง] ",
-    "vi": "[LC] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[龙城]转[中心钱包]",
-    "zh-tw": "[龍城]轉[中心錢包]"
-  },
-  "backstage.deal.centerToNwg": {
-    "en": "Center to NWG",
-    "hi": "[केंद्र] से [NWG]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [NWG]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [NWG]",
-    "zh-cn": "[中心钱包]转[新世界棋牌]",
-    "zh-tw": "[中心錢包]轉[新世界棋牌]"
-  },
-  "backstage.deal.nwgToCenter": {
-    "en": "NWG to Center",
-    "hi": "[NWG] से [केंद्र] ",
-    "th": "[NWG] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[NWG] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[新世界棋牌]转[中心钱包]",
-    "zh-tw": "[新世界棋牌]轉[中心錢包]"
-  },
-  "backstage.deal.centerToRmg": {
-    "en": "Center to RMG",
-    "hi": "[केंद्र] से [RMG]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [RMG]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [RMG]",
-    "zh-cn": "[中心钱包]转[大富翁棋牌]",
-    "zh-tw": "[中心錢包]轉[大富翁棋牌]"
-  },
-  "backstage.deal.rmgToCenter": {
-    "en": "RMG to Center",
-    "hi": "[RMG] से [केंद्र] ",
-    "th": "[RMG] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[RMG] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[大富翁棋牌]转[中心钱包]",
-    "zh-tw": "[大富翁棋牌]轉[中心錢包]"
-  },
-  "backstage.deal.centerToSa": {
-    "en": "Center to SA",
-    "hi": " [ केंद्र ] से [SA]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [SA] ",
-    "vi": "[Túi tiền trung tâm] chuyển qua [SA]",
-    "zh-cn": "[中心钱包]转[沙龙]",
-    "zh-tw": "[中心錢包]轉[沙龍]"
-  },
-  "backstage.deal.saToCenter": {
-    "en": "SA to Center",
-    "hi": "[SA] से  [ केंद्र ] ",
-    "th": "[SA] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[SA] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[沙龙]转[中心钱包]",
-    "zh-tw": "[沙龍]轉[中心錢包]"
-  },
-  "backstage.deal.centerToTm": {
-    "en": "Center toTM",
-    "hi": "[केंद्र] से [TM]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [TM]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [TM]",
-    "zh-cn": "[中心钱包]转[天美棋牌]",
-    "zh-tw": "[中心錢包]轉[天美棋牌]"
-  },
-  "backstage.deal.tmToCenter": {
-    "en": "TM to Center",
-    "hi": "[TM] से [केंद्र] ",
-    "th": "[TM] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[TM] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[天美棋牌]转[中心钱包]",
-    "zh-tw": "[天美棋牌]轉[中心錢包]"
-  },
-  "backstage.deal.centerToVr": {
-    "en": "Center to VR",
-    "hi": "[केंद्र] से [VR]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [VR]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [VR]",
-    "zh-cn": "[中心钱包]转[VR彩票]",
-    "zh-tw": "[中心錢包]轉[VR彩票]"
-  },
-  "backstage.deal.vrToCenter": {
-    "en": "VR to Center",
-    "hi": "[VR] से [केंद्र] ",
-    "th": "[VR] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[VR] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[VR彩票]转[中心钱包]",
-    "zh-tw": "[VR彩票]轉[中心錢包]"
-  },
-  "backstage.deal.centerToWm": {
-    "en": "Center to WM",
-    "hi": "[केंद्र] से [WM]",
-    "th": "[กระเป๋าเงินกลาง] ถึง [WM]",
-    "vi": "[Túi tiền trung tâm] chuyển qua [WM]",
-    "zh-cn": "[中心钱包]转[WM真人百家乐]",
-    "zh-tw": "[中心錢包]轉[WM真人百家樂]"
-  },
-  "backstage.deal.wmToCenter": {
-    "en": "WM to Center",
-    "hi": "[WM]से [केंद्र] ",
-    "th": "[WM] ถึง [กระเป๋าเงินกลาง]",
-    "vi": "[WM] chuyển qua [Túi tiền trung tâm]",
-    "zh-cn": "[WM真人百家乐]转[中心钱包]",
-    "zh-tw": "[WM真人百家樂]轉[中心錢包]"
-  },
-  "backstage.deal.walletAuditSystemReset": {
-    "en": "Wallet audit system reset",
-    "hi": "वॉलेट ऑडिट सिस्टम रीसेट",
-    "th": "รีเซ็ตระบบ",
-    "vi": "Hệ thống về 0",
-    "zh-cn": "系统归零",
-    "zh-tw": "系統歸零"
-  },
-  "backstage.deal.walletAuditArtificialReset": {
-    "en": "Wallet audit artficial reset",
-    "hi": "वॉलेट ऑडिट आर्टिफिशियल रीसेट",
-    "th": "รีเซ็ตด้วยตนเอง",
-    "vi": "Về 0 thủ công",
-    "zh-cn": "人工归零",
-    "zh-tw": "人工歸零"
-  },
-  "backstage.deal.TppPaymentTypeEnum.Alipay": {
-    "en": "Alipay",
-    "hi": "अलीपे",
-    "th": "อาลิเพลย์ ",
-    "vi": "Alipay",
-    "zh-cn": "支付宝",
-    "zh-tw": "支付寶"
-  },
-  "backstage.deal.TppPaymentTypeEnum.WeChatPay": {
-    "en": "WeChat Pay",
-    "hi": "वीचैट पे",
-    "th": "WeChat เพลย์",
-    "vi": "Thanh toán qua WeChat",
-    "zh-cn": "微信支付",
-    "zh-tw": "微信支付"
-  },
-  "backstage.deal.TppPaymentTypeEnum.JingdongQrCode": {
-    "en": "Jingdong Pay",
-    "hi": "जिंगडोंग पे",
-    "th": "JD เพลย์",
-    "vi": "Thanh toán qua JingDong",
-    "zh-cn": "京东支付",
-    "zh-tw": "京東支付"
-  },
-  "backstage.deal.TppPaymentTypeEnum.UnionPayQrCode": {
-    "en": "UnionPay QrCode",
-    "hi": "यूनियनपे क्यूआरकॉड ",
-    "th": "ยูเนี่ยนเพย์ ",
-    "vi": "Quẹt mã QR UnionPay",
-    "zh-cn": "银联扫码",
-    "zh-tw": "銀聯掃碼"
-  },
-  "backstage.deal.TppPaymentTypeEnum.OnlinePayment": {
-    "en": "Online Payment",
-    "hi": "ऑनलाइन भुगतान",
-    "th": "การชำระเงินทางออนไลน์",
-    "vi": "Thanh toán trực tuyến",
-    "zh-cn": "線上支付",
-    "zh-tw": "線上支付"
-  },
-  "backstage.deal.TppPaymentTypeEnum.UnionPay": {
-    "en": "Quick Pass",
-    "hi": "त्वरित पास",
-    "th": "บัตรด่วน",
-    "vi": "Thanh toán nhanh",
-    "zh-cn": "云闪付",
-    "zh-tw": "雲閃付"
-  },
-  "backstage.deal.TppPaymentTypeEnum.bankCard": {
-    "en": "Bank card",
-    "hi": "बैंक कार्ड",
-    "th": "บัตรธนาคาร",
-    "vi": "Thẻ ngân hàng",
-    "zh-cn": "银行卡",
-    "zh-tw": "银行卡"
-  },
-  "backstage.deal.TppPaymentTypeEnum.BqPay": {
-    "en": "BQPay",
-    "hi": "बीक्यू पे",
-    "th": "BQPay",
-    "vi": "BQPay",
-    "zh-cn": "BQPay",
-    "zh-tw": "BQPay"
-  },
-  "backstage.deal.bankAcconutName": {
-    "en": "Bank account name",
-    "hi": "बैंक खाता नाम",
-    "th": "ชื่อบัญชีธนาคาร",
-    "vi": "Tên tài khoản ngân hàng",
-    "zh-cn": "银行户名",
-    "zh-tw": "銀行戶名"
   },
   "backstage.deposit.amount": {
     "en": "Amount of adding credit",
@@ -4336,12 +3760,12 @@
     "zh-tw": "儀表板"
   },
   "backstage.menu.Home": {
-    "en": "Home",
-    "hi": "होम",
-    "th": "หน้าหลัก",
-    "vi": "Trang chủ",
-    "zh-cn": "首页",
-    "zh-tw": "首頁"
+    "en": "@:menu.Home",
+    "hi": "@:menu.Home",
+    "th": "@:menu.Home",
+    "vi": "@:menu.Home",
+    "zh-cn": "@:menu.Home",
+    "zh-tw": "@:menu.Home"
   },
   "backstage.menu.ManagerAccount": {
     "en": "Manager account",
@@ -5736,12 +5160,12 @@
     "zh-tw": "輸入的開頭或結尾不能是空白"
   },
   "backstage.rules.twin": {
-    "en": "Please confirm the content",
-    "hi": "",
-    "th": "",
-    "vi": "",
-    "zh-cn": "请确认内容",
-    "zh-tw": "請確認內容"
+    "en": "@:rules.twin",
+    "hi": "@:rules.twin",
+    "th": "@:rules.twin",
+    "vi": "@:rules.twin",
+    "zh-cn": "@:rules.twin",
+    "zh-tw": "@:rules.twin"
   },
   "backstage.siteOwnerAccount.currencies.Undefined": {
     "en": "Undefined",
@@ -8287,14 +7711,6 @@
     "zh-cn": "计算额度",
     "zh-tw": "計算額度"
   },
-  "frontstage.agent.sharingItem": {
-    "en": "Profit Sharing Project",
-    "hi": "Profit Sharing Project",
-    "th": "รายการที่จะปันผล",
-    "vi": "Hạng mục chia lợi nhuận",
-    "zh-cn": "分润项目",
-    "zh-tw": "分潤項目"
-  },
   "frontstage.agent.ContractProportion": {
     "en": "Contract ratio",
     "hi": "Contract ratio",
@@ -8631,30 +8047,6 @@
     "zh-cn": "省",
     "zh-tw": "省"
   },
-  "frontstage.common.Gender.Female": {
-    "en": "female",
-    "hi": "female",
-    "th": "หญิง",
-    "vi": "Nữ",
-    "zh-cn": "女性",
-    "zh-tw": "女性"
-  },
-  "frontstage.common.Gender.Male": {
-    "en": "male",
-    "hi": "male",
-    "th": "ชาย",
-    "vi": "Nam",
-    "zh-cn": "男性",
-    "zh-tw": "男性"
-  },
-  "frontstage.common.Gender.Unknow": {
-    "en": "unknown",
-    "hi": "unknown",
-    "th": "ไม่ทราบ",
-    "vi": "Không biết",
-    "zh-cn": "未知",
-    "zh-tw": "未知"
-  },
   "frontstage.common.Login": {
     "en": "LogIn",
     "hi": "LogIn",
@@ -8662,30 +8054,6 @@
     "vi": "Đăng nhập",
     "zh-cn": "登录",
     "zh-tw": "登錄"
-  },
-  "frontstage.common.remove": {
-    "en": "delete",
-    "hi": "delete",
-    "th": "ลบ",
-    "vi": "Xóa bỏ",
-    "zh-cn": "刪除",
-    "zh-tw": "刪除"
-  },
-  "frontstage.common.confirm": {
-    "en": "confirm",
-    "hi": "confirm",
-    "th": "ยืนยัน",
-    "vi": "Xác nhận",
-    "zh-cn": "确认",
-    "zh-tw": "確認"
-  },
-  "frontstage.common.cancel": {
-    "en": "cancel",
-    "hi": "cancel",
-    "th": "ยกเลิก",
-    "vi": "Hủy bỏ",
-    "zh-cn": "取消",
-    "zh-tw": "取消"
   },
   "frontstage.common.copySuccess": {
     "en": "{0} copied",
@@ -8799,14 +8167,6 @@
     "zh-cn": "QQ号码",
     "zh-tw": "QQ號碼"
   },
-  "frontstage.common.birthday": {
-    "en": "birthday",
-    "hi": "birthday",
-    "th": "วันเกิด",
-    "vi": "Ngày sinh",
-    "zh-cn": "生日",
-    "zh-tw": "生日"
-  },
   "frontstage.common.doEdit": {
     "en": "modify",
     "hi": "modify",
@@ -8814,22 +8174,6 @@
     "vi": "Sửa đổi",
     "zh-cn": "修改",
     "zh-tw": "修改"
-  },
-  "frontstage.common.gender": {
-    "en": "gender",
-    "hi": "gender",
-    "th": "เพศ",
-    "vi": "Giới tính",
-    "zh-cn": "性别",
-    "zh-tw": "性別"
-  },
-  "frontstage.common.WeChat": {
-    "en": "WeChat",
-    "hi": "WeChat",
-    "th": "WeChat",
-    "vi": "WeChat",
-    "zh-cn": "WeChat",
-    "zh-tw": "WeChat"
   },
   "frontstage.common.binded": {
     "en": "already been bound",
@@ -9134,22 +8478,6 @@
     "vi": "Ngày tháng khác",
     "zh-cn": "其他日期",
     "zh-tw": "其他日期"
-  },
-  "frontstage.common.today": {
-    "en": "today",
-    "hi": "today",
-    "th": "วันนี้ ",
-    "vi": "Hôm nay",
-    "zh-cn": "今天",
-    "zh-tw": "今天"
-  },
-  "frontstage.common.yesterday": {
-    "en": "yesterday",
-    "hi": "yesterday",
-    "th": "เมื่อวานนี้",
-    "vi": "Hôm qua",
-    "zh-cn": "昨天",
-    "zh-tw": "昨天"
   },
   "frontstage.common.measureword.people": {
     "en": "{0} person/persons",
@@ -9919,14 +9247,6 @@
     "zh-cn": "关于我们",
     "zh-tw": "關於我們"
   },
-  "frontstage.menu.Home": {
-    "en": "home page",
-    "hi": "home page",
-    "th": "หน้าหลัก",
-    "vi": "Trang chủ",
-    "zh-cn": "首页",
-    "zh-tw": "首頁"
-  },
   "frontstage.menu.Promotions": {
     "en": "Promotions",
     "hi": "Promotions",
@@ -10558,14 +9878,6 @@
     "vi": "Xin vui lòng nhập {0} chữ số mã nghiệm chứng",
     "zh-cn": "请输入{0}位验证码",
     "zh-tw": "請輸入{0}位驗證碼"
-  },
-  "frontstage.rules.twin": {
-    "en": "Please confirm the content",
-    "hi": "Please confirm the content",
-    "th": "โปรดยืนยันเนื้อหา",
-    "vi": "Xin vui lòng xác nhận nội dung",
-    "zh-cn": "请确认内容",
-    "zh-tw": "請確認內容"
   },
   "frontstage.rules.insufficientBalance": {
     "en": "Insufficient balance",
@@ -11910,6 +11222,14 @@
     "vi": "Thiết lập mật khẩu vốn quỹ không thành công",
     "zh-cn": "设置资金密码失败",
     "zh-tw": "設置資金密碼失敗"
+  },
+  "frontstage.user.securitySetting.FundsPassword.unsetable": {
+    "en": "Please authenticate the mailbox first.",
+    "zh-cn": "请先认证信箱。",
+    "zh-tw": "請先認證信箱。",
+    "hi": "",
+    "th": "",
+    "vi": ""
   },
   "frontstage.user.securitySetting.modifyFailingMsg": {
     "en": "Fail to edit",

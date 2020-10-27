@@ -74,7 +74,8 @@
       "modifySuccessMsg": "重置資金密碼成功",
       "settingSuccessMsg": "設置資金密碼成功",
       "mifyFailingMsg": "重置資金密碼失敗",
-      "settingFailingMsg": "設置資金密碼失敗"
+      "settingFailingMsg": "設置資金密碼失敗",
+      "unsetable": "請先認證信箱。"
     },
     "modifyFailingMsg": "修改失敗"
   },

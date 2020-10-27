@@ -74,7 +74,8 @@
       "remark": "Set a fund password to ensure the safety of funds.",
       "settingSuccessMsg": "Funding password set successfully",
       "mifyFailingMsg": "Fund password reset failed",
-      "settingFailingMsg": "Failed to set fund password"
+      "settingFailingMsg": "Failed to set fund password",
+      "unsetable": "Please authenticate the mailbox first."
     },
     "modifyFailingMsg": "Fail to edit"
   },

@@ -36,7 +36,7 @@
   "Fail": "Không thành công",
   "UsernameFronzen": "Số tài khoản đã đóng băng",
   "VerificationCodeError": "Mã nghiệm chứng bị lỗi",
-  "AuditNotCleared": "",
-  "AgentIdentityNotExist": "",
+  "AuditNotCleared": "Đã xóa ghi chú kiểm tra",
+  "AgentIdentityNotExist": "Danh tính đại lý không tồn tại",
   "Maintenance": ""
 }

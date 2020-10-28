@@ -45,12 +45,12 @@
   },
   "contractReport": {
     "column": {
-      "Amount": "Amount issued"
+      "Amount": "Amount given away"
     }
   },
   "CurrentQuota": "Calculation amount",
   "ContractProportion": "Contract ratio",
-  "ContractReportAmount": "Amount issued",
+  "ContractReportAmount": "Amount given away",
   "BetInfo": "Betting Information",
   "BetTaget": "Game category/platform",
   "TeamBenefitAmount": "Benefit sharing treatment",

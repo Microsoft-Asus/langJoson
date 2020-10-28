@@ -118,8 +118,8 @@
   "somethingFailed": "{0} विफल रहा",
   "ConfirmationSentence": "क्या आपको सुनिश्चित हैं {0}}",
   "resetToDefault": "रीसेट करें और डिफ़ॉल्ट का उपयोग करें ",
-  "pleaseInputPasswordRight": "कृपया सही पासवर्ड फ़ॉर्मेट दर्ज करें: (केस) अंग्रेज़ी अक्षर + नंबर, कम से कम 8 अक्षर",
-  "pleaseInputAccountRight": "कृपया सही फ़ॉर्मेट दर्ज करें: अंग्रेजी अक्षर + नंबर, कम से कम 5 अक्षर",
+  "pleaseInputPasswordRight": "कृपया सही पासवर्ड फ़ॉर्मेट दर्ज करें: (केस) अंग्रेज़ी अक्षर + नंबर, 8 -18",
+  "pleaseInputAccountRight": "कृपया सही फ़ॉर्मेट दर्ज करें: अंग्रेजी अक्षर + नंबर, 5 -30",
   "selectMerchantHint": "एक मर्चेंट का चयन करें",
   "merchant": "मर्चेंट",
   "none": "कोई नहीं",
@@ -131,7 +131,7 @@
   "level": "रैंक",
   "today": "@:common.today",
   "week": "सप्ताह",
-  "decimalPointLimitOne": "अधिकांश एक दशमलव बिंदु तक",
+  "decimalPointLimitOne": "अधिकतम से {0} दशमलव बिंदु तक",
   "maxNumberRange": "अधिकतम संख्या 2147483647 है",
   "minNumberRange": "न्यूनतम संख्या -2147483648 है",
   "maxAndMinNumberRange": "अनिवार्य संख्या सीमा -2147483648 ~ 2147483647 है",
@@ -228,8 +228,8 @@
   },
   "undefined": "अपरिभाषित",
   "default": "",
-  "searchDateRange": "",
-  "countryCode": "",
+  "searchDateRange": "खोज की परिधि : {0} {1} के भीतर",
+  "countryCode": "देश का कोड",
   "languages": {
     "en": "",
     "zh-cn": "",
@@ -238,9 +238,8 @@
     "vi": "",
     "hi": ""
   },
-  "copy": "",
-  "replaceSuccessfully": "",
+  "copy": "प्रतिलिपि",
+  "replaceSuccessfully": "सफलतापूर्वक प्रतिस्थापित करें",
   "decimalPointLimit": "",
-  "unitWeek": "",
-  "pleaseEnterANumberGreaterThan": ""
+  "unitWeek": ""
 }

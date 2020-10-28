@@ -15,7 +15,7 @@
   "depositItem": "डिपॉज़िट वस्तु",
   "normalAudit": "नियमित ऑडिट",
   "auditMultiple": "अधिमान्य ऑडिट मल्टीपल",
-  "auditTips": "सामान्य ऑडिट के दौरान,",
+  "auditTips": "",
   "restAudit": "शेष कोटा का ऑडिट",
   "totalAmount": "कुल राशि",
   "clearAudit": "क्लियर ऑडिट",
@@ -42,6 +42,6 @@
   "remitBalance": "क्रेडिट जोड़ने की राशि",
   "depositAmount": "डिपॉज़िट राशि",
   "deposits": "डिपॉज़िट राशि",
-  "receiveAmount": "",
-  "receivedAmount": ""
+  "receiveAmount": "राशि प्राप्त करें",
+  "receivedAmount": "राशि प्राप्त करें"
 }

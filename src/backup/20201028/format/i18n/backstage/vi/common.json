@@ -118,8 +118,8 @@
   "somethingFailed": "{0} không thành công",
   "ConfirmationSentence": "Có chắc chắn {0} hay không?",
   "resetToDefault": "Thiết lập lại và sử dụng mặc định",
-  "pleaseInputPasswordRight": "Xin vui lòng nhập định dạng mật khẩu chính xác: (Chữ hoa, chữ thường) chữ cái tiếng Anh + chữ số, ít nhất 8 ký tự",
-  "pleaseInputAccountRight": "Xin vui lòng nhập định dạng chính xác: Chữ cái tiếng Anh + chữ số, ít nhất 5 ký tự.",
+  "pleaseInputPasswordRight": "Xin vui lòng nhập định dạng mật khẩu chính xác: (Chữ hoa, chữ thường) chữ cái tiếng Anh + chữ số  8 -18",
+  "pleaseInputAccountRight": "Xin vui lòng nhập định dạng chính xác: Chữ cái tiếng Anh + chữ số, 5 -30",
   "selectMerchantHint": "Xin vui lòng chọn Trạm trưởng kiểm tra",
   "merchant": "Trạm trưởng",
   "none": "Không có",
@@ -229,7 +229,7 @@
   "undefined": "Không xác định",
   "default": "",
   "searchDateRange": "",
-  "countryCode": "",
+  "countryCode": "Mã quốc gia",
   "languages": {
     "en": "",
     "zh-cn": "",
@@ -238,8 +238,8 @@
     "vi": "",
     "hi": ""
   },
-  "copy": "",
-  "replaceSuccessfully": "",
+  "copy": "bản",
+  "replaceSuccessfully": "Thay thế thành công",
   "decimalPointLimit": "",
   "unitWeek": "",
   "pleaseEnterANumberGreaterThan": ""

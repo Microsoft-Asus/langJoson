@@ -1,5 +1,5 @@
 {
-  "notBlank": "",
+  "notBlank": "ไม่สามารถป้อนข้อมูลว่างในช่วงเริ่มต้นหรือสิ้นสุด",
   "memberAccount": "",
   "twin": "@:rules.twin"
 }

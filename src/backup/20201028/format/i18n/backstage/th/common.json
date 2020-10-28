@@ -118,8 +118,8 @@
   "somethingFailed": "{0} ล้มเหลว",
   "ConfirmationSentence": "ยืนยัน {0} ไหม",
   "resetToDefault": "รีเซ็ตและใช้ค่าที่ตั้งไว้",
-  "pleaseInputPasswordRight": "การป้อนรหัสผ่านที่ถูกต้อง: (ตัวพิมพ์ใหญ่และตัวพิมพ์เล็ก) ตัวอักษรภาษาอังกฤษ + ตัวเลขอย่างน้อย 8 ตัวอักษร",
-  "pleaseInputAccountRight": "การป้อนที่ถูกต้อง: ตัวอักษรภาษาอังกฤษ + ตัวเลขอย่างน้อย 5 ตัวอักษร",
+  "pleaseInputPasswordRight": "การป้อนรหัสผ่านที่ถูกต้อง: (ตัวพิมพ์ใหญ่และตัวพิมพ์เล็ก) ตัวอักษรภาษาอังกฤษ + ตัวเลขอย่ 8 -18",
+  "pleaseInputAccountRight": "การป้อนที่ถูกต้อง: ตัวอักษรภาษาอังกฤษ + ตัวเลขอย่ 5 -30",
   "selectMerchantHint": "โปรดเลือกผู้ดูแลเว็บ",
   "merchant": "ผู้ดูแลเว็บ ",
   "none": "ไม่",
@@ -229,7 +229,7 @@
   "undefined": "ไม่ได้กำหนด",
   "default": "",
   "searchDateRange": "",
-  "countryCode": "",
+  "countryCode": "รหัสประเทศ",
   "languages": {
     "en": "",
     "zh-cn": "",
@@ -238,8 +238,8 @@
     "vi": "",
     "hi": ""
   },
-  "copy": "",
-  "replaceSuccessfully": "",
+  "copy": "สำเนา",
+  "replaceSuccessfully": "แทนที่สำเร็จ",
   "decimalPointLimit": "",
   "unitWeek": "",
   "pleaseEnterANumberGreaterThan": ""

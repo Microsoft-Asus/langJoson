@@ -1,103 +1,103 @@
 {
   "depositRecord": {
     "column": {
-      "Amount": "Amount of adding credit",
-      "Channel": "The channel of adding credit",
-      "CreatedTime": "The date of of adding credit",
-      "TransNumber": "Adding credit process sheet number",
-      "ActualReceiveAmount": "Actual amount",
-      "Fee": "Fee"
+      "Amount": "क्रेडिट जोड़ने की राशि",
+      "Channel": "क्रेडिट जोड़ने का चैनल",
+      "CreatedTime": "क्रेडिट जोड़ने की तिथि",
+      "TransNumber": "क्रेडिट प्रोसेस शीट नंबर जोड़ा जा रहा है",
+      "ActualReceiveAmount": "वास्तविक राशि",
+      "Fee": "फीस"
     }
   },
   "transferRecord": {
     "column": {
-      "Amount": "Transfer amount",
-      "CreatedTime": "Transfer date",
-      "From": "Transfer out",
-      "To": "Transfer into",
-      "TransNumber": "Bank transfer slip number"
+      "Amount": "ट्रांसफर राशि",
+      "CreatedTime": "ट्रांसफर की तारीख",
+      "From": "से बाहर ट्रांसफर करें",
+      "To": "में ट्रांसफर करें",
+      "TransNumber": "बैंक ट्रांसफर की पर्ची संख्या"
     }
   },
   "withdrawalRecord": {
     "column": {
-      "Amount": "Withdrawal amount",
-      "BankCardNumber": "Cash card",
-      "CreatedTime": "Withdrawal date",
-      "TransNumber": "the bank withdrawal slip number",
-      "Subtotal": "Actual amount",
-      "Fee": "Fee",
-      "WithdrawalAmount": "Apply amount",
-      "ActualWithdrawalAmount": "Actual amount"
+      "Amount": "विथ्ड्रॉअल राशि",
+      "BankCardNumber": "कैश कार्ड",
+      "CreatedTime": "निकासी की तारीख",
+      "TransNumber": "बैंक विथ्ड्रॉअल स्लिप नंबर",
+      "Subtotal": "वास्तविक राशि",
+      "Fee": "फीस",
+      "WithdrawalAmount": "राशि लागू करें",
+      "ActualWithdrawalAmount": "वास्तविक राशि"
     }
   },
   "betRecord": {
     "column": {
-      "BetAmount": "Bet amount",
-      "BetNumber": "Betting slip number (Transaction number)",
-      "CreatedTime": "The date of placing bets",
-      "ValidAmount": "Valid betting",
-      "WinLossAmount": "Amount of winning or losing",
-      "PayoutAmount": "Payout amount",
+      "BetAmount": "बेट राशि",
+      "BetNumber": "शर्त की पर्ची संख्या (लेनदेन संख्या)",
+      "CreatedTime": "दांव लगाने की तिथि",
+      "ValidAmount": "मान्य बेटिंग",
+      "WinLossAmount": "जीतने या हारने की राशि",
+      "PayoutAmount": "लॉटरी भुगतान राशि",
       "GameType": "@:user.gamePlatform"
     },
-    "pickGamePlatform": "Choose a platform"
+    "pickGamePlatform": "एक मंच चुनें"
   },
   "promotionRecord": {
     "column": {
-      "Amount": "Amount",
-      "CreatedTime": "Arrival time",
-      "TransNumber": "Single number"
+      "Amount": "राशि",
+      "CreatedTime": "आगमन समय",
+      "TransNumber": "नहीं।"
     }
   },
   "securitySetting": {
     "Phone": {
-      "label": "mobile phone number",
-      "remark": "By receiving a text message from your mobile phone to log in your account, you can receive notifications of changes in account funds and receive a prompt message when the account is suspected of abnormal operation.",
-      "modifySuccessMsg": "Reset phone successfully",
-      "modifyFailingMsg": "Failed to reset phone"
+      "label": "फ़ोन नंबर",
+      "remark": "खाता सुरक्षा में सुधार के लिए मोबाइल फोन को बांधें।",
+      "modifySuccessMsg": "फोन को सफलतापूर्वक रिसेट करें",
+      "modifyFailingMsg": "फोन रिसेट करने में विफल"
     },
     "Email": {
-      "label": "mailbox",
-      "modifySuccessMsg": "Email reset succeeded",
-      "remark": "By using email address to log in your account, you can receive notifications of changes in account funds and receive a prompt message when the account is suspected of abnormal operation.",
-      "modifyFailingMsg": "Failed to reset mailbox"
+      "label": "मेल",
+      "modifySuccessMsg": "ईमेल रीसेट सफल रहा",
+      "remark": "खाते की सुरक्षा में सुधार के लिए मेलबॉक्स को बांधें।",
+      "modifyFailingMsg": "मेलबॉक्स रिसेट करने में विफल"
     },
     "Password": {
-      "label": "login password",
-      "modifySuccessMsg": "Succeeded in resetting the login password",
-      "remark": "You need to set a password, when you log in you can use the password to log in.",
-      "mifyFailingMsg": "Failed to reset login password"
+      "label": "लॉग इन पासवर्ड",
+      "modifySuccessMsg": "लॉगिन पासवर्ड रिसेट करने में सफल रहा",
+      "remark": "यह अनुशंसा की जाती है कि खिलाड़ी खाते की सुरक्षा में सुधार के लिए समय-समय पर लॉगिन पासवर्ड बदलते रहें।",
+      "mifyFailingMsg": "लॉगिन पासवर्ड रिसेट करने में विफल"
     },
     "FundsPassword": {
-      "label": "Fund password",
-      "modifySuccessMsg": "Reset fund password successfully",
-      "remark": "Set a fund password to ensure the safety of funds.",
-      "settingSuccessMsg": "Funding password set successfully",
-      "mifyFailingMsg": "Fund password reset failed",
-      "settingFailingMsg": "Failed to set fund password",
+      "label": "फंड पासवर्ड",
+      "modifySuccessMsg": "फंड पासवर्ड को सफलतापूर्वक रिसेट करें",
+      "remark": "यह अनुशंसा की जाती है कि खिलाड़ी खाते की सुरक्षा में सुधार करने के लिए समय-समय पर फंड पासवर्ड बदलते रहें।",
+      "settingSuccessMsg": "फंडिंग पासवर्ड सफलतापूर्वक सेट किया गया",
+      "mifyFailingMsg": "फंड पासवर्ड रिसेट विफल",
+      "settingFailingMsg": "फंड पासवर्ड सेट करने में विफल",
       "unsetable": ""
     },
-    "modifyFailingMsg": "Fail to edit"
+    "modifyFailingMsg": "संपादन करने में विफल"
   },
   "BankCard": {
-    "addBankCard": "Add bank card"
+    "addBankCard": "बैंक कार्ड जोड़ें"
   },
   "DailyRewordRecord": {
     "column": {
-      "Amount": "Bet amount",
-      "CreatedTime": "date",
-      "RewardAmount": "Rebate amount"
+      "Amount": "बेट राशि",
+      "CreatedTime": "तारीख",
+      "RewardAmount": "रिबेट राशि"
     }
   },
   "deposit": {
-    "depositAmountRange": "The single adding credit amount is between ${min} - ${max}.",
+    "depositAmountRange": "एकल जोड़ने वाली क्रेडिट राशि $ {न्यूनतम} - $ {अधिकतम} के बीच की है।",
     "bankcardOrderRemind": {
-      "0": "This bank card is only applicable to this credit adding order, and next time you add credit, you need to re-submit the information for credit adding.",
-      "1": "Please log in online banking or mobile banking to complete the transfer."
+      "0": "यह बैंक कार्ड केवल इस क्रेडिट एडिंग ऑर्डर पर लागू होता है, और अगली बार जब आप क्रेडिट जोड़ें, तो आपको क्रेडिट जोड़ने संबंधी जानकारी को फिर से सबमिट करना होगा।",
+      "1": "ट्रांसफर को पूरा करने के लिए कृपया ऑनलाइन बैंकिंग या मोबाइल बैंकिंग में लॉग इन करें।"
     },
-    "goCheckDepositRecord": "Please go to {0} to examine the information of the credit adding order.",
-    "BankCardTransfer": "BankCard Transfer",
-    "noneAnyPaymentWay": "None any payment way"
+    "goCheckDepositRecord": "क्रेडिट जोड़ने के क्रम की जानकारी की जांच करने के लिए कृपया {0} पर जाएं।",
+    "BankCardTransfer": "बैंक कार्ड ट्रांसफर",
+    "noneAnyPaymentWay": "कोई भी भुगतान का तरीका नहीं"
   },
   "TppPaymentTypeEnum": {
     "Alipay": "Alipay",
@@ -109,167 +109,166 @@
     "BqPay": "BQPay"
   },
   "transfer": {
-    "transferFrom": "Transfer out",
-    "transferTo": "Transfer into",
+    "transferFrom": "से बाहर ट्रांसफर करें",
+    "transferTo": "में ट्रांसफर करें",
     "msg": {
-      "successfulTransfer": "Successful transfer",
-      "transferFailed": "Transfer failed"
+      "successfulTransfer": "सफलता",
+      "transferFailed": "विफल"
     },
-    "doTransfer": "Transfer immediately",
-    "transAmount": "Transfer amount"
+    "doTransfer": "तुरंत ट्रांसफर करें",
+    "transAmount": "ट्रांसफर राशि"
   },
-  "mainWallet": "Central wallet",
-  "securitySettings": "Security Settings",
+  "mainWallet": "सेंट्रल वॉलेट",
+  "securitySettings": "सुरक्षा सेटिंग्स",
   "withdrawal": {
     "withdrawalCheck": {
-      "title": "Withdraw{0}of cash to the bank card."
+      "title": "बैंक कार्ड को {0} नकद की निकासी करें।"
     },
     "validate": {
-      "title": "Withdrawal verification"
+      "title": "निकासी का सत्यापन"
     },
-    "bankCardNotFoundMsg": "Add your bank card",
-    "fundsPasswdNotFoundMsg": "You can only withdraw after setting the fund password!",
-    "debitCard": "Arrival bank card",
-    "noWithdrawalMsg": "The effective bet amount has not yet met the clearance audit point, so you cannot withdraw money.",
-    "numberOfremainingWithdrawals": "Numbers of free withdrawals remaining",
-    "withdrawableMsg": "The effective bet amount has met the clearance audit point, so you can withdraw money."
+    "bankCardNotFoundMsg": "अपना बैंक कार्ड जोड़ें",
+    "fundsPasswdNotFoundMsg": "आप केवल फंड पासवर्ड सेट करने के बाद ही निकासी कर सकते हैं!",
+    "debitCard": "आगमन बैंक कार्ड",
+    "noWithdrawalMsg": "प्रभावी शर्त राशि अभी तक क्लीयरेंस ऑडिट पॉइंट से नहीं मिली है, इसलिए आप पैसे नहीं निकाल सकते।",
+    "numberOfremainingWithdrawals": "शेष निःशुल्क निकासियों की संख्या",
+    "withdrawableMsg": "प्रभावी शर्त राशि क्लीयरेंस ऑडिट पॉइंट से मिल गई है, अतः आप पैसे निकाल सकते हैं।"
   },
-  "fundsPassword": "Fund password",
-  "modifyBankCardHolderNameMsg": "Please contact the customer service to modify the cardholder's name.",
+  "fundsPassword": "फंड पासवर्ड",
+  "modifyBankCardHolderNameMsg": "कार्डधारक के नाम को संशोधित करने के लिए कृपया ग्राहक सेवा से संपर्क करें।",
   "EmailEditDialog": {
-    "title": "Modify Email"
+    "title": "ईमेल को संशोधित करें"
   },
   "ModifyFundsPasswordDialog": {
-    "title": "Set fund password",
-    "currentFundsPassword": "Current funds password",
-    "confirmFundsPassword": "Confirm new fund password"
+    "title": "फंड पासवर्ड सेट करें",
+    "currentFundsPassword": "वर्तमान फंड पासवर्ड",
+    "confirmFundsPassword": "नए फंड पासवर्ड की पुष्टि करें"
   },
   "vip": {
-    "MonthlyKeepVipDepositAmount": "Monthly keep rank deposit",
-    "MonthlyRiseVipDepositAmount": "Monthly rank up deposit",
-    "MonthlyValidBetAmount": "Monthly valid bets"
+    "MonthlyKeepVipDepositAmount": "मासिक कीप रैंक जमा ",
+    "MonthlyRiseVipDepositAmount": "मासिक रैंक अप डिपॉजिट",
+    "MonthlyValidBetAmount": "मासिक मान्य शर्तें"
   },
   "userAccount": {
-    "otherWallets": "Other wallets"
+    "otherWallets": "अन्य वालेट"
   },
   "QQcode": "QQ number",
   "oneClick": {
     "caption": {
-      "clickAgainForCancel": "3s left, click again for cancel",
-      "noTransferableWallet": "No transferable wallet",
-      "transAllBackToCenter": "Transfer all back to the Center",
-      "syncFetchingBalance": "Sync wallet balance"
+      "clickAgainForCancel": "3 शेष, रद्द करने के लिए फिर से क्लिक करें",
+      "noTransferableWallet": "कोई ट्रांसफरेबल वालेट नहीं",
+      "transAllBackToCenter": "सभी को वापस केंद्र में ट्रांसफर करें",
+      "syncFetchingBalance": "वालेट बैलेंस समरूप करें"
     },
-    "label": "One-click"
+    "label": "एक बार क्लिक"
   },
   "ModifyPasswordDialog": {
-    "title": "Modify login password"
+    "title": "लॉगिन पासवर्ड को संशोधित करें"
   },
   "ModifyPhoneDialog": {
-    "title": "Modify mobile phone number"
+    "title": "मोबाइल फोन नंबर को संशोधित करें"
   },
   "letter": {
     "column": {
-      "IsRead": "Already read",
-      "Title": "title",
-      "CreatedTime": "release time"
+      "IsRead": "पहले से ही पढ लिया गया है",
+      "Title": "शीर्षक",
+      "CreatedTime": "रिलीज करने का समय"
     },
     "messages": {
-      "confirmRemove": "Are you sure you want to remove the letter?"
+      "confirmRemove": "क्या आप वाकई लैटर हटाना चाहते हैं?"
     },
-    "hasUnreadLetter": "Unread letter"
+    "hasUnreadLetter": "अपठित पत्र"
   },
   "changeRecord": {
     "column": {
-      "CreatedTime": "CreatedTime",
-      "DiffBalance": "Transaction amount",
-      "TransNumber": "No.",
-      "AfterBalance": "After Balance"
+      "CreatedTime": "निर्मित समय",
+      "DiffBalance": "लेन-देन की राशि",
+      "TransNumber": "नहीं।",
+      "AfterBalance": "बाद का बैलेंस"
     }
   },
   "changeRecordType": {
-    "CenterToPg": "[Center] to [PG]",
-    "CenterToPt": "[Center] to [IMPT]",
-    "ChildDeposit": "Lower level recharge",
-    "CenterToVr": "[Central Wallet] to [VR Lottery]",
-    "DepositBankCard": "Deposit - bank card",
-    "CenterToRmg": "[Center Wallet] Transfer to [大富翁棋牌]",
-    "FastBetToCenter": "[fastbet] to [Center]",
-    "CenterToSaba": "[Center] to [SABA]",
-    "CenterToRgBoard": "[Central Wallet] to [RgBoardGame]",
-    "CenterToTm": "[Center] to [天美]",
-    "EgToCenter": "[EG] to [Center]",
-    "DepositFee": "Deposit fee",
-    "CenterToWm": "[Center] to [WM live baccarat]",
-    "Other": "other",
-    "IboToCenter": "[IBO] to [Center]",
-    "KaToCenter": "[Ka game] to [Center]",
-    "DepositThirdParty": "Income - third party",
-    "MgPlusToCenter": "[MG+] to [Central Wallet]",
-    "DepositDailyReward": "Income - daily return",
-    "ParentDeposit": "Superior recharge",
-    "LcToCenter": "[龙城] transfer [Center]",
-    "KkToCenter": "[KK Lottery] to [Central Wallet]",
-    "NwgToCenter": "[新世界棋牌] to [Center Wallet]",
-    "PgToCenter": "[PG] to [Central Wallet]",
-    "Undefined": "Undefined",
-    "PtToCenter": "[IMPT] to [Center]",
-    "WithdrawalReject": "Refuse to pay",
-    "RgBoardToCenter": "[RgBoardGame] to [Center]",
-    "WithdrawalPromotions": "Preferential activities",
-    "Withdrawal": "Dispensing",
-    "WalletAuditArtificialReset": "Manual reset",
-    "VrToCenter": "[VR lottery] to [Center]",
-    "SabaToCenter": "[SABA] to [Central Wallet]",
-    "RmgToCenter": "[大富翁棋牌] transfer [Center]",
-    "WalletAuditSystemReset": "System zeroing",
-    "RgLotteryToCenter": "[RgLottery] to [Center]",
-    "PsToCenter": "[玩星] to [Center]",
-    "SaToCenter": "[沙龙] transfer [center wallet]",
-    "TmToCenter": "[天美棋牌] to [Center Wallet]",
-    "WithdrawalFee": "Withdrawal fee",
-    "WmToCenter": "[WM Real Baccarat] to [Central Wallet]",
-    "ArtificialDepositPromotions": "Manual deposit - event discount",
-    "ArtificialDeposit": "Manual deposit",
-    "AgToCenter": "[AG] to [Center]",
-    "AgentStrategyCommission": "Agency strategy - Commission",
-    "AgentStrategyDepositBonus": "Agent strategy - recharge reward",
-    "AgentStrategyDividend": "Agency strategy - dividends",
-    "AgentStrategyOther": "Agent policy - other",
-    "AgentStrategyRebate": "Agent strategy - backwater",
-    "AgentStrategyWage": "Agency strategy - salary",
-    "AllMemberSearchEnd": "Query criteria for all members - [End]",
-    "ArtificialDepositExcludProfitAndLoss": "Manual deposit - excluding profit and loss",
-    "ArtificialWithdrawal": "Put forward manually",
-    "ArtificialWithdrawalExcludProfitAndLoss": "Manual proposal - excluding profit and loss",
-    "AviaToCenter": "[Avia] to [Center]",
-    "BatchDeposit": "Batch deposit",
-    "BatchDepositExcludProfitAndLoss": "Batch deposit - excluding profit and loss",
-    "BatchDepositPromotions": "Batch deposit - event discount",
-    "BbinToCenter": "[NewBBIN] to [Center]",
-    "Bet": "Bet",
-    "BetCanceled": "Bet Canceled",
-    "BetDeleted": "cancellation",
-    "BetFinished": "BetFinished",
-    "BetModified": "BetModified",
-    "BqDeposit": "BQ income",
-    "CenterToAg": "[Center] to [AG]",
-    "CenterToAvia": "[Center] to [Avia]",
-    "CenterToBbin": "[Center] to [NewBBIN]",
-    "CenterToEg": "[Center] to [EG]",
-    "CenterToFastBet": "[Center] to [FastBet]",
-    "CenterToIbo": "[Center] to [IBO]",
-    "CenterToKa": "[Center] to [KA Game]",
-    "CenterToKk": "[Center] to [KK lottery]",
-    "CenterToLc": "[Center] to [Longcheng]",
-    "CenterToRgLottery": "[Center] to [RgLottery]",
-    "CenterToSa": "[Center] to [Sa]",
-    "CenterToPs": "[Center] to [PS]",
-    "CenterToMgPlus": "[Center] to [MG+]",
-    "CenterToNwg": "[Center] to [NWG]",
-    "ImptToCenter": ""
+    "CenterToPg": "[केंद्र] से [PG]",
+    "CenterToPt": "[केंद्र] से [PT]",
+    "ChildDeposit": "बालक डिपॉज़िट",
+    "CenterToVr": "[केंद्र] से [VR]",
+    "DepositBankCard": "डिपोजिट - बैंक कार्ड",
+    "CenterToRmg": "[केंद्र] से [RMG]",
+    "FastBetToCenter": "[FastBet] से [केंद्र] ",
+    "CenterToSaba": "[केंद्र] से [SABA]",
+    "CenterToRgBoard": "[केंद्र] से [RgBoardGame]",
+    "CenterToTm": "[केंद्र] से [TM]",
+    "EgToCenter": "[EG] से [केंद्र] ",
+    "DepositFee": "जमा शुल्क",
+    "CenterToWm": "[केंद्र] से [WM]",
+    "Other": "अन्य",
+    "IboToCenter": "[IBO] से [केंद्र] ",
+    "KaToCenter": "[KA] से [केंद्र] ",
+    "DepositThirdParty": "आय - तृतीय पक्ष",
+    "MgPlusToCenter": "[MG+] से [केंद्र] ",
+    "DepositDailyReward": "आय - दैनिक आगम",
+    "ParentDeposit": "माता-पिता डिपॉज़िट",
+    "LcToCenter": "[LC] से [केंद्र] ",
+    "KkToCenter": "[KK] से [केंद्र] ",
+    "NwgToCenter": "[NWG] से [केंद्र] ",
+    "PgToCenter": "[PG] से [केंद्र] ",
+    "Undefined": "अपरिभाषित",
+    "PtToCenter": "[PT] से [केंद्र] ",
+    "WithdrawalReject": "विथ्ड्रॉअल अस्वीकार करें",
+    "RgBoardToCenter": "[RgBoardGame] से [केंद्र] ",
+    "WithdrawalPromotions": "अधिमान्य गतिविधियां",
+    "Withdrawal": "विथ्ड्रॉअल",
+    "WalletAuditArtificialReset": "वॉलेट ऑडिट आर्टिफिशियल रीसेट",
+    "VrToCenter": "[VR] से [केंद्र] ",
+    "SabaToCenter": "[SABA] से [केंद्र] ",
+    "RmgToCenter": "[RMG] से [केंद्र] ",
+    "WalletAuditSystemReset": "वॉलेट ऑडिट सिस्टम रीसेट",
+    "RgLotteryToCenter": "[RgLottery] से [केंद्र] ",
+    "PsToCenter": "[PS] से [केंद्र] ",
+    "SaToCenter": "[SA] से [केंद्र] ",
+    "TmToCenter": "[TM] से [केंद्र] ",
+    "WithdrawalFee": "निकासी शुल्क",
+    "WmToCenter": "[WM]से [केंद्र] ",
+    "ArtificialDepositPromotions": "कृत्रिम डिपॉज़िट प्रचार",
+    "ArtificialDeposit": "फंड डिपॉज़िट",
+    "AgToCenter": "[AG] से [केंद्र] ",
+    "AgentStrategyCommission": "एजेंसी की रणनीति - कमीशन",
+    "AgentStrategyDepositBonus": "एजेंट रणनीति - रिचार्ज पुरस्कार",
+    "AgentStrategyDividend": "एजेंसी की रणनीति - लाभांश",
+    "AgentStrategyOther": "एजेंट रणनीति अन्य",
+    "AgentStrategyRebate": "एजेंट रणनीति - बैकवाटर",
+    "AgentStrategyWage": "एजेंसी की रणनीति - वेतन",
+    "AllMemberSearchEnd": "सभी सदस्यों के लिए पूछताछ संबंधी मानदंड – [समापन]",
+    "ArtificialDepositExcludProfitAndLoss": "मैनुअल जमा - लाभ और हानि को छोड़कर",
+    "ArtificialWithdrawal": "फंड विथ्ड्रॉअल",
+    "ArtificialWithdrawalExcludProfitAndLoss": "मैनुअल जमा – इवेंट डिस्काउंट",
+    "AviaToCenter": "[Avia]से [केंद्र] ",
+    "BatchDeposit": "फंड बैच डिपॉज़िट",
+    "BatchDepositExcludProfitAndLoss": "बैच जमा - लाभ और हानि को छोड़कर",
+    "BatchDepositPromotions": "बैच डिपॉज़िट प्रचार",
+    "BbinToCenter": "[NewBBIN] से [केंद्र]",
+    "Bet": "बेट",
+    "BetCanceled": "शर्त रद्द",
+    "BetDeleted": "लॉग आउट",
+    "BetFinished": "इनाम की राशि वितरित करें",
+    "BetModified": "शर्त में सुधार",
+    "BqDeposit": "बीक्यू डिपॉज़िट",
+    "CenterToAg": "[केंद्र] से [AG]",
+    "CenterToAvia": "[केंद्र] से  [Avia]",
+    "CenterToBbin": "[केंद्र] से [NewBBIN]",
+    "CenterToEg": "[केंद्र] से [EG]",
+    "CenterToFastBet": "[केंद्र] से [FastBet]",
+    "CenterToIbo": "[केंद्र] से [IBO]",
+    "CenterToKa": "[केंद्र] से  [KA]",
+    "CenterToKk": "[केंद्र] से [KK]",
+    "CenterToLc": "[केंद्र] से  [LC]",
+    "CenterToRgLottery": "[केंद्र] से [RgLottery]",
+    "CenterToSa": "[केंद्र] से  [SA]",
+    "CenterToPs": "[केंद्र] से [PS]",
+    "CenterToMgPlus": "[केंद्र] से [MG+]",
+    "CenterToNwg": "[केंद्र] से [NWG]"
   },
-  "gamePlatform": "gaming platform",
+  "gamePlatform": "गेम प्लेटफ़ॉर्म",
   "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state",
   "resetpasswd": {
     "stepLabel": {

@@ -36,7 +36,7 @@
   "Fail": "ล้มเหลว",
   "UsernameFronzen": "บัญชีถูกระงับ",
   "VerificationCodeError": "เกิดข้อผิดพลาดในการยืนยันรหัส",
-  "AuditNotCleared": "",
-  "AgentIdentityNotExist": "",
+  "AuditNotCleared": "ล้างบันทึกการตรวจสอบแล้ว",
+  "AgentIdentityNotExist": "ไม่มีข้อมูลประจำตัวของตัวแทน",
   "Maintenance": ""
 }

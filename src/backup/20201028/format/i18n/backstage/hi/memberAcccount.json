@@ -1,0 +1,7 @@
+{
+  "resetConfirmMessage": "{0} पर रीसेट नोटिफिकेशन भेजें?",
+  "resetConfirm": "क्या आप निश्चित हैं कि आप रीसेट करना चाहते हैं?",
+  "pleaseChoose": "कृपया चुनाव करें  ",
+  "sendVerificationMessage": "क्या आप {0} पर सत्यापन मेल भेजना चाहते हैं?",
+  "sendPhoneVerification": "क्या आप {0} पर सत्यापन मेसेज भेजना चाहते हैं?"
+}

@@ -1,0 +1,13 @@
+{
+  "View": "查看",
+  "query": "查询",
+  "export": "输出",
+  "execute": "执行",
+  "Edit": "编辑",
+  "Delete": "刪除",
+  "Add": "新增",
+  "permissionList": "权限列表",
+  "setPermissionCorrespondingUrl": "设定权限对应网址",
+  "editPermissionCorrespondingApiUrl": "编辑权限对应的API网址",
+  "ifMultipleUrlCorrespondencePleaseUseRegularExpression ": "多网址对应时，请使用正规表达式"
+}

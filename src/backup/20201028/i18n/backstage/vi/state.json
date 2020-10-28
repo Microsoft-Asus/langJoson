@@ -1,0 +1,73 @@
+{
+  "memberAccount": {
+    "Black": "Đơn đen",
+    "Freeze": "Đóng băng",
+    "Undefined": "Không xác định",
+    "Enable": "Kích hoạt",
+    "Disable": "Ngừng sử dụng"
+  },
+  "Promotions": {
+    "NotYet": "Chưa bắt đầu",
+    "Passed": "Đã kết thúc",
+    "Actived": "Đang hoạt động"
+  },
+  "Close": "Đóng",
+  "webState": {
+    "running": "Đang hoạt động",
+    "Closed": "Đã đóng",
+    "BlackList": "Danh sách đen"
+  },
+  "Rebate": "Tiền thưởng đặc cược",
+  "Dividend": "Cổ tức",
+  "DepositBonus": "Thưởng nạp tiền",
+  "deactivatedDeleted": "Đã xóa bỏ ngừng sử dụng",
+  "managerAccount": {
+    "Freeze": "Đóng băng",
+    "Block": "Danh sách đen",
+    "Undefined": "Không xác định",
+    "Enable": "Kích hoạt",
+    "Disable": "Ngừng sử dụng"
+  },
+  "WithdrawalStateEnum": {
+    "0": "Không xác định",
+    "1": "Chờ thẩm hạch",
+    "2": "Rút tiền thành công",
+    "3": "Từ chối rút tiền",
+    "Fail": "Từ chối",
+    "Unknow": "Không xác định",
+    "Pending": "Chờ thẩm hạch",
+    "Success": "Rút tiền thành công"
+  },
+  "MessageMarquee": {
+    "0": "Không xác định",
+    "1": "Kích hoạt",
+    "2": "Ngừng sử dụng",
+    "Undefined": "Không xác định",
+    "Enable": "Kích hoạt",
+    "Disable": "Ngừng sử dụng"
+  },
+  "DepositTransStateEnum": {
+    "0": "Không xác định",
+    "1": "Chờ thẩm hạch",
+    "2": "Nạp tiền thành công",
+    "3": "Nạp tiền không thành công",
+    "Unknow": "Không xác định",
+    "Pending": "Chờ thẩm hạch",
+    "Success": "Nạp tiền thành công",
+    "Fail": "Nạp tiền không thành công"
+  },
+  "Wage": "Tiền lương",
+  "Commission": "Tiền hoa hồng",
+  "Enable": "Kích hoạt",
+  "Disable": "Ngừng sử dụng",
+  "WithdrawlStateEnum": {
+    "Pending": "Chờ thẩm hạch"
+  },
+  "betState": {
+    "NotOver": "Chưa phát tiền thưởng",
+    "Over": "Đã phát tiền thưởng",
+    "Reversed": "Đơn ngược hướng",
+    "Modified": "Đã sửa đổi",
+    "Canceled": "Đã hủy bỏ"
+  }
+}

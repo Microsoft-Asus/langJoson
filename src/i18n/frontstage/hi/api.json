@@ -1,19 +1,19 @@
 {
   "code": {
-    "100": "This account already exists",
-    "101": "This account doesn't exist",
-    "102": "This account is already logged in",
-    "103": "This account has been deactivated",
-    "104": "Member login IP has been blocked / disabled",
+    "100": "यह अकाउंट पहले से मौजूद है",
+    "101": "यह अकाउंट मौजूद नहीं है",
+    "102": "यह अकाउंट पहले ही लॉग्ड इन है",
+    "103": "इस अकाउंट को निष्क्रिय कर दिया गया है",
+    "104": "सदस्य की लॉगिन आईपी को अवरुद्ध/अक्षम किया गया है",
     "105": "Broken proxy link",
-    "300": "verification code error",
-    "MemberAccountFreezeOrDisable": "This account has been deactivated",
-    "MemberAccountExist": "This account already exists",
-    "MemberAccountLoginRepeatedly": "This account is already logged in",
-    "VerificationCodeError": "verification code error",
-    "MemberLoginIpBlocked": "Member login IP has been blocked / disabled",
-    "MemberAccountOrPasswordError": "Member account or password is wrong",
-    "MemberAccountNotExist": "This account doesn't exist",
+    "300": "सत्यापन कोड गलती ",
+    "MemberAccountFreezeOrDisable": "इस अकाउंट को निष्क्रिय कर दिया गया है",
+    "MemberAccountExist": "यह अकाउंट पहले से मौजूद है",
+    "MemberAccountLoginRepeatedly": "यह अकाउंट पहले ही लॉग्ड इन है",
+    "VerificationCodeError": "सत्यापन कोड गलती ",
+    "MemberLoginIpBlocked": "सदस्य की लॉगिन आईपी को अवरुद्ध/अक्षम किया गया है",
+    "MemberAccountOrPasswordError": "सदस्य का अकाउंट या पासवर्ड गलत है",
+    "MemberAccountNotExist": "यह अकाउंट मौजूद नहीं है",
     "MemberAgentLinkError": "@:api.code.105"
   }
 }

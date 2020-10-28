@@ -59,9 +59,9 @@
   "province": "प्रांत",
   "SingleMember": "एकल उपयोगकर्ता",
   "transferSubordinate": "अधीनस्थ को ट्रांसफर ",
-  "onlineMemberAccount": "",
-  "loginPassword": "",
-  "registerCount": "",
-  "face": "",
-  "copyTips": ""
+  "onlineMemberAccount": "ऑनलाइन मेंबर अकाउंट",
+  "loginPassword": "लॉग इन पासवर्ड",
+  "registerCount": "गिनती दर्ज करें",
+  "face": "अवतार",
+  "copyTips": "{0} अन्य भाषाओं की सामग्री को बदल देगा"
 }

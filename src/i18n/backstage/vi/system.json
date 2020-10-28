@@ -203,6 +203,6 @@
   "registerUser": "Số người đăng ký",
   "fresh": "Làm mới",
   "transferSubordinate": "Cấp dưới chuyển khoản",
-  "payType": "",
+  "payType": "Phương thức thanh toán",
   "backstage": ""
 }

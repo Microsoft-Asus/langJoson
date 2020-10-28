@@ -131,7 +131,7 @@
   "level": "रैंक",
   "today": "@:common.today",
   "week": "सप्ताह",
-  "decimalPointLimitOne": "अधिकतम से {0} दशमलव बिंदु तक",
+  "decimalPointLimitOne": "अधिकांश एक दशमलव बिंदु तक",
   "maxNumberRange": "अधिकतम संख्या 2147483647 है",
   "minNumberRange": "न्यूनतम संख्या -2147483648 है",
   "maxAndMinNumberRange": "अनिवार्य संख्या सीमा -2147483648 ~ 2147483647 है",
@@ -241,5 +241,6 @@
   "copy": "प्रतिलिपि",
   "replaceSuccessfully": "सफलतापूर्वक प्रतिस्थापित करें",
   "decimalPointLimit": "",
-  "unitWeek": ""
+  "unitWeek": "",
+  "pleaseEnterANumberGreaterThan": ""
 }

@@ -266,7 +266,8 @@
     "CenterToSa": "[केंद्र] से  [SA]",
     "CenterToPs": "[केंद्र] से [PS]",
     "CenterToMgPlus": "[केंद्र] से [MG+]",
-    "CenterToNwg": "[केंद्र] से [NWG]"
+    "CenterToNwg": "[केंद्र] से [NWG]",
+    "ImptToCenter": ""
   },
   "gamePlatform": "गेम प्लेटफ़ॉर्म",
   "recordInfoNumTimeState": "@:common.SerialNumber / @:common.time / @:common.state",

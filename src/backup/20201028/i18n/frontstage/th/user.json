@@ -67,7 +67,8 @@
       "settingSuccessMsg": "ตั้งรหัสผ่านกองทุนสำเร็จ",
       "mifyFailingMsg": "การรีเซ็ตรหัสผ่านกองทุนไม่สำเร็จ",
       "settingFailingMsg": "ตั้งรหัสผ่านกองทุนไม่สำเร็จ",
-      "label": "รหัสผ่านกองทุน"
+      "label": "รหัสผ่านกองทุน",
+      "unsetable": ""
     },
     "modifyFailingMsg": "แก้ไขล้มเหลียว"
   },
@@ -246,7 +247,8 @@
     "WalletAuditArtificialReset": "รีเซ็ตด้วยตนเอง",
     "ArtificialDeposit": "การฝากเงินด้วยตนเอง",
     "ArtificialWithdrawal": "ถอนเงินด้วยตนเอง",
-    "BatchDeposit": "เงินฝากงวดนี้"
+    "BatchDeposit": "เงินฝากงวดนี้",
+    "ImptToCenter": ""
   },
   "recordInfoNumTimeState": "@: common.SerialNumber / @: common.time / @: common.state",
   "recordInfoNumTime": "@: common.SerialNumber / @: common.time",
@@ -259,12 +261,12 @@
     }
   },
   "TppPaymentTypeEnum": {
-    "Alipay": "อาลิเพลย์ ",
-    "WeChatPay": "WeChat เพลย์",
-    "JingdongQrCode": "JD เพลย์",
-    "UnionPayQrCode": "ยูเนี่ยนเพย์ ",
-    "OnlinePayment": "การชำระเงินทางออนไลน์",
-    "UnionPay": "บัตรด่วน",
+    "Alipay": "Alipay",
+    "WeChatPay": "WeChat Pay",
+    "JingdongQrCode": "Jingdong Pay",
+    "UnionPayQrCode": "UnionPay QrCode",
+    "OnlinePayment": "Online Payment",
+    "UnionPay": "Quick Pass",
     "BqPay": "BQPay"
   },
   "gamePlatform": "แพลตฟอร์มเกม",

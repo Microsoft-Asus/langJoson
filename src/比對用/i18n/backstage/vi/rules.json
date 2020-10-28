@@ -1,5 +1,5 @@
 {
-  "notBlank": "",
+  "notBlank": "Nó không thể nhập trống ở đầu hoặc cuối",
   "memberAccount": "",
   "twin": "@:rules.twin"
 }

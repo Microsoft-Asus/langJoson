@@ -1,12 +1,12 @@
 {
-  "deleteBankCardLabel": "Delete bank card",
+  "deleteBankCardLabel": "बैंक कार्ड डिलीट करें",
   "registerForm": {
     "hasRegistered": {
-      "0": "Already have an account, {0}",
-      "1": "Log in now"
+      "0": "पहले से ही अकाउंट मौजूद है, {0}",
+      "1": "अब लॉग इन करें"
     }
   },
   "UserNickNameEditor": {
-    "title": "change nickname"
+    "title": "उपनाम बदलें"
   }
 }

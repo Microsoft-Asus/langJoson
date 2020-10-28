@@ -13,7 +13,7 @@
     {
       "key": "frontstage.agent.CurrentQuota",
       "en": "Calculation amount",
-      "hi": "Calculation amount",
+      "hi": "गणना राशि",
       "th": "การคำนวณยอด ",
       "vi": "Hạn ngạch kết toán",
       "zh-cn": "计算额度",
@@ -56,8 +56,8 @@
     },
     {
       "key": "frontstage.agent.contractReport.column.Amount",
-      "en": "Amount issued",
-      "hi": "Amount issued",
+      "en": "Amount given away",
+      "hi": "दी गई राशि",
       "th": "จำนวนเงินที่แจกจ่าย",
       "vi": "Số tiền thưởng được phát",
       "zh-cn": "发放金额",
@@ -66,8 +66,8 @@
     },
     {
       "key": "frontstage.agent.ContractReportAmount",
-      "en": "Amount issued",
-      "hi": "Amount issued",
+      "en": "Amount given away",
+      "hi": "दी गई राशि",
       "th": "จำนวนเงินที่แจกจ่าย",
       "vi": "Số tiền thưởng được phát",
       "zh-cn": "发放金额",
@@ -89,7 +89,7 @@
     {
       "key": "frontstage.agent.column.AgentIdentityName",
       "en": "Identity",
-      "hi": "Identity",
+      "hi": "पहचान",
       "th": "สถานะ",
       "vi": "Danh tính",
       "zh-cn": "身份",
@@ -111,7 +111,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordStateEnum.1",
       "en": "Distributed",
-      "hi": "Distributed",
+      "hi": "वितरित",
       "th": "แจกจ่ายแล้ว",
       "vi": "Đã phát tiền thưởng",
       "zh-cn": "已派发",
@@ -121,7 +121,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordStateEnum.Sent",
       "en": "Distributed",
-      "hi": "Distributed",
+      "hi": "वितरित",
       "th": "แจกจ่ายแล้ว",
       "vi": "Đã phát tiền thưởng",
       "zh-cn": "已派发",
@@ -187,7 +187,7 @@
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.6",
       "en": "season",
-      "hi": "season",
+      "hi": "मौसम",
       "th": "ฤดูกาล",
       "vi": "Quý",
       "zh-cn": "季",
@@ -197,7 +197,7 @@
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.Quarter",
       "en": "season",
-      "hi": "season",
+      "hi": "मौसम",
       "th": "ฤดูกาล",
       "vi": "Quý",
       "zh-cn": "季",
@@ -219,7 +219,7 @@
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.5",
       "en": "month",
-      "hi": "month",
+      "hi": "महीना",
       "th": "เดือน",
       "vi": "Tháng",
       "zh-cn": "月",
@@ -229,7 +229,7 @@
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.Month",
       "en": "month",
-      "hi": "month",
+      "hi": "महीना",
       "th": "เดือน",
       "vi": "Tháng",
       "zh-cn": "月",
@@ -251,7 +251,7 @@
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.4",
       "en": "half a month",
-      "hi": "half a month",
+      "hi": "आधा महीना",
       "th": "ครึ่งเดือน",
       "vi": "Nửa tháng",
       "zh-cn": "半月",
@@ -261,7 +261,7 @@
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.HalfMonth",
       "en": "half a month",
-      "hi": "half a month",
+      "hi": "आधा महीना",
       "th": "ครึ่งเดือน",
       "vi": "Nửa tháng",
       "zh-cn": "半月",
@@ -283,7 +283,7 @@
     {
       "key": "frontstage.agent.TeamValidBetAmount",
       "en": "Valid betting",
-      "hi": "Valid betting",
+      "hi": "मान्य बेटिंग",
       "th": "การเดิมพันที่ถูกต้อง",
       "vi": "Đặt cược có hiệu lực",
       "zh-cn": "有效投注",
@@ -293,7 +293,7 @@
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.1",
       "en": "Valid betting",
-      "hi": "Valid betting",
+      "hi": "मान्य बेटिंग",
       "th": "การเดิมพันที่ถูกต้อง",
       "vi": "Đặt cược có hiệu lực",
       "zh-cn": "有效投注",
@@ -303,7 +303,7 @@
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.BetAviliable",
       "en": "Valid betting",
-      "hi": "Valid betting",
+      "hi": "मान्य बेटिंग",
       "th": "การเดิมพันที่ถูกต้อง",
       "vi": "Đặt cược có hiệu lực",
       "zh-cn": "有效投注",
@@ -313,7 +313,7 @@
     {
       "key": "frontstage.user.betRecord.column.ValidAmount",
       "en": "Valid betting",
-      "hi": "Valid betting",
+      "hi": "मान्य बेटिंग",
       "th": "การเดิมพันที่ถูกต้อง",
       "vi": "Đặt cược có hiệu lực",
       "zh-cn": "有效投注",
@@ -335,7 +335,7 @@
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.2",
       "en": "Negative carry (balanced)",
-      "hi": "Negative carry (balanced)",
+      "hi": "नकारात्मक वहन  (संतुलित)",
       "th": "กำไรขาดทุน  (บัญชีมีความสมดุล)",
       "vi": "Lãi âm (tài khoản cân đối)",
       "zh-cn": "负盈利(平帐)",
@@ -345,7 +345,7 @@
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.WinLose",
       "en": "Negative carry (balanced)",
-      "hi": "Negative carry (balanced)",
+      "hi": "नकारात्मक वहन  (संतुलित)",
       "th": "กำไรขาดทุน  (บัญชีมีความสมดุล)",
       "vi": "Lãi âm (tài khoản cân đối)",
       "zh-cn": "负盈利(平帐)",
@@ -367,7 +367,7 @@
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.3",
       "en": "Negative carry (unbalanced)",
-      "hi": "Negative carry (unbalanced)",
+      "hi": "नकारात्मक वहन(असंतुलित)",
       "th": "กำไรขาดทุน  (บัญชีไม่สมดุล)",
       "vi": "Lãi âm (tài khoản không cân đối)",
       "zh-cn": "负盈利(不平帐)",
@@ -377,7 +377,7 @@
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.Lose",
       "en": "Negative carry (unbalanced)",
-      "hi": "Negative carry (unbalanced)",
+      "hi": "नकारात्मक वहन(असंतुलित)",
       "th": "กำไรขาดทุน  (บัญชีไม่สมดุล)",
       "vi": "Lãi âm (tài khoản không cân đối)",
       "zh-cn": "负盈利(不平帐)",
@@ -399,7 +399,7 @@
     {
       "key": "frontstage.agent.TeamDeposit",
       "en": "Recharge",
-      "hi": "Recharge",
+      "hi": "डिपॉज़िट",
       "th": "เติมเงิน",
       "vi": "Nạp tiền",
       "zh-cn": "充值",
@@ -409,7 +409,7 @@
     {
       "key": "frontstage.common.topup",
       "en": "Top up",
-      "hi": "Top up",
+      "hi": "डिपॉज़िट",
       "th": "เติมเงิน",
       "vi": "Nạp tiền",
       "zh-cn": "充值",
@@ -419,7 +419,7 @@
     {
       "key": "frontstage.menu.UserDeposit",
       "en": "Recharge",
-      "hi": "Recharge",
+      "hi": "डिपॉज़िट",
       "th": "เติมเงิน",
       "vi": "Nạp tiền",
       "zh-cn": "充值",
@@ -429,7 +429,7 @@
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.4",
       "en": "Recharge",
-      "hi": "Recharge",
+      "hi": "डिपॉज़िट",
       "th": "เติมเงิน",
       "vi": "Nạp tiền",
       "zh-cn": "充值",
@@ -439,7 +439,7 @@
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.Deposit",
       "en": "Recharge",
-      "hi": "Recharge",
+      "hi": "डिपॉज़िट",
       "th": "เติมเงิน",
       "vi": "Nạp tiền",
       "zh-cn": "充值",
@@ -461,10 +461,10 @@
     {
       "key": "frontstage.common.member",
       "en": "member",
-      "hi": "member",
+      "hi": "सदस्य",
       "th": "สมาชิก",
       "vi": "Hội viên",
-      "zh-cn": "头像",
+      "zh-cn": "会员",
       "zh-tw": "會員",
       "rowid": 1051
     }
@@ -547,7 +547,7 @@
     {
       "key": "frontstage.common.Login",
       "en": "LogIn",
-      "hi": "LogIn",
+      "hi": "लॉग-इन करें",
       "th": "เข้าสู่ระบบ",
       "vi": "Đăng nhập",
       "zh-cn": "登录",
@@ -601,7 +601,7 @@
     {
       "key": "frontstage.common.remark",
       "en": "Note",
-      "hi": "Note",
+      "hi": "टिप्पणियां",
       "th": "หมายเหตุ",
       "vi": "Ghi chú",
       "zh-cn": "备注",
@@ -623,7 +623,7 @@
     {
       "key": "frontstage.form.button.reset",
       "en": "Reset",
-      "hi": "Reset",
+      "hi": "रीसेट करें",
       "th": "รีเซ็ต",
       "vi": "Thiết lập lại",
       "zh-cn": "重置",
@@ -645,7 +645,7 @@
     {
       "key": "frontstage.form.button.submit",
       "en": "Submit",
-      "hi": "Submit",
+      "hi": "सबमिट करें ",
       "th": "ส่งออกไป",
       "vi": "Gửi đi",
       "zh-cn": "送出",
@@ -764,8 +764,8 @@
     },
     {
       "key": "frontstage.user.changeRecordType.WithdrawalReject",
-      "en": "Refuse to pay",
-      "hi": "Refuse to pay",
+      "en": "Reject Withdrawal",
+      "hi": "विथ्ड्रॉअल अस्वीकार करें",
       "th": "ปฏิเสธการจ่ายเงิน",
       "vi": "Từ chối rút tiền",
       "zh-cn": "拒绝出款",
@@ -787,7 +787,7 @@
     {
       "key": "frontstage.common.Logout",
       "en": "Logout",
-      "hi": "Logout",
+      "hi": "लॉग आउट करें",
       "th": "ออกจากระบบ",
       "vi": "Đăng xuất",
       "zh-cn": "登出",
@@ -862,8 +862,8 @@
     },
     {
       "key": "frontstage.user.securitySetting.Email.label",
-      "en": "mailbox",
-      "hi": "mailbox",
+      "en": "mail",
+      "hi": "मेल",
       "th": "อีเมล",
       "vi": "Hòm thư điện tử",
       "zh-cn": "邮箱",
@@ -884,8 +884,8 @@
     },
     {
       "key": "frontstage.user.securitySetting.Phone.label",
-      "en": "mobile phone number",
-      "hi": "mobile phone number",
+      "en": "phone number",
+      "hi": "फ़ोन नंबर",
       "th": "หมายเลขโทรศัพท์มือถือ",
       "vi": "Số điện thoại di động",
       "zh-cn": "手机号码",
@@ -907,7 +907,7 @@
     {
       "key": "frontstage.user.mainWallet",
       "en": "Central wallet",
-      "hi": "Central wallet",
+      "hi": "सेंट्रल वॉलेट",
       "th": "กระเป๋าเงินกลาง",
       "vi": "Túi tiền trung tâm",
       "zh-cn": "中心钱包",
@@ -929,7 +929,7 @@
     {
       "key": "frontstage.common.doEdit",
       "en": "modify",
-      "hi": "modify",
+      "hi": "संशोधित",
       "th": "แก้ไข",
       "vi": "Sửa đổi",
       "zh-cn": "修改",
@@ -951,7 +951,7 @@
     {
       "key": "frontstage.common.unlimit",
       "en": "Unlimited",
-      "hi": "Unlimited",
+      "hi": "असीमित",
       "th": "ไม่ จำกัด",
       "vi": "Không hạn chế",
       "zh-cn": "无限制",
@@ -961,7 +961,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.1",
       "en": "Unlimited",
-      "hi": "Unlimited",
+      "hi": "असीमित",
       "th": "ไม่ จำกัด",
       "vi": "Không hạn chế",
       "zh-cn": "无限制",
@@ -971,7 +971,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.Unlimited",
       "en": "Unlimited",
-      "hi": "Unlimited",
+      "hi": "असीमित",
       "th": "ไม่ จำกัด",
       "vi": "Không hạn chế",
       "zh-cn": "无限制",
@@ -1003,7 +1003,7 @@
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.4",
       "en": "refuse",
-      "hi": "refuse",
+      "hi": "इनकार करें ",
       "th": "ปฏิเสธ",
       "vi": "Từ chối",
       "zh-cn": "拒绝",
@@ -1013,7 +1013,7 @@
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.Reject",
       "en": "refuse",
-      "hi": "refuse",
+      "hi": "इनकार करें ",
       "th": "ปฏิเสธ",
       "vi": "Từ chối",
       "zh-cn": "拒绝",
@@ -1035,7 +1035,7 @@
     {
       "key": "frontstage.form.label.Bank",
       "en": "bank",
-      "hi": "bank",
+      "hi": "बैंक",
       "th": "นาคาร",
       "vi": "Ngân hàng",
       "zh-cn": "银行",
@@ -1057,7 +1057,7 @@
     {
       "key": "frontstage.rules.required",
       "en": "Please fill in this field.",
-      "hi": "Please fill in this field.",
+      "hi": "कृपया इस क्षेत्र में भरें।",
       "th": "กรุณากรอกข้อมูลในช่องนี้",
       "vi": "Xin vui lòng điền cột này",
       "zh-cn": "请填写此栏位",
@@ -1079,7 +1079,7 @@
     {
       "key": "frontstage.rules.includes",
       "en": "It's not included in the sequence.",
-      "hi": "It's not included in the sequence.",
+      "hi": "इस क्रम में यह शामिल नहीं है।",
       "th": "ไม่รวมอยู่ในรายการ",
       "vi": "Không bao gồm trong liệt kê",
       "zh-cn": "不包含在予列中",
@@ -1101,7 +1101,7 @@
     {
       "key": "frontstage.rules.reg",
       "en": "Please enter the correct format.",
-      "hi": "Please enter the correct format.",
+      "hi": "कृपया सही फ़ॉर्मेट दर्ज करें",
       "th": "โปรดใส่ในรูปแบบที่ถูกต้อง",
       "vi": "Xin vui lòng nhập định dạng chính xác",
       "zh-cn": "请输入正确格式",
@@ -1122,8 +1122,8 @@
     },
     {
       "key": "frontstage.rules.intOnly",
-      "en": "Only integral numbers are allowed.",
-      "hi": "Only integral numbers are allowed.",
+      "en": "Only integers are allowed",
+      "hi": "केवल पूर्णांकों की अनुमति है",
       "th": "อนุญาตให้ใส่เฉพาะจำนวนเต็ม",
       "vi": "Chỉ cho phép nhập số tròn",
       "zh-cn": "只允许输入整数",
@@ -1145,7 +1145,7 @@
     {
       "key": "frontstage.rules.numeral",
       "en": "Only numbers are allowed.",
-      "hi": "Only numbers are allowed.",
+      "hi": "केवल संख्या की अनुमति है",
       "th": "อนุญาตเฉพาะตัวเลข",
       "vi": "Chỉ cho phép nhập chữ số",
       "zh-cn": "只允许输入数字",
@@ -1167,7 +1167,7 @@
     {
       "key": "frontstage.user.promotionRecord.column.Amount",
       "en": "Amount",
-      "hi": "Amount",
+      "hi": "राशि",
       "th": "จำนวนเงิน",
       "vi": "Số tiền",
       "zh-cn": "金额",
@@ -1211,7 +1211,7 @@
     {
       "key": "frontstage.menu.Live",
       "en": "Live",
-      "hi": "Live",
+      "hi": "लाइव",
       "th": "ไลฟ์ สด",
       "vi": "Trực tuyến",
       "zh-cn": "真人视讯",
@@ -1221,7 +1221,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.1",
       "en": "Live",
-      "hi": "Live",
+      "hi": "लाइव",
       "th": "ไลฟ์ สด",
       "vi": "Trực tuyến",
       "zh-cn": "真人视讯",
@@ -1231,7 +1231,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.Live",
       "en": "Live",
-      "hi": "Live",
+      "hi": "लाइव",
       "th": "ไลฟ์ สด",
       "vi": "Trực tuyến",
       "zh-cn": "真人视讯",
@@ -1253,7 +1253,7 @@
     {
       "key": "frontstage.menu.Slots",
       "en": "Slots",
-      "hi": "Slots",
+      "hi": "स्लॉट",
       "th": "เกมอิเล็กทรอนิกส์",
       "vi": "Trò chơi cá độ",
       "zh-cn": "电子游艺",
@@ -1263,7 +1263,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.2",
       "en": "Slot",
-      "hi": "Slot",
+      "hi": "स्लॉट",
       "th": "เกมอิเล็กทรอนิกส์",
       "vi": "Trò chơi cá độ",
       "zh-cn": "电子游艺",
@@ -1273,7 +1273,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.Slot",
       "en": "Slot",
-      "hi": "Slot",
+      "hi": "स्लॉट",
       "th": "เกมอิเล็กทรอนิกส์",
       "vi": "Trò chơi cá độ",
       "zh-cn": "电子游艺",
@@ -1295,7 +1295,7 @@
     {
       "key": "frontstage.menu.Lottery",
       "en": "Lottery",
-      "hi": "Lottery",
+      "hi": "लॉटरी",
       "th": "เกมลอตเตอรี",
       "vi": "Trò chơi xổ số",
       "zh-cn": "彩票游戏",
@@ -1305,7 +1305,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.3",
       "en": "Lottery",
-      "hi": "Lottery",
+      "hi": "लॉटरी",
       "th": "เกมลอตเตอรี",
       "vi": "Trò chơi xổ số",
       "zh-cn": "彩票游戏",
@@ -1315,7 +1315,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.Lottery",
       "en": "Lottery",
-      "hi": "Lottery",
+      "hi": "लॉटरी",
       "th": "เกมลอตเตอรี",
       "vi": "Trò chơi xổ số",
       "zh-cn": "彩票游戏",
@@ -1337,7 +1337,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.4",
       "en": "Sport",
-      "hi": "Sport",
+      "hi": "स्पोर्ट",
       "th": "เกมกีฬา",
       "vi": "Trò chơi thể thao",
       "zh-cn": "体育游戏",
@@ -1347,7 +1347,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.Sport",
       "en": "Sport",
-      "hi": "Sport",
+      "hi": "स्पोर्ट",
       "th": "เกมกีฬา",
       "vi": "Trò chơi thể thao",
       "zh-cn": "体育游戏",
@@ -1379,7 +1379,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.5",
       "en": "Gaming",
-      "hi": "Gaming",
+      "hi": "ई स्पोर्ट",
       "th": "เกมอีสปอร์ต",
       "vi": "Trò chơi thể thao điện tử",
       "zh-cn": "电竞游戏",
@@ -1389,7 +1389,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.Gaming",
       "en": "Gaming",
-      "hi": "Gaming",
+      "hi": "ई स्पोर्ट",
       "th": "เกมอีสปอร์ต",
       "vi": "Trò chơi thể thao điện tử",
       "zh-cn": "电竞游戏",
@@ -1399,7 +1399,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.ESport",
       "en": "ESport",
-      "hi": "ESport",
+      "hi": "ई स्पोर्ट",
       "th": "เกมอีสปอร์ต",
       "vi": "Trò chơi thể thao điện tử",
       "zh-cn": "电竞游戏",
@@ -1421,7 +1421,7 @@
     {
       "key": "frontstage.menu.Poker",
       "en": "Poker",
-      "hi": "Poker",
+      "hi": "शतरंज",
       "th": "เกมกระดาน",
       "vi": "Trò chơi đánh cờ",
       "zh-cn": "棋牌游戏",
@@ -1431,7 +1431,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.6",
       "en": "Poker",
-      "hi": "Poker",
+      "hi": "शतरंज",
       "th": "เกมกระดาน",
       "vi": "Trò chơi đánh cờ",
       "zh-cn": "棋牌游戏",
@@ -1441,7 +1441,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.Chess",
       "en": "Poker",
-      "hi": "Poker",
+      "hi": "शतरंज",
       "th": "เกมกระดาน",
       "vi": "Trò chơi đánh cờ",
       "zh-cn": "棋牌游戏",
@@ -1451,7 +1451,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.Poker",
       "en": "Poker",
-      "hi": "Poker",
+      "hi": "शतरंज",
       "th": "เกมกระดาน",
       "vi": "Trò chơi đánh cờ",
       "zh-cn": "棋牌游戏",
@@ -1472,8 +1472,8 @@
     },
     {
       "key": "frontstage.menu.Fishing",
-      "en": "Fishing game",
-      "hi": "Fishing game",
+      "en": "Fishing",
+      "hi": "मछली पकड़ना",
       "th": "เกมตกปลา",
       "vi": "Trò chơi bắt cá",
       "zh-cn": "捕鱼游戏",
@@ -1483,7 +1483,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.7",
       "en": "Fishing",
-      "hi": "Fishing",
+      "hi": "मछली पकड़ना",
       "th": "เกมตกปลา",
       "vi": "Trò chơi bắt cá",
       "zh-cn": "捕鱼游戏",
@@ -1493,7 +1493,7 @@
     {
       "key": "frontstage.state.GameCategoryEnum.Fishing",
       "en": "Fishing",
-      "hi": "Fishing",
+      "hi": "मछली पकड़ना",
       "th": "เกมตกปลา",
       "vi": "Trò chơi bắt cá",
       "zh-cn": "捕鱼游戏",
@@ -1524,8 +1524,8 @@
     },
     {
       "key": "frontstage.user.changeRecordType.Withdrawal",
-      "en": "Dispensing",
-      "hi": "Dispensing",
+      "en": "Withdrawal",
+      "hi": "विथ्ड्रॉअल",
       "th": "ถอนเงิน",
       "vi": "Rút tiền",
       "zh-cn": "出款",
@@ -1547,7 +1547,7 @@
     {
       "key": "frontstage.user.changeRecordType.Other",
       "en": "other",
-      "hi": "other",
+      "hi": "अन्य",
       "th": "อื่น ๆ",
       "vi": "Khác",
       "zh-cn": "其他",
@@ -1569,7 +1569,7 @@
     {
       "key": "frontstage.user.changeRecordType.Bet",
       "en": "Bet",
-      "hi": "Bet",
+      "hi": "बेट",
       "th": "วางเดิมพัน",
       "vi": "Đặt cược",
       "zh-cn": "下注",
@@ -1591,7 +1591,7 @@
     {
       "key": "frontstage.user.changeRecordType.BetFinished",
       "en": "BetFinished",
-      "hi": "BetFinished",
+      "hi": "इनाम की राशि वितरित करें",
       "th": "แจกเงินรางวัล",
       "vi": "Phát tiền thưởng",
       "zh-cn": "派彩",
@@ -1612,8 +1612,8 @@
     },
     {
       "key": "frontstage.user.changeRecordType.BetDeleted",
-      "en": "cancellation",
-      "hi": "cancellation",
+      "en": "Cancel",
+      "hi": "लॉग आउट",
       "th": "ยกเลิก",
       "vi": "Xóa sổ",
       "zh-cn": "注销",
@@ -1640,7 +1640,7 @@
       "vi": "",
       "zh-cn": "重置成功",
       "zh-tw": "重置成功",
-      "rowid": 1548
+      "rowid": 1549
     }
   ],
   [
@@ -1657,7 +1657,7 @@
     {
       "key": "frontstage.agent.TeamActiveMemberCount",
       "en": "Active number",
-      "hi": "Active number",
+      "hi": "सक्रिय संख्या",
       "th": "จำนวนคนที่ใช้งาน",
       "vi": "Số người hoạt động",
       "zh-cn": "活跃人数",
@@ -1667,7 +1667,7 @@
     {
       "key": "frontstage.agent.ActiveMemberCount",
       "en": "Active number",
-      "hi": "Active number",
+      "hi": "सक्रिय संख्या",
       "th": "จำนวนคนที่ใช้งาน",
       "vi": "Số người hoạt động",
       "zh-cn": "活跃人数",
@@ -1907,7 +1907,7 @@
     {
       "key": "frontstage.messages.editSuccessMsg",
       "en": "Successfully modified",
-      "hi": "Successfully modified",
+      "hi": "सफलता संपादित करें",
       "th": "แก้ไขเรียบร้อยแล้ว",
       "vi": "Sửa đổi thành công",
       "zh-cn": "修改成功",
@@ -2039,7 +2039,7 @@
     {
       "key": "frontstage.state.DepositStateTypeEnum.0",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2049,7 +2049,7 @@
     {
       "key": "frontstage.state.DepositStateTypeEnum.Undefined",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2059,7 +2059,7 @@
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.0",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2069,7 +2069,7 @@
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.Undefined",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2079,7 +2079,7 @@
     {
       "key": "frontstage.state.WalletTransferStateTypeEnum.0",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2089,7 +2089,7 @@
     {
       "key": "frontstage.state.WalletTransferStateTypeEnum.Undefined",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2099,7 +2099,7 @@
     {
       "key": "frontstage.state.TppChannelEnum.0",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2109,7 +2109,7 @@
     {
       "key": "frontstage.state.TppChannelEnum.Undefined",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2119,7 +2119,7 @@
     {
       "key": "frontstage.state.BetOrderState.0",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2129,7 +2129,7 @@
     {
       "key": "frontstage.state.BetOrderState.Undefined",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2139,7 +2139,7 @@
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.0",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2149,7 +2149,7 @@
     {
       "key": "frontstage.state.Agent.BenefitSharingSourceEnum.Undefined",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2159,7 +2159,7 @@
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.0",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2169,7 +2169,7 @@
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.Undefined",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2179,7 +2179,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordStateEnum.0",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2189,7 +2189,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordStateEnum.Undefined",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2199,7 +2199,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.0",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2209,7 +2209,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.Undefined",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2219,7 +2219,7 @@
     {
       "key": "frontstage.user.changeRecordType.Undefined",
       "en": "Undefined",
-      "hi": "Undefined",
+      "hi": "अपरिभाषित",
       "th": "ไม่ได้กำหนด",
       "vi": "Không xác định",
       "zh-cn": "未定义",
@@ -2241,7 +2241,7 @@
     {
       "key": "frontstage.user.promotionRecord.column.CreatedTime",
       "en": "Arrival time",
-      "hi": "Arrival time",
+      "hi": "आगमन समय",
       "th": "เวลาที่เข้าบัญชี",
       "vi": "Thời gian vào tài khoản",
       "zh-cn": "到帐时间",
@@ -2263,7 +2263,7 @@
     {
       "key": "frontstage.form.label.depositAmount",
       "en": "Recharge amount",
-      "hi": "Recharge amount",
+      "hi": "क्रेडिट जोड़ने की राशि",
       "th": "จำนวนเงินที่เติม",
       "vi": "Số tiền nạp",
       "zh-cn": "充值金额",
@@ -2273,7 +2273,7 @@
     {
       "key": "frontstage.user.depositRecord.column.Amount",
       "en": "Amount of adding credit",
-      "hi": "Amount of adding credit",
+      "hi": "क्रेडिट जोड़ने की राशि",
       "th": "จำนวนเงินที่เติม",
       "vi": "Số tiền nạp",
       "zh-cn": "充值金额",
@@ -2349,7 +2349,7 @@
     {
       "key": "frontstage.api.code.300",
       "en": "verification code error",
-      "hi": "verification code error",
+      "hi": "सत्यापन कोड गलती ",
       "th": "เกิดข้อผิดพลาดในการยืนยันรหัส",
       "vi": "Mã nghiệm chứng bị lỗi",
       "zh-cn": "验证码错误",
@@ -2359,7 +2359,7 @@
     {
       "key": "frontstage.api.code.VerificationCodeError",
       "en": "verification code error",
-      "hi": "verification code error",
+      "hi": "सत्यापन कोड गलती ",
       "th": "เกิดข้อผิดพลาดในการยืนยันรหัส",
       "vi": "Mã nghiệm chứng bị lỗi",
       "zh-cn": "验证码错误",
@@ -2371,11 +2371,11 @@
     {
       "key": "backstage.errorCode.Maintenance",
       "en": "Maintenance",
-      "zh-cn": "维护中",
-      "zh-tw": "維護中",
       "hi": "",
       "th": "",
       "vi": "",
+      "zh-cn": "维护中",
+      "zh-tw": "維護中",
       "rowid": 378
     },
     {
@@ -2403,7 +2403,7 @@
     {
       "key": "frontstage.common.province",
       "en": "province",
-      "hi": "province",
+      "hi": "प्रांत",
       "th": "จังหวัด",
       "vi": "Tỉnh",
       "zh-cn": "省",
@@ -2447,7 +2447,7 @@
     {
       "key": "backstage.system.transferSubordinate",
       "en": "Transfer to the subordinate",
-      "hi": "",
+      "hi": "अधीनस्थ को ट्रांसफर ",
       "th": "อนไปยังระดับล่าง",
       "vi": "Cấp dưới chuyển khoản",
       "zh-cn": "转帐下级",
@@ -2491,7 +2491,7 @@
     {
       "key": "frontstage.common.HomePage",
       "en": "Home",
-      "hi": "Home",
+      "hi": "होम",
       "th": "หน้าหลัก",
       "vi": "Trang chủ",
       "zh-cn": "首页",
@@ -2621,7 +2621,7 @@
     {
       "key": "frontstage.menu.UserBetRecord",
       "en": "betting record",
-      "hi": "betting record",
+      "hi": "बेटिंग का रिकॉर्ड",
       "th": "บันทึกการเดิมพัน",
       "vi": "Ghi chép đặt cược",
       "zh-cn": "投注记录",
@@ -2797,7 +2797,7 @@
     {
       "key": "frontstage.menu.Promotions",
       "en": "Promotions",
-      "hi": "Promotions",
+      "hi": "प्रचार",
       "th": "กิจกรรมโปรโมชั่น",
       "vi": "Hoạt động ưu đãi",
       "zh-cn": "优惠活动",
@@ -2819,7 +2819,7 @@
     {
       "key": "frontstage.user.changeRecordType.ArtificialDeposit",
       "en": "Manual deposit",
-      "hi": "Manual deposit",
+      "hi": "फंड डिपॉज़िट",
       "th": "การฝากเงินด้วยตนเอง",
       "vi": "Gửi tiền thủ công",
       "zh-cn": "人工存入",
@@ -2841,7 +2841,7 @@
     {
       "key": "frontstage.user.changeRecordType.ArtificialWithdrawal",
       "en": "Put forward manually",
-      "hi": "Put forward manually",
+      "hi": "फंड विथ्ड्रॉअल",
       "th": "ถอนเงินด้วยตนเอง",
       "vi": "Rút tiền thủ công",
       "zh-cn": "人工提出",
@@ -2863,7 +2863,7 @@
     {
       "key": "frontstage.user.changeRecordType.BatchDeposit",
       "en": "Batch deposit",
-      "hi": "Batch deposit",
+      "hi": "फंड बैच डिपॉज़िट",
       "th": "เงินฝากงวดนี้",
       "vi": "Gửi tiền từng đợt",
       "zh-cn": "批次存入",
@@ -2916,10 +2916,10 @@
     },
     {
       "key": "backstage.menu.ProviderOperateRecord",
-      "en": "Operate record",
-      "hi": "",
-      "th": "",
-      "vi": "",
+      "en": "Operation record",
+      "hi": "संचालन रिकॉर्ड",
+      "th": "บันทึกการดำเนินงาน",
+      "vi": "Ghi chép thao tác",
       "zh-cn": "操作记录",
       "zh-tw": "操作記錄",
       "rowid": 609
@@ -2939,7 +2939,7 @@
     {
       "key": "frontstage.form.button.inquire",
       "en": "Inquire",
-      "hi": "Inquire",
+      "hi": "पूछताछ",
       "th": "สอบถาม",
       "vi": "Tra cứu",
       "zh-cn": "查询",
@@ -2961,7 +2961,7 @@
     {
       "key": "frontstage.rules.account",
       "en": "6-11 numbers + English composition (no case)",
-      "hi": "6-11 numbers + English composition (no case)",
+      "hi": "6-11 नंबर + अंग्रेजी रचना (कोई मामला नहीं)",
       "th": "6-11 ตัว  ตัวเลข + คำภาษาอังกฤษ(จะเป็นตัวพิมพ์ใหญ่หรือตัวพิมพ์เล็กก็ได้)",
       "vi": "Kết hợp 6-11 chữ số + chữ tiếng Anh (không viết hoa)",
       "zh-cn": "6-11个数字+英文组成 (无大小写)",
@@ -3171,7 +3171,7 @@
     {
       "key": "frontstage.state.DepositStateTypeEnum.2",
       "en": "Add credit successfully.",
-      "hi": "Add credit successfully.",
+      "hi": "सफल",
       "th": "เติมเงินเรียบร้อย",
       "vi": "Nạp tiền thành công",
       "zh-cn": "充值成功",
@@ -3181,7 +3181,7 @@
     {
       "key": "frontstage.state.DepositStateTypeEnum.Success",
       "en": "Add credit successfully.",
-      "hi": "Add credit successfully.",
+      "hi": "सफल",
       "th": "เติมเงินเรียบร้อย",
       "vi": "Nạp tiền thành công",
       "zh-cn": "充值成功",
@@ -3247,7 +3247,7 @@
     {
       "key": "frontstage.state.BetOrderState.1",
       "en": "No payout",
-      "hi": "No payout",
+      "hi": "समाप्त नहीं हुआ",
       "th": "ยังไม่ได้ปันผล",
       "vi": "Chưa phát tiền thưởng",
       "zh-cn": "未派彩",
@@ -3257,7 +3257,7 @@
     {
       "key": "frontstage.state.BetOrderState.NotFinished",
       "en": "No payout",
-      "hi": "No payout",
+      "hi": "समाप्त नहीं हुआ",
       "th": "ยังไม่ได้ปันผล",
       "vi": "Chưa phát tiền thưởng",
       "zh-cn": "未派彩",
@@ -3279,7 +3279,7 @@
     {
       "key": "frontstage.state.BetOrderState.2",
       "en": "Paid",
-      "hi": "Paid",
+      "hi": "समाप्त",
       "th": "จ่ายเงินปันผลแล้ว",
       "vi": "Đã phát tiền thưởng",
       "zh-cn": "已派彩",
@@ -3289,7 +3289,7 @@
     {
       "key": "frontstage.state.BetOrderState.Finished",
       "en": "Paid",
-      "hi": "Paid",
+      "hi": "समाप्त",
       "th": "จ่ายเงินปันผลแล้ว",
       "vi": "Đã phát tiền thưởng",
       "zh-cn": "已派彩",
@@ -3311,7 +3311,7 @@
     {
       "key": "frontstage.state.BetOrderState.3",
       "en": "Reverse order",
-      "hi": "Reverse order",
+      "hi": "उलट किया गया",
       "th": "ลำดับย้อนกลับ",
       "vi": "Đơn ngược hướng",
       "zh-cn": "反向单",
@@ -3321,7 +3321,7 @@
     {
       "key": "frontstage.state.BetOrderState.Reversed",
       "en": "Reverse order",
-      "hi": "Reverse order",
+      "hi": "उलट किया गया",
       "th": "ลำดับย้อนกลับ",
       "vi": "Đơn ngược hướng",
       "zh-cn": "反向单",
@@ -3343,7 +3343,7 @@
     {
       "key": "frontstage.state.BetOrderState.4",
       "en": "already edited",
-      "hi": "already edited",
+      "hi": "संशोधित",
       "th": "แก้ไขแล้ว",
       "vi": "Đã sửa đổi",
       "zh-cn": "已修改",
@@ -3353,7 +3353,7 @@
     {
       "key": "frontstage.state.BetOrderState.Modified",
       "en": "already edited",
-      "hi": "already edited",
+      "hi": "संशोधित",
       "th": "แก้ไขแล้ว",
       "vi": "Đã sửa đổi",
       "zh-cn": "已修改",
@@ -3375,7 +3375,7 @@
     {
       "key": "frontstage.state.BetOrderState.5",
       "en": "Cancelled",
-      "hi": "Cancelled",
+      "hi": "रद्द किया गया",
       "th": "ยกเลิกแล้ว",
       "vi": "Đã hủy bỏ",
       "zh-cn": "已取消",
@@ -3385,7 +3385,7 @@
     {
       "key": "frontstage.state.BetOrderState.Canceled",
       "en": "Cancelled",
-      "hi": "Cancelled",
+      "hi": "रद्द किया गया",
       "th": "ยกเลิกแล้ว",
       "vi": "Đã hủy bỏ",
       "zh-cn": "已取消",
@@ -3407,7 +3407,7 @@
     {
       "key": "frontstage.agent.SettlementCycle",
       "en": "Billing cycle",
-      "hi": "Billing cycle",
+      "hi": "सेटलमेंट अंतराल",
       "th": "รอบบิล",
       "vi": "Chu kỳ kết toán",
       "zh-cn": "结算周期",
@@ -3429,7 +3429,7 @@
     {
       "key": "frontstage.agent.TeamPayoutAmount",
       "en": "Payout amount",
-      "hi": "Payout amount",
+      "hi": "लॉटरी भुगतान राशि",
       "th": "จำนวนเงินปันผล",
       "vi": "Số tiền thưởng được phát",
       "zh-cn": "派彩金额",
@@ -3439,7 +3439,7 @@
     {
       "key": "frontstage.user.betRecord.column.PayoutAmount",
       "en": "Payout amount",
-      "hi": "Payout amount",
+      "hi": "लॉटरी भुगतान राशि",
       "th": "จำนวนเงินปันผล",
       "vi": "Số tiền thưởng được phát",
       "zh-cn": "派彩金额",
@@ -3461,12 +3461,12 @@
     {
       "key": "frontstage.user.gamePlatform",
       "en": "gaming platform",
-      "hi": "gaming platform",
+      "hi": "गेम प्लेटफ़ॉर्म",
       "th": "แพลตฟอร์มเกม",
       "vi": "Diễn đàn trò chơi",
       "zh-cn": "游戏平台",
       "zh-tw": "遊戲平台",
-      "rowid": 1544
+      "rowid": 1545
     }
   ],
   [
@@ -3483,7 +3483,7 @@
     {
       "key": "frontstage.common.state",
       "en": "status",
-      "hi": "status",
+      "hi": "स्थिति",
       "th": "สถานะ",
       "vi": "Trạng thái",
       "zh-cn": "状态",
@@ -3505,7 +3505,7 @@
     {
       "key": "frontstage.user.betRecord.column.BetAmount",
       "en": "Bet amount",
-      "hi": "Bet amount",
+      "hi": "बेट राशि",
       "th": "จำนวนเงินเดิมพัน",
       "vi": "Số tiền đặt cược",
       "zh-cn": "投注金额",
@@ -3515,7 +3515,7 @@
     {
       "key": "frontstage.user.DailyRewordRecord.column.Amount",
       "en": "Bet amount",
-      "hi": "Bet amount",
+      "hi": "बेट राशि",
       "th": "จำนวนเงินเดิมพัน",
       "vi": "Số tiền đặt cược",
       "zh-cn": "投注金额",
@@ -3537,7 +3537,7 @@
     {
       "key": "frontstage.common.promotions.permanentEvent",
       "en": "permanent activities",
-      "hi": "permanent activities",
+      "hi": "स्थायी गतिविधियाँ",
       "th": "กิจกรรมประจำ",
       "vi": "Hoạt động thường xuyên",
       "zh-cn": "常驻活动",
@@ -3559,7 +3559,7 @@
     {
       "key": "frontstage.common.selectAll",
       "en": "select all",
-      "hi": "select all",
+      "hi": "सभी का चयन करें",
       "th": "เลือกทั้งหมด",
       "vi": "Chọn toàn bộ",
       "zh-cn": "全选",
@@ -3581,7 +3581,7 @@
     {
       "key": "frontstage.agent.column.RegisterCount",
       "en": "Registered number",
-      "hi": "Registered number",
+      "hi": "पंजीकृत",
       "th": "จำนวนคนที่ลงทะเบียน",
       "vi": "Số người đăng ký",
       "zh-cn": "注册人数",
@@ -3591,7 +3591,7 @@
     {
       "key": "frontstage.agent.dashboard.TeamRegistMemberCount",
       "en": "Registered number",
-      "hi": "Registered number",
+      "hi": "पंजीकृत",
       "th": "จำนวนคนที่ลงทะเบียน",
       "vi": "Số người đăng ký",
       "zh-cn": "注册人数",
@@ -3613,7 +3613,7 @@
     {
       "key": "frontstage.form.button.refresh",
       "en": "Refresh",
-      "hi": "Refresh",
+      "hi": "रिफ्रेश करना",
       "th": "รีเฟรช",
       "vi": "Làm mới",
       "zh-cn": "刷新",
@@ -3635,7 +3635,7 @@
     {
       "key": "frontstage.user.transfer.msg.successfulTransfer",
       "en": "Successful transfer",
-      "hi": "Successful transfer",
+      "hi": "सफलता",
       "th": "โอนสำเร็จ",
       "vi": "Chuyển khoản thành công",
       "zh-cn": "转帐成功",
@@ -3657,7 +3657,7 @@
     {
       "key": "frontstage.state.WalletTransferStateTypeEnum.3",
       "en": "Transfer failed",
-      "hi": "Transfer failed",
+      "hi": "विफल",
       "th": "การโอนล้มเหลว",
       "vi": "Chuyển khoản không thành công",
       "zh-cn": "转帐失败",
@@ -3667,7 +3667,7 @@
     {
       "key": "frontstage.state.WalletTransferStateTypeEnum.Canceled",
       "en": "Transfer failed",
-      "hi": "Transfer failed",
+      "hi": "विफल",
       "th": "การโอนล้มเหลว",
       "vi": "Chuyển khoản không thành công",
       "zh-cn": "转帐失败",
@@ -3677,7 +3677,7 @@
     {
       "key": "frontstage.user.transfer.msg.transferFailed",
       "en": "Transfer failed",
-      "hi": "Transfer failed",
+      "hi": "विफल",
       "th": "การโอนล้มเหลว",
       "vi": "Chuyển khoản không thành công",
       "zh-cn": "转帐失败",
@@ -3699,7 +3699,7 @@
     {
       "key": "frontstage.user.withdrawalRecord.column.TransNumber",
       "en": "the bank withdrawal slip number",
-      "hi": "the bank withdrawal slip number",
+      "hi": "बैंक विथ्ड्रॉअल स्लिप नंबर",
       "th": "หมายเลขการถอน",
       "vi": "Mã số đơn rút tiền",
       "zh-cn": "提款单号",
@@ -3721,7 +3721,7 @@
     {
       "key": "frontstage.user.withdrawalRecord.column.Amount",
       "en": "Withdrawal amount",
-      "hi": "Withdrawal amount",
+      "hi": "विथ्ड्रॉअल राशि",
       "th": "จำนวนเงินที่ถอน",
       "vi": "Số tiền rút",
       "zh-cn": "提款金额",
@@ -3764,8 +3764,8 @@
     },
     {
       "key": "frontstage.common.HandlingFee",
-      "en": "Handling fee",
-      "hi": "Handling fee",
+      "en": "Fee",
+      "hi": "फीस",
       "th": "ค่าธรรมเนียม",
       "vi": "Phí thực hiện",
       "zh-cn": "手续费",
@@ -3775,7 +3775,7 @@
     {
       "key": "frontstage.user.depositRecord.column.Fee",
       "en": "Fee",
-      "hi": "Fee",
+      "hi": "फीस",
       "th": "ค่าธรรมเนียม",
       "vi": "Phí thực hiện",
       "zh-cn": "手续费",
@@ -3785,7 +3785,7 @@
     {
       "key": "frontstage.user.withdrawalRecord.column.Fee",
       "en": "Fee",
-      "hi": "Fee",
+      "hi": "फीस",
       "th": "ค่าธรรมเนียม",
       "vi": "Phí thực hiện",
       "zh-cn": "手续费",
@@ -3797,7 +3797,7 @@
     {
       "key": "frontstage.agent.dashboard.TeamValidBetAmount",
       "en": "Team betting",
-      "hi": "Team betting",
+      "hi": "टीम बेटिंग",
       "th": "การเดิมพันของทีม",
       "vi": "Đặt cược nhóm",
       "zh-cn": "团队投注",
@@ -3807,7 +3807,7 @@
     {
       "key": "frontstage.menu.AgentBetRecord",
       "en": "Team betting",
-      "hi": "Team betting",
+      "hi": "टीम बेटिंग",
       "th": "การเดิมพันของทีม",
       "vi": "Đặt cược nhóm",
       "zh-cn": "团队投注",
@@ -3819,7 +3819,7 @@
     {
       "key": "frontstage.agent.dashboard.TeamWithdrawalAmount",
       "en": "Team withdrawal",
-      "hi": "Team withdrawal",
+      "hi": "टीम की निकासी",
       "th": "การถอนของทีม",
       "vi": "Rút tiền nhóm",
       "zh-cn": "团队提款",
@@ -3829,7 +3829,7 @@
     {
       "key": "frontstage.menu.AgentTxWithdrawalRecord",
       "en": "Team withdrawal",
-      "hi": "Team withdrawal",
+      "hi": "टीम की निकासी",
       "th": "การถอนของทีม",
       "vi": "Rút tiền nhóm",
       "zh-cn": "团队提款",
@@ -3841,7 +3841,7 @@
     {
       "key": "frontstage.agent.TeamStrategyRebateAmount",
       "en": "Rebate amount",
-      "hi": "Rebate amount",
+      "hi": "रिबेट राशि",
       "th": "ยอดส่วนลด",
       "vi": "Số tiền thưởng đặt cược",
       "zh-cn": "返水金额",
@@ -3851,7 +3851,7 @@
     {
       "key": "frontstage.user.DailyRewordRecord.column.RewardAmount",
       "en": "Rebate amount",
-      "hi": "Rebate amount",
+      "hi": "रिबेट राशि",
       "th": "ยอดส่วนลด",
       "vi": "Số tiền thưởng đặt cược",
       "zh-cn": "返水金额",
@@ -3863,7 +3863,7 @@
     {
       "key": "frontstage.api.code.100",
       "en": "This account already exists",
-      "hi": "This account already exists",
+      "hi": "यह अकाउंट पहले से मौजूद है",
       "th": "มีบัญชีสมาชิกอยู่",
       "vi": "Số tài khoản hội viên tồn tại",
       "zh-cn": "会员帐号存在",
@@ -3873,7 +3873,7 @@
     {
       "key": "frontstage.api.code.MemberAccountExist",
       "en": "This account already exists",
-      "hi": "This account already exists",
+      "hi": "यह अकाउंट पहले से मौजूद है",
       "th": "มีบัญชีสมาชิกอยู่",
       "vi": "Số tài khoản hội viên tồn tại",
       "zh-cn": "会员帐号存在",
@@ -3885,7 +3885,7 @@
     {
       "key": "frontstage.api.code.101",
       "en": "This account doesn't exist",
-      "hi": "This account doesn't exist",
+      "hi": "यह अकाउंट मौजूद नहीं है",
       "th": "ไม่มีบัญชีสมาชิก",
       "vi": "Số tài khoản hội viên không tồn tại",
       "zh-cn": "会员帐号不存在",
@@ -3895,7 +3895,7 @@
     {
       "key": "frontstage.api.code.MemberAccountNotExist",
       "en": "This account doesn't exist",
-      "hi": "This account doesn't exist",
+      "hi": "यह अकाउंट मौजूद नहीं है",
       "th": "ไม่มีบัญชีสมาชิก",
       "vi": "Số tài khoản hội viên không tồn tại",
       "zh-cn": "会员帐号不存在",
@@ -3907,7 +3907,7 @@
     {
       "key": "frontstage.api.code.102",
       "en": "This account is already logged in",
-      "hi": "This account is already logged in",
+      "hi": "यह अकाउंट पहले ही लॉग्ड इन है",
       "th": "บัญชีสมาชิกเข้าสู่ระบบซ้ำ",
       "vi": "Số tài khoản hội viên đã đăng nhập",
       "zh-cn": "会员帐号重复登入",
@@ -3917,7 +3917,7 @@
     {
       "key": "frontstage.api.code.MemberAccountLoginRepeatedly",
       "en": "This account is already logged in",
-      "hi": "This account is already logged in",
+      "hi": "यह अकाउंट पहले ही लॉग्ड इन है",
       "th": "บัญชีสมาชิกเข้าสู่ระบบซ้ำ",
       "vi": "Số tài khoản hội viên đã đăng nhập",
       "zh-cn": "会员帐号重复登入",
@@ -3929,7 +3929,7 @@
     {
       "key": "frontstage.api.code.103",
       "en": "This account has been deactivated",
-      "hi": "This account has been deactivated",
+      "hi": "इस अकाउंट को निष्क्रिय कर दिया गया है",
       "th": "บัญชีสมาชิกถูกระงับ / ปิดการใช้งาน",
       "vi": "Số tài khoản hội viên đóng băng / ngừng sử dụng",
       "zh-cn": "会员帐号冻结/停用",
@@ -3939,7 +3939,7 @@
     {
       "key": "frontstage.api.code.MemberAccountFreezeOrDisable",
       "en": "This account has been deactivated",
-      "hi": "This account has been deactivated",
+      "hi": "इस अकाउंट को निष्क्रिय कर दिया गया है",
       "th": "บัญชีสมาชิกถูกระงับ / ปิดการใช้งาน",
       "vi": "Số tài khoản hội viên đóng băng / ngừng sử dụng",
       "zh-cn": "会员帐号冻结/停用",
@@ -3951,7 +3951,7 @@
     {
       "key": "frontstage.api.code.104",
       "en": "Member login IP has been blocked / disabled",
-      "hi": "Member login IP has been blocked / disabled",
+      "hi": "सदस्य की लॉगिन आईपी को अवरुद्ध/अक्षम किया गया है",
       "th": "IP เข้าสู่ระบบสมาชิกถูกบล็อก / ปิดใช้งาน",
       "vi": "IP đăng nhập hội viên đã bị chặn / ngừng sử dụng",
       "zh-cn": "会员登入IP已被阻挡/停用",
@@ -3961,7 +3961,7 @@
     {
       "key": "frontstage.api.code.MemberLoginIpBlocked",
       "en": "Member login IP has been blocked / disabled",
-      "hi": "Member login IP has been blocked / disabled",
+      "hi": "सदस्य की लॉगिन आईपी को अवरुद्ध/अक्षम किया गया है",
       "th": "IP เข้าสู่ระบบสมาชิกถูกบล็อก / ปิดใช้งาน",
       "vi": "IP đăng nhập hội viên đã bị chặn / ngừng sử dụng",
       "zh-cn": "会员登入IP已被阻挡/停用",
@@ -3973,7 +3973,7 @@
     {
       "key": "frontstage.common.slots.totalGaming",
       "en": "All games",
-      "hi": "All games",
+      "hi": "सभी खेल",
       "th": "เกมส์ทั้งหมด",
       "vi": "Toàn bộ các trò chơi",
       "zh-cn": "全部游戏",
@@ -3983,7 +3983,7 @@
     {
       "key": "frontstage.common.allGame",
       "en": "All games",
-      "hi": "All games",
+      "hi": "सभी खेल",
       "th": "เกมส์ทั้งหมด",
       "vi": "Toàn bộ các trò chơi",
       "zh-cn": "全部游戏",
@@ -4017,7 +4017,7 @@
     {
       "key": "frontstage.common.Signup",
       "en": "Sign up",
-      "hi": "Sign up",
+      "hi": "साइन अप करें",
       "th": "ลงทะเบียน",
       "vi": "Đăng ký",
       "zh-cn": "注册",
@@ -4027,7 +4027,7 @@
     {
       "key": "frontstage.common.Signin",
       "en": "Sign up",
-      "hi": "Sign up",
+      "hi": "साइन अप करें",
       "th": "ลงทะเบียน",
       "vi": "Đăng ký",
       "zh-cn": "注册",
@@ -4039,7 +4039,7 @@
     {
       "key": "frontstage.common.fillInAmount",
       "en": "Fill in the amount",
-      "hi": "Fill in the amount",
+      "hi": "राशि लागू करें",
       "th": "ใส่จำนวนเงิน",
       "vi": "Số tiền điền đơn",
       "zh-cn": "填单金额",
@@ -4049,7 +4049,7 @@
     {
       "key": "frontstage.user.withdrawalRecord.column.WithdrawalAmount",
       "en": "Apply amount",
-      "hi": "Apply amount",
+      "hi": "राशि लागू करें",
       "th": "ใส่จำนวนเงิน",
       "vi": "Số tiền điền đơn",
       "zh-cn": "填单金额",
@@ -4061,7 +4061,7 @@
     {
       "key": "frontstage.common.ActualAmount",
       "en": "Actual amount",
-      "hi": "Actual amount",
+      "hi": "वास्तविक राशि",
       "th": "จำนวนเงินจริง",
       "vi": "Số tiền thực tế",
       "zh-cn": "实际金额",
@@ -4071,7 +4071,7 @@
     {
       "key": "frontstage.user.withdrawalRecord.column.Subtotal",
       "en": "Actual amount",
-      "hi": "Actual amount",
+      "hi": "वास्तविक राशि",
       "th": "จำนวนเงินจริง",
       "vi": "Số tiền thực tế",
       "zh-cn": "实际金额",
@@ -4081,7 +4081,7 @@
     {
       "key": "frontstage.user.withdrawalRecord.column.ActualWithdrawalAmount",
       "en": "Actual amount",
-      "hi": "Actual amount",
+      "hi": "वास्तविक राशि",
       "th": "จำนวนเงินจริง",
       "vi": "Số tiền thực tế",
       "zh-cn": "实际金额",
@@ -4093,7 +4093,7 @@
     {
       "key": "frontstage.common.SerialNumber",
       "en": "Single number",
-      "hi": "Single number",
+      "hi": "नहीं।",
       "th": "หมายเลขเดี่ยว",
       "vi": "Số đơn",
       "zh-cn": "单号",
@@ -4103,7 +4103,7 @@
     {
       "key": "frontstage.user.promotionRecord.column.TransNumber",
       "en": "Single number",
-      "hi": "Single number",
+      "hi": "नहीं।",
       "th": "หมายเลขเดี่ยว",
       "vi": "Số đơn",
       "zh-cn": "单号",
@@ -4113,7 +4113,7 @@
     {
       "key": "frontstage.user.changeRecord.column.TransNumber",
       "en": "No.",
-      "hi": "No.",
+      "hi": "नहीं।",
       "th": "หมายเลขเดี่ยว",
       "vi": "Số đơn",
       "zh-cn": "单号",
@@ -4135,7 +4135,7 @@
     {
       "key": "frontstage.form.placeholder.PlzSelectBank",
       "en": "Choose bank",
-      "hi": "Choose bank",
+      "hi": "बैंक का चयन करें",
       "th": "เลือกธนาคาร",
       "vi": "Chọn ngân hàng",
       "zh-cn": "选择银行",
@@ -4147,7 +4147,7 @@
     {
       "key": "frontstage.dialog.UserNickNameEditor.title",
       "en": "change nickname",
-      "hi": "change nickname",
+      "hi": "उपनाम बदलें",
       "th": "เปลี่ยนชื่อเล่น",
       "vi": "Sửa đổi bí danh",
       "zh-cn": "修改昵称",
@@ -4157,7 +4157,7 @@
     {
       "key": "frontstage.form.placeholder.nickname",
       "en": "change nickname",
-      "hi": "change nickname",
+      "hi": "उपनाम बदलें",
       "th": "เปลี่ยนชื่อเล่น",
       "vi": "Sửa đổi bí danh",
       "zh-cn": "修改昵称",
@@ -4169,7 +4169,7 @@
     {
       "key": "frontstage.form.label.transferAmount",
       "en": "Transfer amount",
-      "hi": "Transfer amount",
+      "hi": "ट्रांसफर राशि",
       "th": "จำนวนเงินที่โอน",
       "vi": "Số tiền chuyển khoản",
       "zh-cn": "转帐金额",
@@ -4179,7 +4179,7 @@
     {
       "key": "frontstage.user.transferRecord.column.Amount",
       "en": "Transfer amount",
-      "hi": "Transfer amount",
+      "hi": "ट्रांसफर राशि",
       "th": "จำนวนเงินที่โอน",
       "vi": "Số tiền chuyển khoản",
       "zh-cn": "转帐金额",
@@ -4189,7 +4189,7 @@
     {
       "key": "frontstage.user.transfer.transAmount",
       "en": "Transfer amount",
-      "hi": "Transfer amount",
+      "hi": "ट्रांसफर राशि",
       "th": "จำนวนเงินที่โอน",
       "vi": "Số tiền chuyển khoản",
       "zh-cn": "转帐金额",
@@ -4201,7 +4201,7 @@
     {
       "key": "frontstage.form.label.fundsPassword",
       "en": "Fund password",
-      "hi": "Fund password",
+      "hi": "फंड पासवर्ड",
       "th": "รหัสผ่านกองทุน",
       "vi": "Mật khẩu vốn quỹ",
       "zh-cn": "资金密码",
@@ -4211,7 +4211,7 @@
     {
       "key": "frontstage.user.securitySetting.FundsPassword.label",
       "en": "Fund password",
-      "hi": "Fund password",
+      "hi": "फंड पासवर्ड",
       "th": "รหัสผ่านกองทุน",
       "vi": "Mật khẩu vốn quỹ",
       "zh-cn": "资金密码",
@@ -4221,7 +4221,7 @@
     {
       "key": "frontstage.user.fundsPassword",
       "en": "Fund password",
-      "hi": "Fund password",
+      "hi": "फंड पासवर्ड",
       "th": "รหัสผ่านกองทุน",
       "vi": "Mật khẩu vốn quỹ",
       "zh-cn": "资金密码",
@@ -4233,7 +4233,7 @@
     {
       "key": "frontstage.form.button.transfer",
       "en": "Transfer",
-      "hi": "Transfer",
+      "hi": "ट्रांसफर",
       "th": "โอน",
       "vi": "Chuyển khoản",
       "zh-cn": "转帐",
@@ -4243,7 +4243,7 @@
     {
       "key": "frontstage.menu.UserTransfer",
       "en": "Transfer accounts",
-      "hi": "Transfer accounts",
+      "hi": "ट्रांसफर",
       "th": "โอน",
       "vi": "Chuyển khoản",
       "zh-cn": "转帐",
@@ -4255,7 +4255,7 @@
     {
       "key": "frontstage.form.button.withdrawal",
       "en": "Withdrawal",
-      "hi": "Withdrawal",
+      "hi": "निकासी",
       "th": "การถอน",
       "vi": "Rút tiền",
       "zh-cn": "提款",
@@ -4265,7 +4265,7 @@
     {
       "key": "frontstage.menu.UserWithdrawal",
       "en": "drawing",
-      "hi": "drawing",
+      "hi": "निकासी",
       "th": "การถอน",
       "vi": "Rút tiền",
       "zh-cn": "提款",
@@ -4277,7 +4277,7 @@
     {
       "key": "frontstage.menu.UserTransRecord",
       "en": "Transaction record",
-      "hi": "Transaction record",
+      "hi": "लेन-देन का रिकॉर्ड",
       "th": "บันทึกการซื้อขาย",
       "vi": "Ghi chép giao dịch",
       "zh-cn": "交易纪录",
@@ -4287,7 +4287,7 @@
     {
       "key": "frontstage.menu.AgentTxRecord",
       "en": "Tx record",
-      "hi": "Tx record",
+      "hi": "लेन-देन का रिकॉर्ड",
       "th": "บันทึกการซื้อขาย",
       "vi": "Ghi chép giao dịch",
       "zh-cn": "交易纪录",
@@ -4299,7 +4299,7 @@
     {
       "key": "frontstage.messages.depositByTpp.fail",
       "en": "Unable to deposit at this time, please try again in {0} minutes",
-      "hi": "Unable to deposit at this time, please try again in {0} minutes",
+      "hi": "इस समय जमा करने में असमर्थ, कृपया {0} मिनट में पुन: प्रयास करें",
       "th": "ไม่สามารถฝากเงินได้ในขณะนี้โปรดลองอีกครั้งใน {0} นาที",
       "vi": "Hiện tại không thể gửi tiền, xin vui lòng thử lại sau {0} phút",
       "zh-cn": "目前无法入款，请 {0} 分钟后再次尝试",
@@ -4309,7 +4309,7 @@
     {
       "key": "frontstage.messages.depositByBankCard.fail",
       "en": "Unable to deposit at this time, please try again in {0} minutes",
-      "hi": "Unable to deposit at this time, please try again in {0} minutes",
+      "hi": "इस समय जमा करने में असमर्थ, कृपया {1} मिनट में पुन: प्रयास करें",
       "th": "ไม่สามารถฝากเงินได้ในขณะนี้โปรดลองอีกครั้งใน {0} นาที",
       "vi": "Hiện tại không thể gửi tiền, xin vui lòng thử lại sau {0} phút",
       "zh-cn": "目前无法入款，请 {0} 分钟后再次尝试",
@@ -4321,7 +4321,7 @@
     {
       "key": "frontstage.state.DepositStateTypeEnum.1",
       "en": "In the process of adding credit",
-      "hi": "In the process of adding credit",
+      "hi": "क्रेडिट जोड़ने की प्रक्रिया में",
       "th": "กำลังชาร์จใหม่",
       "vi": "Đang nạp tiền",
       "zh-cn": "充值中",
@@ -4331,7 +4331,7 @@
     {
       "key": "frontstage.state.DepositStateTypeEnum.PendingReview",
       "en": "In the process of adding credit",
-      "hi": "In the process of adding credit",
+      "hi": "क्रेडिट जोड़ने की प्रक्रिया में",
       "th": "กำลังชาร์จใหม่",
       "vi": "Đang nạp tiền",
       "zh-cn": "充值中",
@@ -4343,7 +4343,7 @@
     {
       "key": "frontstage.state.DepositStateTypeEnum.3",
       "en": "Failure of recharge",
-      "hi": "Failure of recharge",
+      "hi": "क्रेडिट जोड़ना विफल रहा।",
       "th": "การเติมเงินล้มเหลว",
       "vi": "Nạp tiền không thành công",
       "zh-cn": "充值失败",
@@ -4353,7 +4353,7 @@
     {
       "key": "frontstage.state.DepositStateTypeEnum.Failed",
       "en": "Adding credit failed.",
-      "hi": "Adding credit failed.",
+      "hi": "क्रेडिट जोड़ना विफल रहा।",
       "th": "การเติมเงินล้มเหลว",
       "vi": "Nạp tiền không thành công",
       "zh-cn": "充值失败",
@@ -4365,7 +4365,7 @@
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.1",
       "en": "Pending",
-      "hi": "Pending",
+      "hi": "विचाराधीन",
       "th": "รอดำเนินการ",
       "vi": "Chờ xử lý",
       "zh-cn": "待处理",
@@ -4375,7 +4375,7 @@
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.PendingReview",
       "en": "Pending",
-      "hi": "Pending",
+      "hi": "विचाराधीन",
       "th": "รอดำเนินการ",
       "vi": "Chờ xử lý",
       "zh-cn": "待处理",
@@ -4387,7 +4387,7 @@
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.2",
       "en": "Out of payment",
-      "hi": "Out of payment",
+      "hi": "भुगतान से बाहर",
       "th": "จ่ายเงินแล้ว",
       "vi": "Đã rút tiền",
       "zh-cn": "已出款",
@@ -4397,7 +4397,7 @@
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.Success",
       "en": "Out of payment",
-      "hi": "Out of payment",
+      "hi": "भुगतान से बाहर",
       "th": "จ่ายเงินแล้ว",
       "vi": "Đã rút tiền",
       "zh-cn": "已出款",
@@ -4409,7 +4409,7 @@
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.3",
       "en": "Paid out (automatic)",
-      "hi": "Paid out (automatic)",
+      "hi": "राशि का ट्रांसफर कर दिया गया है (स्वचालित रूप से)।",
       "th": "การชำระเงิน (อัตโนมัติ)",
       "vi": "Đã rút tiền (tự động)",
       "zh-cn": "已出款（自动）",
@@ -4419,7 +4419,7 @@
     {
       "key": "frontstage.state.WithdrawalStateTypeEnum.SuccessAuto",
       "en": "The money has been transferred (automatically).",
-      "hi": "The money has been transferred (automatically).",
+      "hi": "राशि का ट्रांसफर कर दिया गया है (स्वचालित रूप से)।",
       "th": "การชำระเงิน (อัตโนมัติ)",
       "vi": "Đã rút tiền (tự động)",
       "zh-cn": "已出款（自动）",
@@ -4431,7 +4431,7 @@
     {
       "key": "frontstage.state.WalletTransferStateTypeEnum.1",
       "en": "Not completed",
-      "hi": "Not completed",
+      "hi": "पूर्ण नहीं",
       "th": "ยังไม่สำเร็จ",
       "vi": "Chưa hoàn thành",
       "zh-cn": "尚未完成",
@@ -4441,7 +4441,7 @@
     {
       "key": "frontstage.state.WalletTransferStateTypeEnum.NotFinished",
       "en": "Not completed",
-      "hi": "Not completed",
+      "hi": "पूर्ण नहीं",
       "th": "ยังไม่สำเร็จ",
       "vi": "Chưa hoàn thành",
       "zh-cn": "尚未完成",
@@ -4453,7 +4453,7 @@
     {
       "key": "frontstage.state.WalletTransferStateTypeEnum.2",
       "en": "Completed",
-      "hi": "Completed",
+      "hi": "पूर्ण कर लिया है",
       "th": "สำเร็จแล้ว",
       "vi": "Đã hoàn thành",
       "zh-cn": "已完成",
@@ -4463,7 +4463,7 @@
     {
       "key": "frontstage.state.WalletTransferStateTypeEnum.Finished",
       "en": "Completed",
-      "hi": "Completed",
+      "hi": "पूर्ण कर लिया है",
       "th": "สำเร็จแล้ว",
       "vi": "Đã hoàn thành",
       "zh-cn": "已完成",
@@ -4475,7 +4475,7 @@
     {
       "key": "frontstage.state.TppChannelEnum.1",
       "en": "Bank card transfer",
-      "hi": "Bank card transfer",
+      "hi": "बैंक कार्ड ट्रांसफर",
       "th": "โอนเงินผ่านบัตรธนาคาร",
       "vi": "Chuyển khoản bằng thẻ ngân hàng",
       "zh-cn": "银行卡转帐",
@@ -4485,7 +4485,7 @@
     {
       "key": "frontstage.state.TppChannelEnum.BankCard",
       "en": "Bank card transfer",
-      "hi": "Bank card transfer",
+      "hi": "बैंक कार्ड ट्रांसफर",
       "th": "โอนเงินผ่านบัตรธนาคาร",
       "vi": "Chuyển khoản bằng thẻ ngân hàng",
       "zh-cn": "银行卡转帐",
@@ -4495,7 +4495,7 @@
     {
       "key": "frontstage.user.deposit.BankCardTransfer",
       "en": "BankCard Transfer",
-      "hi": "BankCard Transfer",
+      "hi": "बैंक कार्ड ट्रांसफर",
       "th": "โอนเงินผ่านบัตรธนาคาร",
       "vi": "Chuyển khoản bằng thẻ ngân hàng",
       "zh-cn": "银行卡转帐",
@@ -4508,8 +4508,8 @@
       "key": "frontstage.state.TppChannelEnum.2",
       "en": "Tpp-online payment",
       "hi": "Tpp-online payment",
-      "th": "Tpp- การชำระเงินทางออนไลน์",
-      "vi": "Tpp - Thanh toán qua trực tuyến",
+      "th": "Tpp-online payment",
+      "vi": "Tpp-online payment",
       "zh-cn": "Tpp-线上支付",
       "zh-tw": "Tpp-線上支付",
       "rowid": 1271
@@ -4518,8 +4518,8 @@
       "key": "frontstage.state.TppChannelEnum.OnlinePayment",
       "en": "Tpp-online payment",
       "hi": "Tpp-online payment",
-      "th": "Tpp- การชำระเงินทางออนไลน์",
-      "vi": "Tpp - Thanh toán trực tuyến",
+      "th": "Tpp-online payment",
+      "vi": "Tpp-online payment",
       "zh-cn": "Tpp-线上支付",
       "zh-tw": "Tpp-線上支付",
       "rowid": 1280
@@ -4530,8 +4530,8 @@
       "key": "frontstage.state.TppChannelEnum.3",
       "en": "Tpp-WeChat payment",
       "hi": "Tpp-WeChat payment",
-      "th": "Tpp-ชำระเงินผ่านWeChat ",
-      "vi": "Tpp - Thanh toán qua WeChat",
+      "th": "Tpp-WeChat payment",
+      "vi": "Tpp-WeChat payment",
       "zh-cn": "Tpp-微信支付",
       "zh-tw": "Tpp-微信支付",
       "rowid": 1272
@@ -4540,8 +4540,8 @@
       "key": "frontstage.state.TppChannelEnum.WeChatPay",
       "en": "Tpp-WeChat payment",
       "hi": "Tpp-WeChat payment",
-      "th": "Tpp-ชำระเงินผ่านWeChat ",
-      "vi": "Tpp - Thanh toán qua WeChat",
+      "th": "Tpp-WeChat payment",
+      "vi": "Tpp-WeChat payment",
       "zh-cn": "Tpp-微信支付",
       "zh-tw": "Tpp-微信支付",
       "rowid": 1284
@@ -4552,8 +4552,8 @@
       "key": "frontstage.state.TppChannelEnum.4",
       "en": "Tpp- Alipay",
       "hi": "Tpp- Alipay",
-      "th": "Tpp-ชำระเงินผ่านAlipay",
-      "vi": "Tpp - Alipay",
+      "th": "Tpp- Alipay",
+      "vi": "Tpp- Alipay",
       "zh-cn": "Tpp-支付宝",
       "zh-tw": "Tpp-支付寶",
       "rowid": 1273
@@ -4562,8 +4562,8 @@
       "key": "frontstage.state.TppChannelEnum.Alipay",
       "en": "Tpp- Alipay",
       "hi": "Tpp- Alipay",
-      "th": "Tpp-ชำระเงินผ่านAlipay",
-      "vi": "Tpp - Alipay",
+      "th": "Tpp- Alipay",
+      "vi": "Tpp- Alipay",
       "zh-cn": "Tpp-支付宝",
       "zh-tw": "Tpp-支付寶",
       "rowid": 1277
@@ -4574,8 +4574,8 @@
       "key": "frontstage.state.TppChannelEnum.5",
       "en": "Tpp-Jingdong Pay",
       "hi": "Tpp-Jingdong Pay",
-      "th": "Tpp-ชำระเงินผ่านJD Pay",
-      "vi": "Tpp - Thanh toán qua JingDong",
+      "th": "Tpp-Jingdong Pay",
+      "vi": "Tpp-Jingdong Pay",
       "zh-cn": "Tpp-京东支付",
       "zh-tw": "Tpp-京東支付",
       "rowid": 1274
@@ -4584,8 +4584,8 @@
       "key": "frontstage.state.TppChannelEnum.JingdongQrCode",
       "en": "Tpp-Jingdong Pay",
       "hi": "Tpp-Jingdong Pay",
-      "th": "Tpp-ชำระเงินผ่านJD Pay",
-      "vi": "Tpp - Thanh toán qua JingDong",
+      "th": "Tpp-Jingdong Pay",
+      "vi": "Tpp-Jingdong Pay",
       "zh-cn": "Tpp-京东支付",
       "zh-tw": "Tpp-京東支付",
       "rowid": 1279
@@ -4596,8 +4596,8 @@
       "key": "frontstage.state.TppChannelEnum.6",
       "en": "Tpp-UnionPay QrCode",
       "hi": "Tpp-UnionPay QrCode",
-      "th": "Tpp-ยูเนี่ยนเพย์",
-      "vi": "Tpp - Quẹt mã QR UnionPay",
+      "th": "Tpp-UnionPay QrCode",
+      "vi": "Tpp-UnionPay QrCode",
       "zh-cn": "Tpp-银联扫码",
       "zh-tw": "Tpp-銀聯掃碼",
       "rowid": 1275
@@ -4606,8 +4606,8 @@
       "key": "frontstage.state.TppChannelEnum.UnionPayQrCode",
       "en": "Tpp-UnionPay QrCode",
       "hi": "Tpp-UnionPay QrCode",
-      "th": "Tpp-ยูเนี่ยนเพย์",
-      "vi": "Tpp - Quẹt mã QR UnionPay",
+      "th": "Tpp-UnionPay QrCode",
+      "vi": "Tpp-UnionPay QrCode",
       "zh-cn": "Tpp-银联扫码",
       "zh-tw": "Tpp-銀聯掃碼",
       "rowid": 1283
@@ -4618,8 +4618,8 @@
       "key": "frontstage.state.TppChannelEnum.7",
       "en": "Tpp-Quick Pass",
       "hi": "Tpp-Quick Pass",
-      "th": "Tpp-บัตรด่วน",
-      "vi": "Tpp - Thanh toán nhanh",
+      "th": "Tpp-Quick Pass",
+      "vi": "Tpp-Quick Pass",
       "zh-cn": "Tpp-云闪付",
       "zh-tw": "Tpp-雲閃付",
       "rowid": 1276
@@ -4628,8 +4628,8 @@
       "key": "frontstage.state.TppChannelEnum.UnionPay",
       "en": "Tpp-Quick Pass",
       "hi": "Tpp-Quick Pass",
-      "th": "Tpp-บัตรด่วน",
-      "vi": "Tpp - Thanh toán nhanh",
+      "th": "Tpp-Quick Pass",
+      "vi": "Tpp-Quick Pass",
       "zh-cn": "Tpp-云闪付",
       "zh-tw": "Tpp-雲閃付",
       "rowid": 1282
@@ -4639,7 +4639,7 @@
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.1",
       "en": "hour",
-      "hi": "hour",
+      "hi": "अवधि",
       "th": "ชั่วโมง",
       "vi": "Tiếng",
       "zh-cn": "小时",
@@ -4649,7 +4649,7 @@
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.Hour",
       "en": "hour",
-      "hi": "hour",
+      "hi": "अवधि",
       "th": "ชั่วโมง",
       "vi": "Tiếng",
       "zh-cn": "小时",
@@ -4661,7 +4661,7 @@
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.2",
       "en": "day",
-      "hi": "day",
+      "hi": "दिन",
       "th": "วัน",
       "vi": "Ngày",
       "zh-cn": "日",
@@ -4671,7 +4671,7 @@
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.Day",
       "en": "day",
-      "hi": "day",
+      "hi": "दिन",
       "th": "วัน",
       "vi": "Ngày",
       "zh-cn": "日",
@@ -4683,7 +4683,7 @@
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.3",
       "en": "week",
-      "hi": "week",
+      "hi": "सप्ताह",
       "th": "สัปดาห์",
       "vi": "Tuần",
       "zh-cn": "周",
@@ -4693,7 +4693,7 @@
     {
       "key": "frontstage.state.Agent.SettlementCategoryEnum.Week",
       "en": "week",
-      "hi": "week",
+      "hi": "सप्ताह",
       "th": "สัปดาห์",
       "vi": "Tuần",
       "zh-cn": "周",
@@ -4705,7 +4705,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordStateEnum.2",
       "en": "Distributed yet",
-      "hi": "Distributed yet",
+      "hi": "अभी तक वितरित किया गया",
       "th": "ยังไม่แจก",
       "vi": "Chưa phát tiền thưởng",
       "zh-cn": "尚未派发",
@@ -4715,7 +4715,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordStateEnum.NotSent",
       "en": "distributed yet",
-      "hi": "distributed yet",
+      "hi": "अभी तक वितरित किया गया",
       "th": "ยังไม่แจก",
       "vi": "Chưa phát tiền thưởng",
       "zh-cn": "尚未派发",
@@ -4727,7 +4727,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordStateEnum.3",
       "en": "Not Met",
-      "hi": "Not Met",
+      "hi": "नहीं मिले",
       "th": "ไม่ถึงเกณฑ์",
       "vi": "Chưa đạt tiêu chí",
       "zh-cn": "未达标",
@@ -4737,7 +4737,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordStateEnum.NotSatisfy",
       "en": "Not Met",
-      "hi": "Not Met",
+      "hi": "नहीं मिले",
       "th": "ไม่ถึงเกณฑ์",
       "vi": "Chưa đạt tiêu chí",
       "zh-cn": "未达标",
@@ -4749,7 +4749,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.2",
       "en": "Satisfied",
-      "hi": "Satisfied",
+      "hi": "संतुष्ट",
       "th": "พอใจ",
       "vi": "Đã đạt yêu cầu",
       "zh-cn": "已满足",
@@ -4759,7 +4759,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.Satisfied",
       "en": "Satisfied",
-      "hi": "Satisfied",
+      "hi": "संतुष्ट",
       "th": "พอใจ",
       "vi": "Đã đạt yêu cầu",
       "zh-cn": "已满足",
@@ -4771,7 +4771,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.3",
       "en": "Not satisfied",
-      "hi": "Not satisfied",
+      "hi": "संतुष्ट नहीं",
       "th": "ยังไม่พอใจ",
       "vi": "Chưa đạt yêu cầu",
       "zh-cn": "未满足",
@@ -4781,7 +4781,7 @@
     {
       "key": "frontstage.state.Agent.ContractRecordActiveMemberStateEnum.NotSatisfied",
       "en": "Not satisfied",
-      "hi": "Not satisfied",
+      "hi": "संतुष्ट नहीं",
       "th": "ยังไม่พอใจ",
       "vi": "Chưa đạt yêu cầu",
       "zh-cn": "未满足",
@@ -4793,7 +4793,7 @@
     {
       "key": "frontstage.user.transferRecord.column.From",
       "en": "Transfer out",
-      "hi": "Transfer out",
+      "hi": "से बाहर ट्रांसफर करें",
       "th": "โอนออก",
       "vi": "Chuyển ra",
       "zh-cn": "转出",
@@ -4803,7 +4803,7 @@
     {
       "key": "frontstage.user.transfer.transferFrom",
       "en": "Transfer out",
-      "hi": "Transfer out",
+      "hi": "से बाहर ट्रांसफर करें",
       "th": "โอนออก",
       "vi": "Chuyển ra",
       "zh-cn": "转出",
@@ -4815,7 +4815,7 @@
     {
       "key": "frontstage.user.transferRecord.column.To",
       "en": "Transfer into",
-      "hi": "Transfer into",
+      "hi": "में ट्रांसफर करें",
       "th": "โอนเข้า",
       "vi": "Chuyển vào",
       "zh-cn": "转入",
@@ -4825,7 +4825,7 @@
     {
       "key": "frontstage.user.transfer.transferTo",
       "en": "Transfer into",
-      "hi": "Transfer into",
+      "hi": "में ट्रांसफर करें",
       "th": "โอนเข้า",
       "vi": "Chuyển vào",
       "zh-cn": "转入",

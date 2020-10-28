@@ -59,9 +59,9 @@
   "province": "Tỉnh",
   "SingleMember": "Người sử dụng đơn nhất",
   "transferSubordinate": "Cấp dưới chuyển khoản",
-  "onlineMemberAccount": "",
-  "loginPassword": "",
-  "registerCount": "",
-  "face": "",
+  "onlineMemberAccount": "Tài khoản thành viên trực tuyến",
+  "loginPassword": "Mật khẩu đăng nhập",
+  "registerCount": "Đăng ký số lượng",
+  "face": "hình đại diện",
   "copyTips": ""
 }

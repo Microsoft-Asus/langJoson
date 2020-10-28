@@ -42,6 +42,6 @@
   "remitBalance": "Số tiền nạp",
   "depositAmount": "Số tiền gửi",
   "deposits": "Số tiền gửi",
-  "receiveAmount": "",
-  "receivedAmount": ""
+  "receiveAmount": "Nhận số tiền",
+  "receivedAmount": "Nhận số tiền"
 }

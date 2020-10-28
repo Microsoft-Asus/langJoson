@@ -1,50 +1,50 @@
 {
   "register": {
-    "success": "registration success"
+    "success": "पंजीकरण सफल"
   },
   "sendCode": {
-    "EmailSuccess": "The verification code has been sent to your mailbox {0}",
-    "PhoneSuccess": "The verification code has been sent to your phone {0}",
-    "EmailPlzCheck": "You have sent the verification code, please go to your email address to receive the verification code.",
-    "PhonePlzCheck": "You have sent the verification code, please go to your phone to receive the verification code."
+    "EmailSuccess": "वेरिफिकेशन कोड आपके मेलबॉक्स में भेज दिया गया है {0}",
+    "PhoneSuccess": "वेरिफिकेशन कोड आपके फोन पर भेज दिया गया है {0}",
+    "EmailPlzCheck": "आपने वेरिफिकेशन कोड भेज दिया है, कृपया वेरिफिकेशन कोड प्राप्त करने के लिए अपने ईमेल एड्रेस पर जाएं।",
+    "PhonePlzCheck": "आपने वेरिफिकेशन कोड भेज दिया है, कृपया वेरिफिकेशन कोड प्राप्त करने के लिए अपने फोन पर जाएं।"
   },
   "NicknameChanged": {},
   "nicknameModified": {
-    "success": "Change your nickname successfully."
+    "success": "अपना उपनाम सफलतापूर्वक बदलें।"
   },
   "removeBankCard": {
-    "success": "The bank card has been deleted."
+    "success": "बैंक कार्ड डिलीट कर दिया गया है।"
   },
   "addBankCard": {
-    "success": "Added the bank card successfully.",
+    "success": "बैंक कार्ड सफलतापूर्वक जोड़ा गया।",
     "fail": "Unable to add bank card"
   },
-  "confirmLogout": "Are you sure you want to log out?",
+  "confirmLogout": "क्या आप वाकई लॉग आउट करना चाहते हैं?",
   "withdrawalRequest": {
-    "success": "You have successfully applied for a withdrawal of  {0} dollars.",
-    "fail": "You cannot add a withdrawal slip."
+    "success": "आपने {0} डॉलर की निकासी के लिए सफलतापूर्वक आवेदन किया है।",
+    "fail": "आप निकासी पर्ची नहीं जोड़ सकते।"
   },
-  "editSuccessMsg": "Successfully modified",
-  "validationCodeSended": "You have sent out the verification code. Please go to your mobile phone / email to collect the verification code.",
-  "cannotUpdateBalance": "Unable to get the balance.",
-  "cannotLoginMsg": "You can't log in right now, please confirm your account or password.",
-  "cannotRegisterForNow": "Unable to register right now.",
+  "editSuccessMsg": "सफलता संपादित करें",
+  "validationCodeSended": "आपने वेरिफिकेशन कोड भेज दिया है। वेरिफिकेशन कोड प्राप्त करने के लिए कृपया अपने मोबाइल फोन/ईमेल पर जाएं।",
+  "cannotUpdateBalance": "शेष राशि बताने में असमर्थ।",
+  "cannotLoginMsg": "आप अभी लॉग इन नहीं कर सकते, कृपया अपने खाते या पासवर्ड की पुष्टि करें।",
+  "cannotRegisterForNow": "अभी रजिस्टर करने में असमर्थ।",
   "depositByTpp": {
-    "fail": "Unable to deposit at this time, please try again in {0} minutes"
+    "fail": "इस समय जमा करने में असमर्थ, कृपया {0} मिनट में पुन: प्रयास करें"
   },
   "depositByBankCard": {
-    "fail": "Unable to deposit at this time, please try again in {0} minutes"
+    "fail": "इस समय जमा करने में असमर्थ, कृपया {1} मिनट में पुन: प्रयास करें"
   },
-  "cannotPlayGame": "Can't enter the game right now",
+  "cannotPlayGame": "अभी गेम में प्रवेश नहीं कर सकते",
   "contract": {
-    "signingError": "An error occurred while signing a contract."
+    "signingError": "{0} व्यक्ति/कई व्यक्ति"
   },
   "resetpasswd": {
     "sendLinkEmailError": "",
     "resetPasswdError": ""
   },
-  "removeFailed": "Failed to delete {0}",
-  "removeSuccess": "Successfully deleted {0}",
-  "addChildMemberSuccess": "Successfully added Member {0}",
-  "addChildMemberFailed": "Can't add new member or the account already exists."
+  "removeFailed": "{0} को डिलीट करने में विफल",
+  "removeSuccess": "सफलतापूर्वक डिलीट कर दिया गया {0}",
+  "addChildMemberSuccess": "{0} सदस्य सफलतापूर्वक जोड़ा गया ",
+  "addChildMemberFailed": "नया सदस्य नहीं जोड़ सकते या अकाउंट पहले से ही मौजूद है।"
 }

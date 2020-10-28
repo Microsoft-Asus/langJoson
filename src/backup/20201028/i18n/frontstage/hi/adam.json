@@ -1,17 +1,17 @@
 {
   "AdamESportHomeBlock": {
-    "title": "{0} Gaming"
+    "title": "{0} गेमिंग"
   },
   "AdamPokerHomeBlock": {
-    "title": "{0} Poker"
+    "title": "{0} पोकर"
   },
   "AdamSportHomeBlock": {
-    "title": "{0} Sports"
+    "title": "{0} स्पोर्ट्स"
   },
   "AdamLiveHomeBlock": {
-    "title": "{0} Live"
+    "title": "{0} लाइव"
   },
   "AdamLotteryHomeBlock": {
-    "title": "{0} Lottery"
+    "title": "{0} लॉटरी"
   }
 }

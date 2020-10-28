@@ -59,9 +59,9 @@
   "province": "จังหวัด",
   "SingleMember": "ผู้ใช้คนเดียว",
   "transferSubordinate": "อนไปยังระดับล่าง",
-  "onlineMemberAccount": "",
-  "loginPassword": "",
-  "registerCount": "",
-  "face": "",
+  "onlineMemberAccount": "บัญชีสมาชิกออนไลน์",
+  "loginPassword": "ใส่รหัสผ่าน",
+  "registerCount": "ลงทะเบียนนับ",
+  "face": "สัญลักษณ์",
   "copyTips": ""
 }

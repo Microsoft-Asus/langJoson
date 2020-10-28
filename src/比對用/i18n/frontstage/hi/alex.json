@@ -1,6 +1,6 @@
 {
   "AlexHomePage": {
-    "winnercontent": "winner in {0}",
-    "leaderboard": "LEADERBOARD"
+    "winnercontent": "{0} में विजेता",
+    "leaderboard": "लीडरबोर्ड"
   }
 }

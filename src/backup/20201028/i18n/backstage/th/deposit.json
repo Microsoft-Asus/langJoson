@@ -42,6 +42,6 @@
   "remitBalance": "จำนวนเงินที่เติม",
   "depositAmount": "ยอดเงินฝากเข้า",
   "deposits": "ยอดเงินฝากเข้า",
-  "receiveAmount": "",
-  "receivedAmount": ""
+  "receiveAmount": "รับจำนวน",
+  "receivedAmount": "รับจำนวน"
 }

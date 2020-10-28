@@ -3,7 +3,7 @@
   "datetime": "Please enter the correct date and time format.",
   "email": "Please enter the correct email address format.",
   "includes": "It's not included in the sequence.",
-  "intOnly": "Only integral numbers are allowed.",
+  "intOnly": "Only integers are allowed",
   "max": "The maximum value is {0}.",
   "required": "Please fill in this field.",
   "minDatetime": "The minimum date is {0}.",

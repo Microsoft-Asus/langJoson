@@ -202,7 +202,7 @@
   "allCheck": "सभी का चयन करें",
   "registerUser": "पंजीकृत",
   "fresh": "रिफ्रेश करना",
-  "transferSubordinate": "",
-  "payType": "",
+  "transferSubordinate": "अधीनस्थ को ट्रांसफर ",
+  "payType": "भुगतान के तरीके",
   "backstage": ""
 }

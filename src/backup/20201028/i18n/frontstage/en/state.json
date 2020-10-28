@@ -48,7 +48,7 @@
     "UnionPay": "Tpp-Quick Pass",
     "UnionPayQrCode": "Tpp-UnionPay QrCode",
     "WeChatPay": "Tpp-WeChat payment",
-    "BqPay": "Tpp-cloud flash payment"
+    "BqPay": "Tpp-BQpay"
   },
   "BetOrderState": {
     "0": "Undefined",

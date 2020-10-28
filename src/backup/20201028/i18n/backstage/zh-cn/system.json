@@ -111,7 +111,7 @@
     "verifyError": "验证码错误",
     "accountDisable": "帐号已停用",
     "accountFrozn": "帐号已冻结",
-    "errorFroznAccount": "密码/验证码错误并冻结此账号",
+    "errorFroznAccount": "密码/验证码错误并冻结此账号帐号",
     "repeatLogin": "重复登入",
     "blockedIP": "登入IP已被阻挡"
   },
@@ -195,7 +195,7 @@
   "auditMultiple": "倍数",
   "fundHint": "请用半形逗号分隔帐号",
   "betState": "注单状态",
-  "pasteDefaultContent": "插入預設範本",
+  "pasteDefaultContent": "插入预设范本",
   "dragImgOrSelectImg": "请选择图片或将图片拖放到这里",
   "loseWin": "输赢",
   "gameBetOverview": "游戏投注额",

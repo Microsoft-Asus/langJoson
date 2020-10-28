@@ -203,6 +203,6 @@
   "registerUser": "จำนวนคนที่ลงทะเบียน",
   "fresh": "รีเฟรช",
   "transferSubordinate": "อนไปยังระดับล่าง",
-  "payType": "",
+  "payType": "วิธีการชำระเงิน",
   "backstage": ""
 }

@@ -697,7 +697,7 @@
     "key": "\"重置成功\"",
     "repeatid": [
       217,
-      1548
+      1549
     ],
     "repeatkey": [
       "backstage.common.resetSuccessed",
@@ -1445,7 +1445,7 @@
     "key": "\"遊戲平台\"",
     "repeatid": [
       734,
-      1544
+      1545
     ],
     "repeatkey": [
       "backstage.system.gamePlatform",

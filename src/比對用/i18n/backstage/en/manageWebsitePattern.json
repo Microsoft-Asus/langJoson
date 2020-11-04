@@ -1,5 +1,7 @@
 {
   "WebsiteInfo": "Website Information",
   "WebsiteType": "Website Type",
-  "BasicInfo": "Basic Information"
+  "BasicInfo": "Basic Information",
+  "imageRatio": "Image ratio 16:9",
+  "maxWidth": "Maximum width 1920"
 }

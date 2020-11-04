@@ -22,7 +22,7 @@
   "runningOutDailyWithdrawalTimes": "There are no more withdrawals can be made.",
   "bankCardNumber": "Enter the correct bank card number",
   "fundsPassword": "The fund password is a 6-digit number.",
-  "account": "6-11 numbers + English composition (no case)",
+  "account": "6-11 numbers + English composition (case sensitive)",
   "minWithdrawalAmount": "The minimum withdrawal amount is  {0}.",
   "maxWithdrawalAmount": "The maximum withdrawal amount is  {0}.",
   "restDailyWithdrawalCount": "The numbers of free withdrawals remaining is  {0}."

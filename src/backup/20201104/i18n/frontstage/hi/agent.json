@@ -1,0 +1,65 @@
+{
+  "column": {
+    "AgentCreatedTime": "निर्मित समय",
+    "AgentIdentityName": "पहचान",
+    "Balance": "बकाया",
+    "MemberAccount": "अकाउंट",
+    "ParentMemberAccount": "अभिभावक",
+    "AgentLink": {
+      "CreatedTime": "निर्मित समय"
+    },
+    "RegisterCount": "पंजीकृत"
+  },
+  "common": {
+    "memberNotExist": "जिस सदस्य तक आप पहुंचने का प्रयास कर रहे हैं, वह मौजूद नहीं है"
+  },
+  "betRecord": {
+    "pickGameCategory": "गेम की श्रेणी"
+  },
+  "TeamActiveMemberCount": "सक्रिय संख्या",
+  "TeamSettlementAmount": "टीम लाभ और हानि",
+  "addAccount": "अकाउंट जोड़ें",
+  "addAccountByLink": "नया लिंक",
+  "turnToAgent": "एजेंट की ओर मुड़ें",
+  "linksMangement": "लिंक प्रबंधन",
+  "contract": {
+    "MemberAccount": "हस्ताक्षरित अकाउंट"
+  },
+  "ActiveMemberCountExpression": "@:common.unlimit | {n} | {n}",
+  "ActiveMemberCount": "सक्रिय संख्या",
+  "BenefitSharingSource": "लाभ का स्रोत",
+  "Proportion": "स्व अनुपात",
+  "SettlementCycle": "सेटलमेंट अंतराल",
+  "SignedProportion": "हस्ताक्षर अनुपात",
+  "CreateLinkTipMessage": "केवल {0} लिंक ही सबसे अधिक मात्रा में उत्पन्न किए जा सकते हैं",
+  "dashboard": {
+    "TeamBalance": "टीम का खाता शेष",
+    "title": "आज टीम अवलोकन",
+    "caption": "सांख्यिकीय डेटा रिपोर्ट के रिकॉर्ड के समान ही है, और सांख्यिकीय अंतराल रोजाना {0} है",
+    "TeamDepositAmount": "टीम डिपोजिट",
+    "TeamBetMemberCount": "शर्त लगाने वालों की संख्या",
+    "TeamMemberCount": "टीम के सदस्य",
+    "TeamRegistMemberCount": "पंजीकृत",
+    "TeamValidBetAmount": "टीम बेटिंग",
+    "TeamWithdrawalAmount": "टीम की निकासी"
+  },
+  "contractReport": {
+    "column": {
+      "Amount": "दी गई राशि"
+    }
+  },
+  "CurrentQuota": "गणना राशि",
+  "ContractProportion": "अनुबंध अनुपात",
+  "ContractReportAmount": "दी गई राशि",
+  "BetInfo": "शर्त संबंधी जानकारी",
+  "BetTaget": "गेम की श्रेणी / मंच",
+  "TeamBenefitAmount": "लाभ साझा करने के समाधान",
+  "pickIdentity": "एक स्थिति चुनें",
+  "AddChildTipMessage": "नए जोड़े गए सदस्य का प्रारंभिक पासवर्ड {0} है",
+  "signWithMember": "{0} के साथ एक अनुबंध पर हस्ताक्षर करें",
+  "GenerateLink": "एक लिंक उत्पन्न करने के लिए",
+  "TeamValidBetAmount": "मान्य बेटिंग",
+  "TeamDeposit": "डिपॉज़िट",
+  "TeamPayoutAmount": "लॉटरी भुगतान राशि",
+  "TeamStrategyRebateAmount": "रिबेट राशि"
+}

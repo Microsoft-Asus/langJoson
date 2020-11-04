@@ -231,16 +231,17 @@
   "searchDateRange": "",
   "countryCode": "Mã quốc gia",
   "languages": {
-    "en": "",
-    "zh-cn": "",
-    "zh-tw": "",
-    "th": "",
-    "vi": "",
-    "hi": ""
+    "en": "Tiếng Anh",
+    "zh-cn": "Tiếng Trung giản thể",
+    "zh-tw": "truyền thống Trung Quốc",
+    "th": "Thái",
+    "vi": "Tiếng Việt",
+    "hi": "người Ấn Độ"
   },
   "copy": "bản",
   "replaceSuccessfully": "Thay thế thành công",
   "decimalPointLimit": "",
   "unitWeek": "",
-  "pleaseEnterANumberGreaterThan": ""
+  "pleaseEnterANumberGreaterThan": "",
+  "changeTime": "Cập nhật thời gian"
 }

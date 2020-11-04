@@ -242,5 +242,6 @@
   "copy": "複製",
   "replaceSuccessfully": "取代成功",
   "decimalPointLimit": "最多小數點後 {0} 位數",
-  "pleaseEnterANumberGreaterThan": "請輸入大於 {0} 的數字"
+  "pleaseEnterANumberGreaterThan": "請輸入大於 {0} 的數字",
+  "changeTime": "更新時間"
 }

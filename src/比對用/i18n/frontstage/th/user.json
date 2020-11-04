@@ -261,12 +261,12 @@
     }
   },
   "TppPaymentTypeEnum": {
-    "Alipay": "Alipay",
-    "WeChatPay": "WeChat Pay",
-    "JingdongQrCode": "Jingdong Pay",
-    "UnionPayQrCode": "UnionPay QrCode",
-    "OnlinePayment": "Online Payment",
-    "UnionPay": "Quick Pass",
+    "Alipay": "อาลิเพลย์ ",
+    "WeChatPay": "WeChat เพลย์",
+    "JingdongQrCode": "JD เพลย์",
+    "UnionPayQrCode": "ยูเนี่ยนเพย์ ",
+    "OnlinePayment": "การชำระเงินทางออนไลน์",
+    "UnionPay": "บัตรด่วน",
     "BqPay": "BQPay"
   },
   "gamePlatform": "แพลตฟอร์มเกม",

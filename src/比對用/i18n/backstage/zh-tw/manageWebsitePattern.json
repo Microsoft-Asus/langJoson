@@ -1,5 +1,7 @@
 {
   "WebsiteInfo": "網站資訊",
   "WebsiteType": "網站版型",
-  "BasicInfo": "基本資訊"
+  "BasicInfo": "基本資訊",
+  "imageRatio": "圖片比例 16:9",
+  "maxWidth": "最大寬度 1920"
 }

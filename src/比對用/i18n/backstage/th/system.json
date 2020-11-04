@@ -204,5 +204,6 @@
   "fresh": "รีเฟรช",
   "transferSubordinate": "อนไปยังระดับล่าง",
   "payType": "วิธีการชำระเงิน",
-  "backstage": ""
+  "backstage": "",
+  "promotionImageRatio": "อัตราส่วนภาพ 3: 1"
 }

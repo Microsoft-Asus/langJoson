@@ -11,5 +11,7 @@
   "allWithdrawl": "total withdrawl ",
   "allAmount": "total withdrawl ",
   "allPeople": "Withdrawal number",
-  "fee": "Fee"
+  "fee": "Fee",
+  "bank": "Withdrawl bank",
+  "state": "Withdrawl status"
 }

@@ -43,5 +43,9 @@
   "deposits": "Deposits",
   "searchTips": "During the normal audit, the \"effective total bet\" needs to be bigger than \"deposit amount\" before you can apply for the payment",
   "receiveAmount": "Receive amount",
-  "receivedAmount": "Receive amount"
+  "receivedAmount": "Receive amount",
+  "checkExcludePorfitAndLoss": "Exclude profit and loss",
+  "alertStatus": "Alert status",
+  "normalOrder": "Normal order",
+  "exceptionOrder": "Exception order"
 }

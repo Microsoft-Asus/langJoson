@@ -2265,49 +2265,49 @@
   },
   "backstage.common.languages.en": {
     "en": "English",
-    "hi": "",
-    "th": "",
-    "vi": "",
+    "hi": "अंग्रेज़ी",
+    "th": "ภาษาอังกฤษ",
+    "vi": "Tiếng Anh",
     "zh-cn": "英文",
     "zh-tw": "英文"
   },
   "backstage.common.languages.zh-cn": {
     "en": "Simplified Chinese",
-    "hi": "",
-    "th": "",
-    "vi": "",
+    "hi": "सरलीकृत चीनी",
+    "th": "ภาษาจีนตัวย่อ",
+    "vi": "Tiếng Trung giản thể",
     "zh-cn": "简体中文",
     "zh-tw": "簡體中文"
   },
   "backstage.common.languages.zh-tw": {
     "en": "Traditional Chinese",
-    "hi": "",
-    "th": "",
-    "vi": "",
+    "hi": "परंपरागत चीनी",
+    "th": "จีนดั้งเดิม",
+    "vi": "truyền thống Trung Quốc",
     "zh-cn": "繁体中文",
     "zh-tw": "繁體中文"
   },
   "backstage.common.languages.vi": {
     "en": "Vietnamese",
-    "hi": "",
-    "th": "",
-    "vi": "",
+    "hi": "वियतनामी",
+    "th": "เวียดนาม",
+    "vi": "Tiếng Việt",
     "zh-cn": "越南文",
     "zh-tw": "越南文"
   },
   "backstage.common.languages.th": {
     "en": "Thai",
-    "hi": "",
-    "th": "",
-    "vi": "",
+    "hi": "थाई",
+    "th": "ไทย",
+    "vi": "Thái",
     "zh-cn": "泰文",
     "zh-tw": "泰文"
   },
   "backstage.common.languages.hi": {
     "en": "Indian",
-    "hi": "",
-    "th": "",
-    "vi": "",
+    "hi": "भारतीय",
+    "th": "อินเดีย",
+    "vi": "người Ấn Độ",
     "zh-cn": "印度文",
     "zh-tw": "印度文"
   },
@@ -2337,11 +2337,19 @@
   },
   "backstage.common.pleaseEnterANumberGreaterThan": {
     "en": "Please enter a number greater than {0}",
+    "hi": "",
     "th": "",
     "vi": "",
     "zh-cn": "请输入大于 {0} 的数字",
-    "zh-tw": "請輸入大於 {0} 的數字",
-    "hi": ""
+    "zh-tw": "請輸入大於 {0} 的數字"
+  },
+  "backstage.common.changeTime": {
+    "en": "Update time",
+    "hi": "समय सुधारें",
+    "th": "เวลาอัปเดต",
+    "vi": "Cập nhật thời gian",
+    "zh-cn": "更新时间",
+    "zh-tw": "更新時間"
   },
   "backstage.deposit.amount": {
     "en": "Amount of adding credit",
@@ -2703,6 +2711,38 @@
     "zh-cn": "到账金额",
     "zh-tw": "到帳金額"
   },
+  "backstage.deposit.checkExcludePorfitAndLoss": {
+    "en": "Exclude profit and loss",
+    "hi": "लाभ और हानि को छोड़कर",
+    "th": "ไม่รวมกำไรและขาดทุน",
+    "vi": "Không bao gồm lãi và lỗ",
+    "zh-cn": "排除盈亏",
+    "zh-tw": "排除盈虧"
+  },
+  "backstage.deposit.alertStatus": {
+    "en": "Alert status",
+    "hi": "अलर्ट की स्थिति",
+    "th": "สถานะการแจ้งเตือน",
+    "vi": "Trạng thái cảnh báo",
+    "zh-cn": "警示状态",
+    "zh-tw": "警示狀態"
+  },
+  "backstage.deposit.normalOrder": {
+    "en": "Normal order",
+    "hi": "सामान्य आदेश",
+    "th": "คำสั่งทั่วไป",
+    "vi": "Đơn hàng chung",
+    "zh-cn": "一般单",
+    "zh-tw": "一般單"
+  },
+  "backstage.deposit.exceptionOrder": {
+    "en": "Exception order",
+    "hi": "अपवाद आदेश",
+    "th": "คำสั่งยกเว้น",
+    "vi": "Lệnh ngoại lệ",
+    "zh-cn": "异常单",
+    "zh-tw": "異常單"
+  },
   "backstage.error.confirmPassword": {
     "en": "Does not match the password",
     "hi": "पासवर्ड मेल नहीं खा रहा ",
@@ -3054,6 +3094,22 @@
     "vi": "Thông tin cơ bản",
     "zh-cn": "基本资讯",
     "zh-tw": "基本資訊"
+  },
+  "backstage.manageWebsitePattern.imageRatio": {
+    "en": "Image ratio 16:9",
+    "hi": "चित्र अनुपात 16: 9",
+    "th": "อัตราส่วนภาพ 16: 9",
+    "vi": "Tỷ lệ hình ảnh 16: 9",
+    "zh-cn": "图片比例 16:9",
+    "zh-tw": "圖片比例 16:9"
+  },
+  "backstage.manageWebsitePattern.maxWidth": {
+    "en": "Maximum width 1920",
+    "hi": "अधिकतम चौड़ाई 1920",
+    "th": "ความกว้างสูงสุด 1920",
+    "vi": "Chiều rộng tối đa 1920",
+    "zh-cn": "最大宽度 1920",
+    "zh-tw": "最大寬度 1920"
   },
   "backstage.member.cardHolder": {
     "en": "cardholder's name",
@@ -7220,8 +7276,8 @@
     "hi": "फ्रीज़ किये गए खाता संबंधित गलती  ",
     "th": "รหัสผ่าน / รหัสยืนยันไม่ถูกต้องและบัญชีถูกระงับ",
     "vi": "Mật khẩu / mã nghiệm chứng bị lỗi và đóng băng số tài khoản này",
-    "zh-cn": "密码/验证码错误并冻结此账号帐号",
-    "zh-tw": "密碼/驗證碼錯誤並凍結此賬號帳號"
+    "zh-cn": "密码/验证码错误并冻结此帐号",
+    "zh-tw": "密碼/驗證碼錯誤並凍結此帳號"
   },
   "backstage.system.loginMsg.repeatLogin": {
     "en": "repeatLogin",
@@ -7279,21 +7335,13 @@
     "zh-cn": "支持-支付类型",
     "zh-tw": "支持-支付類型"
   },
-  "backstage.widthdrawl.bank": {
-    "en": "Withdrawal bank",
-    "hi": "विथ्ड्रॉअल बैंक",
-    "th": "ธนาคารที่ถอนเงิน",
-    "vi": "Ngân hàng rút tiền",
-    "zh-cn": "提款银行",
-    "zh-tw": "提款銀行"
-  },
-  "backstage.widthdrawl.state": {
-    "en": "Withdrawal status",
-    "hi": "विथ्ड्रॉअल की स्थिति",
-    "th": "สถานะการถอน",
-    "vi": "Trạng thái rút tiền",
-    "zh-cn": "提款状态",
-    "zh-tw": "提款狀態"
+  "backstage.system.promotionImageRatio": {
+    "en": "Image ratio 3:1",
+    "hi": "चित्र अनुपात 3: 1",
+    "th": "อัตราส่วนภาพ 3: 1",
+    "vi": "Tỷ lệ hình ảnh 3: 1",
+    "zh-cn": "图片比例 3:1",
+    "zh-tw": "圖片比例 3:1"
   },
   "backstage.withdrawl.createTime": {
     "en": "withdrawal time",
@@ -7399,6 +7447,22 @@
     "zh-cn": "手续费",
     "zh-tw": "手續費"
   },
+  "backstage.withdrawl.bank": {
+    "en": "Withdrawl bank",
+    "hi": "विथ्ड्रॉअल बैंक",
+    "th": "ธนาคารที่ถอนเงิน",
+    "vi": "Ngân hàng rút tiền",
+    "zh-cn": "提款银行",
+    "zh-tw": "提款銀行"
+  },
+  "backstage.withdrawl.state": {
+    "en": "Withdrawl status",
+    "hi": "विथ्ड्रॉअल की स्थिति",
+    "th": "สถานะการถอน",
+    "vi": "Trạng thái rút tiền",
+    "zh-cn": "提款状态",
+    "zh-tw": "提款狀態"
+  },
   "frontstage.adam.AdamESportHomeBlock.title": {
     "en": "{0} Gaming",
     "hi": "{0} गेमिंग",
@@ -7438,6 +7502,22 @@
     "vi": "{0} Xổ số",
     "zh-cn": "{0} 彩票",
     "zh-tw": "{0} 彩票"
+  },
+  "frontstage.adi.homeblock.winnercontent": {
+    "en": "winner in {0}",
+    "zh-cn": "在 {0} 平台赢得",
+    "zh-tw": "在 {0} 平台赢得",
+    "hi": "",
+    "th": "",
+    "vi": ""
+  },
+  "frontstage.adi.homeblock.leaderboard": {
+    "en": "RECENT WINNERS",
+    "zh-cn": "排行榜",
+    "zh-tw": "排行榜",
+    "hi": "",
+    "th": "",
+    "vi": ""
   },
   "frontstage.agent.column.AgentCreatedTime": {
     "en": "Created Time",
@@ -8412,7 +8492,7 @@
     "hi": "सदस्य",
     "th": "สมาชิก",
     "vi": "Hội viên",
-    "zh-cn": "会员",
+    "zh-cn": "头像",
     "zh-tw": "會員"
   },
   "frontstage.common.registerByAccount": {
@@ -9912,12 +9992,12 @@
     "zh-tw": "資金密碼為 6 位數字"
   },
   "frontstage.rules.account": {
-    "en": "6-11 numbers + English composition (no case)",
-    "hi": "6-11 नंबर + अंग्रेजी रचना (कोई मामला नहीं)",
-    "th": "6-11 ตัว  ตัวเลข + คำภาษาอังกฤษ(จะเป็นตัวพิมพ์ใหญ่หรือตัวพิมพ์เล็กก็ได้)",
-    "vi": "Kết hợp 6-11 chữ số + chữ tiếng Anh (không viết hoa)",
-    "zh-cn": "6-11个数字+英文组成 (无大小写)",
-    "zh-tw": "6-11個數字+英文組成 (無大小寫)"
+    "en": "6-11 numbers + English composition (case sensitive)",
+    "hi": "6-11 नंबर + अंग्रेजी रचना (केस)",
+    "th": "6-11 ตัว  ตัวเลข + คำภาษาอังกฤษ (ตัวพิมพ์ใหญ่และตัวพิมพ์เล็ก)",
+    "vi": "Kết hợp 6-11 chữ số + chữ tiếng Anh (Chữ hoa, chữ thường)",
+    "zh-cn": "6-11个数字+英文组成 (大小写)",
+    "zh-tw": "6-11個數字+英文組成 (大小寫)"
   },
   "frontstage.rules.minWithdrawalAmount": {
     "en": "The minimum withdrawal amount is  {0}.",
@@ -11322,7 +11402,7 @@
   "frontstage.user.TppPaymentTypeEnum.Alipay": {
     "en": "Alipay",
     "hi": "Alipay",
-    "th": "Alipay",
+    "th": "อาลิเพลย์ ",
     "vi": "Alipay",
     "zh-cn": "支付宝",
     "zh-tw": "支付寶"
@@ -11330,40 +11410,40 @@
   "frontstage.user.TppPaymentTypeEnum.WeChatPay": {
     "en": "WeChat Pay",
     "hi": "WeChat Pay",
-    "th": "WeChat Pay",
-    "vi": "WeChat Pay",
+    "th": "WeChat เพลย์",
+    "vi": "Thanh toán qua WeChat",
     "zh-cn": "微信支付",
     "zh-tw": "微信支付"
   },
   "frontstage.user.TppPaymentTypeEnum.JingdongQrCode": {
     "en": "Jingdong Pay",
     "hi": "Jingdong Pay",
-    "th": "Jingdong Pay",
-    "vi": "Jingdong Pay",
+    "th": "JD เพลย์",
+    "vi": "Thanh toán qua JingDong",
     "zh-cn": "京东支付",
     "zh-tw": "京東支付"
   },
   "frontstage.user.TppPaymentTypeEnum.UnionPayQrCode": {
     "en": "UnionPay QrCode",
     "hi": "UnionPay QrCode",
-    "th": "UnionPay QrCode",
-    "vi": "UnionPay QrCode",
+    "th": "ยูเนี่ยนเพย์ ",
+    "vi": "Quẹt mã QR UnionPay",
     "zh-cn": "银联扫码",
     "zh-tw": "銀聯掃碼"
   },
   "frontstage.user.TppPaymentTypeEnum.OnlinePayment": {
     "en": "Online Payment",
     "hi": "Online Payment",
-    "th": "Online Payment",
-    "vi": "Online Payment",
+    "th": "การชำระเงินทางออนไลน์",
+    "vi": "Thanh toán trực tuyến",
     "zh-cn": "線上支付",
     "zh-tw": "線上支付"
   },
   "frontstage.user.TppPaymentTypeEnum.UnionPay": {
     "en": "Quick Pass",
     "hi": "Quick Pass",
-    "th": "Quick Pass",
-    "vi": "Quick Pass",
+    "th": "บัตรด่วน",
+    "vi": "Thanh toán nhanh",
     "zh-cn": "云闪付",
     "zh-tw": "雲閃付"
   },
@@ -12353,11 +12433,11 @@
   },
   "frontstage.user.changeRecordType.ImptToCenter": {
     "en": "",
+    "hi": "",
     "th": "",
     "vi": "",
     "zh-cn": "",
-    "zh-tw": "[IMPT]轉[中心錢包]",
-    "hi": ""
+    "zh-tw": "[IMPT]轉[中心錢包]"
   },
   "frontstage.user.gamePlatform": {
     "en": "gaming platform",

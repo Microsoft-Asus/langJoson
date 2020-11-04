@@ -25,5 +25,5 @@
   "minWithdrawalAmount": "最小提款金額 {0}",
   "maxWithdrawalAmount": "最大提款金額 {0}",
   "restDailyWithdrawalCount": "剩餘免費提款次數 {0}",
-  "account": "6-11個數字+英文組成 (無大小寫)"
+  "account": "6-11個數字+英文組成 (大小寫)"
 }

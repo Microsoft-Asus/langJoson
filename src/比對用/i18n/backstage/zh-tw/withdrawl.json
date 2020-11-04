@@ -11,5 +11,7 @@
   "allWithdrawl": "提款總額",
   "allAmount": "提款總額",
   "allPeople": "出款人數",
-  "fee": "手續費"
+  "fee": "手續費",
+  "bank": "提款銀行",
+  "state": "提款狀態"
 }

@@ -43,5 +43,9 @@
   "depositAmount": "डिपॉज़िट राशि",
   "deposits": "डिपॉज़िट राशि",
   "receiveAmount": "राशि प्राप्त करें",
-  "receivedAmount": "राशि प्राप्त करें"
+  "receivedAmount": "राशि प्राप्त करें",
+  "checkExcludePorfitAndLoss": "लाभ और हानि को छोड़कर",
+  "alertStatus": "अलर्ट की स्थिति",
+  "normalOrder": "सामान्य आदेश",
+  "exceptionOrder": "अपवाद आदेश"
 }

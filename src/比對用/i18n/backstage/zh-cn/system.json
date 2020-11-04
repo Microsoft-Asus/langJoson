@@ -111,7 +111,7 @@
     "verifyError": "验证码错误",
     "accountDisable": "帐号已停用",
     "accountFrozn": "帐号已冻结",
-    "errorFroznAccount": "密码/验证码错误并冻结此账号帐号",
+    "errorFroznAccount": "密码/验证码错误并冻结此帐号",
     "repeatLogin": "重复登入",
     "blockedIP": "登入IP已被阻挡"
   },
@@ -204,5 +204,6 @@
   "announcing": "广播中",
   "child": "子层",
   "backstage": "后台",
-  "supportPayType": "支持-支付类型"
+  "supportPayType": "支持-支付类型",
+  "promotionImageRatio": "图片比例 3:1"
 }

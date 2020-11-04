@@ -17,7 +17,7 @@
   "runningOutDailyWithdrawalTimes": "Đã không còn bất kỳ số lần rút tiền nào",
   "bankCardNumber": "Nhập số thẻ ngân hàng chính xác",
   "fundsPassword": "Mật khẩu vốn quỹ là 6 chữ số.",
-  "account": "Kết hợp 6-11 chữ số + chữ tiếng Anh (không viết hoa)",
+  "account": "Kết hợp 6-11 chữ số + chữ tiếng Anh (Chữ hoa, chữ thường)",
   "minWithdrawalAmount": "Số tiền rút nhỏ nhất {0}",
   "maxWithdrawalAmount": "Số tiền rút lớn nhất {0}.",
   "restDailyWithdrawalCount": "Số lần rút tiền miễn phí còn lại {0}.",

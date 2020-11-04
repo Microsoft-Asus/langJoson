@@ -231,15 +231,17 @@
   "searchDateRange": "खोज की परिधि : {0} {1} के भीतर",
   "countryCode": "देश का कोड",
   "languages": {
-    "en": "",
-    "zh-cn": "",
-    "zh-tw": "",
-    "th": "",
-    "vi": "",
-    "hi": ""
+    "en": "अंग्रेज़ी",
+    "zh-cn": "सरलीकृत चीनी",
+    "zh-tw": "परंपरागत चीनी",
+    "th": "थाई",
+    "vi": "वियतनामी",
+    "hi": "भारतीय"
   },
   "copy": "प्रतिलिपि",
   "replaceSuccessfully": "सफलतापूर्वक प्रतिस्थापित करें",
   "decimalPointLimit": "",
-  "unitWeek": ""
+  "unitWeek": "",
+  "pleaseEnterANumberGreaterThan": "",
+  "changeTime": "समय सुधारें"
 }

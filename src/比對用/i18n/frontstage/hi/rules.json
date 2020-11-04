@@ -22,7 +22,7 @@
   "runningOutDailyWithdrawalTimes": "इससे ज्यादा निकासियां नहीं की सकती हैं।",
   "bankCardNumber": "सही बैंक कार्ड नंबर प्रविष्ट करें",
   "fundsPassword": "फंड पासवर्ड एक 6-अंकीय संख्या है।",
-  "account": "6-11 नंबर + अंग्रेजी रचना (कोई मामला नहीं)",
+  "account": "6-11 नंबर + अंग्रेजी रचना (केस)",
   "minWithdrawalAmount": "न्यूनतम निकासी राशि {0} है।",
   "maxWithdrawalAmount": "अधिकतम निकासी राशि {0} है।",
   "restDailyWithdrawalCount": "शेष मुफ्त निकासियों की संख्या {0} है।"

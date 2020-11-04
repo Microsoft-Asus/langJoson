@@ -11,5 +11,7 @@
   "balance": "Số tiền rút",
   "allWithdrawl": "Tổng số tiền rút",
   "allAmount": "Tổng số tiền rút",
-  "fee": "Phí thực hiện"
+  "fee": "Phí thực hiện",
+  "bank": "Ngân hàng rút tiền",
+  "state": "Trạng thái rút tiền"
 }

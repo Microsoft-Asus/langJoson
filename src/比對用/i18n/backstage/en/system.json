@@ -204,5 +204,6 @@
   "child": "Child",
   "backstage": "Backstage",
   "transferSubordinate": "Transfer to the subordinate",
-  "supportPayType": "Supported payment methods"
+  "supportPayType": "Supported payment methods",
+  "promotionImageRatio": "Image ratio 3:1"
 }

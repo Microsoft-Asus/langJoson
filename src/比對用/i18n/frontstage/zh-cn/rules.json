@@ -22,7 +22,7 @@
   "runningOutDailyWithdrawalTimes": "已没有任何提款次数",
   "bankCardNumber": "输入正确银行卡号",
   "fundsPassword": "资金密码为 6 位数字",
-  "account": "6-11个数字+英文组成 (无大小写)",
+  "account": "6-11个数字+英文组成 (大小写)",
   "minWithdrawalAmount": "最小提款金额 {0}",
   "maxWithdrawalAmount": "最大提款金额 {0}",
   "restDailyWithdrawalCount": "剩馀免费提款次数 {0}"

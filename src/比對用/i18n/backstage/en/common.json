@@ -242,5 +242,6 @@
   "copy": "Copy",
   "replaceSuccessfully": "Replace successfully",
   "decimalPointLimit": "Most to {0} decimal point",
-  "pleaseEnterANumberGreaterThan": "Please enter a number greater than {0}"
+  "pleaseEnterANumberGreaterThan": "Please enter a number greater than {0}",
+  "changeTime": "Update time"
 }

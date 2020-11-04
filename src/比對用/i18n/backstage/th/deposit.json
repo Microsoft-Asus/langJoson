@@ -43,5 +43,9 @@
   "depositAmount": "ยอดเงินฝากเข้า",
   "deposits": "ยอดเงินฝากเข้า",
   "receiveAmount": "รับจำนวน",
-  "receivedAmount": "รับจำนวน"
+  "receivedAmount": "รับจำนวน",
+  "checkExcludePorfitAndLoss": "ไม่รวมกำไรและขาดทุน",
+  "alertStatus": "สถานะการแจ้งเตือน",
+  "normalOrder": "คำสั่งทั่วไป",
+  "exceptionOrder": "คำสั่งยกเว้น"
 }

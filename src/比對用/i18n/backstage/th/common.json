@@ -231,16 +231,17 @@
   "searchDateRange": "",
   "countryCode": "รหัสประเทศ",
   "languages": {
-    "en": "",
-    "zh-cn": "",
-    "zh-tw": "",
-    "th": "",
-    "vi": "",
-    "hi": ""
+    "en": "ภาษาอังกฤษ",
+    "zh-cn": "ภาษาจีนตัวย่อ",
+    "zh-tw": "จีนดั้งเดิม",
+    "th": "ไทย",
+    "vi": "เวียดนาม",
+    "hi": "อินเดีย"
   },
   "copy": "สำเนา",
   "replaceSuccessfully": "แทนที่สำเร็จ",
   "decimalPointLimit": "",
   "unitWeek": "",
-  "pleaseEnterANumberGreaterThan": ""
+  "pleaseEnterANumberGreaterThan": "",
+  "changeTime": "เวลาอัปเดต"
 }

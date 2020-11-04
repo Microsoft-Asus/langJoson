@@ -262,11 +262,11 @@
   },
   "TppPaymentTypeEnum": {
     "Alipay": "Alipay",
-    "WeChatPay": "WeChat Pay",
-    "JingdongQrCode": "Jingdong Pay",
-    "UnionPayQrCode": "UnionPay QrCode",
-    "OnlinePayment": "Online Payment",
-    "UnionPay": "Quick Pass",
+    "WeChatPay": "Thanh toán qua WeChat",
+    "JingdongQrCode": "Thanh toán qua JingDong",
+    "UnionPayQrCode": "Quẹt mã QR UnionPay",
+    "OnlinePayment": "Thanh toán trực tuyến",
+    "UnionPay": "Thanh toán nhanh",
     "BqPay": "BQPay"
   },
   "gamePlatform": "Diễn đàn trò chơi",

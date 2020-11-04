@@ -43,5 +43,9 @@
   "depositAmount": "Số tiền gửi",
   "deposits": "Số tiền gửi",
   "receiveAmount": "Nhận số tiền",
-  "receivedAmount": "Nhận số tiền"
+  "receivedAmount": "Nhận số tiền",
+  "checkExcludePorfitAndLoss": "Không bao gồm lãi và lỗ",
+  "alertStatus": "Trạng thái cảnh báo",
+  "normalOrder": "Đơn hàng chung",
+  "exceptionOrder": "Lệnh ngoại lệ"
 }

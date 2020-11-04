@@ -43,5 +43,9 @@
   "deposits": "存入金額",
   "searchTips": "常態稽核時『有效總投注』需 ≧『存入金額』，才可申請出款",
   "receiveAmount": "接收金額",
-  "receivedAmount": "到帳金額"
+  "receivedAmount": "到帳金額",
+  "checkExcludePorfitAndLoss": "排除盈虧",
+  "alertStatus": "警示狀態",
+  "normalOrder": "一般單",
+  "exceptionOrder": "異常單"
 }

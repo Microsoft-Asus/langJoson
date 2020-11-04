@@ -19,7 +19,7 @@
   "securitySetting": "Thiết lập hệ thống an toàn",
   "withdralPassword": "Mật khẩu rút tiền",
   "modifyDataTips": "Nhấn “Sửa đổi” và nhập \"Hòm thư điện tử\" mới của người sử dụng, sau đó nhấn \"Gửi đi\" để gửi thông báo nghiệm chứng.",
-  "afterModifyDataTips": "Sau khi người sử dụng thông qua nghiệm chứng, \"Hòm thư điện tử” mới sẽ hiển thị ở đây.",
+  "afterModifyDataTips": "",
   "chooseResetToPhone": "Chọn gửi thư được thiết lập lại đến điện thoại di động",
   "chooseResetToMail": "hoặc hòm thư điện tử",
   "vipTips": "Nâng cấp hạn ngạch đặt cược được tính theo hạn ngạch đặt cược có hiệu lực từ 00:00:00 ngày 01 hàng tháng đến 23:59:59 ngày cuối cùng hàng tháng theo giờ Bắc Kinh.",

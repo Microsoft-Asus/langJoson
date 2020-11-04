@@ -1,7 +1,7 @@
 {
   "message": "hello i18n !!",
-  "password": "Password",
-  "account": "Account",
+  "password": "password",
+  "account": "account",
   "login": "LogIn",
   "headerTitle": "Sitepack Backstage System",
   "AccountStateFreeze": "freeze",

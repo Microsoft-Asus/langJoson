@@ -1,0 +1,49 @@
+{
+  "register": {
+    "success": "Đăng ký thành công"
+  },
+  "sendCode": {
+    "EmailSuccess": "Đã gửi mã nghiệm chứng vào hòm thư {0}",
+    "PhoneSuccess": "Đã gửi mã nghiệm chứng vào điện thoại di động {0}",
+    "EmailPlzCheck": "Bạn đã gửi mã nghiệm chứng, xin vui lòng vào hòm thư điện tử nhận mã nghiệm chứng.",
+    "PhonePlzCheck": "Bạn đã gửi mã nghiệm chứng, xin vui lòng vào điện thoại di động nhận mã nghiệm chứng."
+  },
+  "nicknameModified": {
+    "success": "Chỉnh sửa bí danh thành công."
+  },
+  "removeBankCard": {
+    "success": "Đã xóa bỏ thẻ ngân hàng."
+  },
+  "addBankCard": {
+    "success": "Thêm thử ngân hàng thành công.",
+    "fail": ""
+  },
+  "confirmLogout": "Có chắc chắn muốn đăng xuất hay không?",
+  "withdrawalRequest": {
+    "success": "Bạn đã đăng ký rút thành công số tiền {0} tệ.",
+    "fail": "Không thể thêm đơn rút tiền."
+  },
+  "validationCodeSended": "Bạn đã gửi mã nghiệm chứng, xin vui lòng vào điện thoại di động / hòm thư điện tử nhận mã nghiệm chứng.",
+  "cannotUpdateBalance": "Không thể có được số dư.",
+  "cannotLoginMsg": "Hiện tại không thể đăng nhập, xin vui lòng xác nhận số tài khoản hoặc mật khẩu.",
+  "cannotRegisterForNow": "Hiện tại không thể đăng ký.",
+  "cannotPlayGame": "Hiện tại không thể vào trò chơi.",
+  "contract": {
+    "signingError": "Phát sinh lỗi khi ký kết Hợp đồng."
+  },
+  "removeFailed": "Xóa bỏ {0} không thành công.",
+  "removeSuccess": "Xóa bỏ {0} thành công.",
+  "addChildMemberSuccess": "Đã thêm thành công hội viên {0}.",
+  "addChildMemberFailed": "Không thể thêm hội viên mới hoặc số tài khoản đã tồn tại.",
+  "editSuccessMsg": "Sửa đổi thành công",
+  "depositByTpp": {
+    "fail": "Hiện tại không thể gửi tiền, xin vui lòng thử lại sau {0} phút"
+  },
+  "depositByBankCard": {
+    "fail": "Hiện tại không thể gửi tiền, xin vui lòng thử lại sau {0} phút"
+  },
+  "resetpasswd": {
+    "sendLinkEmailError": "",
+    "resetPasswdError": ""
+  }
+}

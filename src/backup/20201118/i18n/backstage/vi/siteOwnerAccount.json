@@ -1,0 +1,13 @@
+{
+  "currencies": {
+    "RMB": "Nhân Dân tệ (RMB)",
+    "THB": "Bạt Thái Lan (THB)",
+    "USD": "Đô-la Mỹ (USD)",
+    "IDR": "Rupiah Indonesia (IDR)",
+    "VND": "Việt Nam đồng (VND)",
+    "MYR": "Ringgit Malaysia (MYR)",
+    "PHP": "Peso Philippine (PHP)",
+    "INR": "Rupee Ấn Độ (INR)",
+    "Undefined": "Không xác định"
+  }
+}

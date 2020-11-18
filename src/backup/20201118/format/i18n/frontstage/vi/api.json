@@ -1,0 +1,20 @@
+{
+  "code": {
+    "100": "Số tài khoản hội viên tồn tại (#100)",
+    "101": "Tài khoản hoặc mật khẩu thành viên không chính xác (#101)",
+    "102": "Số tài khoản hội viên đã đăng nhập (#102)",
+    "103": "Số tài khoản hội viên đóng băng / ngừng sử dụng (#103)",
+    "104": "IP đăng nhập hội viên đã bị chặn / ngừng sử dụng (#104)",
+    "105": "Liên kết bị vô hiệu hóa (#105)",
+    "106": "Liên kết bị vô hiệu hóa (#106)",
+    "300": "Mã nghiệm chứng bị lỗi (#300)",
+    "MemberAccountOrPasswordError": "@:api.code.101",
+    "VerificationCodeError": "@:api.code.300",
+    "MemberAccountExist": "@:api.code.100",
+    "MemberAccountLoginRepeatedly": "@:api.code.102",
+    "MemberAccountFreezeOrDisable": "@:api.code.103",
+    "MemberLoginIpBlocked": "@:api.code.104",
+    "MemberAgentLinkError": "@:api.code.105",
+    "MemberDisableToCreateDirectChildMember": "@:api.code.106"
+  }
+}

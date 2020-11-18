@@ -1,0 +1,20 @@
+{
+  "code": {
+    "100": "यह अकाउंट पहले से मौजूद है (#100)",
+    "101": "गलत सदस्य खाता या पासवर्ड (#101)",
+    "102": "यह अकाउंट पहले ही लॉग्ड इन है (#102)",
+    "103": "इस अकाउंट को निष्क्रिय कर दिया गया है (#103)",
+    "104": "सदस्य की लॉगिन आईपी को अवरुद्ध/अक्षम किया गया है (#104)",
+    "105": "लिंक अक्षम है (#105)",
+    "106": "लिंक अक्षम है (#106)",
+    "300": "सत्यापन कोड गलती (#300)",
+    "MemberAccountFreezeOrDisable": "@:api.code.103",
+    "MemberAccountExist": "@:api.code.100",
+    "MemberAccountLoginRepeatedly": "@:api.code.102",
+    "VerificationCodeError": "@:api.code.300",
+    "MemberLoginIpBlocked": "@:api.code.104",
+    "MemberAccountOrPasswordError": "@:api.code.101",
+    "MemberAgentLinkError": "@:api.code.105",
+    "MemberDisableToCreateDirectChildMember": "@:api.code.106"
+  }
+}

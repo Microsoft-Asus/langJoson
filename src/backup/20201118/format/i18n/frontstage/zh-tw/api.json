@@ -1,0 +1,20 @@
+{
+  "code": {
+    "100": "會員帳號存在(#100)",
+    "101": "會員帳號或密碼錯誤 (#101)",
+    "102": "會員帳號重複登入(#102)",
+    "103": "會員帳號凍結/停用(#103)",
+    "104": "會員登入IP已被阻擋/停用(#104)",
+    "105": "代理連結失效(#105)",
+    "106": "代理連結失效(#106)",
+    "300": "驗證碼錯誤(#300)",
+    "MemberAccountExist": "@:api.code.100",
+    "MemberAccountLoginRepeatedly": "@:api.code.102",
+    "MemberAccountFreezeOrDisable": "@:api.code.103",
+    "VerificationCodeError": "@:api.code.300",
+    "MemberLoginIpBlocked": "@:api.code.104",
+    "MemberAccountOrPasswordError": "@:api.code.101",
+    "MemberAgentLinkError": "@:api.code.105",
+    "MemberDisableToCreateDirectChildMember": "@:api.code.106"
+  }
+}

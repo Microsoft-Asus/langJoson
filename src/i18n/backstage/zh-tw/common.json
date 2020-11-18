@@ -1,13 +1,13 @@
 {
   "message": "hello i18n !!",
-  "account": "帳號",
-  "password": "密碼",
+  "account": "@:common.Account",
+  "password": "@:common.Password",
   "login": "登錄",
   "headerTitle": "後台系統",
   "AccountStateWorking": "正常",
   "AccountStateFreeze": "凍結",
-  "Account": "帳號",
-  "Name": "名稱",
+  "Account": "@:common.Account",
+  "Name": "@:common.Name",
   "Role": "角色",
   "AccountState": "帳號狀態",
   "Password": "密碼",
@@ -243,5 +243,6 @@
   "replaceSuccessfully": "取代成功",
   "decimalPointLimit": "最多小數點後 {0} 位數",
   "pleaseEnterANumberGreaterThan": "請輸入大於 {0} 的數字",
-  "changeTime": "更新時間"
+  "changeTime": "更新時間",
+  "bankName": "銀行名稱"
 }

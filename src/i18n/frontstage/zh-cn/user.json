@@ -52,14 +52,14 @@
   "securitySetting": {
     "Phone": {
       "label": "手机号码",
-      "remark": "通过接收手机短信来登录账号，账户资金变动通知，并在账号有疑似异常操作时接收提示信息。",
+      "remark": "绑定手机，提高帐户的安全性。",
       "modifySuccessMsg": "重置手机成功",
       "modifyFailingMsg": "重置手机失败"
     },
     "Email": {
       "label": "邮箱",
       "modifySuccessMsg": "重置信箱成功",
-      "remark": "通过邮箱来登录账号，账户资金变动通知，并在账号有疑似异常操作时接收提示信息。",
+      "remark": "绑定邮箱，提高帐户的安全性。",
       "modifyFailingMsg": "重置邮箱失败"
     },
     "Password": {
@@ -90,7 +90,7 @@
     }
   },
   "deposit": {
-    "depositAmountRange": "单笔有效充值金额 ${min} - ${max}",
+    "depositAmountRange": "单笔充值金额 ${min} - ${max}",
     "bankcardOrderRemind": {
       "0": "该收款银行卡仅适用此次充值订单，下次充值需重新提交充值信息！",
       "1": "请登录网上银行或手机银行完成转账"

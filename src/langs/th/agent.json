@@ -1,3 +1,5 @@
 {
-  "sharingItem": "รายการที่จะปันผล"
+  "StrategyCategory": "ชื่อกลยุทธ์",
+  "SettlementCycle": "รอบบิล",
+  "SharingItem": "รายการที่จะปันผล"
 }

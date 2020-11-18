@@ -1,3 +1,5 @@
 {
-  "sharingItem": "Benefit sharing items"
+  "StrategyCategory": "Strategy Name",
+  "SettlementCycle": "Settlement interval",
+  "SharingItem": "Benefit sharing items"
 }

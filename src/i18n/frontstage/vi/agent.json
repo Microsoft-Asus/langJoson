@@ -2,12 +2,10 @@
   "column": {
     "AgentCreatedTime": "Thời gian mở tài khoản",
     "Balance": "Số dư túi tiền",
-    "MemberAccount": "Tên người sử dụng",
     "ParentMemberAccount": "Cấp trên",
     "AgentLink": {
       "CreatedTime": "Thời gian tạo thành"
     },
-    "AgentIdentityName": "Danh tính",
     "RegisterCount": "Số người đăng ký"
   },
   "common": {
@@ -59,7 +57,7 @@
   "TeamDeposit": "Nạp tiền",
   "TeamActiveMemberCount": "Số người hoạt động",
   "ActiveMemberCount": "Số người hoạt động",
-  "SettlementCycle": "Chu kỳ kết toán",
   "TeamPayoutAmount": "Số tiền thưởng được phát",
-  "TeamStrategyRebateAmount": "Số tiền thưởng đặt cược"
+  "TeamStrategyRebateAmount": "Số tiền thưởng đặt cược",
+  "StrategyCategory": "@:common.Name"
 }

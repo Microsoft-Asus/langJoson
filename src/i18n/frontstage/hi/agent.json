@@ -1,9 +1,7 @@
 {
   "column": {
     "AgentCreatedTime": "निर्मित समय",
-    "AgentIdentityName": "पहचान",
     "Balance": "बकाया",
-    "MemberAccount": "अकाउंट",
     "ParentMemberAccount": "अभिभावक",
     "AgentLink": {
       "CreatedTime": "निर्मित समय"
@@ -29,7 +27,6 @@
   "ActiveMemberCount": "सक्रिय संख्या",
   "BenefitSharingSource": "लाभ का स्रोत",
   "Proportion": "स्व अनुपात",
-  "SettlementCycle": "सेटलमेंट अंतराल",
   "SignedProportion": "हस्ताक्षर अनुपात",
   "CreateLinkTipMessage": "केवल {0} लिंक ही सबसे अधिक मात्रा में उत्पन्न किए जा सकते हैं",
   "dashboard": {
@@ -61,5 +58,6 @@
   "TeamValidBetAmount": "मान्य बेटिंग",
   "TeamDeposit": "डिपॉज़िट",
   "TeamPayoutAmount": "लॉटरी भुगतान राशि",
-  "TeamStrategyRebateAmount": "रिबेट राशि"
+  "TeamStrategyRebateAmount": "रिबेट राशि",
+  "StrategyCategory": "@:common.Name"
 }

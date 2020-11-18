@@ -1,5 +1,5 @@
 {
-  "startegyName": "ชื่อกลยุทธ์",
+  "startegyName": "@:agent.StrategyCategory",
   "interfaceSetting": "การตั้งค่าอินเทอร์เฟซ",
   "identitySetting": "การตั้งค่าข้อมูลส่วนตัว",
   "settleHour": "ชำระรายชั่วโมง",
@@ -42,16 +42,20 @@
   "proportion": "สัดส่วน",
   "percent": "สัดส่วน",
   "dispatchAmount": "จำนวนเงินที่แจกจ่าย",
-  "identity": "สถานะ",
+  "identity": "@:common.Identity",
   "dispatched": "แจกจ่ายแล้ว",
   "settleMiniDay": "วัน",
   "settleMiniQuarter": "ฤดูกาล",
   "settleMiniMonth": "เดือน",
   "settleMiniHalfMonth": "ครึ่งเดือน",
-  "sharingItem": "@:agent.sharingItem",
+  "sharingItem": "@:agent.SharingItem",
   "BetAviliable": "การเดิมพันที่ถูกต้อง",
   "WinLose": "กำไรขาดทุน  (บัญชีมีความสมดุล)",
   "Lose": "กำไรขาดทุน  (บัญชีไม่สมดุล)",
   "Deposit": "เติมเงิน",
-  "Member": "สมาชิก"
+  "Member": "สมาชิก",
+  "idSortSwitch": "สวิตช์เรียงลำดับการตั้งค่าข้อมูลประจำตัว",
+  "moveIdSettingTips": "การตั้งค่าข้อมูลประจำตัวมือถือจะส่งผลต่อการเป็นสมาชิก",
+  "signingTime": "เวลาลงนาม",
+  "EditBenefitSharingSettingTips": "Are you sure you want to change the conditions of the profit sharing setting? The contract has been signed and will not be updated simultaneously. Please check or reset in the OrganizationTreeSearch."
 }

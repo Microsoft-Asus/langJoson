@@ -25,5 +25,9 @@
   "yesterday": "昨日",
   "WeChat": "微信",
   "confirm": "確定",
-  "today": "今日"
+  "today": "今日",
+  "Name": "名稱",
+  "Account": "帳號",
+  "Password": "密碼",
+  "Identity": "身份"
 }

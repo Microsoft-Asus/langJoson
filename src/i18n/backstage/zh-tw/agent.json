@@ -1,6 +1,6 @@
 {
-  "startegyName": "策略名稱",
-  "sharingItem": "@:agent.sharingItem",
+  "startegyName": "@:agent.StrategyCategory",
+  "sharingItem": "@:agent.SharingItem",
   "BetAviliable": "有效投注",
   "WinLose": "負盈利(平帳)",
   "Lose": "負盈利(不平帳)",
@@ -35,7 +35,7 @@
   "dispatchAmount": "發放金額",
   "dispatchDateTime": "派發時間",
   "dispatchState": "派發狀態",
-  "identity": "身份",
+  "identity": "@:common.Identity",
   "sufficient": "滿足",
   "notSufficient": "不足",
   "dispatched": "已派發",
@@ -53,5 +53,12 @@
   "ifNotSetting": "若不設置，金額派發後無需流水即可申請出款。",
   "pleaseInputBiggerThanPreVal": "請輸入大於前一筆的數值",
   "decimalPointLimit": "最多小數點後二位數",
-  "deleteThisStrategy": "刪除該策略"
+  "deleteThisStrategy": "刪除該策略",
+  "idSortSwitch": "身份設置排序開關",
+  "moveIdSettingTips": "移動身份設置會影響會員身份",
+  "signingTime": "簽約時間",
+  "backstage": {
+    "EditBenefitSharingSettingTips": "確定要異動 分潤設定條件 嗎 ? 已簽訂契約不進行同步更新，請至組織體系查詢或重置。"
+  },
+  "EditBenefitSharingSettingTips": "確定要異動 分潤設定條件 嗎 ? 已簽訂契約不進行同步更新，請至組織體系查詢或重置。"
 }

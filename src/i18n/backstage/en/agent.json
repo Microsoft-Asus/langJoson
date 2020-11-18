@@ -1,5 +1,5 @@
 {
-  "startegyName": "Strategy Name",
+  "startegyName": "@:agent.StrategyCategory",
   "interfaceSetting": "Interface Setting",
   "identitySetting": "Identity Setting",
   "settleHour": "Settle Hourly",
@@ -21,7 +21,7 @@
   "dispatchAmount": "Amount given away",
   "dispatchDateTime": "Dispatch date time",
   "dispatchState": "Dispatch state",
-  "identity": "Identity",
+  "identity": "@:common.Identity",
   "sufficient": "Sufficient",
   "notSufficient": "Not sufficient",
   "dispatched": "Distributed",
@@ -41,7 +41,7 @@
   "pleaseInputBiggerThanPreVal": "Please input bigger than previous value",
   "decimalPointLimit": "Most to two decimal point",
   "deleteThisStrategy": "Delete this strategy",
-  "sharingItem": "@:agent.sharingItem",
+  "sharingItem": "@:agent.SharingItem",
   "BetAviliable": "Valid betting",
   "WinLose": "Negative carry (balanced)",
   "Lose": "Negative carry (unbalanced)",
@@ -53,5 +53,9 @@
   "all": "All",
   "parentAgent": "Parent agent",
   "changeToAgentHint": "Change to agent hint",
-  "changeToAgent": "Change to agent"
+  "changeToAgent": "Change to agent",
+  "idSortSwitch": "Identity setting sort switch",
+  "moveIdSettingTips": "Mobile identity settings will affect membership",
+  "signingTime": "Signing time",
+  "EditBenefitSharingSettingTips": "Are you sure you want to change the conditions of the profit sharing setting? The contract has been signed and will not be updated simultaneously. Please check or reset in the OrganizationTreeSearch."
 }

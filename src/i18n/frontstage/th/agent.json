@@ -2,12 +2,10 @@
   "column": {
     "AgentCreatedTime": "เวลาเปิดบัญชี",
     "Balance": "ยอดคงเหลือใน Wallet",
-    "MemberAccount": "ชื่อผู้ใช้",
     "ParentMemberAccount": "เป็นเจ้าของที่เหนือกว่า",
     "AgentLink": {
       "CreatedTime": "เวลาที่สร้าง"
     },
-    "AgentIdentityName": "สถานะ",
     "RegisterCount": "จำนวนคนที่ลงทะเบียน"
   },
   "common": {
@@ -59,7 +57,7 @@
   "TeamDeposit": "เติมเงิน",
   "TeamActiveMemberCount": "จำนวนคนที่ใช้งาน",
   "ActiveMemberCount": "จำนวนคนที่ใช้งาน",
-  "SettlementCycle": "รอบบิล",
   "TeamPayoutAmount": "จำนวนเงินปันผล",
-  "TeamStrategyRebateAmount": "ยอดส่วนลด"
+  "TeamStrategyRebateAmount": "ยอดส่วนลด",
+  "StrategyCategory": "@:common.Name"
 }

@@ -25,5 +25,9 @@
   "yesterday": "yesterday",
   "WeChat": "WeChat",
   "confirm": "Confirm",
-  "today": "Today"
+  "today": "Today",
+  "Name": "name",
+  "Account": "account",
+  "Password": "password",
+  "Identity": "Identity"
 }

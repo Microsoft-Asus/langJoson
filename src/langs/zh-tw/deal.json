@@ -72,5 +72,34 @@
     "BqPay": "BQPay",
     "bankCard": "银行卡"
   },
-  "bankAcconutName": "銀行戶名"
+  "bankAcconutName": "銀行戶名",
+  "walletAuditLowerLimit": "遊戲有效投注",
+  "transCategoryEnum": {
+    "0": "@:deal.transCategoryEnum.Undefined",
+    "1": "@:deal.transCategoryEnum.BalanceUpdate",
+    "2": "@:deal.transCategoryEnum.Promotions",
+    "3": "@:deal.transCategoryEnum.StrategyRebate",
+    "4": "@:deal.transCategoryEnum.StrategyWage",
+    "5": "@:deal.transCategoryEnum.StrategyDividend",
+    "6": "@:deal.transCategoryEnum.StrategyDepositBonus",
+    "7": "@:deal.transCategoryEnum.StrategyCommission",
+    "8": "@:deal.transCategoryEnum.StrategyOther",
+    "9": "@:deal.transCategoryEnum.ParentDeposit",
+    "10": "@:deal.transCategoryEnum.ChildDeposit",
+    "11": "@:deal.transCategoryEnum.WithdrawalFee",
+    "12": "@:deal.transCategoryEnum.DepositFee",
+    "Undefined": "未定義",
+    "BalanceUpdate": "資金修正",
+    "Promotions": "活動優惠",
+    "StrategyRebate": "策略/契約-返水",
+    "StrategyWage": "策略/契約-工資",
+    "StrategyDividend": "策略/契約-分紅",
+    "StrategyDepositBonus": "策略/契約-充值獎勵",
+    "StrategyCommission": "策略/契約-傭金",
+    "StrategyOther": "策略/契約-其他",
+    "ParentDeposit": "上級充值",
+    "ChildDeposit": "下級充值",
+    "WithdrawalFee": "出款手續費",
+    "DepositFee": "入款手續費"
+  }
 }

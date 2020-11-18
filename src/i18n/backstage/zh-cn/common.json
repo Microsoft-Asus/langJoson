@@ -1,13 +1,13 @@
 {
   "message": "hello i18n !!",
-  "account": "帐户",
-  "password": "密码",
+  "account": "@:common.Account",
+  "password": "@:common.Password",
   "login": "登录",
   "headerTitle": "后台系统",
   "AccountStateFreeze": "冻结",
   "AccountStateWorking": "正常",
-  "Account": "帐户",
-  "Name": "名称",
+  "Account": "@:common.Account",
+  "Name": "@:common.Name",
   "Role": "角色",
   "AccountState": "帐号状态",
   "ConfirmPassword": "确认密码",
@@ -228,7 +228,7 @@
   "block": "区块",
   "list": "列表",
   "default": "预设",
-  "searchDateRange": "搜寻范围: {0}{1} 内",
+  "searchDateRange": "搜寻范围: {0}{1}内",
   "unitWeek": "周",
   "countryCode": "国码",
   "languages": {
@@ -243,5 +243,6 @@
   "replaceSuccessfully": "取代成功",
   "decimalPointLimit": "最多小数点后 {0} 位数",
   "pleaseEnterANumberGreaterThan": "请输入大于 {0} 的数字",
-  "changeTime": "更新时间"
+  "changeTime": "更新时间",
+  "bankName": "银行名称"
 }

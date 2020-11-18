@@ -1,13 +1,13 @@
 {
   "message": "hello i18n !!",
-  "password": "Password",
-  "account": "Account",
+  "password": "@:common.Password",
+  "account": "@:common.Account",
   "login": "LogIn",
   "headerTitle": "Sitepack Backstage System",
   "AccountStateFreeze": "freeze",
   "AccountStateWorking": "normal",
-  "Account": "account",
-  "Name": "name",
+  "Account": "@:common.Account",
+  "Name": "@:common.Name",
   "Role": "Role",
   "AccountState": "Account status",
   "ConfirmPassword": "confirm password",
@@ -243,5 +243,6 @@
   "replaceSuccessfully": "Replace successfully",
   "decimalPointLimit": "Most to {0} decimal point",
   "pleaseEnterANumberGreaterThan": "Please enter a number greater than {0}",
-  "changeTime": "Update time"
+  "changeTime": "Update time",
+  "bankName": "Bank name"
 }

@@ -1,5 +1,5 @@
 {
-  "startegyName": "Tên gọi sách lược",
+  "startegyName": "@:agent.StrategyCategory",
   "interfaceSetting": "Thiết lập giao diện",
   "identitySetting": "Thiết lập danh tính",
   "settleHour": "Kết toán mỗi giờ một lần",
@@ -42,16 +42,20 @@
   "proportion": "Tỷ lệ",
   "percent": "Tỷ lệ",
   "dispatchAmount": "Số tiền thưởng được phát",
-  "identity": "Danh tính",
+  "identity": "@:common.Identity",
   "dispatched": "Đã phát tiền thưởng",
   "settleMiniDay": "Ngày",
   "settleMiniQuarter": "Quý",
   "settleMiniMonth": "Tháng",
   "settleMiniHalfMonth": "Nửa tháng",
-  "sharingItem": "@:agent.sharingItem",
+  "sharingItem": "@:agent.SharingItem",
   "BetAviliable": "Đặt cược có hiệu lực",
   "WinLose": "Lãi âm (tài khoản cân đối)",
   "Lose": "Lãi âm (tài khoản không cân đối)",
   "Deposit": "Nạp tiền",
-  "Member": "Hội viên"
+  "Member": "Hội viên",
+  "idSortSwitch": "Công tắc sắp xếp cài đặt danh tính",
+  "moveIdSettingTips": "Cài đặt danh tính di động sẽ ảnh hưởng đến tư cách thành viên",
+  "signingTime": "Thời gian ký kết",
+  "EditBenefitSharingSettingTips": "Are you sure you want to change the conditions of the profit sharing setting? The contract has been signed and will not be updated simultaneously. Please check or reset in the OrganizationTreeSearch."
 }

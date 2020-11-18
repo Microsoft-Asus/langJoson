@@ -1,7 +1,7 @@
 {
   "dashboard": "Dashboard",
   "SiteOwnerAccount": "Merchant account management",
-  "home": "Home",
+  "Home": "Home",
   "MemberManage": "Member management",
   "ProfitReport": "Profit and loss list",
   "SiteOwnerSettleReport": "Merchant settlement record",
@@ -14,7 +14,6 @@
   "MenuEditing": "Directory management",
   "SystemManage": "system management",
   "Dashboard": "Dashboard",
-  "Home": "@:menu.Home",
   "ManagerAccount": "Manager account",
   "WebsiteManage": "Website management",
   "WebsiteSetting": "System settings",

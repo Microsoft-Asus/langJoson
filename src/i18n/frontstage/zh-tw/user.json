@@ -52,13 +52,13 @@
   "securitySetting": {
     "Phone": {
       "label": "手機號碼",
-      "remark": "通過接收手機短信來登錄帳號，帳戶資金變動通知，並在帳號有疑似異常操作時接收提示信息。",
+      "remark": "綁定手機，提高帳戶的安全性。",
       "modifySuccessMsg": "重置手機成功",
       "modifyFailingMsg": "重置手機失敗"
     },
     "Email": {
       "label": "郵箱",
-      "remark": "通過郵箱來登錄帳號，帳戶資金變動通知，並在帳號有疑似異常操作時接收提示信息。",
+      "remark": "綁定郵箱，提高帳戶的安全性。",
       "modifySuccessMsg": "重置信箱成功",
       "modifyFailingMsg": "重置郵箱失敗"
     },
@@ -184,7 +184,8 @@
       "TransNumber": "單號",
       "CreatedTime": "變動日期",
       "DiffBalance": "交易金額",
-      "AfterBalance": "交易餘額"
+      "AfterBalance": "交易餘額",
+      "TotalTransCategory": "交易類型"
     }
   },
   "changeRecordType": {

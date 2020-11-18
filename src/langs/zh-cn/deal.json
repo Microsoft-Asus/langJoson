@@ -72,5 +72,6 @@
   "centerToVr": "Center to VR",
   "vrToCenter": "VR to Center",
   "centerToWm": "Center to WM",
-  "wmToCenter": "WM to Center"
+  "wmToCenter": "WM to Center",
+  "walletAuditLowerLimit": "游戏有效投注"
 }

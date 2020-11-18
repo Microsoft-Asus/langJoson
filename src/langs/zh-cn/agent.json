@@ -1,3 +1,5 @@
 {
-  "sharingItem": "分润项目"
+  "StrategyCategory": "策略名称",
+  "SettlementCycle": "结算周期",
+  "SharingItem": "分润项目"
 }

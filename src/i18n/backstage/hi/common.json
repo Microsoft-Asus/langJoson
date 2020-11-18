@@ -2,7 +2,7 @@
   "message": "हैलो i18n !!",
   "headerTitle": "साइटपैक बैकस्टेज सिस्टम",
   "AccountStateWorking": "सामान्य",
-  "Name": "नाम",
+  "Name": "@:common.Name",
   "Role": "भूमिका",
   "AccountState": "खाता स्थिति",
   "ConfirmPassword": "पासवर्ड की पुष्टि कीजिये",
@@ -166,10 +166,10 @@
   "list": "सूची",
   "WeChat": "@:common.WeChat",
   "day": "दिन",
-  "password": "पासवर्ड",
+  "password": "@:common.Password",
   "Password": "पासवर्ड",
-  "account": "खाता",
-  "Account": "खाता",
+  "account": "@:common.Account",
+  "Account": "@:common.Account",
   "Username": "खाता",
   "username": "खाता",
   "login": "लॉग-इन करें",
@@ -243,5 +243,6 @@
   "decimalPointLimit": "",
   "unitWeek": "",
   "pleaseEnterANumberGreaterThan": "",
-  "changeTime": "समय सुधारें"
+  "changeTime": "समय सुधारें",
+  "bankName": "बैंक का नाम"
 }

@@ -2,7 +2,7 @@
   "message": "hello i18n !!",
   "headerTitle": "ระบบแบ็กเอนด์",
   "AccountStateWorking": "ปกติ",
-  "Name": "ชื่อ",
+  "Name": "@:common.Name",
   "Role": "บทบาท",
   "AccountState": "สถานะบัญชี",
   "ConfirmPassword": "ยืนยันรหัสผ่าน",
@@ -166,10 +166,10 @@
   "list": "รายการ",
   "WeChat": "@:common.WeChat",
   "day": "วัน",
-  "password": "รหัสผ่าน",
+  "password": "@:common.Password",
   "Password": "รหัสผ่าน",
-  "account": "บัญชีผู้ใช้",
-  "Account": "บัญชีผู้ใช้",
+  "account": "@:common.Account",
+  "Account": "@:common.Account",
   "Username": "บัญชีผู้ใช้",
   "username": "บัญชีผู้ใช้",
   "login": "เข้าสู่ระบบ",
@@ -243,5 +243,6 @@
   "decimalPointLimit": "",
   "unitWeek": "",
   "pleaseEnterANumberGreaterThan": "",
-  "changeTime": "เวลาอัปเดต"
+  "changeTime": "เวลาอัปเดต",
+  "bankName": "ชื่อธนาคาร"
 }

@@ -2,7 +2,7 @@
   "message": "hello i18n !!",
   "headerTitle": "Hệ thống sàn sau",
   "AccountStateWorking": "Bình thường",
-  "Name": "Tên gọi",
+  "Name": "@:common.Name",
   "Role": "Vai trò",
   "AccountState": "Trạng thái số tài khoản",
   "ConfirmPassword": "Xác nhận mật khẩu",
@@ -166,10 +166,10 @@
   "list": "Bảng liệt kê",
   "WeChat": "@:common.WeChat",
   "day": "Ngày",
-  "password": "Mật khẩu",
+  "password": "@:common.Password",
   "Password": "Mật khẩu",
-  "account": "Số tài khoản",
-  "Account": "Số tài khoản",
+  "account": "@:common.Account",
+  "Account": "@:common.Account",
   "Username": "Số tài khoản",
   "username": "Số tài khoản",
   "login": "Đăng nhập",
@@ -243,5 +243,6 @@
   "decimalPointLimit": "",
   "unitWeek": "",
   "pleaseEnterANumberGreaterThan": "",
-  "changeTime": "Cập nhật thời gian"
+  "changeTime": "Cập nhật thời gian",
+  "bankName": "tên ngân hàng"
 }

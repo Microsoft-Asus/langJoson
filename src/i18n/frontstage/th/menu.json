@@ -41,5 +41,6 @@
   "AgentTxRecord": "บันทึกการซื้อขาย",
   "AgentBetRecord": "การเดิมพันของทีม",
   "AgentTxWithdrawalRecord": "การถอนของทีม",
-  "ResetPasswd": ""
+  "ResetPasswd": "",
+  "Home": "หน้าหลัก"
 }

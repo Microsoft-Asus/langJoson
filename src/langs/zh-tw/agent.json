@@ -1,3 +1,5 @@
 {
-  "sharingItem": "分潤項目"
+  "StrategyCategory": "策略名稱",
+  "SettlementCycle": "結算週期",
+  "SharingItem": "分潤項目"
 }

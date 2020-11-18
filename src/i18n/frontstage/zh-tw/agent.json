@@ -1,7 +1,5 @@
 {
   "column": {
-    "MemberAccount": "用戶名",
-    "AgentIdentityName": "身份",
     "ParentMemberAccount": "所屬上級",
     "Balance": "錢包餘額",
     "AgentCreatedTime": "開戶時間",
@@ -29,7 +27,6 @@
   "addAccountByLink": "鏈結開戶",
   "linksMangement": "鏈結管理",
   "turnToAgent": "轉為代理",
-  "SettlementCycle": "結算週期",
   "BenefitSharingSource": "分潤來源",
   "contract": {
     "MemberAccount": "簽約帳號"
@@ -61,5 +58,6 @@
   "ContractProportion": "合約比例",
   "ContractReportAmount": "發放金額",
   "BetInfo": "投注資訊",
-  "BetTaget": "遊戲分類/平台"
+  "BetTaget": "遊戲分類/平台",
+  "StrategyCategory": "@:common.Name"
 }

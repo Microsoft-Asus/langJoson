@@ -41,5 +41,6 @@
   "AgentTxRecord": "Ghi chép giao dịch",
   "AgentBetRecord": "Đặt cược nhóm",
   "AgentTxWithdrawalRecord": "Rút tiền nhóm",
-  "ResetPasswd": ""
+  "ResetPasswd": "",
+  "Home": "Trang chủ"
 }

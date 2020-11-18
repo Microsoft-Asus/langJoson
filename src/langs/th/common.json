@@ -25,5 +25,9 @@
   "yesterday": "เมื่อวานนี้",
   "WeChat": "WeChat",
   "confirm": "ยืนยัน",
-  "today": "วันนี้"
+  "today": "วันนี้",
+  "Name": "ชื่อ",
+  "Account": "บัญชีผู้ใช้",
+  "Password": "รหัสผ่าน",
+  "Identity": "สถานะ"
 }

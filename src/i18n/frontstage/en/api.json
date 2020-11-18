@@ -1,19 +1,20 @@
 {
   "code": {
-    "100": "This account already exists",
-    "101": "This account doesn't exist",
-    "102": "This account is already logged in",
-    "103": "This account has been deactivated",
-    "104": "Member login IP has been blocked / disabled",
-    "105": "Broken proxy link",
-    "300": "verification code error",
-    "MemberAccountFreezeOrDisable": "This account has been deactivated",
-    "MemberAccountExist": "This account already exists",
-    "MemberAccountLoginRepeatedly": "This account is already logged in",
-    "VerificationCodeError": "verification code error",
-    "MemberLoginIpBlocked": "Member login IP has been blocked / disabled",
-    "MemberAccountOrPasswordError": "Member account or password is wrong",
-    "MemberAccountNotExist": "This account doesn't exist",
-    "MemberAgentLinkError": "@:api.code.105"
+    "100": "This account already exists (#100)",
+    "101": "Incorrect member account or password (#101)",
+    "102": "This account is already logged in (#102)",
+    "103": "This account has been deactivated (#103)",
+    "104": "Member login IP has been blocked / disabled (#104)",
+    "105": "Link is disabled (#105)",
+    "106": "Link is disabled (#106)",
+    "300": "verification code error (#300)",
+    "MemberAccountFreezeOrDisable": "@:api.code.103",
+    "MemberAccountExist": "@:api.code.100",
+    "MemberAccountLoginRepeatedly": "@:api.code.102",
+    "VerificationCodeError": "@:api.code.300",
+    "MemberLoginIpBlocked": "@:api.code.104",
+    "MemberAccountOrPasswordError": "@:api.code.101",
+    "MemberAgentLinkError": "@:api.code.105",
+    "MemberDisableToCreateDirectChildMember": "@:api.code.106"
   }
 }

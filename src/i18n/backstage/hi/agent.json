@@ -1,5 +1,5 @@
 {
-  "startegyName": "रणनीति का नाम",
+  "startegyName": "@:agent.StrategyCategory",
   "interfaceSetting": "इंटरफ़ेस सेटिंग",
   "identitySetting": "पहचान सेटिंग",
   "settleHour": "हर घंटे सेटल करें",
@@ -42,16 +42,20 @@
   "proportion": "प्रतिशत",
   "percent": "प्रतिशत",
   "dispatchAmount": "दी गई राशि",
-  "identity": "पहचान",
+  "identity": "@:common.Identity",
   "dispatched": "वितरित",
   "settleMiniDay": "दिन",
   "settleMiniQuarter": "मौसम",
   "settleMiniMonth": "महीना",
   "settleMiniHalfMonth": "आधा महीना",
-  "sharingItem": "@:agent.sharingItem",
+  "sharingItem": "@:agent.SharingItem",
   "BetAviliable": "मान्य बेटिंग",
   "WinLose": "नकारात्मक वहन  (संतुलित)",
   "Lose": "नकारात्मक वहन(असंतुलित)",
   "Deposit": "डिपॉज़िट",
-  "Member": "सदस्य"
+  "Member": "सदस्य",
+  "idSortSwitch": "पहचान सेटिंग सॉर्ट स्विच",
+  "moveIdSettingTips": "मोबाइल पहचान सेटिंग्स सदस्यता को प्रभावित करेंगी",
+  "signingTime": "समय पर हस्ताक्षर करना",
+  "EditBenefitSharingSettingTips": "Are you sure you want to change the conditions of the profit sharing setting? The contract has been signed and will not be updated simultaneously. Please check or reset in the OrganizationTreeSearch."
 }
